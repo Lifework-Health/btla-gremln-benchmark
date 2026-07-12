@@ -1,0 +1,51 @@
+# Configuration for the BTLA GREmLN-vs-GENIE3 benchmark.
+# Paths are RELATIVE to the repository root so the notebooks contain no absolute local paths.
+# Large / restricted inputs are referenced via data/manifests/*.csv (filename + sha256 + dims);
+# see data/README.md for how to obtain them.
+
+seed: 42
+
+panel:
+  name: BTLA_TCR_vs_TCR
+  timepoint: "4h"
+  n_expected_degs: 249
+  padj_threshold: 0.05
+  abs_log2fc_threshold: 0.585   # log2(1.5)
+
+genie3:
+  n_hvg: 4000
+  normalisation: "CPM(1e6) -> log1p"
+  batch_correction: "ComBat on donor_id (masked graph)"
+  n_edges_persisted: 50000
+  tf_list: "resources/human_tfs_pySCENIC.txt"
+
+gremln:
+  checkpoint: "third_party/GREmLN/checkpoints/model.ckpt"   # not committed; see data/README.md
+  checkpoint_md5: "6e57cecf494365214b379118091bfc9f"
+  expression_input: "pre-ComBat log1p-CPM (same 50k cells; tokenizer needs rank/zero structure)"
+  prior_graph: "masked CD4 GENIE3 50k-edge graph"
+  inference: "single-cell gene embeddings; batch_size=256; max_seq_length=2048; only_expressed_genes=True; only_network_genes=True; with_edge_weights=False"
+  embedding_dim: 512
+
+scoring:
+  gremln: "CSLS (k=10) top-100 neighbour BTLA-seed count; dense rank"
+  genie3: "summed outgoing TF->BTLA-DEG edge weight; dense rank"
+  primary_comparison: "seed_excluded"      # candidate regulators (panel genes removed)
+  context_comparison: "seed_inclusive"     # biological context (panel genes flagged)
+
+crispri:
+  arm_primary: "Stim8hr"
+  arms_sensitivity: ["Stim48hr", "Stim8hr_union_Stim48hr"]
+  custom_target_response_padj: 0.05
+  ontarget_flag: "CZI Perturb-seq ontarget_significant (dataset-provided)"
+
+decision_rule:
+  # Specified for the definitive comparison. Not asserted as timestamped-pre-registered.
+  crispri_margin: 0.02
+  description: >
+    A model is declared superior only if it wins CRISPRi by >= crispri_margin on mean
+    functional target-response fraction AND has >= as many usable_supportive TFs AND carries
+    >= corroborating Paperclip + multi-omics support. Held-out recovery is NOT part of the rule.
+
+held_out_recovery:
+  status: "SUPPLEMENTARY ONLY — pending leakage/asymmetry audit; excluded from the main verdict"

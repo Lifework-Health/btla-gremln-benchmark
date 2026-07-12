@@ -1,0 +1,3 @@
+[submodule "third_party/GREmLN"]
+	path = third_party/GREmLN
+	url = https://github.com/czi-ai/GREmLN.git

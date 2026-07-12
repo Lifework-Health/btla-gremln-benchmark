@@ -1,0 +1,33 @@
+name: btla-gremln-benchmark
+# Conda environment for the BTLA GREmLN-vs-GENIE3 benchmark.
+# GPU is only required for notebook 02 (GREmLN inference). Notebooks 01 and 03 run on CPU.
+# For an exact pin of the environment used to produce the released outputs, see
+# requirements-lock.txt (pip freeze of the authors' `gremln_env`).
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - pip
+  - numpy=2.3.*
+  - pandas=2.3.*
+  - scipy=1.16.*
+  - statsmodels=0.14.*
+  - scikit-learn=1.8.*
+  - h5py=3.15.*
+  - matplotlib=3.10.*
+  - anndata=0.12.*
+  - scanpy=1.12.*
+  - pyyaml
+  - jupyter
+  - nbformat=5.10.*
+  - nbconvert=7.*
+  - ipykernel
+  - pip:
+      - einops==0.8.2            # required by GREmLN (third_party/GREmLN)
+      - matplotlib-venn==1.1.*   # optional; overlap figure falls back to text if absent
+      # GPU PyTorch (notebook 02 only). Install the build matching your CUDA:
+      #   pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+      - torch==2.4.1
+      # SCENIC sensitivity analysis in notebook 01:
+      - pyscenic==0.12.1

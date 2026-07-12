@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+
+# ---- OS / editor ----
+.DS_Store
+.cursor/
+.idea/
+.vscode/
+
+# ---- Large / restricted data (never commit) ----
+# Raw single-cell matrices, checkpoints, embeddings, large intermediates.
+*.h5ad
+*.ckpt
+*.pt
+*.npz
+*.npy
+data/raw/
+data/derived/*.h5ad
+results/**/embeddings/
+
+# ---- BTLA source data (access-restricted; publication permission pending) ----
+# Do NOT commit BTLA transcriptomic/multi-omic source or restricted derived files.
+data/btla_source/
+**/btla_source*
+
+# ---- logs / scratch ----
+logs/
+*.log
+tmp/

@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "btla-gremln-benchmark: Benchmarking GREmLN against GENIE3 for BTLA-response transcription-factor prioritisation using orthogonal CRISPRi validation"
+version: 1.0.0-report-draft
+date-released: "2026-07-12"
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+# TODO: complete author list and affiliations before public release.
+abstract: >
+  A transparency-first benchmark comparing the graph-aware single-cell foundation model
+  GREmLN (supplied with a masked CD4 GENIE3 regulatory prior) against that same masked-raw
+  GENIE3 graph for prioritising the transcription-factor regulators of the BTLA cross-linking
+  response in human CD4+ T cells, using orthogonal CD4 CRISPRi Perturb-seq perturbational
+  validation, literature review, and multi-omics annotation.
+keywords:
+  - BTLA
+  - T cells
+  - gene regulatory networks
+  - GENIE3
+  - GREmLN
+  - foundation model
+  - CRISPRi Perturb-seq
+license: MIT
+references:
+  - type: article
+    title: "GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model"
+    authors:
+      - family-names: Zhang
+        given-names: Mingxuan
+      - family-names: Califano
+        given-names: Andrea
+    year: 2025
+    doi: 10.1101/2025.07.03.663009
+  - type: article
+    title: "Inferring regulatory networks from expression data using tree-based methods (GENIE3)"
+    authors:
+      - family-names: Huynh-Thu
+        given-names: "Vân Anh"
+    year: 2010
+    journal: "PLoS ONE"
+  - type: conference-paper
+    title: "Word translation without parallel data (CSLS)"
+    authors:
+      - family-names: Conneau
+        given-names: Alexis
+      - family-names: Lample
+        given-names: Guillaume
+    year: 2018
+    collection-title: "ICLR"
