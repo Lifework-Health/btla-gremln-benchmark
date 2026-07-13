@@ -161,9 +161,13 @@ def genie3_ranking(exclude_seeds):
     st = edges[edges["target"].isin(seeds)]
     inc = (st.groupby("regulator")["weight"].agg(n_seed_targets="count", genie3_score="sum")
              .reset_index().rename(columns={"regulator": "gene"}))
-    inc = inc[inc["gene"].isin(common)].copy()
-    if exclude_seeds:
-        inc = inc[~inc["gene"].isin(seeds)].copy()
+    # Rank over the FULL common universe: common TFs with no outgoing edge into the BTLA seed panel
+    # score 0 and tie at the bottom, mirroring GREmLN which scores every common TF (incl. zero CSLS).
+    # This keeps both models on an identical candidate pool for overlap/rank-correlation.
+    universe = sorted(common - set(seeds)) if exclude_seeds else sorted(common)
+    inc = pd.DataFrame({"gene": universe}).merge(inc, on="gene", how="left")
+    inc["n_seed_targets"] = inc["n_seed_targets"].fillna(0).astype(int)
+    inc["genie3_score"] = inc["genie3_score"].fillna(0.0)
     inc = inc.sort_values("genie3_score", ascending=False).reset_index(drop=True)
     inc["genie3_rank"] = rankdata(-inc["genie3_score"], method="dense").astype(int)
     inc["is_BTLA_vs_TCR_seed"] = inc["gene"].isin(seeds)
@@ -238,7 +242,13 @@ def crispri_validation(union_by_model, de_stats_path):
         tfn = de_obs.loc[ri, "target_contrast_gene_name"].astype(str).values
         ot = de_obs.loc[ri, "ontarget_significant"].values
         nc = de_obs.loc[ri, "n_cells_target"].values if "n_cells_target" in de_obs else np.full(len(ri), np.nan)
-        return adjp, logfc, ot, nc, {t: i for i, t in enumerate(tfn)}
+        # Deterministic one-row-per-TF map: if a TF has multiple rows for this condition, prefer an
+        # on-target-significant row (QC-passing), else keep the earliest index. Avoids silent last-wins.
+        pmap = {}
+        for i, t in enumerate(tfn):
+            if t not in pmap or (not bool(ot[pmap[t]]) and bool(ot[i])):
+                pmap[t] = i
+        return adjp, logfc, ot, nc, pmap
     a8, l8, o8, c8, p8 = arm(STIM_PRIMARY); a48, l48, o48, _, p48 = arm(STIM_SENS)
     def de_info(pmap, adjp, tf):
         if tf not in pmap: return None
