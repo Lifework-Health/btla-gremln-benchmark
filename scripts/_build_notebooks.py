@@ -78,7 +78,7 @@ import yaml
 CFG = yaml.safe_load((bu.repo_root() / "config" / "benchmark_config.yaml").read_text())
 # ---- locked parameters (must match notebooks 01/02) ----
 CSLS_K, TOPN = 10, 100
-DE_PADJ, LFC_MIN = 0.05, float(np.log2(1.5))
+DE_PADJ = 0.05                 # CRISPRi knockdown target-response threshold (adj p only)
 STIM_PRIMARY, STIM_SENS = "Stim8hr", "Stim48hr"
 RANDOM_SEED = 42
 CRISPRI_MARGIN = CFG["decision_rule"]["crispri_margin"]   # decision-rule margin (from config)
@@ -435,9 +435,10 @@ d_mean = gr_s["mean_frac_8hr"] - g3_s["mean_frac_8hr"]
 # strong/moderate Paperclip literature + independent orthogonal multi-omics (protein/PTM/coIP).
 indep_support = set(integ.loc[integ.get("independent_orthogonal_support", False) == True, "TF"]) \\
     if "independent_orthogonal_support" in integ.columns else set()
+corrob_support = strong_mod | indep_support      # union: a TF with both counts once
 corrob = {
-    "GREmLN": len(gr_only & strong_mod) + len(gr_only & indep_support),
-    "GENIE3": len(g3_only & strong_mod) + len(g3_only & indep_support),
+    "GREmLN": len(gr_only & corrob_support),
+    "GENIE3": len(g3_only & corrob_support),
 }
 # full decision rule: CRISPRi margin win AND >= usable_supportive AND >= corroborating support
 gremln_wins = ((d_mean >= CRISPRI_MARGIN)
