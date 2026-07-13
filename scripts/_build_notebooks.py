@@ -73,13 +73,16 @@ from statsmodels.stats.multitest import multipletests
 
 sys.path.insert(0, str(Path.cwd().parent / "scripts"))
 import bench_utils as bu
+import yaml
 
+CFG = yaml.safe_load((bu.repo_root() / "config" / "benchmark_config.yaml").read_text())
 # ---- locked parameters (must match notebooks 01/02) ----
 CSLS_K, TOPN = 10, 100
 DE_PADJ, LFC_MIN = 0.05, float(np.log2(1.5))
 STIM_PRIMARY, STIM_SENS = "Stim8hr", "Stim48hr"
 RANDOM_SEED = 42
-CRISPRI_MARGIN = 0.02          # decision-rule margin (specified for this comparison)
+CRISPRI_MARGIN = CFG["decision_rule"]["crispri_margin"]   # decision-rule margin (from config)
+N_MASKED_EXPR_GENES = int(CFG["genie3"]["n_hvg"])         # masked expression universe (HVGs)
 
 OUT = bu.repo_root() / "results"
 TAB, FIG, REG = OUT / "tables", OUT / "figures", OUT / "model_registry"
@@ -393,8 +396,8 @@ bu.fig_top25_comparison(rk["seed_inclusive"]["gr"], rk["seed_inclusive"]["g3"],
                         FIG / "figS_top25_seed_inclusive.png", seeds=seeds, mode="seed-inclusive")
 bu.fig_crispri(crispri, FIG / "fig3_crispri_target_response.png")
 bu.fig_evidence_heatmap(integ, FIG / "fig4_multiomics_heatmap.png")
-bu.fig_coverage(len(set(edges['regulator']) | set(edges['target'])),
-                len(set(edges['regulator']) | set(edges['target'])), len(genes),
+n_genie3_nodes = len(set(edges['regulator']) | set(edges['target']))
+bu.fig_coverage(N_MASKED_EXPR_GENES, n_genie3_nodes, len(genes),
                 gremln_tfs, genie3_tfs, len(set(seeds) & common), FIG / "fig5_coverage.png")
 print("figures written to", FIG)
 """))
@@ -427,8 +430,22 @@ complementary. Held-out recovery is excluded."""))
     c.append(code("""
 gr_s, g3_s = cr_stats["GREmLN"], cr_stats["GENIE3"]
 d_mean = gr_s["mean_frac_8hr"] - g3_s["mean_frac_8hr"]
-gremln_wins = (d_mean >= CRISPRI_MARGIN) and (gr_s["usable_supportive"] >= g3_s["usable_supportive"])
-genie3_wins = (-d_mean >= CRISPRI_MARGIN) and (g3_s["usable_supportive"] >= gr_s["usable_supportive"])
+
+# corroborating-evidence support among each model's method-SPECIFIC top-25 candidates:
+# strong/moderate Paperclip literature + independent orthogonal multi-omics (protein/PTM/coIP).
+indep_support = set(integ.loc[integ.get("independent_orthogonal_support", False) == True, "TF"]) \\
+    if "independent_orthogonal_support" in integ.columns else set()
+corrob = {
+    "GREmLN": len(gr_only & strong_mod) + len(gr_only & indep_support),
+    "GENIE3": len(g3_only & strong_mod) + len(g3_only & indep_support),
+}
+# full decision rule: CRISPRi margin win AND >= usable_supportive AND >= corroborating support
+gremln_wins = ((d_mean >= CRISPRI_MARGIN)
+               and (gr_s["usable_supportive"] >= g3_s["usable_supportive"])
+               and (corrob["GREmLN"] >= corrob["GENIE3"]))
+genie3_wins = ((-d_mean >= CRISPRI_MARGIN)
+               and (g3_s["usable_supportive"] >= gr_s["usable_supportive"])
+               and (corrob["GENIE3"] >= corrob["GREmLN"]))
 if gremln_wins:
     verdict = "GREmLN superiority"
 elif genie3_wins:
@@ -446,6 +463,8 @@ summary = {
     "crispri_mean_frac_8hr": {"GREmLN": gr_s["mean_frac_8hr"], "GENIE3": g3_s["mean_frac_8hr"],
                               "difference": round(d_mean, 4), "margin": CRISPRI_MARGIN},
     "crispri_usable_supportive": {"GREmLN": gr_s["usable_supportive"], "GENIE3": g3_s["usable_supportive"]},
+    "corroborating_support_method_specific": corrob,
+    "decision_rule": "CRISPRi margin AND >= usable_supportive AND >= corroborating (literature+independent multi-omics)",
     "paperclip_coverage_complete": paperclip_coverage_complete,
     "paperclip_literature_support": paperclip_lit,
     "held_out_recovery": "SUPPLEMENTARY — excluded from verdict",
@@ -516,23 +535,26 @@ GENIE3 fits, for each target gene, a tree ensemble predicting it from the TF reg
 = regulator feature importance. Core algorithm inlined below; the full VIM over ~4k genes is the
 hours-long step."""))
     c.append(code('''
-def genie3_single(expr, out_idx, in_idx, ntrees=1000, K="sqrt"):
+def genie3_single(expr, target_idx, reg_idx, ntrees=1000, K="sqrt"):
+    # Predict ONE target gene from the regulator set; return per-regulator importances.
     from sklearn.ensemble import ExtraTreesRegressor
-    y = np.nan_to_num(np.asarray(expr[:, out_idx], float)); s = y.std()
+    y = np.nan_to_num(np.asarray(expr[:, target_idx], float)); s = y.std()
     if s > 0: y = y / s
-    in_idx = [i for i in in_idx if i != out_idx]
-    Xr = np.nan_to_num(np.asarray(expr[:, in_idx], float))
+    preds = [i for i in reg_idx if i != target_idx]   # regulators are the predictors
+    Xr = np.nan_to_num(np.asarray(expr[:, preds], float))
     est = ExtraTreesRegressor(n_estimators=ntrees, max_features=K, n_jobs=1).fit(Xr, y)
     imp = np.array([e.tree_.compute_feature_importances(normalize=False) for e in est.estimators_])
-    vi = np.zeros(expr.shape[1]); vi[in_idx] = imp.sum(0) / len(est); return vi
+    vi = np.zeros(expr.shape[1]); vi[preds] = imp.sum(0) / len(est); return vi
 
 def run_genie3(expr, gene_names, regulators, n_edges_keep=50000):
+    # Standard GENIE3: every gene is a candidate TARGET predicted from the regulators;
+    # edge = regulator -> target, weight = regulator's feature importance for that target.
     ng = expr.shape[1]; ridx = [i for i, g in enumerate(gene_names) if g in regulators]
-    VIM = np.zeros((ng, ng))
-    for i in ridx:                                   # regulators only (rows)
-        VIM[i, :] = genie3_single(expr, i, ridx)
-    links = [(gene_names[i], gene_names[j], float(VIM[i, j]))
-             for i in ridx for j in range(ng) if i != j and VIM[i, j] > 0]
+    VIM = np.zeros((ng, ng))                          # VIM[target, regulator]
+    for t in range(ng):                              # loop over ALL genes as targets
+        VIM[t, :] = genie3_single(expr, t, ridx)
+    links = [(gene_names[r], gene_names[t], float(VIM[t, r]))   # regulator r -> target t
+             for t in range(ng) for r in ridx if r != t and VIM[t, r] > 0]
     links.sort(key=lambda x: x[2], reverse=True)
     return pd.DataFrame(links[:n_edges_keep], columns=["regulator", "target", "weight"])
 
@@ -561,7 +583,8 @@ registry = pd.DataFrame([
     ("n_targets", stats["n_targets"]),
     ("n_hvg", CFG["genie3"]["n_hvg"]), ("normalisation", CFG["genie3"]["normalisation"]),
     ("batch_correction", CFG["genie3"]["batch_correction"]),
-    ("tf_list", CFG["genie3"]["tf_list"]), ("tf_list_md5", bu.md5(bu.artifact("tf_list"))),
+    ("tf_list", CFG["genie3"]["tf_list"]),
+    ("tf_list_md5", bu.md5(bu.repo_root() / "resources" / "human_tfs_pySCENIC.txt")),
     ("tree_method", "ExtraTrees/RandomForest, ntrees=1000, K=sqrt"),
 ], columns=["field", "value"])
 registry.to_csv(REG / "genie3_model_registry.csv", index=False)

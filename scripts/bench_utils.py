@@ -53,7 +53,7 @@ _LAYOUT = {
     "gremln_run": "runs/gremln_cd4_masked_raw_prior/2026-07-11_masked_raw_prior_v01",
     "genie3_edges": "runs/genie3_cd4/2026-07-07_cd4_perturb_targeting_masked_v01/grn_edges.tsv",
     "gremln_checkpoint": "checkpoints/model.ckpt",
-    "tf_list": "resources/tf_lists/human_tfs_pySCENIC.txt",
+    "tf_list": "resources/human_tfs_pySCENIC.txt",
     "deg_table": "results/btla_csls_multiomics/btla_4h_deg_gene_level_table.csv",
     "de_stats": "data/raw/cd4_perturb/GWCD4i.DE_stats.h5ad",
     "multiomics_long": "results/btla_csls_multiomics/btla_candidate_multiomics_long_evidence.csv",
@@ -93,7 +93,15 @@ def redact(p) -> str:
 
 # --------------------------------------------------------------------------- loaders
 def load_tfs(path: Path = None) -> set:
-    path = path or artifact("tf_list")
+    # The TF list is a small public file committed to the repo; prefer that copy so both a
+    # clean public clone and a reuse-mode run (BTLA_BENCH_DATA_ROOT set) resolve it correctly.
+    if path is None:
+        env = os.environ.get("BTLA_BENCH_TF_LIST")
+        if env:
+            path = Path(env).expanduser()
+        else:
+            repo_copy = repo_root() / "resources" / "human_tfs_pySCENIC.txt"
+            path = repo_copy if repo_copy.exists() else artifact("tf_list")
     return {ln.strip() for ln in Path(path).read_text().splitlines()
             if ln.strip() and not ln.startswith("#")}
 
