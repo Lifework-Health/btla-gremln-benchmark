@@ -1,0 +1,13 @@
+field,value
+model_name,GENIE3_CD4_masked_raw
+graph_path,runs/genie3_cd4/2026-07-07_cd4_perturb_targeting_masked_v01/grn_edges.tsv
+graph_md5,d9ba82b1370e84e718ab2e1e38568d07
+n_edges,50000
+n_regulators,335
+n_targets,3572
+n_hvg,4000
+normalisation,CPM(1e6) -> log1p
+batch_correction,ComBat on donor_id (masked graph)
+tf_list,resources/human_tfs_pySCENIC.txt
+tf_list_md5,7b70a0e2fb2761243c8371fb7790c381
+tree_method,"ExtraTrees/RandomForest, ntrees=1000, K=sqrt"

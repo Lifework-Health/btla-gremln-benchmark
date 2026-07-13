@@ -31,3 +31,15 @@ data/btla_source/
 logs/
 *.log
 tmp/
+
+# ---- regenerated / BTLA-derived outputs (untracked until data clearance) ----
+# The notebooks regenerate these locally; they expose BTLA-derived results, so they are
+# not committed. Provenance (results/model_registry/*_model_registry.csv, *_audit.csv) IS tracked.
+results/tables/
+results/figures/
+results/model_registry/benchmark_summary.json
+# locally-executed copies kept for review, not committed:
+notebooks/executed/
+
+# paperclip scratch search dumps
+results/paperclip/_raw_search*.txt

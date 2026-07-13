@@ -1,0 +1,20 @@
+field,value
+model_name,GREmLN_CD4_masked_raw_prior
+gremln_checkpoint,model.ckpt
+gremln_checkpoint_md5,6e57cecf494365214b379118091bfc9f
+gremln_submodule_commit,e1c5d8edbe2fe96568ff5451f15bc691722bb6a1
+python_version,3.12.12
+numpy_version,2.3.5
+pandas_version,2.3.3
+anndata_version,0.12.10
+torch_version,2.4.1
+expression_input,pre-ComBat log1p-CPM (same 50k cells; tokenizer needs rank/zero structure)
+prior_graph,masked CD4 GENIE3 50k-edge graph
+prior_graph_md5,d9ba82b1370e84e718ab2e1e38568d07
+embedding_h5ad_md5,2184dc18aa0fb659315bd57f01865818
+n_genes_embedded,3586
+embedding_dim,512
+csls_params,CSLS (k=10) top-100 neighbour BTLA-seed count; dense rank
+random_seed,42
+device,cuda
+inference_params,single-cell gene embeddings; batch_size=256; max_seq_length=2048; only_expressed_genes=True; only_network_genes=True; with_edge_weights=False
