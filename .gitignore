@@ -40,3 +40,6 @@ results/figures/
 results/model_registry/benchmark_summary.json
 # locally-executed copies kept for review, not committed:
 notebooks/executed/
+
+# paperclip scratch search dumps
+results/paperclip/_raw_search*.txt

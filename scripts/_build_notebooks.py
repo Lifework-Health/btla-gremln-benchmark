@@ -311,29 +311,36 @@ pd.DataFrame(cr_stats.values())
 
     c.append(md("""## 6. Paperclip literature (identical template; annotation only)
 
-Structured literature evidence for the **union of both top-25 lists** under one query template.
-Coverage is reported explicitly; **no quantitative literature-count comparison** is drawn unless
-every union TF has been reviewed with the identical template (`paperclip_coverage_complete`)."""))
+Structured literature evidence for the **full union of both top-25 lists** under one identical query
+template (`scripts/build_paperclip_review.py`; committed to `results/paperclip/`). Because coverage
+is complete, a quantitative literature comparison across the model-specific candidate sets is drawn
+here. Literature is annotation, never a predictive input."""))
     c.append(code("""
 union_tfs = sorted(set(union_se["GREmLN"]) | set(union_se["GENIE3"]))
-pc_frames = []
-for key in ("paperclip_gremln", "paperclip_genie3"):
-    p = bu.artifact(key)
-    if p.exists():
-        keep = [c for c in ["TF", "paperclip_primary_phenotype", "paperclip_summary_judgement",
-                "paperclip_evidence_tier", "paperclip_direction", "paperclip_confidence_score",
-                "paperclip_short_rationale", "paperclip_top_papers"] if c in pd.read_csv(p, nrows=1).columns]
-        pc_frames.append(pd.read_csv(p)[keep])
-pc = pd.concat(pc_frames, ignore_index=True).drop_duplicates("TF") if pc_frames else pd.DataFrame({"TF": []})
-pc_join = pd.DataFrame({"TF": union_tfs}).merge(pc, on="TF", how="left")
-pc_join["paperclip_reviewed"] = pc_join.get("paperclip_evidence_tier", pd.Series([np.nan] * len(pc_join))).notna()
+pc_path = bu.repo_root() / "results" / "paperclip" / "paperclip_union_top25_review.csv"
+if pc_path.exists():
+    pc = pd.read_csv(pc_path)
+    pc_join = pd.DataFrame({"TF": union_tfs}).merge(pc, on="TF", how="left")
+    pc_join["paperclip_reviewed"] = pc_join["paperclip_reviewed"].fillna(False).astype(bool)
+else:
+    pc_join = pd.DataFrame({"TF": union_tfs}); pc_join["paperclip_reviewed"] = False
+    pc_join["paperclip_evidence_tier"] = np.nan
 pc_join.to_csv(TAB / "paperclip_union_top25.csv", index=False)
-coverage = pc_join["paperclip_reviewed"].mean() if len(pc_join) else 0.0
-paperclip_coverage_complete = bool(pc_join["paperclip_reviewed"].all())
-print(f"Paperclip coverage: {pc_join['paperclip_reviewed'].sum()}/{len(pc_join)} union TFs "
-      f"({coverage:.0%}); complete={paperclip_coverage_complete}")
-if not paperclip_coverage_complete:
-    print("NOTE: coverage incomplete -> no quantitative model-vs-model literature comparison is drawn.")
+paperclip_coverage_complete = bool(len(pc_join) and pc_join["paperclip_reviewed"].all())
+strong_mod = set(pc_join.loc[pc_join["paperclip_evidence_tier"].isin(["strong", "moderate"]), "TF"])
+gr_only = set(union_se["GREmLN"]) - set(union_se["GENIE3"])
+g3_only = set(union_se["GENIE3"]) - set(union_se["GREmLN"])
+shared = set(union_se["GREmLN"]) & set(union_se["GENIE3"])
+paperclip_lit = {
+    "coverage_complete": paperclip_coverage_complete,
+    "shared_with_strong_moderate_lit": f"{len(shared & strong_mod)}/{len(shared)}",
+    "gremln_only_with_strong_moderate_lit": f"{len(gr_only & strong_mod)}/{len(gr_only)}",
+    "genie3_only_with_strong_moderate_lit": f"{len(g3_only & strong_mod)}/{len(g3_only)}",
+}
+print(f"Paperclip coverage: {pc_join['paperclip_reviewed'].sum()}/{len(pc_join)} union TFs; "
+      f"complete={paperclip_coverage_complete}")
+for k, v in paperclip_lit.items():
+    print(f"  {k}: {v}")
 """))
 
     c.append(md("""## 7. BTLA multi-omics — independent orthogonal vs derived/contextual
@@ -366,9 +373,10 @@ if mo_path.exists():
 # attach compact CRISPRi + paperclip
 cr_agg = crispri.groupby("TF").agg(crispri_status=("validation_status", lambda s: ";".join(sorted(set(s)))),
         crispri_best_frac_8hr=("frac_confirmed_8hr", "max")).reset_index()
-integ = integ.merge(cr_agg, on="TF", how="left").merge(
-        pc_join[["TF", "paperclip_evidence_tier", "paperclip_summary_judgement", "paperclip_reviewed"]],
-        on="TF", how="left")
+pc_cols = [c for c in ["TF", "paperclip_evidence_tier", "paperclip_primary_phenotype",
+           "paperclip_direction", "paperclip_key_source", "paperclip_short_rationale",
+           "paperclip_reviewed"] if c in pc_join.columns]
+integ = integ.merge(cr_agg, on="TF", how="left").merge(pc_join[pc_cols], on="TF", how="left")
 integ.to_csv(TAB / "gremln_genie3_top25_integrated_evidence.csv", index=False)
 print("Independent orthogonal support among union TFs:",
       int(integ.get("independent_orthogonal_support", pd.Series(dtype=bool)).sum()))
@@ -439,6 +447,7 @@ summary = {
                               "difference": round(d_mean, 4), "margin": CRISPRI_MARGIN},
     "crispri_usable_supportive": {"GREmLN": gr_s["usable_supportive"], "GENIE3": g3_s["usable_supportive"]},
     "paperclip_coverage_complete": paperclip_coverage_complete,
+    "paperclip_literature_support": paperclip_lit,
     "held_out_recovery": "SUPPLEMENTARY — excluded from verdict",
     "verdict": verdict,
 }
