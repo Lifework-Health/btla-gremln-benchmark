@@ -1,0 +1,9 @@
+metric,value
+genes_embedded_by_gremln,3586
+embedding_dim,512
+tfs_embedded_by_gremln,342
+tfs_in_genie3_graph,335
+common_tf_universe,334
+btla_seed_panel_size,249
+seeds_available_to_gremln,103
+seed_tfs_in_common_universe,16
