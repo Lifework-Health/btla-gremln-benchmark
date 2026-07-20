@@ -1,0 +1,102 @@
+{
+  "tf": "GTF2A2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:23:36Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-874097c9-8bc8-4a46-a687-68e3f8b4f7bd",
+      "agent_id": "agent-752d3200-41fe-477b-9d00-c94ee3ab42f1",
+      "capture_method": "returned_text",
+      "raw": "All 10 papers concern the T-cell receptor (TCR) and immunotherapy; none contain the symbol GTF2A2, the full name \"general transcription factor IIA subunit 2\", or any alias (HsT18745, TFIIA). The retrieval appears driven by the \"TCR\" string, which is unrelated to this transcription regulator.\n\n```json\n{\n  \"tf\": \"GTF2A2\",\n  \"candidate_symbol\": \"GTF2A2\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 and TCR signaling; no GTF2A2, TFIIA, or general transcription factor IIA reference present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11253514\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Discusses BTLA/PD-1 and TCR-mediated transcriptomics; no mention of GTF2A2 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review of TCR repertoire for immunotherapy; no reference to GTF2A2, TFIIA, or transcription factor IIA.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns engineered dual TCR T cells; symbol, full name, and aliases absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"EBV CD4 TCR immunotherapy study; no GTF2A2/TFIIA or transcription factor IIA reference.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12934713\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"CRISPR TCR-removal platform; no mention of GTF2A2, TFIIA, or general transcription factor IIA.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Deep-learning TCR generation model; no reference to the transcription regulator or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10287668\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Antibody-fused TCRγ construct for anti-tumor cytotoxicity; no GTF2A2/TFIIA mention.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"PCSK9 inhibition with TCR-T cells in HCC; no reference to GTF2A2 or aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6670834\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Cdc7/Cdk9 inhibitor affecting TCR signaling; no GTF2A2, TFIIA, or transcription factor IIA present.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "GTF2A2",
+    "candidate_symbol": "GTF2A2",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 and TCR signaling; no GTF2A2, TFIIA, or general transcription factor IIA reference present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11253514",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Discusses BTLA/PD-1 and TCR-mediated transcriptomics; no mention of GTF2A2 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review of TCR repertoire for immunotherapy; no reference to GTF2A2, TFIIA, or transcription factor IIA.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns engineered dual TCR T cells; symbol, full name, and aliases absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "EBV CD4 TCR immunotherapy study; no GTF2A2/TFIIA or transcription factor IIA reference.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12934713",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "CRISPR TCR-removal platform; no mention of GTF2A2, TFIIA, or general transcription factor IIA.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Deep-learning TCR generation model; no reference to the transcription regulator or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10287668",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Antibody-fused TCRγ construct for anti-tumor cytotoxicity; no GTF2A2/TFIIA mention.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "PCSK9 inhibition with TCR-T cells in HCC; no reference to GTF2A2 or aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6670834",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Cdc7/Cdk9 inhibitor affecting TCR signaling; no GTF2A2, TFIIA, or transcription factor IIA present.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

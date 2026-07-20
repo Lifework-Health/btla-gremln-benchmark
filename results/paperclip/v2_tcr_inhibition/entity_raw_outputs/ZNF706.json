@@ -1,0 +1,102 @@
+{
+  "tf": "ZNF706",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:38:06Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-e65edb62-70b7-490d-a945-f7d519876ced",
+      "agent_id": "agent-a895229d-45cc-4532-8582-02928e40331a",
+      "capture_method": "returned_text",
+      "raw": "```json\n{\n  \"tf\": \"ZNF706\",\n  \"candidate_symbol\": \"ZNF706\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11445280\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Describes ZNF706 as a C2H2-type zinc finger protein on chromosome 8q22 regulating ferroptosis; matches canonical symbol and full name.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns TCR-engineered T cells; no mention of ZNF706, zinc finger protein 706, or HSPC038.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 phosphorylation and TCR signaling; no mention of ZNF706 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns TCR downregulation signaling; no mention of ZNF706 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review on TCR repertoire for immunotherapy; no mention of ZNF706 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns costimulatory CAR for TCR immunotherapy; no mention of ZNF706 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns EBV CD4 TCR immunotherapy for nasopharyngeal cancer; no mention of ZNF706 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns TCR signal strength and T cell dysfunction; no mention of ZNF706 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Deep learning model for TCR generation and binding; no mention of ZNF706 or its aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4503983\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns Zbtb16/PLZF zinc finger in T cells; a different gene, ZNF706 and aliases not mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ZNF706",
+    "candidate_symbol": "ZNF706",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11445280",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Describes ZNF706 as a C2H2-type zinc finger protein on chromosome 8q22 regulating ferroptosis; matches canonical symbol and full name.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns TCR-engineered T cells; no mention of ZNF706, zinc finger protein 706, or HSPC038.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 3,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 phosphorylation and TCR signaling; no mention of ZNF706 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns TCR downregulation signaling; no mention of ZNF706 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review on TCR repertoire for immunotherapy; no mention of ZNF706 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns costimulatory CAR for TCR immunotherapy; no mention of ZNF706 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns EBV CD4 TCR immunotherapy for nasopharyngeal cancer; no mention of ZNF706 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns TCR signal strength and T cell dysfunction; no mention of ZNF706 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Deep learning model for TCR generation and binding; no mention of ZNF706 or its aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4503983",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns Zbtb16/PLZF zinc finger in T cells; a different gene, ZNF706 and aliases not mentioned.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "model": "claude-opus-4-8",
+  "prompt_sha256": "ea42a144b141792d94a62e8724c2bf2bdb73faa0dec9186d45e9609feec61364",
+  "schema_sha256": "5b68af111c4ab5735790a92151931288cd62d8af03226bebbe626d31c762ca77",
+  "hgnc_provenance": {
+    "source": "HGNC complete set",
+    "source_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+    "retrieval_date_utc": "2026-07-20",
+    "sha256": "712d037ba2aa42f06c121aab27d4043d2148472356a0581c8a001139f125ff43",
+    "n_records": 45021,
+    "columns_used": [
+      "symbol",
+      "name",
+      "alias_symbol",
+      "prev_symbol",
+      "ensembl_gene_id",
+      "hgnc_id"
+    ]
+  },
+  "candidates": 43,
+  "rows": 430,
+  "attempted": 0,
+  "completed": 43,
+  "retries": 0,
+  "parse_failures": [],
+  "wrong_entity_collisions": [
+    [
+      "CREM",
+      "PMC12641238"
+    ],
+    [
+      "MSC",
+      "PMC7937648"
+    ],
+    [
+      "MSC",
+      "PMC7795906"
+    ],
+    [
+      "MSC",
+      "PMC12580868"
+    ],
+    [
+      "MSC",
+      "PMC3854780"
+    ],
+    [
+      "MSC",
+      "PMC11885616"
+    ],
+    [
+      "MSC",
+      "PMC12126738"
+    ],
+    [
+      "MSC",
+      "PMC10900800"
+    ],
+    [
+      "MSC",
+      "PMC3444478"
+    ],
+    [
+      "SMAP2",
+      "PMC11106232"
+    ]
+  ],
+  "completion_timestamp_utc": "2026-07-20T20:40:53Z"
+}

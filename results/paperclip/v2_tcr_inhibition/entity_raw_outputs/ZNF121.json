@@ -1,0 +1,102 @@
+{
+  "tf": "ZNF121",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:37:39Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-5526cddc-ef2f-4542-b197-63f5bd1dbce1",
+      "agent_id": "agent-abbf7ebc-0ba2-4532-8452-40972f11230b",
+      "capture_method": "returned_text",
+      "raw": "All 10 papers concern T-cell receptor (TCR) biology; none mention ZNF121, \"zinc finger protein 121,\" or any alias (D19S204, ZHC32, ZNF20). The retrieval appears driven by an unrelated match, not the regulator's identity.\n\n```json\n{\n  \"tf\": \"ZNF121\",\n  \"candidate_symbol\": \"ZNF121\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 phosphorylation and TCR signaling; no ZNF121, full name, or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About engineered dual TCR T cells and mispairing; no mention of ZNF121, full name, or aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review of TCR repertoire selection for immunotherapy; no ZNF121, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC13148917\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Epigenetic editing of TCR in CAR T cells; no ZNF121, full name, or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"EBV CD4 TCR immunotherapy for nasopharyngeal cancer; no ZNF121, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5363317\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"TALEN/CRISPR TCR knockout study; no mention of ZNF121, full name, or aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Diffusion model for TCR generation and binding; no ZNF121, full name, or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Costimulatory CAR for TCR-based immunotherapy; no ZNF121, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"PCSK9 inhibition with TCR-T cells in HCC; no ZNF121, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12934713\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"CRISPR platform for TCR chain removal; no mention of ZNF121, full name, or aliases.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ZNF121",
+    "candidate_symbol": "ZNF121",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 phosphorylation and TCR signaling; no ZNF121, full name, or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About engineered dual TCR T cells and mispairing; no mention of ZNF121, full name, or aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review of TCR repertoire selection for immunotherapy; no ZNF121, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC13148917",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Epigenetic editing of TCR in CAR T cells; no ZNF121, full name, or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "EBV CD4 TCR immunotherapy for nasopharyngeal cancer; no ZNF121, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5363317",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "TALEN/CRISPR TCR knockout study; no mention of ZNF121, full name, or aliases.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Diffusion model for TCR generation and binding; no ZNF121, full name, or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Costimulatory CAR for TCR-based immunotherapy; no ZNF121, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "PCSK9 inhibition with TCR-T cells in HCC; no ZNF121, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12934713",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "CRISPR platform for TCR chain removal; no mention of ZNF121, full name, or aliases.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

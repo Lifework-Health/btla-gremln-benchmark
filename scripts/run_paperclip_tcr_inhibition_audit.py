@@ -645,7 +645,8 @@ def _render_prompt(template: str, tf: str, n: int) -> str:
     return template.replace("{TF}", tf).replace("{N}", str(n))
 
 
-def _call_cursor_judge(prompt: str, model: str, api_key: str):
+def _call_cursor_judge(prompt: str, model: str, api_key: str,
+                       file_markers=("overall_evidence_tier",)):
     """Return (text, run_id, agent_id, resolved_model, capture_method).
 
     The Cursor SDK judge is an *agentic* model with file-write tools. To keep
@@ -681,7 +682,7 @@ def _call_cursor_judge(prompt: str, model: str, api_key: str):
                 except Exception:
                     continue
                 obj = extract_json(body)
-                if isinstance(obj, dict) and "overall_evidence_tier" in obj:
+                if isinstance(obj, dict) and any(m in obj for m in file_markers):
                     best = body
             if best is not None:
                 text = best

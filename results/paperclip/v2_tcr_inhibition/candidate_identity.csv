@@ -1,0 +1,44 @@
+TF,hgnc_id,candidate_full_name,recognised_gene_aliases,ensembl_gene_id,hgnc_found
+AHR,HGNC:348,aryl hydrocarbon receptor,bHLHe76,ENSG00000106546,True
+BCL3,HGNC:998,BCL3 transcription coactivator,BCL4|D19S37,ENSG00000069399,True
+BHLHE40,HGNC:1046,basic helix-loop-helix family member e40,BHLHB2|Clast5|DEC1|SHARP2|STRA13,ENSG00000134107,True
+CREM,HGNC:2352,cAMP responsive element modulator,hCREM-2,ENSG00000095794,True
+CYCS,HGNC:19986,"cytochrome c, somatic",CYC|HCS,ENSG00000172115,True
+EGR2,HGNC:3239,early growth response 2,KROX20,ENSG00000122877,True
+EZH2,HGNC:3527,enhancer of zeste 2 polycomb repressive complex 2 subunit,ENX-1|EZH1|KMT6|KMT6A,ENSG00000106462,True
+FOXM1,HGNC:3818,forkhead box M1,FKHL16|HFH-11|HNF-3|INS-1|MPHOSPH2|MPP2|TGT3|trident,ENSG00000111206,True
+FOXP1,HGNC:3823,forkhead box P1,12CC4|HSPC215|QRF1|hFKH1B,ENSG00000114861,True
+GAR1,HGNC:14264,GAR1 ribonucleoprotein,NOLA1,ENSG00000109534,True
+GTF2A2,HGNC:4647,general transcription factor IIA subunit 2,HsT18745|TFIIA,ENSG00000140307,True
+GTF3C2,HGNC:4665,general transcription factor IIIC subunit 2,KIAA0011|TFIIIC110,ENSG00000115207,True
+HIRIP3,HGNC:4917,HIRA interacting protein 3,,ENSG00000149929,True
+HIVEP3,HGNC:13561,HIVEP zinc finger 3,FLJ16752|KBP-1|KBP1|KIAA1555|KRC|SHN3|Schnurri-3|ZAS3|ZNF40C,ENSG00000127124,True
+HMGN3,HGNC:12312,high mobility group nucleosomal binding domain 3,TRIP7,ENSG00000118418,True
+ID2,HGNC:5361,inhibitor of DNA binding 2,GIG8|bHLHb26,ENSG00000115738,True
+IRF8,HGNC:5358,interferon regulatory factor 8,ICSBP|ICSBP1|IRF-8,ENSG00000140968,True
+JUNB,HGNC:6205,"JunB proto-oncogene, AP-1 transcription factor subunit",,ENSG00000171223,True
+KIF22,HGNC:6391,kinesin family member 22,KNSL4|Kid|OBP-1|OBP-2,ENSG00000079616,True
+MAF,HGNC:6776,MAF bZIP transcription factor,c-MAF,ENSG00000178573,True
+MDM2,HGNC:6973,MDM2 proto-oncogene,HDM2|MGC5370,ENSG00000135679,True
+MLX,HGNC:11645,MAX dimerization protein MLX,MAD7|MXD7|TCFL4|bHLHd13,ENSG00000108788,True
+MSC,HGNC:7321,musculin,ABF-1|bHLHa22,ENSG00000178860,True
+MYC,HGNC:7553,"MYC proto-oncogene, bHLH transcription factor",MYCC|bHLHe39|c-Myc,ENSG00000136997,True
+NFIL3,HGNC:7787,"nuclear factor, interleukin 3 regulated",E4BP4|IL3BP1|NF-IL3A|NFIL3A,ENSG00000165030,True
+NR4A2,HGNC:7981,nuclear receptor subfamily 4 group A member 2,HZF-3|NOT|NURR1|RNR1|TINUR,ENSG00000153234,True
+PLAGL2,HGNC:9047,PLAG1 like zinc finger 2,ZNF900,ENSG00000126003,True
+PRDM1,HGNC:9346,PR/SET domain 1,BLIMP1|Blimp-1|PRDI-BF1,ENSG00000057657,True
+RBPJ,HGNC:5724,recombination signal binding protein for immunoglobulin kappa J region,CBF1|IGKJRB|IGKJRB1|KBF2|RBP-J|RBPJK|RBPSUH|SUH,ENSG00000168214,True
+SMAP2,HGNC:25082,small ArfGAP2,SMAP1L,ENSG00000084070,True
+SNAPC4,HGNC:11137,small nuclear RNA activating complex polypeptide 4,FLJ13451|PTFalpha|SNAP190,ENSG00000165684,True
+SRP9,HGNC:11304,signal recognition particle 9,,ENSG00000143742,True
+STAT1,HGNC:11362,signal transducer and activator of transcription 1,ISGF-3|STAT91,ENSG00000115415,True
+STAT4,HGNC:11365,signal transducer and activator of transcription 4,,ENSG00000138378,True
+STAT5B,HGNC:11367,signal transducer and activator of transcription 5B,,ENSG00000173757,True
+STAU2,HGNC:11371,staufen double-stranded RNA binding protein 2,39K2,ENSG00000040341,True
+TFDP1,HGNC:11749,transcription factor Dp-1,DILC|DP1|DRTF1|Dp-1,ENSG00000198176,True
+TGIF1,HGNC:11776,TGFB induced factor homeobox 1,HPE4|TGIF,ENSG00000177426,True
+TRAF4,HGNC:12034,TNF receptor associated factor 4,CART1|MLN62|RNF83,ENSG00000076604,True
+ZBTB32,HGNC:16763,zinc finger and BTB domain containing 32,FAXF|FAZF|Rog|TZFP|ZNF538|mynn,ENSG00000011590,True
+ZEB2,HGNC:14881,zinc finger E-box binding homeobox 2,KIAA0569|SIP-1|SIP1|ZFHX1B,ENSG00000169554,True
+ZNF121,HGNC:12904,zinc finger protein 121,D19S204|ZHC32|ZNF20,ENSG00000197961,True
+ZNF706,HGNC:24992,zinc finger protein 706,HSPC038,ENSG00000120963,True

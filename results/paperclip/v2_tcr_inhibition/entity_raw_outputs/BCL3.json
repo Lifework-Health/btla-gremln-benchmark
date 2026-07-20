@@ -1,0 +1,102 @@
+{
+  "tf": "BCL3",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:19:54Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-500f5615-20c1-4384-8f7c-fae9af39bb01",
+      "agent_id": "agent-f9d51558-6399-431e-92e9-7702d7afcbf6",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"BCL3\",\n  \"candidate_symbol\": \"BCL3\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10775530\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"BCL3 described as non-canonical NF-κB regulator and proto-oncogene, clearly denoting this transcription coactivator gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10813424\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Bcl3 identified as NF-κB co-factor proto-oncogene, matching canonical entity precisely.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12730859\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Bcl3 (B-cell leukemia/lymphoma protein 3), IκB family NF-κB regulator; canonical entity though studied in zebrafish.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2660861\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Bcl-3 described as IkB-related NF-κB transactivator; canonical entity, murine ortholog.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12646068\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Bcl3 described as NF-κB atypical inhibitor; canonical entity studied via mouse gene ablation.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5414353\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Bcl-3 described as atypical NF-κB family member binding p50; canonical entity clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11731105\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"BCL3 identified as gene biomarker with anti-apoptotic role in chondrocytes; canonical symbol used.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4931663\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Bcl-3 described as IκB family protein regulating NF-κB; canonical entity clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12003009\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Bcl3 (B cell leukemia/lymphoma 3) studied in liver injury; canonical entity clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10618080\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"BCL-3 described as proto-oncogene regulating DNA damage response in CRC; canonical entity clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "BCL3",
+    "candidate_symbol": "BCL3",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10775530",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "BCL3 described as non-canonical NF-κB regulator and proto-oncogene, clearly denoting this transcription coactivator gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10813424",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Bcl3 identified as NF-κB co-factor proto-oncogene, matching canonical entity precisely.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12730859",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Bcl3 (B-cell leukemia/lymphoma protein 3), IκB family NF-κB regulator; canonical entity though studied in zebrafish.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2660861",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Bcl-3 described as IkB-related NF-κB transactivator; canonical entity, murine ortholog.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12646068",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Bcl3 described as NF-κB atypical inhibitor; canonical entity studied via mouse gene ablation.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5414353",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Bcl-3 described as atypical NF-κB family member binding p50; canonical entity clearly denoted.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11731105",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "BCL3 identified as gene biomarker with anti-apoptotic role in chondrocytes; canonical symbol used.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4931663",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Bcl-3 described as IκB family protein regulating NF-κB; canonical entity clearly denoted.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12003009",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Bcl3 (B cell leukemia/lymphoma 3) studied in liver injury; canonical entity clearly denoted.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10618080",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "BCL-3 described as proto-oncogene regulating DNA damage response in CRC; canonical entity clearly denoted.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "tf": "TRAF4",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:36:28Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-ebbe4a6c-7c70-47ce-acb7-fe784b6200e0",
+      "agent_id": "agent-10e7731e-6660-4bf8-b7ed-3c1fb85b9a6b",
+      "capture_method": "returned_text",
+      "raw": "I've reviewed all 10 papers against the TRAF4 identity criteria. Here is my classification.\n\n```json\n{\n  \"tf\": \"TRAF4\",\n  \"candidate_symbol\": \"TRAF4\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10750280\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"TRAF4 studied as overexpressed E3-ligase regulating survivin/radioresistance in NPC; canonical symbol clearly denotes this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns TCR-engineered T cells; neither TRAF4, its full name, nor any alias appears in the text.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11787431\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly 'Tumor necrosis factor receptor-associated factor 4 (TRAF4)' binding MAP3K4; canonical name and symbol denote this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5437045\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper is about TRAF3 in TCR signaling; TRAF4 symbol, full name, and aliases are absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10966530\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"TRAF4 named as E3 ligase ubiquitinating LAMTOR1 to drive mTORC1; canonical symbol clearly denotes this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196328\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper studies TRAF1 and TRAF2 in T cell apoptosis; TRAF4 symbol, full name, and aliases do not appear.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11787431\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Lnc-EST885 interacts with TRAF4 to drive PI3K/AKT in HCC; symbol clearly denotes this signaling gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10083865\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Generic TRAF-binding motifs recruiting TRAF2 in TCR-T cells; TRAF4 specifically is not mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11831473\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"'Tumor necrosis factor receptor-associated factor 4 (TRAF4)' E3 ligase, nuclear translocation in tumors; canonical name and symbol denote this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2193385\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns adaptor protein TRIM in TCR signaling; TRAF4 symbol, full name, and aliases are absent.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "TRAF4",
+    "candidate_symbol": "TRAF4",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10750280",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "TRAF4 studied as overexpressed E3-ligase regulating survivin/radioresistance in NPC; canonical symbol clearly denotes this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns TCR-engineered T cells; neither TRAF4, its full name, nor any alias appears in the text.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11787431",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly 'Tumor necrosis factor receptor-associated factor 4 (TRAF4)' binding MAP3K4; canonical name and symbol denote this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5437045",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper is about TRAF3 in TCR signaling; TRAF4 symbol, full name, and aliases are absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10966530",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "TRAF4 named as E3 ligase ubiquitinating LAMTOR1 to drive mTORC1; canonical symbol clearly denotes this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2196328",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper studies TRAF1 and TRAF2 in T cell apoptosis; TRAF4 symbol, full name, and aliases do not appear.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11787431",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Lnc-EST885 interacts with TRAF4 to drive PI3K/AKT in HCC; symbol clearly denotes this signaling gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10083865",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Generic TRAF-binding motifs recruiting TRAF2 in TCR-T cells; TRAF4 specifically is not mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11831473",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "'Tumor necrosis factor receptor-associated factor 4 (TRAF4)' E3 ligase, nuclear translocation in tumors; canonical name and symbol denote this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2193385",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns adaptor protein TRIM in TCR signaling; TRAF4 symbol, full name, and aliases are absent.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

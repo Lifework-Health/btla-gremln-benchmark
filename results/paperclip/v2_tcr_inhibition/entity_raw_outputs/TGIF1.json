@@ -1,0 +1,102 @@
+{
+  "tf": "TGIF1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:34:43Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-65dda95e-55ab-42d0-9df0-f5558a35e610",
+      "agent_id": "agent-c5cef49d-c4a7-435a-b54f-5aa001405f19",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"TGIF1\",\n  \"candidate_symbol\": \"TGIF1\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11751904\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical symbol TGIF1 and full name 'TGFB-induced factor homeobox 1' as a transcription regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2816958\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"recognised_alias\",\n      \"entity_match_rationale\": \"Refers to homeodomain protein 'TG-interacting factor (TGIF)', the alias, negatively regulating TGFβ signaling.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11045221\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses symbol Tgif1 ('TG-interacting factor 1') as transcriptional repressor in osteoblasts, clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7987261\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical symbol TGIF1, described as transcription inhibitor, clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12037246\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical symbol TGIF1 for sheep ortholog gene with SNP/exon analysis, clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6446543\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"recognised_alias\",\n      \"entity_match_rationale\": \"Refers to 'Tgifs'/TGIF transcription factors repressing via TGFβ-responsive SMADs, using the alias TGIF.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 and TCR signaling; no TGIF1 symbol, name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5754828\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"recognised_alias\",\n      \"entity_match_rationale\": \"Refers to 'TG-interacting factor (TGIF)', the alias, amplified in esophageal cancer, clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review on TCR repertoire and immunotherapy; no TGIF1 symbol, name, or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3325954\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses symbol Tgif1 as transcriptional corepressor limiting TGFβ responsive gene expression, clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "TGIF1",
+    "candidate_symbol": "TGIF1",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11751904",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical symbol TGIF1 and full name 'TGFB-induced factor homeobox 1' as a transcription regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2816958",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "recognised_alias",
+        "entity_match_rationale": "Refers to homeodomain protein 'TG-interacting factor (TGIF)', the alias, negatively regulating TGFβ signaling.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11045221",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses symbol Tgif1 ('TG-interacting factor 1') as transcriptional repressor in osteoblasts, clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7987261",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical symbol TGIF1, described as transcription inhibitor, clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12037246",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical symbol TGIF1 for sheep ortholog gene with SNP/exon analysis, clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6446543",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "recognised_alias",
+        "entity_match_rationale": "Refers to 'Tgifs'/TGIF transcription factors repressing via TGFβ-responsive SMADs, using the alias TGIF.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 and TCR signaling; no TGIF1 symbol, name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5754828",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "recognised_alias",
+        "entity_match_rationale": "Refers to 'TG-interacting factor (TGIF)', the alias, amplified in esophageal cancer, clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review on TCR repertoire and immunotherapy; no TGIF1 symbol, name, or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3325954",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses symbol Tgif1 as transcriptional corepressor limiting TGFβ responsive gene expression, clearly this gene.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

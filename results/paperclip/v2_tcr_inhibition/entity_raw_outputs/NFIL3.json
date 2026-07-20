@@ -1,0 +1,102 @@
+{
+  "tf": "NFIL3",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:29:05Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-5b75957b-5914-4745-9218-023774233f9c",
+      "agent_id": "agent-74e9391d-613e-4c99-a9cd-eff1f2a9cb42",
+      "capture_method": "returned_text",
+      "raw": "```json\n{\n  \"tf\": \"NFIL3\",\n  \"candidate_symbol\": \"NFIL3\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10898977\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Identifies 'nuclear factor IL-3 (NFIL3)' as transcriptional regulator of CD8+ CTL cytotoxicity; clearly the candidate gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6802641\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical symbol NFIL3 (with alias E4BP4) as transcription factor regulating Treg/Foxp3; unambiguously the candidate gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11962013\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"States 'Nuclear factor, interleukin-3 regulated (NFIL3)' regulating metabolism; matches canonical full name and symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11563780\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"NFIL3 described as upstream transcriptional regulator of Tim3 in Th1 cells; clearly the candidate gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4144736\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Nfil3 studied in innate lymphoid cell development and Peyer's patch formation; canonical symbol denoting the gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10941009\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Structural study of transcription factor NFIL3 bZIP domain DNA binding; unambiguously the candidate gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3865482\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Nfil3 as transcription factor in NK cell lineage maintenance; canonical symbol denoting the candidate gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10861811\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"'Nuclear factor interleukin 3 (NFIL3)' analyzed as pan-cancer biomarker; matches canonical full name and symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4144732\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Nfil3 crucial for innate lymphoid cell development and host protection; canonical symbol denoting the candidate gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11297963\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Rhythm gene NFIL3 in NFIL3-ACSL4 axis regulating ferroptosis in sepsis-AKI; clearly the candidate gene.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "NFIL3",
+    "candidate_symbol": "NFIL3",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10898977",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Identifies 'nuclear factor IL-3 (NFIL3)' as transcriptional regulator of CD8+ CTL cytotoxicity; clearly the candidate gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6802641",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical symbol NFIL3 (with alias E4BP4) as transcription factor regulating Treg/Foxp3; unambiguously the candidate gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11962013",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "States 'Nuclear factor, interleukin-3 regulated (NFIL3)' regulating metabolism; matches canonical full name and symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11563780",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "NFIL3 described as upstream transcriptional regulator of Tim3 in Th1 cells; clearly the candidate gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4144736",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Nfil3 studied in innate lymphoid cell development and Peyer's patch formation; canonical symbol denoting the gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10941009",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Structural study of transcription factor NFIL3 bZIP domain DNA binding; unambiguously the candidate gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3865482",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Nfil3 as transcription factor in NK cell lineage maintenance; canonical symbol denoting the candidate gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10861811",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "'Nuclear factor interleukin 3 (NFIL3)' analyzed as pan-cancer biomarker; matches canonical full name and symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4144732",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Nfil3 crucial for innate lymphoid cell development and host protection; canonical symbol denoting the candidate gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11297963",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Rhythm gene NFIL3 in NFIL3-ACSL4 axis regulating ferroptosis in sepsis-AKI; clearly the candidate gene.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

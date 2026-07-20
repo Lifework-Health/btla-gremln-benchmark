@@ -1,0 +1,15 @@
+{
+  "source": "HGNC complete set",
+  "source_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+  "retrieval_date_utc": "2026-07-20",
+  "sha256": "712d037ba2aa42f06c121aab27d4043d2148472356a0581c8a001139f125ff43",
+  "n_records": 45021,
+  "columns_used": [
+    "symbol",
+    "name",
+    "alias_symbol",
+    "prev_symbol",
+    "ensembl_gene_id",
+    "hgnc_id"
+  ]
+}

@@ -1,0 +1,13 @@
+TF,final_usable_tier,key_eligible_paper_ids,entity_identity_ok,key_paper_relevance_ok,evidence_directness_ok,tier_consistent_with_rubric,reviewer,human_check_status,notes
+AHR,moderate,PMC7419300;PMC3412388,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact']; direct_causal=1, relevant_primary=2"
+BCL3,moderate,PMC5414353;PMC12646068;PMC2660861,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact', 'exact']; direct_causal=3, relevant_primary=3"
+CREM,moderate,PMC5165720;PMC12286855,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact']; direct_causal=0, relevant_primary=1"
+EGR2,strong,PMC3501351;PMC5439026;PMC5946152;PMC2944839,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact', 'exact', 'exact']; direct_causal=2, relevant_primary=4"
+EZH2,moderate,PMC6094952,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact']; direct_causal=1, relevant_primary=1"
+FOXM1,moderate,PMC12515241;PMC9561767,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact']; direct_causal=0, relevant_primary=3"
+FOXP1,moderate,PMC6534289;PMC12487849;PMC13105002,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact', 'exact']; direct_causal=3, relevant_primary=3"
+JUNB,moderate,PMC11884676;PMC11496645,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact']; direct_causal=2, relevant_primary=2"
+MYC,moderate,PMC9360539,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact']; direct_causal=0, relevant_primary=1"
+NFIL3,moderate,PMC11563780;PMC6802641,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact', 'exact']; direct_causal=1, relevant_primary=2"
+PRDM1,strong,PMC9097451,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact']; direct_causal=1, relevant_primary=1"
+ZEB2,moderate,PMC12456470,True,True,True,True,agent-auditor (structured verification),verified,"key papers entity_match=['exact']; direct_causal=0, relevant_primary=1"

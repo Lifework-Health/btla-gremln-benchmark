@@ -1,0 +1,59 @@
+You are validating whether a retrieved paper actually refers to a specific
+human gene / transcription-regulator, or whether a shared symbol or acronym in
+the paper denotes a different entity.
+
+Candidate regulator symbol: {TF}
+Canonical full name: {FULL_NAME}
+Recognised aliases / previous symbols: {ALIASES}
+
+You are given {N} papers returned by a literature search for this regulator. For
+EACH paper, using ONLY the supplied title, abstract and returned passage, decide
+how the paper relates to the candidate regulator's identity. Do not use outside
+knowledge about the papers; you MAY use the provided canonical name and aliases
+to recognise the entity.
+
+Classify entity_match as exactly one of:
+
+- "exact": the paper refers to this regulator by its canonical symbol or full
+  name, clearly denoting this gene / protein.
+- "recognised_alias": the paper refers to it by one of the recognised aliases or
+  previous symbols listed above, clearly denoting this gene / protein.
+- "ambiguous_acronym": the symbol or acronym appears but the supplied text is
+  insufficient to decide whether it denotes this regulator or another meaning.
+- "wrong_entity": the symbol or acronym appears but clearly denotes a DIFFERENT
+  entity — for example "MSC" meaning mesenchymal stromal cells rather than the
+  gene Musculin; "MAF" meaning minor allele frequency; "REL" as a generic
+  relational abbreviation; a construct, cell-line or assay name.
+- "not_mentioned": neither the symbol, the full name, nor any recognised alias
+  appears, or the regulator is not discussed at all.
+
+Set entity_mentioned = true if the symbol, full name or a recognised alias
+appears in the supplied text in ANY sense (including wrong_entity or
+ambiguous_acronym); set it false only for not_mentioned.
+
+MANDATORY RULES
+
+- A search-query match alone is NOT evidence of entity identity.
+- Judge the biological meaning in context, not mere string presence.
+- If you cannot disambiguate a shared acronym from the supplied text, use
+  "ambiguous_acronym", never "exact".
+- Do not expose private chain of thought. Provide a rationale of no more than 25
+  words per paper and a confidence.
+
+Return ONLY valid JSON matching this structure:
+
+{
+  "tf": "",
+  "candidate_symbol": "",
+  "papers_evaluated": 0,
+  "paper_entities": [
+    {
+      "paperclip_result_id": "",
+      "retrieval_rank": 0,
+      "entity_mentioned": true,
+      "entity_match": "exact|recognised_alias|ambiguous_acronym|wrong_entity|not_mentioned",
+      "entity_match_rationale": "",
+      "entity_validation_confidence": "high|moderate|low"
+    }
+  ]
+}

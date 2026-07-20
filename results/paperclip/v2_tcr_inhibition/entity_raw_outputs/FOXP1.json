@@ -1,0 +1,102 @@
+{
+  "tf": "FOXP1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:22:45Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-69d6afda-3f65-466d-bf31-a894682de42e",
+      "agent_id": "agent-c886cb16-9e25-481a-8eee-48da79a6f598",
+      "capture_method": "returned_text",
+      "raw": "```json\n{\n  \"tf\": \"FOXP1\",\n  \"candidate_symbol\": \"FOXP1\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10811915\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly names 'Forkhead-box protein P1 (FOXP1)' as tumor suppressor in cholangiocarcinoma; canonical symbol and full name used.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9576946\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Reviews FOXP1 as transcription-regulator of T-cell quiescence and homeostasis; clearly the forkhead box P1 gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12263946\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"FOXP1 gene expression, promoter methylation and function analyzed in hematologic malignancies; canonical symbol denoting this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6534289\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Describes Foxp1 as forkhead box (Foxp) subfamily member regulating Treg homeostasis; clearly this transcription factor (mouse ortholog).\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12462984\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"FOXP1 syndrome from FOXP1 haploinsufficiency, Foxp1± mice; clearly denotes this gene/protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4633965\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Text discusses FOXP3, FOXO1, PTPN2, STAT5 only; FOXP1 symbol, full name and aliases are absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11729909\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Identifies FOXP1, a forkhead-box-containing transcription factor, regulating ATR activation; canonical symbol denoting this protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12487849\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"FOXP1 as FOXP-subfamily forkhead protein studied in Tregs alongside FOXP4; clearly this gene/protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11724166\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Names 'forkhead box P1 (FOXP1)' in FOXP1/DNMT1/ULK1 axis for endometrial fibrosis; canonical full name and symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC13105002\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"FOXP1 as FOXP3 paralog anchoring Il2ra super-enhancer in Tregs; clearly this transcription factor.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "FOXP1",
+    "candidate_symbol": "FOXP1",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10811915",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly names 'Forkhead-box protein P1 (FOXP1)' as tumor suppressor in cholangiocarcinoma; canonical symbol and full name used.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC9576946",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Reviews FOXP1 as transcription-regulator of T-cell quiescence and homeostasis; clearly the forkhead box P1 gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12263946",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "FOXP1 gene expression, promoter methylation and function analyzed in hematologic malignancies; canonical symbol denoting this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6534289",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Describes Foxp1 as forkhead box (Foxp) subfamily member regulating Treg homeostasis; clearly this transcription factor (mouse ortholog).",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12462984",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "FOXP1 syndrome from FOXP1 haploinsufficiency, Foxp1± mice; clearly denotes this gene/protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4633965",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Text discusses FOXP3, FOXO1, PTPN2, STAT5 only; FOXP1 symbol, full name and aliases are absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11729909",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Identifies FOXP1, a forkhead-box-containing transcription factor, regulating ATR activation; canonical symbol denoting this protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12487849",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "FOXP1 as FOXP-subfamily forkhead protein studied in Tregs alongside FOXP4; clearly this gene/protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11724166",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Names 'forkhead box P1 (FOXP1)' in FOXP1/DNMT1/ULK1 axis for endometrial fibrosis; canonical full name and symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC13105002",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "FOXP1 as FOXP3 paralog anchoring Il2ra super-enhancer in Tregs; clearly this transcription factor.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "tf": "SMAP2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:31:20Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-65303f67-ec86-4e2f-ac60-d05ebf36ae93",
+      "agent_id": "agent-c3c9f64b-c127-4205-9a46-c9bc50aff2d5",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"SMAP2\",\n  \"candidate_symbol\": \"SMAP2\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11106232\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"SMAP2 here is the Arabidopsis SMALL ACIDIC PROTEIN 2 plant gene, not the human small ArfGAP2 regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3842781\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns TCR signaling kinetics in T cells; no SMAP2, small ArfGAP2, or SMAP1L appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 phosphorylation and TCR signaling; no SMAP2, small ArfGAP2, or SMAP1L mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196323\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns TCR-CD3-zeta complex degradation; no SMAP2, small ArfGAP2, or SMAP1L appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper reviews TCR repertoire analysis for immunotherapy; no SMAP2, small ArfGAP2, or SMAP1L mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10555889\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PD-1 and TCR ligand potency; no SMAP2, small ArfGAP2, or SMAP1L appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns EBV CD4 TCR immunotherapy for nasopharyngeal cancer; no SMAP2, small ArfGAP2, or SMAP1L mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8124730\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns optogenetic tuning of TCR ligand half-life; no SMAP2, small ArfGAP2, or SMAP1L appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns a diffusion model for TCR generation and binding; no SMAP2, small ArfGAP2, or SMAP1L mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2195826\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns SLAP (Src-like adaptor protein), a distinct molecule; no SMAP2, small ArfGAP2, or SMAP1L appears.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "SMAP2",
+    "candidate_symbol": "SMAP2",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11106232",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "SMAP2 here is the Arabidopsis SMALL ACIDIC PROTEIN 2 plant gene, not the human small ArfGAP2 regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3842781",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns TCR signaling kinetics in T cells; no SMAP2, small ArfGAP2, or SMAP1L appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 3,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 phosphorylation and TCR signaling; no SMAP2, small ArfGAP2, or SMAP1L mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2196323",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns TCR-CD3-zeta complex degradation; no SMAP2, small ArfGAP2, or SMAP1L appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper reviews TCR repertoire analysis for immunotherapy; no SMAP2, small ArfGAP2, or SMAP1L mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10555889",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PD-1 and TCR ligand potency; no SMAP2, small ArfGAP2, or SMAP1L appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns EBV CD4 TCR immunotherapy for nasopharyngeal cancer; no SMAP2, small ArfGAP2, or SMAP1L mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8124730",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns optogenetic tuning of TCR ligand half-life; no SMAP2, small ArfGAP2, or SMAP1L appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns a diffusion model for TCR generation and binding; no SMAP2, small ArfGAP2, or SMAP1L mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2195826",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns SLAP (Src-like adaptor protein), a distinct molecule; no SMAP2, small ArfGAP2, or SMAP1L appears.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

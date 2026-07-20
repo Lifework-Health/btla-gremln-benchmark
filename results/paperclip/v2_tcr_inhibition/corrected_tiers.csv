@@ -1,0 +1,44 @@
+TF,candidate_group,legacy_judge_tier,legacy_final_usable_tier,entity_ineligible_removed_relevant,entity_ineligible_removed_key,rerun_required,rerun_judge_tier,rerun_rubric_valid,corrected_final_usable_tier,rerun_input_sha256,rerun_output_sha256,change_reason
+AHR,gremln_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+BCL3,gremln_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+BHLHE40,genie3_only,weak,weak,,,False,,,weak,,,unchanged: entity gate removed no relevant/key paper
+CREM,shared,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+CYCS,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+EGR2,genie3_only,strong,strong,,,False,,,strong,,,unchanged: entity gate removed no relevant/key paper
+EZH2,gremln_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+FOXM1,genie3_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+FOXP1,genie3_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+GAR1,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+GTF2A2,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+GTF3C2,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+HIRIP3,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+HIVEP3,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+HMGN3,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+ID2,genie3_only,weak,weak,,,False,,,weak,,,unchanged: entity gate removed no relevant/key paper
+IRF8,shared,weak,weak,,,False,,,weak,,,unchanged: entity gate removed no relevant/key paper
+JUNB,shared,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+KIF22,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+MAF,genie3_only,weak,weak,,,False,,,weak,,,unchanged: entity gate removed no relevant/key paper
+MDM2,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+MLX,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+MSC,gremln_only,strong,strong,PMC7937648;PMC7795906;PMC3854780;PMC12126738;PMC10900800;PMC3444478,PMC7937648,True,none,True,none,4b274359429ec3aa754415237e0b0734a1cd1a05a6251ff6b8969d015f753da9,0697c2a1e2a7bb2048c0ced431e3fc01843ed72fb859ca24772c742676d22eb3,entity-filtered rerun tier=none; rubric passed
+MYC,genie3_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+NFIL3,gremln_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+NR4A2,genie3_only,strong,missing,PMC12889511,PMC12889511,False,,,missing,,,unchanged: missing outcome preserved (not rerun)
+PLAGL2,shared,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+PRDM1,shared,strong,strong,,,False,,,strong,,,unchanged: entity gate removed no relevant/key paper
+RBPJ,gremln_only,weak,weak,,,False,,,weak,,,unchanged: entity gate removed no relevant/key paper
+SMAP2,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+SNAPC4,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+SRP9,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+STAT1,shared,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+STAT4,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+STAT5B,genie3_only,weak,weak,,,False,,,weak,,,unchanged: entity gate removed no relevant/key paper
+STAU2,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+TFDP1,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+TGIF1,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+TRAF4,genie3_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+ZBTB32,shared,weak,weak,,,False,,,weak,,,unchanged: entity gate removed no relevant/key paper
+ZEB2,genie3_only,moderate,moderate,,,False,,,moderate,,,unchanged: entity gate removed no relevant/key paper
+ZNF121,gremln_only,none,none,PMC11237943,,False,,,none,,,unchanged: entity gate removed no relevant/key paper
+ZNF706,gremln_only,none,none,,,False,,,none,,,unchanged: entity gate removed no relevant/key paper

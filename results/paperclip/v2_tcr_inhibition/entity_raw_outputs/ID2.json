@@ -1,0 +1,102 @@
+{
+  "tf": "ID2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:25:54Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-a1d533c1-bfd6-458b-8334-d802a4e67efa",
+      "agent_id": "agent-e8197db1-9514-4952-acc9-2201620da228",
+      "capture_method": "returned_text",
+      "raw": "```json\n{\n  \"tf\": \"ID2\",\n  \"candidate_symbol\": \"ID2\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10902300\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly 'Inhibitor of DNA binding protein 2 (Id2)', an HLH factor binding Tcf3 — the canonical gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11208273\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Spells out 'Inhibitor of DNA Binding 2 (ID2)', matching the canonical full name and symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8056751\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"ID2 described as transcription factor/repressor controlling NK cell development and TCF1, consistent with the canonical gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11885165\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"'Inhibitor of differentiation 2 (Id2)' is the same HLH regulator; standard alternate name clearly denoting this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2824806\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns Id3 (Inhibitor of DNA Binding 3), a different gene; ID2 symbol/name/alias not present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10814654\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"ID2 studied as regulator driving prostate cancer lineage plasticity via JAK/STAT and FGFR — the canonical gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12425045\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"'Transcriptional regulator ID2' antagonizing E proteins at E-boxes; clearly the canonical HLH gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4915968\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Id2 as Id protein inhibiting E2A/E proteins in T cell differentiation, denoting the canonical gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3061294\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Defines 'inhibitor of DNA binding 2 (Id2)' as HLH transcription factor; matches canonical full name.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12147642\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"ID2 referenced in a molecular CDK6/ID2 axis regulating Th17 differentiation, consistent with the gene; abstract absent.\",\n      \"entity_validation_confidence\": \"moderate\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ID2",
+    "candidate_symbol": "ID2",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10902300",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly 'Inhibitor of DNA binding protein 2 (Id2)', an HLH factor binding Tcf3 — the canonical gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11208273",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Spells out 'Inhibitor of DNA Binding 2 (ID2)', matching the canonical full name and symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8056751",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "ID2 described as transcription factor/repressor controlling NK cell development and TCF1, consistent with the canonical gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11885165",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "'Inhibitor of differentiation 2 (Id2)' is the same HLH regulator; standard alternate name clearly denoting this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2824806",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns Id3 (Inhibitor of DNA Binding 3), a different gene; ID2 symbol/name/alias not present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10814654",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "ID2 studied as regulator driving prostate cancer lineage plasticity via JAK/STAT and FGFR — the canonical gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12425045",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "'Transcriptional regulator ID2' antagonizing E proteins at E-boxes; clearly the canonical HLH gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4915968",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Id2 as Id protein inhibiting E2A/E proteins in T cell differentiation, denoting the canonical gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3061294",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Defines 'inhibitor of DNA binding 2 (Id2)' as HLH transcription factor; matches canonical full name.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12147642",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "ID2 referenced in a molecular CDK6/ID2 axis regulating Th17 differentiation, consistent with the gene; abstract absent.",
+        "entity_validation_confidence": "moderate"
+      }
+    ]
+  }
+}
