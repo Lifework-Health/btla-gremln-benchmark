@@ -60,7 +60,10 @@ PROMPT_REL = "prompts/paperclip_tcr_inhibition_judge_v1.txt"
 SCHEMA_REL = "schemas/paperclip_tcr_inhibition_judge_v1.schema.json"
 OUT_REL = "results/paperclip/v2_tcr_inhibition"
 DRY_TFS = ["EGR2", "AHR", "KIF22"]
-DEFAULT_JUDGE_MODEL = os.environ.get("PAPERCLIP_JUDGE_MODEL", "claude-4.5-sonnet")
+# Strongest Claude available in the account catalogue at build time; override with
+# --judge-model or PAPERCLIP_JUDGE_MODEL. The recorded model in run_manifest.json
+# always reflects the model that actually produced the cached judgements.
+DEFAULT_JUDGE_MODEL = os.environ.get("PAPERCLIP_JUDGE_MODEL", "claude-opus-4-8")
 JUDGE_MODEL_FALLBACK = "composer-2.5"
 
 
@@ -762,6 +765,7 @@ def stage_judge(repo: Path, out: Path, tfs: list, model: str, use_cache: bool) -
             stats["completed"] += 1
         stats["results"][tf] = {
             "parsed": parsed,
+            "model": record.get("model", model),
             "output_sha256": sha256_text(json.dumps(record, sort_keys=True)),
         }
 
@@ -788,6 +792,14 @@ def stage_rubric_and_summary(repo: Path, out: Path, tfs: list, judge_stats: dict
     group = dict(zip(union["TF"], union["candidate_group"]))
     in_gr = dict(zip(union["TF"], union["in_gremln_top25"]))
     in_g3 = dict(zip(union["TF"], union["in_genie3_top25"]))
+
+    # The recorded judge model must reflect what actually produced the cached
+    # judgements, not whatever --judge-model happened to be passed to a later
+    # rubric/summary regeneration.
+    _rec_models = {r.get("model") for r in judge_stats.get("results", {}).values()
+                   if r.get("model")}
+    effective_model = (sorted(_rec_models)[0] if len(_rec_models) == 1
+                       else (";".join(sorted(_rec_models)) if _rec_models else model))
 
     tier_rows = []
     paper_rows = []
@@ -843,7 +855,7 @@ def stage_rubric_and_summary(repo: Path, out: Path, tfs: list, judge_stats: dict
             "confidence": (parsed or {}).get("confidence", "") if parsed else "",
             "judge_input_sha256": jin_sha,
             "judge_output_sha256": jres.get("output_sha256", ""),
-            "model_id": model,
+            "model_id": jres.get("model") or effective_model,
             "prompt_sha256": prompt_sha,
         })
 
@@ -883,7 +895,8 @@ def stage_rubric_and_summary(repo: Path, out: Path, tfs: list, judge_stats: dict
         "paperclip_source_scope": PAPERCLIP_SOURCE,
         "paperclip_invocation": run_meta.get("paperclip_command_example", ""),
         "paperclip_version": version,
-        "judge_model_identifier": model,
+        "judge_model_identifier": effective_model,
+        "judge_model_identifier_requested": model,
         "judge_parameters": {
             "temperature": "not_supported(cursor_sdk_agent)",
             "top_p": "not_supported(cursor_sdk_agent)",
@@ -914,7 +927,7 @@ def stage_rubric_and_summary(repo: Path, out: Path, tfs: list, judge_stats: dict
 
     # ---- audit summary ----
     _write_audit_summary(out, tier_df, log, retr_stats, judge_stats, tier_counts,
-                         rubric_fail, model, version)
+                         rubric_fail, effective_model, version)
     print(f"[summary] tiers: {tier_counts}; rubric failures: {len(rubric_fail)}")
     return {"tier_counts": tier_counts, "rubric_failures": rubric_fail}
 
@@ -1096,6 +1109,7 @@ def _reload_judge(out: Path, tfs: list) -> dict:
             stats["parse_failures"].append(tf)
         stats["results"][tf] = {
             "parsed": parsed,
+            "model": record.get("model"),
             "output_sha256": sha256_text(json.dumps(record, sort_keys=True)),
         }
     return stats

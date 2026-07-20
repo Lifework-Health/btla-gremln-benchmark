@@ -2,7 +2,7 @@
 
 > **Audit output only — manuscript and benchmark verdict not yet updated.**
 
-- Judge model: `claude-4.5-sonnet`  |  Paperclip: `paperclip, version 0.6.2`  |  query template: `{TF} TCR inhibition`  |  top_k = 10
+- Judge model: `claude-opus-4-8`  |  Paperclip: `paperclip, version 0.6.2`  |  query template: `{TF} TCR inhibition`  |  top_k = 10
 
 ## Retrieval
 - Candidate regulators (queries): **43**
