@@ -1,0 +1,108 @@
+{
+  "tf": "CREM",
+  "query": "CREM TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC12286855",
+      "rank": 1,
+      "title": "CREM is a regulatory checkpoint of CAR and IL-15 signalling in NK cells",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Chimeric antigen receptor (CAR) natural killer (NK) cell immunotherapy offers a promising approach against cancer 1 – 3 . However, the molecular mechanisms that regulate CAR-NK cell activity remain unclear. Here we identify the transcription factor cyclic AMP response element modulator (CREM) as a crucial regulator of NK cell function. Transcriptomic analysis revealed a significant induction of  CREM  in CAR-NK cells during the peak of effector function after adoptive transfer in a tumour mouse model, and this peak coincided with signatures of both activation and dysfunction. We demonstrate that both CAR activation and interleukin-15 signalling rapidly induce CREM upregulation in NK cells. Functionally, CREM deletion enhances CAR-NK cell effector function both in vitro and in vivo and increases resistance to tumour-induced immunosuppression after rechallenge. Mechanistically, we establish that induction of  CREM  is mediated by the PKA–CREB signalling pathway, which can be activated by immunoreceptor tyrosine-based activation motif signalling downstream of CAR activation or by interleukin-15. Finally, our findings reveal that CREM exerts its regulatory functions through epigenetic reprogramming of CAR-NK cells. Our results provide support for CREM as a therapeutic target to enhance the antitumour efficacy of CAR-NK cells.",
+      "relevant_passages": "This study identified CREM as a regulator of CAR and IL-15 signaling in NK cells. Deleting CREM enhances CAR-NK cell anti-tumor function and resistance to immunosuppression.",
+      "doi_or_pmcid": "10.1038/s41586-025-09087-8"
+    },
+    {
+      "paperclip_result_id": "PMC5165720",
+      "rank": 2,
+      "title": "CREM Alpha Enhances IL-21 Production in T Cells  In Vivo  and  In Vitro",
+      "year": "2016",
+      "publication_type": "research-article",
+      "abstract": "The cAMP-responsive element modulator alpha (CREMα) plays a role in autoimmunity and, in particular, in systemic lupus erythematosus. CREMα negatively regulates IL-2 transcription and activates IL-17 expression by direct transcriptional mechanisms. To understand the role of CREM in autoimmunity, we recently generated a mouse with a transgenic overexpression of CREMα selectively in T cells. This mouse is characterized by enhanced IL-17 and IL-21 expression. We, herein, dissect the transcriptional mechanisms of enhanced IL-21 transcription in these mice. T cells of CREMα transgenic mice display an enhanced binding of CREMα to the CD3ζ chain promoter resulting in decreased CD3ζ chain expression. This is accompanied by a decreased excitation threshold and enhanced Ca 2+  influx, which is known to induce IL-21 expression  via  NFATc2 activation. However, CREMα directly binds to cAMP-response element (CRE) half-site within the  Il-21  promoter, which results in enhanced promoter activity shown by promoter reporter assays. CREMα-induced IL-21 transcription is not abrogated in the presence of cyclosporine A but depends on an intact CRE site within the IL-21 promoter, which suggests that CREM largely enhances IL-21 expression by direct transcriptional regulation. IL-21 transcription is critical for IL-17 generation in these mice, since IL-21 receptor blockade downregulates IL-17 transcription to wild-type levels. Finally, this is of functional relevance since CREMα transgenic mice display enhanced disease activity in dextran sodium sulfate-induced colitis accompanied by higher local IL-21 expression. Thus, we describe two novel mechanisms of CREMα-dependent IL-21 transcription. Since T cells of systemic lupus erythematosus patients are characterized by enhanced IL-21 transcription, this might also be of functional relevance in humans.",
+      "relevant_passages": "CREM alpha was studied for its role in IL-21 production in T cells. CREM alpha directly enhances IL-21 transcription, contributing to increased disease activity.",
+      "doi_or_pmcid": "10.3389/fimmu.2016.00618"
+    },
+    {
+      "paperclip_result_id": "PMC12641238",
+      "rank": 3,
+      "title": "Defining Critical Emergency Medicine ( CrEM ): A Delphi Study From Scandinavia",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Critical emergency medicine (CrEM) is one of four subspecialty pillars within anesthesiology and intensive care medicine, as defined by the Scandinavian Society of Anesthesiology and Intensive Care Medicine (SSAI). Despite its recognized clinical relevance, a comprehensive definition of CrEM has until now been lacking. The aim of this study was to establish a consensus‐based definition of CrEM and delineate its core components, competencies, and operational domains. A modified Delphi study was conducted among experts from the SSAI‐CrEM education program. The process involved two iterative rounds followed by external validation with alumni from previous CrEM programs. Statements for evaluation were generated from participant essays and refined by a steering committee of experienced consultants. Consensus was defined as ≥ 90% agreement. Of 44 initial statements, 37 reached consensus and were organized into six thematic domains: (1) Core Function and Scope, (2) Competence and Training, (3) Work Environment and Challenges, (4) Interdisciplinary and Teamwork Approach, (5) Ethical and Decision‐Making Responsibilities, and (6) Need for Research and Continuous Development. CrEM was defined as a physician‐led, context‐adapted subspecialty focusing on rapid stabilization, life‐saving interventions, and high‐acuity care across diverse clinical, and prehospital environments. The results emphasize the need for structured training, ethical competence, leadership in multidisciplinary teams, and ongoing scientific development. CrEM constitutes a distinct and essential subspecialty within anesthesiology and intensive care medicine, bridging advanced emergency care across institutional boundaries. This study provides a structured definition and framework that may support curriculum development, clinical governance, and research initiatives within the field. Future work should aim to further validate these findings and guide the evolution of CrEM in both clinical and academic contexts. This Delphi process report presents the practice and training concepts for critical emergency medicine as a subspecialty of Anesthesia and Intensive Care Medicine in the Nordic country medical context. Perhaps particular for the Nordic countries, which combine medical specialty expertise and practice areas for perioperative medicine, intensive care medicine, pain medicine, and emergency (critical) prehospital care, this document describes current goals in susbpecialty education for the Nordic practice tradition for critical emergency medicine.",
+      "relevant_passages": "A Delphi study defined Critical Emergency Medicine (CrEM) by identifying its core components and domains. CrEM is a physician-led subspecialty focused on rapid, high-acuity care across diverse environments, requiring structured training and ethical competence.",
+      "doi_or_pmcid": "10.1111/aas.70150"
+    },
+    {
+      "paperclip_result_id": "PMC4770719",
+      "rank": 4,
+      "title": "The cAMP response element modulator (CREM) regulates T H 2 mediated inflammation",
+      "year": "2015",
+      "publication_type": "research-article",
+      "abstract": "A characteristic feature of allergic diseases is the appearance of a subset of CD4 +  cells known as T H 2 cells, which is controlled by transcriptional and epigenetic mechanisms. We aimed to analyze the role of CREM, a known transcriptional activator of T cells, with regard to T H 2 responses and allergic diseases in men and mice. Here we demonstrate that T cells of asthmatic children and PBMCs of adults with atopy express lower mRNA levels of the transcription factor CREM compared to cells from healthy controls. CREM deficiency in murine T cells results in enhanced T H 2 effector cytokines  in vitro  and  in vivo  and CREM −/−  mice demonstrate stronger airway hyperresponsiveness in an OVA-induced asthma model. Mechanistically, both direct CREM binding to the  IL-4  and  IL-13  promoter as well as a decreased IL-2 dependent STAT5 activation suppress the T H 2 response. Accordingly, mice selectively overexpressing CREMα in T cells display decreased T H 2 type cytokines  in vivo  and  in vitro,  and are protected in an asthma model. Thus, we provide evidence that CREM is a negative regulator of the T H 2 response and determines the outcome of allergic asthma.",
+      "relevant_passages": "The study investigated the role of CREM in T H 2 mediated inflammation. CREM acts as a negative regulator of T H 2 responses, and its deficiency exacerbates allergic asthma.",
+      "doi_or_pmcid": "PMC4770719"
+    },
+    {
+      "paperclip_result_id": "PMC12138204",
+      "rank": 5,
+      "title": "Potential Role of  CREM  in Diabetes‐Associated Testicular Dysfunction: Current Evidence and Future Perspectives",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Type 2 diabetes mellitus (T2D) is a growing metabolic disorder affecting all age groups and is linked to testiculopathy, a key contributor to male infertility. Testiculopathy disrupts spermatogenesis and the sperm microenvironment, with the cyclic adenosine monophosphate (cAMP) response element modulator (CREM) playing a pivotal role in testicular function. Understanding the interplay between T2D and CREM dysregulation is essential for developing targeted therapies for diabetic testicular dysfunction. A systematic review of PubMed, Web of Science, Scopus, and Google Scholar was conducted to identify peer‐reviewed studies, both preclinical and clinical, that explored CREM's role in diabetes‐induced testicular dysfunction. Extracted data focused on CREM expression, oxidative stress, apoptosis, and spermatogenic impairment in diabetic models. Research from studies on diabetic patients and animal models highlights the detrimental effects of diabetes on the reproductive system, including hypothalamic–pituitary–testicular (HPT) axis dysregulation. CREM regulates spermatogenic gene expression, influenced by luteinizing hormone (LH), follicle‐stimulating hormone (FSH), and cAMP signaling. CREM has a therapeutic role in maintaining testicular function, and its disruption may contribute to testiculopathy in T2D, highlighting its potential therapeutic target for preserving male fertility in diabetic patients. Further research is needed to explore its molecular mechanisms and therapeutic implications.",
+      "relevant_passages": "This paper reviews evidence on CREM's role in diabetes-associated testicular dysfunction. Findings suggest CREM disruption contributes to male infertility in type 2 diabetes, indicating its potential as a therapeutic target.",
+      "doi_or_pmcid": "10.1002/rmb2.12661"
+    },
+    {
+      "paperclip_result_id": "PMC5056420",
+      "rank": 6,
+      "title": "ICER is requisite for Th17 differentiation",
+      "year": "2016",
+      "publication_type": "research-article",
+      "abstract": "Inducible cAMP early repressor (ICER) has been described as a transcriptional repressor isoform of the cAMP response element modulator (CREM). Here we report that ICER is predominantly expressed in Th17 cells through the IL-6–STAT3 pathway and binds to the  Il17a  promoter, where it facilitates the accumulation of the canonical enhancer RORγt.  In vitro  differentiation from naive ICER/CREM-deficient CD4 +  T cells to Th17 cells is impaired but can be rescued by forced overexpression of ICER. Consistent with a role of Th17 cells in autoimmune and inflammatory diseases, ICER/CREM-deficient B6 .lpr  mice are protected from developing autoimmunity. Similarly, both anti-glomerular basement membrane-induced glomerulonephritis and experimental encephalomyelitis are attenuated in ICER/CREM-deficient mice compared with their ICER/CREM-sufficient littermates. Importantly, we find ICER overexpressed in CD4 +  T cells from patients with systemic lupus erythematosus. Collectively, our findings identify a unique role for ICER, which affects both organ-specific and systemic autoimmunity in a Th17-dependent manner.",
+      "relevant_passages": "ICER's role in Th17 cell differentiation and autoimmunity was investigated. ICER is essential for Th17 differentiation and promotes autoimmune diseases, with its overexpression found in lupus patients.",
+      "doi_or_pmcid": "10.1038/ncomms12993"
+    },
+    {
+      "paperclip_result_id": "PMC12345263",
+      "rank": 7,
+      "title": "The cAMP responsive element modulator (CREM) transcription factor influences susceptibility to undernutrition and infection",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Undernutrition and diarrheal disease are leading causes of global childhood morbidity and mortality. Undernutrition can present as a cause or consequence of diarrheal diseases, leading us to hypothesize these phenotypes share a common genetic basis. Our identification of cAMP responsive element modulator ( CREM ) as a transcriptional regulator that influences susceptibility to both undernutrition and diarrheal disease in children growing up in an impoverished Bangladeshi community advances our understanding of the interaction of two major causes of childhood illness and offers the potential of therapy targeted to the cAMP-regulated transcription factor,  CREM . We previously identified genetic polymorphisms associated with  Entamoeba histolytica -positive diarrhea at the locus containing the transcription factor, cAMP responsive element modulator ( CREM ). Genetic association testing in birth cohorts of Bangladeshi children showed the previously described single nucleotide polymorphisms (SNPs) at the  CREM  locus associated with  E. histolytica- positive diarrhea were independently associated with undernutrition at 1 year of age. The reference allele for both tested SNPs was associated with lower weight-for-age z-scores (WAZ) at 1 year of age (rs2148483: 0.161 reduction in WAZ per allele,  P  = 0.007; rs58000832: 0.203 reduction in WAZ,  P  = 0.001). Small intestinal transcriptome data from Bangladeshi and American children revealed differentially expressed genes (DEGs) were enriched for cAMP response element-binding sites. DEGs related to mitochondrial function were upregulated in the small intestine of children with the rs2148483 reference allele, while adaptive immune response processes were enriched among downregulated genes. Upregulation of mitochondrial function was mirrored by plasma metabolomics profiles concordant with a shift toward mitochondrial respiration. In mice, global conditional deletion of  Crem  resulted in reduced body weight, downregulation of genes related to innate immune function, and upregulation of metabolic gene expression in the intestine. Tissue-specific deletion of  Crem  in intestinal epithelial cells was sufficient to reduce overall body weight and alter intestinal expression of mitochondrial-related metabolic genes but not immune gene transcription. These data indicate that intestinal epithelial expression of  Crem  is linked to body weight, plausibly by regulation of mitochondrial gene expression, while  Crem  expression in other cell types influences the immune response to  E. histolytica .",
+      "relevant_passages": "CREM transcription factor polymorphisms were studied for their association with undernutrition and diarrheal disease. These CREM variants are linked to increased susceptibility to both conditions, suggesting a shared genetic basis.",
+      "doi_or_pmcid": "10.1128/mbio.01390-25"
+    },
+    {
+      "paperclip_result_id": "PMC5704088",
+      "rank": 8,
+      "title": "Cyclic AMP-Responsive Element-Binding Protein (CREB) is Critical in Autoimmunity by Promoting Th17 but Inhibiting Treg Cell Differentiation",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "The molecular mechanisms that govern differential T cell development into pro-inflammatory Th17  vs.  regulatory T (Treg) cells remain unclear. Here, we show that selective deletion of CREB in T cells or Th17 cells impaired Th17 cell differentiation  in vitro  and  in vivo , and led to resistance to autoimmune diseases. Mechanistically, CREB, activated by CD3-PKC-ϴ signaling, plays a key role in regulating Th17 cell differentiation, at least in part through directly binding to the  Il17-Il17f  gene locus. Unexpectedly, although dispensable for FOXP3 expression and for the homeostasis and suppressive function of thymus-derived Treg cells, CREB negatively regulates the survival of TGF-β-induced Treg cells, and deletion of CREB resulted in increased FOXP3 + Treg cells in the intestine and protection in a colitis model. Thus, CREB is critical in autoimmune diseases by promoting Th17 cell and inhibiting  de novo  Treg cell generation.",
+      "relevant_passages": "CREB deletion in T cells impairs Th17 differentiation and protects against autoimmune disease. CREB also inhibits Treg cell generation, with its absence increasing Treg numbers and conferring protection.",
+      "doi_or_pmcid": "10.1016/j.ebiom.2017.10.010"
+    },
+    {
+      "paperclip_result_id": "PMC11999874",
+      "rank": 9,
+      "title": "Gastric Epithelioid Mesenchymal Tumor with the  EWSR1::CREM  Fusion Gene: A Case Report",
+      "year": "2025",
+      "publication_type": "case-report",
+      "abstract": "In recent years, new molecularly defined tumor groups have been reported among tumors previously considered unclassifiable. Among them, gene fusions involving the CREB family of transcription factors, including cAMP-responsive element modulator ( CREM ), with genes encoding FET family RNA-binding proteins, such as Ewing sarcoma breakpoint region 1 ( EWSR1 ), have recently been shown to be implicated in driving the pathogenesis of various tumor types. Here, we report our experience with a gastric mesenchymal tumor with epithelioid histology and an  EWSR1::CREM  fusion, which is rare but requires caution. A 58-year-old man with epigastric pain underwent esophagogastroduodenoscopy, which revealed a submucosal tumor, 40 × 30 mm in size, at the greater curvature of the upper gastric body. Surgical resection was scheduled because of easy bleeding from the tumor and because biopsy could not establish a diagnosis. The tumor was clinically considered benign because there was no significant accumulation on positron emission tomography scans. Therefore, we performed a local resection of the stomach. Histologically, the tumor consisted of a proliferation of keratin-positive, relatively uniform epithelioid cells arranged in sheets, with a scattering of lymphoid follicles in the surrounding area. Based on a pathology consultation, the tumor was diagnosed as a mesenchymal tumor with  EWSR1::CREM  fusion. We experienced a gastric epithelioid mesenchymal tumor with  EWSR1::CREM  fusion genes. Since a malignant course has been reported in similar tumors in the stomach and abdominal cavity, such patients require careful follow-up.",
+      "relevant_passages": "A gastric mesenchymal tumor with epithelioid histology and an EWSR1::CREM fusion gene was reported. This rare tumor requires careful follow-up due to potential malignant courses in similar cases.",
+      "doi_or_pmcid": "10.70352/scrj.cr.24-0137"
+    },
+    {
+      "paperclip_result_id": "PMC6011589",
+      "rank": 10,
+      "title": "The transcription factor CREM drives an inflammatory phenotype of T cells in oligoarticular juvenile idiopathic arthritis",
+      "year": "2018",
+      "publication_type": "research-article",
+      "abstract": "Inflammatory effector T cells trigger inflammation despite increased numbers of Treg cells in the synovial joint of patients suffering from juvenile idiopathic arthritis (JIA). The cAMP response element (CREM)α is known to play a major role in regulation of T cells in SLE, colitis, and EAE. However, its role in regulation of effector T cells within the inflammatory joint is unknown. CREM expression was analyzed in synovial fluid cells from oligoarticular JIA patients by flow cytometry. Peripheral blood mononuclear cells were incubated with synovial fluid and analyzed in the presence and absence of CREM using siRNA experiments for T cell phenotypes. To validate the role of CREM in vivo, ovalbumin-induced T cell dependent arthritis experiments were performed. CREM is highly expressed in synovial fluid T cells and its expression can be induced by treating healthy control PBMCs with synovial fluid. Specifically, CREM is more abundant in CD161 +  subsets, than CD161 −  subsets, of T cells and contributes to cytokine expression by these cells. Finally, development of ovalbumin-induced experimental arthritis is ameliorated in mice with adoptively transferred CREM −/−  T cells. In conclusion, our study reveals that beyond its role in SLE T cells CREM also drives an inflammatory phenotype of T cells in JIA.",
+      "relevant_passages": "CREM transcription factor expression was analyzed in T cells from juvenile idiopathic arthritis patients and in mouse models. High CREM expression drives T cell inflammation in oligoarticular JIA.",
+      "doi_or_pmcid": "10.1186/s12969-018-0253-x"
+    }
+  ]
+}

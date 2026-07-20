@@ -1,0 +1,108 @@
+{
+  "tf": "PRDM1",
+  "query": "PRDM1 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC12789010",
+      "rank": 1,
+      "title": "Key regulatory roles of PRDM1 in human NK-cell differentiation and activation",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "PRDM1 , encoding a transcription factor (TF), regulates plasma cell and CD8 +  T-cell terminal differentiation and T h 2 lineage specification, while its role in human NK-cell differentiation and homeostasis is largely unknown. Here, we employed a multi-omics approach to dissect the transcriptional control of PRDM1 on human NK-cells. PRDM1 is important in NK-cell terminal differentiation based on gene expression profiling and its targeting of key regulators in the process.  PRDM1 -deleted NK-cells displayed a less mature phenotype simulating the CD56 bright  NK-cell population accompanied by upregulation of stem-like gene signatures. PRDM1-bound genes were enriched in T/NK-cell receptor signaling, activation, and NK-cell effector functions. PRDM1 could function as a transcriptional repressor as well as an activator as its activities may be modified by association with different TFs and co-factors. The kinetics of its action also varies among its target genes. As a homeostatic factor, PRDM1 is induced upon IL-2 and feeder cell stimulation, but its ability to restrict NK-cell growth upon feeder stimulation may be counteracted by the AP-1-induced transcriptional network. The loss of  PRDM1  activity is frequent in NK-cell malignancies which may lead to decreased homeostatic control, impaired terminal differentiation, enhanced cellular fitness, and the acquisition of more stem-like features, thereby promoting lymphomagenesis.",
+      "relevant_passages": "PRDM1's role in human NK-cell differentiation and activation was studied using multi-omics. PRDM1 is crucial for NK-cell terminal differentiation and effector functions, with its loss linked to NK-cell malignancies.",
+      "doi_or_pmcid": "10.1038/s41375-025-02815-z"
+    },
+    {
+      "paperclip_result_id": "PMC11962401",
+      "rank": 2,
+      "title": "PRDM1  Is a Key Regulator of the NKT-cell Central Memory Program and Effector Function",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Using an unbiased, high-throughput CRISPR/Cas9 mutagenesis screen, the authors identify  PRDM1  as a regulator of NKT-cell (NKT) functional fitness.  PRDM1  knockdown in CAR NKTs enhances their anti-neuroblastoma activity, suggesting an approach to improve the efficacy of NKT-based cancer immunotherapies.",
+      "relevant_passages": "A CRISPR screen identified PRDM1 as a regulator of NKT-cell function. Knocking down PRDM1 in CAR NKTs improves their anti-neuroblastoma activity.",
+      "doi_or_pmcid": "10.1158/2326-6066.CIR-24-0259"
+    },
+    {
+      "paperclip_result_id": "PMC12067916",
+      "rank": 3,
+      "title": "MiR- 223 alleviates the heat-stress-induced inhibition of cell proliferation by targeting PRDM1",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Heat stress, exacerbated by global warming, has emerged as a significant concern for both the health of dairy cattle and the quality of milk production. In vitro investigations suggest that primary bovine mammary epithelial cells exhibit enhanced levels of programmed cell death when subjected to elevated ambient temperatures, potentially resulting in a reduction in the total number of mammary epithelial cells within the mammary gland, thereby partially elucidating the diminished milk yield in lactating cows under heat stress. In vivo, heat stress affects both milk synthesis and secretion by directly acting on mammary epithelial cells and by altering hormonal levels and metabolic pathways, which can lead to long-term effects on mammary growth. Future research should focus on elucidating the molecular mechanisms by which heat stress regulates mammary development. Previous studies have demonstrated that heat stress induction results in a significant downregulation of miR- 223 in MAC-T cells; therefore, miR- 223 may play a crucial role in the response to heat stress. Nevertheless, the mechanism by which miR- 223 confers resistance to heat stress in MAC-T remains unclear. Here, to investigate how miR- 223 regulates the proliferation of MAC-T cells, we performed a combination of miRNA- 223 overexpression and inhibition strategies. We transfected MAC-T cells with miR- 223 mimics or inhibitors and evaluated the impact on cell proliferation using CCK- 8 assay, EdU assay, and RT-qPCR. Additionally, MAC-T cells subjected to heat stress were used to investigate how miR- 223 and its target gene regulate cell proliferation under heat stress, either by promoting or alleviating the inhibition of cell proliferation, as assessed by EdU assay, CCK- 8 assay, and RT-qPCR. In this study, we investigated the effects of heat stress on MAC-T cell proliferation and gene expression. Bioinformatics analysis identified PRDM1 as a key regulator of proliferation, and it was selected for further investigation. RT-qPCR validated the upregulation of PRDM1 under heat stress, confirming its role in regulating cell proliferation. The results revealed that miR- 223 mimic promoted cell proliferation, with PRDM1 identified as its target gene. Importantly, after heat stress, the miR- 223 mimic or the knockdown of PRDM1 in MAC-T was proven to partially reverse the inhibition of proliferation. Consequently, the miR- 223 targeting PRDM1 might be important in alleviating heat-stress-induced inhibition of cell proliferation. This would potentially alleviate heat stress-induced damage to the mammary gland, thereby improving milk production in dairy cows. The online version contains supplementary material available at 10.1186/s12864-025-11567-0.",
+      "relevant_passages": "This study investigated how miR-223 affects MAC-T cell proliferation under heat stress. miR-223 alleviates heat-stress-induced inhibition of cell proliferation by targeting PRDM1.",
+      "doi_or_pmcid": "10.1186/s12864-025-11567-0"
+    },
+    {
+      "paperclip_result_id": "PMC11699622",
+      "rank": 4,
+      "title": "Activated PRDM1-CREBBP contributes to preeclampsia by regulating apoptosis and invasion of the human trophoblast cells",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Preeclampsia (PE) is a multifactorial disorder of pregnancy, characterized by new-onset gestational hypertension. High-throughput mRNA sequencing (RNA-seq) was performed to analyze the gene expression patterns in placentas from patients with early-onset PE (EOPE). PR domain zinc-finger protein 1 (PRDM1) expression increased in the chorionic villi and placental basal plate from patients with PE and nitro- l -arginine methyl ester (L-NAME)-treated rats. Inhibition of PRDM1 enhanced trophoblast/extravillous trophoblast (EVT) cell invasion/migration and reduced apoptosis under hypoxia/reoxygenation (H/R) conditions. RNA-seq data indicated that the expression of CREB-binding protein (CREBBP), a transcriptional coactivator, was upregulated in preeclamptic placentas and showed a positive correlation with that of PRDM1. Genetic and pharmacological inhibition of CREBBP exhibited anti-apoptotic and pro-invasive roles. H/R stimulation upregulated CREBBP expression and augmented the binding of PRDM1 to CREBBP’s promoter. CREBBP was further validated as a direct downstream target of PRDM1. Collectively, our work reveals an involvement of the activated PRDM1-CREBBP axis in PE-associated trophoblast dysfunction.",
+      "relevant_passages": "This study analyzed gene expression in preeclamptic placentas, identifying increased PRDM1 and CREBBP. Inhibition of PRDM1 and CREBBP improved trophoblast function, suggesting their axis contributes to preeclampsia.",
+      "doi_or_pmcid": "10.1016/j.isci.2024.111484"
+    },
+    {
+      "paperclip_result_id": "PMC9097451",
+      "rank": 5,
+      "title": "PRDM1 Drives Human Primary T Cell Hyporesponsiveness by Altering the T Cell Transcriptome and Epigenome",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "T cell hyporesponsiveness is crucial for the functional immune system and prevents the damage induced by alloreactive T cells in autoimmune pathology and transplantation. Here, we found low expression of  PRDM1  in T cells from donor and recipients both related to the occurrence of acute graft-versus-host disease (aGVHD). Our systematic multiomics analysis found that the transcription factor PRDM1 acts as a master regulator during inducing human primary T cell hyporesponsiveness.  PRDM1 -overexpression in primary T cells expanded Treg cell subset and increased the expression level of  FOXP3 , while decreased expression had the opposite effects. Moreover, the binding motifs of key T cell function regulators, such as FOS, JUN and AP-1, were enriched in PRDM1 binding sites and that PRDM1 altered the chromatin accessibility of these regions. Multiomics analysis showed that PRDM1 directly upregulated T cell inhibitory genes such as  KLF2  and  KLRD1  and downregulated the T cell activation gene  IL2 , indicating that PRDM1 could promote a tolerant transcriptional profile. Further analysis showed that PRDM1 upregulated  FOXP3  expression level directly by binding to  FOXP3  upstream enhancer region and indirectly by upregulating KLF2. These results indicated that PRDM1 is sufficient for inducing human primary T cell hyporesponsiveness by transcriptomic and epigenetic manners.",
+      "relevant_passages": "PRDM1 was studied as a regulator of human primary T cell hyporesponsiveness. PRDM1 induces hyporesponsiveness by altering the T cell transcriptome and epigenome, promoting a tolerant state.",
+      "doi_or_pmcid": "10.3389/fimmu.2022.879501"
+    },
+    {
+      "paperclip_result_id": "PMC11493826",
+      "rank": 6,
+      "title": "PRDM1 promotes nucleus pulposus cell pyroptosis leading to intervertebral disc degeneration via activating CASP1 transcription",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The online version contains supplementary material available at 10.1007/s10565-024-09932-y. Intervertebral disc degeneration (IVDD) is a primary contributor to low back pain and poses a considerable burden to society. However, the molecular mechanisms underlying IVDD remain to be elucidated. PR/SET domain 1 (PRDM1) regulates cell proliferation, apoptosis, and inflammatory responses in various diseases. Despite these regulatory functions, the mechanism of action of PRDM1 in IVDD remains unexplored. In this study, we investigated the role and underlying mechanisms of action of PRDM1 in IVDD progression. The expression of PRDM1 in nucleus pulposus (NP) tissues and NP cells (NPCs) was assessed using western blotting, immunohistochemistry, and immunofluorescence. The effects of PRDM1 on IVDD progression were investigated in vitro and in vivo. Mechanistically, mRNA sequencing, chromatin immunoprecipitation, and dual-luciferase reporter assays were performed to confirm that PRDM1 triggered CASP1 transcription. Our study demonstrated for the first time that PRDM1 expression was substantially upregulated in degenerated NP tissues and NPCs. PRDM1 overexpression promoted NPCs pyroptosis by inhibiting mitophagy and exacerbating IVDD progression, whereas PRDM1 silencing exerted the opposite effect. Furthermore, PRDM1 activated CASP1 transcription, thereby promoting NPCs pyroptosis in vitro. Notably, CASP1 silencing reversed the effects of PRDM1 on the NPCs. To the best of our knowledge, this study is the first to demonstrate that PRDM1 silencing inhibits NPCs pyroptosis by repressing CASP1 transcription, which may be a promising new therapeutic target for IVDD.",
+      "relevant_passages": "This study investigated PRDM1's role in intervertebral disc degeneration. PRDM1 promotes nucleus pulposus cell pyroptosis by activating CASP1 transcription, exacerbating degeneration.",
+      "doi_or_pmcid": "10.1007/s10565-024-09932-y"
+    },
+    {
+      "paperclip_result_id": "PMC12212116",
+      "rank": 7,
+      "title": "PRDM1 promotes the stemness of gastric cancer cells by enhancing the transactivation of Myc",
+      "year": "2025",
+      "publication_type": "brief-report",
+      "abstract": "• PRDM1 is overexpressed in gastric cancer tissues and cells, correlating with poor patient prognosis. • Knockdown of PRDM1 suppresses gastric cancer stemness by reducing stemness marker expression ( e.g. , KLF4, Myc), sphere-forming ability, and CD44⁺subpopulations. • PRDM1 directly binds to the Myc promoter, enhancing its transcriptional activity to drive cancer stem cell properties. • PRDM1 depletion attenuates tumorigenesis  in vivo , decreasing tumor initiation frequency and stemness marker levels in xenograft models. • PRDM1 promotes cisplatin resistance and metastasis in gastric cancer cells, highlighting its role in therapeutic resistance and aggressiveness. • Targeting the PRDM1-Myc axis emerges as a potential strategy to combat gastric cancer progression and stemness-driven recurrence.",
+      "relevant_passages": "PRDM1 was studied for its role in gastric cancer stemness. It enhances Myc transcription, promoting stemness, tumorigenesis, and resistance to treatment.",
+      "doi_or_pmcid": "10.1016/j.tranon.2025.102443"
+    },
+    {
+      "paperclip_result_id": "PMC12717841",
+      "rank": 8,
+      "title": "The transcriptional repressor BLIMP1 enforces TCF-1-dependent and -independent restriction of the memory fate of CD8 +  T cells",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "During differentiation of CD8 +  T cells, the transcription factors TCF-1 and Blimp1 control progenitor and terminally differentiated states, respectively. Here, we examined the hierarchy and functional consequences of cross-regulation between these factors. We identified two Blimp1-bound  cis -regulatory elements,  Tcf7 +22kb  and  Tcf7 +17kb , that enforced  Tcf7  silencing in a context-specific manner during both acute and chronic responses. Deletion of these elements decoupled  Tcf7  repression from effector differentiation but did not rewire effector T cells to a memory state or prevent the acquisition of phenotypic hallmarks of exhaustion. However, combined ablation of  Prdm1  and  Tcf7  preserved a memory surface phenotype despite defects in secondary expansion. Thus, the anti-proliferative and pro-differentiative effects of Blimp1 in effector or exhausted CD8 +  T cells represent mechanistically distinct modules, wherein repression of  Tcf7  limits proliferative capacity but not memory or progenitor specification.",
+      "relevant_passages": "This study investigated the relationship between transcription factors TCF-1 and Blimp1 in CD8+ T cell differentiation. Blimp1's repression of TCF-1 limits proliferation but does not prevent memory cell formation or exhaustion.",
+      "doi_or_pmcid": "10.1016/j.immuni.2025.09.008"
+    },
+    {
+      "paperclip_result_id": "PMC9376159",
+      "rank": 9,
+      "title": "CRISPRi-mediated knock-down of PRDM1/BLIMP1 programs central memory differentiation in  ex vivo -expanded human T cells",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "Introduction:  \n  B lymphocyte-induced maturation protein 1 (BLIMP1) encoded by the positive regulatory domain 1 gene ( PRDM1 ), is a key regulator in T cell differentiation in mouse models. BLIMP1-deficiency results in a lower effector phenotype and a higher memory phenotype. Methods:  \n In this study, we aimed to determine the role of transcription factor BLIMP1 in human T cell differentiation. Specifically, we investigated the role of BLIMP1 in memory differentiation and exhaustion of human T cells. We used CRISPR interference (CRISPRi) to knock-down BLIMP1 and investigated the differential expressions of T cell memory and exhaustion markers in BLIMP1-deficient T cells in comparison with BLIMP1-sufficient ex vivo expanded human T cells. Results:  \n  BLIMP1-deficiency caused an increase in central memory (CM) T cells and a decrease in effector memory (EM) T cells. There was a decrease in the amount of TIM3 exhaustion marker expression in BLIMP1-deficient T cells; however, there was an increase in PD1 exhaustion marker expression in BLIMP1-deficient T cells compared with BLIMP1-sufficient T cells. Conclusion:  \n  Our study provides the first functional evidence of the impact of BLIMP1 on the regulation of human T cell memory and exhaustion phenotype. These findings suggest that BLIMP1 may be a promising target to improve the immune response in adoptive T cell therapy settings.",
+      "relevant_passages": "CRISPRi was used to reduce BLIMP1 expression in human T cells. Lower BLIMP1 levels increased central memory T cells and altered exhaustion marker expression.",
+      "doi_or_pmcid": "10.34172/bi.2021.23522"
+    },
+    {
+      "paperclip_result_id": "PMC12490039",
+      "rank": 10,
+      "title": "Identification of a PRDM1-regulated T cell network to regulate atherosclerotic plaque inflammation",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Inflammation is a key driver of atherosclerosis, yet the mechanisms sustaining inflammation in human plaques remain poorly understood. This study uses a network-based approach to identify immune gene programs involved in the transition from low- to high-risk (rupture-prone) human atherosclerotic plaques. Expression data from human carotid artery plaques, both stable (low-risk,  n  = 16) and unstable (high-risk,  n  = 27), were analyzed using Weighted Gene Co-expression Network Analysis (WGCNA). Bayesian network inference, operated on the eigengene values from the WGCNA, further extended the WGCNA analysis, and similarity to the signature of T cell subsets was validated in single-cell RNA sequencing data of human plaques, and a loss-of-function study in a mouse model of atherosclerosis. In silico drug repurposing was performed to identify potential therapeutic targets. Our analysis revealed a distinct gene module with a prominent T cell signature, particularly in unstable plaques. Key regulatory factors, RUNX3, IRF7 and in particular PRDM1, were significantly downregulated in plaque T cells from symptomatic versus asymptomatic patients, indicating a protective role. Additionally, as PRDM1 is downstream of IRF7, we opted for PRDM1 as a key target. T cell-specific  Prdm1  deficiency in Western-type diet fed  Ldlr  knockout mice featured accelerated plaque progression. Finally, as PRDM1 targeting drugs are not yet available, we performed in silico drug repurposing, identifying EGFR inhibitors as promising therapeutic candidates. This study highlights a PRDM1-regulated T cell network that distinguishes high-risk from low-risk plaques and demonstrates the regulatory role of T cell PRDM1 in controlling atherosclerosis, positioning this pathway as a promising therapeutic target. The online version contains supplementary material available at 10.1186/s13073-025-01541-6.",
+      "relevant_passages": "A network approach identified a T cell gene module associated with unstable atherosclerotic plaques. PRDM1 deficiency in T cells accelerates plaque progression, suggesting PRDM1 is a protective factor.",
+      "doi_or_pmcid": "10.1186/s13073-025-01541-6"
+    }
+  ]
+}

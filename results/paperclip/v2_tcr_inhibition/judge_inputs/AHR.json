@@ -1,0 +1,108 @@
+{
+  "tf": "AHR",
+  "query": "AHR TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC12785682",
+      "rank": 1,
+      "title": "AHR Deficiency Exacerbates Hepatic Cholesterol Accumulation via Inhibiting Bile Acid Synthesis in MAFLD Rats",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Metabolic-dysfunction-associated fatty liver disease (MAFLD) is a chronic liver disease characterized by abnormal lipid metabolism. The aryl hydrocarbon receptor (AHR) is a ligand-dependent transcription factor involved in regulating multiple physiological processes. Recent studies have demonstrated that AHR exerts a multifaceted regulatory role in liver diseases by integrating metabolic and immune signaling pathways; however, the specific role of AHR in MAFLD is not clear. In our work, a rat model of MAFLD was established by feeding wild-type (WT) and AHR knockout (AHR −/− ) rats with a high-fat, high-fructose, and high-cholesterol diet (HFHFrHCD) for 10 weeks, and then the liver injury markers, lipid-related biochemical indices and liver histopathology were examined to elucidate the effect of AHR on MAFLD progression. We discovered that AHR deficiency can elevate plasma transaminase levels, increase hepatic triglyceride (TG) and total cholesterol (TC), and exacerbate insulin resistance (IR) under an overnutrition environment. Subsequently, liver transcriptome and RT-qPCR were performed to investigate the underlying mechanism, which revealed that the hepatic bile acid synthesis was inhibited because of lower  Cytochrome P450 Family 7 Subfamily A Member 1 (CYP7A1)  expression in the liver when AHR was knockout. Additionally, intestinal flora dysbiosis occurred in AHR −/−  rats fed with HFHFrHCD, which might also contribute to the hepatic cholesterol accumulation. Taken together, our results suggested that AHR might play an important role in regulating cholesterol metabolism by inhibiting bile acid synthesis and breaking the steady state of the gut microbiota during the MAFLD progression.",
+      "relevant_passages": "A study investigated the role of AHR deficiency in MAFLD using a rat model. AHR deficiency exacerbates hepatic cholesterol accumulation by inhibiting bile acid synthesis.",
+      "doi_or_pmcid": "10.3390/ijms27010349"
+    },
+    {
+      "paperclip_result_id": "PMC7419300",
+      "rank": 2,
+      "title": "Blockade of the AHR restricts a Treg-macrophage suppressive axis induced by L-Kynurenine",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "Tryptophan catabolism by the enzymes indoleamine 2,3-dioxygenase 1 and tryptophan 2,3-dioxygenase 2 (IDO/TDO) promotes immunosuppression across different cancer types. The tryptophan metabolite L-Kynurenine (Kyn) interacts with the ligand-activated transcription factor aryl hydrocarbon receptor (AHR) to drive the generation of Tregs and tolerogenic myeloid cells and PD-1 up-regulation in CD8 +  T cells. Here, we show that the AHR pathway is selectively active in IDO/TDO-overexpressing tumors and is associated with resistance to immune checkpoint inhibitors. We demonstrate that IDO-Kyn-AHR-mediated immunosuppression depends on an interplay between Tregs and tumor-associated macrophages, which can be reversed by AHR inhibition. Selective AHR blockade delays progression in IDO/TDO-overexpressing tumors, and its efficacy is improved in combination with PD-1 blockade. Our findings suggest that blocking the AHR pathway in IDO/TDO expressing tumors would overcome the limitation of single IDO or TDO targeting agents and constitutes a personalized approach to immunotherapy, particularly in combination with immune checkpoint inhibitors.",
+      "relevant_passages": "The aryl hydrocarbon receptor (AHR) pathway was studied in tumors overexpressing IDO/TDO. Blocking AHR reverses Treg-macrophage immunosuppression and improves immunotherapy efficacy.",
+      "doi_or_pmcid": "10.1038/s41467-020-17750-z"
+    },
+    {
+      "paperclip_result_id": "PMC12801039",
+      "rank": 3,
+      "title": "Aroclor 1254 inhibits anti-inflammatory macrophage polarization through an AhR-dependent mechanism",
+      "year": "2026",
+      "publication_type": "research-article",
+      "abstract": "Macrophages are critical regulators of tissue homeostasis and inflammation. During the development of chronic inflammatory diseases, tissue-resident macrophages often shift from an anti-inflammatory (M2) to a pro-inflammatory (M1) phenotype. Understanding the factors that drive this polarization shift is essential for elucidating the mechanisms underlying diseases such as cancer, cardiovascular disease, and metabolic syndrome. Environmental toxicants, including polychlorinated biphenyls (PCBs), may be key contributors to this dysregulation. Despite being banned in the United States for nearly 50 years, PCBs persist in the built and natural environment, with mixtures such as Aroclor 1254 still detected at concerning levels in schools and other public spaces. In this study, we investigated how Aroclor 1254 influences human monocyte-derived macrophage polarization. We found that exposure to Aroclor 1254 during differentiation skews naïve macrophages toward a pro-inflammatory phenotype, enhances LPS/IFNγ-driven M1 polarization, and inhibits both IL-4- and dexamethasone-induced M2 polarization. To explore underlying mechanisms, we examined the roles of peroxisome proliferator-activated receptor gamma (PPARγ), pyruvate kinase M2 (PKM2), and the aryl hydrocarbon receptor (AhR). We found AhR inhibition partially rescued PCB-mediated suppression of M2 polarization. Further supporting this mechanism, PCB126, a potent AhR agonist, recapitulated the disruption of polarization. Together, these findings demonstrate that PCB mixtures act through AhR to dysregulate macrophage polarization, driving a pro-inflammatory phenotype. This disruption may represent a key mechanism by which PCBs exacerbate tissue inflammation and contribute to the pathogenesis of chronic inflammatory diseases.",
+      "relevant_passages": "Aroclor 1254 exposure was studied for its effects on human macrophage polarization. The toxicant inhibits anti-inflammatory M2 polarization via an AhR-dependent mechanism, promoting a pro-inflammatory state.",
+      "doi_or_pmcid": "10.1210/jendso/bvaf205"
+    },
+    {
+      "paperclip_result_id": "PMC12504769",
+      "rank": 4,
+      "title": "Beneficial and detrimental consequences of AHR activation in intestinal infection",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "AHR activation can positively or negatively affect immune responses. Here, we investigate whether TCDD toxicity is due to prolonged duration of AHR activation and show that duration of stimulation is not responsible on its own.",
+      "relevant_passages": "This study investigated the consequences of AHR activation in intestinal infection. Prolonged duration of AHR activation alone does not explain TCDD toxicity.",
+      "doi_or_pmcid": "10.26508/lsa.202503414"
+    },
+    {
+      "paperclip_result_id": "PMC11354967",
+      "rank": 5,
+      "title": "Indoxyl Sulfate Inhibits Osteogenesis in Bone Marrow Mesenchymal Stem Cells through the AhR/Hes1 Pathway",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Uremic toxins cause bone disorders in patients with chronic kidney disease (CKD). These disorders are characterized by low turnover osteodystrophy and impaired bone formation in the early stages of CKD. Evidence indicates that the aryl hydrocarbon receptor (AhR) mediates signals that suppress early osteogenic differentiation in bone marrow mesenchymal stem cells (BMSCs). However, whether the AhR mediates the effects of indoxyl sulfate (IS), a uremic toxin, on BMSC osteogenesis remains unclear. We investigated whether IS affects osteogenesis through the AhR/Hes1 pathway. Expression levels of osteogenesis genes ( Runx2 ,  Bmp2 ,  Alp , and  Oc ), AhR, and Hes1 were measured in mouse BMSCs (D1 cells). At concentrations of 2–50 μM, IS significantly reduced mineralization, particularly in the early stages of BMSC osteogenesis. Furthermore, IS significantly downregulated the expression of  Runx2 ,  Bmp2 ,  Oc , and  Alp . Notably, this downregulation could be prevented using an AhR antagonist and through  Ahr  knockdown. Mechanistically, IS induced the expression of  Hes1  through AhR signaling, thereby suppressing the transcription of  Runx2  and  Bmp2 . Our findings suggest that IS inhibits early osteogenesis of BMSCs through the AhR/Hes1 pathway, thus suppressing the transcription of  Runx2  and  Bmp2 . Our findings may guide new therapeutic strategies against CKD-related bone disorders.",
+      "relevant_passages": "Indoxyl sulfate was studied for its effect on bone marrow mesenchymal stem cell osteogenesis. It inhibits osteogenesis by activating the AhR/Hes1 pathway, downregulating key osteogenic genes.",
+      "doi_or_pmcid": "10.3390/ijms25168770"
+    },
+    {
+      "paperclip_result_id": "PMC10570930",
+      "rank": 6,
+      "title": "The complex biology of aryl hydrocarbon receptor activation in cancer and beyond",
+      "year": "2023",
+      "publication_type": "review-article",
+      "abstract": "The complex biology of AHR activation in cancer and beyond. Graphical abstract depicts the contributing factors to AHR's context specificity. Created with BioRender.com (agreement number: HI25TPR0Z5)",
+      "relevant_passages": "This paper reviews the complex biology of aryl hydrocarbon receptor (AHR) activation. AHR's context-specific activity is influenced by multiple contributing factors.",
+      "doi_or_pmcid": "10.1016/j.bcp.2023.115798"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 7,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC4067745",
+      "rank": 8,
+      "title": "Activation of the Aryl Hydrocarbon Receptor Dampens the Severity of Inflammatory Skin Conditions",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "Environmental stimuli are known to contribute to psoriasis pathogenesis and that of other autoimmune diseases, but the mechanisms are largely unknown. Here we show that the aryl hydrocarbon receptor (AhR), a transcription factor that senses environmental stimuli, modulates pathology in psoriasis. AhR-activating ligands reduced inflammation in the lesional skin of psoriasis patients, whereas AhR antagonists increased inflammation. Similarly, AhR signaling via the endogenous ligand FICZ reduced the inflammatory response in the imiquimod-induced model of skin inflammation and AhR-deficient mice exhibited a substantial exacerbation of the disease, compared to AhR-sufficient controls. Nonhematopoietic cells, in particular keratinocytes, were responsible for this hyperinflammatory response, which involved upregulation of AP-1 family members of transcription factors. Thus, our data suggest a critical role for AhR in the regulation of inflammatory responses and open the possibility for novel therapeutic strategies in chronic inflammatory disorders.",
+      "relevant_passages": "The aryl hydrocarbon receptor (AhR) was studied for its role in inflammatory skin conditions like psoriasis. AhR activation was found to reduce disease severity, while its deficiency exacerbated inflammation.",
+      "doi_or_pmcid": "10.1016/j.immuni.2014.04.019"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 9,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC3412388",
+      "rank": 10,
+      "title": "Aryl Hydrocarbon Receptor-Mediated Perturbations in Gene Expression during Early Stages of CD4 +  T-cell Differentiation",
+      "year": "2012",
+      "publication_type": "research-article",
+      "abstract": "Activation of the aryl hydrocarbon receptor (AhR) by its prototypic ligand, 2,3,7,8-tetrachlorodibenzo- p -dioxin (TCDD), mediates potent suppression of T-cell dependent immune responses. The suppressive effects of TCDD occur early during CD4 +  T-cell differentiation in the absence of effects on proliferation and have recently been associated with the induction of AhR-dependent regulatory T-cells (Treg). Since AhR functions as a ligand-activated transcription factor, changes in gene expression induced by TCDD during the early stages of CD4 +  T-cell differentiation are likely to reflect fundamental mechanisms of AhR action. A custom panel of genes associated with T-cell differentiation was used to query changes in gene expression induced by exposure to 1 nM TCDD. CD4 +  T-cells from AhR +/+  and AhR −/−  mice were cultured with cytokines known to polarize the differentiation of T-cells to various effector lineages. Treatment with TCDD induced the expression of  Cyp1a1 ,  Cyp1b1 , and  Ahrr  in CD4 +  T-cells from AhR +/+  mice under all culture conditions, validating the presence and activation of AhR in these cells. The highest levels of AhR activation occurred under Th17 conditions at 24 h and Tr1 conditions at 48 h. Unexpectedly, expression levels of most genes associated with early T-cell differentiation were unaltered by AhR activation, including lineage-specific genes that drive CD4 +  T-cell polarization. The major exception was AhR-dependent up-regulation of  Il22  that was seen under all culture conditions. Independent of TCDD, AhR down-regulated the expression of  Il17a  and  Rorc  based on increased expression of these genes in AhR-deficient cells across culture conditions. These findings are consistent with a role for AhR in down-regulation of inflammatory immune responses and implicate IL-22 as a potential contributor to the immunosuppressive effects of TCDD.",
+      "relevant_passages": "This study investigated gene expression changes in CD4+ T-cells upon aryl hydrocarbon receptor activation. AhR activation primarily up-regulated IL-22 and down-regulated IL-17a and Rorc, suggesting a role in suppressing inflammatory responses.",
+      "doi_or_pmcid": "10.3389/fimmu.2012.00223"
+    }
+  ]
+}

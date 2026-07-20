@@ -1,0 +1,108 @@
+{
+  "tf": "NFIL3",
+  "query": "NFIL3 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10898977",
+      "rank": 1,
+      "title": "NFIL3 contributes to cytotoxic T lymphocyte-mediated killing",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Cytotoxic T lymphocytes (CTLs) are key effectors of the adaptive immune system that recognize and eliminate virally infected and cancerous cells. In naive CD8 +  T cells, T-cell receptor (TCR) engagement drives a number of transcriptional, translational and proliferation changes over the course of hours and days leading to differentiation into CTLs. To gain a better insight into this mechanism, we compared the transcriptional profiles of naive CD8 +  T cells to those of activated CTLs. To find new regulators of CTL function, we performed a selective clustered regularly interspaced short palindromic repeats (CRISPR) screen on upregulated genes and identified nuclear factor IL-3 (NFIL3) as a potential regulator of cytotoxicity. Although NFIL3 has established roles in several immune cells including natural killer, Treg, dendritic and CD4 +  T cells, its function in CD8 +  CTLs is less well understood. Using CRISPR/Cas9 editing, we found that removing NFIL3 in CTLs resulted in a marked decrease in cytotoxicity. We found that in CTLs lacking NFIL3 TCR-induced extracellular signal-regulated kinase phosphorylation, immune synapse formation and granule release were all intact while cytotoxicity was functionally impaired  in vitro . Strikingly, NFIL3 controls the production of cytolytic proteins as well as effector cytokines. Thus, NFIL3 plays a cell intrinsic role in modulating cytolytic mechanisms in CTLs.",
+      "relevant_passages": "This study investigated the role of NFIL3 in cytotoxic T lymphocyte (CTL) function. NFIL3 is essential for CTL-mediated killing by controlling the production of cytolytic proteins and effector cytokines.",
+      "doi_or_pmcid": "10.1098/rsob.230456"
+    },
+    {
+      "paperclip_result_id": "PMC6802641",
+      "rank": 2,
+      "title": "The transcription factor NFIL3 controls regulatory T-cell function and stability",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "Regulatory T (Treg) cells are a CD4 T-cell subset with an important role in immune tolerance; however, the mechanisms underlying Treg cell differentiation and function are incompletely understood. Here, we show that NFIL3/E4BP4, a transcription factor, plays a key role in Treg cell differentiation and function. Microarray analysis showed that Treg cells had lower  Nfil3  expression than all other CD4 T-cell subsets. Overexpression of  Nfil3  in Treg cells led to diminished expression of  Foxp3  and other signature Treg genes, including  Il2ra ,  Icos ,  Tnfrsf18 , and  Ctla4 . Furthermore,  Nfil3 -overexpressing Treg cells exhibited impaired immunosuppressive activity in vitro and in vivo. We discovered that NFIL3 directly binds to and negatively regulates the expression of  Foxp3 . In addition, bisulfite sequencing revealed that NFIL3 induces methylation at  Foxp3  locus regulatory CpG sites, which contributes to the control of Treg cell stability. Together, these data indicate that NFIL3 impairs Treg cell function through the downregulation of  Foxp3  expression.",
+      "relevant_passages": "NFIL3's role in regulatory T-cell differentiation and function was studied. NFIL3 impairs Treg cell function by downregulating Foxp3 expression and promoting its methylation.",
+      "doi_or_pmcid": "10.1038/s12276-019-0280-9"
+    },
+    {
+      "paperclip_result_id": "PMC11962013",
+      "rank": 3,
+      "title": "Dangua Fang induces anti-glucolipid metabolism disorder effects similar to those of direct NFIL3 inhibition",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Dangua Fang (DGF) is a traditional Chinese herbal formula widely used to regulate glucolipid metabolism. Nuclear factor, interleukin-3 regulated (NFIL3) plays a regulatory role in intestinal fat absorption and energy metabolism. Gut microbiota can modulate NFIL3 expression and affect host metabolism. This study aimed to investigate the effects of DGF or NFIL3 inhibition on the gut microbiota and their metabolites in mice with glucolipid metabolism disorder (GLMD) and explore the relationship between DGF anti-GLMD effects and those of direct NFIL3 inhibition. A GLMD mouse model was established by induction with a high-glucose and high-fat diet. The mice were divided into the control group (CG), model group (MG), DGF group (DFG), DGF + siRNA group (DFSG), and siRNA group (SG). The mice were administered sterile water, DGF, and/or intraperitoneal injections of siRNA-NFIL3 or normal saline for 15 weeks, following which glucolipid metabolic indicators, NFIL3 levels, and histopathological alterations in the liver and small intestinal tissues were evaluated. Additionally, the gut microbiota and differential metabolites were analysed, and linear regression analysis was conducted between gut microbial species and metabolic indicators to assess the role of the gut microbiota in metabolic regulation. Significant differences were observed between the CG and MG groups for various indicators. Compared with that in the MG group, the GLMD in the DFG, DFSG, and SG groups was significantly improved, and the pathological morphology of the liver and small intestine was altered. The NFIL3 mRNA and protein expression levels in the serum, liver, and small intestine were significantly decreased. The relative abundance of Bacteroidota decreased, whereas that of Firmicutes increased, and changes in the gut microbiota significantly correlated with serum total cholesterol (TC), triglyceride (TG), and free fatty acid (FFA) levels. Moreover, lipid metabolism-related pathways were significantly altered in all three intervention groups. DGF reduced NFIL3 expression in GLMD mice, regulated the gut microbiota and their metabolites, and altered lipid metabolism-related pathways, with anti-GLMD effects similar to those of direct NFIL3 inhibition.",
+      "relevant_passages": "Dangua Fang (DGF) and NFIL3 inhibition were studied in mice with glucolipid metabolism disorder (GLMD). Both treatments improved GLMD by altering gut microbiota and metabolites, suggesting DGF's effects mimic direct NFIL3 inhibition.",
+      "doi_or_pmcid": "10.3389/fmicb.2025.1557345"
+    },
+    {
+      "paperclip_result_id": "PMC11563780",
+      "rank": 4,
+      "title": "NFIL3/Tim3 axis regulates effector Th1 inflammation in COPD mice",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "IFN-γ+CD4+ cells (type 1 helper T cells, Th1) represent a critical component of the inflammatory environment in the lungs of chronic obstructive pulmonary disease (COPD). Identifying influencing factors related to COPD-associated Th1 cells will enhance our understanding of the inflammatory mechanisms involved and facilitate the development of targeted interventions. We describe T-cell immunoglobulin and mucin-domain containing-3 (Tim3) as a key gene regulating COPD-associated Th1 cells through single-cell sequencing, flow cytometry and knockout mice. Our findings indicate that Havcr2 expression gradually increases during CD4+ T cell activation in COPD mice, with Tim3 being highly expressed on both CD4+ T cells and Th1 cells. Notably, the knockout of HAVCR2 further promotes the infiltration of CD4+ T cells and the expression of IFN-γ in the lungs, resulting in a more severe emphysema phenotype, although it does not significantly affect TNF-α expression. Additionally, NFIL3, an upstream regulator of Tim3, is also highly expressed in the CD4+ T cells of COPD mice. Mice with NFIL3 knockout exhibit phenotypes similar to those of HAVCR2 knockout mice, along with a significant downregulation of Tim3 expression.  In vitro , we simulated the activation process by polarizing primary CD4+ Tn cells from COPD mice and observed that NFIL3/Tim3 expression was significantly upregulated following Th1 polarization. Our study demonstrates that the NFIL3/Tim3 axis plays a role in Th1 imbalance in the lungs of COPD by inhibiting Th1 differentiation.",
+      "relevant_passages": "This study investigated the role of the NFIL3/Tim3 axis in regulating Th1 cells in COPD mice. The NFIL3/Tim3 axis inhibits Th1 differentiation, contributing to Th1 imbalance in the lungs of COPD patients.",
+      "doi_or_pmcid": "10.3389/fimmu.2024.1482213"
+    },
+    {
+      "paperclip_result_id": "PMC4144736",
+      "rank": 5,
+      "title": "Nfil3 is required for the development of all innate lymphoid cell subsets",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "Loss of Nfil3 selectively reduces Peyer’s patch formation, impairing recruitment and distribution of lymphocytes and compromising immune responses to inflammatory and infectious agents.",
+      "relevant_passages": "Nfil3 was studied for its role in innate lymphoid cell development. Its absence impairs Peyer's patch formation and immune responses.",
+      "doi_or_pmcid": "10.1084/jem.20140145"
+    },
+    {
+      "paperclip_result_id": "PMC10941009",
+      "rank": 6,
+      "title": "Structural basis for specific DNA sequence recognition by the transcription factor NFIL3",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The CCAAT/enhancer-binding proteins (C/EBPs) constitute a family of pivotal transcription factors involved in tissue development, cellular function, proliferation, and differentiation. NFIL3, as one of them, plays an important role in regulating immune cell differentiation, circadian clock system, and neural regeneration, yet its specific DNA recognition mechanism remains enigmatic. In this study, we showed by the ITC binding experiments that NFIL3 prefers to bind to the TTACGTAA DNA motif. Our structural studies revealed that the α-helical NFIL3 bZIP domain dimerizes through its leucine zipper region, and binds to DNA via its basic region. The two basic regions of the NFIL3 bZIP dimer were pushed apart upon binding to DNA, facilitating the snug accommodation of the two basic regions within the major grooves of the DNA. Remarkably, our binding and structural data also revealed that both NFIL3 and C/EBPα/β demonstrate a shared preference for the TTACGTAA sequence. Furthermore, our study revealed that disease-associated mutations within the NFIL3 bZIP domain result in either reduction or complete disruption of its DNA binding ability. These discoveries not only provide valuable insights into the DNA binding mechanisms of NFIL3 but also elucidate the causal role of NFIL3 mutations in disease pathogenesis.",
+      "relevant_passages": "NFIL3's bZIP domain dimerizes and binds DNA via its basic regions, preferring the TTACGTAA motif. Disease-associated mutations disrupt NFIL3's DNA binding ability.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.105776"
+    },
+    {
+      "paperclip_result_id": "PMC3865482",
+      "rank": 7,
+      "title": "Nfil3-independent lineage maintenance and antiviral response of natural killer cells",
+      "year": "2013",
+      "publication_type": "research-article",
+      "abstract": "Inflammatory cytokines drive NK cell expansion in the absence of the transcription factor Nfil3, and Nfil3 is dispensable for the maintenance and function of mature NK cells.",
+      "relevant_passages": "Natural killer (NK) cells expand and maintain their lineage independently of the transcription factor Nfil3. Nfil3 is not required for mature NK cell function or antiviral responses.",
+      "doi_or_pmcid": "10.1084/jem.20130417"
+    },
+    {
+      "paperclip_result_id": "PMC10861811",
+      "rank": 8,
+      "title": "A pan-cancer characterization of immune-related NFIL3 identifies potential predictive biomarker",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Background:  Nuclear factor interleukin 3 (NFIL3) mainly focuses on the regulation of the circadian rhythm and immune system. However, the potential role of NFIL3 in human cancers has not been studied extensively. Methods:  We retrieved original data from the TCGA, TARGET, and GTEx datasets via the UCSC Xena browser ( http://genome.ucsc.edu/ ) and integrated them using R version 3.6.4. NFIL3 expression was assessed using resources such as UCSC, GEPIA ( http://gepia.cancer-pku.cn/ ), Kaplan-Meier Plotter (KM Plotter;  https://kmplot.com/ ), and the Human Protein Atlas (HPA;  https://www.proteinatlas.org/ ) databases. To investigate the prognostic implications of NFIL3, we utilized GEPIA, Kaplan-Meier Plotter, and PrognoScan ( http://www.abren.net/PrognoScan/ ) datasets. For a comprehensive analysis across multiple cancer types, we employed pan-cancer data from UCSC, examining associations between NFIL3 expression and genomic heterogeneity, tumor mutational burden (TMB), microsatellite instability (MSI), tumor purity, and neoantigens. Furthermore, we explored the relationships between NFIL3 expression and the infiltration of immune cells and the expression of immune checkpoint genes. In the context of ovarian cancer, we validated the expression and functional relevance of NFIL3. Cell Counting Kit 8 (CCK8) assays were conducted to assess cell proliferation, while scratch and transwell assays were employed to evaluate cell migration capabilities. We further examined the interaction between NFIL3 and the p53 signaling pathway through quantitative real-time polymerase chain reaction (qRT-PCR), Western blot analysis, immunofluorescence confocal, and Coimmunoprecipitation (Co-IP) assays. Results:  In general, NFIL3 expression in cancerous tissues exhibited diminished levels when compared to normal tissue samples. Notably, NFIL3 expression demonstrated a robust correlation with several pivotal aspects, including prognosis, immune cell infiltration, immune checkpoint-related genes, TMB, MSI, tumor purity, and the presence of neoantigens. Experimental investigations involving scratch assays, transwell assays, and assessments of cell proliferation in ovarian cancer cells have provided indications that NFIL3 may exert influence over cell migration and proliferation processes. Moreover, a substantial association between NFIL3 and the p53 signaling pathway was discerned through Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis, with subsequent validation through qRT-PCR, Western blot analysis, immunofluorescence confocal, and co-immunoprecipitation (Co-IP) assays. Conclusions:  Therefore, we concluded NFIL3 may serve as a possible prognostic and immunological pan-cancer biomarker.",
+      "relevant_passages": "NFIL3 expression was analyzed across multiple cancer types, correlating it with prognosis and immune microenvironment features. Lower NFIL3 expression is associated with poorer prognosis and altered immune infiltration, suggesting its potential as a predictive biomarker.",
+      "doi_or_pmcid": "10.7150/jca.88765"
+    },
+    {
+      "paperclip_result_id": "PMC4144732",
+      "rank": 9,
+      "title": "Nfil3 is crucial for development of innate lymphoid cells and host protection against intestinal pathogens",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "Nfil3 is critical for normal development of innate lymphoid cell (ILC) progenitors. Nfil3-deficient mice have severely reduced lung and visceral adipose tissue ILC2s and gut-associated ILC3s, and compromised innate immunity to acute bacterial infection.",
+      "relevant_passages": "Nfil3 deficiency severely reduces innate lymphoid cell populations in mice. This leads to compromised host immunity against bacterial infections.",
+      "doi_or_pmcid": "10.1084/jem.20140212"
+    },
+    {
+      "paperclip_result_id": "PMC11297963",
+      "rank": 10,
+      "title": "Ferroptosis and inflammation are modulated by the NFIL3-ACSL4 axis in sepsis associated-acute kidney injury",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Sepsis-associated acute kidney injury (SA-AKI) increases the risk of death in patients with sepsis, and its major pathological change is the death of renal tubular cells. However, the mechanism of its occurrence remains unclear. Sepsis can lead to circadian dysregulation, and the rhythm gene NFIL3 has been reported to regulate lipid metabolism. There is compelling evidence that has demonstrated that lipid peroxidation can cause cellular ferroptosis. In this study, we established the in vitro and in vivo models of SA-AKI and confirmed the presence of ferroptosis of the renal tubular epithelial cells in SA-AKI. In addition, analysis of the GEO database showed that NFIL3 was highly expressed in sepsis patients and was highly correlated with the key molecule of ferroptosis, ACSL4. The in vitro and in vivo data suggested that NFIL3 was involved in ferroptosis and inflammation in SA-AKI. Subsequently, loss-of-function experiments revealed that NFIL3 knockdown attenuated ferroptosis and inflammation in renal tubular epithelial cells by downregulating ACSL4 expression, thus protecting SA-AKI. In conclusion, this study is the first to illustrate the involvement of the rhythm gene NFIL3 in SA-AKI, providing new insights and potential therapeutic targets for SA-AKI.",
+      "relevant_passages": "This study investigated the NFIL3-ACSL4 axis in sepsis-associated acute kidney injury (SA-AKI). NFIL3 knockdown reduced ferroptosis and inflammation by downregulating ACSL4, protecting against SA-AKI.",
+      "doi_or_pmcid": "10.1038/s41420-024-02113-0"
+    }
+  ]
+}

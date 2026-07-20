@@ -1,0 +1,148 @@
+{
+  "tf": "MSC",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:57:46Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-079b7ea1-90d9-4669-820f-cbe2a4a62b6b",
+      "agent_id": "agent-fabab636-4a5f-44c2-9a48-6a9e7696b746",
+      "raw": "Based on my review of the supplied papers only, here is the structured assessment.\n\n```json\n{\n  \"tf\": \"MSC\",\n  \"query\": \"MSC TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 6,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells; TCR signalling\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"This site enhances PTPN22's inhibitory effect on TCR signaling\",\n      \"rationale\": \"Concerns PTPN22 regulation of TCR signalling, not the MSC candidate regulator; off-target retrieval, not material to MSC.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7937648\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"primary activated T cells co-cultured with mesenchymal stromal cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"activated T cells adhere to mesenchymal stromal cells, rapidly suppressing cytokine transcription and TCR signaling\",\n      \"rationale\": \"MSCs suppress TCR-proximal signalling and Ca2+ flux; ICAM-1/CD43 blockade reverses it, disrupting TCR microclusters. Direct perturbational mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire bioinformatics for adoptive therapy\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy\",\n      \"rationale\": \"Review on selecting therapeutic TCRs; no MSC involvement and no TCR-inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7795906\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"murine splenocytes/A20 cells with FasL-overexpressing MSCs (non-human)\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"FasL-overexpressing MSC showed improved immunosuppressive properties\",\n      \"rationale\": \"MSC engineering enhances general immunosuppression via FasL/apoptosis; no TCR signalling readout, so not direct TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12580868\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"humanized murine lung cancer model; MSC as delivery vehicle\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR bispecific proteins were delivered to lung tumors using mesenchymal stem cells\",\n      \"rationale\": \"MSCs serve only as delivery vehicles for cytotoxic TCR bispecifics; not a regulator of TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3854780\",\n      \"retrieval_rank\": 6,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human MSCs suppressing murine antigen-specific clonal CD4/CD8 T cells (cross-species)\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"MSCs altered T cell proliferation, marker expression, and cytokine production, demonstrating their immunosuppressive potential\",\n      \"rationale\": \"Causal suppression of antigen-driven activation/proliferation, but readouts are general activation markers, not proximal TCR signalling.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11885616\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"iPSC-derived MSC differentiation (non-immune system)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TGF-β inhibition enhances osteogenic potential and reduces premature senescence in iMSCs\",\n      \"rationale\": \"Concerns MSC osteogenic differentiation; no T cells and no TCR-inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12126738\",\n      \"retrieval_rank\": 8,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human MSCs; IFN-γ-induced immunosuppression of T cells\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"improves the immunosuppressive capacity by inhibition of T cells proliferation, induction of Treg cells\",\n      \"rationale\": \"m6A pathway boosts MSC immunosuppression (PD-L1/IDO1) suppressing proliferation and inducing Tregs; no direct TCR signalling readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10900800\",\n      \"retrieval_rank\": 9,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Mdr2-/- mice and human PSC organoids (non-human/human); MSC-derived exosomes\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"reduce fibrosis by inhibiting Th17 cell differentiation\",\n      \"rationale\": \"MSC exosomes inhibit Th17 differentiation via PERK/CHOP; a lineage/differentiation effect, not TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3444478\",\n      \"retrieval_rank\": 10,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells during Th1/Th17 polarization co-cultured with MSCs\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"MSCs selectively suppress mature Th17 cells through cell-to-cell contact via the PD-1 pathway\",\n      \"rationale\": \"MSC PD-L1 engages PD-1 to repress Th17 (neutralization confirmed), but phenotype is differentiation/effector suppression, not demonstrated TCR-linked impairment.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"strong\",\n  \"key_paperclip_result_ids\": [\"PMC7937648\"],\n  \"tier_rationale\": \"PMC7937648 is a primary experimental study showing direct, perturbational evidence that MSCs suppress proximal TCR signalling and Ca2+ flux, with ICAM-1/CD43 blockade reversing the effect and a mechanistic readout (disrupted TCR microcluster formation). This satisfies the strong criterion of direct causal evidence altering TCR signalling attenuation with a functional/mechanistic readout. Remaining MSC papers add supportive but weaker context (general immunosuppression, proliferation, Th17 differentiation, checkpoint pathways).\",\n  \"confidence\": \"moderate\"\n}\n```\n\nConfidence is moderate rather than high because the strong tier rests on a single primary study (PMC7937648); the other MSC papers corroborate immunosuppression but only at the level of general activation, proliferation, or differentiation rather than proximal TCR signalling.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "MSC",
+    "query": "MSC TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 6,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells; TCR signalling",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "This site enhances PTPN22's inhibitory effect on TCR signaling",
+        "rationale": "Concerns PTPN22 regulation of TCR signalling, not the MSC candidate regulator; off-target retrieval, not material to MSC."
+      },
+      {
+        "paperclip_result_id": "PMC7937648",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "primary activated T cells co-cultured with mesenchymal stromal cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "activated T cells adhere to mesenchymal stromal cells, rapidly suppressing cytokine transcription and TCR signaling",
+        "rationale": "MSCs suppress TCR-proximal signalling and Ca2+ flux; ICAM-1/CD43 blockade reverses it, disrupting TCR microclusters. Direct perturbational mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire bioinformatics for adoptive therapy",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy",
+        "rationale": "Review on selecting therapeutic TCRs; no MSC involvement and no TCR-inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC7795906",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "murine splenocytes/A20 cells with FasL-overexpressing MSCs (non-human)",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "FasL-overexpressing MSC showed improved immunosuppressive properties",
+        "rationale": "MSC engineering enhances general immunosuppression via FasL/apoptosis; no TCR signalling readout, so not direct TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12580868",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "humanized murine lung cancer model; MSC as delivery vehicle",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR bispecific proteins were delivered to lung tumors using mesenchymal stem cells",
+        "rationale": "MSCs serve only as delivery vehicles for cytotoxic TCR bispecifics; not a regulator of TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC3854780",
+        "retrieval_rank": 6,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human MSCs suppressing murine antigen-specific clonal CD4/CD8 T cells (cross-species)",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "MSCs altered T cell proliferation, marker expression, and cytokine production, demonstrating their immunosuppressive potential",
+        "rationale": "Causal suppression of antigen-driven activation/proliferation, but readouts are general activation markers, not proximal TCR signalling."
+      },
+      {
+        "paperclip_result_id": "PMC11885616",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "iPSC-derived MSC differentiation (non-immune system)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TGF-β inhibition enhances osteogenic potential and reduces premature senescence in iMSCs",
+        "rationale": "Concerns MSC osteogenic differentiation; no T cells and no TCR-inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12126738",
+        "retrieval_rank": 8,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human MSCs; IFN-γ-induced immunosuppression of T cells",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "improves the immunosuppressive capacity by inhibition of T cells proliferation, induction of Treg cells",
+        "rationale": "m6A pathway boosts MSC immunosuppression (PD-L1/IDO1) suppressing proliferation and inducing Tregs; no direct TCR signalling readout."
+      },
+      {
+        "paperclip_result_id": "PMC10900800",
+        "retrieval_rank": 9,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Mdr2-/- mice and human PSC organoids (non-human/human); MSC-derived exosomes",
+        "evidence_directness": "associative",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "reduce fibrosis by inhibiting Th17 cell differentiation",
+        "rationale": "MSC exosomes inhibit Th17 differentiation via PERK/CHOP; a lineage/differentiation effect, not TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC3444478",
+        "retrieval_rank": 10,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells during Th1/Th17 polarization co-cultured with MSCs",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "MSCs selectively suppress mature Th17 cells through cell-to-cell contact via the PD-1 pathway",
+        "rationale": "MSC PD-L1 engages PD-1 to repress Th17 (neutralization confirmed), but phenotype is differentiation/effector suppression, not demonstrated TCR-linked impairment."
+      }
+    ],
+    "overall_evidence_tier": "strong",
+    "key_paperclip_result_ids": [
+      "PMC7937648"
+    ],
+    "tier_rationale": "PMC7937648 is a primary experimental study showing direct, perturbational evidence that MSCs suppress proximal TCR signalling and Ca2+ flux, with ICAM-1/CD43 blockade reversing the effect and a mechanistic readout (disrupted TCR microcluster formation). This satisfies the strong criterion of direct causal evidence altering TCR signalling attenuation with a functional/mechanistic readout. Remaining MSC papers add supportive but weaker context (general immunosuppression, proliferation, Th17 differentiation, checkpoint pathways).",
+    "confidence": "moderate"
+  }
+}

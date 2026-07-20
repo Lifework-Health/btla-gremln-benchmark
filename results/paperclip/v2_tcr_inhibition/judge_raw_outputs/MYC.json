@@ -1,0 +1,148 @@
+{
+  "tf": "MYC",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:59:49Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-3f35e72d-1e2b-4c9d-bebf-5ff339d65e48",
+      "agent_id": "agent-2a63c35b-d8bf-446b-925b-5c9b0fdd7794",
+      "raw": "Based on my assessment of the 10 supplied papers against the rubric, here is the structured evaluation.\n\n```json\n{\n  \"tf\": \"MYC\",\n  \"query\": \"MYC TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11861601\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human cell lines and murine kidney-infection model; non-immune / biochemical (no T cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"bacterial Lon protease inhibits MYC over-activation in models of infection and cancer\",\n      \"rationale\": \"Biochemical MYC degradation study in disease models; no T cells or TCR inhibitory phenotype addressed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9262837\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (Lck-Cre knock-in mice); T-cell lineage / thymocytes\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"importance of regulated phosphorylation of MYC at T58 and S62 for T-cell transformation\",\n      \"rationale\": \"Studies MYC-driven T-cell lymphomagenesis/transformation, not TCR signalling inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12157703\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) and human histopathology; macrophages (non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"c-Myc inhibition promotes a pro-inflammatory macrophage phenotype with enhanced antimycobacterial activity\",\n      \"rationale\": \"MYC perturbation affects macrophage antibacterial function, not T cells or TCR signalling.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human engineered (CoCAR) T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory CAR\",\n      \"rationale\": \"Concerns enhancing TCR-based therapy; MYC is not studied and no inhibitory phenotype is addressed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12366093\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human pancreatic cancer cells and nude-mouse xenografts; non-immune\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CX26 facilitates PC progression by stabilizing c-Myc through competitively inhibiting PSMD2 binding\",\n      \"rationale\": \"MYC stability in pancreatic cancer; no T cells or TCR inhibitory context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4551349\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) primary T lymphocytes\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR is a digital switch for Myc mRNA and protein expression\",\n      \"rationale\": \"Shows TCR/IL-2 tuning of Myc for effector metabolism; activation biology, not TCR inhibition or attenuation.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12271375\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human colon cancer cell lines; non-immune\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"NKD1 promotes colon cancer by inhibiting MYC degradation via autophagy\",\n      \"rationale\": \"MYC stability in colon cancer proliferation; no T cells or inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9360539\",\n      \"retrieval_rank\": 8,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) primary CD8+ T cells\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"inhibition of Myc-dependent metabolic reprogramming represents a major mechanism underpinning the suppressive effects of TGFβ\",\n      \"rationale\": \"Mechanistically links Myc to TGFβ-mediated suppression of CD8 activation; Myc drives activation, so it opposes the inhibitory signal. No direct Myc perturbation and phenotype is metabolic suppression, not proximal TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12812896\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"Cancer cells (non-immune); review of DNA damage response\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"review analyzes MYC's dual role in DNA damage response and its impact on cancer cells\",\n      \"rationale\": \"Review of MYC in cancer DDR; unrelated to T cells or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3795085\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (immunized C57BL/6 mice); CD8+ T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"oncogenic c-MYC can be targeted with specific T-cells\",\n      \"rationale\": \"MYC is used as a vaccine antigen for cytolytic CD8 responses; MYC is not a TCR-signalling regulator here.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC9360539\"],\n  \"tier_rationale\": \"Only one retrieved primary study (PMC9360539) materially connects MYC to an inhibitory T cell context, providing indirect mechanistic evidence that TGFbeta suppresses CD8+ T cell activation by limiting Myc-dependent metabolic reprogramming. This satisfies the moderate criterion of indirect mechanistic linkage to an inhibitory phenotype, but falls short of strong: there is no direct MYC perturbation altering TCR signalling, checkpoint, or anergy, the readout is metabolic suppression rather than proximal TCR inhibition, and the direction indicates MYC opposes (rather than promotes) the inhibitory signal. All other papers are non-T-cell, cancer-biology, MYC-as-antigen, activation biology, or a review, and cannot support the tier.\",\n  \"confidence\": \"low\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "MYC",
+    "query": "MYC TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11861601",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human cell lines and murine kidney-infection model; non-immune / biochemical (no T cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "bacterial Lon protease inhibits MYC over-activation in models of infection and cancer",
+        "rationale": "Biochemical MYC degradation study in disease models; no T cells or TCR inhibitory phenotype addressed."
+      },
+      {
+        "paperclip_result_id": "PMC9262837",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (Lck-Cre knock-in mice); T-cell lineage / thymocytes",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "importance of regulated phosphorylation of MYC at T58 and S62 for T-cell transformation",
+        "rationale": "Studies MYC-driven T-cell lymphomagenesis/transformation, not TCR signalling inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12157703",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) and human histopathology; macrophages (non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "c-Myc inhibition promotes a pro-inflammatory macrophage phenotype with enhanced antimycobacterial activity",
+        "rationale": "MYC perturbation affects macrophage antibacterial function, not T cells or TCR signalling."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human engineered (CoCAR) T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory CAR",
+        "rationale": "Concerns enhancing TCR-based therapy; MYC is not studied and no inhibitory phenotype is addressed."
+      },
+      {
+        "paperclip_result_id": "PMC12366093",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human pancreatic cancer cells and nude-mouse xenografts; non-immune",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CX26 facilitates PC progression by stabilizing c-Myc through competitively inhibiting PSMD2 binding",
+        "rationale": "MYC stability in pancreatic cancer; no T cells or TCR inhibitory context."
+      },
+      {
+        "paperclip_result_id": "PMC4551349",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) primary T lymphocytes",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR is a digital switch for Myc mRNA and protein expression",
+        "rationale": "Shows TCR/IL-2 tuning of Myc for effector metabolism; activation biology, not TCR inhibition or attenuation."
+      },
+      {
+        "paperclip_result_id": "PMC12271375",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human colon cancer cell lines; non-immune",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "NKD1 promotes colon cancer by inhibiting MYC degradation via autophagy",
+        "rationale": "MYC stability in colon cancer proliferation; no T cells or inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC9360539",
+        "retrieval_rank": 8,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) primary CD8+ T cells",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "inhibition of Myc-dependent metabolic reprogramming represents a major mechanism underpinning the suppressive effects of TGFβ",
+        "rationale": "Mechanistically links Myc to TGFβ-mediated suppression of CD8 activation; Myc drives activation, so it opposes the inhibitory signal. No direct Myc perturbation and phenotype is metabolic suppression, not proximal TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12812896",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "Cancer cells (non-immune); review of DNA damage response",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "review analyzes MYC's dual role in DNA damage response and its impact on cancer cells",
+        "rationale": "Review of MYC in cancer DDR; unrelated to T cells or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC3795085",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (immunized C57BL/6 mice); CD8+ T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "oncogenic c-MYC can be targeted with specific T-cells",
+        "rationale": "MYC is used as a vaccine antigen for cytolytic CD8 responses; MYC is not a TCR-signalling regulator here."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC9360539"
+    ],
+    "tier_rationale": "Only one retrieved primary study (PMC9360539) materially connects MYC to an inhibitory T cell context, providing indirect mechanistic evidence that TGFbeta suppresses CD8+ T cell activation by limiting Myc-dependent metabolic reprogramming. This satisfies the moderate criterion of indirect mechanistic linkage to an inhibitory phenotype, but falls short of strong: there is no direct MYC perturbation altering TCR signalling, checkpoint, or anergy, the readout is metabolic suppression rather than proximal TCR inhibition, and the direction indicates MYC opposes (rather than promotes) the inhibitory signal. All other papers are non-T-cell, cancer-biology, MYC-as-antigen, activation biology, or a review, and cannot support the tier.",
+    "confidence": "low"
+  }
+}

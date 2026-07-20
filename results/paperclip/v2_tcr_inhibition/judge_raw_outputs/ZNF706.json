@@ -1,0 +1,146 @@
+{
+  "tf": "ZNF706",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:24:27Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-537c24b2-d048-449c-8c72-761aabb81dbe",
+      "agent_id": "agent-ecbb89d7-18ca-48f8-89e5-53d7937408c2",
+      "raw": "Based on the rubric, here is my structured assessment.\n\n```json\n{\n  \"tf\": \"ZNF706\",\n  \"query\": \"ZNF706 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11445280\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human hepatocellular carcinoma cells and mouse xenografts; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ZNF706, amplified in liver cancer, regulates ferroptosis by targeting SLC7A11.\",\n      \"rationale\": \"Only ZNF706-focused paper, but studies ferroptosis/oncogenesis in liver cancer with no T cell or TCR involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-engineered/dual-TCR T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.\",\n      \"rationale\": \"Studies TCR mispairing artifacts in engineered T cells; does not mention ZNF706 or an inhibitory regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells and Jurkat cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"This site enhances PTPN22's inhibitory effect on TCR signaling.\",\n      \"rationale\": \"Genuine TCR-inhibition study but about PTPN22, not ZNF706; provides no evidence on the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"primary human T cells and Jurkat cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR downregulation is controlled by redundant signaling events distinct from T cell activation.\",\n      \"rationale\": \"Examines Lck/Fyn/ZAP70 in TCR downregulation; does not involve ZNF706 and is not an inhibitory-regulator study.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human TCR repertoire (conceptual review)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Review explores using patient TCR repertoire data to select T cells for adoptive immunotherapy.\",\n      \"rationale\": \"Review on TCR selection for cancer immunotherapy; no ZNF706 content and no TCR-inhibition mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"engineered human T cells (CoCAR)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-based immunotherapy enhanced by a costimulatory chimeric antigen receptor.\",\n      \"rationale\": \"Costimulatory CAR engineering to enhance killing; unrelated to ZNF706 or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human CD4 TCR-engineered T cells; mouse xenograft tumor model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-engineered T cells significantly inhibited nasopharyngeal cancer growth in mouse models.\",\n      \"rationale\": \"TCR-T immunotherapy targeting EBNA1; concerns tumor killing, not ZNF706 or TCR-signalling inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse T cells in tumor models\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"exhaustion explicitly linked to impaired TCR function\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High TCR signal strength leads to T cell dysfunction, while low strength causes inertness.\",\n      \"rationale\": \"Addresses TCR signal-strength-driven dysfunction but makes no reference to ZNF706; irrelevant to the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"computational TCR sequence modeling; non-experimental\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Diffusion-based model generates epitope-specific TCRs and predicts TCR-epitope binding.\",\n      \"rationale\": \"Deep-learning TCR generation/binding predictor; no ZNF706, no inhibitory phenotype, no experimental T cell work.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4503983\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse conventional and innate T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PLZF was stably suppressed and not inducible in non-innate T cells via TCR signaling.\",\n      \"rationale\": \"Concerns the zinc-finger TF PLZF/Zbtb16 lineage regulation, not ZNF706, and addresses differentiation not TCR inhibition.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved paper links ZNF706 to TCR inhibition or a related inhibitory T cell phenotype. The single ZNF706 study (PMC11445280) concerns ferroptosis in liver cancer with no immune involvement, and the remaining TCR-related papers (including bona fide TCR-inhibition work such as PMC11237943 on PTPN22) do not involve ZNF706. No primary study materially connects the candidate regulator to an inhibitory T cell phenotype.\",\n  \"confidence\": \"high\"\n}\n```\n\nSummary: The retrieval surfaced one ZNF706 paper (non-immune ferroptosis/liver cancer) plus nine TCR-themed papers that never mention ZNF706. Since no primary study connects ZNF706 to TCR inhibition or a related inhibitory phenotype, the overall tier is **none** with high confidence.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ZNF706",
+    "query": "ZNF706 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11445280",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human hepatocellular carcinoma cells and mouse xenografts; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "ZNF706, amplified in liver cancer, regulates ferroptosis by targeting SLC7A11.",
+        "rationale": "Only ZNF706-focused paper, but studies ferroptosis/oncogenesis in liver cancer with no T cell or TCR involvement."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-engineered/dual-TCR T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.",
+        "rationale": "Studies TCR mispairing artifacts in engineered T cells; does not mention ZNF706 or an inhibitory regulator."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells and Jurkat cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "This site enhances PTPN22's inhibitory effect on TCR signaling.",
+        "rationale": "Genuine TCR-inhibition study but about PTPN22, not ZNF706; provides no evidence on the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "primary human T cells and Jurkat cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR downregulation is controlled by redundant signaling events distinct from T cell activation.",
+        "rationale": "Examines Lck/Fyn/ZAP70 in TCR downregulation; does not involve ZNF706 and is not an inhibitory-regulator study."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human TCR repertoire (conceptual review)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Review explores using patient TCR repertoire data to select T cells for adoptive immunotherapy.",
+        "rationale": "Review on TCR selection for cancer immunotherapy; no ZNF706 content and no TCR-inhibition mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "engineered human T cells (CoCAR)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-based immunotherapy enhanced by a costimulatory chimeric antigen receptor.",
+        "rationale": "Costimulatory CAR engineering to enhance killing; unrelated to ZNF706 or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human CD4 TCR-engineered T cells; mouse xenograft tumor model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-engineered T cells significantly inhibited nasopharyngeal cancer growth in mouse models.",
+        "rationale": "TCR-T immunotherapy targeting EBNA1; concerns tumor killing, not ZNF706 or TCR-signalling inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse T cells in tumor models",
+        "evidence_directness": "irrelevant",
+        "phenotype": "exhaustion explicitly linked to impaired TCR function",
+        "direction": "unclear",
+        "supporting_excerpt": "High TCR signal strength leads to T cell dysfunction, while low strength causes inertness.",
+        "rationale": "Addresses TCR signal-strength-driven dysfunction but makes no reference to ZNF706; irrelevant to the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "computational TCR sequence modeling; non-experimental",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Diffusion-based model generates epitope-specific TCRs and predicts TCR-epitope binding.",
+        "rationale": "Deep-learning TCR generation/binding predictor; no ZNF706, no inhibitory phenotype, no experimental T cell work."
+      },
+      {
+        "paperclip_result_id": "PMC4503983",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse conventional and innate T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "PLZF was stably suppressed and not inducible in non-innate T cells via TCR signaling.",
+        "rationale": "Concerns the zinc-finger TF PLZF/Zbtb16 lineage regulation, not ZNF706, and addresses differentiation not TCR inhibition."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved paper links ZNF706 to TCR inhibition or a related inhibitory T cell phenotype. The single ZNF706 study (PMC11445280) concerns ferroptosis in liver cancer with no immune involvement, and the remaining TCR-related papers (including bona fide TCR-inhibition work such as PMC11237943 on PTPN22) do not involve ZNF706. No primary study materially connects the candidate regulator to an inhibitory T cell phenotype.",
+    "confidence": "high"
+  }
+}

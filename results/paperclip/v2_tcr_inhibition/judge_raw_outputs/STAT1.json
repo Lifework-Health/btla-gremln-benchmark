@@ -1,0 +1,146 @@
+{
+  "tf": "STAT1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:13:40Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-41d89224-9a2d-4dfc-bb34-986a747f4e0c",
+      "agent_id": "agent-39a538be-f555-47b2-873b-8219b490d925",
+      "raw": "I've reviewed the schema and all 10 supplied papers. Here is my structured assessment.\n\n```json\n{\n  \"tf\": \"STAT1\",\n  \"query\": \"STAT1 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10944115\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; non-immune / viral system (SADS-CoV nsp1, JAK-STAT innate immune evasion in piglet-associated coronavirus infection)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"nsp1 efficiently inhibited STAT1 phosphorylation by inducing JAK1 degradation\",\n      \"rationale\": \"Studies viral antagonism of interferon JAK-STAT signalling; no T cells, no TCR, no inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10849914\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells; addresses STAT3 (not STAT1) in TH17 differentiation\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR signaling induces STAT3 phosphorylation to promote TH17 cell differentiation\",\n      \"rationale\": \"Concerns STAT3, not STAT1, and drives differentiation, not TCR inhibition; not material to the STAT1 query.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11242346\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/non-human non-immune; glioblastoma tumor cells in vitro and in vivo\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"OTUB1 promotes glioblastoma growth by inhibiting the JAK2/STAT1 pathway\",\n      \"rationale\": \"Cancer-cell-intrinsic JAK2/STAT1 regulation of tumor growth; no T cells or TCR signalling involved.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5079630\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/murine cells; cytokine (IFN-γ/IL-6/IL-27) signalling, not T cell TCR context\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAT2 inhibits STAT1 nuclear translocation in multiple pathways, attenuating IFN-γ responses\",\n      \"rationale\": \"Describes STAT2 restraining STAT1 in cytokine signalling; no TCR signalling or inhibitory T cell phenotype examined.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11678167\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human non-immune; sheep endometrial epithelial cells and in vivo uterus\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"LPS disrupts endometrial receptivity by inhibiting STAT1 phosphorylation in sheep\",\n      \"rationale\": \"Reproductive/endometrial STAT1 signalling in pregnancy failure; no T cells or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11046697\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"murine innate immune / inflammatory system; not T cell TCR context\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Thr748 phosphorylation restricts interferon signaling and promotes innate inflammatory responses\",\n      \"rationale\": \"Characterizes a STAT1 phospho-switch in interferon/innate inflammation; no TCR signalling or inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12509220\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"murine; type I interferon signalling, EAE autoimmune model (STAT1 as PARP7 substrate)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PARP7 inhibition stabilizes STAT1/STAT2 and relieves experimental autoimmune encephalomyelitis in mice\",\n      \"rationale\": \"Addresses PARP7 control of type I IFN signalling via STAT1 stability; no TCR signalling or inhibitory TCR readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5698428\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human cell-line signalling; addresses STAT3 (not STAT1)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TYK2-induced phosphorylation of Y640 suppresses STAT3 transcriptional activity\",\n      \"rationale\": \"Concerns STAT3 regulation, not STAT1, and no TCR or T cell inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12506346\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"murine mesenchymal stem/stromal cells; STAT1 acts in MSCs, not in T cells; T cells only as suppression target\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PARP inhibition enhances MSC immunomodulatory function by increasing STAT1 phosphorylation\",\n      \"rationale\": \"STAT1 operates in MSCs to boost their immunosuppression; no STAT1 perturbation within T cells or TCR signalling readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC1770918\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"other\",\n      \"experimental_system\": \"murine embryonic fibroblasts and ES cells; methodological tool, not T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"A dimerizer-inducible system for time- and dose-dependent STAT1 expression in vitro\",\n      \"rationale\": \"Methods paper describing an inducible STAT1 expression system; no TCR or inhibitory T cell phenotype.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study links STAT1 to TCR signalling inhibition or a closely related inhibitory T cell phenotype. Papers concern viral IFN evasion, tumor-cell JAK/STAT, cytokine/IFN signalling, reproductive and innate-immune biology, STAT3 (not STAT1), MSC-intrinsic STAT1, or a STAT1 expression tool. The only T cell/TCR paper (PMC10849914) addresses STAT3 and differentiation, not STAT1 inhibition. No direct, indirect, or associative T-cell-intrinsic STAT1 evidence supports even a weak tier for TCR inhibition.\",\n  \"confidence\": \"moderate\"\n}\n```\n\n**Summary:** Of 10 retrieved papers, none materially link STAT1 to TCR-signalling inhibition or a closely related inhibitory T cell phenotype. The results are dominated by STAT1's canonical interferon/JAK-STAT roles in non-T-cell or innate/viral/tumor contexts, plus two STAT3 papers and a methods tool. Overall tier: **none** (moderate confidence — papers were returned, but the retrieval clearly missed any T-cell-intrinsic TCR-inhibition evidence).",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "STAT1",
+    "query": "STAT1 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10944115",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; non-immune / viral system (SADS-CoV nsp1, JAK-STAT innate immune evasion in piglet-associated coronavirus infection)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "nsp1 efficiently inhibited STAT1 phosphorylation by inducing JAK1 degradation",
+        "rationale": "Studies viral antagonism of interferon JAK-STAT signalling; no T cells, no TCR, no inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC10849914",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells; addresses STAT3 (not STAT1) in TH17 differentiation",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR signaling induces STAT3 phosphorylation to promote TH17 cell differentiation",
+        "rationale": "Concerns STAT3, not STAT1, and drives differentiation, not TCR inhibition; not material to the STAT1 query."
+      },
+      {
+        "paperclip_result_id": "PMC11242346",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/non-human non-immune; glioblastoma tumor cells in vitro and in vivo",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "OTUB1 promotes glioblastoma growth by inhibiting the JAK2/STAT1 pathway",
+        "rationale": "Cancer-cell-intrinsic JAK2/STAT1 regulation of tumor growth; no T cells or TCR signalling involved."
+      },
+      {
+        "paperclip_result_id": "PMC5079630",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/murine cells; cytokine (IFN-γ/IL-6/IL-27) signalling, not T cell TCR context",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAT2 inhibits STAT1 nuclear translocation in multiple pathways, attenuating IFN-γ responses",
+        "rationale": "Describes STAT2 restraining STAT1 in cytokine signalling; no TCR signalling or inhibitory T cell phenotype examined."
+      },
+      {
+        "paperclip_result_id": "PMC11678167",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human non-immune; sheep endometrial epithelial cells and in vivo uterus",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "LPS disrupts endometrial receptivity by inhibiting STAT1 phosphorylation in sheep",
+        "rationale": "Reproductive/endometrial STAT1 signalling in pregnancy failure; no T cells or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC11046697",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "murine innate immune / inflammatory system; not T cell TCR context",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Thr748 phosphorylation restricts interferon signaling and promotes innate inflammatory responses",
+        "rationale": "Characterizes a STAT1 phospho-switch in interferon/innate inflammation; no TCR signalling or inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12509220",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "murine; type I interferon signalling, EAE autoimmune model (STAT1 as PARP7 substrate)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PARP7 inhibition stabilizes STAT1/STAT2 and relieves experimental autoimmune encephalomyelitis in mice",
+        "rationale": "Addresses PARP7 control of type I IFN signalling via STAT1 stability; no TCR signalling or inhibitory TCR readout."
+      },
+      {
+        "paperclip_result_id": "PMC5698428",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human cell-line signalling; addresses STAT3 (not STAT1)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TYK2-induced phosphorylation of Y640 suppresses STAT3 transcriptional activity",
+        "rationale": "Concerns STAT3 regulation, not STAT1, and no TCR or T cell inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12506346",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "murine mesenchymal stem/stromal cells; STAT1 acts in MSCs, not in T cells; T cells only as suppression target",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "PARP inhibition enhances MSC immunomodulatory function by increasing STAT1 phosphorylation",
+        "rationale": "STAT1 operates in MSCs to boost their immunosuppression; no STAT1 perturbation within T cells or TCR signalling readout."
+      },
+      {
+        "paperclip_result_id": "PMC1770918",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "other",
+        "experimental_system": "murine embryonic fibroblasts and ES cells; methodological tool, not T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "A dimerizer-inducible system for time- and dose-dependent STAT1 expression in vitro",
+        "rationale": "Methods paper describing an inducible STAT1 expression system; no TCR or inhibitory T cell phenotype."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study links STAT1 to TCR signalling inhibition or a closely related inhibitory T cell phenotype. Papers concern viral IFN evasion, tumor-cell JAK/STAT, cytokine/IFN signalling, reproductive and innate-immune biology, STAT3 (not STAT1), MSC-intrinsic STAT1, or a STAT1 expression tool. The only T cell/TCR paper (PMC10849914) addresses STAT3 and differentiation, not STAT1 inhibition. No direct, indirect, or associative T-cell-intrinsic STAT1 evidence supports even a weak tier for TCR inhibition.",
+    "confidence": "moderate"
+  }
+}

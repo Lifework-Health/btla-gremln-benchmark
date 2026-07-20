@@ -1,0 +1,150 @@
+{
+  "tf": "IRF8",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:49:58Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-f3e82251-b8c9-46ab-9d29-5494837ff5db",
+      "agent_id": "agent-bb3112e6-4d13-4b50-811a-0864786baf89",
+      "raw": "I've reviewed the schema and all 10 supplied papers. Here is the structured assessment.\n\n```json\n{\n  \"tf\": \"IRF8\",\n  \"query\": \"IRF8 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12324457\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; macrophage cell line (myeloid), no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"covalent ligand... degrades both IRF5 and IRF8, inhibiting their pro-inflammatory activity\",\n      \"rationale\": \"Chemical degrader study in macrophages targeting innate pro-inflammatory IRF signalling; no T cell or TCR readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3112536\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4+ T cells; Th17 subset\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"IRF8 as a novel intrinsic transcriptional inhibitor of TH17-cell differentiation\",\n      \"rationale\": \"T-cell-intrinsic knockout study, but phenotype is Th17 lineage differentiation, not proximal TCR signalling or an inhibitory TCR phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11905893\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) and human; hepatocytes/liver (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"IRF8 aggravates NAFLD by promoting lipid accumulation through the BMAL1/PPARγ axis\",\n      \"rationale\": \"Hepatic lipid metabolism study in non-immune tissue; no T cell or TCR involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9454819\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human and non-human; myeloid cells (MDSCs) and epithelial cells\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"IRF8's silencing promotes immune suppression... increasing myeloid-derived suppressor cells\",\n      \"rationale\": \"Review; IRF8 acts in myeloid/epithelial cells and loss promotes MDSC-mediated T cell suppression, not TCR-intrinsic inhibition. Reviews cannot support strong/moderate.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11153194\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) and human; dendritic cells/neutrophils (myeloid)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"IRF8 primarily regulates cDC1 and indirectly neutrophil functions\",\n      \"rationale\": \"IRF8 role in dendritic cell/neutrophil function in kidney injury; T-cell priming only mentioned indirectly, no TCR inhibition readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5727025\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4+ T cells; Th9 subset\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"IRF8 complexes boost the Th9 program and repress Il4 expression\",\n      \"rationale\": \"T-cell-intrinsic differentiation study of Th9 program and anti-tumour function; addresses lineage specification, not TCR inhibition or an inhibitory TCR phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11190126\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human; bulk tissue deconvolution (mixed immune cells, incl. Tregs/CD8)\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"T cells CD8, and T cells regulatory (Tregs) were shown to be negatively linked with IRF8\",\n      \"rationale\": \"Bioinformatics/ML expression-correlation study in orbital inflammation; associative only, no experimental TCR functional readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9856547\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) and human; tumor cells (non-T-cell), CTL-mediated killing\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"IRF8 represses p53, maintaining tumor cell sensitivity to ferroptosis and CTL-mediated killing\",\n      \"rationale\": \"IRF8 acts intrinsically in tumor cells regulating ferroptosis/CTL susceptibility; no perturbation of T cell TCR signalling itself.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12424652\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); microglia (CNS, non-T-cell)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"IRF8 in microglia plays a major role in controlling anxiety in a sex dependent manner\",\n      \"rationale\": \"Neurobehavioural study of microglial IRF8; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4543755\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and non-human (mouse xenograft); B-cell lymphoma cells (non-T-cell)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Loss of IRF8 suppressed proliferation by decreasing p38 and ERK phosphorylation\",\n      \"rationale\": \"B-cell lymphoma proliferation study; IRF8 acts intrinsically in B lymphoma cells, no T cell TCR readout.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"weak\",\n  \"key_paperclip_result_ids\": [\"PMC3112536\", \"PMC5727025\", \"PMC9454819\"],\n  \"tier_rationale\": \"No retrieved primary study provides direct causal, indirect mechanistic, or even associative evidence linking IRF8 to proximal TCR signalling inhibition, an inhibitory checkpoint response, TCR-linked anergy/hyporesponsiveness, or exhaustion with demonstrated impaired TCR function. The only T-cell-intrinsic primary studies (PMC3112536, PMC5727025) concern Th17/Th9 lineage differentiation, which the rubric classes as weak-tier (differentiation/lineage specification). Remaining evidence is non-T-cell (myeloid, hepatocyte, tumor, B-cell, microglia), a review (PMC9454819), or an expression-correlation computational study (PMC11190126). Under the mandatory rules, differentiation and expression correlations are insufficient for moderate, and reviews/computational inference cannot raise the tier; the presence of T-cell differentiation primary studies supports weak over none.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "IRF8",
+    "query": "IRF8 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12324457",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; macrophage cell line (myeloid), no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "covalent ligand... degrades both IRF5 and IRF8, inhibiting their pro-inflammatory activity",
+        "rationale": "Chemical degrader study in macrophages targeting innate pro-inflammatory IRF signalling; no T cell or TCR readout."
+      },
+      {
+        "paperclip_result_id": "PMC3112536",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4+ T cells; Th17 subset",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "IRF8 as a novel intrinsic transcriptional inhibitor of TH17-cell differentiation",
+        "rationale": "T-cell-intrinsic knockout study, but phenotype is Th17 lineage differentiation, not proximal TCR signalling or an inhibitory TCR phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11905893",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) and human; hepatocytes/liver (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "IRF8 aggravates NAFLD by promoting lipid accumulation through the BMAL1/PPARγ axis",
+        "rationale": "Hepatic lipid metabolism study in non-immune tissue; no T cell or TCR involvement."
+      },
+      {
+        "paperclip_result_id": "PMC9454819",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human and non-human; myeloid cells (MDSCs) and epithelial cells",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "IRF8's silencing promotes immune suppression... increasing myeloid-derived suppressor cells",
+        "rationale": "Review; IRF8 acts in myeloid/epithelial cells and loss promotes MDSC-mediated T cell suppression, not TCR-intrinsic inhibition. Reviews cannot support strong/moderate."
+      },
+      {
+        "paperclip_result_id": "PMC11153194",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) and human; dendritic cells/neutrophils (myeloid)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "IRF8 primarily regulates cDC1 and indirectly neutrophil functions",
+        "rationale": "IRF8 role in dendritic cell/neutrophil function in kidney injury; T-cell priming only mentioned indirectly, no TCR inhibition readout."
+      },
+      {
+        "paperclip_result_id": "PMC5727025",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4+ T cells; Th9 subset",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "context dependent",
+        "supporting_excerpt": "IRF8 complexes boost the Th9 program and repress Il4 expression",
+        "rationale": "T-cell-intrinsic differentiation study of Th9 program and anti-tumour function; addresses lineage specification, not TCR inhibition or an inhibitory TCR phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11190126",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human; bulk tissue deconvolution (mixed immune cells, incl. Tregs/CD8)",
+        "evidence_directness": "associative",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "T cells CD8, and T cells regulatory (Tregs) were shown to be negatively linked with IRF8",
+        "rationale": "Bioinformatics/ML expression-correlation study in orbital inflammation; associative only, no experimental TCR functional readout."
+      },
+      {
+        "paperclip_result_id": "PMC9856547",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) and human; tumor cells (non-T-cell), CTL-mediated killing",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "IRF8 represses p53, maintaining tumor cell sensitivity to ferroptosis and CTL-mediated killing",
+        "rationale": "IRF8 acts intrinsically in tumor cells regulating ferroptosis/CTL susceptibility; no perturbation of T cell TCR signalling itself."
+      },
+      {
+        "paperclip_result_id": "PMC12424652",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); microglia (CNS, non-T-cell)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "IRF8 in microglia plays a major role in controlling anxiety in a sex dependent manner",
+        "rationale": "Neurobehavioural study of microglial IRF8; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC4543755",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human and non-human (mouse xenograft); B-cell lymphoma cells (non-T-cell)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Loss of IRF8 suppressed proliferation by decreasing p38 and ERK phosphorylation",
+        "rationale": "B-cell lymphoma proliferation study; IRF8 acts intrinsically in B lymphoma cells, no T cell TCR readout."
+      }
+    ],
+    "overall_evidence_tier": "weak",
+    "key_paperclip_result_ids": [
+      "PMC3112536",
+      "PMC5727025",
+      "PMC9454819"
+    ],
+    "tier_rationale": "No retrieved primary study provides direct causal, indirect mechanistic, or even associative evidence linking IRF8 to proximal TCR signalling inhibition, an inhibitory checkpoint response, TCR-linked anergy/hyporesponsiveness, or exhaustion with demonstrated impaired TCR function. The only T-cell-intrinsic primary studies (PMC3112536, PMC5727025) concern Th17/Th9 lineage differentiation, which the rubric classes as weak-tier (differentiation/lineage specification). Remaining evidence is non-T-cell (myeloid, hepatocyte, tumor, B-cell, microglia), a review (PMC9454819), or an expression-correlation computational study (PMC11190126). Under the mandatory rules, differentiation and expression correlations are insufficient for moderate, and reviews/computational inference cannot raise the tier; the presence of T-cell differentiation primary studies supports weak over none.",
+    "confidence": "high"
+  }
+}

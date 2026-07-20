@@ -1,0 +1,146 @@
+{
+  "tf": "TGIF1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:18:11Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-df8c56fc-b2f3-4bdd-9db5-569bca13dc1d",
+      "agent_id": "agent-3871dc95-d8af-4351-a74d-480a72330084",
+      "raw": "Based on my analysis of the supplied papers, here is the structured assessment:\n\n```json\n{\n  \"tf\": \"TGIF1\",\n  \"query\": \"TGIF1 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11751904\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); non-immune system (liver/hepatocytes, type 2 diabetes model)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TGIF1 reduces glycolipid metabolism disorders in mice with T2D through the miR-106b-5p/EGR2 axis.\",\n      \"rationale\": \"Studies TGIF1 in diabetic glycolipid metabolism; no T cells or TCR signalling involved.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2816958\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-immune assay context; B-cell/IgA class switching (TGFβ signalling), not T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Tiul1 and TGIF act as negative regulators in TGFβ1-induced IgA isotype expression.\",\n      \"rationale\": \"TGIF negatively regulates TGFβ-induced IgA class switching, not TCR signalling or T cell inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11045221\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); non-immune system (osteoblasts)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Tgif1 deficiency in osteoblasts disrupts cytoskeletal architecture, reducing adherence and migration.\",\n      \"rationale\": \"Concerns osteoblast cytoskeleton via Pak3 repression; no relevance to T cells or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7987261\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; non-immune system (gastric cancer cell line)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Knockdown of TGIF1 inhibited proliferation, migration, and invasion of gastric cancer cells.\",\n      \"rationale\": \"TGIF1 knockdown affects gastric cancer proliferation via AKT; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12037246\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"non-human (sheep); non-immune system (reproductive genetics)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"No significant association was observed between the TGIF1 SNPs and litter size.\",\n      \"rationale\": \"SNP association study on sheep litter size; unrelated to T cells or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6446543\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human/human; non-immune system (intestinal tumor/adenoma)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Tgifs repress acetyl-CoA metabolic gene expression, promoting adenoma growth in mutant Apc.\",\n      \"rationale\": \"TGIF role in intestinal tumor metabolism; no T cell or TCR signalling relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary T cells (TCR signalling), but regulator studied is PTPN22, not TGIF1\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser325 phosphorylation enhances PTPN22's inhibitory effect on TCR signaling.\",\n      \"rationale\": \"Directly addresses TCR inhibition but concerns PTPN22, not candidate regulator TGIF1; irrelevant to TGIF1.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5754828\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse xenograft; non-immune system (esophageal cancer cell line)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Knockdown of TGIF attenuated proliferation and tumorigenicity of EC109 cells.\",\n      \"rationale\": \"TGIF knockdown affects esophageal cancer proliferation/apoptosis; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; T cells (TCR repertoire, immunotherapy), no TGIF1 involvement\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Review explores using patient TCR repertoire data to select therapeutic TCRs.\",\n      \"rationale\": \"Review of TCR engineering for immunotherapy; does not mention TGIF1 or TCR inhibition by it.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3325954\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); non-immune system (embryonic fibroblasts)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Tgif1-deficient mouse cells show premature senescence and increased TGFβ signaling.\",\n      \"rationale\": \"Tgif1 loss causes fibroblast senescence via TGFβ; no T cell or TCR relevance.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study materially links TGIF1 to TCR inhibition or a closely related inhibitory T cell phenotype. TGIF1 papers concern metabolism, cancer proliferation, osteoblasts, IgA class switching, senescence, and sheep reproduction. The only TCR-inhibition study (PMC11237943) concerns PTPN22, not TGIF1, and the TCR review (PMC12346228) does not involve TGIF1. No papers therefore support any evidence tier.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "TGIF1",
+    "query": "TGIF1 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11751904",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); non-immune system (liver/hepatocytes, type 2 diabetes model)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TGIF1 reduces glycolipid metabolism disorders in mice with T2D through the miR-106b-5p/EGR2 axis.",
+        "rationale": "Studies TGIF1 in diabetic glycolipid metabolism; no T cells or TCR signalling involved."
+      },
+      {
+        "paperclip_result_id": "PMC2816958",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-immune assay context; B-cell/IgA class switching (TGFβ signalling), not T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Tiul1 and TGIF act as negative regulators in TGFβ1-induced IgA isotype expression.",
+        "rationale": "TGIF negatively regulates TGFβ-induced IgA class switching, not TCR signalling or T cell inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11045221",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); non-immune system (osteoblasts)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Tgif1 deficiency in osteoblasts disrupts cytoskeletal architecture, reducing adherence and migration.",
+        "rationale": "Concerns osteoblast cytoskeleton via Pak3 repression; no relevance to T cells or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC7987261",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; non-immune system (gastric cancer cell line)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Knockdown of TGIF1 inhibited proliferation, migration, and invasion of gastric cancer cells.",
+        "rationale": "TGIF1 knockdown affects gastric cancer proliferation via AKT; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC12037246",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "non-human (sheep); non-immune system (reproductive genetics)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "No significant association was observed between the TGIF1 SNPs and litter size.",
+        "rationale": "SNP association study on sheep litter size; unrelated to T cells or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC6446543",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human/human; non-immune system (intestinal tumor/adenoma)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Tgifs repress acetyl-CoA metabolic gene expression, promoting adenoma growth in mutant Apc.",
+        "rationale": "TGIF role in intestinal tumor metabolism; no T cell or TCR signalling relevance."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary T cells (TCR signalling), but regulator studied is PTPN22, not TGIF1",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser325 phosphorylation enhances PTPN22's inhibitory effect on TCR signaling.",
+        "rationale": "Directly addresses TCR inhibition but concerns PTPN22, not candidate regulator TGIF1; irrelevant to TGIF1."
+      },
+      {
+        "paperclip_result_id": "PMC5754828",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse xenograft; non-immune system (esophageal cancer cell line)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Knockdown of TGIF attenuated proliferation and tumorigenicity of EC109 cells.",
+        "rationale": "TGIF knockdown affects esophageal cancer proliferation/apoptosis; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; T cells (TCR repertoire, immunotherapy), no TGIF1 involvement",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Review explores using patient TCR repertoire data to select therapeutic TCRs.",
+        "rationale": "Review of TCR engineering for immunotherapy; does not mention TGIF1 or TCR inhibition by it."
+      },
+      {
+        "paperclip_result_id": "PMC3325954",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); non-immune system (embryonic fibroblasts)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Tgif1-deficient mouse cells show premature senescence and increased TGFβ signaling.",
+        "rationale": "Tgif1 loss causes fibroblast senescence via TGFβ; no T cell or TCR relevance."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study materially links TGIF1 to TCR inhibition or a closely related inhibitory T cell phenotype. TGIF1 papers concern metabolism, cancer proliferation, osteoblasts, IgA class switching, senescence, and sheep reproduction. The only TCR-inhibition study (PMC11237943) concerns PTPN22, not TGIF1, and the TCR review (PMC12346228) does not involve TGIF1. No papers therefore support any evidence tier.",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "tf": "STAT4",
+  "query": "STAT4 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC12087874",
+      "rank": 1,
+      "title": "Biaryl Phosphates and Phosphonates as Selective Inhibitors of the Transcription Factor STAT4",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The transcription factor STAT4 has been implicated in the pathogenesis of autoimmune diseases, including inflammatory bowel disease, multiple sclerosis, rheumatoid arthritis, and diabetes mellitus. Here, we report  p ‐biaryl phosphates and phosphonates as the first small‐molecule inhibitors of STAT4. The most potent  p ‐biaryl phosphate inhibited the protein–protein interaction domain of STAT4, the SH2 domain, with submicromolar potency ( K \n i  = 0.35 µM) and 14‐fold selectivity over the closely related family member STAT3, which has the same core peptide binding motif as STAT4. Further development resulted in the phosphatase‐stable inhibitor Stafori‐1, which protected STAT4 but not STAT3, against thermal denaturation in cell lysates. Its cell‐permeable prodrug Pomstafori‐1 selectively inhibited STAT4 phosphorylation in cultured human cells at low micromolar concentrations. Our data open up the possibility of exploring STAT4 as a target protein for small molecules in the treatment of unmet medical needs.",
+      "relevant_passages": "Biaryl phosphates and phosphonates were developed as small-molecule inhibitors of the transcription factor STAT4. The most potent inhibitor selectively blocked STAT4's SH2 domain and showed promise in cell-based assays.",
+      "doi_or_pmcid": "10.1002/anie.202504420"
+    },
+    {
+      "paperclip_result_id": "PMC10849914",
+      "rank": 2,
+      "title": "TCR signaling induces STAT3 phosphorylation to promote T H 17 cell differentiation",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "TCR signaling (signal 1) induces STAT3 phosphorylation through Lck/Fyn and, synergistically with cytokine signal (signal 3), induces optimal STAT3 phosphorylation to drive T H 17 cell differentiation. Selective inhibition of TCR stimulation–induced STAT3 phosphorylation significantly inhibits T H 17 differentiation and ameliorates T H 17 cell–related autoimmune diseases.",
+      "relevant_passages": "TCR signaling, in conjunction with cytokine signals, induces STAT3 phosphorylation to drive T H 17 cell differentiation. Inhibiting this TCR-induced phosphorylation reduces T H 17 differentiation and ameliorates related autoimmune diseases.",
+      "doi_or_pmcid": "10.1084/jem.20230683"
+    },
+    {
+      "paperclip_result_id": "PMC11989168",
+      "rank": 3,
+      "title": "DNA Methylation Mediates the Transcription of  STAT4  to Regulate  KISS1  During Follicular Development",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Maturation of follicles is the primary condition for the initiation of puberty, and excessive apoptosis of granulosa cells (GCs) will hinder the normal development of follicles in pigs. Signal Transducer and Activator of Transcription 4 ( STAT4 ) plays an important role in cell proliferation and apoptosis. However, the mechanism of DNA methylation regulating  STAT4  transcription and affecting follicle development in pigs remains unclear. To resolve this problem, we constructed a  STAT4  overexpression vector and interference fragment to explore the effects of  STAT4  on GC function and investigate the effects of changes in methylation status of the  STAT4  promoter region on cell function and kisspeptin-1 ( KISS1 ) expression, as well as the  STAT4  effects on the development of the follicles of pigs and mice in vitro. We found that the expression of  STAT4  decreased, while DNA methylation of the  STAT4  promoter region increased with the growth of the follicles. After overexpression of  STAT4 , the apoptosis of GCs was increased but the proliferation, cell cycle and estrogen secretion of GCs were inhibited. When GCs were treated with DNA methyltransferase inhibitor (5-Aza-CdR), the methylation of the  STAT4  promoter region decreased, resulting in a significant increase in the expression of  STAT4 . Consequently, the expression of  KISS1  was inhibited. At the same time, the expressions of genes related to cell proliferation, cell cycle and estrogen secretion signaling pathways decreased, while the expressions of genes related to the apoptosis signaling pathway increased. After infection with the  STAT4  lentiviral vector (LV- STAT4 ) in follicles of mice, the expression of  STAT4  in ovaries of mice significantly increased, and the expression of  KISS1  was significantly decreased. The capillaries on the surface of follicles were constricted, the age of puberty onset in mice was delayed while the levels of GnRH, LH, FSH and E2 in serum were decreased. In conclusion, we found that reduced methylation status of the  STAT4  promoter region promoted the transcription of  STAT4  and then inhibited the expression of  KISS1 , as well as promoted the apoptosis of GCs and ultimately inhibited the normal development of follicles in mammals.",
+      "relevant_passages": "DNA methylation of the STAT4 promoter was studied in relation to follicular development. Increased STAT4 methylation reduces STAT4 expression, inhibiting KISS1 and hindering follicle maturation.",
+      "doi_or_pmcid": "10.3390/cells14070523"
+    },
+    {
+      "paperclip_result_id": "PMC2196089",
+      "rank": 4,
+      "title": "Stat5 Synergizes with T Cell Receptor/Antigen Stimulation in the Development of Lymphoblastic Lymphoma",
+      "year": "2003",
+      "publication_type": "research-article",
+      "abstract": "Signal transducer and activator of transcription (STAT) proteins are latent transcription factors that mediate a wide range of actions induced by cytokines, interferons, and growth factors. We now report the development of thymic T cell lymphoblastic lymphomas in transgenic mice in which Stat5a or Stat5b is overexpressed within the lymphoid compartment. The rate of lymphoma induction was markedly enhanced by immunization or by the introduction of TCR transgenes. Remarkably, the Stat5 transgene potently induced development of CD8 +  T cells, even in mice expressing a class II–restricted TCR transgene, with resulting CD8 +  T cell lymphomas. These data demonstrate the oncogenic potential of dysregulated expression of a STAT protein that is not constitutively activated, and that TCR stimulation can contribute to this process.",
+      "relevant_passages": "This study investigated the role of Stat5 in T cell lymphoma development using transgenic mice. Overexpression of Stat5, especially with T cell receptor stimulation, significantly enhanced lymphoma formation and altered T cell development.",
+      "doi_or_pmcid": "10.1084/jem.20021548"
+    },
+    {
+      "paperclip_result_id": "PMC11578735",
+      "rank": 5,
+      "title": "STAT4 gene polymorphisms in human diseases",
+      "year": "2024",
+      "publication_type": "review-article",
+      "abstract": "Signal transducer and activator of transcription 4 (STAT4) is a member of the STAT family, which is a group of transcription factors that regulate cytokine signaling. Genetic polymorphisms in STAT4 strongly influence immune responses and disease outcomes, especially in cancer and autoimmune diseases. Several studies have indicated that certain STAT4 gene variants are associated with alterations in STAT4 expression and/or activity and that there is a close relationship between STAT4 polymorphisms and drug efficacy. However, the underlying mechanisms are complex, and the roles of these polymorphisms in disease acquisition, progression, and severity are of widespread concern. Therefore, we provide an overview of the clinical significance of polymorphisms in STAT4 and the mechanisms by which these STAT4 variants are involved in various diseases.",
+      "relevant_passages": "This paper reviews STAT4 gene polymorphisms and their impact on immune responses and disease outcomes. These genetic variations are linked to disease acquisition, progression, severity, and drug efficacy.",
+      "doi_or_pmcid": "10.3389/fimmu.2024.1479418"
+    },
+    {
+      "paperclip_result_id": "PMC2195871",
+      "rank": 6,
+      "title": "Transient Inhibition of Interleukin 4 Signaling by T Cell Receptor Ligation",
+      "year": "2000",
+      "publication_type": "research-article",
+      "abstract": "Interleukin (IL)-4 and IL-12 together with T cell receptor (TCR) engagement are crucial for the differentiation of CD4 +  T cells into T helper (Th)2 or Th1 cells, respectively. Although IL-4 receptors (IL-4Rs) but not IL-12Rs are expressed on naive CD4 +  T cells, IL-4 has no apparent advantage over IL-12 in driving naive T cell differentiation when the cells are primed with both IL-4 and IL-12 in vitro. It was found that IL-4–induced phosphorylation of Janus kinases 1 and 3, IL-4Rα, signal transducer and activator of transcription 6, and insulin receptor substrate 2 was strikingly but transiently inhibited by TCR ligation both in conventional and TCR transgenic T cells. TCR engagement also blocked the expression of an IL-4–inducible gene. Signals induced by other cytokines, including IL-2, IL-6, and interferon α, but not by insulin-like growth factor 1, were also blocked by TCR engagement. The capacity of various inhibitors to reverse TCR-mediated inhibition of IL-4 signaling suggested that activation of the Ras–mitogen-activated protein kinase pathway and of the calcineurin pathway contribute to desensitizing IL-4R. IL-4 responsiveness returned at about the time (∼12 h) that IL-12–mediated signaling was first observed. Thus, through different mechanisms, neither IL-4R nor IL-12R has any clear advantage in polarizing cells; rather, the availability of cytokine is probably the limiting factor in this process.",
+      "relevant_passages": "TCR ligation transiently inhibits IL-4 signaling in CD4+ T cells by activating Ras-MAPK and calcineurin pathways. This inhibition, along with cytokine availability, likely dictates T cell polarization rather than receptor advantage.",
+      "doi_or_pmcid": "PMC2195871"
+    },
+    {
+      "paperclip_result_id": "PMC11432593",
+      "rank": 7,
+      "title": "Investigating the Link between  STAT4  Genetic Variants, STAT4 Protein Concentrations, and Laryngeal Squamous Cell Carcinoma: A Comprehensive Analysis of Clinical Manifestations",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "According to recent research, inflammatory  STAT4  and its protein impact may be important factors in developing cancerous diseases. Still unanalyzed is this effect in patients with laryngeal squamous cell carcinoma (LSCC). In the present study, we evaluated four single nucleotide variants (SNVs) of  STAT4  (rs10181656, rs7574865, rs7601754, and rs10168266) and STAT4 serum levels to determine their link between LSCC development and its clinical manifestations. A total of 632 men (324 LSCC patients and 338 healthy individuals) were involved in this study. The genotyping was carried out using real-time PCR. Additionally, we measured 80 study subjects’ (40 LSCC patients and 40 control subjects) STAT4 protein concentrations using an enzyme-linked immunosorbent assay (ELISA). In our study, the T allele of  STAT4  rs7574865 significantly increases the likelihood of LSCC occurrence by 1.4-fold. Additionally, this SNV is associated with higher odds of early-stage disease, T1 size LSCC development, absence of metastasis to neck lymph nodes, and well-differentiated carcinoma. The G allele of rs10181656 is significantly associated with various clinical characteristics of LSCC, increasing the odds of early- and advanced-stage disease by 2.8-fold and 1.9-fold, respectively. Additionally, this allele is linked to an increased likelihood of developing tumors of different sizes and non-metastasized LSCC, as well as poorly differentiated carcinoma, highlighting its potential impact on the development and features of LSCC. Conclusion: The analysis of the  STAT4  rs7574865 SNV revealed that the G allele is linked to a more favorable prognosis in LSCC. Additionally, it is hypothesized that the G allele of rs10181656 may be associated with the occurrence of LSCC but may not serve as a sensitive prognostic biomarker for distinguishing between disease stages, cell differentiation, or tumor size.",
+      "relevant_passages": "This study analyzed STAT4 genetic variants and protein levels in relation to laryngeal squamous cell carcinoma. The STAT4 rs7574865 T allele increases LSCC risk and is linked to earlier stage, smaller, and less aggressive tumors.",
+      "doi_or_pmcid": "10.3390/ijms251810180"
+    },
+    {
+      "paperclip_result_id": "PMC2195684",
+      "rank": 8,
+      "title": "Inhibition of Interleukin 2 Signaling and Signal Transducer and Activator of Transcription (Stat)5 Activation during T Cell Receptor–Mediated Feedback Inhibition of T Cell Expansion",
+      "year": "1999",
+      "publication_type": "research-article",
+      "abstract": "Limitation of clonal expansion of activated T cells is necessary for immune homeostasis, and is achieved by growth arrest and apoptosis. Growth arrest and apoptosis can occur passively secondary to cytokine withdrawal, or can be actively induced by religation of the T cell receptor (TCR) in previously activated proliferating T cells. TCR-induced apoptosis appears to require prior growth arrest, and is mediated by death receptors such as Fas. We tested whether TCR religation affects T cell responses to interleukin (IL)-2, a major T cell growth and survival factor. TCR ligation in activated primary human T cells blocked IL-2 induction of signal transducer and activator of transcription (STAT)5 DNA binding, phosphorylation of STAT5, Janus kinase (Jak)1, Jak3, and Akt, and kinase activity of Jak1 and Jak3. Inhibition was mediated by the mitogen-activated protein kinase kinase (MEK)–extracellular stimulus–regulated kinase (ERK) signaling pathway, similar to the mechanism of inhibition of IL-6 signaling we have described previously. TCR ligation blocked IL-2 activation of genes and cell cycle regulatory proteins, and suppressed cell proliferation and expansion. These results identify TCR-induced inhibition of IL-2 signaling as a novel mechanism that underlies antigen-mediated feedback limitation of T cell expansion, and suggest that modulation of cytokine activity by antigen receptor signals plays an important role in the regulation of lymphocyte function.",
+      "relevant_passages": "T-cell receptor ligation in activated T cells was studied to see its effect on interleukin-2 signaling. This ligation inhibits IL-2 signaling, thereby limiting T-cell expansion.",
+      "doi_or_pmcid": "PMC2195684"
+    },
+    {
+      "paperclip_result_id": "PMC11391519",
+      "rank": 9,
+      "title": "Effects of STAT4 on myocardial ischemia‑reperfusion injury and the underlying mechanisms",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The regulation of cardiac function by the nuclear transcription factor signal transducer and activator of transcription 4 (STAT4) has been recently recognized. Nevertheless, the role and mechanisms of action of STAT4 in myocardial ischemia-reperfusion (I/R) injury remain unknown. Consequently, the present study constructed a rat model of I/R by ligation of the left anterior descending coronary artery. Following sacrifice, the rat hearts were excised and analyzed to investigated the effects of STAT4 on I/R-induced myocardial injury. Western blotting demonstrated that expression of STAT4 decreased significantly in the rat model of cardiac I/R and in H9C2 cells that were subjected to hypoxia and reoxygenation (H/R). The overexpression of STAT4 in H9C2 cells reduced cell damage and apoptosis induced by H/R. Furthermore, both  in vivo  and  in vitro , the level of PI3K decreased significantly. Although the AKT protein expression levels were not altered, the AKT phosphorylation levels decreased significantly. STAT4 overexpression enhanced the expression of PI3K and AKT in the H9C2 cells. On the whole, the present study demonstrated that STAT4 alleviated I/R-induced myocardial injury through the PI3K/AKT signaling pathway.",
+      "relevant_passages": "STAT4 expression was investigated in a rat model of myocardial ischemia-reperfusion injury. STAT4 overexpression reduced injury by activating the PI3K/AKT pathway.",
+      "doi_or_pmcid": "10.3892/mmr.2024.13321"
+    },
+    {
+      "paperclip_result_id": "PMC7178138",
+      "rank": 10,
+      "title": "Dissociating STAT4 and STAT5 Signaling Inhibitory Functions of SOCS3: Effects on CD8 T Cell Responses",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "Cytokines are critical for guiding the differentiation of T lymphocytes to perform specialized tasks in the immune response. Developing strategies to manipulate cytokine-signaling pathways holds promise to program T cell differentiation toward the most therapeutically useful direction. Suppressor of cytokine signaling (SOCS) proteins are attractive targets, as they effectively inhibit undesirable cytokine signaling. However, these proteins target multiple signaling pathways, some of which we may need to remain uninhibited. SOCS3 inhibits IL-12 signaling but also inhibits the IL-2–signaling pathway. In this study, we use computational protein design based on SOCS3 and JAK crystal structures to engineer a mutant SOCS3 with altered specificity. We generated a mutant SOCS3 designed to ablate interactions with JAK1 but maintain interactions with JAK2. We show that this mutant does indeed ablate JAK1 inhibition, although, unexpectedly, it still coimmunoprecipitates with JAK1 and does so to a greater extent than with JAK2. When expressed in CD8 T cells, mutant SOCS3 preserved inhibition of JAK2-dependent STAT4 phosphorylation following IL-12 treatment. However, inhibition of STAT phosphorylation was ablated following stimulation with JAK1-dependent cytokines IL-2, IFN-α, and IL-21. Wild-type SOCS3 inhibited CD8 T cell expansion in vivo and induced a memory precursor phenotype. In vivo T cell expansion was restored by expression of the mutant SOCS3, and this also reverted the phenotype toward effector T cell differentiation. These data show that SOCS proteins can be engineered to fine-tune their specificity, and this can exert important changes to T cell biology.",
+      "relevant_passages": "A mutant SOCS3 was engineered to selectively inhibit JAK2 while sparing JAK1. This mutant restored CD8 T cell expansion and effector differentiation by ablating inhibition of JAK1-dependent cytokines.",
+      "doi_or_pmcid": "10.4049/immunohorizons.1800075"
+    }
+  ]
+}

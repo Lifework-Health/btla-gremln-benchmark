@@ -1,0 +1,146 @@
+{
+  "tf": "CYCS",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:35:22Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-047e3d0a-f7cc-4adb-a088-0495bf8db729",
+      "agent_id": "agent-dba076f5-ed59-427e-8bae-7c1fb64af6a8",
+      "raw": "Based on the supplied papers and passages only, here is the structured assessment for CYCS.\n\n```json\n{\n  \"tf\": \"CYCS\",\n  \"query\": \"CYCS TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12546133\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (C57BL/6J mice) and H9c2 cardiomyoblast line; non-immune cardiac system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"downregulated the interaction between Apaf1 and Cycs, thereby suppressing cardiomyocyte apoptosis\",\n      \"rationale\": \"CYCS studied in cardiac apoptosis; no T cells or TCR signalling involved.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3951827\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human Jurkat T cell line\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"knockdown of Bcl-2 in Jurkat T cells increased TCR-triggered AICD\",\n      \"rationale\": \"Studies Bcl-2 and activation-induced cell death, not CYCS; no TCR-inhibition mechanism tied to candidate.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11637729\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human MEG-01 megakaryoblast line; non-immune platelet/megakaryocyte system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"variant decreases the expression of CYCS ... abates caspase activation\",\n      \"rationale\": \"CYCS variant characterised in thrombocytopenia/megakaryocytes; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-engineered T cells (line/polyclonal)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function\",\n      \"rationale\": \"TCR mispairing/engineering study; CYCS absent and no regulator-mediated inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser 325 phosphorylation ... promotes its TCR-inhibitory activity\",\n      \"rationale\": \"Direct TCR-inhibition evidence but for PTPN22, not CYCS; does not concern the candidate.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6670834\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/primary T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"dual inhibitor of Cdc7/Cdk9 ... impede TCR signaling ... suppressed T cell activation\",\n      \"rationale\": \"Concerns a Cdc7/Cdk9 kinase inhibitor suppressing activation, not CYCS.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human (conceptual review, no experimental system)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"review explores using individual patient TCR repertoire data to select T cells\",\n      \"rationale\": \"Review on therapeutic TCR selection; no CYCS and no inhibitory mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2768903\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) primary and antigen-stimulated T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"mitochondrial drug treatments caused impairment of specific membrane-proximal TCR signaling event(s)\",\n      \"rationale\": \"Mitochondrial antagonists (metformin/phenformin) attenuate proximal TCR signalling; CYCS itself not perturbed or tested.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human CD4 TCR-engineered T cells; mouse xenograft tumor model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"T cells significantly inhibited nasopharyngeal cancer growth in mouse models\",\n      \"rationale\": \"TCR-T immunotherapy inhibiting tumor growth; no CYCS and not TCR-signalling inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3358016\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) TCR-transgenic alloreactive T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"activated T cells were fully resistant to ABT-737 ... upregulation of A1\",\n      \"rationale\": \"Intrinsic apoptosis (Bcl-2 family/ABT-737) resistance study; no CYCS and no TCR-inhibition readout.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study perturbs or mechanistically links CYCS to TCR signalling inhibition or a related inhibitory T cell phenotype. The two CYCS-containing papers (PMC12546133, PMC11637729) concern cardiac and platelet apoptosis in non-immune systems, while the papers addressing TCR inhibition/attenuation (PMC11237943, PMC6670834, PMC2768903) involve other regulators (PTPN22, Cdc7/Cdk9, mitochondrial antagonists) and do not test CYCS.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "CYCS",
+    "query": "CYCS TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12546133",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (C57BL/6J mice) and H9c2 cardiomyoblast line; non-immune cardiac system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "downregulated the interaction between Apaf1 and Cycs, thereby suppressing cardiomyocyte apoptosis",
+        "rationale": "CYCS studied in cardiac apoptosis; no T cells or TCR signalling involved."
+      },
+      {
+        "paperclip_result_id": "PMC3951827",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human Jurkat T cell line",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "knockdown of Bcl-2 in Jurkat T cells increased TCR-triggered AICD",
+        "rationale": "Studies Bcl-2 and activation-induced cell death, not CYCS; no TCR-inhibition mechanism tied to candidate."
+      },
+      {
+        "paperclip_result_id": "PMC11637729",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human MEG-01 megakaryoblast line; non-immune platelet/megakaryocyte system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "variant decreases the expression of CYCS ... abates caspase activation",
+        "rationale": "CYCS variant characterised in thrombocytopenia/megakaryocytes; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-engineered T cells (line/polyclonal)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function",
+        "rationale": "TCR mispairing/engineering study; CYCS absent and no regulator-mediated inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser 325 phosphorylation ... promotes its TCR-inhibitory activity",
+        "rationale": "Direct TCR-inhibition evidence but for PTPN22, not CYCS; does not concern the candidate."
+      },
+      {
+        "paperclip_result_id": "PMC6670834",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/primary T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "dual inhibitor of Cdc7/Cdk9 ... impede TCR signaling ... suppressed T cell activation",
+        "rationale": "Concerns a Cdc7/Cdk9 kinase inhibitor suppressing activation, not CYCS."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human (conceptual review, no experimental system)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "review explores using individual patient TCR repertoire data to select T cells",
+        "rationale": "Review on therapeutic TCR selection; no CYCS and no inhibitory mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC2768903",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) primary and antigen-stimulated T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "mitochondrial drug treatments caused impairment of specific membrane-proximal TCR signaling event(s)",
+        "rationale": "Mitochondrial antagonists (metformin/phenformin) attenuate proximal TCR signalling; CYCS itself not perturbed or tested."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human CD4 TCR-engineered T cells; mouse xenograft tumor model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "T cells significantly inhibited nasopharyngeal cancer growth in mouse models",
+        "rationale": "TCR-T immunotherapy inhibiting tumor growth; no CYCS and not TCR-signalling inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC3358016",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) TCR-transgenic alloreactive T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "activated T cells were fully resistant to ABT-737 ... upregulation of A1",
+        "rationale": "Intrinsic apoptosis (Bcl-2 family/ABT-737) resistance study; no CYCS and no TCR-inhibition readout."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study perturbs or mechanistically links CYCS to TCR signalling inhibition or a related inhibitory T cell phenotype. The two CYCS-containing papers (PMC12546133, PMC11637729) concern cardiac and platelet apoptosis in non-immune systems, while the papers addressing TCR inhibition/attenuation (PMC11237943, PMC6670834, PMC2768903) involve other regulators (PTPN22, Cdc7/Cdk9, mitochondrial antagonists) and do not test CYCS.",
+    "confidence": "moderate"
+  }
+}

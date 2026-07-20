@@ -1,0 +1,108 @@
+{
+  "tf": "MYC",
+  "query": "MYC TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11861601",
+      "rank": 1,
+      "title": "Multitarget mechanism of MYC inhibition by the bacterial lon protease in disease",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The online version contains supplementary material available at 10.1038/s41598-025-88093-2. Identifying specific inhibitors of the MYC oncogene has been challenging, due to off target effects associated with MYC inhibition. This study investigated how the recombinant  Escherichia coli  Lon protease (rLon), which targets MYC in human cells, inhibits MYC over-activation in models of infection and cancer. In silico predictions identified specific peptide domains of bacterial Lon that target MYC and the affinity of these peptides for MYC was investigated by surface plasmon resonance. The N-terminal domain of rLon was shown to interact with the C-terminal, leucine zipper domain of MYC and MAX and to prevent MYC/MAX dimerization. Furthermore, rLon targeted and degraded c-MYC in vitro and in cellular models, through the peptidase domain. In a model of kidney infection, rLon treatment prevented, c-MYC, N-MYC and L-MYC over-expression, MYC-dependent gene expression, specifically renal toxicity genes and pathology, suggesting that rLon recognizes and corrects MYC dysregulation in this disease. The findings describe a multitarget mechanism of MYC inhibition by rLon, and the combined effects achieved by the Lon domains, targeting different MYC epitopes and MYC-dependent functions, with no evidence of toxicity or detrimental effects on homeostatic MYC expression.",
+      "relevant_passages": "This study investigated how bacterial Lon protease inhibits MYC over-activation in disease models. The protease targets MYC through multiple mechanisms, preventing dimerization and degradation, with no observed toxicity.",
+      "doi_or_pmcid": "10.1038/s41598-025-88093-2"
+    },
+    {
+      "paperclip_result_id": "PMC9262837",
+      "rank": 2,
+      "title": "T-cell Dysfunction upon Expression of MYC with Altered Phosphorylation at Threonine 58 and Serine 62",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "Dysregulation of phosphorylation at conserved T58 and S62 residues of MYC differentially affects T-cell development and lymphomagenesis. As a transcription factor that promotes cell growth, proliferation, and apoptosis, c-MYC (MYC) expression in the cell is tightly controlled. Disruption of oncogenic signaling pathways in human cancers can increase MYC protein stability, due to altered phosphorylation ratios at two highly conserved sites, Threonine 58 (T58) and Serine 62 (S62). The T58 to Alanine mutant (T58A) of MYC mimics the stabilized, S62 phosphorylated, and highly oncogenic form of MYC. The S62A mutant is also stabilized, lacks phosphorylation at both Serine 62 and Threonine 58, and has been shown to be nontransforming  in vitro . However, several regulatory proteins are reported to associate with MYC lacking phosphorylation at S62 and T58, and the role this form of MYC plays in MYC transcriptional output and  in vivo  oncogenic function is understudied. We generated conditional  c-Myc  knock-in mice in which the expression of wild-type MYC (MYC WT ), the T58A mutant (MYC T58A ), or the S62A mutant (MYC S62A ) with or without expression of endogenous  Myc  is controlled by the T-cell–specific  Lck -Cre recombinase. MYC T58A  expressing mice developed clonal T-cell lymphomas with 100% penetrance and conditional knock-out of endogenous  Myc  accelerated this lymphomagenesis. In contrast, MYC S62A  mice developed clonal T-cell lymphomas at a much lower penetrance, and the loss of endogenous MYC reduced the penetrance while increasing the appearance of a non-transgene driven B-cell lymphoma with splenomegaly. Together, our study highlights the importance of regulated phosphorylation of MYC at T58 and S62 for T-cell transformation.",
+      "relevant_passages": "This study examined the effects of MYC phosphorylation mutants on T-cell development and lymphomagenesis in mice. MYC T58A expression led to aggressive T-cell lymphomas, while MYC S62A had a lower penetrance and altered lymphoma types.",
+      "doi_or_pmcid": "10.1158/1541-7786.MCR-21-0560"
+    },
+    {
+      "paperclip_result_id": "PMC12157703",
+      "rank": 3,
+      "title": "c-Myc inhibits macrophage antimycobacterial response in  Mycobacterium tuberculosis  infection",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Mycobacterium tuberculosis  (MTB) is a major global cause of mortality worldwide, responsible for over a million deaths annually. Despite this burden, natural immunity prevents disease in more than 90% of exposed individuals. Previous studies have identified interferon-gamma (IFN-γ) as a key regulator of innate immune defense against MTB. Here, we investigate the impact of IFN-γ timing on macrophage-mediated control of MTB infection. We demonstrate that IFN-γ exposure before infection enhances macrophage antibacterial activity, whereas post-infection exposure does not. Further investigation into this phenotype revealed a strong association between c-Myc signaling and macrophage function in MTB control, as identified using unbiased in vitro systems approaches. Given the challenge of perturbing c-Myc in primary cells, we developed a lentiviral system for c-Myc inhibition and overexpression. Using a tetracycline-inducible Omomyc system - a small peptide inhibitor of c-Myc - we show that c-Myc inhibition promotes a pro-inflammatory macrophage phenotype with enhanced antimycobacterial activity. Mechanistically, c-Myc inhibition induces metabolic reprogramming via increased mTORC1 activity, leading to upregulated inducible nitric oxide synthase and improved bacterial control. In vivo analyses, including murine models and human clinical histopathology, reveal a strong correlation between c-Myc expression and MTB persistence, as well as active tuberculosis (TB), suggesting a role for c-Myc in immune evasion. These findings reveal c-Myc as a potential mediator of immune privilege in MTB infection and highlight its role as a promising target for novel TB therapies aimed at enhancing macrophage function.",
+      "relevant_passages": "This study investigated how c-Myc affects macrophage responses to *Mycobacterium tuberculosis*. c-Myc inhibition enhances macrophage antimycobacterial activity by reprogramming metabolism, suggesting it's a target for TB therapies.",
+      "doi_or_pmcid": "10.1101/2025.01.09.632095"
+    },
+    {
+      "paperclip_result_id": "PMC8978620",
+      "rank": 4,
+      "title": "A Costimulatory CAR Improves TCR-based Cancer Immunotherapy",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "This proof-of-concept study demonstrates that TCR-based therapies can be improved with engineered T cells expressing a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells are able to kill TCR targets, while sparing normal cells expressing the CoCAR antigen.",
+      "relevant_passages": "TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells effectively killed target cells while sparing normal cells expressing the CoCAR antigen.",
+      "doi_or_pmcid": "10.1158/2326-6066.CIR-21-0307"
+    },
+    {
+      "paperclip_result_id": "PMC12366093",
+      "rank": 5,
+      "title": "CX26 promotes pancreatic cancer progression by competitively inhibiting interaction of c-Myc with PSMD2 and enhancing c-Myc stability",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Pancreatic cancer (PC) is highly aggressive and fatal and has dismal prognostic outcomes, primarily due to its late-stage diagnosis and limited effective treatments. The molecular mechanisms triggering PC progression are largely unclear. This study investigated how CX26 contributes to pancreatic cancer development and its potential as a therapeutic target. CX26 expression in PC and its clinical significance were examined through bioinformatics analysis. The biological functions of CX26 in PC cells were explored via colony formation, CCK-8, and proteomic analysis. To explore the mechanisms by which CX26 regulates c-Myc stability, co-immunoprecipitation, immunofluorescence, and molecular docking were utilized to investigate the interactions among CX26, PSMD2, and c-Myc. Additionally, subcutaneous xenografts in nude mice were applied to assess the impact of CX26 on PC progression in vivo. Bioinformatics analysis indicated the upregulation of CX26 in PC tissues. In addition, CX26 expression was closely related to dismal prognostic outcomes. Further study revealed that CX26 promotes PC progression in vitro and in vivo. Proteomic analysis identified c-Myc as the key downstream target of CX26. Mechanistically, CX26 indirectly regulated c-Myc stability via PSMD2 rather than directly interacting with c-Myc. Moreover, CX26 competes with c-Myc to bind to the Armadillo-like helical domain of PSMD2, thereby preventing c-Myc proteasomal degradation. This study suggests that CX26 facilitates PC progression by stabilizing c-Myc through competitively inhibiting the binding of PSMD2 to c-Myc. Given the challenges in directly inhibiting c-Myc, this novel regulatory mechanism provides valuable insights into PC biology and reveals that targeting CX26 is a possible way to promote c-Myc degradation and suppress PC growth. The online version contains supplementary material available at 10.1186/s12967-025-06983-5.",
+      "relevant_passages": "CX26 was studied for its role in pancreatic cancer progression. CX26 promotes cancer growth by stabilizing c-Myc, hindering its degradation.",
+      "doi_or_pmcid": "10.1186/s12967-025-06983-5"
+    },
+    {
+      "paperclip_result_id": "PMC4551349",
+      "rank": 6,
+      "title": "Single cell tuning of Myc expression by antigen receptor signal strength and interleukin-2 in T lymphocytes",
+      "year": "2015",
+      "publication_type": "research-article",
+      "abstract": "Myc controls the metabolic reprogramming that supports effector T cell differentiation. The expression of Myc is regulated by the T cell antigen receptor (TCR) and pro-inflammatory cytokines such as interleukin-2 (IL-2). We now show that the TCR is a digital switch for Myc mRNA and protein expression that allows the strength of the antigen stimulus to determine the frequency of T cells that express Myc. IL-2 signalling strength also directs Myc expression but in an analogue process that fine-tunes Myc quantity in individual cells via post-transcriptional control of Myc protein. Fine-tuning Myc matters and is possible as Myc protein has a very short half-life in T cells due to its constant phosphorylation by glycogen synthase kinase 3 (GSK3) and subsequent proteasomal degradation. We show that Myc only accumulates in T cells exhibiting high levels of amino acid uptake allowing T cells to match Myc expression to biosynthetic demands. The combination of digital and analogue processes allows tight control of Myc expression at the population and single cell level during immune responses.",
+      "relevant_passages": "TCR signal strength digitally controls Myc expression frequency in T cells, while IL-2 analogously fine-tunes Myc quantity post-transcriptionally. This dual control ensures Myc expression matches T cell biosynthetic needs during immune responses.",
+      "doi_or_pmcid": "10.15252/embj.201490252"
+    },
+    {
+      "paperclip_result_id": "PMC12271375",
+      "rank": 7,
+      "title": "NKD1 enhances colon cancer progression by inhibiting the autophagic degradation of MYC",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "NKD1 is a known suppressor of the Wnt/β-catenin pathway. However, our previous study revealed that NKD1 could promote the proliferation and migration of colon cancer cells, enhancing colon cancer progression via unknown mechanisms. In the present study, we found that peroxisome proliferator-activated receptor δ (PPARδ) is a transcription factor of the NKD1 gene. By analyzing the differential protein expression profiles between SW620 and SW620-nkd1 −/−  cells, we found that NKD1 dramatically increased MYC protein expression. Further study revealed that the MYC protein was degraded mainly through the autophagy pathway in colon cancer cells and that NKD1 restrained this process by suppressing the interaction between LC3B and MYC proteins. Interestingly, we found that NKD1 inhibited the autophagy signaling pathway. In-depth research revealed that NKD1 bound to the MYC protein through the EF-hand domain, facilitating the entry of the MYC protein into the nucleus and inhibiting cell apoptosis. Moreover, NKD1 activated the expression of MYC downstream target genes through MYC. Functionally, the PPARδ/NKD1/MYC signaling pathway increased colon cancer cells’ proliferation, migration and angiogenesis capabilities. Therefore, NKD1 may serve as a specific biomarker for colon cancer and a potential new target for tumor treatment.",
+      "relevant_passages": "NKD1 was studied for its role in colon cancer progression, finding it enhances proliferation and migration. NKD1 promotes colon cancer by inhibiting MYC degradation via autophagy, leading to increased cell proliferation, migration, and angiogenesis.",
+      "doi_or_pmcid": "10.1038/s41419-025-07875-8"
+    },
+    {
+      "paperclip_result_id": "PMC9360539",
+      "rank": 8,
+      "title": "TGFβ limits Myc-dependent TCR-induced metabolic reprogramming in CD8 +  T cells",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "T cell activation is dependent upon the integration of antigenic, co-stimulatory and cytokine-derived signals and the availability and acquisition of nutrients from the environment. Furthermore, T cell activation is accompanied by reprogramming of cellular metabolism to provide the energy and building blocks for proliferation, differentiation and effector function. Transforming growth factor β (TGFβ) has pleiotropic effects on T cell populations, having both an essential role in the maintenance of immune tolerance but also context-dependent pro-inflammatory functions. We set out to define the mechanisms underpinning the suppressive effects of TGFβ on mouse CD8 +  T cell activation. RNA-sequencing analysis of TCR-stimulated T cells determined that Myc-regulated genes were highly enriched within gene sets downregulated by TGFβ. Functional analysis demonstrated that TGFβ impeded TCR-induced upregulation of amino acid transporter expression, amino acid uptake and protein synthesis. Furthermore, TCR-induced upregulation of Myc-dependent glycolytic metabolism was substantially inhibited by TGFβ treatment with minimal effects on mitochondrial respiration. Thus, our data suggest that inhibition of Myc-dependent metabolic reprogramming represents a major mechanism underpinning the suppressive effects of TGFβ on CD8 +  T cell activation.",
+      "relevant_passages": "This study investigated how TGFβ affects CD8+ T cell activation. TGFβ suppresses T cell metabolism by inhibiting Myc-driven reprogramming of amino acid uptake and glycolysis.",
+      "doi_or_pmcid": "10.3389/fimmu.2022.913184"
+    },
+    {
+      "paperclip_result_id": "PMC12812896",
+      "rank": 9,
+      "title": "The leading role of MYC in DNA damage response: exploring opportunities for therapeutic inhibition",
+      "year": "2026",
+      "publication_type": "review-article",
+      "abstract": "MYC performs a dual role in DNA Damage Response (DDR), promoting genomic instability through replication stress, R-loop formation, and topoisomerase-mediated damage, while simultaneously activating DNA repair pathways to maintain cell survival. This review provides a comprehensive analysis of how MYC inhibition affects DDR pathway dependencies. In fact, when MYC is inhibited, cancer cells lose both their proficient DNA repair capacity and their protective mechanisms against replication stress. This creates a therapeutic window in which combining MYC inhibitors with DDR-targeting agents may achieve synergistic anti-cancer effects. Central to this approach is the exploration of rational combination strategies that pair MYC inhibitors with various DDR modulators including Poly (ADP-ribose) polymerase (PARP) inhibitors, ATR/CHK1 inhibitors, and other DNA repair pathway disruptors. This review summarizes preclinical evidence demonstrating enhanced therapeutic efficacy when MYC inhibition is combined with DDR-targeting agents and discusses early clinical findings that support this promising therapeutic strategy.",
+      "relevant_passages": "This review analyzes MYC's dual role in DNA damage response and its impact on cancer cells. Inhibiting MYC weakens cancer cells' DNA repair and replication stress defenses, creating an opportunity for combination therapies with DDR inhibitors.",
+      "doi_or_pmcid": "10.3389/fcell.2025.1726515"
+    },
+    {
+      "paperclip_result_id": "PMC3795085",
+      "rank": 10,
+      "title": "Targeting c-MYC with T-Cells",
+      "year": "2013",
+      "publication_type": "research-article",
+      "abstract": "Over-expression of the proto-oncogene c-MYC is frequently observed in a variety of tumors and is a hallmark of Burkitt´s lymphoma. The fact that many tumors are oncogene-addicted to c-MYC, renders c-MYC a powerful target for anti-tumor therapy. Using a xenogenic vaccination strategy by immunizing C57BL/6 mice with human c-MYC protein or non-homologous peptides, we show that the human c-MYC protein, despite its high homology between mouse and man, contains several immunogenic epitopes presented in the context of murine H2 b  haplotype. We identified an MHC class II-restricted CD4 +  T-cell epitope and therein an MHC class I-restricted CD8 +  T-cell epitope (SSPQGSPEPL) that, after prime/boost immunization, protected up to 25% of mice against a lethal lymphoma challenge. Lymphoma-rejecting animals contained MHC multimer-binding CD8 +  cell within the peripheral blood and displayed  in vivo  cytolytic activity with specificity for SSPQGSPEPL. Taken together these data suggest that oncogenic c-MYC can be targeted with specific T-cells.",
+      "relevant_passages": "Human c-MYC protein was used to immunize mice, identifying T-cell epitopes. Vaccination with these epitopes protected mice against lymphoma challenge by inducing specific CD8+ T-cells.",
+      "doi_or_pmcid": "10.1371/journal.pone.0077375"
+    }
+  ]
+}

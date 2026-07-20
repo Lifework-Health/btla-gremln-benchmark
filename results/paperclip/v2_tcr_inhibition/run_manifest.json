@@ -1,0 +1,42 @@
+{
+  "repository_commit": "7b0ad984fff8892ed0368d94fc79666ec755397a",
+  "ranking_input_hashes": {
+    "gremln_seed_excluded": "03776759099031ad84c7967bdce6bea584789e9ae72f02b1d8c5380aafc7f8f7",
+    "genie3_seed_excluded": "a5ca8c3a239c1b4b7fc60178c6216772a28a05fe412fbd258e46b4148ca4cfe6",
+    "combined": "4352c9169b17dfd85c603bd1c965a9466037951e8b8041790d0ee8fbad34bd04"
+  },
+  "candidate_count": 43,
+  "exact_query_template": "{TF} TCR inhibition",
+  "top_k": 10,
+  "paperclip_source_scope": "pmc",
+  "paperclip_invocation": "paperclip search -s pmc \"<TF> TCR inhibition\" -n 10",
+  "paperclip_version": "paperclip, version 0.6.2",
+  "judge_model_identifier": "claude-4.5-sonnet",
+  "judge_parameters": {
+    "temperature": "not_supported(cursor_sdk_agent)",
+    "top_p": "not_supported(cursor_sdk_agent)",
+    "seed": "not_supported(cursor_sdk_agent)",
+    "max_output_tokens": "model_default",
+    "runtime": "cursor_sdk local Agent.prompt",
+    "determinism_note": "reruns reuse cached judge_raw_outputs"
+  },
+  "prompt_sha256": "baa3767bd5a4684a639b08937ce91f30256753bca5e451d7ad5ca8216d3aa251",
+  "schema_sha256": "d377f1d7a2c7e4bfc8dcc56220d0ec3541b807f7a3b6ae65b1e503a784620388",
+  "start_timestamp_utc": "2026-07-20T19:50:56Z",
+  "completion_timestamp_utc": "2026-07-20T19:50:58Z",
+  "queries_attempted": 43,
+  "queries_completed": 43,
+  "judge_calls_attempted": 0,
+  "judge_calls_completed": 43,
+  "retries": 0,
+  "judge_skipped_no_key": false,
+  "failures": {
+    "judge_parse_failures": [],
+    "rubric_validation_failures": [
+      "NR4A2"
+    ],
+    "tfs_zero_results": []
+  },
+  "script_version": "v1.0.0",
+  "script_sha256": "6dc35b852ee3f424975f226f7942e6509a1aaef5c0847285d7303b653bdb4389"
+}

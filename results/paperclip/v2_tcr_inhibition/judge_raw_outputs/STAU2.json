@@ -1,0 +1,147 @@
+{
+  "tf": "STAU2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:50:30Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-13b5d3b7-5dda-4255-aeee-2d9c4ec52e02",
+      "agent_id": "agent-60a7bc1a-0cca-46c9-832d-ebf4275252f8",
+      "raw": "Assessment complete. Here is the structured evaluation:\n\n```json\n{\n  \"tf\": \"STAU2\",\n  \"query\": \"STAU2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11401396\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and mouse cell lines (non-immune); virology, no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EV-A71 3C protease cleaves host protein Stau2, which is essential for viral replication\",\n      \"rationale\": \"Studies Stau2 in enterovirus replication; no T cell or TCR signalling content whatsoever.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9266326\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human transformed cancer cell lines (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAU1 serine 20 phosphomimicry impairs its RNA regulation functions and induces apoptosis in cancer cells\",\n      \"rationale\": \"Concerns STAU1 (paralog) in cancer proliferation/apoptosis; not STAU2, not T cells or TCR.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12412546\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human pancreatic cancer cells and in vivo tumor models (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAU2-ASO treatment significantly suppressed PDAC progression and metastasis\",\n      \"rationale\": \"STAU2 as oncogenic RBP in pancreatic cancer EMT; 'inhibition' refers to tumor, not TCR signalling.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8745428\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human non-small cell lung cancer cells and patients (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High Staufen1 expression in non-small cell lung cancer patients correlates with longer recurrence-free survival\",\n      \"rationale\": \"STAU1 in lung cancer progression via THBS1 mRNA decay; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11971302\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"Icelandic horses, whole-genome sequencing (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"A frameshift mutation in STAU2 and regulatory elements in RELN were studied in Icelandic horses\",\n      \"rationale\": \"Genetic association of STAU2 variant with equine gait performance; unrelated to T cells or TCR.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7551455\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human cells, RNA-seq (non-T immune gene expression)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High STAU1 levels altered inflammatory gene expression and regulated alternative splicing of nerve growth factor receptor signaling\",\n      \"rationale\": \"STAU1 affects inflammatory/immune gene expression broadly; no T cells or TCR inhibition studied.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells; PTPN22, not STAU2\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"This site enhances PTPN22's inhibitory effect on TCR signaling\",\n      \"rationale\": \"Strong direct TCR-inhibition study but of PTPN22, not the candidate STAU2; no STAU2 involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8629789\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"review of STAU1 in cancer (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"This review examines the multifunctional RNA-binding protein Staufen1 (STAU1) and its roles in cancer\",\n      \"rationale\": \"Review of STAU1 in oncogenesis; no T cell or TCR inhibition content, and concerns the paralog.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human T cells, TCR repertoire (immunotherapy review)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"This review explores using individual patient TCR repertoire data to select T cells\",\n      \"rationale\": \"Review on TCR repertoire selection for immunotherapy; no mention of STAU2 or TCR inhibition mechanisms.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7934504\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human non-transformed hTERT-RPE1 and cancer cell lines (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAU2 depletion accelerates proliferation, suggesting its role in cell cycle control\",\n      \"rationale\": \"STAU2 regulates cell cycle in epithelial cells via caspases/CHK1; no T cell or TCR context.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study materially links STAU2 to TCR inhibition or a closely related inhibitory T cell phenotype. STAU2/STAU1 papers concern viral replication, cancer, cell cycle, or equine genetics in non-immune systems. The only direct TCR-inhibition study (PMC11237943) is about PTPN22, not STAU2, and the TCR immunotherapy review (PMC12346228) does not involve STAU2.\",\n  \"confidence\": \"high\"\n}\n```\n\n**Summary:** All 10 retrieved papers were judged not materially relevant to STAU2's role in TCR inhibition. The STAU2/STAU1 papers address viral replication, cancer progression, cell-cycle control, and equine genetics in non-immune systems. The two papers that genuinely concern TCR biology (PMC11237943 on PTPN22; PMC12346228 on TCR repertoire selection) do not involve STAU2. Overall evidence tier: **none**, with **high** confidence (papers were returned, but none link the candidate regulator to an inhibitory T cell phenotype).",
+      "capture_method": "returned_text",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "STAU2",
+    "query": "STAU2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11401396",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human and mouse cell lines (non-immune); virology, no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EV-A71 3C protease cleaves host protein Stau2, which is essential for viral replication",
+        "rationale": "Studies Stau2 in enterovirus replication; no T cell or TCR signalling content whatsoever."
+      },
+      {
+        "paperclip_result_id": "PMC9266326",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human transformed cancer cell lines (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAU1 serine 20 phosphomimicry impairs its RNA regulation functions and induces apoptosis in cancer cells",
+        "rationale": "Concerns STAU1 (paralog) in cancer proliferation/apoptosis; not STAU2, not T cells or TCR."
+      },
+      {
+        "paperclip_result_id": "PMC12412546",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human pancreatic cancer cells and in vivo tumor models (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAU2-ASO treatment significantly suppressed PDAC progression and metastasis",
+        "rationale": "STAU2 as oncogenic RBP in pancreatic cancer EMT; 'inhibition' refers to tumor, not TCR signalling."
+      },
+      {
+        "paperclip_result_id": "PMC8745428",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human non-small cell lung cancer cells and patients (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "High Staufen1 expression in non-small cell lung cancer patients correlates with longer recurrence-free survival",
+        "rationale": "STAU1 in lung cancer progression via THBS1 mRNA decay; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC11971302",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "Icelandic horses, whole-genome sequencing (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "A frameshift mutation in STAU2 and regulatory elements in RELN were studied in Icelandic horses",
+        "rationale": "Genetic association of STAU2 variant with equine gait performance; unrelated to T cells or TCR."
+      },
+      {
+        "paperclip_result_id": "PMC7551455",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human cells, RNA-seq (non-T immune gene expression)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "High STAU1 levels altered inflammatory gene expression and regulated alternative splicing of nerve growth factor receptor signaling",
+        "rationale": "STAU1 affects inflammatory/immune gene expression broadly; no T cells or TCR inhibition studied."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells; PTPN22, not STAU2",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "This site enhances PTPN22's inhibitory effect on TCR signaling",
+        "rationale": "Strong direct TCR-inhibition study but of PTPN22, not the candidate STAU2; no STAU2 involvement."
+      },
+      {
+        "paperclip_result_id": "PMC8629789",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "review of STAU1 in cancer (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "This review examines the multifunctional RNA-binding protein Staufen1 (STAU1) and its roles in cancer",
+        "rationale": "Review of STAU1 in oncogenesis; no T cell or TCR inhibition content, and concerns the paralog."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human T cells, TCR repertoire (immunotherapy review)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "This review explores using individual patient TCR repertoire data to select T cells",
+        "rationale": "Review on TCR repertoire selection for immunotherapy; no mention of STAU2 or TCR inhibition mechanisms."
+      },
+      {
+        "paperclip_result_id": "PMC7934504",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human non-transformed hTERT-RPE1 and cancer cell lines (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAU2 depletion accelerates proliferation, suggesting its role in cell cycle control",
+        "rationale": "STAU2 regulates cell cycle in epithelial cells via caspases/CHK1; no T cell or TCR context."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study materially links STAU2 to TCR inhibition or a closely related inhibitory T cell phenotype. STAU2/STAU1 papers concern viral replication, cancer, cell cycle, or equine genetics in non-immune systems. The only direct TCR-inhibition study (PMC11237943) is about PTPN22, not STAU2, and the TCR immunotherapy review (PMC12346228) does not involve STAU2.",
+    "confidence": "high"
+  }
+}

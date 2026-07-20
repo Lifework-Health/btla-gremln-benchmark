@@ -1,0 +1,146 @@
+{
+  "tf": "GTF3C2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:43:34Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-2013cb5b-a4bf-46bd-a032-0166cb0e2673",
+      "agent_id": "agent-a5b2ceee-27b6-4a8f-aa6c-0fb79c73c483",
+      "raw": "Based on the supplied papers only, here is the structured assessment for GTF3C2.\n\n```json\n{\n  \"tf\": \"GTF3C2\",\n  \"query\": \"GTF3C2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12078175\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human HCC cell lines (Hep3B, HCCLM3, SNU449, Huh7) and nude-mouse xenografts; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"GTF3C2 promotes HCC cell proliferation via the USP21/MEK2/ERK1/2 pathway.\",\n      \"rationale\": \"Only paper actually on GTF3C2, but studies hepatocellular carcinoma proliferation in non-immune cells; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-engineered T cells (dual/inducible TCR constructs)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.\",\n      \"rationale\": \"Concerns TCR mispairing in engineered T cells; does not mention GTF3C2 or any inhibitory regulatory pathway.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells; PTPN22 phosphorylation study\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser325 phosphorylated by GSK3 following TCR stimulation, which promotes its TCR-inhibitory activity.\",\n      \"rationale\": \"Direct TCR-inhibition study but of PTPN22, a different regulator; provides no evidence about GTF3C2.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6921533\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR-peptide/MHC immunotherapy review\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Reviews TCR-based immunotherapies targeting intracellular tumor antigens presented by MHC molecules.\",\n      \"rationale\": \"Review of TCR-based cancer immunotherapy; no GTF3C2 and no inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire analysis review\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Review explores using individual patient TCR repertoire data to select therapeutic T cells.\",\n      \"rationale\": \"Review on TCR selection for adoptive therapy; unrelated to GTF3C2 or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"engineered human T cells expressing a costimulatory CAR\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-based immunotherapy enhanced by engineering T cells to express a costimulatory chimeric antigen receptor.\",\n      \"rationale\": \"Costimulatory CAR to enhance killing; no GTF3C2 and no inhibitory phenotype studied.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human CD4/CD8 TCR-engineered T cells; mouse xenograft nasopharyngeal tumor model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-engineered T cells significantly inhibited nasopharyngeal cancer growth in mouse models.\",\n      \"rationale\": \"Anti-tumor TCR-T therapy; 'inhibition' refers to tumor growth, not TCR signalling; no GTF3C2.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8822241\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR-T solid-tumor therapy review\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Reviews challenges and strategies for TCR-T cell immunotherapy in solid tumors.\",\n      \"rationale\": \"Review of TCR-T therapy challenges; no GTF3C2 and no inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"in silico TCR sequence generation/binding model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Diffusion-based model generates epitope-specific TCRs and predicts TCR-epitope binding.\",\n      \"rationale\": \"Computational TCR generation/binding tool; no GTF3C2 and no functional inhibition data.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3960297\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"other\",\n      \"experimental_system\": \"human TCR cDNA cloning platform (hTEC10)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Novel system hTEC10 developed for cloning and functionally evaluating human TCR-coding cDNAs.\",\n      \"rationale\": \"Methods/tool for cloning TCRs; no GTF3C2 and no inhibitory phenotype.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study links GTF3C2 to TCR inhibition or a related inhibitory T cell phenotype. The single GTF3C2 paper (PMC12078175) studies hepatocellular carcinoma proliferation in non-immune cells. All other papers concern TCR engineering, immunotherapy, or computation without involving GTF3C2, and the only genuine TCR-inhibition study (PMC11237943) is about PTPN22, a different regulator. Evidence for GTF3C2 is therefore absent.\",\n  \"confidence\": \"high\"\n}\n```\n\nThe retrieval is off-target for the question: the only paper genuinely about GTF3C2 sits in a non-immune cancer-proliferation context, while every T cell paper is about TCR engineering/immunotherapy and never mentions GTF3C2. The single true TCR-inhibition mechanism paper concerns PTPN22, not the candidate. Hence the tier is **none** with high confidence.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "GTF3C2",
+    "query": "GTF3C2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12078175",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human HCC cell lines (Hep3B, HCCLM3, SNU449, Huh7) and nude-mouse xenografts; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "GTF3C2 promotes HCC cell proliferation via the USP21/MEK2/ERK1/2 pathway.",
+        "rationale": "Only paper actually on GTF3C2, but studies hepatocellular carcinoma proliferation in non-immune cells; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-engineered T cells (dual/inducible TCR constructs)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.",
+        "rationale": "Concerns TCR mispairing in engineered T cells; does not mention GTF3C2 or any inhibitory regulatory pathway."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells; PTPN22 phosphorylation study",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser325 phosphorylated by GSK3 following TCR stimulation, which promotes its TCR-inhibitory activity.",
+        "rationale": "Direct TCR-inhibition study but of PTPN22, a different regulator; provides no evidence about GTF3C2."
+      },
+      {
+        "paperclip_result_id": "PMC6921533",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR-peptide/MHC immunotherapy review",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Reviews TCR-based immunotherapies targeting intracellular tumor antigens presented by MHC molecules.",
+        "rationale": "Review of TCR-based cancer immunotherapy; no GTF3C2 and no inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire analysis review",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Review explores using individual patient TCR repertoire data to select therapeutic T cells.",
+        "rationale": "Review on TCR selection for adoptive therapy; unrelated to GTF3C2 or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "engineered human T cells expressing a costimulatory CAR",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-based immunotherapy enhanced by engineering T cells to express a costimulatory chimeric antigen receptor.",
+        "rationale": "Costimulatory CAR to enhance killing; no GTF3C2 and no inhibitory phenotype studied."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human CD4/CD8 TCR-engineered T cells; mouse xenograft nasopharyngeal tumor model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-engineered T cells significantly inhibited nasopharyngeal cancer growth in mouse models.",
+        "rationale": "Anti-tumor TCR-T therapy; 'inhibition' refers to tumor growth, not TCR signalling; no GTF3C2."
+      },
+      {
+        "paperclip_result_id": "PMC8822241",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR-T solid-tumor therapy review",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Reviews challenges and strategies for TCR-T cell immunotherapy in solid tumors.",
+        "rationale": "Review of TCR-T therapy challenges; no GTF3C2 and no inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "in silico TCR sequence generation/binding model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Diffusion-based model generates epitope-specific TCRs and predicts TCR-epitope binding.",
+        "rationale": "Computational TCR generation/binding tool; no GTF3C2 and no functional inhibition data."
+      },
+      {
+        "paperclip_result_id": "PMC3960297",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "other",
+        "experimental_system": "human TCR cDNA cloning platform (hTEC10)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Novel system hTEC10 developed for cloning and functionally evaluating human TCR-coding cDNAs.",
+        "rationale": "Methods/tool for cloning TCRs; no GTF3C2 and no inhibitory phenotype."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study links GTF3C2 to TCR inhibition or a related inhibitory T cell phenotype. The single GTF3C2 paper (PMC12078175) studies hepatocellular carcinoma proliferation in non-immune cells. All other papers concern TCR engineering, immunotherapy, or computation without involving GTF3C2, and the only genuine TCR-inhibition study (PMC11237943) is about PTPN22, a different regulator. Evidence for GTF3C2 is therefore absent.",
+    "confidence": "high"
+  }
+}

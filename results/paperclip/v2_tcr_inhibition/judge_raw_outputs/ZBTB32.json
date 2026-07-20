@@ -1,0 +1,148 @@
+{
+  "tf": "ZBTB32",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:20:41Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-c7caae9d-8106-4b19-a98c-ed45a954a4ab",
+      "agent_id": "agent-fa18cd3c-93c9-4a6c-b6d1-2fdb4dce42ef",
+      "raw": "Based on the supplied papers and the rubric, here is my structured assessment for ZBTB32.\n\n```json\n{\n  \"tf\": \"ZBTB32\",\n  \"query\": \"ZBTB32 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells and Jurkat T cell line\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"phosphorylation site at Ser325 ... promotes its TCR-inhibitory activity\",\n      \"rationale\": \"Concerns PTPN22, not ZBTB32; provides no evidence about the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5578684\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse), primary CD8+ effector T cells, Zbtb32-/-\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ZBTB32 ... transiently expressed in effector CD8+ T cells ... limits the magnitude of the effector response\",\n      \"rationale\": \"Only ZBTB32 study; loss-of-function affects effector/memory balance, not TCR inhibition, checkpoint, anergy or attenuated TCR function.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human, TCR repertoire/adoptive cell therapy\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy\",\n      \"rationale\": \"Review of TCR selection for immunotherapy; does not mention ZBTB32 or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4503983\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse), non-innate conventional T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PLZF was stably suppressed and not inducible in these cells\",\n      \"rationale\": \"Studies ZBTB16/PLZF, a different family member, and lineage specification, not ZBTB32 or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse, CD4 TCR-engineered T cells, xenograft model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-engineered T cells ... significantly inhibited nasopharyngeal cancer growth in mouse models\",\n      \"rationale\": \"TCR-T immunotherapy against tumour; no ZBTB32 and no TCR inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8326903\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"conventional and unconventional T cells (review)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"reviews the roles of fourteen ZBTB transcription factors in T cell development and function\",\n      \"rationale\": \"Review of ZBTB family in T cell development/differentiation; no primary ZBTB32 TCR-inhibition evidence.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"non-immune computational (TCR sequence model)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"diffusion-based model ... to generate epitope-specific T cell receptors\",\n      \"rationale\": \"Computational TCR generation/binding prediction; unrelated to ZBTB32 or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7479152\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse), exhausted virus-specific CD8+ T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"exhaustion explicitly linked to impaired TCR function\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR signaling in exhausted cells is low in vivo ... suppressed by co-inhibitory receptors\",\n      \"rationale\": \"Demonstrates impaired TCR signalling in exhaustion but does not involve ZBTB32.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse, AFP-specific TCR-T and CD8+ T cells, HCC model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inhibiting PCSK9 enhances the effectiveness of TCR-T cells and anti-PD-1 immunotherapy\",\n      \"rationale\": \"Concerns PCSK9 metabolic modulation of anti-tumour T cells; no ZBTB32 involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells and Jurkat T cell line\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR downregulation is controlled by redundant signaling events distinct from ... T cell activation\",\n      \"rationale\": \"Studies Lck/Fyn/ZAP70 in TCR downregulation; no ZBTB32 and not an inhibitory phenotype.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"weak\",\n  \"key_paperclip_result_ids\": [\"PMC5578684\"],\n  \"tier_rationale\": \"The single ZBTB32-specific primary study (PMC5578684) is a mouse loss-of-function experiment affecting CD8+ effector-versus-memory differentiation and effector magnitude, i.e. general activation/differentiation, not proximal TCR signalling inhibition, checkpoint response, anergy or TCR-linked hyporesponsiveness with a mechanistic TCR-inhibition readout. The two ZBTB reviews cannot support higher tiers. All other retrieved primary papers concern unrelated regulators (PTPN22, PCSK9, Lck/Fyn/ZAP70) or generic TCR/exhaustion biology without ZBTB32. No primary study directly links ZBTB32 to an inhibitory TCR phenotype, so evidence remains weak.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ZBTB32",
+    "query": "ZBTB32 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells and Jurkat T cell line",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "phosphorylation site at Ser325 ... promotes its TCR-inhibitory activity",
+        "rationale": "Concerns PTPN22, not ZBTB32; provides no evidence about the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC5578684",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse), primary CD8+ effector T cells, Zbtb32-/-",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "ZBTB32 ... transiently expressed in effector CD8+ T cells ... limits the magnitude of the effector response",
+        "rationale": "Only ZBTB32 study; loss-of-function affects effector/memory balance, not TCR inhibition, checkpoint, anergy or attenuated TCR function."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human, TCR repertoire/adoptive cell therapy",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy",
+        "rationale": "Review of TCR selection for immunotherapy; does not mention ZBTB32 or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC4503983",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse), non-innate conventional T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PLZF was stably suppressed and not inducible in these cells",
+        "rationale": "Studies ZBTB16/PLZF, a different family member, and lineage specification, not ZBTB32 or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse, CD4 TCR-engineered T cells, xenograft model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-engineered T cells ... significantly inhibited nasopharyngeal cancer growth in mouse models",
+        "rationale": "TCR-T immunotherapy against tumour; no ZBTB32 and no TCR inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC8326903",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "conventional and unconventional T cells (review)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "reviews the roles of fourteen ZBTB transcription factors in T cell development and function",
+        "rationale": "Review of ZBTB family in T cell development/differentiation; no primary ZBTB32 TCR-inhibition evidence."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "non-immune computational (TCR sequence model)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "diffusion-based model ... to generate epitope-specific T cell receptors",
+        "rationale": "Computational TCR generation/binding prediction; unrelated to ZBTB32 or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC7479152",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse), exhausted virus-specific CD8+ T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "exhaustion explicitly linked to impaired TCR function",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR signaling in exhausted cells is low in vivo ... suppressed by co-inhibitory receptors",
+        "rationale": "Demonstrates impaired TCR signalling in exhaustion but does not involve ZBTB32."
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse, AFP-specific TCR-T and CD8+ T cells, HCC model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inhibiting PCSK9 enhances the effectiveness of TCR-T cells and anti-PD-1 immunotherapy",
+        "rationale": "Concerns PCSK9 metabolic modulation of anti-tumour T cells; no ZBTB32 involvement."
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells and Jurkat T cell line",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR downregulation is controlled by redundant signaling events distinct from ... T cell activation",
+        "rationale": "Studies Lck/Fyn/ZAP70 in TCR downregulation; no ZBTB32 and not an inhibitory phenotype."
+      }
+    ],
+    "overall_evidence_tier": "weak",
+    "key_paperclip_result_ids": [
+      "PMC5578684"
+    ],
+    "tier_rationale": "The single ZBTB32-specific primary study (PMC5578684) is a mouse loss-of-function experiment affecting CD8+ effector-versus-memory differentiation and effector magnitude, i.e. general activation/differentiation, not proximal TCR signalling inhibition, checkpoint response, anergy or TCR-linked hyporesponsiveness with a mechanistic TCR-inhibition readout. The two ZBTB reviews cannot support higher tiers. All other retrieved primary papers concern unrelated regulators (PTPN22, PCSK9, Lck/Fyn/ZAP70) or generic TCR/exhaustion biology without ZBTB32. No primary study directly links ZBTB32 to an inhibitory TCR phenotype, so evidence remains weak.",
+    "confidence": "moderate"
+  }
+}

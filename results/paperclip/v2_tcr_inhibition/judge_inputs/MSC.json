@@ -1,0 +1,108 @@
+{
+  "tf": "MSC",
+  "query": "MSC TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 1,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC7937648",
+      "rank": 2,
+      "title": "Mesenchymal Stromal Cells Rapidly Suppress TCR Signaling-Mediated Cytokine Transcription in Activated T Cells Through the ICAM-1/CD43 Interaction",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "Cell-cell contact participates in the process of mesenchymal stromal cell (MSC)-mediated T cell modulation and thus contributes to MSC-based therapies for various inflammatory diseases, especially T cell-mediated diseases. However, the mechanisms underlying the adhesion interactions between MSCs and T cells are still poorly understood. In this study, we explored the interaction between MSCs and T cells and found that activated T cells could rapidly adhere to MSCs, leading to significant reduction of TNF-α and IFN-γ mRNA expression. Furthermore, TCR-proximal signaling in activated T cells was also dramatically suppressed in the MSC co-culture, resulting in weakened Ca 2+  signaling. MSCs rapidly suppressed TCR signaling and its downstream signaling in a cell-cell contact-dependent manner, partially through the ICAM-1/CD43 adhesion interaction. Blockade of either ICAM-1 on MSCs or CD43 on T cells significantly reversed this rapid suppression of proinflammatory cytokine expression in T cells. Mechanistically, MSC-derived ICAM-1 likely disrupts CD43-mediated TCR microcluster formation to limit T cell activation. Taken together, our results reveal a fast mechanism of activated T cell inhibition by MSCs, which provides new clues to unravel the MSC-mediated immunoregulatory mechanism for aGVHD and other severe acute T cell-related diseases.",
+      "relevant_passages": "Activated T cells adhere to mesenchymal stromal cells, rapidly suppressing cytokine transcription and TCR signaling. This inhibition is partly mediated by ICAM-1 on MSCs interacting with CD43 on T cells, disrupting TCR microcluster formation.",
+      "doi_or_pmcid": "10.3389/fimmu.2021.609544"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 3,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC7795906",
+      "rank": 4,
+      "title": "Enhanced Suppression of Immune Cells In Vitro by MSC Overexpressing FasL",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "Mesenchymal stromal cells (MSC) display several mechanisms of action that may be harnessed for therapeutic purposes. One of their most attractive features is their immunomodulatory activity that has been extensively characterized both in vitro and in vivo. While this activity has proven to be very efficient, it is transient. We aimed to enhance it by transforming MSC to overexpress a first apoptosis signal (Fas) ligand (FasL). In this study, our goal was to induce FasL overexpression through adenoviral transduction in MSC to improve their immunomodulatory activity. We characterized the impact of FasL overexpression on the morphology, proliferation, viability, phenotype, multilineage differentiation potential and immunomodulation of MSC. Moreover, we determined their suppressive properties in mixed reactions with A20 cells, as well as with stimulated splenocytes. Our findings demonstrate that FasL-overexpressing MSC exhibit improved immunosuppressive properties, while maintaining their MSC-characteristic features. In conclusion, we establish, in a proof-of-concept set-up, that FasL-overexpressing MSC represent good candidates for therapeutic intervention targeted at autoimmune disorders.",
+      "relevant_passages": "Mesenchymal stromal cells (MSC) were engineered to overexpress Fas ligand (FasL) to enhance their immunomodulatory activity. FasL-overexpressing MSC showed improved immunosuppressive properties while retaining their characteristic features.",
+      "doi_or_pmcid": "10.3390/ijms22010348"
+    },
+    {
+      "paperclip_result_id": "PMC12580868",
+      "rank": 5,
+      "title": "Pulmonary Delivery of  TCR  Bispecific Proteins via Mesenchymal Stem Cells Facilitates Efficient Clearance of Lung Cancers",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "T‐cell receptor (TCR) bispecific proteins represent a pioneering therapeutic modality that harnesses the diverse target recognition capabilities inherent to TCRs while preserving the beneficial characteristics associated with protein therapeutics. However, investigations into TCR bispecific proteins, particularly within the context of lung diseases, remain limited. This study aims to elucidate their potential for the treatment of lung cancer. We employed a humanized murine model to evaluate the efficacy of TCR bispecific proteins in eradicating lung tumors in vivo. Cytotoxic activity was assessed against various lung cancer cell lines, and statistical tests were used to analyze the data. To address concerns regarding toxic side effects from systemic administration, mesenchymal stem cells (MSCs) were explored as vehicles for the targeted delivery of TCR bispecific proteins. Our findings demonstrate that TCR bispecific proteins exhibit substantial cytotoxic activity against a variety of lung cancer cell lines. MSCs, with optimal pulmonary targeting properties, were shown to persist within the lungs for over 7 days. By employing MSCs to locally secrete TCR bispecific proteins, we achieved therapeutic effects comparable to systemic administration without manifestations of immune overactivation in murine subjects. Additionally, we evaluated various cytokine combinations and discovered that the combination of IL‐7, IL‐21, and TCR bispecific proteins significantly augmented their capacity to eliminate antigen‐negative cells in a heterogeneous tumor model. Collectively, our findings suggest that the combinatorial therapy of TCR bispecific proteins and MSCs holds considerable promise for clinical application in the treatment of lung cancer, potentially enhancing therapeutic efficacy while minimizing adverse effects.",
+      "relevant_passages": "TCR bispecific proteins were delivered to lung tumors using mesenchymal stem cells. This targeted delivery achieved effective tumor clearance with reduced side effects.",
+      "doi_or_pmcid": "10.1111/cas.70192"
+    },
+    {
+      "paperclip_result_id": "PMC3854780",
+      "rank": 6,
+      "title": "Assessment of immunosuppressive activity of human mesenchymal stem cells using murine antigen specific CD4 and CD8 T cells  in vitro",
+      "year": "2013",
+      "publication_type": "research-article",
+      "abstract": "Mesenchymal stem cells (MSCs) have immunosuppressive activity. They do not induce allospecific T cell responses, making them promising tools for reducing the severity of graft versus host disease (GVHD) as well as treating various immune diseases. Currently, there is a need in the MSC field to develop a robust  in vitro  bioassay which can characterize the immunosuppressive function of MSCs. Murine clonal CD4 and CD8 T cells were stimulated with cognate peptide antigen and antigen presenting cells (APCs) in the absence or presence of human MSCs, different aspects of T cell activation were monitored and analyzed using flow cytometery, real time RT-PCR and cytokine measurement. Human MSCs (hMSCs) can alter multiple aspects of murine T cell activation induced by stimulation with specific antigen, including: reduced proliferation, inhibited or stimulated cell surface marker expression (CD25, CD69, CD44 and CD62L), inhibited mRNA expression of transcription factors (T-bet and GATA-3) and decreased cytokine expression (interferon-gamma, interleukin-10). Disappearance of activation-induced cluster formation and decreased apoptosis of CD8 T cells were also observed. Moreover, the effects are specific to MSCs; incubating the T cells with non-MSC control cell lines had no effect on T cell proliferation and activation. Clonal murine T cells can be used to measure, characterize, and quantify the  in vitro  immunosuppressive activity of human MSCs, representing a promising approach to improve bioassays for immunosuppression.",
+      "relevant_passages": "Human mesenchymal stem cells were tested for immunosuppressive activity on murine antigen-specific T cells in vitro. MSCs altered T cell proliferation, marker expression, and cytokine production, demonstrating their immunosuppressive potential.",
+      "doi_or_pmcid": "10.1186/scrt339"
+    },
+    {
+      "paperclip_result_id": "PMC11885616",
+      "rank": 7,
+      "title": "Inhibition of TGF-β signaling enhances osteogenic potential of iPSC-derived MSCs",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Mesenchymal stem cells (MSCs) represent the most commonly utilized type of stem cell in clinical applications. However, variability in quality and quantity between different tissue sources and donors presents a significant challenge to their use. Induced pluripotent stem cells (iPSCs) are a promising and abundant alternative source of MSCs, offering a potential solution to the limitations of adult MSCs. Nevertheless, a standardized protocol for the differentiation of iPSCs into iPSC-derived mesenchymal stem cells (iMSCs) has yet to be established, as the existing methods vary significantly in terms of complexity, duration, and outcome. Many straightforward methods induce differentiation by culturing iPSCs in MSC media which are supplemented with fetal bovine serum (FBS) or human platelet lysate (hPL), followed by selection of MSC-like cells by passaging. However, in our hands, this approach yielded inconsistent quality of iMSCs, particularly in terms of osteogenic potential and premature senescence. This study examines the impact of the selective TGF-β inhibitor SB431542 on iMSC differentiation, demonstrating that TGF-β inhibition enhances osteogenic potential and reduces premature senescence. Additionally, we present a reliable, xeno-free method for producing high-quality iMSCs that can be adapted for Good Manufacturing Practice (GMP) compliance, thus enhancing the potential for clinical applications.",
+      "relevant_passages": "This study investigated the effect of TGF-β inhibition on iPSC-derived MSC differentiation. TGF-β inhibition was found to enhance osteogenic potential and reduce premature senescence in iMSCs.",
+      "doi_or_pmcid": "10.1038/s41598-025-89370-w"
+    },
+    {
+      "paperclip_result_id": "PMC12126738",
+      "rank": 8,
+      "title": "WTAP/YTHDF1-mediated m 6 A modification amplifies IFN-γ-induced immunosuppressive properties of human MSCs",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Schematic showing the mechanism of WTAP/YTHDF1-mediated m 6 A modification of IDO1, PD-L1, ICAM1, and VCAM1 through IFN-γ-induced phosphorylation on WTAP. The enhanced m 6 A modification promotes the downstream mRNA stability and subsequently upregulates the expression of these molecules in MSCs, which ultimately improves the immunosuppressive capacity by inhibition of T cells proliferation, induction of Treg cells and skewing of Th cells.",
+      "relevant_passages": "Mesenchymal stem cells (MSCs) were studied for their immunosuppressive properties induced by interferon-gamma (IFN-γ). IFN-γ enhances MSC immunosuppression by promoting mRNA stability of key immunosuppressive molecules via WTAP/YTHDF1-mediated m⁶A modification.",
+      "doi_or_pmcid": "10.1016/j.jare.2024.06.019"
+    },
+    {
+      "paperclip_result_id": "PMC10900800",
+      "rank": 9,
+      "title": "MSC-derived exosomes attenuate hepatic fibrosis in primary sclerosing cholangitis through inhibition of Th17 differentiation",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Primary sclerosing cholangitis (PSC) is an autoimmune cholangiopathy characterized by chronic inflammation of the biliary epithelium and periductal fibrosis, with no curative treatment available, and liver transplantation is inevitable for end-stage patients. Human placental mesenchymal stem cell (hpMSC)-derived exosomes have demonstrated the ability to prevent fibrosis, inhibit collagen production and possess immunomodulatory properties in autoimmune liver disease. Here, we prepared hpMSC-derived exosomes (Exo MSC ) and further investigated the anti-fibrotic effects and detailed mechanism on PSC based on Mdr2 −/−  mice and multicellular organoids established from PSC patients. The results showed that Exo MSC  ameliorated liver fibrosis in Mdr2 −/−  mice with significant collagen reduction in the preductal area where Th17 differentiation was inhibited as demonstrated by RNAseq analysis, and the percentage of CD4 + IL-17A + T cells was reduced both in Exo MSC -treated Mdr2 −/−  mice (Mdr2 −/− -Exo) in vivo and Exo MSC -treated Th17 differentiation progressed in vitro. Furthermore, Exo MSC  improved the hypersecretory phenotype and intercellular interactions in the hepatic Th17 microenvironment by regulating PERK/CHOP signaling as supported by multicellular organoids. Thus, our data demonstrate the anti-fibrosis effect of Exo MSC  in PSC disease by inhibiting Th17 differentiation, and ameliorating the Th17-induced microenvironment, indicating the promising potential therapeutic role of Exo MSC  in liver fibrosis of PSC or Th17-related diseases.",
+      "relevant_passages": "Mesenchymal stem cell-derived exosomes were studied for their effects on liver fibrosis in primary sclerosing cholangitis. These exosomes were found to reduce fibrosis by inhibiting Th17 cell differentiation and improving the hepatic microenvironment.",
+      "doi_or_pmcid": "10.1016/j.ajps.2024.100889"
+    },
+    {
+      "paperclip_result_id": "PMC3444478",
+      "rank": 10,
+      "title": "Mesenchymal Stem Cells Repress Th17 Molecular Program through the PD-1 Pathway",
+      "year": "2012",
+      "publication_type": "research-article",
+      "abstract": "MSC display potent suppressive properties initially described a decade ago. More recently, MSC suppressive activities on T-cell effector pathways have been investigated. MSC modulate CD4 differentiation through different mechanisms depending on culture conditions and display disparate activities on T cells according to their differentiation status. A significant amount of evidence for MSC effects on Th17 cells revealed that MSC could be suppressive under diverse circumstances but also enhance Th17 cell activity under other conditions. In the present study, we investigated the suppressive effects of MSC on Th1 and Th17 subsets of T cells using T cells undergoing Th1 and Th17 polarization or mature Th1 and Th17 cells. MSC inhibited the proliferation of T cells during their differentiation toward Th1 cells and mature Th1 cells. This suppressive effect was maintained in a transwell cell culture insert demonstrating the major role played by soluble factors. Using the transwell cell separation barrier, we observed that MSC decrease the number of T cells undergoing Th17 differentiation whereas they did not affect IL-17 production by mature Th17, demonstrating the need for cell contact for suppressing Th17 cell function. Moreover, we reported that PD-L1 is highly expressed on MSC co-cultured with differentiating or polarized Th1 and Th17 cells. Using neutralizing antibodies specific for PD-L1 and PD-1 we showed that the mechanisms by which MSC mediate Th17 cell repolarization depend on PD-L1 expression on MSC. Taken together our results demonstrated a cell-to-cell contact depend mechanism in the selective immunosuppression of MSC on mature Th17 cells through up-regulation of PD-L1.",
+      "relevant_passages": "Mesenchymal stem cells (MSCs) were studied for their effects on Th1 and Th17 cell differentiation and function. MSCs selectively suppress mature Th17 cells through cell-to-cell contact via the PD-1 pathway.",
+      "doi_or_pmcid": "10.1371/journal.pone.0045272"
+    }
+  ]
+}

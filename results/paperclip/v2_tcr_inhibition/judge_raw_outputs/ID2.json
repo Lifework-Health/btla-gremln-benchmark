@@ -1,0 +1,148 @@
+{
+  "tf": "ID2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:48:39Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-952d9b93-af59-4f43-9468-d9fb35830120",
+      "agent_id": "agent-8109a1df-4bd8-4d4f-b1be-2ed858ce20d0",
+      "raw": "Based on my review of the supplied papers, here is the structured assessment for ID2.\n\n```json\n{\n  \"tf\": \"ID2\",\n  \"query\": \"ID2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10902300\",\n      \"retrieval_rank\": 1,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; mouse primary CD8+ T cells; tumor-infiltrating exhausted CD8+ T cells (Tex prog / Tex term)\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"Genetic deletion of Id2 dampens CD8+ T-cell-mediated immune responses ... suppresses PD-1 blockade.\",\n      \"rationale\": \"Id2 knockout causally regulates exhausted CD8 subset generation and PD-1-blockade response, but no proximal TCR-signalling or impaired-TCR-function readout is shown.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11208273\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; non-immune system; thyroid cancer cell lines and tumors\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ID2 promotes thyroid cancer cell proliferation, migration, EMT, and stemness through the PI3K/Akt pathway.\",\n      \"rationale\": \"Non-immune tumor-cell biology; no T cells or TCR inhibition addressed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8056751\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; mouse natural killer cells (non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ID2 controls TCF1 amplitude and downregulation, which is crucial for natural killer cell maturation.\",\n      \"rationale\": \"NK-cell maturation; NK cells lack a TCR, so no TCR-inhibition relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11885165\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human PBMC and non-human (T-cell-specific Id2-knockout mice); CD4+ T cells in rheumatoid arthritis\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"Antagonising Id2 reduced IFN-γ production after T-cell activation.\",\n      \"rationale\": \"Id2 promotes pro-inflammatory T-cell activation/IFN-γ; this is heightened activation, not an inhibitory TCR phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2824806\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; mouse γδ T cells / thymocytes\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Loss of Id3 leads to expansion of innate-like γδ T cells dependent on SAP.\",\n      \"rationale\": \"Study concerns Id3 (a different regulator) and γδ T-cell development, not ID2 or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10814654\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; non-immune system; prostate cancer cells and mouse models\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ID2 promotes androgen receptor-negative prostate cancer by activating FGFR and JAK-STAT signaling.\",\n      \"rationale\": \"Non-immune prostate cancer lineage plasticity; no T-cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12425045\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; mouse dendritic cells (cDC1; non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ID2 promotes cDC1 development by antagonizing E protein activity at the Zeb2 enhancer.\",\n      \"rationale\": \"Dendritic-cell fate specification; no T cells or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4915968\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; mouse primary CD4+ T cells (TH1 vs TFH differentiation)\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Id2 reinforces TH1 differentiation and represses TFH differentiation by inhibiting E proteins.\",\n      \"rationale\": \"T-helper lineage specification only; no inhibitory TCR phenotype or TCR-signalling readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3061294\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"not applicable; review of Id2 in adaptive/innate lymphocyte development\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Id2 is crucial for development of various immune cells and maintaining immune homeostasis.\",\n      \"rationale\": \"Review of Id2 in lymphocyte development; cannot independently support a tier and no TCR-inhibition primary data.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12147642\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"other\",\n      \"experimental_system\": \"unclear (metadata/abstract absent); Th17 cells in autoimmune uveitis model\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"HDACs promote Th17 cell differentiation and pathogenicity via the CDK6/ID2 axis.\",\n      \"rationale\": \"ID2 appears within an HDAC/CDK6 Th17-differentiation axis; pro-inflammatory differentiation, not TCR inhibition, and metadata missing.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"weak\",\n  \"key_paperclip_result_ids\": [\"PMC10902300\"],\n  \"tier_rationale\": \"Only PMC10902300 is a primary study addressing an inhibitory T cell phenotype (CD8+ exhaustion) and provides causal Id2-knockout evidence affecting exhausted-subset generation and PD-1-blockade response. However, it does not explicitly demonstrate impaired or attenuated TCR function, so under the mandatory exhaustion rule it cannot support moderate. All remaining relevant papers concern general T-cell activation, IFN-γ production, or lineage/helper differentiation (PMC11885165, PMC4915968, PMC12147642), non-T systems (NK, dendritic, prostate, thyroid), a different regulator (Id3, PMC2824806), or are a review (PMC3061294). No primary study links ID2 to proximal TCR-signalling inhibition, an inhibitory checkpoint, or TCR-linked anergy/hyporesponsiveness with a functional TCR readout; where evidence lies between tiers the lower is assigned, giving weak.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ID2",
+    "query": "ID2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10902300",
+        "retrieval_rank": 1,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; mouse primary CD8+ T cells; tumor-infiltrating exhausted CD8+ T cells (Tex prog / Tex term)",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "context dependent",
+        "supporting_excerpt": "Genetic deletion of Id2 dampens CD8+ T-cell-mediated immune responses ... suppresses PD-1 blockade.",
+        "rationale": "Id2 knockout causally regulates exhausted CD8 subset generation and PD-1-blockade response, but no proximal TCR-signalling or impaired-TCR-function readout is shown."
+      },
+      {
+        "paperclip_result_id": "PMC11208273",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; non-immune system; thyroid cancer cell lines and tumors",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "ID2 promotes thyroid cancer cell proliferation, migration, EMT, and stemness through the PI3K/Akt pathway.",
+        "rationale": "Non-immune tumor-cell biology; no T cells or TCR inhibition addressed."
+      },
+      {
+        "paperclip_result_id": "PMC8056751",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; mouse natural killer cells (non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "ID2 controls TCF1 amplitude and downregulation, which is crucial for natural killer cell maturation.",
+        "rationale": "NK-cell maturation; NK cells lack a TCR, so no TCR-inhibition relevance."
+      },
+      {
+        "paperclip_result_id": "PMC11885165",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human PBMC and non-human (T-cell-specific Id2-knockout mice); CD4+ T cells in rheumatoid arthritis",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "Antagonising Id2 reduced IFN-γ production after T-cell activation.",
+        "rationale": "Id2 promotes pro-inflammatory T-cell activation/IFN-γ; this is heightened activation, not an inhibitory TCR phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC2824806",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; mouse γδ T cells / thymocytes",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Loss of Id3 leads to expansion of innate-like γδ T cells dependent on SAP.",
+        "rationale": "Study concerns Id3 (a different regulator) and γδ T-cell development, not ID2 or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC10814654",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; non-immune system; prostate cancer cells and mouse models",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "ID2 promotes androgen receptor-negative prostate cancer by activating FGFR and JAK-STAT signaling.",
+        "rationale": "Non-immune prostate cancer lineage plasticity; no T-cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC12425045",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; mouse dendritic cells (cDC1; non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "ID2 promotes cDC1 development by antagonizing E protein activity at the Zeb2 enhancer.",
+        "rationale": "Dendritic-cell fate specification; no T cells or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC4915968",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; mouse primary CD4+ T cells (TH1 vs TFH differentiation)",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Id2 reinforces TH1 differentiation and represses TFH differentiation by inhibiting E proteins.",
+        "rationale": "T-helper lineage specification only; no inhibitory TCR phenotype or TCR-signalling readout."
+      },
+      {
+        "paperclip_result_id": "PMC3061294",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "not applicable; review of Id2 in adaptive/innate lymphocyte development",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Id2 is crucial for development of various immune cells and maintaining immune homeostasis.",
+        "rationale": "Review of Id2 in lymphocyte development; cannot independently support a tier and no TCR-inhibition primary data."
+      },
+      {
+        "paperclip_result_id": "PMC12147642",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "other",
+        "experimental_system": "unclear (metadata/abstract absent); Th17 cells in autoimmune uveitis model",
+        "evidence_directness": "associative",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "HDACs promote Th17 cell differentiation and pathogenicity via the CDK6/ID2 axis.",
+        "rationale": "ID2 appears within an HDAC/CDK6 Th17-differentiation axis; pro-inflammatory differentiation, not TCR inhibition, and metadata missing."
+      }
+    ],
+    "overall_evidence_tier": "weak",
+    "key_paperclip_result_ids": [
+      "PMC10902300"
+    ],
+    "tier_rationale": "Only PMC10902300 is a primary study addressing an inhibitory T cell phenotype (CD8+ exhaustion) and provides causal Id2-knockout evidence affecting exhausted-subset generation and PD-1-blockade response. However, it does not explicitly demonstrate impaired or attenuated TCR function, so under the mandatory exhaustion rule it cannot support moderate. All remaining relevant papers concern general T-cell activation, IFN-γ production, or lineage/helper differentiation (PMC11885165, PMC4915968, PMC12147642), non-T systems (NK, dendritic, prostate, thyroid), a different regulator (Id3, PMC2824806), or are a review (PMC3061294). No primary study links ID2 to proximal TCR-signalling inhibition, an inhibitory checkpoint, or TCR-linked anergy/hyporesponsiveness with a functional TCR readout; where evidence lies between tiers the lower is assigned, giving weak.",
+    "confidence": "moderate"
+  }
+}

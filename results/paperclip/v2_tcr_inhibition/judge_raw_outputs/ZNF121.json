@@ -1,0 +1,146 @@
+{
+  "tf": "ZNF121",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:23:17Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-a2fda5e7-dd3a-4128-89b2-27fa90e74ac8",
+      "agent_id": "agent-aded215b-b447-4d07-a4b8-e6bc0ea55461",
+      "raw": "Based on the supplied papers only, here is the structured assessment. Note that none of the ten retrieved papers mention the candidate regulator ZNF121 at all; the retrieval appears keyword-matched on \"TCR\" and \"inhibition\" rather than on the regulator.\n\n```json\n{\n  \"tf\": \"ZNF121\",\n  \"query\": \"ZNF121 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells and cell lines; polyclonal T cells; not subset-specific\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Ser325 phosphorylation of PTPN22 promotes its TCR-inhibitory activity; CRISPR suppression enhanced TCR signaling.\",\n      \"rationale\": \"Genuine causal TCR-inhibition study, but concerns PTPN22, not ZNF121; provides no evidence on the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Dual TCR T cells engineered to study TCR mispairing and function.\",\n      \"rationale\": \"TCR engineering/mispairing study; no inhibitory T cell phenotype and no mention of ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire/adoptive therapy\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Review exploring TCR repertoire data to select TCRs for adoptive cancer immunotherapy.\",\n      \"rationale\": \"Review of TCR selection for immunotherapy; not a regulator study and does not mention ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC13148917\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"other\",\n      \"experimental_system\": \"CAR T cells; system not fully specified (abstract missing)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Epigenetic editing reversibly silences the TCR in CAR T cells without altering DNA.\",\n      \"rationale\": \"Engineering approach to silence TCR expression, not an inhibitory T cell signalling phenotype; no ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human CD4 TCR-T cells; mouse xenograft tumor model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-engineered T cells inhibited nasopharyngeal cancer growth in mouse models.\",\n      \"rationale\": \"Tumor-killing TCR-T therapy study; concerns tumor inhibition, not TCR-signalling inhibition, and no ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5363317\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human T cells; genome editing\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TALENs and CRISPR/Cas9 knock out endogenous TCR expression with high efficiency and specificity.\",\n      \"rationale\": \"Genome-editing methods study for TCR knockout; no inhibitory phenotype and no ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"in silico TCR sequence modeling\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Diffusion-based model generates epitope-specific TCRs and predicts TCR-epitope binding.\",\n      \"rationale\": \"Computational TCR generation/binding tool; unrelated to inhibitory T cell biology or ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"engineered human T cells (CoCAR)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Costimulatory CAR enhances TCR-based cancer immunotherapy; CoCAR+ T cells killed target cells.\",\n      \"rationale\": \"Costimulation to enhance T cell killing; opposite of inhibition and no ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human AFP-specific TCR-T; CD8+ T cells; mouse HCC model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PCSK9 inhibition downregulated PD-1 and enhanced TCR-T and anti-PD-1 antitumor efficacy.\",\n      \"rationale\": \"PCSK9 study enhancing T cell function; concerns a different regulator and boosts rather than inhibits; no ZNF121.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12934713\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Jurkat and primary human T cells; HIS mouse models\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CRISPR platform removes endogenous TCR-alpha/beta chains, enhancing transgenic TCR potency.\",\n      \"rationale\": \"Genome-editing platform for TCR removal in cell therapy; no inhibitory signalling phenotype and no ZNF121.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved paper mentions ZNF121 or links it to TCR signalling inhibition or any inhibitory T cell phenotype. The only genuine TCR-inhibition study (PMC11237943) concerns PTPN22, not the candidate regulator; the remaining papers address TCR engineering, adoptive cell therapy, computational TCR design, or other regulators. Since no primary study materially links ZNF121 to TCR inhibition or a closely related inhibitory phenotype, the correct tier is none.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ZNF121",
+    "query": "ZNF121 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells and cell lines; polyclonal T cells; not subset-specific",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Ser325 phosphorylation of PTPN22 promotes its TCR-inhibitory activity; CRISPR suppression enhanced TCR signaling.",
+        "rationale": "Genuine causal TCR-inhibition study, but concerns PTPN22, not ZNF121; provides no evidence on the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Dual TCR T cells engineered to study TCR mispairing and function.",
+        "rationale": "TCR engineering/mispairing study; no inhibitory T cell phenotype and no mention of ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire/adoptive therapy",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Review exploring TCR repertoire data to select TCRs for adoptive cancer immunotherapy.",
+        "rationale": "Review of TCR selection for immunotherapy; not a regulator study and does not mention ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC13148917",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "other",
+        "experimental_system": "CAR T cells; system not fully specified (abstract missing)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Epigenetic editing reversibly silences the TCR in CAR T cells without altering DNA.",
+        "rationale": "Engineering approach to silence TCR expression, not an inhibitory T cell signalling phenotype; no ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human CD4 TCR-T cells; mouse xenograft tumor model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-engineered T cells inhibited nasopharyngeal cancer growth in mouse models.",
+        "rationale": "Tumor-killing TCR-T therapy study; concerns tumor inhibition, not TCR-signalling inhibition, and no ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC5363317",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human T cells; genome editing",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TALENs and CRISPR/Cas9 knock out endogenous TCR expression with high efficiency and specificity.",
+        "rationale": "Genome-editing methods study for TCR knockout; no inhibitory phenotype and no ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "in silico TCR sequence modeling",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Diffusion-based model generates epitope-specific TCRs and predicts TCR-epitope binding.",
+        "rationale": "Computational TCR generation/binding tool; unrelated to inhibitory T cell biology or ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "engineered human T cells (CoCAR)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Costimulatory CAR enhances TCR-based cancer immunotherapy; CoCAR+ T cells killed target cells.",
+        "rationale": "Costimulation to enhance T cell killing; opposite of inhibition and no ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human AFP-specific TCR-T; CD8+ T cells; mouse HCC model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "PCSK9 inhibition downregulated PD-1 and enhanced TCR-T and anti-PD-1 antitumor efficacy.",
+        "rationale": "PCSK9 study enhancing T cell function; concerns a different regulator and boosts rather than inhibits; no ZNF121."
+      },
+      {
+        "paperclip_result_id": "PMC12934713",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Jurkat and primary human T cells; HIS mouse models",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CRISPR platform removes endogenous TCR-alpha/beta chains, enhancing transgenic TCR potency.",
+        "rationale": "Genome-editing platform for TCR removal in cell therapy; no inhibitory signalling phenotype and no ZNF121."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved paper mentions ZNF121 or links it to TCR signalling inhibition or any inhibitory T cell phenotype. The only genuine TCR-inhibition study (PMC11237943) concerns PTPN22, not the candidate regulator; the remaining papers address TCR engineering, adoptive cell therapy, computational TCR design, or other regulators. Since no primary study materially links ZNF121 to TCR inhibition or a closely related inhibitory phenotype, the correct tier is none.",
+    "confidence": "high"
+  }
+}

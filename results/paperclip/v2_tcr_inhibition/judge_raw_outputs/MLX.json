@@ -1,0 +1,146 @@
+{
+  "tf": "MLX",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:56:17Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-4d5e40ea-0518-4fff-8c31-f7fb0387485b",
+      "agent_id": "agent-ff06c17d-56dd-40b9-8dee-e1eeb6d309d2",
+      "raw": "```json\n{\n  \"tf\": \"MLX\",\n  \"query\": \"MLX TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11398402\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (Drosophila) and cell-based; non-immune system; no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"MLX phosphorylation... regulate carbohydrate and lipid metabolism.\",\n      \"rationale\": \"Studies MLX in ChREBP-MLX metabolic transcription; no T cell or TCR content whatsoever.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human engineered T cells; T cells (CoCAR/TCR-based)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-based cancer immunotherapy was enhanced by... costimulatory chimeric antigen receptor (CoCAR).\",\n      \"rationale\": \"Costimulatory CAR engineering for TCR therapy; no MLX involvement and concerns enhancement, not inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11900861\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (Drosophila) and cell-based; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"MLX phosphorylation... to regulate carbohydrate and lipid metabolism.\",\n      \"rationale\": \"Duplicate metabolic MLX/ChREBP study; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse engineered T cells; TCR-transgenic T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.\",\n      \"rationale\": \"TCR mispairing/engineering artifact study; no MLX and no inhibitory regulatory mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11425880\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse and human; body-wide, non-immune (aging/metabolism)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Body-wide inactivation of the Mlx... accelerates aging phenotypes and increases lifetime cancer incidence.\",\n      \"rationale\": \"Mlx network in aging and cancer incidence; no T cell or TCR signalling content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse tumor T cells; primary T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High TCR signal strength leads to T cell dysfunction, while low strength causes inertness.\",\n      \"rationale\": \"TCR signal strength and dysfunction studied, but MLX is not investigated at all.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10970504\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (Bombyx mori silkworm); non-immune metabolism\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Mlx and Mondo... control larval body size and cocoon shell weight by regulating nutrient metabolism.\",\n      \"rationale\": \"Mlx in silkworm domestication and metabolism; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5587706\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human T cells and NK-92 line; engineered immune cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"A novel TCR-CAR construct... redirected NK cells to recognize specific targets.\",\n      \"rationale\": \"TCR-CAR receptor engineering; no MLX and no inhibitory phenotype studied.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells; TCR signalling\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser 325 phosphorylation... promotes its TCR-inhibitory activity.\",\n      \"rationale\": \"Direct TCR-inhibition study but concerns PTPN22, not MLX; no MLX link present.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6504948\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human T cells; engineered TCR-fusion (TRuC) T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TRuC-T cells exhibit potent anti-tumor activity, comparable to CAR-T cells.\",\n      \"rationale\": \"TCR-fusion receptor engineering for anti-tumor activity; no MLX and no inhibitory phenotype.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"The MLX-specific papers (PMC11398402, PMC11900861, PMC11425880, PMC10970504) concern metabolism, aging and insect development in non-immune systems with no TCR content. The TCR-related papers (PMC8978620, PMC4209802, PMC8704919, PMC5587706, PMC11237943, PMC6504948) do not study MLX; the only genuine TCR-inhibition study involves PTPN22, not MLX. No retrieved primary study materially links MLX to TCR inhibition or a related inhibitory T cell phenotype.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "MLX",
+    "query": "MLX TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11398402",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (Drosophila) and cell-based; non-immune system; no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "MLX phosphorylation... regulate carbohydrate and lipid metabolism.",
+        "rationale": "Studies MLX in ChREBP-MLX metabolic transcription; no T cell or TCR content whatsoever."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human engineered T cells; T cells (CoCAR/TCR-based)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-based cancer immunotherapy was enhanced by... costimulatory chimeric antigen receptor (CoCAR).",
+        "rationale": "Costimulatory CAR engineering for TCR therapy; no MLX involvement and concerns enhancement, not inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11900861",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (Drosophila) and cell-based; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "MLX phosphorylation... to regulate carbohydrate and lipid metabolism.",
+        "rationale": "Duplicate metabolic MLX/ChREBP study; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse engineered T cells; TCR-transgenic T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.",
+        "rationale": "TCR mispairing/engineering artifact study; no MLX and no inhibitory regulatory mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC11425880",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse and human; body-wide, non-immune (aging/metabolism)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Body-wide inactivation of the Mlx... accelerates aging phenotypes and increases lifetime cancer incidence.",
+        "rationale": "Mlx network in aging and cancer incidence; no T cell or TCR signalling content."
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse tumor T cells; primary T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "High TCR signal strength leads to T cell dysfunction, while low strength causes inertness.",
+        "rationale": "TCR signal strength and dysfunction studied, but MLX is not investigated at all."
+      },
+      {
+        "paperclip_result_id": "PMC10970504",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (Bombyx mori silkworm); non-immune metabolism",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Mlx and Mondo... control larval body size and cocoon shell weight by regulating nutrient metabolism.",
+        "rationale": "Mlx in silkworm domestication and metabolism; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC5587706",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human T cells and NK-92 line; engineered immune cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "A novel TCR-CAR construct... redirected NK cells to recognize specific targets.",
+        "rationale": "TCR-CAR receptor engineering; no MLX and no inhibitory phenotype studied."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells; TCR signalling",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser 325 phosphorylation... promotes its TCR-inhibitory activity.",
+        "rationale": "Direct TCR-inhibition study but concerns PTPN22, not MLX; no MLX link present."
+      },
+      {
+        "paperclip_result_id": "PMC6504948",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human T cells; engineered TCR-fusion (TRuC) T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TRuC-T cells exhibit potent anti-tumor activity, comparable to CAR-T cells.",
+        "rationale": "TCR-fusion receptor engineering for anti-tumor activity; no MLX and no inhibitory phenotype."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "The MLX-specific papers (PMC11398402, PMC11900861, PMC11425880, PMC10970504) concern metabolism, aging and insect development in non-immune systems with no TCR content. The TCR-related papers (PMC8978620, PMC4209802, PMC8704919, PMC5587706, PMC11237943, PMC6504948) do not study MLX; the only genuine TCR-inhibition study involves PTPN22, not MLX. No retrieved primary study materially links MLX to TCR inhibition or a related inhibitory T cell phenotype.",
+    "confidence": "high"
+  }
+}

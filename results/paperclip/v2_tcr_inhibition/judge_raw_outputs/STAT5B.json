@@ -1,0 +1,148 @@
+{
+  "tf": "STAT5B",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:15:47Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-b355d75c-17f6-4705-9501-23b01a15cad2",
+      "agent_id": "agent-de3410a1-50a1-4010-9848-2965d8a201ca",
+      "raw": "```json\n{\n  \"tf\": \"STAT5B\",\n  \"query\": \"STAT5B TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11722272\",\n      \"retrieval_rank\": 1,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and mouse; primary T cells and knock-in mice; CD8+ effector/memory and CD4+ regulatory T cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"gain-of-function...accumulation of CD8+ effector and memory and CD4+ regulatory T-cells\",\n      \"rationale\": \"Perturbing STAT5B alters T cell populations including CD4+ Tregs (an inhibitory lineage), but this is lineage/differentiation, with no TCR inhibition or impaired TCR function readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11229983\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human mantle cell lymphoma cells and nude mouse xenografts; non-T-cell (B cell malignancy)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAT5B suppresses ferroptosis in mantle cell lymphoma by promoting DCAF13 transcription\",\n      \"rationale\": \"Ferroptosis/tumor progression in a B-cell lymphoma; no connection to TCR signalling or an inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196089\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; transgenic lymphoid compartment; thymic/CD8+ T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR stimulation can contribute to this process\",\n      \"rationale\": \"TCR/antigen stimulation synergizes with Stat5 to promote lymphomagenesis; concerns oncogenesis and TCR-driven proliferation, not TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346846\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; oligodendrocytes; non-immune (Parkinson's disease CNS)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAT5B overexpression in oligodendrocytes...improved myelin, reduced neuron loss\",\n      \"rationale\": \"Non-immune oligodendrocyte myelination study; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014662\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human T-ALL cells and transgenic mice; immature/malignant T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"It hijacks T cell receptor signaling, driving leukemia\",\n      \"rationale\": \"Hyperactive STAT5 upregulates and activates TCR pathway signalling to drive leukemia; this is enhanced TCR signalling in malignancy, opposite of inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11670306\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"in silico molecular dynamics and HDX-MS; purified protein; non-cellular\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"N642H mutation enhances phosphotyrosine binding in the parallel dimer\",\n      \"rationale\": \"Structural/biophysical study of the SH2 domain; no cellular T cell or TCR phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11349758\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; tyrosine-to-phenylalanine knock-in; primary CD8+ T cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"STAT5 tyrosine phosphorylation is essential for maximal IL-2 signaling and T cell proliferation\",\n      \"rationale\": \"Perturbational study showing STAT5 promotes IL-2 signalling and proliferation; general activation biology, not TCR inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11316036\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; hippocampal neural stem cells; non-immune (CNS)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Its deficiency impairs neurogenesis by reducing Stat5b\",\n      \"rationale\": \"Neurogenesis study in non-immune tissue; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5749501\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; transgenic hematopoietic compartment; CD8+ T cells (neoplasia)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"This mutation drives T cell neoplasia by altering gene expression and DNA methylation\",\n      \"rationale\": \"Oncogenic driver-mutation study; addresses T cell transformation, not TCR inhibition or an inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12694592\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; liver and adipose tissue; non-immune (hepatic metabolism)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Disease-associated STAT5B variants...impact on hepatic metabolism\",\n      \"rationale\": \"Metabolic reprogramming of liver/adipose tissue; no T cell or TCR relevance.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"weak\",\n  \"key_paperclip_result_ids\": [\"PMC11722272\"],\n  \"tier_rationale\": \"No retrieved primary study provides direct causal, indirect mechanistic, or associative evidence linking STAT5B to proximal TCR inhibition, checkpoint response, anergy, hyporesponsiveness, or exhaustion with impaired TCR function. Retrieved evidence is confined to general T cell proliferation/activation (PMC11349758), TCR-driven leukemogenesis with enhanced (not inhibited) TCR signalling (PMC2196089, PMC11014662, PMC5749501), and non-T-cell or structural systems. The only inhibitory-lineage link (PMC11722272, CD4+ Treg accumulation) is lineage/differentiation, which is explicitly insufficient for moderate. This meets weak criteria (general activation/proliferation/differentiation and non-T-cell systems).\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "STAT5B",
+    "query": "STAT5B TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11722272",
+        "retrieval_rank": 1,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human and mouse; primary T cells and knock-in mice; CD8+ effector/memory and CD4+ regulatory T cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "context dependent",
+        "supporting_excerpt": "gain-of-function...accumulation of CD8+ effector and memory and CD4+ regulatory T-cells",
+        "rationale": "Perturbing STAT5B alters T cell populations including CD4+ Tregs (an inhibitory lineage), but this is lineage/differentiation, with no TCR inhibition or impaired TCR function readout."
+      },
+      {
+        "paperclip_result_id": "PMC11229983",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human mantle cell lymphoma cells and nude mouse xenografts; non-T-cell (B cell malignancy)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAT5B suppresses ferroptosis in mantle cell lymphoma by promoting DCAF13 transcription",
+        "rationale": "Ferroptosis/tumor progression in a B-cell lymphoma; no connection to TCR signalling or an inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC2196089",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; transgenic lymphoid compartment; thymic/CD8+ T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR stimulation can contribute to this process",
+        "rationale": "TCR/antigen stimulation synergizes with Stat5 to promote lymphomagenesis; concerns oncogenesis and TCR-driven proliferation, not TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12346846",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; oligodendrocytes; non-immune (Parkinson's disease CNS)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAT5B overexpression in oligodendrocytes...improved myelin, reduced neuron loss",
+        "rationale": "Non-immune oligodendrocyte myelination study; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC11014662",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human T-ALL cells and transgenic mice; immature/malignant T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "It hijacks T cell receptor signaling, driving leukemia",
+        "rationale": "Hyperactive STAT5 upregulates and activates TCR pathway signalling to drive leukemia; this is enhanced TCR signalling in malignancy, opposite of inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11670306",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "in silico molecular dynamics and HDX-MS; purified protein; non-cellular",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "N642H mutation enhances phosphotyrosine binding in the parallel dimer",
+        "rationale": "Structural/biophysical study of the SH2 domain; no cellular T cell or TCR phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11349758",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; tyrosine-to-phenylalanine knock-in; primary CD8+ T cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "STAT5 tyrosine phosphorylation is essential for maximal IL-2 signaling and T cell proliferation",
+        "rationale": "Perturbational study showing STAT5 promotes IL-2 signalling and proliferation; general activation biology, not TCR inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11316036",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; hippocampal neural stem cells; non-immune (CNS)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Its deficiency impairs neurogenesis by reducing Stat5b",
+        "rationale": "Neurogenesis study in non-immune tissue; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC5749501",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; transgenic hematopoietic compartment; CD8+ T cells (neoplasia)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "This mutation drives T cell neoplasia by altering gene expression and DNA methylation",
+        "rationale": "Oncogenic driver-mutation study; addresses T cell transformation, not TCR inhibition or an inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12694592",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; liver and adipose tissue; non-immune (hepatic metabolism)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Disease-associated STAT5B variants...impact on hepatic metabolism",
+        "rationale": "Metabolic reprogramming of liver/adipose tissue; no T cell or TCR relevance."
+      }
+    ],
+    "overall_evidence_tier": "weak",
+    "key_paperclip_result_ids": [
+      "PMC11722272"
+    ],
+    "tier_rationale": "No retrieved primary study provides direct causal, indirect mechanistic, or associative evidence linking STAT5B to proximal TCR inhibition, checkpoint response, anergy, hyporesponsiveness, or exhaustion with impaired TCR function. Retrieved evidence is confined to general T cell proliferation/activation (PMC11349758), TCR-driven leukemogenesis with enhanced (not inhibited) TCR signalling (PMC2196089, PMC11014662, PMC5749501), and non-T-cell or structural systems. The only inhibitory-lineage link (PMC11722272, CD4+ Treg accumulation) is lineage/differentiation, which is explicitly insufficient for moderate. This meets weak criteria (general activation/proliferation/differentiation and non-T-cell systems).",
+    "confidence": "moderate"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "tf": "CREM",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:33:38Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-5e1451e7-8445-45f4-aae1-6352fa5c5548",
+      "agent_id": "agent-30d764c8-1581-44a3-9712-28f882e87742",
+      "raw": "```json\n{\n  \"tf\": \"CREM\",\n  \"query\": \"CREM TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12286855\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) and human NK cells, CAR-NK; not T cells, no TCR\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"CREM deletion enhances CAR-NK cell effector function both in vitro and in vivo\",\n      \"rationale\": \"Direct causal checkpoint of effector function, but in NK cells lacking a TCR, so not a T cell TCR phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5165720\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) CREMα-transgenic primary CD4 T cells; SLE relevance in humans\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"enhanced binding of CREMα to the CD3ζ chain promoter resulting in decreased CD3ζ chain expression\",\n      \"rationale\": \"CREMα directly represses CD3ζ (proximal TCR component) and IL-2, mechanistically linking CREM to TCR attenuation, though net signalling is paradoxically enhanced.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12641238\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"other\",\n      \"experimental_system\": \"Human clinician consensus (Delphi); not biological\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CrEM is a physician-led subspecialty focused on rapid, high-acuity care\",\n      \"rationale\": \"Acronym collision: Critical Emergency Medicine, unrelated to the CREM transcription factor or T cells.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4770719\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human (asthmatic children PBMC) and mouse CD4 T cells; TH2 subset\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"CREM is a negative regulator of the TH2 response\",\n      \"rationale\": \"Perturbational but concerns TH2 cytokine differentiation, not TCR inhibition or a proximal inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12138204\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"Human/animal testicular (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CREM disruption contributes to male infertility in type 2 diabetes\",\n      \"rationale\": \"Review of CREM in testicular dysfunction; non-immune system, no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5056420\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Mouse and human CD4 T cells; Th17 subset\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"ICER is essential for Th17 differentiation and promotes autoimmune diseases\",\n      \"rationale\": \"ICER/CREM drives pro-inflammatory Th17 differentiation; lineage specification, not TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12345263\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"Human genetic cohort and mouse intestinal epithelium; not T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CREM variants are linked to increased susceptibility to undernutrition and diarrheal disease\",\n      \"rationale\": \"Genetic association and epithelial Crem deletion; no TCR or inhibitory T cell phenotype examined.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5704088\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Mouse T cells; Th17/Treg differentiation\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"CREB is critical in autoimmunity by promoting Th17 but inhibiting Treg cell differentiation\",\n      \"rationale\": \"Concerns CREB, not CREM, and addresses Th17/Treg differentiation rather than TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11999874\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"other\",\n      \"experimental_system\": \"Human gastric mesenchymal tumor (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"gastric mesenchymal tumor with epithelioid histology and an EWSR1::CREM fusion\",\n      \"rationale\": \"Case report of an EWSR1::CREM fusion tumor; no T cell or TCR signalling content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6011589\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human synovial fluid T cells (CD161+) and mouse arthritis model\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"CREM is highly expressed in synovial fluid T cells and contributes to cytokine expression\",\n      \"rationale\": \"CREM drives an inflammatory effector T cell phenotype; pro-inflammatory, not TCR inhibition.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC5165720\", \"PMC12286855\"],\n  \"tier_rationale\": \"Only one primary T cell study (PMC5165720) materially links CREM to proximal TCR machinery, showing direct CREMα binding and repression of the CD3ζ chain plus negative IL-2 regulation. This provides indirect mechanistic evidence connecting CREM to attenuation of a proximal TCR component, but the functional outcome is paradoxically enhanced signalling, so directness toward TCR inhibition is incomplete. The NK checkpoint study (PMC12286855) gives clean perturbational evidence but is a non-T-cell, non-TCR system. Remaining CREM T cell papers address TH2/Th17 differentiation or inflammatory effector phenotypes, which are insufficient for moderate. No primary study delivers clean direct causal TCR inhibition with an inhibitory functional readout, so strong is not met; the mechanistic CD3ζ link exceeds weak. Applying the lower-tier rule where ambiguous.\",\n  \"confidence\": \"low\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "CREM",
+    "query": "CREM TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12286855",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) and human NK cells, CAR-NK; not T cells, no TCR",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "CREM deletion enhances CAR-NK cell effector function both in vitro and in vivo",
+        "rationale": "Direct causal checkpoint of effector function, but in NK cells lacking a TCR, so not a T cell TCR phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC5165720",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) CREMα-transgenic primary CD4 T cells; SLE relevance in humans",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "context dependent",
+        "supporting_excerpt": "enhanced binding of CREMα to the CD3ζ chain promoter resulting in decreased CD3ζ chain expression",
+        "rationale": "CREMα directly represses CD3ζ (proximal TCR component) and IL-2, mechanistically linking CREM to TCR attenuation, though net signalling is paradoxically enhanced."
+      },
+      {
+        "paperclip_result_id": "PMC12641238",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "other",
+        "experimental_system": "Human clinician consensus (Delphi); not biological",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CrEM is a physician-led subspecialty focused on rapid, high-acuity care",
+        "rationale": "Acronym collision: Critical Emergency Medicine, unrelated to the CREM transcription factor or T cells."
+      },
+      {
+        "paperclip_result_id": "PMC4770719",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human (asthmatic children PBMC) and mouse CD4 T cells; TH2 subset",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "context dependent",
+        "supporting_excerpt": "CREM is a negative regulator of the TH2 response",
+        "rationale": "Perturbational but concerns TH2 cytokine differentiation, not TCR inhibition or a proximal inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12138204",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "Human/animal testicular (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CREM disruption contributes to male infertility in type 2 diabetes",
+        "rationale": "Review of CREM in testicular dysfunction; non-immune system, no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC5056420",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Mouse and human CD4 T cells; Th17 subset",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "ICER is essential for Th17 differentiation and promotes autoimmune diseases",
+        "rationale": "ICER/CREM drives pro-inflammatory Th17 differentiation; lineage specification, not TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12345263",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "Human genetic cohort and mouse intestinal epithelium; not T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CREM variants are linked to increased susceptibility to undernutrition and diarrheal disease",
+        "rationale": "Genetic association and epithelial Crem deletion; no TCR or inhibitory T cell phenotype examined."
+      },
+      {
+        "paperclip_result_id": "PMC5704088",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Mouse T cells; Th17/Treg differentiation",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "CREB is critical in autoimmunity by promoting Th17 but inhibiting Treg cell differentiation",
+        "rationale": "Concerns CREB, not CREM, and addresses Th17/Treg differentiation rather than TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11999874",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "other",
+        "experimental_system": "Human gastric mesenchymal tumor (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "gastric mesenchymal tumor with epithelioid histology and an EWSR1::CREM fusion",
+        "rationale": "Case report of an EWSR1::CREM fusion tumor; no T cell or TCR signalling content."
+      },
+      {
+        "paperclip_result_id": "PMC6011589",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human synovial fluid T cells (CD161+) and mouse arthritis model",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "CREM is highly expressed in synovial fluid T cells and contributes to cytokine expression",
+        "rationale": "CREM drives an inflammatory effector T cell phenotype; pro-inflammatory, not TCR inhibition."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC5165720",
+      "PMC12286855"
+    ],
+    "tier_rationale": "Only one primary T cell study (PMC5165720) materially links CREM to proximal TCR machinery, showing direct CREMα binding and repression of the CD3ζ chain plus negative IL-2 regulation. This provides indirect mechanistic evidence connecting CREM to attenuation of a proximal TCR component, but the functional outcome is paradoxically enhanced signalling, so directness toward TCR inhibition is incomplete. The NK checkpoint study (PMC12286855) gives clean perturbational evidence but is a non-T-cell, non-TCR system. Remaining CREM T cell papers address TH2/Th17 differentiation or inflammatory effector phenotypes, which are insufficient for moderate. No primary study delivers clean direct causal TCR inhibition with an inhibitory functional readout, so strong is not met; the mechanistic CD3ζ link exceeds weak. Applying the lower-tier rule where ambiguous.",
+    "confidence": "low"
+  }
+}

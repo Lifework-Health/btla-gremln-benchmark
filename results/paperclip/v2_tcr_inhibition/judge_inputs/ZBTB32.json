@@ -1,0 +1,108 @@
+{
+  "tf": "ZBTB32",
+  "query": "ZBTB32 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 1,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC5578684",
+      "rank": 2,
+      "title": "Transient expression of ZBTB32 in anti-viral CD8 +  T cells limits the magnitude of the effector response and the generation of memory",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "Virus infections induce CD8 +  T cell responses comprised of a large population of terminal effector cells and a smaller subset of long-lived memory cells. The transcription factors regulating the relative expansion versus the long-term survival potential of anti-viral CD8 +  T cells are not completely understood. We identified ZBTB32 as a transcription factor that is transiently expressed in effector CD8 +  T cells. After acute virus infection, CD8 +  T cells deficient in ZBTB32 showed enhanced virus-specific CD8 +  T cell responses, and generated increased numbers of virus-specific memory cells; in contrast, persistent expression of ZBTB32 suppressed memory cell formation. The dysregulation of CD8 +  T cell responses in the absence of ZBTB32 was catastrophic, as  Zbtb32 -/-  mice succumbed to a systemic viral infection and showed evidence of severe lung pathology. We found that ZBTB32 and Blimp-1 were co-expressed following CD8 +  T cell activation, bound to each other, and cooperatively regulated Blimp-1 target genes  Eomes  and  Cd27 . These findings demonstrate that ZBTB32 is a key transcription factor in CD8 +  effector T cells that is required for the balanced regulation of effector versus memory responses to infection.",
+      "relevant_passages": "ZBTB32 was studied as a transcription factor in anti-viral CD8+ T cells. Its transient expression is required for balanced effector and memory responses, preventing excessive pathology.",
+      "doi_or_pmcid": "10.1371/journal.ppat.1006544"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 3,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC4503983",
+      "rank": 4,
+      "title": "Zbtb16  (PLZF) is stably suppressed and not inducible in non-innate T cells via T cell receptor-mediated signaling",
+      "year": "2015",
+      "publication_type": "research-article",
+      "abstract": "The transcription factor PLZF (promyelocytic leukemia zinc finger;  zbtb16 ) is essential for nearly all of the unique characteristics of NKT cells including their rapid and potent response to antigen. In the immune system, zbtb16 expression is only found in innate cells. Conventional T cells that ectopically express PLZF spontaneously acquire an activated, effector phenotype. Activation induced expression of lineage defining transcription factors such as T-bet, FoxP3, RORγt, GATA3 and others is essential for naïve T cell differentiation into effector T cells. In this study, we used sensitive genetic-based approaches to assess the induction of PLZF expression in non-innate T cells by T cell receptor (TCR)-mediated activation. Surprisingly, we found that PLZF was stably repressed in non-innate T cells and that TCR-mediated signaling was not sufficient to induce PLZF in conventional T cells. The inactivated state of PLZF was stably maintained in mature T cells, even under inflammatory conditions imposed by bacterial infection. Collectively, our data show that, in contrast to multiple recent reports, PLZF expression is highly specific to innate T cells and cannot be induced in conventional T cells via TCR-mediated activation or inflammatory challenge.",
+      "relevant_passages": "This study investigated PLZF induction in non-innate T cells via T cell receptor signaling. PLZF was found to be stably suppressed and not inducible in these cells, even during bacterial infection.",
+      "doi_or_pmcid": "10.1038/srep12113"
+    },
+    {
+      "paperclip_result_id": "PMC11014665",
+      "rank": 5,
+      "title": "An EBV-related CD4 TCR immunotherapy inhibits tumor growth in an HLA-DP5 +  nasopharyngeal cancer mouse model",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Adoptive transfer of T cell receptor–engineered T cells (TCR-T) is a promising strategy for immunotherapy against solid tumors. However, the potential of CD4 +  T cells in mediating tumor regression has been neglected. Nasopharyngeal cancer is consistently associated with EBV. Here, to evaluate the therapeutic potential of CD4 TCR-T in nasopharyngeal cancer, we screened for CD4 TCRs recognizing EBV nuclear antigen 1 (EBNA1) presented by HLA-DP5. Using mass spectrometry, we identified EBNA1 567–581 , a peptide naturally processed and presented by HLA-DP5. We isolated TCR135, a CD4 TCR with high functional avidity, that can function in both CD4 +  and CD8 +  T cells and recognizes HLA-DP5–restricted EBNA1 567–581 . TCR135-transduced T cells functioned in two ways: directly killing HLA-DP5 + EBNA1 +  tumor cells after recognizing EBNA1 presented by tumor cells and indirectly killing HLA-DP5–negative tumor cells after recognizing EBNA1 presented by antigen-presenting cells. TCR135-transduced T cells preferentially infiltrated into the tumor microenvironment and significantly inhibited tumor growth in xenograft nasopharyngeal tumor models. Additionally, we found that 62% of nasopharyngeal cancer patients showed 50%–100% expression of HLA-DP on tumor cells, indicating that nasopharyngeal cancer is well suited for CD4 TCR-T therapy. These findings suggest that TCR135 may provide a new strategy for EBV-related nasopharyngeal cancer immunotherapy in HLA-DP5 +  patients.",
+      "relevant_passages": "CD4 TCR-engineered T cells targeting EBV antigen EBNA1 presented by HLA-DP5 were developed. These T cells significantly inhibited nasopharyngeal cancer growth in mouse models, suggesting therapeutic potential for HLA-DP5+ patients.",
+      "doi_or_pmcid": "10.1172/JCI172092"
+    },
+    {
+      "paperclip_result_id": "PMC8326903",
+      "rank": 6,
+      "title": "ZBTB Transcription Factors: Key Regulators of the Development, Differentiation and Effector Function of T Cells",
+      "year": "2021",
+      "publication_type": "review-article",
+      "abstract": "The development and differentiation of T cells represents a long and highly coordinated, yet flexible at some points, pathway, along which the sequential and dynamic expressions of different transcriptional factors play prominent roles at multiple steps. The large ZBTB family comprises a diverse group of transcriptional factors, and many of them have emerged as critical factors that regulate the lineage commitment, differentiation and effector function of hematopoietic-derived cells as well as a variety of other developmental events. Within the T-cell lineage, several ZBTB proteins, including ZBTB1, ZBTB17, ZBTB7B (THPOK) and BCL6 (ZBTB27), mainly regulate the development and/or differentiation of conventional CD4/CD8 αβ +  T cells, whereas ZBTB16 (PLZF) is essential for the development and function of innate-like unconventional  γ δ +  T & invariant NKT cells. Given the critical role of T cells in host defenses against infections/tumors and in the pathogenesis of many inflammatory disorders, we herein summarize the roles of fourteen ZBTB family members in the development, differentiation and effector function of both conventional and unconventional T cells as well as the underlying molecular mechanisms.",
+      "relevant_passages": "This paper reviews the roles of fourteen ZBTB transcription factors in T cell development and function. These factors are crucial regulators of both conventional and unconventional T cell lineages.",
+      "doi_or_pmcid": "10.3389/fimmu.2021.713294"
+    },
+    {
+      "paperclip_result_id": "PMC12261488",
+      "rank": 7,
+      "title": "TCR-epiDiff: solving dual challenges of TCR generation and binding prediction",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "T cell receptors (TCRs) are fundamental components of the adaptive immune system, recognizing specific antigens for targeted immune responses. Understanding their sequence patterns is crucial for designing effective vaccines and immunotherapies. However, the vast diversity of TCR sequences and complex binding mechanisms pose significant challenges in generating TCRs that are specific to a particular epitope. Here, we propose TCR-epiDiff, a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR–epitope binding. TCR-epiDiff integrates epitope information during TCR sequence embedding using ProtT5-XL and employs a denoising diffusion probabilistic model for sequence generation. Using external validation datasets, we demonstrate the ability to generate biologically plausible, epitope-specific TCRs. Furthermore, we leverage the model’s encoder to develop a TCR–epitope binding predictor that shows robust performance on the external validation data. Our approach provides a comprehensive solution for both  de novo  generation of epitope-specific TCRs and TCR–epitope binding prediction. This capability provides valuable insights into immune diversity and has the potential to advance targeted immunotherapies. The data and source codes for our experiments are available at:  https://github.com/seoseyeon/TCR-epiDiff .",
+      "relevant_passages": "A diffusion-based model, TCR-epiDiff, was developed to generate epitope-specific T cell receptors (TCRs) and predict TCR-epitope binding. The model successfully generates biologically plausible TCRs and accurately predicts binding affinity, offering a comprehensive solution for TCR design and immunotherapy.",
+      "doi_or_pmcid": "10.1093/bioinformatics/btaf202"
+    },
+    {
+      "paperclip_result_id": "PMC7479152",
+      "rank": 8,
+      "title": "Exhausted CD8 +  T cells exhibit low and strongly inhibited TCR signaling during chronic LCMV infection",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "Chronic viral infections are often associated with impaired CD8 +  T cell function, referred to as exhaustion. Although the molecular and cellular circuits involved in CD8 +  T cell exhaustion are well defined, with sustained presence of antigen being one important parameter, how much T cell receptor (TCR) signaling is actually ongoing in vivo during established chronic infection is unclear. Here, we characterize the in vivo TCR signaling of virus-specific exhausted CD8 +  T cells in a mouse model, leveraging TCR signaling reporter mice in combination with transcriptomics. In vivo signaling in exhausted cells is low, in contrast to their in vitro signaling potential, and despite antigen being abundantly present. Both checkpoint blockade and adoptive transfer of naïve target cells increase TCR signaling, demonstrating that engagement of co-inhibitory receptors curtails CD8 +  T cell signaling and function in vivo.",
+      "relevant_passages": "This study investigated T cell receptor (TCR) signaling in exhausted CD8+ T cells during chronic LCMV infection. TCR signaling in exhausted cells is low in vivo, despite abundant antigen, and is suppressed by co-inhibitory receptors.",
+      "doi_or_pmcid": "10.1038/s41467-020-18256-4"
+    },
+    {
+      "paperclip_result_id": "PMC11302870",
+      "rank": 9,
+      "title": "Inhibition of PCSK9 enhances the anti-hepatocellular carcinoma effects of TCR-T cells and anti-PD-1 immunotherapy",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "T cells play important roles in antitumor immunity. However, given that the hepatocellular carcinoma (HCC) tumor microenvironment confers resistance to T cell-based immunotherapies, novel strategies to boost T cell-mediated antitumor efficacy are urgently needed for the treatment of HCC. Here, we show that high proprotein convertase subtilisin/kexin type9 (PCSK9) expression was negatively associated with HCC patient's overall survival and markers of CD8 +  T cells. Pharmacological inhibition of PCSK9 enhanced tumor-specific killing and downregulated PD-1 expression of AFP-specific TCR-T. Inhibition of PCSK9 significantly enhances the anti-HCC efficacy of TCR-T cells and anti-PD-1 immunotherapy  in vivo . Moreover, PCSK9 inhibitor suppressed HCC growth dependent on CD8 +  T cells. Mechanically, pharmacological inhibition of PCSK9 promoted low-density lipoprotein receptor (LDLR)-mediated activation of mTORC1 signaling in CD8 +  T cells. LDLR deficiency was shown to impair cellular mTORC1 signaling and the anti-HCC function of CD8 T cells. On the basis of our findings in this study, we propose a potential metabolic intervention strategy that could be used to enhance the antitumor effects of immunotherapy for HCC.",
+      "relevant_passages": "This study investigated the role of PCSK9 in hepatocellular carcinoma (HCC) and its impact on T cell-based immunotherapies. Inhibiting PCSK9 enhances the effectiveness of TCR-T cells and anti-PD-1 immunotherapy against HCC by promoting CD8+ T cell function.",
+      "doi_or_pmcid": "10.7150/ijbs.93668"
+    },
+    {
+      "paperclip_result_id": "PMC7860602",
+      "rank": 10,
+      "title": "Separate signaling events control TCR downregulation and T cell activation in primary human T cells",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "T‐cell antigen receptor (TCR) interaction with cognate peptide:MHC complexes trigger clustering of TCR:CD3 complexes and signal transduction. Triggered TCR:CD3 complexes are rapidly internalized and degraded in a process called ligand‐induced TCR downregulation. Classic studies in immortalized T‐cell lines have revealed a major role for the Src family kinase Lck in TCR downregulation. However, to what extent a similar mechanism operates in primary human T cells remains unclear. Here, we developed an anti‐CD3‐mediated TCR downregulation assay, in which T‐cell gene expression in primary human T cells can be knocked down by microRNA constructs. In parallel, we used CRISPR/Cas9‐mediated knockout in Jurkat cells for validation experiments. We efficiently knocked down the expression of tyrosine kinases Lck, Fyn, and ZAP70, and found that, whereas this impaired T cell activation and effector function, TCR downregulation was not affected. Although TCR downregulation was marginally inhibited by the simultaneous knockdown of Lck and Fyn, its full abrogation required broad‐acting tyrosine kinase inhibitors. These data suggest that there is substantial redundancy in the contribution of individual tyrosine kinases to TCR downregulation in primary human T cells. Our results highlight that TCR downregulation and T cell activation are controlled by different signaling events and illustrate the need for further research to untangle these processes.",
+      "relevant_passages": "This study investigated TCR downregulation and T cell activation in primary human T cells. TCR downregulation is controlled by redundant signaling events distinct from those driving T cell activation.",
+      "doi_or_pmcid": "10.1002/iid3.383"
+    }
+  ]
+}

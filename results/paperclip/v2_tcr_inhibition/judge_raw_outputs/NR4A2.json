@@ -1,0 +1,150 @@
+{
+  "tf": "NR4A2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:04:21Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-d681e1cd-8f89-46df-9613-7fb2d563e658",
+      "agent_id": "agent-6dfa4e7e-d45c-46e3-aa48-272b2d446613",
+      "raw": "Based on my assessment of the 10 supplied papers, here is the structured evaluation conforming to the judge schema:\n\n```json\n{\n  \"tf\": \"NR4A2\",\n  \"query\": \"NR4A2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 4,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11881746\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human glioblastoma cell lines and syngeneic mouse GBM model; non-immune (tumor cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"These ligands inhibit glioblastoma growth by targeting TWIST1, a pro-oncogenic factor.\",\n      \"rationale\": \"NR4A1/NR4A2 studied in glioblastoma oncogenesis via TWIST1; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7653457\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse); primary T cells; thymocytes and peripheral T cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Nr4a2 and Nr4a3 are attenuated by calcineurin inhibitors and bind nuclear factor of activated T cells 1 (NFAT1)\",\n      \"rationale\": \"Positions Nr4a2 as a TCR-induced readout regulating T cell fate/development, not as a driver of TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12206217\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (rat) ICH models and cell models; microglia (non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Increasing NR4A2 promotes M2 microglial polarization by inhibiting the TLR4/TRAF6/NF-κB pathway\",\n      \"rationale\": \"NR4A2 modulates microglial inflammation in brain hemorrhage; no T cell or TCR signalling involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7883379\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"Review; human and non-human T cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"induced in T cells by triggering of the T cell receptor... impact different aspects of the life of a T cell\",\n      \"rationale\": \"Review of NR4A family in T cell biology; cannot independently support strong or moderate evidence per rules.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12527293\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human endometriotic epithelial/stromal cells and mouse model; non-immune\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"dual targeting of NR4A1 and NR4A2 for endometriosis therapy using DIM-3,5 analogs\",\n      \"rationale\": \"NR4A1/NR4A2 studied in endometriosis progression; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12889511\",\n      \"retrieval_rank\": 6,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Mouse and primary human CD8+ T cells (tumor-infiltrating/chronically stimulated)\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"exhaustion explicitly linked to impaired TCR function\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"degradation of individual NR4A proteins rapidly restored these functional features\",\n      \"rationale\": \"Degron/CRISPR perturbation of individual NR4A (incl. NR4A2) in human CD8 T cells suppresses co-inhibitory receptors and restores effector cytokines under chronic stimulation.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11439235\",\n      \"retrieval_rank\": 7,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human and non-human (mouse CDX); primary Vγ9Vδ2 (γδ) T cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"exhaustion explicitly linked to impaired TCR function\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"knocking down nuclear receptor subfamily 4 group A (NR4A) 2/3 can reverse BTN3A1-induced exhaustion in Vδ2 T cells\",\n      \"rationale\": \"NR4A2/3 knockdown reverses TCR-driven exhaustion and restores effector molecules in human Vδ2 T cells; NR4A2-inclusive perturbational evidence.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4356985\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse); primary CD8+ T cells and thymocytes\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Nr4a1 suppresses Runx3 expression... increase in the frequency and total number of CD8+ T cells\",\n      \"rationale\": \"Concerns Nr4a1 (not NR4A2) in CD8 developmental control via Runx3; not TCR inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11958660\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse); cortical neurons (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"both Satb2 and Nr4a2 are required for the differentiation of layer 6b neurons\",\n      \"rationale\": \"Nr4a2 role in cortical neuron differentiation; no immune or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6546093\",\n      \"retrieval_rank\": 10,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) CAR-T; primary CD8+ T cells; human correlative data\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"T cell anergy or hyporesponsiveness\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Our data identify Nr4a TFs as major players in the cell-intrinsic program of T cell hyporesponsiveness\",\n      \"rationale\": \"Nr4a triple KO (incl. Nr4a2) reverses chronic-stimulation hyporesponsiveness and inhibitory-receptor upregulation, but NR4A2 not isolated individually.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"strong\",\n  \"key_paperclip_result_ids\": [\"PMC12889511\", \"PMC11439235\", \"PMC6546093\"],\n  \"tier_rationale\": \"Multiple independent primary experimental studies provide consistent direct perturbational evidence that NR4A (including NR4A2) promotes closely related inhibitory T cell phenotypes. PMC12889511 shows individual NR4A degradation (incl. NR4A2) in primary human CD8 T cells suppresses co-inhibitory checkpoint receptors and restores effector function; PMC11439235 shows NR4A2/3 knockdown reverses TCR-driven exhaustion in human Vδ2 T cells; PMC6546093 shows Nr4a loss reverses TCR-linked hyporesponsiveness. Together these satisfy the strong criterion of direct causal evidence in inhibitory checkpoint/hyporesponsiveness contexts with functional/mechanistic readouts.\",\n  \"confidence\": \"moderate\"\n}\n```\n\nA note on my confidence rating: I assigned `strong` but set confidence to `moderate` because the cleanest NR4A2‑isolated checkpoint evidence (PMC12889511) is a preprint‑style article, the strongest hyporesponsiveness study (PMC6546093) uses a triple knockout that does not isolate NR4A2's individual contribution, and none of the studies directly measure *proximal* TCR signalling attenuation—the qualifying evidence sits in the exhaustion/hyporesponsiveness/inhibitory‑receptor space rather than proximal signalling per se.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "NR4A2",
+    "query": "NR4A2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 4,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11881746",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human glioblastoma cell lines and syngeneic mouse GBM model; non-immune (tumor cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "These ligands inhibit glioblastoma growth by targeting TWIST1, a pro-oncogenic factor.",
+        "rationale": "NR4A1/NR4A2 studied in glioblastoma oncogenesis via TWIST1; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC7653457",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse); primary T cells; thymocytes and peripheral T cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Nr4a2 and Nr4a3 are attenuated by calcineurin inhibitors and bind nuclear factor of activated T cells 1 (NFAT1)",
+        "rationale": "Positions Nr4a2 as a TCR-induced readout regulating T cell fate/development, not as a driver of TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12206217",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (rat) ICH models and cell models; microglia (non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Increasing NR4A2 promotes M2 microglial polarization by inhibiting the TLR4/TRAF6/NF-κB pathway",
+        "rationale": "NR4A2 modulates microglial inflammation in brain hemorrhage; no T cell or TCR signalling involvement."
+      },
+      {
+        "paperclip_result_id": "PMC7883379",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "review",
+        "experimental_system": "Review; human and non-human T cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "context dependent",
+        "supporting_excerpt": "induced in T cells by triggering of the T cell receptor... impact different aspects of the life of a T cell",
+        "rationale": "Review of NR4A family in T cell biology; cannot independently support strong or moderate evidence per rules."
+      },
+      {
+        "paperclip_result_id": "PMC12527293",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human endometriotic epithelial/stromal cells and mouse model; non-immune",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "dual targeting of NR4A1 and NR4A2 for endometriosis therapy using DIM-3,5 analogs",
+        "rationale": "NR4A1/NR4A2 studied in endometriosis progression; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC12889511",
+        "retrieval_rank": 6,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Mouse and primary human CD8+ T cells (tumor-infiltrating/chronically stimulated)",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "exhaustion explicitly linked to impaired TCR function",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "degradation of individual NR4A proteins rapidly restored these functional features",
+        "rationale": "Degron/CRISPR perturbation of individual NR4A (incl. NR4A2) in human CD8 T cells suppresses co-inhibitory receptors and restores effector cytokines under chronic stimulation."
+      },
+      {
+        "paperclip_result_id": "PMC11439235",
+        "retrieval_rank": 7,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Human and non-human (mouse CDX); primary Vγ9Vδ2 (γδ) T cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "exhaustion explicitly linked to impaired TCR function",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "knocking down nuclear receptor subfamily 4 group A (NR4A) 2/3 can reverse BTN3A1-induced exhaustion in Vδ2 T cells",
+        "rationale": "NR4A2/3 knockdown reverses TCR-driven exhaustion and restores effector molecules in human Vδ2 T cells; NR4A2-inclusive perturbational evidence."
+      },
+      {
+        "paperclip_result_id": "PMC4356985",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse); primary CD8+ T cells and thymocytes",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Nr4a1 suppresses Runx3 expression... increase in the frequency and total number of CD8+ T cells",
+        "rationale": "Concerns Nr4a1 (not NR4A2) in CD8 developmental control via Runx3; not TCR inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11958660",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse); cortical neurons (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "both Satb2 and Nr4a2 are required for the differentiation of layer 6b neurons",
+        "rationale": "Nr4a2 role in cortical neuron differentiation; no immune or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC6546093",
+        "retrieval_rank": 10,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) CAR-T; primary CD8+ T cells; human correlative data",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "T cell anergy or hyporesponsiveness",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Our data identify Nr4a TFs as major players in the cell-intrinsic program of T cell hyporesponsiveness",
+        "rationale": "Nr4a triple KO (incl. Nr4a2) reverses chronic-stimulation hyporesponsiveness and inhibitory-receptor upregulation, but NR4A2 not isolated individually."
+      }
+    ],
+    "overall_evidence_tier": "strong",
+    "key_paperclip_result_ids": [
+      "PMC12889511",
+      "PMC11439235",
+      "PMC6546093"
+    ],
+    "tier_rationale": "Multiple independent primary experimental studies provide consistent direct perturbational evidence that NR4A (including NR4A2) promotes closely related inhibitory T cell phenotypes. PMC12889511 shows individual NR4A degradation (incl. NR4A2) in primary human CD8 T cells suppresses co-inhibitory checkpoint receptors and restores effector function; PMC11439235 shows NR4A2/3 knockdown reverses TCR-driven exhaustion in human Vδ2 T cells; PMC6546093 shows Nr4a loss reverses TCR-linked hyporesponsiveness. Together these satisfy the strong criterion of direct causal evidence in inhibitory checkpoint/hyporesponsiveness contexts with functional/mechanistic readouts.",
+    "confidence": "moderate"
+  }
+}

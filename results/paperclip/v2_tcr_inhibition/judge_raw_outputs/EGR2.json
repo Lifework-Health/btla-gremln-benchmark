@@ -1,0 +1,151 @@
+{
+  "tf": "EGR2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:25:07Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-1130f648-9fae-4a34-b5e5-91bb50ae3ca3",
+      "agent_id": "agent-4bcca20b-8ee0-458d-aa61-3acee856e3d9",
+      "raw": "Based on the supplied papers and passages only, here is the structured assessment:\n\n```json\n{\n  \"tf\": \"EGR2\",\n  \"query\": \"EGR2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 4,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11592338\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human; non-immune system (rat Schwann cells, peripheral nervous system)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Egr2 antisense RNA modulates chromatin accessibility of Schwann cells.\",\n      \"rationale\": \"Concerns Egr2-AS regulation of Schwann cell chromatin in nerve regeneration; no T cell or TCR content whatsoever.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3501351\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human/in vitro and in vivo (mouse) primary T cells; anergic CD4 T cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"T cell anergy or hyporesponsiveness\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Egr2 deletion prevents anergy induction through diacylglycerol kinase α and restores Ras/MAPK signaling in T cells.\",\n      \"rationale\": \"Genetic deletion (perturbation) prevents anergy and restores proximal Ras/MAPK signaling via DGKα, a direct causal mechanistic readout of TCR-linked hyporesponsiveness.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12329747\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human; non-immune/CNS (rat spinal microglia, neuropathic pain)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EGR2 was found to promote microglial phagocytosis, thereby maintaining neuropathic pain.\",\n      \"rationale\": \"Studies EGR2 in microglial phagocytosis and neuropathic pain; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5439026\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) primary CD4 and CD8 effector T cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Egr2 and 3 physically interact with the T-box domain of T-bet, blocking T-bet DNA binding.\",\n      \"rationale\": \"Direct mechanistic/perturbational evidence that Egr2 suppresses T-bet-driven IFN-γ and Th1 differentiation, an effector-restraining phenotype but not proximal TCR-signalling inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11385099\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse); alveolar macrophages (non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EGR2 deficiency impairs phagocytosis and antifungal immunity in alveolar macrophages.\",\n      \"rationale\": \"Addresses EGR2 in macrophage identity and antifungal phagocytosis; no T cell or TCR signalling content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5946152\",\n      \"retrieval_rank\": 6,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) primary tolerant T cells\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"T cell anergy or hyporesponsiveness\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Egr2 and 3 are important for the control of inflammatory cytokine production by tolerant T cells.\",\n      \"rationale\": \"Perturbational study in tolerant T cells, but Egr2/3 control inflammatory cytokines rather than tolerance induction itself; connection to proximal TCR inhibition is incomplete.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12644210\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human/mouse; tumour-associated macrophages (non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"The LPXN/HDAC6/EGR2 axis promotes breast cancer progression by enhancing M2 macrophage polarization.\",\n      \"rationale\": \"Concerns EGR2 in macrophage M2 polarization and breast cancer; no T cell or TCR inhibition relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2944839\",\n      \"retrieval_rank\": 8,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) primary CD4 T cells; in vivo immune responses\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"T cell anergy or hyporesponsiveness\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"T cells deficient in EGR-2 are hyperproliferative to IL-2 and produce elevated levels of IFN-γ.\",\n      \"rationale\": \"Knockout study relevant to anergy/tolerance, but reports normal acute responses in vivo, tempering directness; links EGR2 to chronic-antigen hyporesponsiveness rather than proximal TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12658588\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human and mouse uterine tissue (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Loss of uterine EGR2 caused mild subfertility in female mice.\",\n      \"rationale\": \"Examines uterine EGR2 in fertility; no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3288314\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (mouse) thymocytes; NKT lineage precursors\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-induced Egr2 and Egr1 proteins had elevated and prolonged expression in NKT lineage precursors.\",\n      \"rationale\": \"Egr2 acts downstream of TCR signalling to instruct NKT lineage differentiation; this is lineage specification, not TCR inhibition or an inhibitory phenotype.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"strong\",\n  \"key_paperclip_result_ids\": [\"PMC3501351\", \"PMC5439026\", \"PMC5946152\", \"PMC2944839\"],\n  \"tier_rationale\": \"PMC3501351 is a primary experimental study providing direct perturbational evidence that Egr2 deletion prevents T cell anergy induction (a TCR-linked hyporesponsive state) and restores proximal Ras/MAPK signalling via DGKα, satisfying the requirement for direct causal evidence with a mechanistic readout on TCR-linked hyporesponsiveness. It is corroborated by additional primary Egr2/3 studies in tolerant/effector T cells (PMC5946152, PMC5439026, PMC2944839), consistently showing Egr2 promotes inhibitory/tolerogenic T cell control.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "EGR2",
+    "query": "EGR2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 4,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11592338",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human; non-immune system (rat Schwann cells, peripheral nervous system)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Egr2 antisense RNA modulates chromatin accessibility of Schwann cells.",
+        "rationale": "Concerns Egr2-AS regulation of Schwann cell chromatin in nerve regeneration; no T cell or TCR content whatsoever."
+      },
+      {
+        "paperclip_result_id": "PMC3501351",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human/in vitro and in vivo (mouse) primary T cells; anergic CD4 T cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "T cell anergy or hyporesponsiveness",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Egr2 deletion prevents anergy induction through diacylglycerol kinase α and restores Ras/MAPK signaling in T cells.",
+        "rationale": "Genetic deletion (perturbation) prevents anergy and restores proximal Ras/MAPK signaling via DGKα, a direct causal mechanistic readout of TCR-linked hyporesponsiveness."
+      },
+      {
+        "paperclip_result_id": "PMC12329747",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human; non-immune/CNS (rat spinal microglia, neuropathic pain)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EGR2 was found to promote microglial phagocytosis, thereby maintaining neuropathic pain.",
+        "rationale": "Studies EGR2 in microglial phagocytosis and neuropathic pain; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC5439026",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) primary CD4 and CD8 effector T cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Egr2 and 3 physically interact with the T-box domain of T-bet, blocking T-bet DNA binding.",
+        "rationale": "Direct mechanistic/perturbational evidence that Egr2 suppresses T-bet-driven IFN-γ and Th1 differentiation, an effector-restraining phenotype but not proximal TCR-signalling inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11385099",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse); alveolar macrophages (non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EGR2 deficiency impairs phagocytosis and antifungal immunity in alveolar macrophages.",
+        "rationale": "Addresses EGR2 in macrophage identity and antifungal phagocytosis; no T cell or TCR signalling content."
+      },
+      {
+        "paperclip_result_id": "PMC5946152",
+        "retrieval_rank": 6,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) primary tolerant T cells",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "T cell anergy or hyporesponsiveness",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Egr2 and 3 are important for the control of inflammatory cytokine production by tolerant T cells.",
+        "rationale": "Perturbational study in tolerant T cells, but Egr2/3 control inflammatory cytokines rather than tolerance induction itself; connection to proximal TCR inhibition is incomplete."
+      },
+      {
+        "paperclip_result_id": "PMC12644210",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human/mouse; tumour-associated macrophages (non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "The LPXN/HDAC6/EGR2 axis promotes breast cancer progression by enhancing M2 macrophage polarization.",
+        "rationale": "Concerns EGR2 in macrophage M2 polarization and breast cancer; no T cell or TCR inhibition relevance."
+      },
+      {
+        "paperclip_result_id": "PMC2944839",
+        "retrieval_rank": 8,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) primary CD4 T cells; in vivo immune responses",
+        "evidence_directness": "associative",
+        "phenotype": "T cell anergy or hyporesponsiveness",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "T cells deficient in EGR-2 are hyperproliferative to IL-2 and produce elevated levels of IFN-γ.",
+        "rationale": "Knockout study relevant to anergy/tolerance, but reports normal acute responses in vivo, tempering directness; links EGR2 to chronic-antigen hyporesponsiveness rather than proximal TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12658588",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human and mouse uterine tissue (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Loss of uterine EGR2 caused mild subfertility in female mice.",
+        "rationale": "Examines uterine EGR2 in fertility; no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC3288314",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (mouse) thymocytes; NKT lineage precursors",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-induced Egr2 and Egr1 proteins had elevated and prolonged expression in NKT lineage precursors.",
+        "rationale": "Egr2 acts downstream of TCR signalling to instruct NKT lineage differentiation; this is lineage specification, not TCR inhibition or an inhibitory phenotype."
+      }
+    ],
+    "overall_evidence_tier": "strong",
+    "key_paperclip_result_ids": [
+      "PMC3501351",
+      "PMC5439026",
+      "PMC5946152",
+      "PMC2944839"
+    ],
+    "tier_rationale": "PMC3501351 is a primary experimental study providing direct perturbational evidence that Egr2 deletion prevents T cell anergy induction (a TCR-linked hyporesponsive state) and restores proximal Ras/MAPK signalling via DGKα, satisfying the requirement for direct causal evidence with a mechanistic readout on TCR-linked hyporesponsiveness. It is corroborated by additional primary Egr2/3 studies in tolerant/effector T cells (PMC5946152, PMC5439026, PMC2944839), consistently showing Egr2 promotes inhibitory/tolerogenic T cell control.",
+    "confidence": "high"
+  }
+}

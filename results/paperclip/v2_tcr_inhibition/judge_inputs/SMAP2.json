@@ -1,0 +1,108 @@
+{
+  "tf": "SMAP2",
+  "query": "SMAP2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11106232",
+      "rank": 1,
+      "title": "Cloning of the  Arabidopsis SMAP2  promoter and analysis of its expression activity",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The  SMALL ACIDIC PROTEIN (SMAP)  gene is evolutionarily indispensable for organisms. There are two copies of the  SMAP  gene in the  Arabidopsis thaliana  genome, namely,  SMAP1  and  SMAP2 . The function of SMAP2 is similar to that of SMAP1, and both can mediate 2,4-D responses in the root of  Arabidopsis . This study cloned the  AtSMAP2  genetic promoter sequence. Two promoter fragments of different lengths were designed according to the distribution of their  cis -acting elements, and the corresponding β- glucuronidase (GUS) expression vector was constructed. The expression activity of promoters of two lengths, 1993 bp and 997 bp, was studied by the genetic transformation in  Arabidopsis . The prediction results of  cis -acting elements in the promoter show that there are many hormone response elements in 997 bp, such as three abscisic acid response elements ABRE, gibberellin response elements P-box and GARE-motif and auxin response element AuxRR-core. Through GUS histochemical staining and qRT‒PCR analysis, it was found that the higher promoter activity of P AtSMAP2-997 , compared to P AtSMAP2-1993 , drove the expression of  GUS  genes at higher levels in  Arabidopsis , especially in the root system. The results provide an important basis for subsequent studies on the regulation of  AtSMAP2  gene expression and biological functions.",
+      "relevant_passages": "The promoter of the Arabidopsis SMAP2 gene was cloned and analyzed for expression activity. A shorter promoter fragment (997 bp) exhibited higher activity, particularly in the root system, compared to a longer fragment (1993 bp).",
+      "doi_or_pmcid": "10.1038/s41598-024-61525-1"
+    },
+    {
+      "paperclip_result_id": "PMC3842781",
+      "rank": 2,
+      "title": "TCR activation kinetics and feedback regulation in primary human T cells",
+      "year": "2013",
+      "publication_type": "research-article",
+      "abstract": "Signaling through the TCR is crucial for the generation of different cellular responses including proliferation, differentiation, and apoptosis. A growing body of evidence indicates that differences in the magnitude and the duration of the signal are critical determinants in eliciting cellular responses. Here, we have analyzed signaling dynamics correlating with either unresponsiveness or proliferation induced upon TCR/CD28 ligation in primary human T cells. We used two widely employed methods to stimulate T cells  in vitro , antibodies either cross-linked in solution (sAbs) or immobilized on microbeads (iAbs). A comparative analysis of the signaling properties of iAbs and sAbs revealed that, under proliferation-inducing conditions, feedback regulation is markedly different from that leading to an unresponsive state. In fact, upon iAbs stimulation TCR-mediated signaling is prolonged by a positive feedback loop involving Erk, whereas sAbs strongly activate inhibitory molecules that likely terminate signaling. We additionally found that, by enhancing the phosphorylation of Src family kinases under proliferation-inducing conditions, signaling and T-cell activation are terminated. In summary, our analysis documents TCR signaling kinetics and feedback regulation under conditions of stimulation inducing either unresponsiveness or proliferation.",
+      "relevant_passages": "This study analyzed TCR signaling dynamics in primary human T cells stimulated by soluble or immobilized antibodies. Immobilized antibodies promote prolonged signaling and proliferation via Erk feedback, while soluble antibodies induce inhibitory feedback and unresponsiveness.",
+      "doi_or_pmcid": "10.1186/1478-811X-11-4"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 3,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC2196323",
+      "rank": 4,
+      "title": "Degradation of  T Cell Receptor (TCR)–CD3-ζ Complexes after Antigenic Stimulation",
+      "year": "1997",
+      "publication_type": "research-article",
+      "abstract": "T cell activation by specific antigen results in a rapid and long-lasting downregulation of triggered T cell receptors (TCRs). In this work, we investigated the fate of downregulated TCR– CD3-ζ complexes. T cells stimulated by peptide-pulsed antigen-presenting cells (APCs) undergo an antigen dose-dependent decrease of the total cellular content of TCR-β, CD3-ε, and ζ chains, as detected by FACS ®  analysis on fixed and permeabilized T–APC conjugates and by Western blot analysis on cell lysates. The time course of CD3-ζ chain consumption overlaps with that of TCR downregulation, indicating that internalized TCR–CD3 complexes are promptly degraded. Inhibitors of lysosomal function (bafilomycin A1, folimycin) markedly reduced ζ chain degradation, leading to the accumulation of ζ chain in large Lamp1 +  vesicles. These results indicate that in T cell–APC conjugates, triggered TCRs are rapidly removed from the cell surface and are degraded in the lysosomal compartment.",
+      "relevant_passages": "This study investigated the fate of T cell receptors (TCRs) after antigen stimulation. Triggered TCRs are rapidly degraded in the lysosomal compartment after internalization.",
+      "doi_or_pmcid": "PMC2196323"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 5,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC10555889",
+      "rank": 6,
+      "title": "TCR ligand potency differentially impacts PD-1 inhibitory effects on diverse signaling pathways",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "PD-1 engagement by T cells inhibits distinct antigen-evoked signals in a nonlinear manner, strongly influenced by the nature of available TCR ligands.",
+      "relevant_passages": "PD-1 engagement's inhibitory effects on T cell signaling vary non-linearly based on TCR ligand potency. Different antigen-evoked signals are differentially impacted by this interaction.",
+      "doi_or_pmcid": "10.1084/jem.20231242"
+    },
+    {
+      "paperclip_result_id": "PMC11014665",
+      "rank": 7,
+      "title": "An EBV-related CD4 TCR immunotherapy inhibits tumor growth in an HLA-DP5 +  nasopharyngeal cancer mouse model",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Adoptive transfer of T cell receptor–engineered T cells (TCR-T) is a promising strategy for immunotherapy against solid tumors. However, the potential of CD4 +  T cells in mediating tumor regression has been neglected. Nasopharyngeal cancer is consistently associated with EBV. Here, to evaluate the therapeutic potential of CD4 TCR-T in nasopharyngeal cancer, we screened for CD4 TCRs recognizing EBV nuclear antigen 1 (EBNA1) presented by HLA-DP5. Using mass spectrometry, we identified EBNA1 567–581 , a peptide naturally processed and presented by HLA-DP5. We isolated TCR135, a CD4 TCR with high functional avidity, that can function in both CD4 +  and CD8 +  T cells and recognizes HLA-DP5–restricted EBNA1 567–581 . TCR135-transduced T cells functioned in two ways: directly killing HLA-DP5 + EBNA1 +  tumor cells after recognizing EBNA1 presented by tumor cells and indirectly killing HLA-DP5–negative tumor cells after recognizing EBNA1 presented by antigen-presenting cells. TCR135-transduced T cells preferentially infiltrated into the tumor microenvironment and significantly inhibited tumor growth in xenograft nasopharyngeal tumor models. Additionally, we found that 62% of nasopharyngeal cancer patients showed 50%–100% expression of HLA-DP on tumor cells, indicating that nasopharyngeal cancer is well suited for CD4 TCR-T therapy. These findings suggest that TCR135 may provide a new strategy for EBV-related nasopharyngeal cancer immunotherapy in HLA-DP5 +  patients.",
+      "relevant_passages": "CD4 TCR-engineered T cells targeting EBV antigen EBNA1 presented by HLA-DP5 were developed. These T cells significantly inhibited nasopharyngeal cancer growth in mouse models, suggesting therapeutic potential for HLA-DP5+ patients.",
+      "doi_or_pmcid": "10.1172/JCI172092"
+    },
+    {
+      "paperclip_result_id": "PMC8124730",
+      "rank": 8,
+      "title": "Cross-TCR Antagonism Revealed by Optogenetically Tuning the Half-Life of the TCR Ligand Binding",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "Activation of T cells by agonistic peptide-MHC can be inhibited by antagonistic ones. However, the exact mechanism remains elusive. We used Jurkat cells expressing two different TCRs and tested whether stimulation of the endogenous TCR by agonistic anti-Vβ8 antibodies can be modulated by ligand-binding to the second, optogenetic TCR. The latter TCR uses phytochrome B tetramers (PhyBt) as ligand, the binding half-life of which can be altered by light. We show that this half-life determined whether the PhyBt acted as a second agonist (long half-life), an antagonist (short half-life) or did not have any influence (very short half-life) on calcium influx. A mathematical model of this cross-antagonism shows that a mechanism based on an inhibitory signal generated by early recruitment of a phosphatase and an activating signal by later recruitment of a kinase explains the data.",
+      "relevant_passages": "This study investigated how the binding half-life of a T cell receptor (TCR) ligand affects T cell activation. A ligand's half-life determined whether it acted as an agonist, antagonist, or had no effect on calcium influx, explained by differential recruitment of signaling enzymes.",
+      "doi_or_pmcid": "10.3390/ijms22094920"
+    },
+    {
+      "paperclip_result_id": "PMC12261488",
+      "rank": 9,
+      "title": "TCR-epiDiff: solving dual challenges of TCR generation and binding prediction",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "T cell receptors (TCRs) are fundamental components of the adaptive immune system, recognizing specific antigens for targeted immune responses. Understanding their sequence patterns is crucial for designing effective vaccines and immunotherapies. However, the vast diversity of TCR sequences and complex binding mechanisms pose significant challenges in generating TCRs that are specific to a particular epitope. Here, we propose TCR-epiDiff, a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR–epitope binding. TCR-epiDiff integrates epitope information during TCR sequence embedding using ProtT5-XL and employs a denoising diffusion probabilistic model for sequence generation. Using external validation datasets, we demonstrate the ability to generate biologically plausible, epitope-specific TCRs. Furthermore, we leverage the model’s encoder to develop a TCR–epitope binding predictor that shows robust performance on the external validation data. Our approach provides a comprehensive solution for both  de novo  generation of epitope-specific TCRs and TCR–epitope binding prediction. This capability provides valuable insights into immune diversity and has the potential to advance targeted immunotherapies. The data and source codes for our experiments are available at:  https://github.com/seoseyeon/TCR-epiDiff .",
+      "relevant_passages": "A diffusion-based model, TCR-epiDiff, was developed to generate epitope-specific T cell receptors (TCRs) and predict TCR-epitope binding. The model successfully generates biologically plausible TCRs and accurately predicts binding affinity, offering a comprehensive solution for TCR design and immunotherapy.",
+      "doi_or_pmcid": "10.1093/bioinformatics/btaf202"
+    },
+    {
+      "paperclip_result_id": "PMC2195826",
+      "rank": 10,
+      "title": "Src-like Adaptor Protein (Slap) Is a Negative Regulator of T Cell Receptor Signaling",
+      "year": "2000",
+      "publication_type": "research-article",
+      "abstract": "Initiation of T cell antigen receptor (TCR) signaling is dependent on Lck, a Src family kinase. The Src-like adaptor protein (SLAP) contains Src homology (SH)3 and SH2 domains, which are highly homologous to those of Lck and other Src family members. Because of the structural similarity between Lck and SLAP, we studied its potential role in TCR signaling. Here, we show that SLAP is expressed in T cells, and that when expressed in Jurkat T cells it can specifically inhibit TCR signaling leading to nuclear factor of activated T cells (NFAT)-, activator protein 1 (AP-1)–, and interleukin 2–dependent transcription. The SH3 and SH2 domains of SLAP are required for maximal attenuation of TCR signaling. This inhibitory activity can be bypassed by the combination of phorbol myristate acetate (PMA) and ionomycin, suggesting that SLAP acts proximally in the TCR signaling pathway. SLAP colocalizes with endosomes in Jurkat and in HeLa cells, and is insoluble in mild detergents. In stimulated Jurkat cells, SLAP associates with a molecular signaling complex containing CD3ζ, ZAP-70, SH2 domain–containing leukocyte protein of 76 kD (SLP-76), Vav, and possibly linker for activation of T cells (LAT). These results suggest that SLAP is a negative regulator of TCR signaling.",
+      "relevant_passages": "Src-like adaptor protein (SLAP) was studied for its role in T cell receptor (TCR) signaling. SLAP inhibits TCR signaling by associating with key signaling molecules proximally in the pathway.",
+      "doi_or_pmcid": "PMC2195826"
+    }
+  ]
+}

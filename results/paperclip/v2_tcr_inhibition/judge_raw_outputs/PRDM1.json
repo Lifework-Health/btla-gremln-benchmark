@@ -1,0 +1,148 @@
+{
+  "tf": "PRDM1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:07:23Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-3f2625a9-8481-4444-b1dd-f0b01f847b49",
+      "agent_id": "agent-2f0a653b-f544-45a4-a45d-060bb39eca50",
+      "raw": "I've reviewed the pipeline's schema and rubric. Here is the structured assessment for PRDM1.\n\n```json\n{\n  \"tf\": \"PRDM1\",\n  \"query\": \"PRDM1 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12789010\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human NK cells (non-T immune cells); multi-omics on primary/expanded NK-cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"PRDM1-bound genes were enriched in T/NK-cell receptor signaling, activation, and NK-cell effector functions.\",\n      \"rationale\": \"Studies NK-cell terminal differentiation and effector function, not TCR inhibition; PRDM1 promotes maturation/activation rather than an inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11962401\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human CAR NKT cells; CRISPR/Cas9 screen and knockdown\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"PRDM1 knockdown in CAR NKTs enhances their anti-neuroblastoma activity.\",\n      \"rationale\": \"Perturbational NKT study of functional fitness/effector activity, not proximal TCR inhibition, checkpoint or anergy; effector-function restraint alone is insufficient.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12067916\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human, non-immune (bovine MAC-T mammary epithelial cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"miR-223 alleviates heat-stress-induced inhibition of cell proliferation by targeting PRDM1.\",\n      \"rationale\": \"Heat-stress proliferation in bovine mammary epithelial cells; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11699622\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human non-immune (placental trophoblast/EVT cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inhibition of PRDM1 enhanced trophoblast cell invasion/migration and reduced apoptosis.\",\n      \"rationale\": \"PRDM1-CREBBP axis in preeclampsia trophoblast biology; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9097451\",\n      \"retrieval_rank\": 5,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells (including Treg); multiomics with gain- and loss-of-expression\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"T cell anergy or hyporesponsiveness\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"PRDM1 is sufficient for inducing human primary T cell hyporesponsiveness.\",\n      \"rationale\": \"Overexpression and reduced expression of PRDM1 causally drive hyporesponsiveness, expand Treg/FOXP3, upregulate inhibitory genes and downregulate IL2, with transcriptomic/epigenomic mechanistic readouts.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11493826\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human non-immune (nucleus pulposus cells); in vitro and in vivo\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PRDM1 promotes nucleus pulposus cell pyroptosis by activating CASP1 transcription.\",\n      \"rationale\": \"Intervertebral disc degeneration and pyroptosis; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12212116\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human non-immune (gastric cancer cells); in vitro and xenograft\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PRDM1 directly binds to the Myc promoter, enhancing its transcriptional activity.\",\n      \"rationale\": \"Cancer-cell stemness via PRDM1-Myc axis; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12717841\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse CD8+ T cells; genetic deletion (Prdm1/Tcf7 cis-elements)\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Repression of Tcf7 limits proliferative capacity but not memory or progenitor specification.\",\n      \"rationale\": \"Perturbational study of memory-fate differentiation and proliferation; exhaustion hallmarks noted but no impaired TCR function demonstrated.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9376159\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human ex vivo-expanded T cells; CRISPRi knockdown\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Lower BLIMP1 levels increased central memory T cells and altered exhaustion marker expression.\",\n      \"rationale\": \"Memory differentiation and exhaustion marker expression only (TIM3 down, PD1 up); no demonstration of impaired or attenuated TCR function.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12490039\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human plaque T cells (WGCNA/Bayesian network, scRNA-seq) with mouse T cell-specific Prdm1 knockout\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"PRDM1 deficiency in T cells accelerates plaque progression, suggesting PRDM1 is a protective factor.\",\n      \"rationale\": \"Network inference plus mouse loss-of-function links T cell PRDM1 to plaque inflammation control, not to TCR signalling inhibition, checkpoint or anergy.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"strong\",\n  \"key_paperclip_result_ids\": [\"PMC9097451\"],\n  \"tier_rationale\": \"One primary experimental study in human primary T cells (PMC9097451) provides direct perturbational evidence (both PRDM1 overexpression and reduced expression) that PRDM1 drives T cell hyporesponsiveness, with mechanistic readouts (chromatin accessibility, direct FOXP3/KLF2 binding, IL2 downregulation, Treg/FOXP3 expansion). This meets the strong criterion of direct causal evidence altering TCR-linked hyporesponsiveness with a mechanistic readout. Remaining retrieved papers are non-immune, NK/NKT effector, or T cell differentiation/exhaustion-marker studies without demonstrated impaired TCR function, so they do not independently raise or lower the tier.\",\n  \"confidence\": \"moderate\"\n}\n```\n\nA few notes on the call: the tier rests on a single qualifying paper (`PMC9097451`), which explicitly demonstrates PRDM1-driven human primary **T cell hyporesponsiveness** via bidirectional perturbation plus mechanistic (epigenomic/transcriptomic) readouts — satisfying the strong rubric. Confidence is set to `moderate` because it is a single study and the hyporesponsive phenotype is evidenced largely through a tolerant transcriptional/epigenetic program and Treg expansion rather than a direct proximal-TCR-signalling functional assay. The exhaustion/differentiation papers (`PMC12717841`, `PMC9376159`) were held non-relevant because impaired TCR function is not demonstrated, per the mandatory rules.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "PRDM1",
+    "query": "PRDM1 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12789010",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human NK cells (non-T immune cells); multi-omics on primary/expanded NK-cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "PRDM1-bound genes were enriched in T/NK-cell receptor signaling, activation, and NK-cell effector functions.",
+        "rationale": "Studies NK-cell terminal differentiation and effector function, not TCR inhibition; PRDM1 promotes maturation/activation rather than an inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11962401",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human CAR NKT cells; CRISPR/Cas9 screen and knockdown",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "PRDM1 knockdown in CAR NKTs enhances their anti-neuroblastoma activity.",
+        "rationale": "Perturbational NKT study of functional fitness/effector activity, not proximal TCR inhibition, checkpoint or anergy; effector-function restraint alone is insufficient."
+      },
+      {
+        "paperclip_result_id": "PMC12067916",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human, non-immune (bovine MAC-T mammary epithelial cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "miR-223 alleviates heat-stress-induced inhibition of cell proliferation by targeting PRDM1.",
+        "rationale": "Heat-stress proliferation in bovine mammary epithelial cells; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC11699622",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human non-immune (placental trophoblast/EVT cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inhibition of PRDM1 enhanced trophoblast cell invasion/migration and reduced apoptosis.",
+        "rationale": "PRDM1-CREBBP axis in preeclampsia trophoblast biology; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC9097451",
+        "retrieval_rank": 5,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells (including Treg); multiomics with gain- and loss-of-expression",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "T cell anergy or hyporesponsiveness",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "PRDM1 is sufficient for inducing human primary T cell hyporesponsiveness.",
+        "rationale": "Overexpression and reduced expression of PRDM1 causally drive hyporesponsiveness, expand Treg/FOXP3, upregulate inhibitory genes and downregulate IL2, with transcriptomic/epigenomic mechanistic readouts."
+      },
+      {
+        "paperclip_result_id": "PMC11493826",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human non-immune (nucleus pulposus cells); in vitro and in vivo",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PRDM1 promotes nucleus pulposus cell pyroptosis by activating CASP1 transcription.",
+        "rationale": "Intervertebral disc degeneration and pyroptosis; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC12212116",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human non-immune (gastric cancer cells); in vitro and xenograft",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PRDM1 directly binds to the Myc promoter, enhancing its transcriptional activity.",
+        "rationale": "Cancer-cell stemness via PRDM1-Myc axis; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC12717841",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse CD8+ T cells; genetic deletion (Prdm1/Tcf7 cis-elements)",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Repression of Tcf7 limits proliferative capacity but not memory or progenitor specification.",
+        "rationale": "Perturbational study of memory-fate differentiation and proliferation; exhaustion hallmarks noted but no impaired TCR function demonstrated."
+      },
+      {
+        "paperclip_result_id": "PMC9376159",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human ex vivo-expanded T cells; CRISPRi knockdown",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Lower BLIMP1 levels increased central memory T cells and altered exhaustion marker expression.",
+        "rationale": "Memory differentiation and exhaustion marker expression only (TIM3 down, PD1 up); no demonstration of impaired or attenuated TCR function."
+      },
+      {
+        "paperclip_result_id": "PMC12490039",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human plaque T cells (WGCNA/Bayesian network, scRNA-seq) with mouse T cell-specific Prdm1 knockout",
+        "evidence_directness": "associative",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "PRDM1 deficiency in T cells accelerates plaque progression, suggesting PRDM1 is a protective factor.",
+        "rationale": "Network inference plus mouse loss-of-function links T cell PRDM1 to plaque inflammation control, not to TCR signalling inhibition, checkpoint or anergy."
+      }
+    ],
+    "overall_evidence_tier": "strong",
+    "key_paperclip_result_ids": [
+      "PMC9097451"
+    ],
+    "tier_rationale": "One primary experimental study in human primary T cells (PMC9097451) provides direct perturbational evidence (both PRDM1 overexpression and reduced expression) that PRDM1 drives T cell hyporesponsiveness, with mechanistic readouts (chromatin accessibility, direct FOXP3/KLF2 binding, IL2 downregulation, Treg/FOXP3 expansion). This meets the strong criterion of direct causal evidence altering TCR-linked hyporesponsiveness with a mechanistic readout. Remaining retrieved papers are non-immune, NK/NKT effector, or T cell differentiation/exhaustion-marker studies without demonstrated impaired TCR function, so they do not independently raise or lower the tier.",
+    "confidence": "moderate"
+  }
+}

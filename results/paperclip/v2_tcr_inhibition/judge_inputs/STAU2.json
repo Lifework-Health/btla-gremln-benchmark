@@ -1,0 +1,108 @@
+{
+  "tf": "STAU2",
+  "query": "STAU2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11401396",
+      "rank": 1,
+      "title": "Cleavage of Stau2 by 3C protease promotes EV-A71 replication",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Enterovirus A71 (EV-A71), as a neurotropic virus, mainly affects infants and young children under the age of 5. EV-A71 infection causes hand-foot-mouth disease and herpetic angina, and even life-threatening neurological complications. However, the molecular mechanism by which EV-A71 induces nervous system damage remains elusive. The viral protease 3C plays an important role during EV-A71 infection and is also a key intersection of virus-host interactions. Previously, we used yeast two-hybrid to screen out the host protein Double-stranded RNA-binding protein Staufen homolog 2 (Stau2), an important member involved in neuronal mRNA transport, potentially interacts with 3C. We used coimmunoprecipitation (Co-IP) and immunofluorescence assay (IFA) to confirm that EV-A71 3C interacts with Stau2. By constructing the mutant of Stau2, we found the specific site where the 3C protease cleaves Stau2. Detection of VP1 protein using Western blotting characterized EV-A71 viral replication, and overexpression or knockdown of Stau2 exhibited effects on EV-A71 replication. The effect of different cleavage products on EV-A71 replication was demonstrated by constructing Stau2 truncates. In this study, we found that EV-A71 3C interacts with Stau2. Stau2 is cleaved by 3C at the Q507-G508 site. Overexpression of Stau2 promotes EV-A71 VP1 protein expression, whereas depletion of Stau2 by small interfering RNA inhibits EV-A71 replication. Stau2 is essential for EV-A71 replication, and the product of Stau2 cleavage by 3C, 508–570 aa, has activity that promotes EV-A71 replication. In addition, we found that mouse Stau2 is also cleaved by EV-A71 3C at the same site. Our research provides an example for EV-A71-host interaction, enriching key targets of host factors that contribute to viral replication.",
+      "relevant_passages": "EV-A71 3C protease cleaves host protein Stau2, which is essential for viral replication. Cleavage product Stau2(508-570) promotes EV-A71 replication.",
+      "doi_or_pmcid": "10.1186/s12985-024-02489-6"
+    },
+    {
+      "paperclip_result_id": "PMC9266326",
+      "rank": 2,
+      "title": "Phosphomimicry on STAU1 Serine 20 Impairs STAU1 Posttranscriptional Functions and Induces Apoptosis in Human Transformed Cells",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "Staufen 1 (STAU1) is an RNA-binding protein that is essential in untransformed cells. In cancer cells, it is rather STAU1 overexpression that impairs cell proliferation. In this paper, we show that a modest increase in STAU1 expression in cancer cells triggers apoptosis as early as 12 h post-transfection and impairs proliferation in non-apoptotic cells for several days. Interestingly, a mutation that mimics the phosphorylation of STAU1 serine 20 is sufficient to cause these phenotypes, indicating that serine 20 is at the heart of the molecular mechanism leading to apoptosis. Mechanistically, phosphomimicry on serine 20 alters the ability of STAU1 to regulate translation and the decay of STAU1-bound mRNAs, indicating that the posttranscriptional regulation of mRNAs by STAU1 controls the balance between proliferation and apoptosis. Unexpectedly, the expression of RBD2 S20D , the N-terminal 88 amino acids with no RNA-binding activity, is sufficient to induce apoptosis via alteration, in trans, of the posttranscriptional functions of endogenous STAU1. These results suggest that STAU1 is a sensor that controls the balance between cell proliferation and apoptosis, and, therefore, may be considered as a novel therapeutic target against cancer.",
+      "relevant_passages": "STAU1 serine 20 phosphomimicry impairs its RNA regulation functions and induces apoptosis in cancer cells. This suggests STAU1 acts as a proliferation/apoptosis balance sensor, potentially targetable for cancer therapy.",
+      "doi_or_pmcid": "10.3390/ijms23137344"
+    },
+    {
+      "paperclip_result_id": "PMC12412546",
+      "rank": 3,
+      "title": "ASO Therapy Targeting STAU2 to Inhibit Pancreatic Ductal Adenocarcinoma Progression and Metastasis by Regulating the PALLD‐Mediated EMT Signaling Pathway",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is a highly aggressive malignancy marked by high morbidity, recurrence, and metastasis, with limited treatment options and poor prognosis. The challenge of early diagnosis and the inefficacy of current therapeutic strategies underscore the urgent need for novel biomarkers and therapeutic targets. RNA‐binding proteins (RBPs) are emerging as critical regulators of post‐transcriptional processes and are implicated in cancer progression. Here, the study identifies Staufen Double‐Stranded RNA Binding Protein 2 (STAU2) as an oncogenic RBP with high expression in PDAC, which is significantly associated with metastasis. It is demonstrated that STAU2 directly binds and regulates cytoskeletal associated protein Palladin (PALLD) and mediates IQ motif containing GTPase‐activating protein 1 (IQGAP1), thereby promoting metastasis via the epithelial‐mesenchymal transition (EMT) pathway. Moreover, a 2′‐methoxyethoxy (2′‐MOE)‐modified antisense oligonucleotide (ASO) targeting STAU2 is developed, which effectively inhibited downstream targets in vitro and in vivo. STAU2‐ASO treatment significantly suppressed PDAC progression and metastasis, with a demonstrated safety profile in vivo.",
+      "relevant_passages": "This study investigated STAU2's role in pancreatic cancer progression and metastasis. Targeting STAU2 with an antisense oligonucleotide suppressed tumor growth and metastasis by regulating the PALLD-mediated EMT pathway.",
+      "doi_or_pmcid": "10.1002/advs.202506718"
+    },
+    {
+      "paperclip_result_id": "PMC8745428",
+      "rank": 4,
+      "title": "High Level of Staufen1 Expression Confers Longer Recurrence Free Survival to Non-Small Cell Lung Cancer Patients by Promoting THBS1 mRNA Degradation",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "Stau1 is a pluripotent RNA-binding protein that is responsible for the post-transcriptional regulation of a multitude of transcripts. Here, we observed that lung cancer patients with a high Stau1 expression have a longer recurrence free survival. Strikingly, Stau1 did not impair cell proliferation in vitro, but rather cell migration and cell adhesion. In vivo, Stau1 depletion favored tumor progression and metastases development. In addition, Stau1 depletion strongly impaired vessel maturation. Among a panel of candidate genes, we specifically identified the mRNA encoding the cell adhesion molecule Thrombospondin 1 (THBS1) as a new target for Staufen-mediated mRNA decay. Altogether, our results suggest that regulation of THBS1 expression by Stau1 may be a key process involved in lung cancer progression.",
+      "relevant_passages": "High Staufen1 expression in non-small cell lung cancer patients correlates with longer recurrence-free survival. This is achieved by Staufen1 promoting THBS1 mRNA degradation, which inhibits cell migration and adhesion.",
+      "doi_or_pmcid": "10.3390/ijms23010215"
+    },
+    {
+      "paperclip_result_id": "PMC11971302",
+      "rank": 5,
+      "title": "Genetic influence of a  STAU2  frameshift mutation and  RELN  regulatory elements on performance in Icelandic horses",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The online version contains supplementary material available at 10.1038/s41598-025-95593-8. Selection for performance in horse breeding benefits from precise genetic insights at a molecular level, but knowledge remains limited. This study used whole-genome sequences of 39 elite and non-elite Icelandic horses to identify candidate causal variants linked to previously identified haplotypes in the  STAU2  and  RELN  genes affecting pace and other gaits. A frameshift variant in linkage disequilibrium with the previously identified haplotypes in the  STAU2  gene (r 2  = 0.85) was identified within a predicted  STAU2  transcript. This variant alters the amino acid sequence and introduces a premature stop codon but does not appear harmful or disease-causing and is potentially unique to equine biology. A large portion of the  RELN  haplotype overlapped with an H3K27me3 modification mark, suggesting a regulatory role of this region. Despite the small sample size, the  RELN  haplotype’s effects were validated for tölt, trot, and canter/gallop. Additionally, the  RELN  haplotype significantly influenced the age at which horses were presented for breeding field tests, indicating a potential role of the region in precocity and trainability. Functional experiments are needed to further investigate the regions’ influences on biological processes and their potential impact on horse performance.",
+      "relevant_passages": "A frameshift mutation in STAU2 and regulatory elements in RELN were studied in Icelandic horses. The RELN haplotype influences tölt, trot, and canter/gallop performance and age at breeding tests.",
+      "doi_or_pmcid": "10.1038/s41598-025-95593-8"
+    },
+    {
+      "paperclip_result_id": "PMC7551455",
+      "rank": 6,
+      "title": "STAU1 selectively regulates the expression of inflammatory and immune response genes and alternative splicing of the nerve growth factor receptor signaling pathway",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "Double-stranded RNA-binding protein Staufen homolog 1 (STAU1) is a highly conserved multifunctional double-stranded RNA-binding protein, and is a key factor in neuronal differentiation. RNA sequencing was used to analyze the overall transcriptional levels of the upregulated cells by STAU1 and control cells, and select alternative splicing (AS). It was determined that the high expression of STAU1 led to changes in the expression levels of a variety of inflammatory and immune response genes, including IFIT2, IFIT3, OASL, and CCL2. Furthermore, STAU1 was revealed to exert a significant regulatory effect on the AS of genes related to the ‘nerve growth factor receptor signaling pathway’. This is of significant importance for neuronal survival, differentiation, growth, post-damage repair, and regeneration. In conclusion, overexpression of STAU1 was associated with immune response and regulated AS of pathways related to neuronal growth and repair. In the present study, the whole transcriptome of STAU1 expression was first analyzed, which laid a foundation for further understanding the key functions of STAU1.",
+      "relevant_passages": "STAU1 expression was analyzed in upregulated cells and controls using RNA sequencing. High STAU1 levels altered inflammatory gene expression and regulated alternative splicing of nerve growth factor receptor signaling pathways.",
+      "doi_or_pmcid": "10.3892/or.2020.7769"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 7,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC8629789",
+      "rank": 8,
+      "title": "The multifunctional RNA-binding protein Staufen1: an emerging regulator of oncogenesis through its various roles in key cellular events",
+      "year": "2021",
+      "publication_type": "review-article",
+      "abstract": "The double-stranded multifunctional RNA-binding protein (dsRBP) Staufen was initially discovered in insects as a regulator of mRNA localization. Later, its mammalian orthologs have been described in different organisms, including humans. Two human orthologues of Staufen, named Staufen1 (STAU1) and Staufen2 (STAU2), share some structural and functional similarities. However, given their different spatio-temporal expression patterns, each of these orthologues plays distinct roles in cells. In the current review, we focus on the role of STAU1 in cell functions and cancer development. Since its discovery, STAU1 has mostly been studied for its involvement in various aspects of RNA metabolism. Given the pivotal role of RNA metabolism within cells, recent studies have explored the mechanistic impact of STAU1 in a wide variety of cell functions ranging from cell growth to cell death, as well as in various disease states. In particular, there has been increasing attention on the role of STAU1 in neuromuscular disorders, neurodegeneration, and cancer. Here, we provide an overview of the current knowledge on the role of STAU1 in RNA metabolism and cell functions. We also highlight the link between STAU1-mediated control of cellular functions and cancer development, progression, and treatment. Hence, our review emphasizes the potential of STAU1 as a novel biomarker and therapeutic target for cancer diagnosis and treatment, respectively.",
+      "relevant_passages": "This review examines the multifunctional RNA-binding protein Staufen1 (STAU1) and its roles in cellular functions and cancer. STAU1 is highlighted as a potential biomarker and therapeutic target for cancer due to its involvement in oncogenesis.",
+      "doi_or_pmcid": "10.1007/s00018-021-03965-w"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 9,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC7934504",
+      "rank": 10,
+      "title": "STAU2 protein level is controlled by caspases and the CHK1 pathway and regulates cell cycle progression in the non-transformed hTERT-RPE1 cells",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "Staufen2 (STAU2) is an RNA binding protein involved in the posttranscriptional regulation of gene expression. In neurons, STAU2 is required to maintain the balance between differentiation and proliferation of neural stem cells through asymmetric cell division. However, the importance of controlling STAU2 expression for cell cycle progression is not clear in non-neuronal dividing cells. We recently showed that STAU2 transcription is inhibited in response to DNA-damage due to E2F1 displacement from the  STAU2  gene promoter. We now study the regulation of STAU2 steady-state levels in unstressed cells and its consequence for cell proliferation. CRISPR/Cas9-mediated and RNAi-dependent STAU2 depletion in the non-transformed hTERT-RPE1 cells both facilitate cell proliferation suggesting that STAU2 expression influences pathway(s) linked to cell cycle controls. Such effects are not observed in the CRISPR STAU2-KO cancer HCT116 cells nor in the STAU2-RNAi-depleted HeLa cells. Interestingly, a physiological decrease in the steady-state level of STAU2 is controlled by caspases. This effect of peptidases is counterbalanced by the activity of the CHK1 pathway suggesting that STAU2 partial degradation/stabilization fines tune cell cycle progression in unstressed cells. A large-scale proteomic analysis using STAU2/biotinylase fusion protein identifies known STAU2 interactors involved in RNA translation, localization, splicing, or decay confirming the role of STAU2 in the posttranscriptional regulation of gene expression. In addition, several proteins found in the nucleolus, including proteins of the ribosome biogenesis pathway and of the DNA damage response, are found in close proximity to STAU2. Strikingly, many of these proteins are linked to the kinase CHK1 pathway, reinforcing the link between STAU2 functions and the CHK1 pathway. Indeed, inhibition of the CHK1 pathway for 4 h dissociates STAU2 from proteins involved in translation and RNA metabolism. These results indicate that STAU2 is involved in pathway(s) that control(s) cell proliferation, likely via mechanisms of posttranscriptional regulation, ribonucleoprotein complex assembly, genome integrity and/or checkpoint controls. The mechanism by which STAU2 regulates cell growth likely involves caspases and the kinase CHK1 pathway. The online version contains supplementary material available at 10.1186/s12860-021-00352-y.",
+      "relevant_passages": "STAU2 protein levels are regulated by caspases and CHK1, influencing cell cycle progression in hTERT-RPE1 cells. STAU2 depletion accelerates proliferation, suggesting its role in cell cycle control.",
+      "doi_or_pmcid": "10.1186/s12860-021-00352-y"
+    }
+  ]
+}

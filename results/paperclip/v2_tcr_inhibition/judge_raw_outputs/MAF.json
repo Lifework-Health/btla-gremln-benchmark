@@ -1,0 +1,149 @@
+{
+  "tf": "MAF",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:54:08Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-de316988-384a-46a2-9051-c7d9711faf75",
+      "agent_id": "agent-fe5181fe-b4aa-4f75-83bf-f9c4b9d29795",
+      "raw": "Based on my review of the supplied papers and passages, here is the structured assessment.\n\n```json\n{\n  \"tf\": \"MAF\",\n  \"query\": \"MAF TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 2,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12726077\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary γδ thymocytes, Vγ2+ γδT17 subset\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"required for Vγ2+ thymocyte c-Maf expression and γδT17 lineage programming\",\n      \"rationale\": \"c-Maf is downstream of RasGRP1 in γδT17 lineage specification; concerns differentiation, not TCR inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; engineered T cells (CoCAR)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"costimulatory chimeric antigen receptor (CoCAR) improves TCR-based cancer immunotherapy\",\n      \"rationale\": \"Costimulatory CAR engineering study; does not involve MAF and addresses enhancement, not inhibition, of TCR responses.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary T cells and T cell lines\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"phosphorylation site enhances PTPN22's inhibitory effect on TCR signaling\",\n      \"rationale\": \"Addresses TCR-inhibition but via PTPN22, not MAF; not relevant to the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"engineered dual-TCR T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"inducible TCR expression reduced surface TCRs and hampered function\",\n      \"rationale\": \"TCR mispairing/expression study with no MAF involvement; unrelated to MAF-mediated inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire / adoptive T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"using patient TCR repertoire data to select therapeutic TCRs\",\n      \"rationale\": \"Review of TCR repertoire-guided immunotherapy selection; does not mention MAF or inhibitory phenotypes.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3583918\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"other\",\n      \"experimental_system\": \"engineered TCR lymphocytes / hematopoietic cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"engineered TCRs face limitations from fratricide and stem cell toxicity\",\n      \"rationale\": \"TCR gene-therapy toxicity limitations; no MAF and no inhibitory T cell phenotype addressed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12606047\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; non-immune multiple myeloma cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"targeting c-Maf's liquid-liquid phase separation in multiple myeloma\",\n      \"rationale\": \"Studies c-Maf oncogenic function in myeloma; non-immune, non-T-cell, unrelated to TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6468010\",\n      \"retrieval_rank\": 8,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4 T cells, Treg and TH17 subsets\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"regulatory T cells lacking MAF [unable] to suppress colon inflammation\",\n      \"rationale\": \"Conditional MAF knockout impairs Treg suppressive function and IL-10, but this is Treg-mediated suppression/differentiation, not proximal TCR-signalling inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12689506\",\n      \"retrieval_rank\": 9,\n      \"relevant\": true,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human/mouse immune cells (review synthesis)\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"c-Maf acts as an immune checkpoint, suppressing inflammation while promoting protective immunity\",\n      \"rationale\": \"Review framing c-Maf as an immune checkpoint; conceptually relevant but a review cannot supply primary causal evidence.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6833194\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary/engineered CD8 T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"T cell anergy or hyporesponsiveness\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"chronic self-MHC interactions result in a hyporesponsive state\",\n      \"rationale\": \"Demonstrates affinity-driven TCR hyporesponsiveness but involves no MAF; not relevant to the candidate regulator.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"weak\",\n  \"key_paperclip_result_ids\": [\"PMC6468010\", \"PMC12689506\"],\n  \"tier_rationale\": \"MAF-specific primary evidence is limited to Treg/TH17 differentiation and Treg suppressive function (PMC6468010) and lineage programming (PMC12726077); no primary study demonstrates that altering MAF changes proximal TCR-signalling inhibition, a checkpoint response on the T cell, or TCR-linked anergy/hyporesponsiveness with a functional TCR readout. The immune-checkpoint framing appears only in a review (PMC12689506), which cannot support moderate. Remaining TCR-inhibition papers do not involve MAF. Between weak and moderate, the lower tier is assigned.\",\n  \"confidence\": \"moderate\"\n}\n```\n\nKey points: only 4 of the 10 papers concern MAF/c-Maf, and of those the primary studies address Treg suppressive function, γδT17 lineage programming, and myeloma biology rather than TCR-signalling inhibition itself. The strongest MAF primary study (`PMC6468010`) gives causal evidence for Treg-mediated suppression but not direct TCR-inhibition, and the checkpoint claim rests on a review, so the evidence falls to the **weak** tier.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "MAF",
+    "query": "MAF TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 2,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12726077",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary γδ thymocytes, Vγ2+ γδT17 subset",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "required for Vγ2+ thymocyte c-Maf expression and γδT17 lineage programming",
+        "rationale": "c-Maf is downstream of RasGRP1 in γδT17 lineage specification; concerns differentiation, not TCR inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; engineered T cells (CoCAR)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "costimulatory chimeric antigen receptor (CoCAR) improves TCR-based cancer immunotherapy",
+        "rationale": "Costimulatory CAR engineering study; does not involve MAF and addresses enhancement, not inhibition, of TCR responses."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary T cells and T cell lines",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "phosphorylation site enhances PTPN22's inhibitory effect on TCR signaling",
+        "rationale": "Addresses TCR-inhibition but via PTPN22, not MAF; not relevant to the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "engineered dual-TCR T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "inducible TCR expression reduced surface TCRs and hampered function",
+        "rationale": "TCR mispairing/expression study with no MAF involvement; unrelated to MAF-mediated inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire / adoptive T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "using patient TCR repertoire data to select therapeutic TCRs",
+        "rationale": "Review of TCR repertoire-guided immunotherapy selection; does not mention MAF or inhibitory phenotypes."
+      },
+      {
+        "paperclip_result_id": "PMC3583918",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "other",
+        "experimental_system": "engineered TCR lymphocytes / hematopoietic cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "engineered TCRs face limitations from fratricide and stem cell toxicity",
+        "rationale": "TCR gene-therapy toxicity limitations; no MAF and no inhibitory T cell phenotype addressed."
+      },
+      {
+        "paperclip_result_id": "PMC12606047",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; non-immune multiple myeloma cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "targeting c-Maf's liquid-liquid phase separation in multiple myeloma",
+        "rationale": "Studies c-Maf oncogenic function in myeloma; non-immune, non-T-cell, unrelated to TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC6468010",
+        "retrieval_rank": 8,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4 T cells, Treg and TH17 subsets",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "regulatory T cells lacking MAF [unable] to suppress colon inflammation",
+        "rationale": "Conditional MAF knockout impairs Treg suppressive function and IL-10, but this is Treg-mediated suppression/differentiation, not proximal TCR-signalling inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12689506",
+        "retrieval_rank": 9,
+        "relevant": true,
+        "study_type": "review",
+        "experimental_system": "human/mouse immune cells (review synthesis)",
+        "evidence_directness": "associative",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "c-Maf acts as an immune checkpoint, suppressing inflammation while promoting protective immunity",
+        "rationale": "Review framing c-Maf as an immune checkpoint; conceptually relevant but a review cannot supply primary causal evidence."
+      },
+      {
+        "paperclip_result_id": "PMC6833194",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary/engineered CD8 T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "T cell anergy or hyporesponsiveness",
+        "direction": "unclear",
+        "supporting_excerpt": "chronic self-MHC interactions result in a hyporesponsive state",
+        "rationale": "Demonstrates affinity-driven TCR hyporesponsiveness but involves no MAF; not relevant to the candidate regulator."
+      }
+    ],
+    "overall_evidence_tier": "weak",
+    "key_paperclip_result_ids": [
+      "PMC6468010",
+      "PMC12689506"
+    ],
+    "tier_rationale": "MAF-specific primary evidence is limited to Treg/TH17 differentiation and Treg suppressive function (PMC6468010) and lineage programming (PMC12726077); no primary study demonstrates that altering MAF changes proximal TCR-signalling inhibition, a checkpoint response on the T cell, or TCR-linked anergy/hyporesponsiveness with a functional TCR readout. The immune-checkpoint framing appears only in a review (PMC12689506), which cannot support moderate. Remaining TCR-inhibition papers do not involve MAF. Between weak and moderate, the lower tier is assigned.",
+    "confidence": "moderate"
+  }
+}

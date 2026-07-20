@@ -1,0 +1,146 @@
+{
+  "tf": "TRAF4",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:19:19Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-683ddb80-b070-49c8-8355-516458401540",
+      "agent_id": "agent-4eaddb68-cc0b-4f64-af6e-cf5f270d3f2e",
+      "raw": "Based on the supplied papers and passages only, here is my structured assessment. The key observation is that every TRAF4-specific paper is in a non-immune/cancer context, while every T-cell/TCR paper concerns a *different* regulator (TRAF1, TRAF2, TRAF3, or TRIM). No supplied paper links TRAF4 to TCR signalling or an inhibitory T cell phenotype.\n\n```json\n{\n  \"tf\": \"TRAF4\",\n  \"query\": \"TRAF4 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10750280\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human nasopharyngeal carcinoma cells and xenograft mouse; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TRAF4 knockdown increases radiosensitivity by promoting survivin degradation.\",\n      \"rationale\": \"TRAF4 studied in cancer radioresistance via survivin turnover; no T cell or TCR signalling content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-engineered (dual-TCR) T cells; T cell line/primary engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function.\",\n      \"rationale\": \"Concerns TCR mispairing in engineered T cells; TRAF4 is not mentioned or manipulated.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11787431\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"murine trophoblast stem cells; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"MAP3K4 inactivation increases HDAC6 and TRAF4, with HDAC6 stabilizing TRAF4.\",\n      \"rationale\": \"TRAF4 regulation studied in placental stem cells; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5437045\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse and human primary T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TRAF3 promotes T cell activation by regulating the inhibitors Csk and PTPN22.\",\n      \"rationale\": \"Studies TRAF3, not TRAF4; describes enhanced activation, so not evidence for TRAF4 in TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10966530\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"colorectal cancer cells and mouse; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TRAF4-mediated LAMTOR1 ubiquitination enhances mTORC1 activation, inhibiting colorectal cancer progression.\",\n      \"rationale\": \"TRAF4 studied in mTORC1/colon cancer; no T cell or TCR signalling readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196328\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"transgenic mice, primary CD8+ T lymphocytes\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TRAF1 overexpression inhibits antigen-induced apoptosis in CD8+ T cells.\",\n      \"rationale\": \"Studies TRAF1, not TRAF4, and concerns apoptosis rather than TCR signalling inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11732567\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"hepatocellular carcinoma cells; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Lnc-EST885 promotes HCC metastasis by interacting with TRAF4 and activating PI3K/AKT.\",\n      \"rationale\": \"TRAF4 studied in liver cancer metastasis; no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10083865\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-engineered T cells and mouse xenograft\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TRAF-binding motifs recruited TRAF2 while retaining proximal TCR signaling.\",\n      \"rationale\": \"Engineering recruits TRAF2 to enhance TCR-T function; TRAF4 not involved and not inhibitory.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11831473\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human tumor cells and tumor models; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Nuclear TRAF4 enhances tumor stemness and metastatic dormancy via c-Jun/IL-8.\",\n      \"rationale\": \"TRAF4 studied in tumor stemness/dormancy; no T cell or TCR signalling relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2193385\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human Jurkat T cell line\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TRIM enhances TCR expression and signaling by associating with TCR zeta chains.\",\n      \"rationale\": \"Studies adaptor TRIM, not TRAF4, and describes enhanced rather than inhibited TCR signalling.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"TRAF4-specific papers are all in non-immune cancer or placental contexts; the T cell/TCR papers concern different regulators (TRAF1, TRAF2, TRAF3, TRIM). No retrieved primary study materially links TRAF4 to TCR signalling inhibition or a closely related inhibitory T cell phenotype.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "TRAF4",
+    "query": "TRAF4 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10750280",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human nasopharyngeal carcinoma cells and xenograft mouse; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TRAF4 knockdown increases radiosensitivity by promoting survivin degradation.",
+        "rationale": "TRAF4 studied in cancer radioresistance via survivin turnover; no T cell or TCR signalling content."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-engineered (dual-TCR) T cells; T cell line/primary engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function.",
+        "rationale": "Concerns TCR mispairing in engineered T cells; TRAF4 is not mentioned or manipulated."
+      },
+      {
+        "paperclip_result_id": "PMC11787431",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "murine trophoblast stem cells; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "MAP3K4 inactivation increases HDAC6 and TRAF4, with HDAC6 stabilizing TRAF4.",
+        "rationale": "TRAF4 regulation studied in placental stem cells; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC5437045",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse and human primary T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TRAF3 promotes T cell activation by regulating the inhibitors Csk and PTPN22.",
+        "rationale": "Studies TRAF3, not TRAF4; describes enhanced activation, so not evidence for TRAF4 in TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC10966530",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "colorectal cancer cells and mouse; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TRAF4-mediated LAMTOR1 ubiquitination enhances mTORC1 activation, inhibiting colorectal cancer progression.",
+        "rationale": "TRAF4 studied in mTORC1/colon cancer; no T cell or TCR signalling readout."
+      },
+      {
+        "paperclip_result_id": "PMC2196328",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "transgenic mice, primary CD8+ T lymphocytes",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TRAF1 overexpression inhibits antigen-induced apoptosis in CD8+ T cells.",
+        "rationale": "Studies TRAF1, not TRAF4, and concerns apoptosis rather than TCR signalling inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11732567",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "hepatocellular carcinoma cells; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Lnc-EST885 promotes HCC metastasis by interacting with TRAF4 and activating PI3K/AKT.",
+        "rationale": "TRAF4 studied in liver cancer metastasis; no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC10083865",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-engineered T cells and mouse xenograft",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TRAF-binding motifs recruited TRAF2 while retaining proximal TCR signaling.",
+        "rationale": "Engineering recruits TRAF2 to enhance TCR-T function; TRAF4 not involved and not inhibitory."
+      },
+      {
+        "paperclip_result_id": "PMC11831473",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human tumor cells and tumor models; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Nuclear TRAF4 enhances tumor stemness and metastatic dormancy via c-Jun/IL-8.",
+        "rationale": "TRAF4 studied in tumor stemness/dormancy; no T cell or TCR signalling relevance."
+      },
+      {
+        "paperclip_result_id": "PMC2193385",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human Jurkat T cell line",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TRIM enhances TCR expression and signaling by associating with TCR zeta chains.",
+        "rationale": "Studies adaptor TRIM, not TRAF4, and describes enhanced rather than inhibited TCR signalling."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "TRAF4-specific papers are all in non-immune cancer or placental contexts; the T cell/TCR papers concern different regulators (TRAF1, TRAF2, TRAF3, TRIM). No retrieved primary study materially links TRAF4 to TCR signalling inhibition or a closely related inhibitory T cell phenotype.",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "tf": "NR4A2",
+  "query": "NR4A2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11881746",
+      "rank": 1,
+      "title": "Dual nuclear receptor 4A1 (NR4A1/NR4A2) ligands inhibit glioblastoma growth and target TWIST1",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "1,1-Bis(3′-indolyl)-1-(3,5-disubstitutedphenyl)methane (DIM-3,5) compounds are dual receptor ligands that bind both orphan nuclear receptor 4A1 (NR4A1) and NR4A2. Knockdown of  NR4A1  or  NR4A2  by RNA interference in glioblastoma (GBM) cells decreased growth and induced apoptosis and comparable effects were observed for DIM-3,5 analogs, which exhibit inverse agonist activity and inhibit NR4A1- and NR4A2-mediated pro-oncogenic activity. Knockdown of  NR4A1  or  NR4A2  or treatment with DIM-3,5 analogs also decreased expression of  TWIST1  mRNA and protein in GBM cells by 40%–90%.The proximal region of the  TWIST1  gene promoter contains functional GC-rich binding sites that bind Sp1 and Sp4, and knockdown of these transcription factors also decreased TWIST1 expression in GBM cells. Further analysis by chromatin immunoprecipitation, protein-protein coimmunoprecipitation, and binding assays demonstrated that NR4A1/NR4A2 coregulate  TWIST1  gene expression as ligand-dependent cofactors of Sp1 and Sp4, which interact with cis proximal GC-rich sites in the  TWIST1  gene promoter. In vivo studies show that DIM-3,5 dual NR4A1/2 inverse agonists also reduced intratumoral TWIST1 expression while significantly prolonging survival of mice in a syngeneic mouse model of GBM, demonstrating that these ligands are promising new agents for targeting TWIST1 and treating GBM. The  TWIST1  gene is a pro-oncogenic factor that regulates epithelial-to-mesenchymal transition in glioblastoma cells. This paper shows that the orphan nuclear receptor 4A1 (NR4A1) and NR4A2 regulate TWIST1 expression, which can be targeted by bis-indole–derived dual NR4A1/2 inverse agonists.",
+      "relevant_passages": "Dual NR4A1/NR4A2 ligands were studied for their effect on glioblastoma growth. These ligands inhibit glioblastoma growth by targeting TWIST1, a pro-oncogenic factor.",
+      "doi_or_pmcid": "10.1016/j.molpha.2024.100009"
+    },
+    {
+      "paperclip_result_id": "PMC7653457",
+      "rank": 2,
+      "title": "Nr4a1 and Nr4a3 Reporter Mice Are Differentially Sensitive to T Cell Receptor Signal Strength and Duration",
+      "year": "2020",
+      "publication_type": "brief-report",
+      "abstract": "Nr4a  receptors are activated by T cell receptor (TCR) signaling and play key roles in T cell differentiation. Which TCR signaling pathways regulate Nr4a receptors and their sensitivities to TCR signal strength and duration remains unclear. Using Nr4a1/Nur77-GFP and  Nr4a3 -Timer of cell kinetics and activity (Tocky) mice, we elucidate the signaling pathways governing Nr4a receptor expression. We reveal that  Nr4a1 – Nr4a3  are Src family kinase dependent. Moreover,  Nr4a2  and  Nr4a3  are attenuated by calcineurin inhibitors and bind nuclear factor of activated T cells 1 (NFAT1), highlighting a necessary and sufficient role for NFAT1 in the control of  Nr4a2  and  Nr4a3,  but redundancy for  Nr4a1 .  Nr4a1- GFP is activated by tonic and cognate signals during T cell development, whereas  Nr4a3- Tocky requires cognate peptide:major histocompatibility complex (MHC) interactions for expression. Compared to  Nr4a3- Tocky,  Nr4a1- GFP is approximately 2- to 3-fold more sensitive to TCR signaling and is detectable by shorter periods of TCR signaling. These findings suggest that TCR signal duration may be an underappreciated aspect influencing the developmental fate of T cells  in vivo .",
+      "relevant_passages": "Nr4a1 and Nr4a3 reporter mice were used to study T cell receptor (TCR) signaling pathways. Nr4a1 is more sensitive to TCR signal strength and duration than Nr4a3, suggesting signal duration influences T cell fate.",
+      "doi_or_pmcid": "10.1016/j.celrep.2020.108328"
+    },
+    {
+      "paperclip_result_id": "PMC12206217",
+      "rank": 3,
+      "title": "NR4A2 attenuates early brain injury after intracerebral hemorrhage by promoting M2 microglial polarization via TLR4/TRAF6/NF-κB pathway inhibition",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The online version contains supplementary material available at 10.1007/s00018-025-05755-0. In the early stage of intracerebral hemorrhage (ICH), rebleeding occurs when blood from the initial hematoma permeates the surrounding brain parenchyma through the disrupted blood–brain barrier (BBB), exacerbating brain injury. Neuroinflammation is a critical driver of the pathological processes underlying this phenomenon. Research on microglia near early hematomas revealed that promoting the transition of microglia to the M2 phenotype could mitigate perihematomal inflammatory damage. Recent studies have shown that the nuclear receptor-related 1 protein (NR4A2) can regulate microglial function and inhibit inflammation. However, the functions of NR4A2 in the development of ICH are still unclear. In this study, we explored the potential protective effect and mechanism of NR4A2 in ICH models. Our results demonstrated that the expression of NR4A2 was significantly decreased in both ICH rats and cell models. Increasing NR4A2 activity could effectively decrease the hematoma volume, improve the neurological prognosis and alleviate perihematomal BBB damage. In vivo and in vitro experiments revealed that NR4A2 inhibited perihematomal inflammatory damage by driving microglial polarization toward the anti-inflammatory M2 phenotype. Mechanistically, NR4A2 targeted TLR4 and inhibited the TRAF6/NF-κB pathway, thereby promoting M2 microglial polarization, reducing inflammatory cell extravasation and maintaining the integrity of the BBB. Conversely, the protective effects of NR4A2 were negated when CRX-527 (a TLR4 agonist) was introduced. These findings suggest that NR4A2 represents a promising therapeutic target for ICH.",
+      "relevant_passages": "NR4A2 expression was decreased in early brain injury after intracerebral hemorrhage. Increasing NR4A2 promotes M2 microglial polarization by inhibiting the TLR4/TRAF6/NF-κB pathway, reducing inflammation and improving outcomes.",
+      "doi_or_pmcid": "10.1007/s00018-025-05755-0"
+    },
+    {
+      "paperclip_result_id": "PMC7883379",
+      "rank": 4,
+      "title": "Role of the Orphan Nuclear Receptor NR4A Family in T-Cell Biology",
+      "year": "2021",
+      "publication_type": "review-article",
+      "abstract": "The nuclear orphan receptors NR4A1, NR4A2, and NR4A3 are immediate early genes that are induced by various signals. They act as transcription factors and their activity is not regulated by ligand binding and are thus regulated  via  their expression levels. Their expression is transiently induced in T cells by triggering of the T cell receptor following antigen recognition during both thymic differentiation and peripheral T cell responses. In this review, we will discuss how NR4A family members impact different aspects of the life of a T cell from thymic differentiation to peripheral response against infections and cancer.",
+      "relevant_passages": "This review examines the NR4A family of nuclear receptors in T-cell biology. These receptors are induced by T-cell receptor signaling and influence T-cell differentiation and responses.",
+      "doi_or_pmcid": "10.3389/fendo.2020.624122"
+    },
+    {
+      "paperclip_result_id": "PMC12527293",
+      "rank": 5,
+      "title": "Dual Targeting of Orphan Nuclear Receptors NR4A1 and NR4A2 for Nonhormonal Endometriosis Therapy",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Previous studies show that orphan nuclear receptor 4A1 (NR4A1) regulates endometriotic cell growth, survival, estrogen receptor β (ERβ), mechanistic target of rapamycin signaling and fibrosis. NR4A2 is also expressed in epithelial and stromal derived endometriotic cells, and in this study the effects of 1,1-bis(3′-indolyl)-(3,5-disubstitutedphenyl)methane (DIM-3,5) dual NR4A1/nuclear receptor 4A2 (NR4A2) ligands and knockdown of NR4A1 and NR4A2 were investigated. The dual NR4A1/2 DIM-3,5 analogs inhibited previously identified proendometriotic pathways and gene products, and they also inhibited TWIST1 and multiple markers associated with epithelial-to-mesenchymal transition (EMT). The results show that both NR4A1 and NR4A2 regulate the same pathways, including endometriotic cell growth, survival, and migration and also some of the same genes in endometriotic epithelial and stromal cells. For example, DIM-3,5 compounds downregulate ERβ in stromal but not epithelial endometriotic cells, and this response is NR4A1- and not NR4A2-dependent. Among the EMT-related markers, claudin-1 is induced by DIM-3,5 ligands and after knockdown of NR4A1 or NR4A2 in both epithelial and stromal cells. Most of the EMT markers are downregulated by DIM-3,5 ligands and are coregulated by NR4A1 and NR4A2. In vivo studies showed that DIM-3,5-Cl 2  significantly reduced the growth of endometriotic lesions in a mouse model without inducing cytotoxicity during treatment. Thus, DIM-3,5 derivatives simultaneously suppress NR4A1- and NR4A2-dependent endometriosis progression effectively and represent a promising nonhormonal therapeutic strategy to replace current hormone-based treatments that can be associated with adverse effects.",
+      "relevant_passages": "This study investigated dual targeting of NR4A1 and NR4A2 for endometriosis therapy using DIM-3,5 analogs. These compounds effectively reduced endometriotic lesion growth in vivo by suppressing NR4A1 and NR4A2 dependent pathways.",
+      "doi_or_pmcid": "10.1210/endocr/bqaf144"
+    },
+    {
+      "paperclip_result_id": "PMC12889511",
+      "rank": 6,
+      "title": "Reversible control of T cell exhaustion by NR4A transcription factors revealed through targeted protein degradation",
+      "year": "",
+      "publication_type": "Article",
+      "abstract": "Tumor-infiltrating CD8+ T cells (TILs) show progressive loss of effector function and upregulation of inhibitory receptors. NR4A transcription factors have emerged as key regulators of this dysfunctional state. Here we developed degron-based systems enabling rapid degradation of endogenous NR4A proteins in both mouse and primary human T cells. We demonstrate that the continuous presence of each NR4A protein is required to maintain suppression of effector cytokines and expression of co-inhibitory receptors; degradation of individual NR4A proteins rapidly restored these functional features, with each NR4A protein exerting prominent effects on distinct as well as overlapping subsets of genes and surface markers associated with effector, memory and exhaustion programs. Transcriptional profiling of phenotypically defined populations revealed both shared and unique gene programs across NR4A family members. Through CRISPR-mediated endogenous gene editing in primary human CD8+ T cells, we show that targeted degradation of NR4A proteins with a small molecule degrader can maintain cytokine expression and suppress inhibitory receptor expression in cells subjected to chronic stimulation, providing a framework for a powerful strategy for therapeutic intervention.",
+      "relevant_passages": "NR4A transcription factors drive T cell exhaustion. Targeted protein degradation of NR4A rapidly reverses this exhaustion, restoring effector function and cytokine production. This offers a potential therapeutic strategy for cancer immunotherapy.",
+      "doi_or_pmcid": "10.64898/2026.02.02.701413"
+    },
+    {
+      "paperclip_result_id": "PMC11439235",
+      "rank": 7,
+      "title": "BTN3A1 expressed in cervical cancer cells promotes Vγ9Vδ2 T cells exhaustion through upregulating transcription factors NR4A2/3 downstream of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Clinical trials have shown that immunotherapy based on Vγ9Vδ2 T cells (Vδ2 T cells) is safe and well-tolerated for various cancers including cervical cancer (CC), but its overall treatment efficacy remains limited. Therefore, exploring the mechanisms underlying the suboptimal efficacy of Vδ2 T cell-based cancer immunotherapy is crucial for enabling its successful clinical translation. Tumor samples from CC patients and CC cell line-derived xenograft (CDX) mice were analyzed using flow cytometry to examine the exhausted phenotype of tumor-infiltrating Vδ2 T cells. The interrelationship between BTN3A1 expression and Vδ2 T cells in CC, along with their correlation with patient prognosis, was analyzed using data from The Cancer Genome Atlas (TCGA) database. CC cell lines with BTN3A1 knockout (KO) and overexpression (OE) were constructed through lentivirus transduction, which were then co-cultured with expanded Vδ2 T cells, followed by detecting the function of Vδ2 T cells using flow cytometry. The pathways and transcription factors (TFs) related to BTN3A1-induced Vδ2 T cells exhaustion and the factors affecting BTN3A1 expression were identified by RNA-seq analysis, which was confirmed by flow cytometry, Western Blot, and gene manipulation. Tumor-infiltrating Vδ2 T cells exhibited an exhausted phenotype in both CC patients and CDX mice. BTN3A1 expressed in CC is highly enhancing exhaustion markers, while reducing the secretion of effector molecules in Vδ2 T cells. Blocking TCR or knocking down nuclear receptor subfamily 4 group A (NR4A) 2/3 can reverse BTN3A1-induced exhaustion in Vδ2 T cells. On the other hand, IFN-γ secreted by Vδ2 T cells promoted the expression of BTN3A1 and PD-L1. Through binding γδ TCRs, BTN3A1 expressed on tumor cells, which is induced by IFN-γ, can promote Vδ2 T cells to upregulate the expression of TFs NR4A2/3, thereby affecting their activation and expression of exhaustion-related molecules in the tumor microenvironment (TME). Therefore, targeting BTN3A1 might overcome the immunosuppressive effect of the TME on Vδ2 T cells in CC. The online version contains supplementary material available at 10.1186/s12964-024-01834-0.",
+      "relevant_passages": "Cervical cancer cells express BTN3A1, which promotes Vγ9Vδ2 T cell exhaustion. This exhaustion is mediated by BTN3A1 upregulating NR4A2/3 transcription factors downstream of TCR signaling.",
+      "doi_or_pmcid": "10.1186/s12964-024-01834-0"
+    },
+    {
+      "paperclip_result_id": "PMC4356985",
+      "rank": 8,
+      "title": "The Nuclear Receptor Nr4a1 Controls CD8 T Cell Development Through Transcriptional Suppression of Runx3",
+      "year": "2015",
+      "publication_type": "research-article",
+      "abstract": "The NR4A nuclear receptor family member Nr4a1 is strongly induced in thymocytes undergoing selection, and has been shown to control the development of T reg  cells; however the role of Nr4a1 in CD8 +  T cells remains undefined. Here we report a novel role for Nr4a1 in regulating the development and frequency of CD8 +  T cells through direct transcriptional control of  Runx3 . We discovered that Nr4a1 recruits the corepressor, CoREST to suppress  Runx3  expression in CD8 +  T cells. Loss of Nr4a1 results in increased  Runx3  expression in thymocytes which consequently causes a 2-fold increase in the frequency and total number of intrathymic and peripheral CD8 +  T cells. Our findings establish Nr4a1 as a novel and critical player in the regulation of CD8 T cell development through the direct suppression of  Runx3 .",
+      "relevant_passages": "This study investigated the role of nuclear receptor Nr4a1 in CD8 T cell development. Nr4a1 suppresses Runx3 expression, and its absence leads to a significant increase in CD8 T cell numbers.",
+      "doi_or_pmcid": "10.1038/srep09059"
+    },
+    {
+      "paperclip_result_id": "PMC11958660",
+      "rank": 9,
+      "title": "Satb2 and Nr4a2 are required for the differentiation of cortical layer 6b",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Cortical layer 6 is divided into two sublayers, and layer 6b is situated above the white matter with distinct architecture from layer 6a. Layer 6b arises from the subplate and contains the earliest born neurons in the development of cerebral cortex. Although great progress has been made in understanding the cortical morphogenesis, there is a dearth of knowledge regarding the molecular mechanisms governing the development of layer 6b neurons. Here we report that transcription factor special AT-rich binding protein 2 (Satb2) and nuclear receptor subfamily 4 group A member 2 (Nr4a2) are required for the normal differentiation layer 6b neurons. Upon conditional deletion of Satb2 in the cortex (Satb2 Emx1  CKO) or selectively inactivation of Satb2 in layer 6b neurons only (Satb2 Nr4a2CreER  CKO), the expressions of layer 6b-specific genes (i.e., Ctgf, Cplx3, Trh and Tnmd) were significantly reduced, whereas that of Nr4a2 was dramatically increased, underscoring that Satb2 is involved in the differentiation of layer 6b neurons in a cell-autonomous manner. On the other hand, when Nr4a2 was deleted in the cortex, the expressions of Trh and Tnmd were upregulated with unchanged expression of Ctgf and Cplx3. Notably, the defective differentiation resulting from the deletion of Satb2 remained in Satb2/Nr4a2 double CKO mice. In summary, our findings indicated that both Satb2 and Nr4a2 are required for the differentiation of layer 6b neurons possibly via different pathways.",
+      "relevant_passages": "Satb2 and Nr4a2's roles in cortical layer 6b differentiation were studied. Both transcription factors are required for normal layer 6b neuron differentiation, potentially through distinct mechanisms.",
+      "doi_or_pmcid": "10.1038/s41420-025-02402-2"
+    },
+    {
+      "paperclip_result_id": "PMC6546093",
+      "rank": 10,
+      "title": "Nr4a transcription factors limit CAR T cell function in solid tumors",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "T cells expressing chimeric antigen receptors (CAR) targeting human CD19 (huCD19) have exhibited impressive clinical efficacy against B cell malignancies 1 , 2 . CAR-T cells have been less effective against solid tumors 3 – 5 , in part because they enter a hyporesponsive (“exhausted” or “dysfunctional”) state 6 – 9  triggered by chronic antigen stimulation and characterized by upregulation of inhibitory receptors and loss of effector function. To investigate the function of CAR-T cells in solid tumors, we transferred huCD19-reactive CAR-T cells into huCD19 +  tumor-bearing mice. CD8 +  CAR +  tumor-infiltrating lymphocytes (TILs) and endogenous TILs expressing inhibitory receptors PD-1 and TIM3 exhibited similar profiles of gene expression and chromatin accessibility, associated with secondary activation of nuclear receptor transcription factors (TFs) Nr4a1 (Nur77), Nr4a2 (Nurr1) and Nr4a3 (Nor1) by the initiating TF NFAT (nuclear factor of activated T cells) 10 – 12 . CD8 +  T cells from humans with cancer or chronic viral infections 13 , 14 , 15  expressed high levels of Nr4a TFs and displayed enrichment of Nr4a binding motifs in accessible chromatin regions. CAR-T cells lacking all three Nr4a TFs ( Nr4aTKO ) promoted tumor regression and prolonged the survival of tumor-bearing mice.  Nr4aTKO  CAR-TILs displayed phenotypes and gene expression profiles characteristic of CD8 +  effector T cells, and chromatin regions uniquely accessible in  Nr4aTKO  CAR-TILs compared to  WT  were enriched for binding motifs for NFκB and AP-1, TFs involved in T cell activation. Our data identify Nr4a TFs as major players in the cell-intrinsic program of T cell hyporesponsiveness and point to Nr4a inhibition as a promising strategy for cancer immunotherapy.",
+      "relevant_passages": "This study investigated the role of Nr4a transcription factors in CAR T cell hyporesponsiveness in solid tumors. Nr4a transcription factors limit CAR T cell function, and their inhibition promotes tumor regression and survival.",
+      "doi_or_pmcid": "10.1038/s41586-019-0985-x"
+    }
+  ]
+}

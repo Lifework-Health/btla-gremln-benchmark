@@ -1,0 +1,108 @@
+{
+  "tf": "EGR2",
+  "query": "EGR2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11592338",
+      "rank": 1,
+      "title": "Role of the  Egr2  Promoter Antisense RNA in Modulating the Schwann Cell Chromatin Landscape",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Background : Schwann cells (SCs) and their plasticity contribute to the peripheral nervous system’s capacity for nerve regeneration after injury. The  Egr2/Krox20  promoter antisense RNA (Egr2-AS) recruits chromatin remodeling complexes to inhibit  Egr2  transcription following peripheral nerve injury.  Methods : RNA-seq and ATAC-seq were performed on control cells, Lenti-GFP-transduced cells, and cells overexpressing Egr2-AS (Lenti-AS). Egr2 AS-RNA was cloned into the pLVX-DsRed-Express2-N1 lentiviral expression vector (Clontech, Mountain View, CA, USA), and the levels of AS-RNA expression were determined. Ezh2 and Wdr5 were immunoprecipitated from rat SCs and RT-qPCR was performed against AS-Egr2 RNA. ChIP followed by DNA purification columns was used to perform qPCR for relevant promoters. Hi-C, HiC-DC+, R, Bioconductor, and TOBIAS were used for significant and differential loop analysis, identifications of COREs and CORE-promotor loops, comparisons of TF activity at promoter sites, and identification of site-specific TF footprints. OnTAD was used to detect TADs, and Juicer was used to identify A/B compartments.  Results : Here we show that a Neuregulin-ErbB2/3 signaling axis mediates binding of the Egr2-AS to YY1 Ser184  and regulates its expression. Egr2-AS modulates the chromatin accessibility of Schwann cells and interacts with two distinct histone modification complexes. It binds to EZH2 and WDR5 and enables targeting of H3K27me3 and H3K4me3 to promoters of  Egr2  and  C-JUN,  respectively. Expression of the Egr2-AS results in reorganization of the global chromatin landscape and quantitative changes in the loop formation and contact frequency at domain boundaries exhibiting enrichment for AP-1 genes. In addition, the Egr2-AS induces changes in the hierarchical TADs and increases transcription factor binding scores on an inter-TAD loop between a super-enhancer regulatory hub and the promoter of  mTOR .  Conclusions : Our results show that Neuregulin-ErbB2/3-YY1 regulates the expression of Egr2-AS, which mediates remodeling of the chromatin landscape in Schwann cells.",
+      "relevant_passages": "Egr2 antisense RNA (Egr2-AS) was studied for its role in Schwann cell chromatin. Egr2-AS reorganizes chromatin, affecting gene expression and loop formation, particularly for AP-1 genes.",
+      "doi_or_pmcid": "10.3390/biomedicines12112594"
+    },
+    {
+      "paperclip_result_id": "PMC3501351",
+      "rank": 2,
+      "title": "Transcriptional regulator early growth response gene 2 (Egr2) is required for T cell anergy in vitro and in vivo",
+      "year": "2012",
+      "publication_type": "research-article",
+      "abstract": "Deletion of early growth response gene Egr2 prevents anergy induction through diacylglycerol kinase α and restores Ras/MAPK signaling in T cells.",
+      "relevant_passages": "This study investigated the role of the transcriptional regulator Egr2 in T cell anergy. Egr2 deletion prevents anergy induction and restores Ras/MAPK signaling in T cells.",
+      "doi_or_pmcid": "10.1084/jem.20120342"
+    },
+    {
+      "paperclip_result_id": "PMC12329747",
+      "rank": 3,
+      "title": "EGR2 maintains neuropathic pain by promoting microglial phagocytosis",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Neuropathic pain (NP) is one of the most common forms of chronic pain, yet current treatment options are limited in effectiveness. Peripheral nerve injury activates spinal microglia, altering their inflammatory response and phagocytic functions, which contributes to the progression of NP. Most current research on NP focuses on microglial inflammation, with relatively little attention to their phagocytic function. Early growth response factor 2 (EGR2) has been shown to regulate microglial phagocytosis, but its specific role in NP remains unclear. This study aims to investigate how EGR2 modulates microglial phagocytosis and its involvement in NP, with the goal of identifying potential therapeutic targets. Adult male Sprague-Dawley (SD) rats were used to establish a chronic constriction injury (CCI) model of the sciatic nerve. Pain behaviors were assessed on days 1, 3, 7, 10, and 14 post-surgery to confirm successful model induction. The temporal and spatial expression of EGR2 in the spinal cord was examined using real-time quantitative PCR (RT-qPCR), Western blotting, and immunofluorescence staining. Adeno-associated virus (AAV) was used to overexpress  EGR2  in the spinal cord, and behavioral assessments were performed to evaluate the effects of EGR2 modulation of NP. CCI and lipopolysaccharide (LPS) models were established in animals and microglial cell lines, respectively, and changes in phagocytic activity were measured using RT-qPCR and fluorescent latex bead uptake assays. After confirming the involvement of microglial phagocytosis in NP, AAV was used to overexpress  EGR2  in both in vivo and in vitro models, and phagocytic activity was further evaluated. Finally, eukaryotic transcriptome sequencing was conducted to screen differentially expressed mRNAs, followed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analyses to identify potential downstream effectors of EGR2. The CCI model successfully induced NP. Following CCI, EGR2 expression in the spinal cord was upregulated in parallel with NP development. Overexpression of EGR2 via spinal AAV injection enhanced microglial phagocytic activity and increased pain hypersensitivity in rats. Both animal and cellular models showed that CCI or LPS stimulation enhanced microglial phagocytosis, which was further amplified by  EGR2  overexpression. Transcriptomic analysis of spinal cord tissues from CCI rats overexpressing  EGR2  revealed upregulation of numerous genes associated with microglial phagocytosis and pain regulation. Among them, Lag3 emerged as a potential downstream target of EGR2. EGR2 contributes to the maintenance of NP by enhancing microglial phagocytosis in the spinal dorsal horn.",
+      "relevant_passages": "This study investigated EGR2's role in neuropathic pain by examining microglial phagocytosis. EGR2 was found to promote microglial phagocytosis, thereby maintaining neuropathic pain.",
+      "doi_or_pmcid": "10.11817/j.issn.1672-7347.2025.240270"
+    },
+    {
+      "paperclip_result_id": "PMC5439026",
+      "rank": 4,
+      "title": "Egr2 and 3 Inhibit T-bet–Mediated IFN-γ Production in T Cells",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "T-bet is important for differentiation of cytotoxic CD8 and Th1 CD4 T cells. We have discovered that Egr2 and 3 are potent inhibitors of T-bet function in CD4 and CD8 effector T cells. Egr2 and 3 were essential to suppress Th1 differentiation in Th2 and Th17 conditions in vitro and also to control IFN-γ–producing CD4 and CD8 T cells in response to virus infection. Together with Egr2 and 3, T-bet is induced in naive T cells by Ag stimulation, but Egr2 and 3 expression was inhibited by Th1–inducing cytokines. We found that Egr2 and 3 physically interact with the T-box domain of T-bet, blocking T-bet DNA binding and inhibiting T-bet–mediated production of IFN-γ. Thus, Egr2 and 3 are antagonists of T-bet function in effector T cells and are important for the control of inflammatory responses of T cells.",
+      "relevant_passages": "Egr2 and 3 were studied for their role in inhibiting T-bet function in T cells. These proteins physically block T-bet's DNA binding, thereby suppressing IFN-γ production and controlling inflammatory responses.",
+      "doi_or_pmcid": "10.4049/jimmunol.1602010"
+    },
+    {
+      "paperclip_result_id": "PMC11385099",
+      "rank": 5,
+      "title": "EGR2 is an epigenomic regulator of phagocytosis and antifungal immunity in alveolar macrophages",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Alveolar macrophages (AMs) act as gatekeepers of the lung’s immune responses, serving essential roles in recognizing and eliminating pathogens. The transcription factor (TF) early growth response 2 (EGR2) has been recently described as required for mature AMs in mice; however, its mechanisms of action have not been explored. Here, we identified EGR2 as an epigenomic regulator and likely direct proximal transcriptional activator in AMs using epigenomic approaches (RNA sequencing, ATAC sequencing, and CUT&RUN). The predicted direct proximal targets of EGR2 included a subset of AM identity genes and ones related to pathogen recognition, phagosome maturation, and adhesion, such as  Clec7a ,  Atp6v0d2 ,  Itgb2 ,  Rhoc , and  Tmsb10 . We provided evidence that EGR2 deficiency led to impaired zymosan internalization and reduced the capacity to respond to  Aspergillus fumigatus . Mechanistically, the lack of EGR2 altered the transcriptional response, secreted cytokines (i.e., CXCL11), and inflammation-resolving lipid mediators (i.e., RvE1) of AMs during in vivo zymosan-induced inflammation, which manifested in impaired resolution. Our findings demonstrated that EGR2 is a key proximal transcriptional activator and epigenomic bookmark in AMs responsible for select, distinct components of cell identity and a protective transcriptional and epigenomic program against fungi.",
+      "relevant_passages": "EGR2 was identified as an epigenomic regulator in alveolar macrophages using epigenomic approaches. EGR2 deficiency impairs phagocytosis and antifungal immunity by altering transcriptional responses and mediator production.",
+      "doi_or_pmcid": "10.1172/jci.insight.164009"
+    },
+    {
+      "paperclip_result_id": "PMC5946152",
+      "rank": 6,
+      "title": "Transcription factors early growth response gene (Egr) 2 and 3 control inflammatory responses of tolerant T cells",
+      "year": "2018",
+      "publication_type": "research-article",
+      "abstract": "Impaired proliferation and production of IL2 are the hallmarks of experimental T cell tolerance. However, in most autoimmune diseases, auto‐reactive T cells do not display hyper proliferation, but inflammatory phenotypes. We have now demonstrated that the transcription factors Egr2 and 3 are important for the control of inflammatory cytokine production by tolerant T cells, but not for tolerance induction. In the absence of Egr2 and 3, T cell tolerance, as measured by impaired proliferation and production of IL2, can still be induced, but tolerant T cells produced high levels of inflammatory cytokines. Egr2 and 3 regulate expression of differentiation repressors and directly inhibit T‐bet function in T cells. Indeed, decreased expression of differentiation repressors, such as Id3 and Tcf1, and increased expression of inflammatory transcription factors, such as RORγt and Bhlhe40 were found in Egr2/3 deficient T cells under tolerogenic conditions. In addition, T‐bet was co‐expressed with Egr2 in tolerant T cells and Egr2/3 defects leads to production of high levels of IFNγ in tolerant T cells. Our findings demonstrated that despite impaired proliferation and IL2 production, tolerant T cells can display inflammatory responses in response to antigen stimulation and this is controlled at least partly by Egr2 and 3.",
+      "relevant_passages": "Transcription factors Egr2 and Egr3 were studied in tolerant T cells. These factors control inflammatory cytokine production in tolerant T cells, preventing their inflammatory responses despite impaired proliferation.",
+      "doi_or_pmcid": "10.1002/iid3.210"
+    },
+    {
+      "paperclip_result_id": "PMC12644210",
+      "rank": 7,
+      "title": "The Leupaxin/HDAC6/EGR2 axis facilitates breast cancer progression by enhancing macrophage M2 polarization",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The online version contains supplementary material available at 10.1007/s10565-025-10088-6. Macrophage M2 polarization plays a pivotal role in breast cancer development. The present study aimed to investigate the interplay of the Leupaxin (LPXN)/HDAC6/EGR2 axis in breast cancer and its impact on macrophage M2 polarization. Our findings indicate that LPXN overexpression in breast cancer tissues correlates with M2 macrophage polarization. To investigate LPXN's potential role, we conducted siRNA-mediated silencing in macrophages. In a breast cancer cell-macrophage co-culture system, LPXN silencing was associated with reduced cancer cell proliferation, decreased M2 polarization markers, and diminished HDAC6 expression. BIOGRD and experimental data suggest a regulatory relationship between LPXN and HDAC6. Notably, HDAC6 inhibition partially reversed the pro-M2 effects of LPXN overexpression. Further mechanistic studies revealed that HDAC6 interacts with EGR2, functioning as its deacetylase and negatively regulating EGR2 expression. EGR2 silencing partially attenuated the anti-M2 effects observed with LPXN knockdown. In murine breast cancer models, LPXN silencing was linked to increased M1 macrophage markers and reduced tumor burden. These findings suggest LPXN may influence breast cancer progression through HDAC6/EGR2-mediated regulation of macrophage polarization. In conclusion, our study demonstrated that the LPXN/HDAC6/EGR2 axis promotes breast cancer progression by augmenting macrophage M2 polarization.",
+      "relevant_passages": "This study investigated the Leupaxin/HDAC6/EGR2 axis's role in breast cancer progression and macrophage M2 polarization. The LPXN/HDAC6/EGR2 axis promotes breast cancer progression by enhancing M2 macrophage polarization.",
+      "doi_or_pmcid": "10.1007/s10565-025-10088-6"
+    },
+    {
+      "paperclip_result_id": "PMC2944839",
+      "rank": 8,
+      "title": "EGR-2 Is Not Required for In Vivo CD4 T Cell Mediated Immune Responses",
+      "year": "2010",
+      "publication_type": "research-article",
+      "abstract": "The zinc finger transcription factor EGR-2 has been shown to play an important role in the induction of T cell anergy and the regulation of peripheral T cell tolerance.  In vitro , a prior study has show that T cells deficient in EGR-2 are hyperproliferative to IL-2 and produce elevated levels of the effector cytokine IFN-γ. EGR-2 deficient mice have increased levels of CD44 high  T cells in peripheral lymphoid organs, and with age, develop autoimmune-like features. Here we show that despite increased numbers of cells bearing an activated CD44 high CD62L low  phenotype, T cells from young healthy EGR-2 deficient mice have normal proliferative and cytokine responses, and the mice themselves mount normal immune responses against minor histocompatibility antigens, and the pathogens  Toxoplasma gondii  and lymphocytic choriomeningitis virus. Our results indicate that EGR-2 is not required to mount normal acute  in vivo  immune responses against foreign antigens, and suggest instead that it may serve to regulate the response to chronic antigenic exposure, such as that which occurs to autoantigens.",
+      "relevant_passages": "This study investigated the role of EGR-2 in CD4 T cell immune responses. EGR-2 deficiency did not impair acute responses to foreign antigens in mice, suggesting its role may be in chronic antigen exposure.",
+      "doi_or_pmcid": "10.1371/journal.pone.0012904"
+    },
+    {
+      "paperclip_result_id": "PMC12658588",
+      "rank": 9,
+      "title": "Loss of uterine EGR2 contributes to age-associated decline in fertility in female mice.",
+      "year": "2025",
+      "publication_type": "brief-report",
+      "abstract": "Early growth response 2 (Egr2) is a pleiotropic zinc finger transcription factor with established roles in neural and immune system, but its uterine function remains poorly understood. We found that uterine EGR2 is expressed in luminal epithelium, glandular epithelium, and stroma of human and mouse uteri, with dynamic regulation across the menstrual cycle and early pregnancy. EGR2 expression declined in aged and\n Sirt1 \n-deficient mouse uteri, models of reproductive aging. Conditional uterine deletion of EGR2 caused mild subfertility, with fewer litters and total pups per female. These findings indicate EGR2 supports, but is not essential for, uterine function.",
+      "relevant_passages": "Uterine EGR2 expression was studied in human and mouse uteri, declining with age. Loss of uterine EGR2 caused mild subfertility in female mice, indicating it supports but isn't essential for uterine function.",
+      "doi_or_pmcid": "10.17912/micropub.biology.001852"
+    },
+    {
+      "paperclip_result_id": "PMC3288314",
+      "rank": 10,
+      "title": "Elevated and sustained Egr1 and Egr2 expression controls NKT lineage differentiation in response to TCR signaling",
+      "year": "2012",
+      "publication_type": "research-article",
+      "abstract": "TCR-driven interactions determine the lineage choice of CD4 + CD8 +  thymocytes, but the molecular mechanisms that induce the lineage-determining transcription factors are unknown. Here we show that TCR-induced Egr2 and Egr1 proteins had elevated and prolonged expression in NKT lineage precursors compared with conventional lineages. ChIP-seq analysis uncovered that Egr2 directly bound and activated the promoter of  Zbtb16  which encodes the NKT lineage-specific transcription factor PLZF. Egr2 also bound the  Il2rb  promoter and controlled the responsiveness to IL-15, which signals the terminal differentiation of the NKT lineage. Thus, we propose that elevated and persistent Egr2 levels specify the early and late stages of NKT lineage differentiation, providing a discriminating mechanism that enables TCR signaling to instruct a thymic lineage.",
+      "relevant_passages": "TCR signaling induces sustained Egr1 and Egr2 expression in NKT precursors. These factors control PLZF and IL-15 signaling, specifying NKT lineage differentiation.",
+      "doi_or_pmcid": "10.1038/ni.2230"
+    }
+  ]
+}

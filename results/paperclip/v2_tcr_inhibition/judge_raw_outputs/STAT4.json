@@ -1,0 +1,146 @@
+{
+  "tf": "STAT4",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:14:38Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-9ba0dac8-50f9-412d-b5d2-6d60f2aa47cf",
+      "agent_id": "agent-22df3077-aff2-4d18-a45d-63f884db1f9d",
+      "raw": "{\n  \"tf\": \"STAT4\",\n  \"query\": \"STAT4 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12087874\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"cell-free biochemistry plus cultured human cell lines; non-T-cell / medicinal chemistry\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"small-molecule inhibitors of the transcription factor STAT4... selectively blocked STAT4's SH2 domain\",\n      \"rationale\": \"Medicinal chemistry developing STAT4 SH2 inhibitors; no T cells, no TCR signalling, no inhibitory T cell phenotype tested.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10849914\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells; CD4+ Th17 differentiation (species not specified in passage)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR signaling induces STAT3 phosphorylation to drive T H 17 cell differentiation\",\n      \"rationale\": \"Concerns STAT3, not STAT4, and addresses Th17 differentiation (activation-promoting), not TCR inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11989168\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-immune; pig/mouse ovarian granulosa cells and follicles\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAT4... inhibited KISS1... promoted apoptosis of GCs... inhibited normal development of follicles\",\n      \"rationale\": \"STAT4 studied in granulosa cells and follicular development; entirely non-immune, no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196089\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; transgenic mouse thymic T cells (lymphoma)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Overexpression of Stat5... with T cell receptor stimulation... enhanced lymphoma formation\",\n      \"rationale\": \"About Stat5-driven lymphomagenesis, not STAT4; phenotype is oncogenic T cell expansion, not TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11578735\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human genetic/disease associations (review of immune diseases)\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"reviews STAT4 gene polymorphisms and their impact on immune responses and disease outcomes\",\n      \"rationale\": \"Review of STAT4 polymorphism-disease associations; no primary TCR inhibition data and reviews cannot support strong/moderate.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2195871\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human/mouse CD4+ T cells (conventional and TCR transgenic)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR ligation transiently inhibits IL-4 signaling in CD4+ T cells\",\n      \"rationale\": \"Shows TCR inhibits IL-4/STAT6 cytokine signalling; STAT4 is not the studied regulator, so it does not support the candidate.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11432593\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human genetic/serum association study; non-T-cell (laryngeal carcinoma)\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"analyzed STAT4 genetic variants and protein levels in relation to laryngeal squamous cell carcinoma\",\n      \"rationale\": \"SNP/serum association study in laryngeal cancer; no T cell function or TCR inhibition assessed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2195684\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary activated T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR ligation... inhibits IL-2 signaling, thereby limiting T-cell expansion\",\n      \"rationale\": \"TCR-mediated feedback inhibition acts via STAT5/IL-2, not STAT4; regulator of interest is not implicated.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11391519\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-immune; rat myocardium and H9C2 cardiomyocytes\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"STAT4 overexpression reduced injury by activating the PI3K/AKT pathway\",\n      \"rationale\": \"STAT4 in cardiac ischemia-reperfusion; non-immune system with no T cell or TCR component.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7178138\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human/mouse CD8+ T cells (SOCS3/JAK engineering)\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"mutant SOCS3... preserved inhibition of JAK2-dependent STAT4 phosphorylation... restored CD8 T cell expansion\",\n      \"rationale\": \"STAT4 appears only as an IL-12 cytokine-signalling readout; the regulator studied is SOCS3, phenotype is expansion/effector differentiation, not TCR inhibition.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study materially links STAT4 to TCR signalling inhibition or a closely related inhibitory T cell phenotype. STAT4-focused papers are non-immune (follicular, cardiac), chemistry, associative genetics, or a review, none testing TCR/inhibitory T cell function. The papers addressing TCR-mediated inhibition (PMC2195871, PMC2195684) or T cell phenotypes (PMC10849914, PMC2196089, PMC7178138) implicate STAT3/STAT5/STAT6 or SOCS3 rather than STAT4 as the causal regulator. Therefore no candidate-specific evidence supports weak-or-higher tiers.\",\n  \"confidence\": \"moderate\"\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "STAT4",
+    "query": "STAT4 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12087874",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "cell-free biochemistry plus cultured human cell lines; non-T-cell / medicinal chemistry",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "small-molecule inhibitors of the transcription factor STAT4... selectively blocked STAT4's SH2 domain",
+        "rationale": "Medicinal chemistry developing STAT4 SH2 inhibitors; no T cells, no TCR signalling, no inhibitory T cell phenotype tested."
+      },
+      {
+        "paperclip_result_id": "PMC10849914",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells; CD4+ Th17 differentiation (species not specified in passage)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR signaling induces STAT3 phosphorylation to drive T H 17 cell differentiation",
+        "rationale": "Concerns STAT3, not STAT4, and addresses Th17 differentiation (activation-promoting), not TCR inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11989168",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-immune; pig/mouse ovarian granulosa cells and follicles",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAT4... inhibited KISS1... promoted apoptosis of GCs... inhibited normal development of follicles",
+        "rationale": "STAT4 studied in granulosa cells and follicular development; entirely non-immune, no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC2196089",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; transgenic mouse thymic T cells (lymphoma)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Overexpression of Stat5... with T cell receptor stimulation... enhanced lymphoma formation",
+        "rationale": "About Stat5-driven lymphomagenesis, not STAT4; phenotype is oncogenic T cell expansion, not TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11578735",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human genetic/disease associations (review of immune diseases)",
+        "evidence_directness": "associative",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "reviews STAT4 gene polymorphisms and their impact on immune responses and disease outcomes",
+        "rationale": "Review of STAT4 polymorphism-disease associations; no primary TCR inhibition data and reviews cannot support strong/moderate."
+      },
+      {
+        "paperclip_result_id": "PMC2195871",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human/mouse CD4+ T cells (conventional and TCR transgenic)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR ligation transiently inhibits IL-4 signaling in CD4+ T cells",
+        "rationale": "Shows TCR inhibits IL-4/STAT6 cytokine signalling; STAT4 is not the studied regulator, so it does not support the candidate."
+      },
+      {
+        "paperclip_result_id": "PMC11432593",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human genetic/serum association study; non-T-cell (laryngeal carcinoma)",
+        "evidence_directness": "associative",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "analyzed STAT4 genetic variants and protein levels in relation to laryngeal squamous cell carcinoma",
+        "rationale": "SNP/serum association study in laryngeal cancer; no T cell function or TCR inhibition assessed."
+      },
+      {
+        "paperclip_result_id": "PMC2195684",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary activated T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR ligation... inhibits IL-2 signaling, thereby limiting T-cell expansion",
+        "rationale": "TCR-mediated feedback inhibition acts via STAT5/IL-2, not STAT4; regulator of interest is not implicated."
+      },
+      {
+        "paperclip_result_id": "PMC11391519",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-immune; rat myocardium and H9C2 cardiomyocytes",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "STAT4 overexpression reduced injury by activating the PI3K/AKT pathway",
+        "rationale": "STAT4 in cardiac ischemia-reperfusion; non-immune system with no T cell or TCR component."
+      },
+      {
+        "paperclip_result_id": "PMC7178138",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human/mouse CD8+ T cells (SOCS3/JAK engineering)",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "mutant SOCS3... preserved inhibition of JAK2-dependent STAT4 phosphorylation... restored CD8 T cell expansion",
+        "rationale": "STAT4 appears only as an IL-12 cytokine-signalling readout; the regulator studied is SOCS3, phenotype is expansion/effector differentiation, not TCR inhibition."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study materially links STAT4 to TCR signalling inhibition or a closely related inhibitory T cell phenotype. STAT4-focused papers are non-immune (follicular, cardiac), chemistry, associative genetics, or a review, none testing TCR/inhibitory T cell function. The papers addressing TCR-mediated inhibition (PMC2195871, PMC2195684) or T cell phenotypes (PMC10849914, PMC2196089, PMC7178138) implicate STAT3/STAT5/STAT6 or SOCS3 rather than STAT4 as the causal regulator. Therefore no candidate-specific evidence supports weak-or-higher tiers.",
+    "confidence": "moderate"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "tf": "RBPJ",
+  "query": "RBPJ TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11441141",
+      "rank": 1,
+      "title": "The expression of RBPJ and its potential role in rheumatoid arthritis",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Recombination signal-binding protein for immunoglobulin kappa J region (RBPJ) is a transcriptional regulator that plays an important role in maintaining immune homeostasis. This study aimed to estimate the expression of RBPJ in rheumatoid arthritis (RA) patients and investigate its relationship with RA. A total of 83 newly diagnosed RA patients and 70 healthy controls were included. mRNA was extracted from peripheral blood mononuclear cells (PBMCs), and the expression of RBPJ was detected using quantitative real-time PCR (qRT‒PCR). An RA dataset (GSE89408) was obtained from the Gene Expression Omnibus (GEO) database, and RA synovial tissues were divided into two groups. The differentially expressed genes (DEGs) were selected with the “DESeq2” R package. RBPJ expression was lower in RA patients than in health controls and was negatively correlated with the DAS28 score, C-reactive protein (CRP) level and erythrocyte sedimentation rate (ESR). RA synovial tissues from GSE89408 were classified into RBPJ-low (≤ 25%) and RBPJ-high (≥ 75%) groups according to RBPJ expression, and 562 DEGs were identified. Gene Ontology (GO) enrichment analyses revealed that the DEGs significantly affected the regulation of T cell activation and lymphocyte/mononuclear cell differentiation. Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis revealed that the most enriched pathways of DEGs were the T cell receptor signaling pathway, Th1/2 and Th17 cell differentiation, the PI3K − Akt signaling pathway and cytokine‒cytokine receptor interaction. CytoHubba Plugin revealed that most of the top 10 genes were involved in osteoclast differentiation, the T cell receptor signaling pathway and cytokine‒cytokine receptor interaction. RBPJ expression was significantly lower in RA patients and negatively correlated with disease activity. GEO dataset analysis demonstrated that RBPJ may be involved in osteoclast differentiation, T cell activation and differentiation, and the T cell receptor signaling pathway. Our research may contribute to understanding the potential mechanisms by which RBPJ regulates T cell differentiation and cytokine‒cytokine receptor interaction in RA patients. The online version contains supplementary material available at 10.1186/s12864-024-10804-2.",
+      "relevant_passages": "RBPJ expression was studied in rheumatoid arthritis patients and correlated with disease severity. Lower RBPJ expression in RA patients suggests a role in T cell activation and osteoclast differentiation.",
+      "doi_or_pmcid": "10.1186/s12864-024-10804-2"
+    },
+    {
+      "paperclip_result_id": "PMC9371899",
+      "rank": 2,
+      "title": "Notch-dependent and -independent functions of transcription factor RBPJ",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "Signal transduction pathways often involve transcription factors that promote activation of defined target gene sets. The transcription factor RBPJ is the central player in Notch signaling and either forms an activator complex with the Notch intracellular domain (NICD) or a repressor complex with corepressors like KYOT2/FHL1. The balance between these two antagonizing RBPJ-complexes depends on the activation state of the Notch receptor regulated by cell-to-cell interaction, ligand binding and proteolytic cleavage events. Here, we depleted RBPJ in mature T-cells lacking active Notch signaling and performed RNA-Seq, ChIP-Seq and ATAC-seq analyses. RBPJ depletion leads to upregulation of many Notch target genes. Ectopic expression of NICD1 activates several Notch target genes and enhances RBPJ occupancy. Based on gene expression changes and RBPJ occupancy we define four different clusters, either RBPJ- and/or Notch-regulated genes. Importantly, we identify early ( Hes1  and  Hey1 ) and late Notch-responsive genes ( IL2ra) . Similarly, to RBPJ depletion, interfering with transcriptional repression by squelching with cofactor KYOT2/FHL1, leads to upregulation of Notch target genes. Taken together, RBPJ is not only an essential part of the Notch co-activator complex but also functions as a repressor in a Notch-independent manner.",
+      "relevant_passages": "RBPJ's role in Notch signaling and its independent functions were studied using gene expression and occupancy analyses. RBPJ acts as both a Notch co-activator and a repressor, with its repression occurring independently of Notch signaling.",
+      "doi_or_pmcid": "10.1093/nar/gkac601"
+    },
+    {
+      "paperclip_result_id": "PMC12068301",
+      "rank": 3,
+      "title": "Short-term starvation inhibits CD36 N-glycosylation and downregulates USP7 UFMylation to alleviate RBPJ-maintained T cell exhaustion in liver cancer",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Rationale:  Short-term starvation (STS) has been shown to enhance the sensitivity of tumors to chemotherapy while concurrently safeguarding normal cells from its detrimental side effects. Nonetheless, the extent to which STS relies on the anti-tumor immune response to impede the progression of hepatocellular carcinoma (HCC) remains uncertain. Methods:  In this study, we employed mass cytometry, flow cytometry, immunoprecipitation, immunoblotting, CUT&Tag, RT-qPCR, and DNA pull-down assays to evaluate the relationship between STS and T-cell antitumor immunity in HCC. Results:  We demonstrated that STS alleviated T cell exhaustion in HCC. This study elucidated the mechanism by which STS blocked CD36 N-glycosylation, leading to the upregulation of AMPK phosphorylation and the downregulation of USP7 UFMylation, thus enhancing ubiquitination and destabilized USP7. Consequently, diminished USP7 levels facilitated the ubiquitination and subsequent degradation of RBPJ, thereby inhibiting T cell exhaustion through the IRF4/TNFRSF1B axis. From a therapeutic standpoint, STS not only suppressed the growth of patient-derived orthotopic xenografts but also enhanced their sensitivity to immunotherapy. Conclusions:  These findings uncovered a novel mechanism by which N-glycosylation participated in UFMylation/ubiquitination to regulate T cell exhaustion, and we underscored the potential of targeting USP7 and RBPJ in anti-tumor immunotherapy strategies.",
+      "relevant_passages": "Short-term starvation was studied for its effect on T cell exhaustion in liver cancer. Starvation inhibits CD36 N-glycosylation and USP7 UFMylation, reducing RBPJ levels and alleviating T cell exhaustion.",
+      "doi_or_pmcid": "10.7150/thno.110567"
+    },
+    {
+      "paperclip_result_id": "PMC9887061",
+      "rank": 4,
+      "title": "Targeted inhibition of RBPJ transcription complex alleviates the exhaustion of CD8 +  T cells in hepatocellular carcinoma",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Impaired function of CD8 +  T cells in hepatocellular carcinoma (HCC) is an important reason for acquired resistance. Compared with single-target inhibitors, small-molecule compounds that could both inhibit tumor cells and alleviate T cell exhaustion are more promising to reduce resistance. In this study, we screened immunosuppressive targets in HCC by combining cancer–immunity cycle score with weighted gene co-expression network and system analysis. Through in vitro and in vivo validation experiments, we found that one of the screened molecules, recombination signal binding protein for immunoglobulin kappa J region (RBPJ), was negatively correlated with CD8 +  T cell mediated killing function. More importantly, its transcription complex inhibitor RIN1 not only inhibited the malignant biological behaviors of HCC cells by inhibiting mTOR pathway, but also reduced the expression of PD-L1 and L-kynurenine synthesis in HCC cells, thus alleviating T cell exhaustion. Meanwhile, the combination of RIN1 and anti-PD-1/PD-L1 antibodies could further activate CD8 +  T cells. In short, RBPJ is an important factor regulating the function of T cells. Target inhibition of RBPJ transcription complex by small molecule compound may be a new strategy for immunotherapy of HCC.",
+      "relevant_passages": "This study investigated RBPJ's role in hepatocellular carcinoma and CD8+ T cell exhaustion. Inhibiting RBPJ with RIN1 alleviates T cell exhaustion and enhances anti-tumor immunity, suggesting a new immunotherapy strategy.",
+      "doi_or_pmcid": "10.1038/s42003-023-04521-x"
+    },
+    {
+      "paperclip_result_id": "PMC11787368",
+      "rank": 5,
+      "title": "Effective in vivo binding energy landscape illustrates kinetic stability of RBPJ-DNA binding",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Transcription factors (TFs) such as RBPJ in Notch signaling bind to specific DNA sequences to regulate transcription. How TF-DNA binding kinetics and cofactor interactions modulate gene regulation is mostly unknown. We determine the binding kinetics, transcriptional activity, and genome-wide chromatin occupation of RBPJ and mutant variants by live-cell single-molecule tracking, reporter assays, and ChIP-Seq. Importantly, the search time of RBPJ exceeds its residence time, indicating kinetic rather than thermodynamic binding stability. Impaired RBPJ-DNA binding as in Adams-Oliver-Syndrome affect both target site association and dissociation, while impaired cofactor binding mainly alters association and unspecific binding. Moreover, our data point to the possibility that cofactor binding contributes to target site specificity. Findings for other TFs comparable to RBPJ indicate that kinetic rather than thermodynamic DNA binding stability might prevail in vivo. We propose an effective in vivo binding energy landscape of TF-DNA interactions as instructive visualization of binding kinetics and mutation-induced changes.",
+      "relevant_passages": "The study tracked RBPJ binding kinetics and transcriptional activity in live cells. Findings reveal that RBPJ's stability relies on kinetics, not thermodynamics, and cofactor binding influences target site specificity.",
+      "doi_or_pmcid": "10.1038/s41467-025-56515-4"
+    },
+    {
+      "paperclip_result_id": "PMC6453958",
+      "rank": 6,
+      "title": "Rbpj expression in regulatory T cells is critical for restraining T H 2 responses",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "The transcriptional regulator Rbpj is involved in T-helper (T H ) subset polarization, but its function in T reg  cells remains unclear. Here we show that T reg -specific Rbpj deletion leads to splenomegaly and lymphadenopathy despite increased numbers of T reg  cells with a polyclonal TCR repertoire. A specific defect of Rbpj-deficient T reg  cells in controlling T H 2 polarization and B cell responses is observed, leading to the spontaneous formation of germinal centers and a T H 2-associated immunoglobulin class switch. The observed phenotype is environment-dependent and can be induced by infection with parasitic nematodes. Rbpj-deficient T reg  cells adopt open chromatin landscapes and gene expression profiles reminiscent of tissue-derived T H 2-polarized T reg  cells, with a prevailing signature of the transcription factor Gata-3. Taken together, our study suggests that T reg  cells require Rbpj to specifically restrain T H 2 responses, including their own excessive T H 2-like differentiation potential.",
+      "relevant_passages": "Rbpj expression in regulatory T cells was studied to understand its role in T-helper cell polarization. Rbpj is critical for regulatory T cells to restrain T H 2 responses and prevent associated pathologies.",
+      "doi_or_pmcid": "10.1038/s41467-019-09276-w"
+    },
+    {
+      "paperclip_result_id": "PMC11985660",
+      "rank": 7,
+      "title": "Dysregulation of the circ-Hdac4/miR-30c/RBPJ axis in decidua impairs placental function in preeclampsia",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "1. circ-Hdac4 can regulate endometrial decidualization by targeting Mir-30c-RBPJ axis in early pregnancy mice 2. circ-Hdac4/miR-30c/RBPJ axis regulating decidualization through miRNA sponging, 3. Reduced circ-Hdac4 and RBPJ expression in human preeclampsia decidua correlates with placental dysfunction The online version contains supplementary material available at 10.1007/s10565-025-10016-8. Embryo implantation relies on complex mother-fetus interactions. Abnormal decidualization can cause various pregnancy complications such as placental abnormalities, preeclampsia, and fetal growth restriction. circRNAs play a key role in various cellular processes. This study focuses on the role of circ-Hdac4, a circRNA derived from the Hdac4 gene, in decidualization and placental function. Mouse models revealed a spatiotemporally regulated expression of circ-Hdac4 in the endometrium during early pregnancy, with enhanced expression surrounding implantation sites. In vitro and in vivo assays confirmed that circ-Hdac4 is crucial for stromal cell decidualization, as its knockdown resulted in reduced expression of decidualization markers and disrupted endometrial architecture. Furthermore, we found that circ-Hdac4 functions as a microRNA sponge for miR-30c, which negatively regulates RBPJ, a critical protein for decidual remodeling. Proteomic analysis revealed that RBPJ was downregulated upon circ-Hdac4 silencing, and we validated the direct interaction between miR-30c and RBPJ using luciferase reporter assays. A mouse preeclampsia model showed that downregulation of circ-Hdac4 during decidualization exacerbated preeclampsia-related phenotypes, including reduced fetal counts, weights, and placental weights. In addition, we observed decreased expression of circ-Hdac4 and RBPJ in the decidual surface of placental tissues from preeclampsia patients, further supporting our findings in the mouse model. Collectively, our study provides evidence that circ-Hdac4 regulates decidualization through the miR-30c-RBPJ axis and that its abnormal expression during decidualization contributes to placental dysfunction in preeclampsia. This research offers novel insights into the molecular mechanisms underlying pregnancy complications and potential therapeutic targets for their prevention and treatment.",
+      "relevant_passages": "The circ-Hdac4/miR-30c/RBPJ axis was studied for its role in decidualization and placental function. Dysregulation of this axis impairs placental function and is observed in preeclampsia.",
+      "doi_or_pmcid": "10.1007/s10565-025-10016-8"
+    },
+    {
+      "paperclip_result_id": "PMC6858571",
+      "rank": 8,
+      "title": "RBPJ-dependent Notch signaling initiates the T cell program in a subset of thymus-seeding progenitors",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "T cell specification and commitment requires Notch signaling. Although the requirement for Notch signaling during intrathymic T cell development is known, it is still unclear whether the onset of T cell priming can occur in a pre-thymic niche and whether RBPJ-dependent Notch signaling has a role during this event. Here we established an  Rbpj -inducible system that allowed the temporal and tissue-specific control of the responsiveness to Notch in all hematopoietic cells. Using this system, we found that Notch signaling was required prior to the early T cell progenitor stage in the thymus. Lymphoid-primed multipotent progenitors in the bone marrow underwent Notch signaling with  Rbpj  induction, which inhibited development towards the myeloid lineage in thymus-seeding progenitors. Thus, our results indicated that the onset of T cell differentiation occurred in a pre-thymic setting, and that Notch played an important role during this event.",
+      "relevant_passages": "Notch signaling, dependent on RBPJ, was studied in thymus-seeding progenitors. This signaling initiates the T cell program by inhibiting myeloid development in a pre-thymic setting.",
+      "doi_or_pmcid": "10.1038/s41590-019-0518-7"
+    },
+    {
+      "paperclip_result_id": "PMC12569315",
+      "rank": 9,
+      "title": "The transcription factor RBPJ is required for inflammatory macrophage activation in thoracic aortic dissection by mediating mechanotransduction-induced glycolysis",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The online version contains supplementary material available at 10.1007/s00018-025-05908-1. Abnormal infiltration and activation of monocyte-derived macrophages (moMFs) contribute significantly to thoracic aortic dissection (TAD). The transcription factor RBPJ mediates canonical Notch signaling and modulates macrophage activation, but the role and mechanism of RBPJ in macrophages in TAD remains unclear. Here, we show that RBPJ was upregulated in macrophages infiltrating the aorta in TAD patients and BAPN-induced mouse model. Myeloid-specific  Rbpj  ablation protected mice from TAD, reducing death, aortic damage, macrophage infiltration, and M1-like polarization while enhancing M2-like polarization. Because moMFs dominate aorta as shown in public scRNA-seq data, and RBPJ is upregulated in moMFs compared with blood monocytes/macrophages, we assumed that mechanical force, specifically cyclic stretch, might be one of the environmental cues of macrophage activation in aorta. Indeed, bone marrow-derived macrophages (BMDMs) loaded with cyclic stretch upregulated RBPJ expression in a Piezo1-dependent way, accompanied by increased M1-like polarization, and  Rbpj  ablation cancelled the force-induced M1-like polarization. By RNA-sequencing, we found that cyclic stretch induced a metabolic reprogram of BMDMs characterized by upregulation of glycolysis-related genes and HIF1α, which was dependent on RBPJ. Further analyses showed that cyclic stretch upregulated PDK1, a negative regulator of pyruvate dehydrogenase (PDH), which was abrogated by RBPJ deficiency. Based on these findings, we administered dichloroacetate (DCA), a pan-PDK inhibitor, in TAD mice, and found that DCA significantly attenuated BAPN-induced TAD in mice. Therefore, our results demonstrate that RBPJ is required for pro-inflammatory moMFs activation, likely by mediating mechanotransduction-induced glycolysis via PDK1 upregulation, and PDK1 inhibitors such as DCA are potential therapeutics for TAD.",
+      "relevant_passages": "RBPJ was studied in macrophages during thoracic aortic dissection. RBPJ mediates mechanotransduction-induced glycolysis, promoting pro-inflammatory macrophage activation and contributing to TAD.",
+      "doi_or_pmcid": "10.1007/s00018-025-05908-1"
+    },
+    {
+      "paperclip_result_id": "PMC4291530",
+      "rank": 10,
+      "title": "Loss of the Notch effector RBPJ promotes tumorigenesis",
+      "year": "",
+      "publication_type": "",
+      "abstract": "",
+      "relevant_passages": "RBPJ, a Notch effector, is frequently deleted in human cancers and acts as a tumor suppressor. Its loss derepresses target genes, promoting tumor growth through Notch-independent mechanisms.",
+      "doi_or_pmcid": ""
+    }
+  ]
+}

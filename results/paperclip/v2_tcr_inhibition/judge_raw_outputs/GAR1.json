@@ -1,0 +1,146 @@
+{
+  "tf": "GAR1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:41:17Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-4042e757-3a25-4d7c-8dc3-73e6b7ef678c",
+      "agent_id": "agent-9c923064-6ff4-4d4f-a7a7-47d8f3193cbc",
+      "raw": "```json\n{\n  \"tf\": \"GAR1\",\n  \"query\": \"GAR1 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12603805\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"non-human (Drosophila willistoni); non-immune system; no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"The Gar1 protein contains the conserved domain H/ACA_rnp_Gar1/Naf1\",\n      \"rationale\": \"Only GAR1-mentioning paper, but it is a Drosophila gene-model orthology report on gene structure with no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-based therapies can be improved with engineered T cells expressing a costimulatory chimeric antigen receptor\",\n      \"rationale\": \"Costimulatory CAR to enhance TCR therapy; does not study GAR1 or any inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"phosphorylation site at Ser 325 ... promotes its TCR-inhibitory activity\",\n      \"rationale\": \"Genuine proximal TCR-inhibition study, but concerns PTPN22, not GAR1; provides no evidence about the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected\",\n      \"rationale\": \"TCR engineering/mispairing model; no GAR1 involvement and no inhibitory-regulator biology.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire (bioinformatic)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy\",\n      \"rationale\": \"Review on TCR selection for immunotherapy; no GAR1 and no inhibitory phenotype content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5587706\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; NK-92 cell line and T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"fused a soluble TCR construct to a CAR-signalling tail and named the final product TCR-CAR\",\n      \"rationale\": \"Receptor-engineering construct study; unrelated to GAR1 or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-T cells; mouse xenograft; CD4+ T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-engineered T cells ... significantly inhibited nasopharyngeal cancer growth in mouse models\",\n      \"rationale\": \"Anti-tumor CD4 TCR-T therapy; 'inhibition' refers to tumor growth, not TCR signalling, and no GAR1.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells in tumor models\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High TCR signal strength leads to T cell dysfunction, while low strength causes inertness\",\n      \"rationale\": \"Addresses TCR signal strength and dysfunction but does not involve GAR1 as a regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"in silico; TCR sequences\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR-epitope binding\",\n      \"rationale\": \"Computational TCR generation/binding tool; no GAR1 and no inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12934713\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; Jurkat line and primary T cells; HIS mice\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CRISPR-based platform that completely and selectively eliminates both endogenous TCR-alpha and -beta chains\",\n      \"rationale\": \"Endogenous TCR-knockout platform for cell therapy; unrelated to GAR1 or inhibitory TCR regulation.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved paper materially links GAR1 to TCR inhibition or a related inhibitory T cell phenotype. The single GAR1 paper (PMC12603805) is a Drosophila gene-model report with no immune content. The remaining nine are TCR-engineering, immunotherapy, signal-strength, or computational studies that never involve GAR1; one true TCR-inhibition study concerns PTPN22, not the candidate. Retrieval reflects keyword collisions ('Gar1' gene and 'TCR') rather than genuine GAR1 T cell evidence.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "GAR1",
+    "query": "GAR1 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12603805",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "non-human (Drosophila willistoni); non-immune system; no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "The Gar1 protein contains the conserved domain H/ACA_rnp_Gar1/Naf1",
+        "rationale": "Only GAR1-mentioning paper, but it is a Drosophila gene-model orthology report on gene structure with no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-based therapies can be improved with engineered T cells expressing a costimulatory chimeric antigen receptor",
+        "rationale": "Costimulatory CAR to enhance TCR therapy; does not study GAR1 or any inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "phosphorylation site at Ser 325 ... promotes its TCR-inhibitory activity",
+        "rationale": "Genuine proximal TCR-inhibition study, but concerns PTPN22, not GAR1; provides no evidence about the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected",
+        "rationale": "TCR engineering/mispairing model; no GAR1 involvement and no inhibitory-regulator biology."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire (bioinformatic)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy",
+        "rationale": "Review on TCR selection for immunotherapy; no GAR1 and no inhibitory phenotype content."
+      },
+      {
+        "paperclip_result_id": "PMC5587706",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; NK-92 cell line and T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "fused a soluble TCR construct to a CAR-signalling tail and named the final product TCR-CAR",
+        "rationale": "Receptor-engineering construct study; unrelated to GAR1 or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-T cells; mouse xenograft; CD4+ T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-engineered T cells ... significantly inhibited nasopharyngeal cancer growth in mouse models",
+        "rationale": "Anti-tumor CD4 TCR-T therapy; 'inhibition' refers to tumor growth, not TCR signalling, and no GAR1."
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells in tumor models",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "High TCR signal strength leads to T cell dysfunction, while low strength causes inertness",
+        "rationale": "Addresses TCR signal strength and dysfunction but does not involve GAR1 as a regulator."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "in silico; TCR sequences",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR-epitope binding",
+        "rationale": "Computational TCR generation/binding tool; no GAR1 and no inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12934713",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; Jurkat line and primary T cells; HIS mice",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CRISPR-based platform that completely and selectively eliminates both endogenous TCR-alpha and -beta chains",
+        "rationale": "Endogenous TCR-knockout platform for cell therapy; unrelated to GAR1 or inhibitory TCR regulation."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved paper materially links GAR1 to TCR inhibition or a related inhibitory T cell phenotype. The single GAR1 paper (PMC12603805) is a Drosophila gene-model report with no immune content. The remaining nine are TCR-engineering, immunotherapy, signal-strength, or computational studies that never involve GAR1; one true TCR-inhibition study concerns PTPN22, not the candidate. Retrieval reflects keyword collisions ('Gar1' gene and 'TCR') rather than genuine GAR1 T cell evidence.",
+    "confidence": "high"
+  }
+}

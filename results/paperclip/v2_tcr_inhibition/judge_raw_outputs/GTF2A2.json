@@ -1,0 +1,146 @@
+{
+  "tf": "GTF2A2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:42:26Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-f8e33438-077f-4af5-a3e4-07891d82bfa7",
+      "agent_id": "agent-abd1f1a6-b854-4887-b31e-85bdcedd255f",
+      "raw": "Based on the retrieved papers, none of the 10 results actually study GTF2A2. Every hit is a keyword collision on \"TCR\" with no mention of the candidate regulator, so no paper materially links GTF2A2 to TCR inhibition.\n\n```json\n{\n  \"tf\": \"GTF2A2\",\n  \"query\": \"GTF2A2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"phosphorylation site at Ser 325 ... promotes its TCR-inhibitory activity\",\n      \"rationale\": \"Genuine proximal TCR-inhibition study, but concerns PTPN22, not GTF2A2; provides no evidence about the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11253514\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; T cell reporter line\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PD-1 and BTLA signals attenuated transcriptomic changes mediated by TCR-complex signaling\",\n      \"rationale\": \"Real checkpoint attenuation study of BTLA/PD-1; GTF2A2 is never mentioned, so it says nothing about the candidate.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire (bioinformatic)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy\",\n      \"rationale\": \"Review on TCR selection for immunotherapy; no GTF2A2 and no inhibitory T cell phenotype content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected\",\n      \"rationale\": \"TCR engineering/mispairing model; no GTF2A2 involvement and no inhibitory-regulator biology.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-T cells; mouse xenograft; CD4+ T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-engineered T cells ... significantly inhibited nasopharyngeal cancer growth in mouse models\",\n      \"rationale\": \"Anti-tumor CD4 TCR-T therapy; 'inhibition' refers to tumor growth, not TCR signalling, and no GTF2A2.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12934713\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; Jurkat line and primary T cells; HIS mice\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CRISPR-based platform that completely and selectively eliminates both endogenous TCR-alpha and -beta chains\",\n      \"rationale\": \"Endogenous TCR-removal platform for cell therapy; unrelated to GTF2A2 or inhibitory TCR regulation.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"in silico; TCR sequences\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR-epitope binding\",\n      \"rationale\": \"Computational TCR generation/binding tool; no GTF2A2 and no inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10287668\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; PBMC-derived engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"synthetic T-cell receptor targeting PD-L1 ... enhances T-cell cytotoxicity against solid tumors\",\n      \"rationale\": \"Synthetic anti-PD-L1 TCR-fusion receptor to boost cytotoxicity; no GTF2A2 and no TCR-inhibition mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse; CD8+ TCR-T cells; HCC models\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inhibiting PCSK9 enhances the effectiveness of TCR-T cells and anti-PD-1 immunotherapy against HCC\",\n      \"rationale\": \"PCSK9 metabolic study enhancing anti-tumor T cell function; concerns PCSK9, not GTF2A2, and boosts rather than inhibits.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6670834\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse; T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"dual inhibitor of Cdc7/Cdk9, PHA-767491, was found to impede T cell receptor signaling\",\n      \"rationale\": \"Small-molecule Cdc7/Cdk9 inhibitor suppressing T cell activation; concerns those kinases, not GTF2A2.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved paper mentions or studies GTF2A2, so none materially links the candidate to TCR inhibition or a related inhibitory T cell phenotype. Retrieval is driven by 'TCR' keyword collisions: the hits are TCR engineering, adoptive immunotherapy, checkpoint (PTPN22, BTLA/PD-1), computational TCR design and kinase-inhibitor studies of other molecules. The genuine TCR-inhibition papers concern PTPN22 and BTLA/PD-1, not GTF2A2. No primary study provides direct, indirect, or associative evidence about the regulator.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "GTF2A2",
+    "query": "GTF2A2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "phosphorylation site at Ser 325 ... promotes its TCR-inhibitory activity",
+        "rationale": "Genuine proximal TCR-inhibition study, but concerns PTPN22, not GTF2A2; provides no evidence about the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC11253514",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; T cell reporter line",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PD-1 and BTLA signals attenuated transcriptomic changes mediated by TCR-complex signaling",
+        "rationale": "Real checkpoint attenuation study of BTLA/PD-1; GTF2A2 is never mentioned, so it says nothing about the candidate."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire (bioinformatic)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy",
+        "rationale": "Review on TCR selection for immunotherapy; no GTF2A2 and no inhibitory T cell phenotype content."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected",
+        "rationale": "TCR engineering/mispairing model; no GTF2A2 involvement and no inhibitory-regulator biology."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-T cells; mouse xenograft; CD4+ T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-engineered T cells ... significantly inhibited nasopharyngeal cancer growth in mouse models",
+        "rationale": "Anti-tumor CD4 TCR-T therapy; 'inhibition' refers to tumor growth, not TCR signalling, and no GTF2A2."
+      },
+      {
+        "paperclip_result_id": "PMC12934713",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; Jurkat line and primary T cells; HIS mice",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CRISPR-based platform that completely and selectively eliminates both endogenous TCR-alpha and -beta chains",
+        "rationale": "Endogenous TCR-removal platform for cell therapy; unrelated to GTF2A2 or inhibitory TCR regulation."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "in silico; TCR sequences",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR-epitope binding",
+        "rationale": "Computational TCR generation/binding tool; no GTF2A2 and no inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC10287668",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; PBMC-derived engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "synthetic T-cell receptor targeting PD-L1 ... enhances T-cell cytotoxicity against solid tumors",
+        "rationale": "Synthetic anti-PD-L1 TCR-fusion receptor to boost cytotoxicity; no GTF2A2 and no TCR-inhibition mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse; CD8+ TCR-T cells; HCC models",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inhibiting PCSK9 enhances the effectiveness of TCR-T cells and anti-PD-1 immunotherapy against HCC",
+        "rationale": "PCSK9 metabolic study enhancing anti-tumor T cell function; concerns PCSK9, not GTF2A2, and boosts rather than inhibits."
+      },
+      {
+        "paperclip_result_id": "PMC6670834",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse; T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "dual inhibitor of Cdc7/Cdk9, PHA-767491, was found to impede T cell receptor signaling",
+        "rationale": "Small-molecule Cdc7/Cdk9 inhibitor suppressing T cell activation; concerns those kinases, not GTF2A2."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved paper mentions or studies GTF2A2, so none materially links the candidate to TCR inhibition or a related inhibitory T cell phenotype. Retrieval is driven by 'TCR' keyword collisions: the hits are TCR engineering, adoptive immunotherapy, checkpoint (PTPN22, BTLA/PD-1), computational TCR design and kinase-inhibitor studies of other molecules. The genuine TCR-inhibition papers concern PTPN22 and BTLA/PD-1, not GTF2A2. No primary study provides direct, indirect, or associative evidence about the regulator.",
+    "confidence": "high"
+  }
+}

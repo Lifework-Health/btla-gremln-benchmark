@@ -1,0 +1,149 @@
+{
+  "tf": "AHR",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:27:16Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-daf2f060-e160-43c9-9730-1485d680783a",
+      "agent_id": "agent-1e376277-03e7-4a3b-9a24-b0a364517d77",
+      "raw": "```json\n{\n  \"tf\": \"AHR\",\n  \"query\": \"AHR TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 2,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC12785682\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; non-immune system; rat liver (hepatocytes/MAFLD model), no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"AHR deficiency exacerbates hepatic cholesterol accumulation by inhibiting bile acid synthesis.\",\n      \"rationale\": \"Hepatic lipid/bile acid metabolism in AHR-knockout rats; no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7419300\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and non-human; tumor models with Tregs, CD8+ T cells and tumor-associated macrophages\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"AHR drives generation of Tregs and PD-1 up-regulation in CD8+ T cells.\",\n      \"rationale\": \"AHR blockade (perturbation) reverses Treg-mediated immunosuppression and PD-1-linked checkpoint response, but no proximal TCR-signalling readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12801039\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; monocyte-derived macrophages (non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"PCB mixtures act through AhR to dysregulate macrophage polarization, driving a pro-inflammatory phenotype.\",\n      \"rationale\": \"AhR-dependent macrophage polarization only; no T cells or TCR inhibition addressed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12504769\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; intestinal infection model, mixed immune response, no TCR-specific data\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"Prolonged duration of AHR activation alone does not explain TCDD toxicity.\",\n      \"rationale\": \"General AHR immune effects in intestinal infection; no TCR-inhibitory T cell phenotype demonstrated.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11354967\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; mouse bone marrow mesenchymal stem cells (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"IS inhibits early osteogenesis of BMSCs through the AhR/Hes1 pathway.\",\n      \"rationale\": \"AhR-mediated osteogenesis in stem cells; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10570930\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"not applicable; review of AHR biology in cancer\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"AHR's context-specific activity is influenced by multiple contributing factors.\",\n      \"rationale\": \"General AHR review; no specific primary TCR-inhibition evidence, cannot support tier independently.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary T cells and T cell lines\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser325 phosphorylation enhances PTPN22's inhibitory effect on TCR signaling.\",\n      \"rationale\": \"Concerns PTPN22, not AHR; strong TCR-inhibition data but wrong regulator, so irrelevant here.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4067745\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and non-human; keratinocytes/non-hematopoietic cells in skin inflammation\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"AhR activation reduced disease severity, while its deficiency exacerbated inflammation.\",\n      \"rationale\": \"AhR dampens skin inflammation via non-hematopoietic keratinocytes; not TCR inhibition in T cells.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"not applicable; review of TCR repertoire selection for immunotherapy\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Review explores using patient TCR repertoire data to select therapeutic T cells.\",\n      \"rationale\": \"TCR repertoire/engineering review; no AHR content or TCR-inhibitory mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3412388\",\n      \"retrieval_rank\": 10,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human; mouse primary CD4+ T cells (AhR+/+ vs AhR-/-), effector polarization\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"AhR activation down-regulated Il17a and Rorc, suggesting a role in suppressing inflammatory responses.\",\n      \"rationale\": \"Causal (AhR-/-) but phenotype is differentiation/gene expression and Treg induction, not TCR signalling inhibition.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC7419300\", \"PMC3412388\"],\n  \"tier_rationale\": \"PMC7419300 is a primary study with direct perturbational evidence (AHR blockade) that AHR promotes an inhibitory checkpoint/Treg suppressive axis, including PD-1 up-regulation in CD8+ T cells, but it lacks a proximal TCR-signalling readout, so it is relevant-but-incomplete rather than direct TCR inhibition. PMC3412388 adds causal AhR-/- evidence of immunosuppression/Treg-associated differentiation. No primary study demonstrates direct causal AHR effects on proximal TCR signalling or TCR-linked anergy with a mechanistic TCR readout, so strong is not met; between tiers the lower is chosen but a relevant primary causal inhibitory-checkpoint study supports moderate.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "AHR",
+    "query": "AHR TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 2,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC12785682",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; non-immune system; rat liver (hepatocytes/MAFLD model), no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "AHR deficiency exacerbates hepatic cholesterol accumulation by inhibiting bile acid synthesis.",
+        "rationale": "Hepatic lipid/bile acid metabolism in AHR-knockout rats; no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC7419300",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human and non-human; tumor models with Tregs, CD8+ T cells and tumor-associated macrophages",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "AHR drives generation of Tregs and PD-1 up-regulation in CD8+ T cells.",
+        "rationale": "AHR blockade (perturbation) reverses Treg-mediated immunosuppression and PD-1-linked checkpoint response, but no proximal TCR-signalling readout."
+      },
+      {
+        "paperclip_result_id": "PMC12801039",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; monocyte-derived macrophages (non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "context dependent",
+        "supporting_excerpt": "PCB mixtures act through AhR to dysregulate macrophage polarization, driving a pro-inflammatory phenotype.",
+        "rationale": "AhR-dependent macrophage polarization only; no T cells or TCR inhibition addressed."
+      },
+      {
+        "paperclip_result_id": "PMC12504769",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; intestinal infection model, mixed immune response, no TCR-specific data",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "context dependent",
+        "supporting_excerpt": "Prolonged duration of AHR activation alone does not explain TCDD toxicity.",
+        "rationale": "General AHR immune effects in intestinal infection; no TCR-inhibitory T cell phenotype demonstrated."
+      },
+      {
+        "paperclip_result_id": "PMC11354967",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; mouse bone marrow mesenchymal stem cells (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "IS inhibits early osteogenesis of BMSCs through the AhR/Hes1 pathway.",
+        "rationale": "AhR-mediated osteogenesis in stem cells; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC10570930",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "not applicable; review of AHR biology in cancer",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "context dependent",
+        "supporting_excerpt": "AHR's context-specific activity is influenced by multiple contributing factors.",
+        "rationale": "General AHR review; no specific primary TCR-inhibition evidence, cannot support tier independently."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary T cells and T cell lines",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser325 phosphorylation enhances PTPN22's inhibitory effect on TCR signaling.",
+        "rationale": "Concerns PTPN22, not AHR; strong TCR-inhibition data but wrong regulator, so irrelevant here."
+      },
+      {
+        "paperclip_result_id": "PMC4067745",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human and non-human; keratinocytes/non-hematopoietic cells in skin inflammation",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "AhR activation reduced disease severity, while its deficiency exacerbated inflammation.",
+        "rationale": "AhR dampens skin inflammation via non-hematopoietic keratinocytes; not TCR inhibition in T cells."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "not applicable; review of TCR repertoire selection for immunotherapy",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Review explores using patient TCR repertoire data to select therapeutic T cells.",
+        "rationale": "TCR repertoire/engineering review; no AHR content or TCR-inhibitory mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC3412388",
+        "retrieval_rank": 10,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human; mouse primary CD4+ T cells (AhR+/+ vs AhR-/-), effector polarization",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "AhR activation down-regulated Il17a and Rorc, suggesting a role in suppressing inflammatory responses.",
+        "rationale": "Causal (AhR-/-) but phenotype is differentiation/gene expression and Treg induction, not TCR signalling inhibition."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC7419300",
+      "PMC3412388"
+    ],
+    "tier_rationale": "PMC7419300 is a primary study with direct perturbational evidence (AHR blockade) that AHR promotes an inhibitory checkpoint/Treg suppressive axis, including PD-1 up-regulation in CD8+ T cells, but it lacks a proximal TCR-signalling readout, so it is relevant-but-incomplete rather than direct TCR inhibition. PMC3412388 adds causal AhR-/- evidence of immunosuppression/Treg-associated differentiation. No primary study demonstrates direct causal AHR effects on proximal TCR signalling or TCR-linked anergy with a mechanistic TCR readout, so strong is not met; between tiers the lower is chosen but a relevant primary causal inhibitory-checkpoint study supports moderate.",
+    "confidence": "moderate"
+  }
+}
