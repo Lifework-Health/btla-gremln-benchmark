@@ -1,0 +1,141 @@
+You are evaluating published evidence that a candidate regulator contributes
+to inhibition or attenuation of T cell receptor signalling.
+
+Candidate regulator: {TF}
+Paperclip query: "{TF} TCR inhibition"
+
+You are given the top {N} results returned by Paperclip. Use only the supplied
+papers and passages. Do not use prior knowledge about the regulator. Do not
+invent citations, experiments or conclusions.
+
+For each paper:
+
+1. Determine whether it is materially relevant to TCR inhibition or a closely
+   related inhibitory T cell phenotype.
+
+2. Classify the study as:
+   - primary experimental;
+   - computational or observational;
+   - review;
+   - other.
+
+3. Record the experimental system:
+   - human or non-human;
+   - primary T cells, T cell line, other immune cells or non-immune system;
+   - relevant T cell subset where available.
+
+4. Classify evidence directness as:
+   - direct causal or perturbational;
+   - indirect mechanistic;
+   - associative;
+   - generic T cell biology;
+   - irrelevant.
+
+5. Classify the phenotype as one of:
+   - proximal TCR signalling inhibition or attenuation;
+   - inhibitory checkpoint response;
+   - T cell anergy or hyporesponsiveness;
+   - exhaustion explicitly linked to impaired TCR function;
+   - another inhibitory T cell phenotype;
+   - general activation, proliferation or differentiation;
+   - unrelated.
+
+6. Record whether the regulator:
+   - promotes the inhibitory phenotype;
+   - opposes the inhibitory phenotype;
+   - has context dependent effects;
+   - has unclear direction.
+
+7. Provide a concise rationale grounded in the supplied material and identify
+   the supporting Paperclip result ID. A supporting excerpt must be no more
+   than 20 words.
+
+After reviewing all retrieved papers, assign one overall evidence tier.
+
+STRONG
+
+Assign strong evidence only when at least one primary experimental study
+provides direct causal or perturbational evidence that altering the candidate
+regulator changes:
+
+- TCR signalling inhibition or attenuation;
+- an inhibitory checkpoint response;
+- TCR-linked anergy or hyporesponsiveness;
+
+and includes a functional or mechanistic readout.
+
+Two independent primary studies providing consistent direct causal evidence
+in a closely related inhibitory T cell phenotype may also support a strong
+tier.
+
+MODERATE
+
+Assign moderate evidence when at least one primary study provides relevant
+but incomplete evidence, for example:
+
+- causal evidence in a related inhibitory T cell context but not a direct
+  TCR inhibition experiment;
+- direct evidence in a different species or T cell subset;
+- an inhibitory checkpoint, anergy, hyporesponsiveness or exhaustion study
+  where impaired TCR function is demonstrated but mechanistic directness is
+  incomplete;
+- indirect mechanistic evidence that materially connects the regulator to an
+  inhibitory T cell phenotype.
+
+WEAK
+
+Assign weak evidence when retrieved evidence is limited to:
+
+- general T cell activation;
+- proliferation;
+- differentiation or lineage specification;
+- expression correlations;
+- computational inference without experimental confirmation;
+- non-T-cell systems;
+- review articles without adequate supporting primary evidence.
+
+NONE
+
+Assign no evidence when no retrieved primary study materially links the
+regulator to TCR inhibition or a closely related inhibitory T cell phenotype.
+
+MANDATORY RULES
+
+- Generic T cell activation or differentiation is not sufficient for moderate.
+- Exhaustion is not sufficient unless impaired or attenuated TCR function is
+  explicitly demonstrated.
+- A review article cannot independently support strong or moderate evidence.
+- Strong evidence requires at least one direct causal primary paper.
+- Moderate evidence requires at least one relevant primary paper.
+- If evidence lies between two tiers, assign the lower tier.
+- If no papers were returned, assign none with low confidence.
+- Cite only supplied Paperclip result IDs.
+- Do not expose private chain of thought. Return only the requested structured
+  assessment and concise rationales.
+
+Return valid JSON matching this structure:
+
+{
+  "tf": "",
+  "query": "",
+  "papers_retrieved": 0,
+  "papers_relevant": 0,
+  "paper_assessments": [
+    {
+      "paperclip_result_id": "",
+      "retrieval_rank": 0,
+      "relevant": true,
+      "study_type": "primary experimental|computational or observational|review|other",
+      "experimental_system": "",
+      "evidence_directness": "direct causal or perturbational|indirect mechanistic|associative|generic T cell biology|irrelevant",
+      "phenotype": "",
+      "direction": "promotes inhibition|opposes inhibition|context dependent|unclear",
+      "supporting_excerpt": "",
+      "rationale": ""
+    }
+  ],
+  "overall_evidence_tier": "strong|moderate|weak|none",
+  "key_paperclip_result_ids": [],
+  "tier_rationale": "",
+  "confidence": "high|moderate|low"
+}

@@ -1,0 +1,150 @@
+{
+  "tf": "BCL3",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:28:55Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-531628a3-0eed-4d75-b860-dc1bc81ea691",
+      "agent_id": "agent-0b9d7570-9766-4a3c-8cd9-29ffd3e9dff2",
+      "raw": "Based on the supplied papers only, here is the structured assessment:\n\n```json\n{\n  \"tf\": \"BCL3\",\n  \"query\": \"BCL3 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 4,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10775530\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"non-immune; cancer/solid tumour biology; no T cell subset\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"BCL3 is a proto-oncogene that modulates multiple signaling pathways involved in cancer development.\",\n      \"rationale\": \"Cancer-focused review of BCL3/NF-kB signalling; no T cell or TCR inhibition content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10813424\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; breast cancer cell lines (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Bcl3 loss significantly reduced viability and induced apoptosis, with p53-dependent senescence also observed.\",\n      \"rationale\": \"Studies Bcl3 in breast cancer cell viability; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12730859\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (zebrafish); whole-organism immune system, not T-cell specific\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Bcl3 deficiency leads to hyperinflammation and reduced survival, suggesting Bcl3 crucial for immune homeostasis.\",\n      \"rationale\": \"Bcl3 dampens general inflammation, but no T-cell-specific or TCR signalling readout provided.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2660861\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary T cells; CD2-driven transgene, antigen responses\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Over-expression of Bcl-3 slows T cell activation early in antigen responses.\",\n      \"rationale\": \"Transgenic overexpression cell-intrinsically slows early T cell activation/proliferation, but readout is generic activation, not proximal TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12646068\",\n      \"retrieval_rank\": 5,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (NOD mouse); primary T cells; Tregs, CD4 effector, CD8 central memory\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"CRISPR-mediated deletion of Bcl3 in NOD mice completely prevented type 1 diabetes.\",\n      \"rationale\": \"CRISPR Bcl3 ablation confers autoimmune protection with elevated Tregs and PD-1-reversible tolerance, but no direct TCR signalling assay.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5414353\",\n      \"retrieval_rank\": 6,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) with human IBD correlation; primary T cells; regulatory T (Treg) cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"High Bcl-3 inhibits Treg development and function, causing spontaneous colitis.\",\n      \"rationale\": \"T-cell-specific Bcl-3 overexpression impairs Treg (an inhibitory subset) development/function via NF-kB p50, causal and mechanistic but not TCR-proximal.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11731105\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human; chondrocytes (non-immune), RNA-seq datasets\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"BCL3 was identified as a potential biomarker with an anti-apoptotic role in chondrocytes.\",\n      \"rationale\": \"Osteoarthritis biomarker/chondrocyte study; no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4931663\",\n      \"retrieval_rank\": 8,\n      \"relevant\": true,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"mixed (mouse/human summary); adaptive immune cells including lymphocytes\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"Bcl-3 is essential for immune cell development, survival, and function.\",\n      \"rationale\": \"Review of Bcl-3 in adaptive immunity and tolerance; cannot independently support strong or moderate evidence.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12003009\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); hepatocytes/liver (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Bcl3 deficiency alleviates liver damage by enhancing Nrf2 activation and glutathione replenishment.\",\n      \"rationale\": \"Liver-specific knockout in hepatocyte injury; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10618080\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse; colorectal cancer cells (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"BCL-3 suppression increases sensitivity to DNA damaging agents by impairing homologous recombination.\",\n      \"rationale\": \"DNA damage repair in colorectal cancer; no T cell or TCR content.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC5414353\", \"PMC12646068\", \"PMC2660861\"],\n  \"tier_rationale\": \"Primary murine studies give direct perturbational (overexpression/CRISPR) evidence that Bcl-3 impairs Treg development/function and drives loss of tolerance (colitis, autoimmune diabetes), i.e. causal effects in a related inhibitory T cell context. Transgenic Bcl-3 also cell-intrinsically slows early T cell activation. However, no study directly measures proximal TCR signalling inhibition, checkpoint response, or TCR-linked anergy/hyporesponsiveness with a mechanistic TCR readout, so the evidence is relevant but incomplete for strong. Reviews cannot support higher tiers.\",\n  \"confidence\": \"moderate\"\n}\n```\n\n**Summary:** Evidence is rated **moderate**. Multiple primary mouse studies show direct, perturbational effects of Bcl-3 on inhibitory/regulatory T cell contexts (PMC5414353 impairs Treg development/function; PMC12646068 CRISPR ablation restores tolerance/Tregs), and PMC2660861 shows overexpression slows T cell activation. None, however, provides a direct proximal-TCR-inhibition or checkpoint/anergy experiment with a TCR-specific mechanistic readout, and the two dedicated review articles cannot raise the tier. Per the \"lower tier when between two\" rule, this lands at moderate.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "BCL3",
+    "query": "BCL3 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 4,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10775530",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "non-immune; cancer/solid tumour biology; no T cell subset",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "BCL3 is a proto-oncogene that modulates multiple signaling pathways involved in cancer development.",
+        "rationale": "Cancer-focused review of BCL3/NF-kB signalling; no T cell or TCR inhibition content."
+      },
+      {
+        "paperclip_result_id": "PMC10813424",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; breast cancer cell lines (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Bcl3 loss significantly reduced viability and induced apoptosis, with p53-dependent senescence also observed.",
+        "rationale": "Studies Bcl3 in breast cancer cell viability; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC12730859",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (zebrafish); whole-organism immune system, not T-cell specific",
+        "evidence_directness": "associative",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Bcl3 deficiency leads to hyperinflammation and reduced survival, suggesting Bcl3 crucial for immune homeostasis.",
+        "rationale": "Bcl3 dampens general inflammation, but no T-cell-specific or TCR signalling readout provided."
+      },
+      {
+        "paperclip_result_id": "PMC2660861",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary T cells; CD2-driven transgene, antigen responses",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Over-expression of Bcl-3 slows T cell activation early in antigen responses.",
+        "rationale": "Transgenic overexpression cell-intrinsically slows early T cell activation/proliferation, but readout is generic activation, not proximal TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12646068",
+        "retrieval_rank": 5,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (NOD mouse); primary T cells; Tregs, CD4 effector, CD8 central memory",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "CRISPR-mediated deletion of Bcl3 in NOD mice completely prevented type 1 diabetes.",
+        "rationale": "CRISPR Bcl3 ablation confers autoimmune protection with elevated Tregs and PD-1-reversible tolerance, but no direct TCR signalling assay."
+      },
+      {
+        "paperclip_result_id": "PMC5414353",
+        "retrieval_rank": 6,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) with human IBD correlation; primary T cells; regulatory T (Treg) cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "High Bcl-3 inhibits Treg development and function, causing spontaneous colitis.",
+        "rationale": "T-cell-specific Bcl-3 overexpression impairs Treg (an inhibitory subset) development/function via NF-kB p50, causal and mechanistic but not TCR-proximal."
+      },
+      {
+        "paperclip_result_id": "PMC11731105",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human; chondrocytes (non-immune), RNA-seq datasets",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "BCL3 was identified as a potential biomarker with an anti-apoptotic role in chondrocytes.",
+        "rationale": "Osteoarthritis biomarker/chondrocyte study; no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC4931663",
+        "retrieval_rank": 8,
+        "relevant": true,
+        "study_type": "review",
+        "experimental_system": "mixed (mouse/human summary); adaptive immune cells including lymphocytes",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "context dependent",
+        "supporting_excerpt": "Bcl-3 is essential for immune cell development, survival, and function.",
+        "rationale": "Review of Bcl-3 in adaptive immunity and tolerance; cannot independently support strong or moderate evidence."
+      },
+      {
+        "paperclip_result_id": "PMC12003009",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); hepatocytes/liver (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Bcl3 deficiency alleviates liver damage by enhancing Nrf2 activation and glutathione replenishment.",
+        "rationale": "Liver-specific knockout in hepatocyte injury; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC10618080",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse; colorectal cancer cells (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "BCL-3 suppression increases sensitivity to DNA damaging agents by impairing homologous recombination.",
+        "rationale": "DNA damage repair in colorectal cancer; no T cell or TCR content."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC5414353",
+      "PMC12646068",
+      "PMC2660861"
+    ],
+    "tier_rationale": "Primary murine studies give direct perturbational (overexpression/CRISPR) evidence that Bcl-3 impairs Treg development/function and drives loss of tolerance (colitis, autoimmune diabetes), i.e. causal effects in a related inhibitory T cell context. Transgenic Bcl-3 also cell-intrinsically slows early T cell activation. However, no study directly measures proximal TCR signalling inhibition, checkpoint response, or TCR-linked anergy/hyporesponsiveness with a mechanistic TCR readout, so the evidence is relevant but incomplete for strong. Reviews cannot support higher tiers.",
+    "confidence": "moderate"
+  }
+}

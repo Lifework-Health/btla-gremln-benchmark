@@ -1,0 +1,108 @@
+{
+  "tf": "IRF8",
+  "query": "IRF8 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC12324457",
+      "rank": 1,
+      "title": "Covalent Degraders of Immune Regulatory Transcription Factors IRF8 and IRF5",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Transcription factors are among the most challenging targets for drug discovery due to their lack of classical binding pockets and high degree of intrinsic disorder, despite the therapeutic importance of many of these proteins. IRF5 and IRF8 are key transcriptional regulators of innate immune signaling that orchestrate pro-inflammatory gene expression programs in response to stimuli such as toll-like receptor activation, making them central players in autoimmune and inflammatory diseases. Despite their therapeutic interest, direct targeting of IRF5 and IRF8 has remained challenging. Here, we screened a library of cysteine-reactive covalent ligands to identify hits that could degrade IRF5. We identified acrylamide EN1033 as the top hit, which not only led to IRF5 loss in a proteasome-dependent manner but also bound directly and covalently to the IRF5 protein, inhibiting IRF5-specific transcriptional activity in a macrophage cell line. Upon further analysis, however, we found that EN1033 not only engaged and degraded IRF5 but also more robustly and rapidly engaged and degraded a related inflammatory transcription factor, IRF8. We further demonstrated that EN1033 destabilized and degraded IRF5 and IRF8 by covalently targeting C28 and C223, respectively, as evidenced by the attenuation of their degradation through mutagenesis of these cysteines. We also found that IRF8 loss led to the downregulation and inhibition of IRF5 activity, suggesting a crosstalk between these two transcription factors, which are both targeted by EN1033. Overall, we identify an early-stage pathfinder molecule that covalently targets IRF8 and IRF5, thereby degrading these transcription factors and inhibiting their pro-inflammatory transcriptional activity.",
+      "relevant_passages": "A covalent ligand was developed to target immune regulatory transcription factors IRF5 and IRF8. This molecule degrades both IRF5 and IRF8, inhibiting their pro-inflammatory activity.",
+      "doi_or_pmcid": "10.1101/2025.08.03.668300"
+    },
+    {
+      "paperclip_result_id": "PMC3112536",
+      "rank": 2,
+      "title": "Transcription factor IRF8 directs a silencing programme for T H 17 cell differentiation",
+      "year": "2011",
+      "publication_type": "research-article",
+      "abstract": "T H 17 cells are recognized as a unique subset of T helper cells that have critical roles in the pathogenesis of autoimmunity and tissue inflammation. Although RORγt is necessary for the generation of T H 17 cells, the molecular mechanisms underlying the functional diversity of T H 17 cells are not fully understood. Here we show that a member of interferon regulatory factor (IRF) family of transcription factors, IRF8, has a critical role in silencing T H 17-cell differentiation. Mice with a conventional knockout, as well as a T cell-specific deletion, of the  Irf8  gene exhibited more efficient T H 17 cells. Indeed, studies of an experimental model of colitis showed that IRF8 deficiency resulted in more severe inflammation with an enhanced T H 17 phenotype. IRF8 was induced steadily and inhibited T H 17-cell differentiation during T H 17 lineage commitment at least in part through its physical interaction with RORγt. These findings define IRF8 as a novel intrinsic transcriptional inhibitor of T H 17-cell differentiation.",
+      "relevant_passages": "IRF8's role in silencing T H 17 cell differentiation was studied. IRF8 acts as an inhibitor of T H 17 cell development, with its absence leading to more severe inflammation.",
+      "doi_or_pmcid": "10.1038/ncomms1311"
+    },
+    {
+      "paperclip_result_id": "PMC11905893",
+      "rank": 3,
+      "title": "IRF8 aggravates nonalcoholic fatty liver disease via BMAL1/PPARγ axis",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Non-alcoholic fatty liver disease (NAFLD) is a hepatic metabolic syndrome arising from lipid metabolic imbalance, with its prevalence increasing globally. In this study, we observed a significant up-regulation of interferon regulatory factor 8 (IRF8) in the liver of NAFLD model mice and patients. Overexpression of IRF8 induced lipid accumulation in the mouse primary hepatocytes. Mice with adeno-associated virus-mediated IRF8 overexpression exhibited hepatic steatosis due to up-regulated peroxisome proliferator-activated receptor γ (PPARγ) expression and increased fatty acid uptake and lipogenesis.  In vitro , small interfering RNA-mediated IRF8 knockdown attenuated triglyceride accumulation by dampening PPARγ expression through transcriptional inhibition of brain and muscle ARNT-like 1. The PPARγ-specific antagonist GW9662 abolished the effect of IRF8 overexpression. Furthermore, adeno-associated virus-mediated IRF8 knockdown in the mouse liver markedly alleviated hepatic steatosis and obesity-related metabolic syndrome. These findings indicate that IRF8 plays a vital role in modulating hepatic lipid metabolism in a PPARγ-dependent manner and provide a previously unknown insight into NAFLD therapeutic strategies.",
+      "relevant_passages": "Interferon regulatory factor 8 (IRF8) was studied in nonalcoholic fatty liver disease (NAFLD). IRF8 aggravates NAFLD by promoting lipid accumulation through the BMAL1/PPARγ axis.",
+      "doi_or_pmcid": "10.1016/j.gendis.2024.101333"
+    },
+    {
+      "paperclip_result_id": "PMC9454819",
+      "rank": 4,
+      "title": "IRF8: Mechanism of Action and Health Implications",
+      "year": "2022",
+      "publication_type": "review-article",
+      "abstract": "Interferon regulatory factor 8 (IRF8) is a transcription factor of the IRF protein family. IRF8 was originally identified as an essentialfactor for myeloid cell lineage commitment and differentiation. Deletion of  Irf8  leads to massive accumulation of CD11b + Gr1 +  immature myeloid cells (IMCs), particularly the CD11b + Ly6C hi/+ Ly6G −  polymorphonuclear myeloid-derived suppressor cell-like cells (PMN-MDSCs). Under pathological conditions such as cancer,  Irf8  is silenced by its promoter DNA hypermethylation, resulting in accumulation of PMN-MDSCs and CD11b +  Ly6G + Ly6C lo  monocytic MDSCs (M-MDSCs) in mice. IRF8 is often silenced in MDSCs in human cancer patients. MDSCs are heterogeneous populations of immune suppressive cells that suppress T and NK cell activity to promote tumor immune evasion and produce growth factors to exert direct tumor-promoting activity. Emerging experimental data reveals that IRF8 is also expressed in non-hematopoietic cells. Epithelial cell-expressed IRF8 regulates apoptosis and represses Osteopontin (OPN). Human tumor cells may use the IRF8 promoter DNA methylation as a mechanism to repress IRF8 expression to advance cancer through acquiring apoptosis resistance and OPN up-regulation. Elevated OPN engages CD44 to suppress T cell activation and promote tumor cell stemness to advance cancer. IRF8 thus is a transcription factor that regulates both the immune and non-immune components in human health and diseases.",
+      "relevant_passages": "This paper examines the role of transcription factor IRF8 in myeloid cell development and its implications in cancer. IRF8's silencing promotes immune suppression and tumor growth by increasing myeloid-derived suppressor cells and affecting epithelial cell functions.",
+      "doi_or_pmcid": "10.3390/cells11172630"
+    },
+    {
+      "paperclip_result_id": "PMC11153194",
+      "rank": 5,
+      "title": "IRF8 maintains mononuclear phagocyte and neutrophil function in acute kidney injury ☆",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Immune cells are key players in acute tissue injury and inflammation, including acute kidney injury (AKI). Their development, differentiation, activation status, and functions are mediated by a variety of transcription factors, such as interferon regulatory factor 8 (IRF8) and IRF4. We speculated that IRF8 has a pathophysiologic impact on renal immune cells in AKI and found that IRF8 is highly expressed in blood type 1 conventional dendritic cells (cDC1s), monocytes, monocyte-derived dendritic cells (moDCs) and kidney biopsies from patients with AKI. In a mouse model of ischemia‒reperfusion injury (IRI)-induced AKI,  Irf8 −/−  mice displayed increased tubular cell necrosis and worsened kidney dysfunction associated with the recruitment of a substantial amount of monocytes and neutrophils but defective renal infiltration of cDC1s and moDCs. Mechanistically, global  Irf8  deficiency impaired moDC and cDC1 maturation and activation, as well as cDC1 proliferation, antigen uptake, and trafficking to lymphoid organs for T-cell priming in ischemic AKI. Moreover, compared with  Irf8 +/+  mice,  Irf8 −/−  mice exhibited increased neutrophil recruitment and neutrophil extracellular trap (NET) formation following AKI. IRF8 primarily regulates cDC1 and indirectly neutrophil functions, and thereby protects mice from kidney injury and inflammation following IRI. Our results demonstrate that IRF8 plays a predominant immunoregulatory role in cDC1 function and therefore represents a potential therapeutic target in AKI.",
+      "relevant_passages": "This study investigated the role of IRF8 in immune cell function during acute kidney injury. IRF8 deficiency exacerbates kidney injury by impairing dendritic cell function and increasing neutrophil recruitment and NET formation.",
+      "doi_or_pmcid": "10.1016/j.heliyon.2024.e31818"
+    },
+    {
+      "paperclip_result_id": "PMC5727025",
+      "rank": 6,
+      "title": "IRF8-dependent molecular complexes control the Th9 transcriptional program",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "Interferon regulatory factors (IRF) have critical functions in lymphoid development and in immune response regulation. Although many studies have described the function of IRF4 in CD4 +  T cells, few have focused on the IRF4 homologue, IRF8. Here, we show that IRF8 is required for Th9 differentiation in vitro and in vivo. IRF8 functions through a transcription factor complex consisting of IRF8, IRF4, PU.1 and BATF, which binds to DNA and boosts  Il9  transcription. By contrast, IRF8 deficiency promotes the expression of other genes such as  Il4 , as IRF8 dimerises with the transcriptional repressor ETV6 and inhibits  Il4  expression. In vivo, IRF8 is essential for the anti-tumour effects of Th9 cells in mouse melanoma models. Our results show that IRF8 complexes boost the Th9 program and repress  Il4  expression to modulate Th9 cell differentiation, thereby implicating IRF8 as a potential therapeutic target to affect Th9 responses in cancer therapy.",
+      "relevant_passages": "IRF8 was studied for its role in Th9 cell differentiation. IRF8 complexes control Th9 gene expression and repress IL-4, impacting anti-tumor immunity.",
+      "doi_or_pmcid": "10.1038/s41467-017-01070-w"
+    },
+    {
+      "paperclip_result_id": "PMC11190126",
+      "rank": 7,
+      "title": "The roles of IRF8 in nonspecific orbital inflammation: an integrated analysis by bioinformatics and machine learning",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Nonspecific Orbital Inflammation (NSOI) represents a persistent and idiopathic proliferative inflammatory disorder, characterized by polymorphous lymphoid infiltration within the orbit. The transcription factor Interferon Regulatory Factor 8 (IRF8), integral to the IRF protein family, was initially identified as a pivotal element for the commitment and differentiation of myeloid cell lineage. Serving as a central regulator of innate immune receptor signaling, IRF8 orchestrates a myriad of functions in hematopoietic cell development. However, the intricate mechanisms underlying IRF8 production remain to be elucidated, and its potential role as a biomarker for NSOI is yet to be resolved. IRF8 was extracted from the intersection analysis of common DEGs of GSE58331 and GSE105149 from the GEO and immune- related gene lists in the ImmPort database using The Lasso regression and SVM-RFE analysis. We performed GSEA and GSVA with gene sets coexpressed with IRF8, and observed that gene sets positively related to IRF8 were enriched in immune-related pathways. To further explore the correlation between IRF8 and immune-related biological process, the CIBERSORT algorithm and ESTIMATE method were employed to evaluate TME characteristics of each sample and confirmed that high IRF8 expression might give rise to high immune cell infiltration. Finally, the GSE58331 was utilized to confirm the levels of expression of IRF8. Among the 314 differentially expressed genes (DEGs), some DEGs were found to be significantly different. With LASSO and SVM-RFE algorithms, we obtained 15 hub genes. For biological function analysis in IRF8, leukocyte mediated immunity, leukocyte cell-cell adhesion, negative regulation of immune system process were emphasized. B cells naive, Macrophages M0, Macrophages M1, T cells CD4 memory activated, T cells CD4 memory resting, T cells CD4 naive, and T cells gamma delta were shown to be positively associated with IRF8. While, Mast cells resting, Monocytes, NK cells activated, Plasma cells, T cells CD8, and T cells regulatory (Tregs) were shown to be negatively linked with IRF8. The diagnostic ability of the IRF8 in differentiating NSOI exhibited a good value. This study discovered IRF8 that are linked to NSOI. IRF8 shed light on potential new biomarkers for NSOI and tracking its progression. The online version contains supplementary material available at 10.1186/s12348-024-00410-4.",
+      "relevant_passages": "This study investigated the role of IRF8 in nonspecific orbital inflammation using bioinformatics and machine learning. High IRF8 expression is associated with increased immune cell infiltration and specific immune cell types in NSOI.",
+      "doi_or_pmcid": "10.1186/s12348-024-00410-4"
+    },
+    {
+      "paperclip_result_id": "PMC9856547",
+      "rank": 8,
+      "title": "IRF8 Regulates Intrinsic Ferroptosis through Repressing p53 Expression to Maintain Tumor Cell Sensitivity to Cytotoxic T Lymphocytes",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Ferroptosis has emerged as a cytotoxic T lymphocyte (CTL)-induced tumor cell death pathway. The regulation of tumor cell sensitivity to ferroptosis is incompletely understood. Here, we report that interferon regulatory factor 8 (IRF8) functions as a regulator of tumor cell intrinsic ferroptosis. Genome-wide gene expression profiling identified the ferroptosis pathway as an IRF8-regulated pathway in tumor cells. IRF8.KO tumor cells acquire resistance to intrinsic ferroptosis induction and IRF8-deficient tumor cells also exhibit decreased ferroptosis in response to tumor-specific CTLs.  Irf8  deletion increased p53 expression in tumor cells and knocking out p53 in IRF8.KO tumor cells restored tumor cell sensitivity to intrinsic ferroptosis induction. Furthermore, IRF8.KO tumor cells grew significantly faster than WT tumor cells in immune-competent mice. To restore IRF8 expression in tumor cells, we designed and synthesized codon usage-optimized IRF8-encoding DNA to generate IRF8-encoding plasmid NTC9385R-mIRF8. Restoring IRF8 expression via a lipid nanoparticle-encapsulated NTC9385R-mIRF8 plasmid therapy suppressed established tumor growth in vivo. In human cancer patients, nivolumab responders have a significantly higher IRF8 expression level in their tumor cells as compared to the non-responders. Our data determine that IRF8 represses p53 expression to maintain tumor cell sensitivity to intrinsic ferroptosis.",
+      "relevant_passages": "Interferon regulatory factor 8 (IRF8) was studied as a regulator of tumor cell ferroptosis. IRF8 represses p53, maintaining tumor cell sensitivity to ferroptosis and CTL-mediated killing.",
+      "doi_or_pmcid": "10.3390/cells12020310"
+    },
+    {
+      "paperclip_result_id": "PMC12424652",
+      "rank": 9,
+      "title": "IRF8 deficiency causes anxiety-like behavior in a sex-dependent manner",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Anxiety disorder is a serious psychiatric disease that affects women twice more than men and disrupts patients’ daily lives. It is often comorbid with major depression and other mental diseases. Various underlying mechanisms have been proposed, such as neurotransmitters and neuroanatomical disruptions, and more recently, oxidative stress; however, much remained unclear, including the role of glial cells. Here, we investigated the role of IRF8 in anxiety disorders in the mouse model. IRF8 is a transcription factor expressed primarily in microglia in the brain. A battery of behavioral tests revealed that female IRF8 knockout (IRF8KO) mice show increased anxiety relative to male IRF8KO and wild-type mice. Female IRF8KO mice also exhibited a higher tendency for obsessive-compulsive disorder. However, these behavioral abnormalities were not observed when IRF8 was deleted postnatally, indicating that it acts during the fetal stage to control anxiety. Transcriptome analysis revealed that IRF8 deficiency leads to redox dysregulation. Further, 2’,7’-dichlorofluorescin diacetate (DCFDA) staining for microglia demonstrated that female IRF8KO microglia produce higher levels of reactive oxygen species (ROS) compared to WT and male IRF8KO counterparts. Detailed RNA-seq analysis, however, did not reveal specific genes that cause high ROS production in female cells. In sum, this work demonstrates that IRF8 in microglia plays a major role in controlling anxiety in a sex dependent manner.",
+      "relevant_passages": "IRF8 deficiency in mice was studied to understand its role in anxiety. Female IRF8 knockout mice exhibit increased anxiety and oxidative stress, suggesting IRF8's role in fetal development is crucial for sex-specific anxiety regulation.",
+      "doi_or_pmcid": "10.1101/2025.09.02.673764"
+    },
+    {
+      "paperclip_result_id": "PMC4543755",
+      "rank": 10,
+      "title": "Loss of IRF8 Inhibits the Growth of Diffuse Large B-cell Lymphoma",
+      "year": "2015",
+      "publication_type": "research-article",
+      "abstract": "IRF8 is a transcription factor with a critical role in B lymphocyte development and functions. Its role in human diffuse large B-cell lymphoma (DLBCL), however, remained elusive. In this study, using shRNA-mediated knockdown of IRF8 expression, we found that the loss of IRF8 significantly reduced the proliferation of DLBCL cells ( P <0.05). Mechanistically, decreasing the levels of IRF8 led to a suppression of the phosphorylation of p38 and ERK, molecules critical for B cell proliferation. Furthermore, using a xenograft lymphoma mouse model, we found that the loss of IRF8 significantly inhibited the growth of lymphomas  in vivo  ( P <0.05). Immunohistochemical analysis of human DLBCL tissues revealed that the levels of IRF8 were significantly greater in non-germinal center B-cell-like (non-GCB) subtype than that in GCB subtype ( P <0.05). Analysis of public available data also suggested that the expression levels of  IRF8  mRNA in human DLBCL tissues were inversely correlated with patients' overall survival time. Taken together, this study suggested that IRF8 may play an oncogenic role in human DLBCL by promoting cell proliferation.",
+      "relevant_passages": "IRF8 expression was reduced in DLBCL cells and mice, inhibiting lymphoma growth. Loss of IRF8 suppressed proliferation by decreasing p38 and ERK phosphorylation.",
+      "doi_or_pmcid": "10.7150/jca.12067"
+    }
+  ]
+}

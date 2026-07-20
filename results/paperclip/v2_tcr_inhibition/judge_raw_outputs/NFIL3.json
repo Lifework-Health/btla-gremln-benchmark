@@ -1,0 +1,149 @@
+{
+  "tf": "NFIL3",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:01:52Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-c0f275b1-7798-43db-8588-24005947e2f3",
+      "agent_id": "agent-0194fd45-daa6-492a-88ca-fbcc94e6c27e",
+      "raw": "I'll analyze each supplied paper against the rubric and produce the structured assessment. Based only on the supplied abstracts and passages, here is my evaluation.\n\n```json\n{\n  \"tf\": \"NFIL3\",\n  \"query\": \"NFIL3 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 2,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10898977\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) primary CD8+ T cells differentiated into cytotoxic T lymphocytes\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"TCR-induced ERK phosphorylation, immune synapse formation and granule release were all intact\",\n      \"rationale\": \"CRISPR deletion impaired effector cytotoxicity, an activating function; proximal TCR signalling was explicitly intact, so no TCR inhibition phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6802641\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) primary CD4+ regulatory T (Treg) cells, in vitro and in vivo\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"Nfil3-overexpressing Treg cells exhibited impaired immunosuppressive activity in vitro and in vivo\",\n      \"rationale\": \"Perturbation (overexpression) causally impairs Treg suppressive function via Foxp3 downregulation; relevant inhibitory T cell context but NFIL3 opposes suppression, not TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11962013\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse), non-immune (glucolipid metabolism, gut microbiota)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"DGF reduced NFIL3 expression in GLMD mice, regulated the gut microbiota and their metabolites\",\n      \"rationale\": \"Metabolic/microbiota study with no T cell or TCR readout; not materially relevant to TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11563780\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) primary CD4+ T cells / Th1 cells, knockout mice and in vitro polarization\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Mice with NFIL3 knockout ... exhibit ... significant downregulation of Tim3 expression\",\n      \"rationale\": \"Knockout causally reduces the inhibitory checkpoint Tim3 and enhances Th1 inflammation, connecting NFIL3 to checkpoint expression, but no direct TCR-signalling inhibition assay.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4144736\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) innate lymphoid cells, non-T immune\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Loss of Nfil3 selectively reduces Peyer's patch formation, impairing recruitment and distribution of lymphocytes\",\n      \"rationale\": \"ILC development study, not T cells; no TCR inhibition or inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10941009\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-immune in vitro structural/biochemical (bZIP domain, DNA binding)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"NFIL3 prefers to bind to the TTACGTAA DNA motif\",\n      \"rationale\": \"Structural DNA-recognition study with no T cell functional context; irrelevant to TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3865482\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) natural killer cells, non-T immune\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Nfil3 is dispensable for the maintenance and function of mature NK cells\",\n      \"rationale\": \"NK cell lineage study; no T cell or TCR inhibition phenotype examined.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10861811\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human pan-cancer datasets and ovarian cancer cell line (non-immune) validation\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"NFIL3 expression demonstrated a robust correlation with ... immune checkpoint-related genes\",\n      \"rationale\": \"Bioinformatic correlations with checkpoint genes and non-immune cell assays; associative expression only, no T cell causal evidence.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4144732\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) innate lymphoid cells, non-T immune\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Nfil3-deficient mice have severely reduced lung and visceral adipose tissue ILC2s and gut-associated ILC3s\",\n      \"rationale\": \"ILC development and antibacterial immunity study; not a T cell TCR inhibition phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11297963\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) and renal tubular epithelial cells, non-immune\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"NFIL3 knockdown attenuated ferroptosis and inflammation in renal tubular epithelial cells\",\n      \"rationale\": \"Kidney ferroptosis/sepsis study in non-immune cells; no T cell or TCR inhibition relevance.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC11563780\", \"PMC6802641\"],\n  \"tier_rationale\": \"No primary study provides direct causal evidence that altering NFIL3 changes proximal TCR signalling inhibition, so strong is excluded. However, PMC11563780 provides perturbational (knockout) evidence causally linking NFIL3 to expression of the inhibitory checkpoint Tim3 with a functional Th1 readout, and PMC6802641 provides direct perturbational evidence in the inhibitory Treg context. These constitute relevant but incomplete primary evidence connecting NFIL3 to inhibitory T cell phenotypes without a direct TCR inhibition experiment, satisfying moderate.\",\n  \"confidence\": \"moderate\"\n}\n```\n\nKey points: the top hit (PMC10898977) actually shows TCR proximal signalling **intact** with NFIL3 loss impairing effector cytotoxicity, so it argues against a TCR-inhibition role. The evidence supporting a moderate tier rests on the NFIL3→Tim3 checkpoint axis (PMC11563780) and NFIL3's causal role in Treg suppressive function (PMC6802641). No supplied paper directly demonstrates NFIL3-driven attenuation of proximal TCR signalling, so strong is not warranted.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "NFIL3",
+    "query": "NFIL3 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 2,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10898977",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) primary CD8+ T cells differentiated into cytotoxic T lymphocytes",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "TCR-induced ERK phosphorylation, immune synapse formation and granule release were all intact",
+        "rationale": "CRISPR deletion impaired effector cytotoxicity, an activating function; proximal TCR signalling was explicitly intact, so no TCR inhibition phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC6802641",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) primary CD4+ regulatory T (Treg) cells, in vitro and in vivo",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "Nfil3-overexpressing Treg cells exhibited impaired immunosuppressive activity in vitro and in vivo",
+        "rationale": "Perturbation (overexpression) causally impairs Treg suppressive function via Foxp3 downregulation; relevant inhibitory T cell context but NFIL3 opposes suppression, not TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11962013",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse), non-immune (glucolipid metabolism, gut microbiota)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "DGF reduced NFIL3 expression in GLMD mice, regulated the gut microbiota and their metabolites",
+        "rationale": "Metabolic/microbiota study with no T cell or TCR readout; not materially relevant to TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC11563780",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) primary CD4+ T cells / Th1 cells, knockout mice and in vitro polarization",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Mice with NFIL3 knockout ... exhibit ... significant downregulation of Tim3 expression",
+        "rationale": "Knockout causally reduces the inhibitory checkpoint Tim3 and enhances Th1 inflammation, connecting NFIL3 to checkpoint expression, but no direct TCR-signalling inhibition assay."
+      },
+      {
+        "paperclip_result_id": "PMC4144736",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) innate lymphoid cells, non-T immune",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Loss of Nfil3 selectively reduces Peyer's patch formation, impairing recruitment and distribution of lymphocytes",
+        "rationale": "ILC development study, not T cells; no TCR inhibition or inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC10941009",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-immune in vitro structural/biochemical (bZIP domain, DNA binding)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "NFIL3 prefers to bind to the TTACGTAA DNA motif",
+        "rationale": "Structural DNA-recognition study with no T cell functional context; irrelevant to TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC3865482",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) natural killer cells, non-T immune",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Nfil3 is dispensable for the maintenance and function of mature NK cells",
+        "rationale": "NK cell lineage study; no T cell or TCR inhibition phenotype examined."
+      },
+      {
+        "paperclip_result_id": "PMC10861811",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human pan-cancer datasets and ovarian cancer cell line (non-immune) validation",
+        "evidence_directness": "associative",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "NFIL3 expression demonstrated a robust correlation with ... immune checkpoint-related genes",
+        "rationale": "Bioinformatic correlations with checkpoint genes and non-immune cell assays; associative expression only, no T cell causal evidence."
+      },
+      {
+        "paperclip_result_id": "PMC4144732",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) innate lymphoid cells, non-T immune",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Nfil3-deficient mice have severely reduced lung and visceral adipose tissue ILC2s and gut-associated ILC3s",
+        "rationale": "ILC development and antibacterial immunity study; not a T cell TCR inhibition phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11297963",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) and renal tubular epithelial cells, non-immune",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "NFIL3 knockdown attenuated ferroptosis and inflammation in renal tubular epithelial cells",
+        "rationale": "Kidney ferroptosis/sepsis study in non-immune cells; no T cell or TCR inhibition relevance."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC11563780",
+      "PMC6802641"
+    ],
+    "tier_rationale": "No primary study provides direct causal evidence that altering NFIL3 changes proximal TCR signalling inhibition, so strong is excluded. However, PMC11563780 provides perturbational (knockout) evidence causally linking NFIL3 to expression of the inhibitory checkpoint Tim3 with a functional Th1 readout, and PMC6802641 provides direct perturbational evidence in the inhibitory Treg context. These constitute relevant but incomplete primary evidence connecting NFIL3 to inhibitory T cell phenotypes without a direct TCR inhibition experiment, satisfying moderate.",
+    "confidence": "moderate"
+  }
+}

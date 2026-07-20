@@ -1,0 +1,108 @@
+{
+  "tf": "MAF",
+  "query": "MAF TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC12726077",
+      "rank": 1,
+      "title": "RasGRP1 signaling is required for Vγ2 +  thymocyte c-Maf expression and γδT17 lineage programming",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The γδ TCR instructively directs both lineage specification and effector programming of developing γδ T cells. However, the way in which different TCR signal strengths and other auxiliary signals coordinate downstream of the γδ TCR to regulate γδ T-cell development remains unclear. In this study we defined the role of Ras guanyl-releasing protein 1 (RasGRP1) in the development and effector programming of γδ T cells. While RasGRP1 was not necessary for bulk γδ T-cell generation, we found it was required for efficient generation of Vγ4 +  thymocytes and lineage-committed CD73 +  γδ T cells in the thymus and periphery. Despite a decrease in immature CD73 +  γδ thymocytes, there was an expansion of the perinatally derived CD8 + IFNγ +  γδ T-cell population in the absence of RasGRP1. IL-17–producing γδ T cells were significantly reduced in RasGRP1 knockout mice, with a specific loss of Vγ2 +  γδ T cells that corresponded to a loss of c-Maf expression as early as the DN1d thymocyte stage. Critically, these cells undergoing γδT17 programming in adults could express c-Maf in response to CCR9 stimulation, with RasGRP1 but not MEK activity being required for CCR9-induced c-Maf expression. Thus, RasGRP1 activation serves as an important signaling hub in the effector programming of γδ T cells, which integrates signals from both non-TCR and TCR inputs to direct differentiation.",
+      "relevant_passages": "RasGRP1 signaling was studied in γδ T cell development and effector programming. RasGRP1 is required for Vγ2+ thymocyte c-Maf expression and γδT17 lineage programming, integrating TCR and non-TCR signals.",
+      "doi_or_pmcid": "10.1093/jimmun/vkaf230"
+    },
+    {
+      "paperclip_result_id": "PMC8978620",
+      "rank": 2,
+      "title": "A Costimulatory CAR Improves TCR-based Cancer Immunotherapy",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "This proof-of-concept study demonstrates that TCR-based therapies can be improved with engineered T cells expressing a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells are able to kill TCR targets, while sparing normal cells expressing the CoCAR antigen.",
+      "relevant_passages": "TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells effectively killed target cells while sparing normal cells expressing the CoCAR antigen.",
+      "doi_or_pmcid": "10.1158/2326-6066.CIR-21-0307"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 3,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC4209802",
+      "rank": 4,
+      "title": "TCR-engineered T cells: A model of inducible TCR expression to dissect the interrelationship between two TCRs",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "TCR gene modified T cells for adoptive therapy simultaneously express the Tg TCR and the endogenous TCR, which might lead to mispaired TCRs with harmful unknown specificity and to a reduced function of TCR-Tg T cells. We generated dual TCR T cells in two settings in which either TCR was constitutively expressed by a retroviral promoter while the second TCR expression was regulable by a Tet-on system. Constitutively expressed TCR molecules were reduced on the cell surface depending on the induced TCR expression leading to strongly hampered function. Besides that, using fluorescence resonance energy transfer we detected mispaired TCR dimers and different pairing behaviors of individual TCR chains with a mutual influence on TCR chain expression. The loss of function and mispairing could not be avoided by changing the TCR expression level or by introduction of an additional cysteine bridge. However, in polyclonal T cells, optimized TCR formats (cysteineization, codon optimization) enhanced correct pairing and function. We conclude from our data that (i) the level of mispairing depends on the individual TCRs and is not reduced by increasing the level of one TCR, and (ii) modifications (cysteineization, codon optimization) improve correct pairing but do not completely exclude mispairing (cysteineization).",
+      "relevant_passages": "Dual TCR T cells were engineered with one inducible TCR to study TCR mispairing and function. Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected despite modifications.",
+      "doi_or_pmcid": "10.1002/eji.201343591"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 5,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC3583918",
+      "rank": 6,
+      "title": "Limitations for TCR gene therapy by MHC-restricted fratricide and TCR-mediated hematopoietic stem cell toxicity",
+      "year": "2013",
+      "publication_type": "other",
+      "abstract": "The clinical use of lymphocytes engineered to express high affinity T-cell receptors (TCRs) specific for two broadly expressed tumor-associated antigens is strongly limited by MHC-restricted fratricide of lymphocytes and TCR-mediated killing of hematopoietic stem cells. Specific clinical applications must therefore be conceived to bypass these limitations.",
+      "relevant_passages": "Engineered T-cell receptors (TCRs) for tumor antigens face limitations from lymphocyte fratricide and stem cell toxicity. Strategies are needed to overcome these issues for effective clinical use.",
+      "doi_or_pmcid": "10.4161/onci.22410"
+    },
+    {
+      "paperclip_result_id": "PMC12606047",
+      "rank": 7,
+      "title": "Targeting the Liquid–Liquid Separation Region of c‐Maf for Treating Chromosomal Translocations in Multiple Myeloma",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Multiple myeloma (MM), as an incurable hematologic malignancy, is driven by chromosomal translocations. Recent research suggests that targeting phase separation may offer a new therapeutic vulnerability for MM. The transcription factor c‐Maf is implicated in MM‐associated translocations and undergoes liquid–liquid phase separation (LLPS). Although c‐Maf is historically classified as “undruggable” for its transcription factor nature, we propose a new therapeutic strategy targeting its phase separation mechanism. Comprehensive in vitro and in vivo experiments indicated that elevated c‐Maf promoted MM progression through LLPS. Mechanistically, the alanine‐rich intrinsically disordered regions (IDRs) in c‐Maf drive hydrophobic interactions, enabling phase separation. These IDRs recruit RNA Polymerase II (RNA Pol II) through similar interactions, forming oncogenic condensates that activate the Mtbp/c‐Myc axis. Notably, we discovered benzoyl benzoic acid (BBA) as a candidate compound targeting the inter‐IDR interaction domain of c‐Maf. BBA binding impedes c‐Maf's LLPS capacity, consequently blocking RNA Pol II recruitment and Mtbp transcriptional activation. This mechanistic interference successfully inhibited c‐Myc‐driven MM progression in experimental models. Our study demonstrates that c‐Maf‐driven LLPS activates the c‐Maf/RNA Pol II/Mtbp/c‐Myc axis, highlighting phase separation targeting as a promising therapeutic strategy for translocation‐associated MM patients.",
+      "relevant_passages": "This study investigated targeting c-Maf's liquid-liquid phase separation in multiple myeloma. Inhibiting this phase separation with benzoyl benzoic acid reduced c-Myc-driven myeloma progression.",
+      "doi_or_pmcid": "10.1002/mco2.70464"
+    },
+    {
+      "paperclip_result_id": "PMC6468010",
+      "rank": 8,
+      "title": "Maf deficiency in T cells dysregulates T reg  - T H 17 balance leading to spontaneous colitis",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "The maintenance of homeostasis in the gut is a major challenge for the immune system. Here we demonstrate that the transcription factor MAF plays a central role in T cells for the prevention of gastro-intestinal inflammation. Conditional knock out mice lacking  Maf  in all T cells developed spontaneous late-onset colitis, correlating with a decrease of FOXP3 + RORγt +  T cells proportion, dampened IL-10 production in the colon and an increase of inflammatory T H 17 cells. Strikingly, FOXP3 +  specific conditional knock out mice for MAF did not develop colitis and demonstrated normal levels of IL-10 in their colon, despite the incapacity of regulatory T cells lacking MAF to suppress colon inflammation in  Rag1 −/−  mice transferred with naïve CD4 +  T cells. We showed that one of the cellular sources of IL-10 in the colon of these mice are T H 17 cells. Thus, MAF is critically involved in the maintenance of the gut homeostasis by regulating the balance between T reg  and T H 17 cells either at the level of their differentiation or through the modulation of their functions.",
+      "relevant_passages": "Maf deficiency in T cells causes spontaneous colitis by disrupting the balance between regulatory and inflammatory T helper 17 cells. Maf is crucial for maintaining gut homeostasis through its regulation of these T cell populations.",
+      "doi_or_pmcid": "10.1038/s41598-019-42486-2"
+    },
+    {
+      "paperclip_result_id": "PMC12689506",
+      "rank": 9,
+      "title": "Transcription factor c-Maf: a checkpoint that programs autoimmunity",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "The transcription factor c-Maf, a member of the Maf family characterized by its basic domain and b-Zip DNA-binding motif, is a pivotal regulator of immune cells development and function. It governs immune cells growth, differentiation, function, and immune responses. This review explores the mechanistic role of c-Maf and its associated signaling networks in modulating autoimmunity and inflammation. We highlight its dual function as an immune checkpoint that suppresses pathological inflammation while promoting protective immunity, underscoring its therapeutic potential in autoimmune diseases.",
+      "relevant_passages": "This review examines the role of transcription factor c-Maf in immune cell regulation and autoimmunity. c-Maf acts as an immune checkpoint, suppressing inflammation while promoting protective immunity, indicating therapeutic potential for autoimmune diseases.",
+      "doi_or_pmcid": "10.3389/fimmu.2025.1682098"
+    },
+    {
+      "paperclip_result_id": "PMC6833194",
+      "rank": 10,
+      "title": "Chronic TCR-MHC (self)-interactions limit the functional potential of TCR affinity-increased CD8 T lymphocytes",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "Affinity-optimized T cell receptor (TCR)-engineered lymphocytes targeting tumor antigens can mediate potent antitumor responses in cancer patients, but also bear substantial risks for off-target toxicities. Most preclinical studies have focused on T cell responses to antigen-specific stimulation. In contrast, little is known on the regulation of T cell responsiveness through continuous TCR triggering and consequent tonic signaling. Here, we addressed the question whether increasing the TCR affinity can lead to chronic interactions occurring directly between TCRs and MHC-(self) molecules, which may modulate the overall functional potency of tumor-redirected CD8 T cells. For this purpose, we developed two complementary human CD8 T cell models (i.e. HLA-A2 knock-in and knock-out) engineered with incremental-affinity TCRs to the HLA-A2/NY-ESO-1 tumor antigen. The impact of HLA-A2 recognition, depending on TCR affinity, was assessed at the levels of the TCR/CD3 complex, regulatory receptors, and signaling, under steady-state conditions and in kinetic studies. The quality of CD8 T cell responses was further evaluated by gene expression and multiplex cytokine profiling, as well as real-time quantitative cell killing, combined with co-culture assays. We found that HLA-A2 per se (in absence of cognate peptide) can trigger chronic activation followed by a tolerance-like state of tumor-redirected CD8 T cells with increased-affinity TCRs. HLA-A2 pos  but not HLA-A2 neg  T cells displayed an activation phenotype, associated with enhanced upregulation of c-CBL and multiple inhibitory receptors. T cell activation preceded TCR/CD3 downmodulation, impaired TCR signaling and functional hyporesponsiveness. This stepwise activation-to-hyporesponsive state was dependent on TCR affinity and already detectable at the upper end of the physiological affinity range (K D  ≤ 1 μM). Similar findings were made when affinity-increased HLA-A2 neg  CD8 T cells were chronically exposed to HLA-A2 pos -expressing target cells. Our observations indicate that sustained interactions between affinity-increased TCR and self-MHC can directly adjust the functional potential of T cells, even in the absence of antigen-specific stimulation. The observed tolerance-like state depends on TCR affinity and has therefore potential implications for the design of affinity-improved TCRs for adoptive T cell therapy, as several engineered TCRs currently used in clinical trials share similar affinity properties.",
+      "relevant_passages": "Increased TCR affinity in CD8 T cells can lead to chronic self-MHC interactions. This chronic stimulation results in a hyporesponsive state, limiting their functional potential.",
+      "doi_or_pmcid": "10.1186/s40425-019-0773-z"
+    }
+  ]
+}

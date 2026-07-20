@@ -1,0 +1,108 @@
+{
+  "tf": "FOXP1",
+  "query": "FOXP1 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10811915",
+      "rank": 1,
+      "title": "Identification of FOXP1 as a favorable prognostic biomarker and tumor suppressor in intrahepatic cholangiocarcinoma",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Forkhead-box protein P1 (FOXP1) has been proposed to have both oncogenic and tumor-suppressive properties, depending on tumor heterogeneity. However, the role of FOXP1 in intrahepatic cholangiocarcinoma (ICC) has not been previously reported. Immunohistochemistry was performed to detect FOXP1 expression in ICC and normal liver tissues. The relationship between FOXP1 levels and the clinicopathological characteristics of patients with ICC was evaluated. Finally, in vitro and in vivo experiments were conducted to examine the regulatory role of FOXP1 in ICC cells. FOXP1 was significantly downregulated in the ICC compared to their peritumoral tissues ( p  < 0.01). The positive rates of FOXP1 were significantly lower in patients with poor differentiation, lymph node metastasis, invasion into surrounding organs, and advanced stages ( p  < 0.05). Notably, patients with FOXP1 positivity had better outcomes (overall survival) than those with FOXP1 negativity ( p  < 0.05), as revealed by Kaplan–Meier survival analysis. Moreover, Cox multivariate analysis showed that negative FOXP1 expression, advanced TNM stages, invasion, and lymph node metastasis were independent prognostic risk factors in patients with ICC. Lastly, overexpression of FOXP1 inhibited the proliferation, migration, and invasion of ICC cells and promoted apoptosis, whereas knockdown of FOXP1 had the opposite role. Our findings suggest that FOXP1 may serve as a novel outcome predictor for ICC as well as a tumor suppressor that may contribute to cancer treatment. The online version contains supplementary material available at 10.1186/s12885-024-11882-x.",
+      "relevant_passages": "FOXP1 expression was studied in intrahepatic cholangiocarcinoma (ICC) tissues and its role in ICC cells was examined. Low FOXP1 expression is associated with poor prognosis and acts as a tumor suppressor in ICC.",
+      "doi_or_pmcid": "10.1186/s12885-024-11882-x"
+    },
+    {
+      "paperclip_result_id": "PMC9576946",
+      "rank": 2,
+      "title": "Neglected, yet significant role of FOXP1 in T-cell quiescence, differentiation and exhaustion",
+      "year": "2022",
+      "publication_type": "review-article",
+      "abstract": "FOXP1 is ubiquitously expressed in the human body and is implicated in both physiological and pathological processes including cancer. However, despite its importance the role of FOXP1 in T-cells has not been extensively studied. Although relatively few phenotypic and mechanistic details are available, FOXP1 role in T-cell quiescence and differentiation of CD4+ subsets has recently been established. FOXP1 prevents spontaneous T-cell activation, preserves memory potential, and regulates the development of follicular helper and regulatory T-cells. Moreover, there is growing evidence that FOXP1 also regulates T-cell exhaustion. Altogether this makes FOXP1 a crucial and highly undervalued regulator of T-cell homeostasis. In this review, we discuss the biology of FOXP1 with a focus on discoveries made in T-cells in recent years.",
+      "relevant_passages": "This review examines the role of FOXP1 in T-cell quiescence, differentiation, and exhaustion. FOXP1 is a crucial, undervalued regulator of T-cell homeostasis, impacting activation, memory, and subset development.",
+      "doi_or_pmcid": "10.3389/fimmu.2022.971045"
+    },
+    {
+      "paperclip_result_id": "PMC12263946",
+      "rank": 3,
+      "title": "FOXP1 is associated with oncogenesis and clinical outcomes in hematologic malignancies",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Depending on the cellular context and cancer type, FOXP1 functions as an oncogene or a tumor suppressor. However, the clinical role of FOXP1 in hematologic malignancies has not been studied comprehensively. This study systematically analyzed the association of FOXP1 expression with clinical outcomes, including prognosis and immunotherapeutic response, as well as biological functions across a range of hematological cancers. Our findings demonstrated that FOXP1 expression was dysregulated in several hematological malignancies and was associated with poor prognosis. FOXP1 was highly expressed in acute myeloid leukemia (AML). Methylation of the FOXP1 promoter was significantly reduced in patients with AML compared to the healthy control subjects and those with myelodysplastic syndromes. FOXP1 promoter methylation showed an inverse relationship with FOXP1 gene expression in AML. Moreover, FOXP1 expression was associated with the tumor infiltration of B cells, natural killer cells, and T cells, as well as the cytolytic score across various hematologic malignancies. Our data showed that FOXP1 expression was a promising biomarker for predicting responses to immunotherapy in AML patients. Functionally, the knockdown of FOXP1 demonstrated antileukemic effects, including reduced AML cell proliferation and cell cycle arrest in the G1-S phase. In conclusion, this study systematically investigated the role of FOXP1 across a spectrum of hematological malignancies and demonstrated that FOXP1 was a promising prognostic biomarker and a potential therapeutic target in AML and other hematological malignancies.",
+      "relevant_passages": "This study analyzed FOXP1 expression in hematologic malignancies, finding it dysregulated and associated with poor prognosis. FOXP1 is a promising biomarker for immunotherapy response and a potential therapeutic target in AML.",
+      "doi_or_pmcid": "10.3389/fimmu.2025.1569641"
+    },
+    {
+      "paperclip_result_id": "PMC6534289",
+      "rank": 4,
+      "title": "Foxp1 is critical for the maintenance of regulatory T-cell homeostasis and suppressive function",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "Regulatory T (Treg) cells play central roles in maintaining immune homeostasis and self-tolerance. However, the molecular mechanisms underlying Treg cell homeostasis and suppressive function are still not fully understood. Here, we report that the deletion of another P subfamily members of the forkhead box (Foxp) subfamily member Foxp1 in Treg cells led to increased numbers of activated Treg (aTreg) cells at the expense of quiescent Treg cells, and also resulted in impaired Treg suppressive function. Mice with Foxp1-deficient Treg cells developed spontaneous inflammatory disease with age; they also had more severe inflammatory disease in colitis and experimental autoimmune encephalomyelitis (EAE) models. Mechanistically, we found that Foxp1 bound to the conserved noncoding sequence 2 (CNS2) element of the Foxp3 locus and helped maintain Treg suppressive function by stabilizing the Foxp3 expression. Furthermore, we found that Foxp1 and Foxp3 coordinated the regulation of cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) expression levels. Taken together, our study demonstrates that Foxp1 plays critical roles in both maintaining Treg cell quiescence during homeostasis and regulating Treg suppressive function.",
+      "relevant_passages": "Foxp1 deletion in regulatory T cells disrupted their homeostasis and suppressive function, leading to inflammatory disease. Foxp1 stabilizes Foxp3 expression and regulates CTLA-4, crucial for Treg function.",
+      "doi_or_pmcid": "10.1371/journal.pbio.3000270"
+    },
+    {
+      "paperclip_result_id": "PMC12462984",
+      "rank": 5,
+      "title": "Inhibition of Phosphodiesterase 10A by MP‐10 Rescues Behavioral Deficits and Normalizes Microglial Morphology and Synaptic Pruning in A Mouse Model of FOXP1 Syndrome",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "FOXP1 syndrome caused by  FOXP1  haploinsufficiency is characterized by intellectual disability, speech, and language impairment, autistic features, and neuropsychiatric abnormalities such as anxiety and hyperactivity. Behavioral changes in patients are mirrored in  Foxp1 \n ±  mice. It is shown that decreased Foxp1 in the  Foxp1 \n ±  striatum results in a significant decrease in phosphodiesterase 10a (Pde10a). Predominantly expressed in medium spiny neurons (MSNs), Pde10a modulates basal ganglia circuitry. Furthermore, the  Foxp1 \n ±  striatum exhibits microglial activation, reduced synaptic pruning, and dysregulation of 111 inflammatory genes. These include the downregulated  P2ry12  and  Fcrls , markers of homeostatic microglia, and upregulated  Cd74 , a marker of reactive microglia, suggesting that neuroinflammation contributes to the observed deficits. Interestingly, treatment of  Foxp1 ± \n  mice with the PDE10A antagonist MP‐10 (PF‐2545920) immediately after birth not only corrects behavioral abnormalities, including decreased ultrasonic vocalization, hyperactivity, and anxiety but also normalizes changes in microglia morphology and synaptic pruning. Transcriptomic analysis with a neuroinflammation‐specific gene panel reveals nominal gene expression changes after MP‐10 treatment, including  Bdnf  upregulation and enrichment of neurotrophin signaling. Since FOXP1 and its signaling pathway are highly conserved, administration of MP‐10 or other Pde10a antagonists may also alleviate the neurological dysfunction seen in humans with FOXP1 syndrome.",
+      "relevant_passages": "This study investigated the effects of PDE10A inhibition in a mouse model of FOXP1 syndrome. Blocking PDE10A with MP-10 normalized behavioral deficits, microglial morphology, and synaptic pruning.",
+      "doi_or_pmcid": "10.1002/advs.202500623"
+    },
+    {
+      "paperclip_result_id": "PMC4633965",
+      "rank": 6,
+      "title": "Antigen receptor-mediated depletion of FOXP3 in induced regulatory T-lymphocytes via PTPN2 and FOXO1",
+      "year": "2015",
+      "publication_type": "research-article",
+      "abstract": "Regulatory T-cells induced via IL-2 and TGFβ  in vitro  (iTreg) suppress immune cells and are potential therapeutics during autoimmunity. However, several reports described their re-differentiation into pathogenic cells  in vivo  and loss of their key functional transcription factor (TF) FOXP3 after T-cell antigen receptor (TCR)-signalling  in vitro . Here, we show that TCR-activation antagonizes two necessary TFs for  foxp3  gene transcription, which are themselves regulated by phosphorylation. Although the tyrosine phosphatase PTPN2 is induced to restrain IL-2-mediated phosphorylation of the TF STAT5, expression of the TF FOXO1 is downregulated and miR-182, a suppressor of FOXO1 expression, is upregulated. TGFβ counteracts the FOXP3-depleting TCR-signal by reassuring FOXO1 expression and by re-licensing STAT5 phosphorylation. Overexpressed phosphorylation-independent active versions of FOXO1 and STAT5 or knockdown of PTPN2 restores FOXP3 expression despite TCR-signal and absence of TGFβ. This study suggests novel targets for stabilisation and less dangerous application of iTreg during devastating inflammation.",
+      "relevant_passages": "This study investigated how T-cell receptor signaling leads to FOXP3 loss in induced regulatory T-cells. TCR activation antagonizes FOXP3 transcription factors via PTPN2 and FOXO1, a process counteracted by TGFβ.",
+      "doi_or_pmcid": "10.1038/ncomms9576"
+    },
+    {
+      "paperclip_result_id": "PMC11729909",
+      "rank": 7,
+      "title": "FOXP1 phosphorylation antagonizes its O-GlcNAcylation in regulating ATR activation in response to replication stress",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "ATR signaling is essential in sensing and responding to the replication stress; as such, any defects can impair cellular function and survival. ATR itself is activated via tightly regulated mechanisms. Here, we identify FOXP1, a forkhead-box-containing transcription factor, as a regulator coordinating ATR activation. We show that, unlike its role as a transcription factor, FOXP1 functions as a scaffold and directly binds to RPA–ssDNA and ATR–ATRIP complexes, facilitating the recruitment and activation of ATR. This process is regulated by FOXP1 O-GlcNAcylation, which represses its interaction with ATR, while CHK1-mediated phosphorylation of FOXP1 inhibits its O-GlcNAcylation upon replication stress. Supporting the physiological relevance of this loop, we find pathogenic FOXP1 mutants identified in various tumor tissues with compromised ATR activation and stalled replication fork stability. We thus conclude that FOXP1 may serve as a potential chemotherapeutic target in related tumors.",
+      "relevant_passages": "FOXP1 was studied for its role in ATR activation during replication stress. Phosphorylation of FOXP1 antagonizes its O-GlcNAcylation, promoting ATR activation and fork stability.",
+      "doi_or_pmcid": "10.1038/s44318-024-00323-x"
+    },
+    {
+      "paperclip_result_id": "PMC12487849",
+      "rank": 8,
+      "title": "Normal Treg homeostasis and suppressive function require both FOXP1 and FOXP4",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "FOXP3 +  Treg cells are critical for immune tolerance. Genetic deletion of the Forkhead domain–containing proteins of the FOXP-subfamily member FOXP1 from Tregs results in impaired function associated with reduced CD25 expression and IL-2 signaling, but to date the only other FOXP family member expressed in Tregs, FOXP4, has been minimally studied. To investigate the potential functional interactions among FOXP family members in Tregs, we specifically deleted  Foxp1 ,  Foxp4 , or both in FOXP3 +  committed Tregs in mice. Our findings show that mice with combined, but not individual, deficiency in FOXP1 and FOXP4 exhibit lymphoproliferation, inflammation, autoimmunity, and early lethality. The combined absence of FOXP1 and FOXP4 in Tregs results in an activated/effector-like phenotype with compromised suppressive function in peripheral lymphoid organs, an enhanced germinal center response, and proinflammatory cytokine production. We further show that FOXP1 and FOXP4 bind to  Il2ra  promoter regions to regulate CD25 expression in Tregs. Through pairwise comparison among mouse strains with Treg-specific deletion of  Foxp1 ,  Foxp4 , or both, our findings indicate a nonredundant but insufficient role of FOXP4 in Treg function.",
+      "relevant_passages": "The study investigated the roles of FOXP1 and FOXP4 in Treg cells by deleting these genes in mice. Combined deletion of FOXP1 and FOXP4, but not individual deletion, leads to Treg dysfunction, autoimmunity, and lethality.",
+      "doi_or_pmcid": "10.1172/jci.insight.195981"
+    },
+    {
+      "paperclip_result_id": "PMC11724166",
+      "rank": 9,
+      "title": "ULK1  methylation promotes  TGF ‐β1‐induced endometrial fibrosis via the  FOXP1 / DNMT1  axis",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Intrauterine adhesion (IUA) is the second most common cause of secondary infertility in women and can also lead to menstrual abnormalities and multiple adverse pregnancy outcomes. Therefore, elucidating the mechanism of its development is crucial for the prevention and treatment of IUA. This study will investigate the function and mechanism of forkhead box P1 (FOXP1)/DNA methyltransferase 1 (DNMT1)/unc‐51‐like autophagy activating kinase 1 (ULK1) in IUA. Expression levels of key genes were detected using western blot and quantitative ‐ real time reverse transcription polymerase chain reaction. Cell proliferation was detected by CCK‐8 and EdU staining. Transcriptional regulation relationships were detected by dual luciferase reporter gene and chromatin immunoprecipitation (ChIP) assay. Methylation station of ULK1 was detected by methylmion specific PCR (MSP). Fibrosis and pathological changes in the uterine cavity tissues were detected by Masson and hematoxylin and eosin staining. It was observed that the expression of FOXP1 and DNMT1 increased in transforming growth factor (TGF)‐β1‐induced cells, while ULK1 expression decreased. Downregulation of FOXP1 could inhibit human endometrial stromal cells proliferation and autophagy, as well as decrease the expression of fibrogenic factors (collagen type I alpha 1 chain [COL1A1], fibronectin [FN], and alpha‐smooth muscle actin [α‐SMA]). The results of MSP and ChIP experiments showed that DNMT1 promotes methylation of the ULK1 promoter region and inhibits its transcription. In an animal model, knockdown of FOXP1 alleviated pathological fibrosis and uterine adhesions. Knockdown of FOXP1 can inhibit endometrial fibrosis in IUA rats; FOXP1 could be a potential target for the treatment of IUA.",
+      "relevant_passages": "ULK1 methylation was studied in endometrial fibrosis induced by TGF-β1. ULK1 methylation, promoted by FOXP1/DNMT1, exacerbates fibrosis and uterine adhesions.",
+      "doi_or_pmcid": "10.1002/kjm2.12915"
+    },
+    {
+      "paperclip_result_id": "PMC13105002",
+      "rank": 10,
+      "title": "FOXP-stabilization of the Il2ra super-enhancer structure augments Treg fitness",
+      "year": "",
+      "publication_type": "Article",
+      "abstract": "Gene expression in regulatory T cells (Tregs) is context-dependent and maintains peripheral immune homeostasis. FOXP3 is lineage defining but not sufficient for Treg function or persistence. To define the cell-intrinsic roles of the FOXP3 paralogs FOXP1 and FOXP4, we generated and studied mice with Treg-specific deletion of Foxp1 and/or Foxp4. FOXP1 and FOXP4 are required to maintain the peripheral Treg pool through enhancing Il2ra transcription, thereby promoting sustained high-level expression of IL-2Rα and thus of the high-affinity IL-2Rαβγ complex. Integrating RNA-seq and ATAC-seq with previously published ChIA-PET and publicly available data, we propose a model of Il2ra transcriptional regulation in which in which FOXP1 and FOXP4 anchor chromatin looping of the Il2ra locus in mature Tregs, augment super-enhancer activity, and drive sustained CD25 expression. Our results reveal a unique role of FOXP1, and to a lesser extent FOXP4, in controlling Treg homeostasis.",
+      "relevant_passages": "FOXP1 and FOXP4 are crucial for maintaining regulatory T cell numbers. They achieve this by stabilizing the Il2ra super-enhancer structure, which boosts Il2ra transcription and sustained IL-2Rα expression. This mechanism promotes Treg fitness and peripheral immune homeostasis.",
+      "doi_or_pmcid": "10.64898/2026.04.14.718220"
+    }
+  ]
+}

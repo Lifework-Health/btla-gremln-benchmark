@@ -1,0 +1,146 @@
+{
+  "tf": "PLAGL2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:05:14Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-d33f509c-5b82-4339-9425-7411631ba35f",
+      "agent_id": "agent-f1d0d731-55b7-44e3-b5f1-401a53df7629",
+      "raw": "Based on my review of the 10 supplied papers, none provides evidence linking PLAGL2 to TCR inhibition or a related inhibitory T cell phenotype. The papers split into two disjoint groups: PLAGL2 studies confined to non-immune cancer/epithelial biology, and TCR/T-cell studies that never mention PLAGL2.\n\n```json\n{\n  \"tf\": \"PLAGL2\",\n  \"query\": \"PLAGL2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10807918\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human, non-immune (ovarian cancer cell lines ES-2/SKOV3 and mouse xenograft)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PLAGL2 mediates IGF2BP3 knockdown effect on ovarian cancer proliferation through mRNA stability regulation.\",\n      \"rationale\": \"PLAGL2 studied only as an oncogenic proliferation driver in ovarian cancer; no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human, engineered T cells (CoCAR)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-based therapies improved with T cells expressing a costimulatory chimeric antigen receptor (CoCAR).\",\n      \"rationale\": \"Costimulatory enhancement of TCR therapy; no PLAGL2 and no inhibitory phenotype addressed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12260021\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human, non-immune (PDAC tissue and cell lines)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High PLAGL2 expression promotes proliferation, migration, invasion and EMT in pancreatic ductal adenocarcinoma.\",\n      \"rationale\": \"PLAGL2 characterized as an EMT-promoting prognostic biomarker in PDAC; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse, TCR-engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCR dimers detected.\",\n      \"rationale\": \"Addresses TCR mispairing in dual-TCR cells; no PLAGL2 and no inhibitory signalling regulation.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11148159\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse, non-immune (hepatocellular carcinoma)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Stress-induced epinephrine activates the PLAGL2-USP10 signaling loop to enhance HCC progression.\",\n      \"rationale\": \"PLAGL2 studied in stress-driven liver cancer progression; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse, tumor-infiltrating T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High TCR signal strength leads to T cell dysfunction, while low strength causes inertness.\",\n      \"rationale\": \"TCR signal strength and dysfunction studied, but PLAGL2 is never mentioned or tested.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12485097\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human, non-immune (bladder cancer cell lines UMUC3/5637)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"MFSD12 exerts a tumor-promoting effect on bladder cancer, under the modulation of PLAGL2.\",\n      \"rationale\": \"PLAGL2 acts as transcription factor driving bladder cancer progression; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10287668\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human, PBMC-derived engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Synthetic TCR targeting PD-L1 enhances T-cell cytotoxicity against solid tumors.\",\n      \"rationale\": \"Engineered anti-PD-L1 TCR platform; no PLAGL2 and no PLAGL2-driven inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302460\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"rat, non-immune (newborn alveolar type II epithelial cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Upregulating PLAGL2 rescued hyperoxia-induced ferroptosis and apoptosis in alveolar epithelial cells.\",\n      \"rationale\": \"PLAGL2 studied in lung epithelial injury via HIF-1alpha/VEGF; no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10555889\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells (TCR/PD-1 signalling model)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PD-1 engagement's inhibitory effects on T cell signaling vary with TCR ligand potency.\",\n      \"rationale\": \"Studies PD-1 inhibition of TCR signalling, but PLAGL2 is never involved or examined.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study links PLAGL2 to TCR inhibition or a related inhibitory T cell phenotype. All PLAGL2 papers concern non-immune cancer/epithelial proliferation, EMT or survival; the TCR/T-cell inhibition papers (checkpoint, signal-strength dysfunction, engineered TCRs) never mention or perturb PLAGL2. There is no overlap connecting the regulator to the phenotype.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "PLAGL2",
+    "query": "PLAGL2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10807918",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human, non-immune (ovarian cancer cell lines ES-2/SKOV3 and mouse xenograft)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PLAGL2 mediates IGF2BP3 knockdown effect on ovarian cancer proliferation through mRNA stability regulation.",
+        "rationale": "PLAGL2 studied only as an oncogenic proliferation driver in ovarian cancer; no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human, engineered T cells (CoCAR)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-based therapies improved with T cells expressing a costimulatory chimeric antigen receptor (CoCAR).",
+        "rationale": "Costimulatory enhancement of TCR therapy; no PLAGL2 and no inhibitory phenotype addressed."
+      },
+      {
+        "paperclip_result_id": "PMC12260021",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human, non-immune (PDAC tissue and cell lines)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "High PLAGL2 expression promotes proliferation, migration, invasion and EMT in pancreatic ductal adenocarcinoma.",
+        "rationale": "PLAGL2 characterized as an EMT-promoting prognostic biomarker in PDAC; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse, TCR-engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCR dimers detected.",
+        "rationale": "Addresses TCR mispairing in dual-TCR cells; no PLAGL2 and no inhibitory signalling regulation."
+      },
+      {
+        "paperclip_result_id": "PMC11148159",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse, non-immune (hepatocellular carcinoma)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Stress-induced epinephrine activates the PLAGL2-USP10 signaling loop to enhance HCC progression.",
+        "rationale": "PLAGL2 studied in stress-driven liver cancer progression; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse, tumor-infiltrating T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "High TCR signal strength leads to T cell dysfunction, while low strength causes inertness.",
+        "rationale": "TCR signal strength and dysfunction studied, but PLAGL2 is never mentioned or tested."
+      },
+      {
+        "paperclip_result_id": "PMC12485097",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human, non-immune (bladder cancer cell lines UMUC3/5637)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "MFSD12 exerts a tumor-promoting effect on bladder cancer, under the modulation of PLAGL2.",
+        "rationale": "PLAGL2 acts as transcription factor driving bladder cancer progression; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC10287668",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human, PBMC-derived engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Synthetic TCR targeting PD-L1 enhances T-cell cytotoxicity against solid tumors.",
+        "rationale": "Engineered anti-PD-L1 TCR platform; no PLAGL2 and no PLAGL2-driven inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11302460",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "rat, non-immune (newborn alveolar type II epithelial cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Upregulating PLAGL2 rescued hyperoxia-induced ferroptosis and apoptosis in alveolar epithelial cells.",
+        "rationale": "PLAGL2 studied in lung epithelial injury via HIF-1alpha/VEGF; no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC10555889",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells (TCR/PD-1 signalling model)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "unclear",
+        "supporting_excerpt": "PD-1 engagement's inhibitory effects on T cell signaling vary with TCR ligand potency.",
+        "rationale": "Studies PD-1 inhibition of TCR signalling, but PLAGL2 is never involved or examined."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study links PLAGL2 to TCR inhibition or a related inhibitory T cell phenotype. All PLAGL2 papers concern non-immune cancer/epithelial proliferation, EMT or survival; the TCR/T-cell inhibition papers (checkpoint, signal-strength dysfunction, engineered TCRs) never mention or perturb PLAGL2. There is no overlap connecting the regulator to the phenotype.",
+    "confidence": "high"
+  }
+}

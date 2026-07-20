@@ -1,0 +1,148 @@
+{
+  "tf": "EZH2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:36:28Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-43c18250-6ef9-4f94-983e-f2f4ec69481b",
+      "agent_id": "agent-1ace7477-a735-4c10-a921-b9d8542ddce2",
+      "raw": "{\n  \"tf\": \"EZH2\",\n  \"query\": \"EZH2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 2,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10863487\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human LSCC cell lines and murine/patient-derived organoids; tumor cells and myeloid cells; non-T-cell focus\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EZH2 inhibition derepresses immunogenicity factors and alters myeloid cells in lung squamous cell carcinomas.\",\n      \"rationale\": \"Concerns tumor antigen presentation, myeloid cells and anti-PD1 response; no readout of TCR signalling or T cell inhibitory function.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11130181\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human mesothelioma cell lines and xenografts; non-immune tumor system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Combining EZH2i with ATMi... synergistic potential against BAP1-deficient mesothelioma.\",\n      \"rationale\": \"Pure oncology drug-synergy study in tumor cells; no T cells or TCR-related inhibitory phenotype examined.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6094952\",\n      \"retrieval_rank\": 3,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) primary T cells; tumor-infiltrating regulatory T cells (Tregs), with CD8+/CD4+ effectors\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Disruption of EZH2 activity in Tregs drove acquisition of pro-inflammatory functions in tumor-infiltrating Tregs.\",\n      \"rationale\": \"Genetic and pharmacologic EZH2 disruption reprograms the suppressive Treg program, showing EZH2 sustains an inhibitory T cell phenotype, but no direct TCR-signalling/checkpoint/anergy readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11569238\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"synovial sarcoma tumor cells; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"SS18-SSX drives PRAME expression, which inhibits retinoic acid signaling via RARα and EZH2.\",\n      \"rationale\": \"EZH2 studied in a tumor RARα-PRAME complex controlling proliferation/senescence; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10274685\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human LSCC cell lines and murine/patient-derived organoids; tumor/non-T-cell focus (preprint of rank 1)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EZH2 inhibition increased MHC expression and improved anti-PD1 immunotherapy response.\",\n      \"rationale\": \"Duplicate LSCC immunogenicity study centered on tumor antigen presentation; no TCR signalling or T cell inhibitory readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11520870\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse kidney models and renal cells; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EZH2 is upregulated in ADPKD and drives cyst growth.\",\n      \"rationale\": \"EZH2 role in polycystic kidney cystogenesis; entirely non-immune, no T cell relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4741719\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"cancer cell lines; non-immune biochemical/genetic screen\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EZH2 D1 domain mutations conferring resistance to EZH2 inhibitors block drug binding.\",\n      \"rationale\": \"Mechanism of acquired EZH2-inhibitor drug resistance in tumor cells; no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10763530\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/murine mesothelioma and uveal melanoma cell lines and xenografts; non-immune tumor system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EZH2 and FGFR inhibition showed synergistic efficacy in BAP1-deficient mesothelioma and uveal melanoma.\",\n      \"rationale\": \"Oncology drug-combination study in tumor cells; no T cells or TCR inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5356764\",\n      \"retrieval_rank\": 9,\n      \"relevant\": true,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"narrative review; human/general; mentions T effector and regulatory T cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EZH2 also has a decisive role in the differentiation and function of T effector and T regulatory cells.\",\n      \"rationale\": \"Review noting EZH2 in T cell differentiation/anti-tumor immunity; no primary data and no specific TCR inhibition mechanism; cannot support strong/moderate.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12203955\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human colorectal cancer tissues and cell lines; non-immune tumor system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EZH2 promotes chemoresistance in colorectal cancer by inhibiting autophagy via NRP1 suppression.\",\n      \"rationale\": \"EZH2-NRP1 axis in tumor chemoresistance; no T cell or TCR-related inhibitory phenotype.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC6094952\"],\n  \"tier_rationale\": \"Only one primary study (PMC6094952) addresses T cells: genetic and pharmacologic EZH2 disruption causally reprograms the suppressive program of tumor-infiltrating Tregs, i.e., causal evidence in a related inhibitory T cell context. However it demonstrates no direct proximal TCR signalling inhibition, checkpoint, or TCR-linked anergy experiment, so strong is not met. This fits the moderate criterion (causal evidence in a related inhibitory T cell context but not a direct TCR inhibition experiment). All other papers are non-T-cell oncology studies or a review that cannot support a tier.\",\n  \"confidence\": \"moderate\"\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "EZH2",
+    "query": "EZH2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 2,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10863487",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human LSCC cell lines and murine/patient-derived organoids; tumor cells and myeloid cells; non-T-cell focus",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EZH2 inhibition derepresses immunogenicity factors and alters myeloid cells in lung squamous cell carcinomas.",
+        "rationale": "Concerns tumor antigen presentation, myeloid cells and anti-PD1 response; no readout of TCR signalling or T cell inhibitory function."
+      },
+      {
+        "paperclip_result_id": "PMC11130181",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human mesothelioma cell lines and xenografts; non-immune tumor system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Combining EZH2i with ATMi... synergistic potential against BAP1-deficient mesothelioma.",
+        "rationale": "Pure oncology drug-synergy study in tumor cells; no T cells or TCR-related inhibitory phenotype examined."
+      },
+      {
+        "paperclip_result_id": "PMC6094952",
+        "retrieval_rank": 3,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) primary T cells; tumor-infiltrating regulatory T cells (Tregs), with CD8+/CD4+ effectors",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Disruption of EZH2 activity in Tregs drove acquisition of pro-inflammatory functions in tumor-infiltrating Tregs.",
+        "rationale": "Genetic and pharmacologic EZH2 disruption reprograms the suppressive Treg program, showing EZH2 sustains an inhibitory T cell phenotype, but no direct TCR-signalling/checkpoint/anergy readout."
+      },
+      {
+        "paperclip_result_id": "PMC11569238",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "synovial sarcoma tumor cells; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "SS18-SSX drives PRAME expression, which inhibits retinoic acid signaling via RARα and EZH2.",
+        "rationale": "EZH2 studied in a tumor RARα-PRAME complex controlling proliferation/senescence; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC10274685",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human LSCC cell lines and murine/patient-derived organoids; tumor/non-T-cell focus (preprint of rank 1)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EZH2 inhibition increased MHC expression and improved anti-PD1 immunotherapy response.",
+        "rationale": "Duplicate LSCC immunogenicity study centered on tumor antigen presentation; no TCR signalling or T cell inhibitory readout."
+      },
+      {
+        "paperclip_result_id": "PMC11520870",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse kidney models and renal cells; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EZH2 is upregulated in ADPKD and drives cyst growth.",
+        "rationale": "EZH2 role in polycystic kidney cystogenesis; entirely non-immune, no T cell relevance."
+      },
+      {
+        "paperclip_result_id": "PMC4741719",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "cancer cell lines; non-immune biochemical/genetic screen",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EZH2 D1 domain mutations conferring resistance to EZH2 inhibitors block drug binding.",
+        "rationale": "Mechanism of acquired EZH2-inhibitor drug resistance in tumor cells; no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC10763530",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/murine mesothelioma and uveal melanoma cell lines and xenografts; non-immune tumor system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EZH2 and FGFR inhibition showed synergistic efficacy in BAP1-deficient mesothelioma and uveal melanoma.",
+        "rationale": "Oncology drug-combination study in tumor cells; no T cells or TCR inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC5356764",
+        "retrieval_rank": 9,
+        "relevant": true,
+        "study_type": "review",
+        "experimental_system": "narrative review; human/general; mentions T effector and regulatory T cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "EZH2 also has a decisive role in the differentiation and function of T effector and T regulatory cells.",
+        "rationale": "Review noting EZH2 in T cell differentiation/anti-tumor immunity; no primary data and no specific TCR inhibition mechanism; cannot support strong/moderate."
+      },
+      {
+        "paperclip_result_id": "PMC12203955",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human colorectal cancer tissues and cell lines; non-immune tumor system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EZH2 promotes chemoresistance in colorectal cancer by inhibiting autophagy via NRP1 suppression.",
+        "rationale": "EZH2-NRP1 axis in tumor chemoresistance; no T cell or TCR-related inhibitory phenotype."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC6094952"
+    ],
+    "tier_rationale": "Only one primary study (PMC6094952) addresses T cells: genetic and pharmacologic EZH2 disruption causally reprograms the suppressive program of tumor-infiltrating Tregs, i.e., causal evidence in a related inhibitory T cell context. However it demonstrates no direct proximal TCR signalling inhibition, checkpoint, or TCR-linked anergy experiment, so strong is not met. This fits the moderate criterion (causal evidence in a related inhibitory T cell context but not a direct TCR inhibition experiment). All other papers are non-T-cell oncology studies or a review that cannot support a tier.",
+    "confidence": "moderate"
+  }
+}

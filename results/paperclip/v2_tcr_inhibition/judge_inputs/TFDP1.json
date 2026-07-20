@@ -1,0 +1,108 @@
+{
+  "tf": "TFDP1",
+  "query": "TFDP1 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11347378",
+      "rank": 1,
+      "title": "In vivo CRISPR/Cas9-mediated screen reveals a critical function of TFDP1 and E2F4 transcription factors in hematopoiesis",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Hematopoiesis is a continuous process of blood cell production driven by hematopoietic stem and progenitor cells (HSPCs) in the bone marrow. Proliferation and differentiation of HSPCs are regulated by complex transcriptional networks. In order to identify transcription factors with key roles in HSPC-mediated hematopoietic reconstitution, we developed an efficient and robust CRISPR/Cas9-based in vivo genetic screen. Using this experimental system, we identified the TFDP1 transcription factor to be essential for HSPC proliferation and post-transplant hematopoiesis. We further discovered that E2F4, an E2F transcription factor, serves as a binding partner of TFDP1 and is required for HSPC proliferation. Deletion of TFDP1 caused downregulation of genes associated with the cell cycle, with around 50% of these genes being identified as direct targets of TFDP1 and E2F4. Thus, our study expands the transcriptional network governing hematopoietic development through an in vivo CRISPR/Cas9-based genetic screen and identifies TFDP1/E2F4 as positive regulators of cell cycle genes in HSPCs.",
+      "relevant_passages": "An in vivo CRISPR/Cas9 screen identified TFDP1 and its partner E2F4 as essential for hematopoietic stem and progenitor cell proliferation. Their deletion downregulates cell cycle genes, highlighting their role in hematopoiesis.",
+      "doi_or_pmcid": "10.1038/s41375-024-02357-w"
+    },
+    {
+      "paperclip_result_id": "PMC12740773",
+      "rank": 2,
+      "title": "Upregulation of  TFDP1  and  CDC27  Plays an Important Role in Bronchiectasis",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Noncystic fibrosis (non‐CF) bronchiectasis is a chronic respiratory disease characterized by irreversible bronchial dilation, with an increasing global prevalence and substantial clinical burden. Despite the advances in symptomatic management, the underlying molecular mechanisms remain poorly understood. Transcription factor DP‐1 ( TFDP1 ) and cell division cycle protein 27 ( CDC27 ), which are implicated in tumorigenesis and cell cycle regulation, have not been explored in bronchiectasis. Gene expression data from the Gene Expression Omnibus dataset GSE97298 (27 patients with bronchiectasis vs. nine healthy controls) were analyzed to identify differentially expressed genes (DEGs) using edgeR (log 2  fold‐change value ≥ 1.2, adj. p  < 0.05). Protein–protein interaction (PPI) networks were constructed using STRING software. Clinical validation included 71 patients with bronchiectasis and 29 healthy controls.  TFDP1  and  CDC27  mRNA levels were quantified using real‐time polymerase chain reaction. Regulatory relationships were assessed using ChIP‐seq data (Cistrome DB), and pathway enrichment was performed using clusterProfiler to explore the potential molecular mechanisms of action of  TFDP1  and  CDC27  in non‐CF bronchiectasis. In total, 355 DEGs were identified (45 upregulated and 310 downregulated genes).  TFDP1  and  CDC27  were significantly upregulated in patients with bronchiectasis ( p  < 0.01) and exhibited a strong positive correlation ( r  = 0.6104,  p  < 0.0001). ChIP‐seq confirmed  TFDP1  binding to the  CDC27  promoter region. Enrichment analysis revealed TFDP1‐associated DEGs involved in the cell cycle.  TFDP1  expression was correlated with the bronchiectasis severity index ( r  = 0.2904,  p  < 0.05). This study demonstrated the synergistic upregulation of  TFDP1  and  CDC27  in bronchiectasis and explored cell cycle regulation as an important potential mechanism by which  TFDP1  and  CDC27  contribute to the development of bronchiectasis. Therefore,  TFDP1  may serve as a biomarker of disease severity.",
+      "relevant_passages": "This study analyzed gene expression data to identify differences between bronchiectasis patients and healthy controls. TFDP1 and CDC27 were found to be upregulated in bronchiectasis, suggesting a role in cell cycle regulation and disease development.",
+      "doi_or_pmcid": "10.1155/carj/2891024"
+    },
+    {
+      "paperclip_result_id": "PMC5352064",
+      "rank": 3,
+      "title": "TFDP3 confers chemoresistance in minimal residual disease within childhood T-cell acute lymphoblastic leukemia",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "Acquired drug resistance in childhood T-cell acute lymphoblastic leukemia (T-ALL) remains a significant clinical problem. In this study, a novel gene therapy target for childhood T-ALL to overcome chemoresistance was discovered:  TFDP3  increased in the minimal residual disease (MRD) positive childhood T-ALL patients. Then, we established a preclinical model of resistance to induction therapy to examine the functional relevance of TFDP3 to chemoresistance in MRD derived from Jurkat/E6-1. Jurkat xenografts in NOD/SCID mice were exposed to a four drug combination (VXLD) of vincristine (VCR), dexamethasone (DEX), L-asparaginase (L-asp) and daunorubicin (DNR). During the 4-week VXLD treatment, the level of  TFDP3  increased 4-fold. High expression of TFDP3 was identified in the re-emerging lines (Jurkat/MRD) with increased chemoresistance, which is correlated with partially promoter demethylation of  TFDP3 . Downregulation of  TFDP3  by RNA interference reversed chemoresistance in Jurkat/MRD accompanied by reinstated E2F1 activity that coincided with increased levels of p53, p73, and associated proapoptotic target genes. Importantly, TFDP3 silencing  in vivo  induced apparent benefit to overcome chemoresistance in combination with VXLD treatment. Collectively, TFDP3 confers chemoresistance in MRD within childhood T-ALL, indicating that TFDP3 is a potential gene therapy target for residual cancer.",
+      "relevant_passages": "TFDP3 expression was studied in minimal residual disease (MRD) of childhood T-ALL. High TFDP3 levels confer chemoresistance in MRD, making it a potential gene therapy target.",
+      "doi_or_pmcid": "10.18632/oncotarget.13630"
+    },
+    {
+      "paperclip_result_id": "PMC5256886",
+      "rank": 4,
+      "title": "TFDP3 Regulates Epithelial-Mesenchymal Transition in Breast Cancer",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "Breast cancer remains a lethal disease to women due to lymph node metastasis, the tumor microenvironment, secondary resistance and other unknown factors. Several important transcription factors involved in this disease, such as PTEN, p53 and beta-catenin, have been identified and researched in-depth as candidates for targeted therapy in breast cancer. TFDP3 is a new, promising candidate for transcriptional regulation in breast cancer, although it was first identified in hepatocellular carcinoma. Here, we demonstrate that TFDP3 is expressed in a variety of malignancies, normal testis tissue and breast cancer cell lines and thus provide evidence that TFDP3 is a cancer-testis antigen. We illustrate that overexpression or silencing TFDP3 interferes with epithelial-mesenchymal transition but does not influence cell proliferation, indicating that the TFDP3 protein acts as a transcription factor during epithelial-mesenchymal transition. These data highlight that TFDP3 is expressed in breast cancer, that it is a member of the cancer-testis antigen family and that it functions as a regulator in epithelial-mesenchymal transition.",
+      "relevant_passages": "TFDP3 was studied for its role in breast cancer. TFDP3 is a cancer-testis antigen that regulates epithelial-mesenchymal transition without affecting cell proliferation.",
+      "doi_or_pmcid": "10.1371/journal.pone.0170573"
+    },
+    {
+      "paperclip_result_id": "PMC11637825",
+      "rank": 5,
+      "title": "CKAP2 Regulated by TFDP1 Promotes Metastasis and Proliferation of Colorectal Cancer through Affecting the Tumor Microenvironment",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The current pathological and physiological evaluation system for colorectal cancer (CRC) is limited; thus, effective biological targets to diagnose and treat this disease are urgently needed. In this study, we used qRT-PCR for detecting mRNA levels of genes. The levels of protein were identified by western blot, immunohistochemistry, and immunofluorescence assays. In addition, functional experiments were used to evaluate the role of cytoskeleton associated protein (CKAP) 2 in CRC cells and human umbilical vein endothelial cells (HUVECs). Bioinformatics analysis was employed to predict the binding relationship of CKAP2 and TFDP1, which was confirmed through dual luciferase reporter assay and immunoprecipitation assay. Furthermore, we injected human colorectal carcinoma HCT116 cells into mice flanks, and we injected Luciferase-labeled HCT116 cells into mice tail vein. HE staining was used to detect tumor nodules. As a result, high CKAP2 expression was found in CRC cells and tissues. CKAP2 silencing reduced CRC cell migration, invasion, proliferation, and epithelial-mesenchymal transition. Moreover, CKAP2 expression was positively associated with M2 macrophage levels. CKAP2 promoted protein expression of CD86, CD206, IL-1β, and CCL17. Moreover, CKAP2 promoted the proliferation of HUVECs and angiogenesis via affecting the tumor microenvironment (TME). We also found that CKAP2 could interact with TFDP1. The inhibitory impacts of TFDP1 downregulation on CRC cell’ proliferation, migration, and invasion were reversed via CKAP2 overexpression. In vivo silencing of CKAP2 repressed tumor growth and metastasis. Overall, CKAP2 was positively regulated by TFDP1, which promoted tumorigenesis and metastasis in CRC.",
+      "relevant_passages": "This study investigated the role of CKAP2 in colorectal cancer, finding it promotes tumor growth and metastasis. High CKAP2 expression, regulated by TFDP1, enhances proliferation and angiogenesis by affecting the tumor microenvironment.",
+      "doi_or_pmcid": "10.4014/jmb.2407.07008"
+    },
+    {
+      "paperclip_result_id": "PMC8564135",
+      "rank": 6,
+      "title": "TFDP3 as E2F Unique Partner, Has Crucial Roles in Cancer Cells and Testis",
+      "year": "2021",
+      "publication_type": "review-article",
+      "abstract": "Transcription factor DP family member 3 (TFDP3) is a cancer-testis antigen, mainly expressed in normal testis and multiple cancers.  TFDP3  gene (Gene ID: 51270) is located on the chromosome X and shares a high degree of sequence homology with TFDP1 and TFDP2, which can form heterodimers with E2F family members and enhance DNA-binding activity of E2Fs. In contrast to TFDP1 and TFDP2, TFDP3 downregulates E2F-mediated transcriptional activation. During DNA damage response in cancer cells, TFDP3 is induced and can inhibit E2F1-mediated apoptosis. Moreover, TFDP3 is involved in cell autophagy and epithelial-mesenchymal transition. Regarding cancer therapy opportunity, the transduction of dendritic cells with recombinant adenovirus-encoding TFDP3 can activate autologous cytotoxic T lymphocytes to target hepatoma cells. Here, we review the characterization of TFDP3, with an emphasis on the biological function and molecular mechanism. A better understanding of TFDP3 will provide new insights into the pathological mechanisms and therapeutic strategies for cancers.",
+      "relevant_passages": "TFDP3, a cancer-testis antigen, uniquely partners with E2F to regulate gene expression. It inhibits E2F-mediated apoptosis and influences autophagy and EMT, offering potential cancer therapy targets.",
+      "doi_or_pmcid": "10.3389/fonc.2021.742462"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 7,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC5552311",
+      "rank": 8,
+      "title": "Effects of cancer-testis antigen, TFDP3, on cell cycle regulation and its mechanism in L-02 and HepG2 cell lines  in vitro",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "TFDP3, also be known as HCA661, was one of the cancer-testis antigens, which only expressed in human tissues. The recent researches about TFDP3 mostly focused on its ability to control the drug resistance and apoptosis of tumor cells. However, the role of TFDP3 in the progress of the cell cycle is rarely involved. In this study, we examined the expression of TFDP3 in human liver tissues firstly. After that, we detect the expression of TFDP3 at the RNA level and protein level in L-02 cell line and HepG2 cell line, and the location of TFDP3 was defined by immunofluorescence technique. Furthermore, we synchronized the cells to G1 phase, S phase and G2 phase, and arrested cell mitosis. The localization of TFDP3 and co-localization with E2F1 molecules in different phases of hepatocyte lines. Finally, TFDP3 gene knockout was performed on L-02 and HepG2 cell lines, and detected the new cell cycles by flow cytometry. The result showed that the expression of TFDP3 molecule is negative in normal liver tissue, but positive in immortalized human hepatocyte cell line, and the expression level is lower than in hepatocellular carcinoma cell line. The expression level of TFDP3 was in the dynamic change of L-02 and HepG2 cell lines, and was related to the phase transition. TFDP3 can bind to E2F1 molecule to form E2F/TFDP3 complex; and the localizations of TFDP3 and E2F1 molecules and the co-localization were different in different phases of cell cycle in the nucleus and cytoplasm, which indicated that the E2F/TFDP3 complex involved in the process of regulating the cell cycle. By knocking down the TFDP3 expression level in L-02 and HepG2 cell lines, the cell cycle would be arrested in S phase, which confirmed that TFDP3 can be a potential target for tumor therapy.",
+      "relevant_passages": "TFDP3 expression and its role in cell cycle regulation were studied in liver cell lines. TFDP3 binds E2F1 and its knockdown arrests cells in S phase, suggesting it's a potential cancer therapy target.",
+      "doi_or_pmcid": "10.1371/journal.pone.0182781"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 9,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC6147432",
+      "rank": 10,
+      "title": "TFDP3 regulates the apoptosis and autophagy in breast cancer cell line MDA-MB-231",
+      "year": "2018",
+      "publication_type": "research-article",
+      "abstract": "Cancer/testis antigen TFDP3 belongs to the transcription factor DP(TFDP) family. It can bind to E2F family molecules to form a heterodimeric transcription factor E2F/TFDP complex. The complex is an important regulatory activator of cell cycle, involved in the regulation of cell proliferation, differentiation, apoptosis and other important physiological activities. In addition, TFDP3 has also been found to be a tumor-associated antigen that only expresses in malignant tumor tissue and normal testicular tissue; Thus, it is closely related to tumor occurrence and development. In this study, our group investigated the expression of TFDP3 in mononuclear cell samples from a variety of tissue-derived malignant tumors, breast cancer and benign breast lesions. The results show that TFDP3 is expressed in the malignant form of various tissues. Moreover, our recent research had focused on the ability of TFDP3 to influence the drug resistance and apoptosis of tumor cells. To further clarify the mechanisms involved in tumor resistance, this study also examined the expression of TFDP3 and tumor cell autophagy regulation; Autophagy helps cells cope with metabolic stress (such as in cases of malnutrition, growth factor depletion, hypoxia or hypoxia) removes erroneously folded proteins or defective organelles to prevent the accumulation of abnormal proteins; and removes intracellular pathogens. Our results showed that TFDP3 expression can induce autophagy by up-regulating the expression of autophagic key protein LC3(MAP1LC3) and increasing the number of autophagosomes during chemotherapy of malignant tumors. Then, DNA and organelles damage caused by the chemotherapy medicine are repaired. Thus, TFDP3 contributes toward tumor cell resistance. When siRNA inhibits TFDP3 expression, it can reduce cell autophagy, improving the sensitivity of tumor cells to chemotherapy drugs.",
+      "relevant_passages": "TFDP3 expression was studied in breast cancer cells and its role in apoptosis and autophagy. TFDP3 promotes chemotherapy resistance by inducing autophagy, and its inhibition sensitizes cells to drugs.",
+      "doi_or_pmcid": "10.1371/journal.pone.0203833"
+    }
+  ]
+}

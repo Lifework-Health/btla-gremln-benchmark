@@ -1,0 +1,108 @@
+{
+  "tf": "GTF2A2",
+  "query": "GTF2A2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 1,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC11253514",
+      "rank": 2,
+      "title": "BTLA and PD-1 signals attenuate TCR-mediated transcriptomic changes",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "T cell co-inhibitory immune checkpoints, such as PD-1 or BTLA, are bona fide targets in cancer therapy. We used a human T cell reporter line to measure transcriptomic changes mediated by PD-1- and BTLA-induced signaling. T cell receptor (TCR)-complex stimulation resulted in the upregulation of a large number of genes but also in repression of a similar number of genes. PD-1 and BTLA signals attenuated transcriptomic changes mediated by TCR-complex signaling: upregulated genes tended to be suppressed and the expression of a significant number of downregulated genes was higher during PD-1 or BTLA signaling. BTLA was a significantly stronger attenuator of TCR-complex-induced transcriptome changes than PD-1. A strong overlap between genes that were regulated indicated quantitative rather than qualitative differences between these receptors. In line with their function as attenuators of TCR-complex-mediated changes, we found strongly regulated genes to be prime targets of PD-1 and BTLA signaling.",
+      "relevant_passages": "This study investigated how BTLA and PD-1 signaling affect T cell receptor-mediated gene expression changes. Both receptors attenuated TCR-induced transcriptomic alterations, with BTLA showing a stronger inhibitory effect.",
+      "doi_or_pmcid": "10.1016/j.isci.2024.110253"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 3,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC4209802",
+      "rank": 4,
+      "title": "TCR-engineered T cells: A model of inducible TCR expression to dissect the interrelationship between two TCRs",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "TCR gene modified T cells for adoptive therapy simultaneously express the Tg TCR and the endogenous TCR, which might lead to mispaired TCRs with harmful unknown specificity and to a reduced function of TCR-Tg T cells. We generated dual TCR T cells in two settings in which either TCR was constitutively expressed by a retroviral promoter while the second TCR expression was regulable by a Tet-on system. Constitutively expressed TCR molecules were reduced on the cell surface depending on the induced TCR expression leading to strongly hampered function. Besides that, using fluorescence resonance energy transfer we detected mispaired TCR dimers and different pairing behaviors of individual TCR chains with a mutual influence on TCR chain expression. The loss of function and mispairing could not be avoided by changing the TCR expression level or by introduction of an additional cysteine bridge. However, in polyclonal T cells, optimized TCR formats (cysteineization, codon optimization) enhanced correct pairing and function. We conclude from our data that (i) the level of mispairing depends on the individual TCRs and is not reduced by increasing the level of one TCR, and (ii) modifications (cysteineization, codon optimization) improve correct pairing but do not completely exclude mispairing (cysteineization).",
+      "relevant_passages": "Dual TCR T cells were engineered with one inducible TCR to study TCR mispairing and function. Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected despite modifications.",
+      "doi_or_pmcid": "10.1002/eji.201343591"
+    },
+    {
+      "paperclip_result_id": "PMC11014665",
+      "rank": 5,
+      "title": "An EBV-related CD4 TCR immunotherapy inhibits tumor growth in an HLA-DP5 +  nasopharyngeal cancer mouse model",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Adoptive transfer of T cell receptor–engineered T cells (TCR-T) is a promising strategy for immunotherapy against solid tumors. However, the potential of CD4 +  T cells in mediating tumor regression has been neglected. Nasopharyngeal cancer is consistently associated with EBV. Here, to evaluate the therapeutic potential of CD4 TCR-T in nasopharyngeal cancer, we screened for CD4 TCRs recognizing EBV nuclear antigen 1 (EBNA1) presented by HLA-DP5. Using mass spectrometry, we identified EBNA1 567–581 , a peptide naturally processed and presented by HLA-DP5. We isolated TCR135, a CD4 TCR with high functional avidity, that can function in both CD4 +  and CD8 +  T cells and recognizes HLA-DP5–restricted EBNA1 567–581 . TCR135-transduced T cells functioned in two ways: directly killing HLA-DP5 + EBNA1 +  tumor cells after recognizing EBNA1 presented by tumor cells and indirectly killing HLA-DP5–negative tumor cells after recognizing EBNA1 presented by antigen-presenting cells. TCR135-transduced T cells preferentially infiltrated into the tumor microenvironment and significantly inhibited tumor growth in xenograft nasopharyngeal tumor models. Additionally, we found that 62% of nasopharyngeal cancer patients showed 50%–100% expression of HLA-DP on tumor cells, indicating that nasopharyngeal cancer is well suited for CD4 TCR-T therapy. These findings suggest that TCR135 may provide a new strategy for EBV-related nasopharyngeal cancer immunotherapy in HLA-DP5 +  patients.",
+      "relevant_passages": "CD4 TCR-engineered T cells targeting EBV antigen EBNA1 presented by HLA-DP5 were developed. These T cells significantly inhibited nasopharyngeal cancer growth in mouse models, suggesting therapeutic potential for HLA-DP5+ patients.",
+      "doi_or_pmcid": "10.1172/JCI172092"
+    },
+    {
+      "paperclip_result_id": "PMC12934713",
+      "rank": 6,
+      "title": "A universal platform for simultaneous TCRα/β removal enables safer and more potent TCR therapies and autoimmune modeling",
+      "year": "",
+      "publication_type": "Article",
+      "abstract": "Adoptive T-cell therapies using tumour-specific T-cell receptors (TCRs) are limited by competition with endogenous receptors, which impairs efficacy and poses risks of off-target autoreactivity. Here we present a CRISPR-based platform that completely and selectively eliminates both endogenous TCR-α and -β chains without affecting introduced transgenic TCRs, irrespective of codon optimization. This approach achieves >90% deletion efficiency in Jurkat and primary human T cells, markedly enhancing the expression, pairing fidelity, and functional potency of transgenic receptors. Using a clinically relevant HLA-A*02:01-restricted DMF5 TCR, we show that dual TCR ablation boosts antigen-specific activation and cytotoxicity in vitro and significantly enhances tumor clearance in vivo in human immune system (HIS) mice, while preventing graft-versus-host disease (GVHD). Targeted locus amplification revealed that CRISPR-induced double-strand breaks did not alter lentiviral integration profiles, confirming genomic safety. Extending this approach to four insulin-reactive TCRs demonstrated that removal of endogenous receptors increased transduction efficiency and functional activity, with one (1E6) showing selective activation and infiltration of stem cell–derived islet grafts (SC-islets) in vivo. This study establishes a universal, safe, and scalable genome-editing platform for generating functionally precise human T cells. By integrating cancer immunotherapy and autoimmune disease modelling within a single framework, it provides a strong preclinical rationale for dual endogenous TCR removal as a route to improved specificity, safety, and therapeutic efficacy in TCR-based cell therapies.",
+      "relevant_passages": "This study presents a CRISPR-based platform for removing endogenous TCR-α and -β chains. This dual ablation enhances transgenic TCR expression and potency, improving tumor clearance and preventing GVHD in preclinical models. The platform also aids in modeling autoimmune diseases by increasing the activity of insulin-reactive TCRs.",
+      "doi_or_pmcid": "10.64898/2026.02.19.706929"
+    },
+    {
+      "paperclip_result_id": "PMC12261488",
+      "rank": 7,
+      "title": "TCR-epiDiff: solving dual challenges of TCR generation and binding prediction",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "T cell receptors (TCRs) are fundamental components of the adaptive immune system, recognizing specific antigens for targeted immune responses. Understanding their sequence patterns is crucial for designing effective vaccines and immunotherapies. However, the vast diversity of TCR sequences and complex binding mechanisms pose significant challenges in generating TCRs that are specific to a particular epitope. Here, we propose TCR-epiDiff, a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR–epitope binding. TCR-epiDiff integrates epitope information during TCR sequence embedding using ProtT5-XL and employs a denoising diffusion probabilistic model for sequence generation. Using external validation datasets, we demonstrate the ability to generate biologically plausible, epitope-specific TCRs. Furthermore, we leverage the model’s encoder to develop a TCR–epitope binding predictor that shows robust performance on the external validation data. Our approach provides a comprehensive solution for both  de novo  generation of epitope-specific TCRs and TCR–epitope binding prediction. This capability provides valuable insights into immune diversity and has the potential to advance targeted immunotherapies. The data and source codes for our experiments are available at:  https://github.com/seoseyeon/TCR-epiDiff .",
+      "relevant_passages": "A diffusion-based model, TCR-epiDiff, was developed to generate epitope-specific T cell receptors (TCRs) and predict TCR-epitope binding. The model successfully generates biologically plausible TCRs and accurately predicts binding affinity, offering a comprehensive solution for TCR design and immunotherapy.",
+      "doi_or_pmcid": "10.1093/bioinformatics/btaf202"
+    },
+    {
+      "paperclip_result_id": "PMC10287668",
+      "rank": 8,
+      "title": "Antibody-based binding domain fused to TCRγ chain facilitates T cell cytotoxicity for potent anti-tumor response",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Chimeric antigen receptor T-cell (CAR-T) therapy has demonstrated potent clinical efficacy in the treatment of hematopoietic malignancies. However, the application of CAR-T in solid tumors has been limited due in part to the expression of inhibitory molecules in the tumor microenvironment, leading to T-cell exhaustion. To overcome this limitation, we have developed a synthetic T-cell receptor (TCR) that targets programmed death-ligand 1 (PD-L1), a molecule that is widely expressed in various solid tumors and plays a pivotal role in T-cell exhaustion. Our novel TCR platform is based on antibody-based binding domain, which is typically a single-chain variable fragment (scFv), fused to the γδ TCRs (TCRγδ). We have utilized the T-cell receptor alpha constant (TRAC) locus editing approach to express cell surface scFv of anti-PD-L1, which is fused to the constant region of the TCRγ or TCRδ chain in activated T cells derived from peripheral blood mononuclear cells (PBMCs). Our results indicate that these reconfigured receptors, both γ-TCRγδ and δ-TCRγδ, have the capability to transduce signals, produce inflammatory cytokines, degranulate and exert tumor killing activity upon engagement with PD-L1 antigen in vitro. Additionally, we have also shown that γ-TCRγδ exerted superior efficacy than δ-TCRγδ in in vivo xenograft model.",
+      "relevant_passages": "A novel synthetic T-cell receptor targeting PD-L1 was developed by fusing an antibody-based binding domain to the TCRγ chain. This engineered T-cell receptor enhances T-cell cytotoxicity against solid tumors, with the γ-TCRγδ variant showing superior efficacy.",
+      "doi_or_pmcid": "10.1038/s41389-023-00480-4"
+    },
+    {
+      "paperclip_result_id": "PMC11302870",
+      "rank": 9,
+      "title": "Inhibition of PCSK9 enhances the anti-hepatocellular carcinoma effects of TCR-T cells and anti-PD-1 immunotherapy",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "T cells play important roles in antitumor immunity. However, given that the hepatocellular carcinoma (HCC) tumor microenvironment confers resistance to T cell-based immunotherapies, novel strategies to boost T cell-mediated antitumor efficacy are urgently needed for the treatment of HCC. Here, we show that high proprotein convertase subtilisin/kexin type9 (PCSK9) expression was negatively associated with HCC patient's overall survival and markers of CD8 +  T cells. Pharmacological inhibition of PCSK9 enhanced tumor-specific killing and downregulated PD-1 expression of AFP-specific TCR-T. Inhibition of PCSK9 significantly enhances the anti-HCC efficacy of TCR-T cells and anti-PD-1 immunotherapy  in vivo . Moreover, PCSK9 inhibitor suppressed HCC growth dependent on CD8 +  T cells. Mechanically, pharmacological inhibition of PCSK9 promoted low-density lipoprotein receptor (LDLR)-mediated activation of mTORC1 signaling in CD8 +  T cells. LDLR deficiency was shown to impair cellular mTORC1 signaling and the anti-HCC function of CD8 T cells. On the basis of our findings in this study, we propose a potential metabolic intervention strategy that could be used to enhance the antitumor effects of immunotherapy for HCC.",
+      "relevant_passages": "This study investigated the role of PCSK9 in hepatocellular carcinoma (HCC) and its impact on T cell-based immunotherapies. Inhibiting PCSK9 enhances the effectiveness of TCR-T cells and anti-PD-1 immunotherapy against HCC by promoting CD8+ T cell function.",
+      "doi_or_pmcid": "10.7150/ijbs.93668"
+    },
+    {
+      "paperclip_result_id": "PMC6670834",
+      "rank": 10,
+      "title": "A Dual Inhibitor of Cdc7/Cdk9 Potently Suppresses T Cell Activation",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "T cell activation is mediated by signaling pathways originating from the T cell receptor (TCR). Propagation of signals downstream of the TCR involves a cascade of numerous kinases, some of which have yet to be identified. Through a screening strategy that we have previously introduced, PHA-767491, an inhibitor of the kinases Cdc7 and Cdk9, was identified to impede TCR signaling. PHA-767491 suppressed several T cell activation phenomena, including the expression of activation markers, proliferation, and effector functions. We also observed a defect in TCR signaling pathways upon PHA-767491 treatment. Inhibition of Cdc7/Cdk9 impairs T cell responses, which could potentially be detrimental for the immune response to tumors, and also compromises the ability to resist infections. The Cdc7/Cdk9 inhibitor is a strong candidate as a cancer therapeutic, but its effect on the immune system poses a problem for clinical applications.",
+      "relevant_passages": "A dual inhibitor of Cdc7/Cdk9, PHA-767491, was found to impede T cell receptor signaling. This inhibition suppressed T cell activation, proliferation, and effector functions, suggesting potential therapeutic applications but also immune system risks.",
+      "doi_or_pmcid": "10.3389/fimmu.2019.01718"
+    }
+  ]
+}

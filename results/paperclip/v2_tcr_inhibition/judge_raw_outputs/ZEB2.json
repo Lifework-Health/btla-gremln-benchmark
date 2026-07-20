@@ -1,0 +1,148 @@
+{
+  "tf": "ZEB2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:22:23Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-37b66101-bced-4d4e-a099-bfbcbc7fc883",
+      "agent_id": "agent-1acca4c4-c341-4596-ad9c-823f65cb7e77",
+      "raw": "```json\n{\n  \"tf\": \"ZEB2\",\n  \"query\": \"ZEB2 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 1,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11927373\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"Non-T-cell; cancer tissues / tumor microenvironment; no T cell subset\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"dualistic role of ZEB1 and ZEB2 as immune modulators and their effect on tumor microenvironment\",\n      \"rationale\": \"Review of ZEB1/ZEB2 in EMT and cancer prognosis; only generic immune-modulator mention, no TCR inhibition evidence and cannot support tiers.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12594841\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human scRNA-seq and murine; CD8+ tumor-infiltrating lymphocytes (effector T cells)\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"ZEB2 may drive CD8+ differentiation along the cytotoxic effector trajectory in NSCLC tumors\",\n      \"rationale\": \"ZEB2 promotes cytotoxic effector differentiation and anti-tumor immunity, opposing dysfunction; this is effector differentiation, not a TCR inhibition experiment.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12583797\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; nasopharyngeal carcinoma cells (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"circUBAP2(9,12) inhibits NPC invasion and metastasis by down-regulating ZEB2 through competitive binding to AUF1\",\n      \"rationale\": \"ZEB2 studied in cancer cell EMT/metastasis; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4647262\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (murine); primary CD8+ effector and memory T cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Zeb2 promotes the terminal differentiation of CD8+ effector and memory T cell populations\",\n      \"rationale\": \"Zeb2 controls CD8+ terminal differentiation during infection; generic differentiation, not TCR signalling inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11736883\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (murine); microglia (non-T immune cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ZEB2 promoted the K48-linked ubiquitination of TCF7L2\",\n      \"rationale\": \"ZEB2 modulates TCF7L2 in microglia polarization during stroke; non-T-cell system, unrelated to TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5881466\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human (murine); CD8+ T cells (memory development)\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"ZEB1 and ZEB2 play functionally distinct roles in CD8+ T cell differentiation\",\n      \"rationale\": \"Addresses ZEB1/ZEB2/miR-200 in CD8+ T cell fate/differentiation; no inhibitory phenotype or TCR attenuation readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11607827\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human samples and murine; placental trophoblast cells (non-immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Reduced ZEB2 contributes to pre-eclampsia by activating the Wnt/β-Catenin pathway\",\n      \"rationale\": \"ZEB2 studied in trophoblast biology and pre-eclampsia; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human/murine; TCR-engineered T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function\",\n      \"rationale\": \"TCR mispairing/expression engineering study with no ZEB2 involvement; not about regulator-driven TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12456470\",\n      \"retrieval_rank\": 9,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human tumor cells with T cell co-culture and syngeneic murine model; tumor-infiltrating T cells\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"ZEB2-mediated PD-L1 upregulation on tumor cells inhibited T cell activation and cytokine secretion in a co-culture system\",\n      \"rationale\": \"ZEB2 (tumor-intrinsic) cooperates with SP1 to upregulate PD-L1, suppressing T cell activation and TIL activity; checkpoint-mediated inhibition but not T-cell-intrinsic proximal TCR.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; engineered TCR/CAR T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory chimeric antigen receptor\",\n      \"rationale\": \"Costimulatory CAR engineering to improve TCR therapy; no ZEB2 involvement and no inhibitory phenotype.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC12456470\"],\n  \"tier_rationale\": \"One primary study (PMC12456470) provides causal/perturbational evidence that ZEB2 upregulates the PD-L1 inhibitory checkpoint and functionally suppresses T cell activation, cytokine secretion, and TIL activity. However, ZEB2 acts tumor-cell-intrinsically via PD-L1 rather than within T cells, so it is not a direct proximal TCR-inhibition experiment and mechanistic directness on TCR signalling is incomplete. Remaining ZEB2 T-cell papers address only differentiation/effector fate (generic, insufficient), and other papers are non-T-cell systems, reviews, or unrelated TCR-engineering. This meets moderate (indirect mechanistic/checkpoint link) but not strong; applying the lower-tier rule.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ZEB2",
+    "query": "ZEB2 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 1,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11927373",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "Non-T-cell; cancer tissues / tumor microenvironment; no T cell subset",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "dualistic role of ZEB1 and ZEB2 as immune modulators and their effect on tumor microenvironment",
+        "rationale": "Review of ZEB1/ZEB2 in EMT and cancer prognosis; only generic immune-modulator mention, no TCR inhibition evidence and cannot support tiers."
+      },
+      {
+        "paperclip_result_id": "PMC12594841",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human scRNA-seq and murine; CD8+ tumor-infiltrating lymphocytes (effector T cells)",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "ZEB2 may drive CD8+ differentiation along the cytotoxic effector trajectory in NSCLC tumors",
+        "rationale": "ZEB2 promotes cytotoxic effector differentiation and anti-tumor immunity, opposing dysfunction; this is effector differentiation, not a TCR inhibition experiment."
+      },
+      {
+        "paperclip_result_id": "PMC12583797",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; nasopharyngeal carcinoma cells (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "circUBAP2(9,12) inhibits NPC invasion and metastasis by down-regulating ZEB2 through competitive binding to AUF1",
+        "rationale": "ZEB2 studied in cancer cell EMT/metastasis; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC4647262",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (murine); primary CD8+ effector and memory T cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Zeb2 promotes the terminal differentiation of CD8+ effector and memory T cell populations",
+        "rationale": "Zeb2 controls CD8+ terminal differentiation during infection; generic differentiation, not TCR signalling inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11736883",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (murine); microglia (non-T immune cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "ZEB2 promoted the K48-linked ubiquitination of TCF7L2",
+        "rationale": "ZEB2 modulates TCF7L2 in microglia polarization during stroke; non-T-cell system, unrelated to TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC5881466",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human (murine); CD8+ T cells (memory development)",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "context dependent",
+        "supporting_excerpt": "ZEB1 and ZEB2 play functionally distinct roles in CD8+ T cell differentiation",
+        "rationale": "Addresses ZEB1/ZEB2/miR-200 in CD8+ T cell fate/differentiation; no inhibitory phenotype or TCR attenuation readout."
+      },
+      {
+        "paperclip_result_id": "PMC11607827",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human samples and murine; placental trophoblast cells (non-immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Reduced ZEB2 contributes to pre-eclampsia by activating the Wnt/β-Catenin pathway",
+        "rationale": "ZEB2 studied in trophoblast biology and pre-eclampsia; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human/murine; TCR-engineered T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function",
+        "rationale": "TCR mispairing/expression engineering study with no ZEB2 involvement; not about regulator-driven TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12456470",
+        "retrieval_rank": 9,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "Human tumor cells with T cell co-culture and syngeneic murine model; tumor-infiltrating T cells",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "ZEB2-mediated PD-L1 upregulation on tumor cells inhibited T cell activation and cytokine secretion in a co-culture system",
+        "rationale": "ZEB2 (tumor-intrinsic) cooperates with SP1 to upregulate PD-L1, suppressing T cell activation and TIL activity; checkpoint-mediated inhibition but not T-cell-intrinsic proximal TCR."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; engineered TCR/CAR T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory chimeric antigen receptor",
+        "rationale": "Costimulatory CAR engineering to improve TCR therapy; no ZEB2 involvement and no inhibitory phenotype."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC12456470"
+    ],
+    "tier_rationale": "One primary study (PMC12456470) provides causal/perturbational evidence that ZEB2 upregulates the PD-L1 inhibitory checkpoint and functionally suppresses T cell activation, cytokine secretion, and TIL activity. However, ZEB2 acts tumor-cell-intrinsically via PD-L1 rather than within T cells, so it is not a direct proximal TCR-inhibition experiment and mechanistic directness on TCR signalling is incomplete. Remaining ZEB2 T-cell papers address only differentiation/effector fate (generic, insufficient), and other papers are non-T-cell systems, reviews, or unrelated TCR-engineering. This meets moderate (indirect mechanistic/checkpoint link) but not strong; applying the lower-tier rule.",
+    "confidence": "moderate"
+  }
+}

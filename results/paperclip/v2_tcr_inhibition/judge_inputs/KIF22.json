@@ -1,0 +1,108 @@
+{
+  "tf": "KIF22",
+  "query": "KIF22 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11233920",
+      "rank": 1,
+      "title": "KIF22 regulates mitosis and proliferation of chondrocyte cells",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Point mutations in  KIF22  have been linked to spondyloepimetaphyseal dysplasia with joint laxity, type 2 (SEMDJL2). Skeletal features of SEMDJL2 include short stature and joint laxity. Mechanisms underlying these limb abnormalities are unknown. Here in this manuscript, we have investigated the function of KIF22 in chondrocytes. Quantitative PCR and immunostaining revealed that  Kif22  was highly expressed in proliferating-zone growth-plate chondrocytes.  Kif22  knockdown resulted in defective mitotic spindle formation and reduced cell proliferation. Forced expression of SEMDJL-associated mutant  Kif22  constructs likewise induced abnormal mitotic spindle morphology and reduced proliferation. Mice expressing a KIF22 truncation mutant had shorter growth plates and shorter tibial bones compared to wild-type mice. These results suggest that KIF22 regulates mitotic spindle formation in proliferating chondrocytes thereby linking the stunted longitudinal bone growth observed in SEMDJL2 to failures of chondrocyte division.",
+      "relevant_passages": "KIF22's role in chondrocyte mitosis and proliferation was studied. KIF22 is essential for mitotic spindle formation, and its dysfunction leads to stunted bone growth.",
+      "doi_or_pmcid": "10.1016/j.isci.2024.110151"
+    },
+    {
+      "paperclip_result_id": "PMC7176455",
+      "rank": 2,
+      "title": "Effect of KIF22 on promoting proliferation and migration of gastric cancer cells via MAPK-ERK pathways",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "Gastric cancer (GC) is one of the most globally prevalent cancers in the world. The pathogenesis of GC has not been fully elucidated, and there still lacks effective targeted therapeutics. The influence of altered kinesin superfamily protein 22 (KIF22) expression in GC progression is still unclearly. The aim of this study was to investigate the KIF22 effects on GC and related mechanisms. Gastric carcinoma tissues and matching non-cancerous tissues were collected from patients with GC who have accepted a radical gastrectomy in Lanzhou University Second Hospital from May 2013 to December 2014. The expression of KIF22 was examined in GC of 67 patients and 20 para-carcinoma tissues by immunochemical staining. The relationship between the expression of KIF22 and clinicopathologic characteristics was next investigated in the remaining 52 patients except for 15 patients who did not complete follow-up for 5 years. Cell viability was performed via 3-(4,5-dimethyl-2-thiazolyl)-2,5-diphenyl-2-H-tetrazolium bromide (MTT) test and colony formation assay in the MGC-803 and BGC-823 GC cells. Cell scratch and trans-well invasion assay was performed to assess migration ability in the MGC-803 and BGC-823 GC cells. Gene set enrichment analysis (GSEA) pathway enrichment analysis was performed to explore the potential functions. Cell cycle was detected by flow cytometry. In addition, the two GC cell lines were used to elucidate the underlying mechanism of KIF22 in GC  in vitro  via assessing the effects on mitogen-activated protein kinase and extracellular regulated protein kinases (MAPK/ERK) signal transduction pathway-related expressions by Western blotting assays. The differences were compared by  t  tests, one-way analysis of variance, and Chi-squared tests. The study showed that KIF22 was up-regulated in GC, and KIF22 high expression was significantly related to differentiation degree ( χ 2  = 12.842,  P  = 0.002) and poorly overall survivals. GSEA pathway enrichment analysis showed that KIF22 was correlated with the cell cycle. Silence of KIF22 decreased the ability of the proliferation and migration in gastric cells, induced G1/S phase cell cycle arrest via regulating the MAPK-ERK pathways. KIF22 protein level was negatively correlated with prognosis. KIF22 knockdown might inhibit proliferation and metastasis of GC cells via the MAPK-ERK signaling pathway.",
+      "relevant_passages": "KIF22 expression was studied in gastric cancer tissues and cell lines. High KIF22 expression promotes gastric cancer cell proliferation and migration via the MAPK/ERK pathway.",
+      "doi_or_pmcid": "10.1097/CM9.0000000000000742"
+    },
+    {
+      "paperclip_result_id": "PMC11076398",
+      "rank": 3,
+      "title": "KIF22 promotes multiple myeloma progression by regulating the CDC25C/CDK1/cyclinB1 pathway",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Multiple myeloma (MM) is an incurable hematological malignancy characterized by clonal proliferation of malignant plasma B cells in bone marrow, and its pathogenesis remains unknown. The aim of this study was to determine the role of kinesin family member 22 (KIF22) in MM and elucidate its molecular mechanism. The expression of KIF22 was detected in MM patients based upon the public datasets and clinical samples. Then, in vitro assays were performed to investigate the biological function of KIF22 in MM cell lines, and subcutaneous xenograft models in nude mice were conducted in vivo. Chromatin immunoprecipitation (ChIP) and luciferase reporter assay were used to determine the mechanism of KIF22-mediated regulation. The results demonstrated that the expression of KIF22 in MM patients was associated with several clinical features, including gender ( P  = 0.016), LDH ( P  < 0.001), β 2 -MG ( P  = 0.003), percentage of tumor cells (BM) ( P  = 0.002) and poor prognosis ( P  < 0.0001). Furthermore, changing the expression of KIF22 mainly influenced the cell proliferation in vitro and tumor growth in vivo, and caused G2/M phase cell cycle dysfunction. Mechanically, KIF22 directly transcriptionally regulated cell division cycle 25C (CDC25C) by binding its promoter and indirectly influenced CDC25C expression by regulating the ERK pathway. KIF22 also regulated CDC25C/CDK1/cyclinB1 pathway. KIF22 could promote cell proliferation and cell cycle progression by transcriptionally regulating CDC25C and its downstream CDC25C/CDK1/cyclinB1 pathway to facilitate MM progression, which might be a potential therapeutic target in MM. The online version contains supplementary material available at 10.1007/s00432-024-05747-w.",
+      "relevant_passages": "KIF22 expression was studied in multiple myeloma (MM) patients and cell lines. KIF22 promotes MM progression by regulating the CDC25C/CDK1/cyclinB1 pathway, impacting cell proliferation and cell cycle.",
+      "doi_or_pmcid": "10.1007/s00432-024-05747-w"
+    },
+    {
+      "paperclip_result_id": "PMC9398805",
+      "rank": 4,
+      "title": "KIF11 Is a Promising Therapeutic Target for Thyroid Cancer Treatment",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "To assess KIF11 expression in human thyroid tumor tissues and further evaluate its involvement in thyroid cancer. The expression of KIF11 in 71 cases of thyroid carcinoma as well as corresponding tissues was detected by the immunohistochemical (IHC) method. Patients were divided into the high KIF11 expression as well as low expression groups based on the staining levels. In addition, to study the relationship between the expression of KIF11 as well as clinicopathological features, the effects of KIF11 were detected on the proliferation, apoptosis, and cell cycle of two types of thyroid cancer cells, TPC-1 and KTC-1, through colony formation assays, MTT assays, and FCM assays, respectively. We further assessed the potential effects of KIF11 on tumor growth using an animal model. The significantly high expression of KIF11 in thyroid tumor tissues was revealed, and the correlations between KIF11 expression levels as well as clinical pathological features (T stage and intraglandular dissemination) of patients were revealed. We further noticed that KIF11 knockdown remarkably suppressed thyroid cancer cell proliferation as well as induced cell apoptosis of thyroid cancer cells. Additionally, KIF11 contributed to tumor growth of thyroid cancer cells in mice. We noticed the involvement of KIF11 in the progression of thyroid cancer.",
+      "relevant_passages": "KIF11 expression was assessed in thyroid tumors and its effects on cancer cells were studied. High KIF11 expression correlates with advanced disease and suppressing it inhibits tumor growth and induces apoptosis.",
+      "doi_or_pmcid": "10.1155/2022/6426800"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 5,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC10824666",
+      "rank": 6,
+      "title": "Small-molecule inhibition of kinesin KIF18A reveals a mitotic vulnerability enriched in chromosomally unstable cancers",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Chromosomal instability (CIN) is a hallmark of cancer, caused by persistent errors in chromosome segregation during mitosis. Aggressive cancers like high-grade serous ovarian cancer (HGSOC) and triple-negative breast cancer (TNBC) have a high frequency of CIN and  TP53  mutations. Here, we show that inhibitors of the KIF18A motor protein activate the mitotic checkpoint and selectively kill chromosomally unstable cancer cells. Sensitivity to KIF18A inhibition is enriched in  TP53 -mutant HGSOC and TNBC cell lines with CIN features, including in a subset of  CCNE1 -amplified, CDK4–CDK6-inhibitor-resistant and  BRCA1 -altered cell line models. Our KIF18A inhibitors have minimal detrimental effects on human bone marrow cells in culture, distinct from other anti-mitotic agents. In mice, inhibition of KIF18A leads to robust anti-cancer effects with tumor regression observed in human HGSOC and TNBC models at well-tolerated doses. Collectively, our results provide a rational therapeutic strategy for selective targeting of CIN cancers via KIF18A inhibition.",
+      "relevant_passages": "Kinesin KIF18A was inhibited in cancer cells, revealing a vulnerability in chromosomally unstable tumors. KIF18A inhibition selectively kills these cancer cells with minimal toxicity, offering a potential therapeutic strategy.",
+      "doi_or_pmcid": "10.1038/s43018-023-00699-5"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 7,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC10907621",
+      "rank": 8,
+      "title": "Weakened APC/C activity at mitotic exit drives cancer vulnerability to KIF18A inhibition",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The efficacy of current antimitotic cancer drugs is limited by toxicity in highly proliferative healthy tissues. A cancer-specific dependency on the microtubule motor protein KIF18A therefore makes it an attractive therapeutic target. Not all cancers require KIF18A, however, and the determinants underlying this distinction remain unclear. Here, we show that KIF18A inhibition drives a modest and widespread increase in spindle assembly checkpoint (SAC) signaling from kinetochores which can result in lethal mitotic delays. Whether cells arrest in mitosis depends on the robustness of the metaphase-to-anaphase transition, and cells predisposed with weak basal anaphase-promoting complex/cyclosome (APC/C) activity and/or persistent SAC signaling through metaphase are uniquely sensitive to KIF18A inhibition. KIF18A-dependent cancer cells exhibit hallmarks of this SAC:APC/C imbalance, including a long metaphase-to-anaphase transition, and slow mitosis overall. Together, our data reveal vulnerabilities in the cell division apparatus of cancer cells that can be exploited for therapeutic benefit.",
+      "relevant_passages": "This study investigated why some cancers depend on KIF18A. Weakened APC/C activity at mitotic exit makes cancer cells uniquely sensitive to KIF18A inhibition, leading to lethal mitotic delays.",
+      "doi_or_pmcid": "10.1038/s44318-024-00031-6"
+    },
+    {
+      "paperclip_result_id": "PMC11014665",
+      "rank": 9,
+      "title": "An EBV-related CD4 TCR immunotherapy inhibits tumor growth in an HLA-DP5 +  nasopharyngeal cancer mouse model",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Adoptive transfer of T cell receptor–engineered T cells (TCR-T) is a promising strategy for immunotherapy against solid tumors. However, the potential of CD4 +  T cells in mediating tumor regression has been neglected. Nasopharyngeal cancer is consistently associated with EBV. Here, to evaluate the therapeutic potential of CD4 TCR-T in nasopharyngeal cancer, we screened for CD4 TCRs recognizing EBV nuclear antigen 1 (EBNA1) presented by HLA-DP5. Using mass spectrometry, we identified EBNA1 567–581 , a peptide naturally processed and presented by HLA-DP5. We isolated TCR135, a CD4 TCR with high functional avidity, that can function in both CD4 +  and CD8 +  T cells and recognizes HLA-DP5–restricted EBNA1 567–581 . TCR135-transduced T cells functioned in two ways: directly killing HLA-DP5 + EBNA1 +  tumor cells after recognizing EBNA1 presented by tumor cells and indirectly killing HLA-DP5–negative tumor cells after recognizing EBNA1 presented by antigen-presenting cells. TCR135-transduced T cells preferentially infiltrated into the tumor microenvironment and significantly inhibited tumor growth in xenograft nasopharyngeal tumor models. Additionally, we found that 62% of nasopharyngeal cancer patients showed 50%–100% expression of HLA-DP on tumor cells, indicating that nasopharyngeal cancer is well suited for CD4 TCR-T therapy. These findings suggest that TCR135 may provide a new strategy for EBV-related nasopharyngeal cancer immunotherapy in HLA-DP5 +  patients.",
+      "relevant_passages": "CD4 TCR-engineered T cells targeting EBV antigen EBNA1 presented by HLA-DP5 were developed. These T cells significantly inhibited nasopharyngeal cancer growth in mouse models, suggesting therapeutic potential for HLA-DP5+ patients.",
+      "doi_or_pmcid": "10.1172/JCI172092"
+    },
+    {
+      "paperclip_result_id": "PMC6996685",
+      "rank": 10,
+      "title": "Suppression of KIF22 Inhibits Cell Proliferation and Xenograft Tumor Growth in Tongue Squamous Cell Carcinoma",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "Oral carcinoma is the sixth most common cancer and is a serious public health problem, and tongue squamous cell carcinoma (TSCC) is the most common type of oral carcinoma. Kinesin family member 22 (KIF22), also called as kinesin-like DNA binding protein (KID), is a microtubule-based motor protein and binds to both microtubules and chromosomes, transporting organelles, protein, and mRNA. This research aimed at investigating the prognostic significance of KIF22 in TSCC.  Patients and Methods . This retrospective research collected 82 paired tissues with TSCC. KIF22 protein expression level was detected by immunohistochemical staining. Suppression of KIF22 with shRNA in CAL-27 and SCC-15 cells was to observe cell proliferation in vitro and xenograft tumor growth in vivo. In TSCC tissues, the protein expression level of KIF22 was increased and correlated with tumor stage, clinical stage, and lymphatic metastasis ( P =0.013,  P =0.013,  P =0.013, KIF22 might play an important role in the progression of TSCC and could serve as a therapeutic target for TSCC.",
+      "relevant_passages": "KIF22 expression was studied in tongue squamous cell carcinoma tissues and cell lines. KIF22 suppression inhibited cell proliferation and xenograft tumor growth, suggesting it's a potential therapeutic target.",
+      "doi_or_pmcid": "10.1155/2020/6387545"
+    }
+  ]
+}

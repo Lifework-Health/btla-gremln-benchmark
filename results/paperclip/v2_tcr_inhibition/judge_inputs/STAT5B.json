@@ -1,0 +1,108 @@
+{
+  "tf": "STAT5B",
+  "query": "STAT5B TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11722272",
+      "rank": 1,
+      "title": "STAT5B leukemic mutations, altering SH2 tyrosine 665, have opposing impacts on immune gene programs",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "STAT5B is a vital transcription factor for lymphocytes. Here, function of two STAT5B mutations from human T cell leukemias: one substituting tyrosine 665 with phenylalanine (STAT5B Y665F ), the other with histidine (STAT5B Y665H ) was interrogated.  In silico  modeling predicted divergent energetic effects on homodimerization with a range of pathogenicity. In primary T cells  in vitro  STAT5B Y665F  showed gain-of-function while STAT5B Y665H  demonstrated loss-of-function. Introducing the mutation into the mouse genome illustrated that the gain-of-function  Stat5b Y665F  mutation resulted in accumulation of CD8 +  effector and memory and CD4 +  regulatory T-cells, altering CD8 + /CD4 +  ratios. In contrast, STAT5B Y665H  ‘knock-in’ mice showed diminished CD8 +  effector and memory and CD4 +  regulatory T cells. In contrast to wild-type STAT5, the STAT5B Y665F  variant displayed greater STAT5 phosphorylation, DNA binding and transcriptional activity following cytokine activation while the STAT5B Y665H  variant resembled a null. The work exemplifies how joining  in silico  and  in vivo  studies of single nucleotides deepens our understanding of disease-associated variants, revealing structural determinants of altered function, defining mechanistic roles, and, specifically here, identifying a gain-of function variant that does not directly induce hematopoietic malignancy.",
+      "relevant_passages": "Two STAT5B mutations found in leukemia were studied. One mutation enhanced STAT5B function, leading to altered T-cell populations, while the other diminished its function.",
+      "doi_or_pmcid": "10.1101/2024.12.20.629685"
+    },
+    {
+      "paperclip_result_id": "PMC11229983",
+      "rank": 2,
+      "title": "STAT5B Suppresses Ferroptosis by Promoting DCAF13 Transcription to Regulate p53/xCT Pathway to Promote Mantle Cell Lymphoma Progression",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The purpose of this study was to analyze the mechanism by which STAT5B inhibits ferroptosis in mantle cell lymphoma (MCL) by promoting DCAF13 transcriptional regulation of p53/xCT pathway. The correlations between STAT5B, DCAF13 and ferroptosis in MCL were analyzed using Gene Expression Profiling Interactive Analysis (GEPIA,  http://gepia.cancer-pku.cn/index.html ). The expression levels and pairwise correlations of STAT5B, DCAF13, p53 and xCT in MCL patients were detected, respectively. STAT5B was silenced to confirm their criticality in MCL ferroptosis. the effects of blocking necrosis, apoptosis and ferroptosis on the anti-MCL effects of STAT5B were examined. Cells with STAT5B overexpression and/or DCAF13 silencing were constructed to confirm the involvement of DCAF13 in the STAT5B-regulated p53/xCT pathway. The regulation of p53 ubiquitination was confirmed by DCAF13 overexpression and MG132. The effects of silencing DCAF13 and MG132 on STAT5B overexpression on MCL was clarified by a tumor-bearing nude mouse model. DCAF13 was overexpressed in MCL and positively correlated with STAT5B, negatively correlated with p53, and positively correlated with xCT. Inhibition of ferroptosis alleviated the inhibitory effects of siSTAT5B on MCL, while inhibition of necrosis and apoptosis had few effects. Silencing of DCAF13 led to the blocking of STAT5B regulation of p53/xCT and ferroptosis. The changes in DCAF13 and the addition of MG132 did not have statistically significant effects on p53 mRNA. Elevation of DCAF13 resulted in downregulation of p53 protein levels, and this inhibition was reversed by MG132. In animal models, the promotion of MCL and the inhibition of ferroptosis by STAT5B. Silencing of DCAF13 blocked STAT5B inhibition of p53 and induction of xCT, GPX4, and GSH. STAT5B suppresses ferroptosis by promoting DCAF13 transcription to regulate p53/xCT pathway to promote MCL progression.",
+      "relevant_passages": "STAT5B suppresses ferroptosis in mantle cell lymphoma by promoting DCAF13 transcription. This regulation of the p53/xCT pathway promotes tumor progression.",
+      "doi_or_pmcid": "10.2147/BTT.S461287"
+    },
+    {
+      "paperclip_result_id": "PMC2196089",
+      "rank": 3,
+      "title": "Stat5 Synergizes with T Cell Receptor/Antigen Stimulation in the Development of Lymphoblastic Lymphoma",
+      "year": "2003",
+      "publication_type": "research-article",
+      "abstract": "Signal transducer and activator of transcription (STAT) proteins are latent transcription factors that mediate a wide range of actions induced by cytokines, interferons, and growth factors. We now report the development of thymic T cell lymphoblastic lymphomas in transgenic mice in which Stat5a or Stat5b is overexpressed within the lymphoid compartment. The rate of lymphoma induction was markedly enhanced by immunization or by the introduction of TCR transgenes. Remarkably, the Stat5 transgene potently induced development of CD8 +  T cells, even in mice expressing a class II–restricted TCR transgene, with resulting CD8 +  T cell lymphomas. These data demonstrate the oncogenic potential of dysregulated expression of a STAT protein that is not constitutively activated, and that TCR stimulation can contribute to this process.",
+      "relevant_passages": "This study investigated the role of Stat5 in T cell lymphoma development using transgenic mice. Overexpression of Stat5, especially with T cell receptor stimulation, significantly enhanced lymphoma formation and altered T cell development.",
+      "doi_or_pmcid": "10.1084/jem.20021548"
+    },
+    {
+      "paperclip_result_id": "PMC12346846",
+      "rank": 4,
+      "title": "Oligodendrocyte-Specific STAT5B Overexpression Ameliorates Myelin Impairment in Experimental Models of Parkinson’s Disease",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Background:  Parkinson’s disease (PD) involves progressive dopaminergic neuron degeneration and motor deficits. Oligodendrocyte dysfunction contributes to PD pathogenesis through impaired myelination.  Methods:  Single-nucleus RNA sequencing (snRNA-seq) of PD mice revealed compromised oligodendrocyte differentiation and  STAT5B  downregulation. Pseudotemporal trajectory analysis via Monocle2 demonstrated impaired oligodendrocyte maturation in PD oligodendrocytes, correlating with reduced myelin-related gene expression ( Sox10 ,  Plp1 ,  Mbp ,  Mog ,  Mag ,  Mobp ). DoRothEA-predicted regulon activity identified STAT5B as a key transcriptional regulator.  Results:  Oligodendrocyte-specific  STAT5B  activation improved myelin integrity, as validated by Luxol Fast Blue staining and transmission electron microscopy; attenuated dopaminergic neuron loss; and improved motor function. Mechanistically,  STAT5B  binds the  MBP  promoter to drive transcription, a finding confirmed by the luciferase assay, while the DNMT3A-mediated hypermethylation of the  STAT5B  promoter epigenetically silences its expression, as verified by MethylTarget sequencing and methylation-specific PCR.  Conclusions:  DNMT3A inhibited the expression of  STAT5B  by affecting its methylation, which reduced the transcription of  MBP , caused oligodendrocyte myelin damage, and eventually led to dopamine neuron damage and motor dysfunction in an MPTP-induced mouse model. This DNMT3A- STAT5B - MBP  axis underlies PD-associated myelin damage, connecting epigenetic dysregulation with oligodendrocyte dysfunction and subsequent PD pathogenesis.",
+      "relevant_passages": "STAT5B overexpression in oligodendrocytes was studied in Parkinson's disease models. This intervention improved myelin, reduced neuron loss, and enhanced motor function by restoring the STAT5B-MBP axis.",
+      "doi_or_pmcid": "10.3390/cells14151145"
+    },
+    {
+      "paperclip_result_id": "PMC11014662",
+      "rank": 5,
+      "title": "Hyperactive STAT5 hijacks T cell receptor signaling and drives immature T cell acute lymphoblastic leukemia",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "T cell acute lymphoblastic leukemia (T-ALL) is an aggressive immature T cell cancer. Mutations in  IL7R  have been analyzed genetically, but downstream effector functions such as STAT5A and STAT5B hyperactivation are poorly understood. Here, we studied the most frequent and clinically challenging STAT5B N642H  driver in T cell development and immature T cell cancer onset and compared it with STAT5A hyperactive variants in transgenic mice. Enhanced STAT5 activity caused disrupted T cell development and promoted an early T cell progenitor–ALL phenotype, with upregulation of genes involved in T cell receptor (TCR) signaling, even in absence of surface TCR. Importantly, TCR pathway genes were overexpressed in human T-ALL and mature T cell cancers and activation of TCR pathway kinases was STAT5 dependent. We confirmed STAT5 binding to these genes using ChIP-Seq analysis in human T-ALL cells, which were sensitive to pharmacologic inhibition by dual STAT3/5 degraders or ZAP70 tyrosine kinase blockers in vitro and in vivo. We provide genetic and biochemical proof that STAT5A and STAT5B hyperactivation can initiate T-ALL through TCR pathway hijacking and suggest similar mechanisms for other T cell cancers. Thus, STAT5 or TCR component blockade are targeted therapy options, particularly in patients with chemoresistant clones carrying STAT5B N642H .",
+      "relevant_passages": "Hyperactive STAT5 was studied in T cell development and acute lymphoblastic leukemia. It hijacks T cell receptor signaling, driving leukemia and offering therapeutic targets.",
+      "doi_or_pmcid": "10.1172/JCI168536"
+    },
+    {
+      "paperclip_result_id": "PMC11670306",
+      "rank": 6,
+      "title": "The structural influence of the oncogenic driver mutation  N642H  in the  STAT5B SH2  domain",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The point mutation N642H of the signal transducer and activator of transcription 5B (STAT5B) protein is associated with aggressive and drug‐resistant forms of leukemia. This mutation is thought to promote cancer due to hyperactivation of STAT5B caused by increased stability of the active, parallel dimer state. However, the molecular mechanism leading to this stabilization is not well understood as there is currently no structure of the parallel dimer. To investigate the mutation's mechanism of action, we conducted extensive all‐atom molecular dynamics simulations of multiple oligomeric forms of both STAT5B and STAT5B N642H , including a model for the parallel dimer. The N642H mutation directly affects the hydrogen bonding network within the phosphotyrosine (pY)‐binding pocket of the parallel dimer, enhancing the pY‐binding interaction. The simulations indicate that apo STAT5B is highly flexible, exploring a diverse conformational space. In contrast, apo STAT5B N642H  accesses two distinct conformational states, one of which resembles the conformation of the parallel dimer. The simulation predictions of the effects of the mutation on structure and dynamics are supported by the results of hydrogen‐deuterium exchange (HDX) mass spectrometry measurements carried out on STAT5B and STAT5B N642H  in which a phosphopeptide was used to mimic the effects of parallel dimerization on the SH2 domain. The molecular‐level information uncovered in this work contributes to our understanding of STAT5B hyperactivation by the N642H mutation and could help pave the way for novel therapeutic strategies targeting this mutation.",
+      "relevant_passages": "Molecular dynamics simulations and HDX-MS were used to study the STAT5B N642H mutation. The N642H mutation enhances phosphotyrosine binding in the parallel dimer by altering the SH2 domain's hydrogen bonding network.",
+      "doi_or_pmcid": "10.1002/pro.70022"
+    },
+    {
+      "paperclip_result_id": "PMC11349758",
+      "rank": 7,
+      "title": "Tyrosine phosphorylation of both STAT5A and STAT5B is necessary for maximal IL-2 signaling and T cell proliferation",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Cytokine-mediated STAT5 protein activation is vital for lymphocyte development and function. In vitro tyrosine phosphorylation of a C-terminal tyrosine is critical for activation of STAT5A and STAT5B; however, the importance of STAT5 tyrosine phosphorylation in vivo has not been assessed. Here we generate  Stat5a  and  Stat5b  tyrosine-to-phenylalanine mutant knockin mice and find they have greatly reduced CD8 +  T-cell numbers and profoundly diminished IL-2-induced proliferation of these cells, and this correlates with reduced induction of Myc, pRB, a range of cyclins and CDKs, and a partial G1→S phase-transition block. These mutant CD8 +  T cells also exhibit decreased IL-2-mediated activation of pERK and pAKT, which we attribute in part to diminished expression of IL-2Rβ and IL-2Rγ. Our findings thus demonstrate that tyrosine phosphorylation of both STAT5A and STAT5B is essential for maximal IL-2 signaling. Moreover, our transcriptomic and proteomic analyses elucidate the molecular basis of the IL-2-induced proliferation of CD8 +  T cells.",
+      "relevant_passages": "This study generated mice with mutated STAT5A and STAT5B to assess the in vivo importance of tyrosine phosphorylation. The findings demonstrate that STAT5 tyrosine phosphorylation is essential for maximal IL-2 signaling and T cell proliferation.",
+      "doi_or_pmcid": "10.1038/s41467-024-50925-6"
+    },
+    {
+      "paperclip_result_id": "PMC11316036",
+      "rank": 8,
+      "title": "The Derlin-1-Stat5b axis maintains homeostasis of adult hippocampal neurogenesis",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Adult neural stem cells (NSCs) in the hippocampal dentate gyrus continuously proliferate and generate new neurons throughout life. Although various functions of organelles are closely related to the regulation of adult neurogenesis, the role of endoplasmic reticulum (ER)-related molecules in this process remains largely unexplored. Here we show that Derlin-1, an ER-associated degradation component, spatiotemporally maintains adult hippocampal neurogenesis through a mechanism distinct from its established role as an ER quality controller. Derlin-1 deficiency in the mouse central nervous system leads to the ectopic localization of newborn neurons and impairs NSC transition from active to quiescent states, resulting in early depletion of hippocampal NSCs. As a result, Derlin-1-deficient mice exhibit phenotypes of increased seizure susceptibility and cognitive dysfunction. Reduced Stat5b expression is responsible for adult neurogenesis defects in Derlin-1-deficient NSCs. Inhibition of histone deacetylase activity effectively induces Stat5b expression and restores abnormal adult neurogenesis, resulting in improved seizure susceptibility and cognitive dysfunction in Derlin-1-deficient mice. Our findings indicate that the Derlin-1-Stat5b axis is indispensable for the homeostasis of adult hippocampal neurogenesis.",
+      "relevant_passages": "Derlin-1 was studied for its role in adult hippocampal neurogenesis. Its deficiency impairs neurogenesis by reducing Stat5b, leading to cognitive deficits and seizures.",
+      "doi_or_pmcid": "10.1038/s44319-024-00205-7"
+    },
+    {
+      "paperclip_result_id": "PMC5749501",
+      "rank": 9,
+      "title": "STAT5B N642H  is a driver mutation for T cell neoplasia",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "STAT5B  is often mutated in hematopoietic malignancies. The most frequent  STAT5B  mutation, Asp642His (N642H), has been found in over 90 leukemia and lymphoma patients. Here, we used the  Vav1  promoter to generate transgenic mouse models that expressed either human STAT5B or STAT5B N642H  in the hematopoietic compartment. While STAT5B-expressing mice lacked a hematopoietic phenotype, the STAT5B N642H -expressing mice rapidly developed T cell neoplasms. Neoplasia manifested as transplantable CD8 +  lymphoma or leukemia, indicating that the STAT5B N642H  mutation drives cancer development. Persistent and enhanced levels of STAT5B N642H  tyrosine phosphorylation in transformed CD8 +  T cells led to profound changes in gene expression that were accompanied by alterations in DNA methylation at potential histone methyltransferase EZH2-binding sites. Aurora kinase genes were enriched in STAT5B N642H -expressing CD8 +  T cells, which were exquisitely sensitive to JAK and Aurora kinase inhibitors. Together, our data suggest that JAK and Aurora kinase inhibitors should be further explored as potential therapeutics for lymphoma and leukemia patients with the STAT5B N642H  mutation who respond poorly to conventional chemotherapy.",
+      "relevant_passages": "Transgenic mice expressing the STAT5B N642H mutation in hematopoietic cells were created. This mutation drives T cell neoplasia by altering gene expression and DNA methylation, suggesting targeted therapies.",
+      "doi_or_pmcid": "10.1172/JCI94509"
+    },
+    {
+      "paperclip_result_id": "PMC12694592",
+      "rank": 10,
+      "title": "Disease-associated mutations in the STAT5B SH2 domain reprogram hepatic cholesterol and lipid metabolism",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Growth hormone (GH) signaling through STAT5B is a central regulator of hepatic metabolism, yet the functional consequences of disease-associated STAT5B variants remain poorly understood. Here, we analyzed mice carrying STAT5B Y665F  (gain-of-function) and STAT5B Y665H  (loss-of-function) variants and dissect their impact on metabolic regulation. STAT5B Y665F  mice developed hepatic lipid accumulation, hypercholesterolemia, and enhanced insulin sensitivity, whereas STAT5B Y665H  mice displayed reduced body weight and impaired insulin responsiveness. Transcriptomic analyses revealed that STAT5B Y665F  activated lipid, cholesterol, and immune transcriptional programs, while STAT5B Y665H  failed to induce these pathways. Notably, STAT5B Y665F  substantially feminized male liver gene expression, inducing 77% of female-biased genes while repressing 51% of male-biased genes, thereby mimicking the persistent STAT5B activation characteristic of female livers. ChIP-seq demonstrated extensive STAT5B Y665F  enhancer occupancy at metabolic and immune loci, contrasting with the minimal chromatin engagement of STAT5B Y665H . Beyond the liver, STAT5B Y665F  broadly reprogrammed adipose tissue gene expression, activating lipid metabolism and immune regulatory networks, whereas STAT5B Y665H  exerted more restricted effects. Together, these findings illustrate how alterations in STAT5B activity affect enhancer activation and can lead to changes in metabolic function and hepatic sexual dimorphism.",
+      "relevant_passages": "Disease-associated STAT5B variants were analyzed in mice to understand their impact on hepatic metabolism. Gain-of-function STAT5B Y665F caused lipid accumulation and hypercholesterolemia, while loss-of-function STAT5B Y665H reduced body weight and insulin responsiveness.",
+      "doi_or_pmcid": "10.1101/2025.11.27.691004"
+    }
+  ]
+}

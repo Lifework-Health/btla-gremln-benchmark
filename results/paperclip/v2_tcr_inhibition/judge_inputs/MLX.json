@@ -1,0 +1,108 @@
+{
+  "tf": "MLX",
+  "query": "MLX TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11398402",
+      "rank": 1,
+      "title": "MLX phosphorylation stabilizes the ChREBP-MLX heterotetramer on tandem E-boxes to control carbohydrate and lipid metabolism",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The heterodimeric ChREBP-MLX transcription factor complex is a key mediator that couples intracellular sugar levels to carbohydrate and lipid metabolism. To promote the expression of target genes, two ChREBP-MLX heterodimers form a heterotetramer to bind a tandem element with two adjacent E-boxes, called Carbohydrate Responsive Element (ChoRE). How the ChREBP-MLX hetero-tetramerization is achieved and regulated, remains poorly understood. Here we show that MLX phosphorylation on an evolutionarily conserved motif is necessary for the heterotetramer formation on the ChoRE and the transcriptional activity of the ChREBP-MLX complex. We identified CK2 and GSK3 as MLX kinases that coordinately phosphorylate MLX. High intracellular glucose-6-phosphate accumulation inhibits MLX phosphorylation and heterotetramer formation on the ChoRE, impairing ChREBP-MLX activity. Physiologically, MLX phosphorylation is necessary in  Drosophila  to maintain sugar tolerance and lipid homeostasis. Our findings suggest that MLX phosphorylation is a key mechanism for the ChREBP-MLX heterotetramer formation to regulate carbohydrate and lipid metabolism.",
+      "relevant_passages": "MLX phosphorylation was studied as a regulator of ChREBP-MLX heterotetramer formation. This phosphorylation is crucial for heterotetramer binding to DNA and controlling metabolic gene expression.",
+      "doi_or_pmcid": "10.1101/2024.09.04.611172"
+    },
+    {
+      "paperclip_result_id": "PMC8978620",
+      "rank": 2,
+      "title": "A Costimulatory CAR Improves TCR-based Cancer Immunotherapy",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "This proof-of-concept study demonstrates that TCR-based therapies can be improved with engineered T cells expressing a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells are able to kill TCR targets, while sparing normal cells expressing the CoCAR antigen.",
+      "relevant_passages": "TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells effectively killed target cells while sparing normal cells expressing the CoCAR antigen.",
+      "doi_or_pmcid": "10.1158/2326-6066.CIR-21-0307"
+    },
+    {
+      "paperclip_result_id": "PMC11900861",
+      "rank": 3,
+      "title": "MLX phosphorylation stabilizes the ChREBP-MLX heterotetramer on tandem E-boxes to control carbohydrate and lipid metabolism",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Carbohydrate-responsive element binding protein (ChREBP) and Max-like protein X (MLX) form a heterodimeric transcription factor complex that couples intracellular sugar levels to carbohydrate and lipid metabolism. To promote the expression of target genes, two ChREBP-MLX heterodimers form a heterotetramer to bind a tandem element with two adjacent E-boxes, called carbohydrate-responsive element (ChoRE). How the ChREBP-MLX hetero-tetramerization is achieved and regulated remains poorly understood. Here, we show that MLX phosphorylation on an evolutionarily conserved motif is necessary for the heterotetramer formation on the ChoRE and the transcriptional activity of the ChREBP-MLX complex. We identified casein kinase 2 (CK2) and glycogen synthase kinase 3 (GSK3) as MLX kinases. High intracellular glucose-6-phosphate accumulation inhibits MLX phosphorylation and heterotetramer formation on the ChoRE, impairing ChREBP-MLX activity. Physiologically, MLX phosphorylation is necessary in  Drosophila  to maintain sugar tolerance and lipid homeostasis. Our findings suggest that MLX phosphorylation is a key mechanism for the ChREBP-MLX heterotetramer formation to regulate carbohydrate and lipid metabolism.",
+      "relevant_passages": "MLX phosphorylation was studied for its role in ChREBP-MLX heterotetramer formation. This phosphorylation is essential for the heterotetramer to bind DNA and regulate metabolism, and its inhibition impairs sugar tolerance and lipid homeostasis.",
+      "doi_or_pmcid": "10.1126/sciadv.adt4548"
+    },
+    {
+      "paperclip_result_id": "PMC4209802",
+      "rank": 4,
+      "title": "TCR-engineered T cells: A model of inducible TCR expression to dissect the interrelationship between two TCRs",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "TCR gene modified T cells for adoptive therapy simultaneously express the Tg TCR and the endogenous TCR, which might lead to mispaired TCRs with harmful unknown specificity and to a reduced function of TCR-Tg T cells. We generated dual TCR T cells in two settings in which either TCR was constitutively expressed by a retroviral promoter while the second TCR expression was regulable by a Tet-on system. Constitutively expressed TCR molecules were reduced on the cell surface depending on the induced TCR expression leading to strongly hampered function. Besides that, using fluorescence resonance energy transfer we detected mispaired TCR dimers and different pairing behaviors of individual TCR chains with a mutual influence on TCR chain expression. The loss of function and mispairing could not be avoided by changing the TCR expression level or by introduction of an additional cysteine bridge. However, in polyclonal T cells, optimized TCR formats (cysteineization, codon optimization) enhanced correct pairing and function. We conclude from our data that (i) the level of mispairing depends on the individual TCRs and is not reduced by increasing the level of one TCR, and (ii) modifications (cysteineization, codon optimization) improve correct pairing but do not completely exclude mispairing (cysteineization).",
+      "relevant_passages": "Dual TCR T cells were engineered with one inducible TCR to study TCR mispairing and function. Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected despite modifications.",
+      "doi_or_pmcid": "10.1002/eji.201343591"
+    },
+    {
+      "paperclip_result_id": "PMC11425880",
+      "rank": 5,
+      "title": "Body‐Wide Inactivation of the Myc‐Like Mlx Transcription Factor Network Accelerates Aging and Increases the Lifetime Cancer Incidence",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The “Mlx” and “Myc” transcription factor networks cross‐communicate and share many common gene targets. Myc's activity depends upon its heterodimerization with Max, whereas the Mlx Network requires that the Max‐like factor Mlx associate with the Myc‐like factors MondoA or ChREBP. The current work demonstrates that body‐wide  Mlx  inactivation, like that of  Myc , accelerates numerous aging‐related phenotypes pertaining to body habitus and metabolism. The deregulation of numerous aging‐related Myc target gene sets is also accelerated. Among other functions, these gene sets often regulate ribosomal and mitochondrial structure and function, genomic stability, and aging. Whereas “ Myc KO” mice have an extended lifespan because of a lower cancer incidence, “ Mlx KO” mice have normal lifespans and a higher cancer incidence. Like Myc, the expression of Mlx, MondoA, and ChREBP and their control over their target genes deteriorate with age in both mice and humans. Collectively, these findings underscore the importance of lifelong and balanced cross‐talk between the two networks to maintain proper function and regulation of the many factors that can affect normal aging.",
+      "relevant_passages": "Body-wide inactivation of the Mlx transcription factor network was studied. This inactivation accelerates aging phenotypes and increases lifetime cancer incidence, similar to Myc inactivation.",
+      "doi_or_pmcid": "10.1002/advs.202401593"
+    },
+    {
+      "paperclip_result_id": "PMC8704919",
+      "rank": 6,
+      "title": "TCR signal strength defines distinct mechanisms of T cell dysfunction and cancer evasion",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "TCR signal strength determines T cell differentiation and function in tumors, with high-signal-strength interactions resulting in dysfunction and low-signal-strength interactions resulting in functional inertness. Fine-tuning TCR signal strength to an intermediate range improves anti-tumor activity in vivo.",
+      "relevant_passages": "High TCR signal strength leads to T cell dysfunction, while low strength causes inertness in tumors. Intermediate signal strength enhances anti-tumor activity.",
+      "doi_or_pmcid": "10.1084/jem.20201966"
+    },
+    {
+      "paperclip_result_id": "PMC10970504",
+      "rank": 7,
+      "title": "Domestication Gene  Mlx  and Its Partner  Mondo  Are Involved in Controlling the Larval Body Size and Cocoon Shell Weight of  Bombyx mori",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Bombyx mori  was domesticated from  Bombyx mandarina . The long-term domestication of the silkworm has brought about many remarkable changes to its body size and cocoon shell weight. However, the molecular mechanism underlying the improvement in the economic characteristics of this species during domestication remains unclear. In this study, we found that a transposable element (TE)—Bm1—was present in the upstream regulatory region of the  Mlx  (Max-like protein X) gene in wild silkworms but not in all domesticated silkworms. The absence of Bm1 caused an increase in the promoter activity and mRNA content of  Mlx . Mlx and its partner Mondo belong to the bHLHZ transcription factors family and regulate nutrient metabolism. RNAi of  Mlx  and  Mondo  decreased the expression and promoter activity of glucose metabolism-related genes ( trehalose transport  ( Tret ),  phosphofructokinase  ( PFK ), and  pyruvate kinase  ( PK )), lipogenic genes ( Acetyl-CoA carboxylase  ( ACC ) and  fatty acid synthase  ( FAS )), and glutamine synthesis gene ( Glutamine synthase 2,  ( GS2 )). Furthermore, the transgenic overexpression of  Mlx  and  Mondo  in the fat body of silkworms increased the larval body size, cocoon shell weight, and egg number, but the silencing of the two genes resulted in the opposite phenotypes. Our results reveal the molecular mechanism of  Mlx  selection during domestication and its successful use in the molecular breeding of  Bombyx mori .",
+      "relevant_passages": "The study investigated the role of the domestication gene *Mlx* and its partner *Mondo* in *Bombyx mori*. Their altered expression, influenced by a transposable element, controls larval body size and cocoon shell weight by regulating nutrient metabolism.",
+      "doi_or_pmcid": "10.3390/ijms25063427"
+    },
+    {
+      "paperclip_result_id": "PMC5587706",
+      "rank": 8,
+      "title": "A TCR-based Chimeric Antigen Receptor",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "Effector T cells equipped with engineered antigen receptors specific for cancer targets have proven to be very efficient. Two methods have emerged: the Chimeric Antigen Receptors (CARs) and T-cell Receptor (TCR) redirection. Although very potent, CAR recognition is limited to membrane antigens which represent around 1% of the total proteins expressed, whereas TCRs have the advantage of targeting any peptide resulting from cellular protein degradation. However, TCRs depend on heavy signalling machinery only present in T cells which restricts the type of eligible therapeutic cells. Hence, an introduced therapeutic TCR will compete with the endogenous TCR for the signalling proteins and carries the potential risk of mixed dimer formation giving rise to a new TCR with unpredictable specificity. We have fused a soluble TCR construct to a CAR-signalling tail and named the final product TCR-CAR. We here show that, if expressed, the TCR-CAR conserved the specificity and the functionality of the original TCR. In addition, we demonstrate that TCR-CAR redirection was not restricted to T cells. Indeed, after transduction, the NK cell line NK-92 became TCR positive and reacted against pMHC target. This opens therapeutic avenues combing the killing efficiency of NK cells with the diversified target recognition of TCRs.",
+      "relevant_passages": "A novel TCR-CAR construct was developed by fusing a soluble TCR to a CAR signaling domain. This TCR-CAR successfully redirected NK cells to recognize specific targets, combining NK cell killing efficiency with TCR-based antigen recognition.",
+      "doi_or_pmcid": "10.1038/s41598-017-11126-y"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 9,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC6504948",
+      "rank": 10,
+      "title": "Synthetic TRuC receptors engaging the complete T cell receptor for potent anti-tumor response",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "T cells expressing CD19-targeting chimeric antigen receptors (CARs) reveal high efficacy in the treatment of B cell malignancies. Here, we report that T cell receptor fusion constructs (TRuCs) comprising an antibody-based binding domain fused to T cell receptor (TCR) subunits can effectively reprogram an intact TCR complex to recognize tumor surface antigens. Unlike CARs, TRuCs become a functional component of the TCR complex. TRuC-T cells kill tumor cells as potently as second-generation CAR-T cells, but at significant lower cytokine release and despite the absence of an extra co-stimulatory domain. TRuC-T cells demonstrate potent anti-tumor activity in both liquid and solid tumor xenograft models. In several models, TRuC-T cells are more efficacious than respective CAR-T cells. TRuC-T cells are shown to engage the signaling capacity of the entire TCR complex in an HLA-independent manner.",
+      "relevant_passages": "Synthetic TRuC receptors were engineered to engage the complete T cell receptor complex for tumor antigen recognition. TRuC-T cells exhibit potent anti-tumor activity, comparable to CAR-T cells but with reduced cytokine release and HLA-independent function.",
+      "doi_or_pmcid": "10.1038/s41467-019-10097-0"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "tf": "KIF22",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:52:16Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-87b34172-4333-44b8-a5b1-ed88be0ffbc2",
+      "agent_id": "agent-264e9e4b-1510-4dc3-b7cd-451df9829706",
+      "raw": "I reviewed all 10 supplied papers against the schema. Here is the structured assessment.\n\n```json\n{\n  \"tf\": \"KIF22\",\n  \"query\": \"KIF22 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11233920\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Non-human; non-immune (growth-plate chondrocytes, mouse and cell models)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"KIF22 regulates mitotic spindle formation in proliferating chondrocytes thereby linking stunted bone growth.\",\n      \"rationale\": \"KIF22 studied in chondrocyte mitosis and bone growth; no T cells or TCR signalling involved.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7176455\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; non-immune (gastric cancer tissues and MGC-803/BGC-823 cell lines)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"KIF22 knockdown might inhibit proliferation and metastasis of GC cells via MAPK-ERK signaling.\",\n      \"rationale\": \"KIF22 drives gastric cancer proliferation/migration; no T cell or TCR inhibition context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11076398\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; non-immune malignant plasma cells (multiple myeloma lines, mouse xenograft)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"KIF22 promotes MM progression by regulating the CDC25C/CDK1/cyclinB1 pathway.\",\n      \"rationale\": \"KIF22 promotes myeloma cell-cycle progression; not T cells and no TCR signalling readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9398805\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; non-immune (thyroid cancer tissues and TPC-1/KTC-1 cells, mouse)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"KIF11 knockdown remarkably suppressed thyroid cancer cell proliferation as well as induced apoptosis.\",\n      \"rationale\": \"Concerns KIF11, a different gene, in thyroid cancer; not KIF22 and not TCR.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; T cells (TCR signalling in human T cells)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser325 phosphorylation promotes PTPN22's TCR-inhibitory activity in human T cells.\",\n      \"rationale\": \"Addresses PTPN22-mediated TCR inhibition, a different regulator; provides no evidence about KIF22.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10824666\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; non-immune (ovarian/breast cancer cell lines, mouse models)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inhibitors of the KIF18A motor protein selectively kill chromosomally unstable cancer cells.\",\n      \"rationale\": \"Concerns KIF18A, a different gene, in cancer mitosis; not KIF22 and not TCR.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"Human; T cells (TCR repertoire for adoptive therapy, review)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Explores using patient TCR repertoire data to select T cells for adoptive immunotherapy.\",\n      \"rationale\": \"Review of therapeutic TCR selection; no mention of KIF22 or TCR inhibition mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10907621\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; non-immune (cancer cell lines)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Weak basal APC/C activity makes cancer cells uniquely sensitive to KIF18A inhibition.\",\n      \"rationale\": \"Concerns KIF18A, a different gene, in cancer mitosis; not KIF22 and not TCR.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; engineered CD4 TCR-T cells, mouse xenograft nasopharyngeal tumor model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-T cells targeting EBNA1 significantly inhibited nasopharyngeal tumor growth in mouse models.\",\n      \"rationale\": \"TCR-engineered therapy inhibits tumor growth; no KIF22 and no TCR-inhibition phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6996685\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"Human; non-immune (tongue squamous carcinoma tissues/CAL-27, SCC-15 cells, mouse xenograft)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"KIF22 suppression inhibited cell proliferation and xenograft tumor growth in tongue carcinoma.\",\n      \"rationale\": \"KIF22 drives carcinoma proliferation; no T cell or TCR inhibition context.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved paper materially links KIF22 to TCR inhibition or a closely related inhibitory T cell phenotype. KIF22 papers (PMC11233920, PMC7176455, PMC11076398, PMC6996685) address mitosis/proliferation in non-T-cell cancer or chondrocyte systems. TCR-inhibition-relevant papers concern other genes/topics: PMC11237943 is PTPN22, PMC12346228 is a TCR-repertoire review, and PMC11014665 is TCR-T therapy. PMC9398805, PMC10824666 and PMC10907621 concern KIF11/KIF18A. None provide primary causal evidence connecting KIF22 to TCR signalling inhibition, checkpoint response, anergy, or exhaustion with impaired TCR function.\",\n  \"confidence\": \"high\"\n}\n```\n\n**Summary:** None of the 10 retrieved papers provide evidence linking KIF22 to TCR inhibition. The four genuine KIF22 studies concern proliferation/mitosis in cancer and chondrocyte (non-T-cell) systems, while the papers touching TCR inhibition or T cell biology involve different genes (PTPN22, KIF11, KIF18A) or unrelated topics. Overall tier: **none** (high confidence).",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "KIF22",
+    "query": "KIF22 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11233920",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Non-human; non-immune (growth-plate chondrocytes, mouse and cell models)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "KIF22 regulates mitotic spindle formation in proliferating chondrocytes thereby linking stunted bone growth.",
+        "rationale": "KIF22 studied in chondrocyte mitosis and bone growth; no T cells or TCR signalling involved."
+      },
+      {
+        "paperclip_result_id": "PMC7176455",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; non-immune (gastric cancer tissues and MGC-803/BGC-823 cell lines)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "KIF22 knockdown might inhibit proliferation and metastasis of GC cells via MAPK-ERK signaling.",
+        "rationale": "KIF22 drives gastric cancer proliferation/migration; no T cell or TCR inhibition context."
+      },
+      {
+        "paperclip_result_id": "PMC11076398",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; non-immune malignant plasma cells (multiple myeloma lines, mouse xenograft)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "KIF22 promotes MM progression by regulating the CDC25C/CDK1/cyclinB1 pathway.",
+        "rationale": "KIF22 promotes myeloma cell-cycle progression; not T cells and no TCR signalling readout."
+      },
+      {
+        "paperclip_result_id": "PMC9398805",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; non-immune (thyroid cancer tissues and TPC-1/KTC-1 cells, mouse)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "KIF11 knockdown remarkably suppressed thyroid cancer cell proliferation as well as induced apoptosis.",
+        "rationale": "Concerns KIF11, a different gene, in thyroid cancer; not KIF22 and not TCR."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; T cells (TCR signalling in human T cells)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser325 phosphorylation promotes PTPN22's TCR-inhibitory activity in human T cells.",
+        "rationale": "Addresses PTPN22-mediated TCR inhibition, a different regulator; provides no evidence about KIF22."
+      },
+      {
+        "paperclip_result_id": "PMC10824666",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; non-immune (ovarian/breast cancer cell lines, mouse models)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Inhibitors of the KIF18A motor protein selectively kill chromosomally unstable cancer cells.",
+        "rationale": "Concerns KIF18A, a different gene, in cancer mitosis; not KIF22 and not TCR."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "Human; T cells (TCR repertoire for adoptive therapy, review)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Explores using patient TCR repertoire data to select T cells for adoptive immunotherapy.",
+        "rationale": "Review of therapeutic TCR selection; no mention of KIF22 or TCR inhibition mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC10907621",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; non-immune (cancer cell lines)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Weak basal APC/C activity makes cancer cells uniquely sensitive to KIF18A inhibition.",
+        "rationale": "Concerns KIF18A, a different gene, in cancer mitosis; not KIF22 and not TCR."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; engineered CD4 TCR-T cells, mouse xenograft nasopharyngeal tumor model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-T cells targeting EBNA1 significantly inhibited nasopharyngeal tumor growth in mouse models.",
+        "rationale": "TCR-engineered therapy inhibits tumor growth; no KIF22 and no TCR-inhibition phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC6996685",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "Human; non-immune (tongue squamous carcinoma tissues/CAL-27, SCC-15 cells, mouse xenograft)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "KIF22 suppression inhibited cell proliferation and xenograft tumor growth in tongue carcinoma.",
+        "rationale": "KIF22 drives carcinoma proliferation; no T cell or TCR inhibition context."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved paper materially links KIF22 to TCR inhibition or a closely related inhibitory T cell phenotype. KIF22 papers (PMC11233920, PMC7176455, PMC11076398, PMC6996685) address mitosis/proliferation in non-T-cell cancer or chondrocyte systems. TCR-inhibition-relevant papers concern other genes/topics: PMC11237943 is PTPN22, PMC12346228 is a TCR-repertoire review, and PMC11014665 is TCR-T therapy. PMC9398805, PMC10824666 and PMC10907621 concern KIF11/KIF18A. None provide primary causal evidence connecting KIF22 to TCR signalling inhibition, checkpoint response, anergy, or exhaustion with impaired TCR function.",
+    "confidence": "high"
+  }
+}

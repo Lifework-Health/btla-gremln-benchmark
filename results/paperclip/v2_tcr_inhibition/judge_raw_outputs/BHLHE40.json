@@ -1,0 +1,151 @@
+{
+  "tf": "BHLHE40",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:31:05Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-8bc35276-1c06-43c8-a4cc-22352b040a4f",
+      "agent_id": "agent-b4513444-0717-4f29-a81c-b03f36ca1b83",
+      "raw": "I reviewed the schema and evaluated all 10 supplied papers against it. Here is the structured assessment:\n\n```json\n{\n  \"tf\": \"BHLHE40\",\n  \"query\": \"BHLHE40 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 5,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10846703\",\n      \"retrieval_rank\": 1,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4 T cells; Th1/Tr1 subsets in female reproductive tract\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"BHLHE40 deficiency impairs bacterial control by promoting IL-10-producing Tr1 cells and reducing polyfunctional CD4 T cells\",\n      \"rationale\": \"Knockout mice show BHLHE40 restrains IL-10-producing Tr1 (regulatory/inhibitory) cells while driving polyfunctional effector differentiation; no TCR signalling readout, and direction opposes an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9164498\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); tumor-specific primary T cells; anti-tumor CD4/CD8 in checkpoint therapy\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"Tumor-specific T cells upregulate BHLHE40, which is required for effective immune checkpoint therapy\",\n      \"rationale\": \"In a checkpoint-therapy context BHLHE40 is required for T-cell effector function and TME remodeling; it supports effector activity rather than inhibiting TCR signalling, with no TCR-inhibition readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12137885\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); non-T immune cells (alveolar/M2 macrophages); allergic asthma\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"BHLHE40 promotes asthma by inhibiting Neurturin transcription in macrophages\",\n      \"rationale\": \"Macrophage-intrinsic BHLHE40 mechanism in asthma; no T cells and no link to TCR inhibition or an inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10153201\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); CD8 T cells; in vitro chronic-stimulation exhaustion model benchmarked to in vivo Tex\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"role for BHLHE40 in regulating a differentiation checkpoint between progenitor and intermediate subsets of Tex\",\n      \"rationale\": \"CRISPR screen plus validation places BHLHE40 at an exhaustion differentiation checkpoint, but impaired or attenuated TCR function is not explicitly demonstrated, so exhaustion alone is insufficient.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10894472\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); non-T immune cells (macrophages); LPS acute lung injury\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Bhlhe40 deficiency attenuates injury by preventing macrophage pyroptosis\",\n      \"rationale\": \"Macrophage pyroptosis in acute lung injury; no T cells and no connection to TCR inhibition or an inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8293608\",\n      \"retrieval_rank\": 6,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary CD4 T cells; naive CD4 and CD49b+LAG3+ Tr1 cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"BHLHE40 represses IL-10 and increases IFN-γ secretion in naïve CD4+ T cells\",\n      \"rationale\": \"Human CRISPR knockout/overexpression shows BHLHE40 represses the regulatory cytokine IL-10 and is dispensable for Tr1 differentiation; it opposes an inhibitory cytokine program, not TCR signalling.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10913236\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (sheep); non-immune system (skeletal muscle myoblasts)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Vitamin A promotes differentiation by upregulating BHLHE40, which inhibits ID3 expression\",\n      \"rationale\": \"Myoblast myogenic differentiation via BHLHE40-ID3; non-immune system with no relevance to T cells or TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12632895\",\n      \"retrieval_rank\": 8,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) conditional knockouts plus human tumor datasets; CD4 and CD8 T cells; tumor-reactive/exhausted CD8\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"exhaustion explicitly linked to impaired TCR function\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"Loss of Bhlhe40 skews CD8 T cells toward TCF-1-expressing naïve and progenitor exhausted-like states\",\n      \"rationale\": \"Conditional knockouts show BHLHE40 sustains effector/exhausted programs and ICT efficacy; it opposes progenitor-exhausted states but no attenuated TCR-signalling readout is demonstrated, so directness is incomplete.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12744931\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4 T cells; Tfh cells and germinal centers\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Bhlhe40 repressed this process by inhibiting Pou2af1 expression\",\n      \"rationale\": \"Bhlhe40-Pou2af1 axis tunes CXCR5 and Tfh migration/differentiation; a lineage/positioning program unrelated to TCR inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10695412\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4 Th17/Th1-17 cells; EAE autoimmunity\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"BHLHE40 promotes TH17 cell encephalitogenicity and influences myeloid cell responses during EAE\",\n      \"rationale\": \"BHLHE40 drives pathogenic Th17 cytokine production and encephalitogenicity; a pro-inflammatory effector program, not an inhibitory phenotype or TCR attenuation.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"weak\",\n  \"key_paperclip_result_ids\": [\"PMC10153201\", \"PMC12632895\", \"PMC9164498\", \"PMC8293608\"],\n  \"tier_rationale\": \"No retrieved primary study provides direct causal evidence that altering BHLHE40 changes proximal TCR signalling, an inhibitory checkpoint response, or TCR-linked anergy/hyporesponsiveness with a functional TCR readout. The most relevant primary papers concern exhaustion differentiation (PMC10153201, PMC12632895) and checkpoint-therapy effector function (PMC9164498, PMC8293608), but exhaustion is not accompanied by explicit demonstration of impaired/attenuated TCR function, and BHLHE40 largely sustains effector programs and represses the inhibitory IL-10/Tr1 axis, i.e. it tends to oppose inhibition. Remaining evidence is general T cell activation/differentiation or non-T-cell systems. Per the mandatory rules (exhaustion insufficient without demonstrated TCR impairment; activation/differentiation insufficient for moderate; assign lower tier when between two), the tier is weak.\",\n  \"confidence\": \"moderate\"\n}\n```\n\nSummary: Of 10 papers, 5 are materially relevant to an inhibitory-related T cell phenotype, but none demonstrate direct causal attenuation of TCR signalling with a functional TCR readout. The exhaustion and checkpoint studies actually show BHLHE40 sustaining effector programs and opposing the IL-10/Tr1 regulatory axis, so the evidence that BHLHE40 *contributes to* TCR inhibition is **weak** (moderate confidence).",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "BHLHE40",
+    "query": "BHLHE40 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 5,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10846703",
+        "retrieval_rank": 1,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4 T cells; Th1/Tr1 subsets in female reproductive tract",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "BHLHE40 deficiency impairs bacterial control by promoting IL-10-producing Tr1 cells and reducing polyfunctional CD4 T cells",
+        "rationale": "Knockout mice show BHLHE40 restrains IL-10-producing Tr1 (regulatory/inhibitory) cells while driving polyfunctional effector differentiation; no TCR signalling readout, and direction opposes an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC9164498",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); tumor-specific primary T cells; anti-tumor CD4/CD8 in checkpoint therapy",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "Tumor-specific T cells upregulate BHLHE40, which is required for effective immune checkpoint therapy",
+        "rationale": "In a checkpoint-therapy context BHLHE40 is required for T-cell effector function and TME remodeling; it supports effector activity rather than inhibiting TCR signalling, with no TCR-inhibition readout."
+      },
+      {
+        "paperclip_result_id": "PMC12137885",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); non-T immune cells (alveolar/M2 macrophages); allergic asthma",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "BHLHE40 promotes asthma by inhibiting Neurturin transcription in macrophages",
+        "rationale": "Macrophage-intrinsic BHLHE40 mechanism in asthma; no T cells and no link to TCR inhibition or an inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC10153201",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); CD8 T cells; in vitro chronic-stimulation exhaustion model benchmarked to in vivo Tex",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "context dependent",
+        "supporting_excerpt": "role for BHLHE40 in regulating a differentiation checkpoint between progenitor and intermediate subsets of Tex",
+        "rationale": "CRISPR screen plus validation places BHLHE40 at an exhaustion differentiation checkpoint, but impaired or attenuated TCR function is not explicitly demonstrated, so exhaustion alone is insufficient."
+      },
+      {
+        "paperclip_result_id": "PMC10894472",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); non-T immune cells (macrophages); LPS acute lung injury",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Bhlhe40 deficiency attenuates injury by preventing macrophage pyroptosis",
+        "rationale": "Macrophage pyroptosis in acute lung injury; no T cells and no connection to TCR inhibition or an inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC8293608",
+        "retrieval_rank": 6,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary CD4 T cells; naive CD4 and CD49b+LAG3+ Tr1 cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "BHLHE40 represses IL-10 and increases IFN-γ secretion in naïve CD4+ T cells",
+        "rationale": "Human CRISPR knockout/overexpression shows BHLHE40 represses the regulatory cytokine IL-10 and is dispensable for Tr1 differentiation; it opposes an inhibitory cytokine program, not TCR signalling."
+      },
+      {
+        "paperclip_result_id": "PMC10913236",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (sheep); non-immune system (skeletal muscle myoblasts)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Vitamin A promotes differentiation by upregulating BHLHE40, which inhibits ID3 expression",
+        "rationale": "Myoblast myogenic differentiation via BHLHE40-ID3; non-immune system with no relevance to T cells or TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC12632895",
+        "retrieval_rank": 8,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) conditional knockouts plus human tumor datasets; CD4 and CD8 T cells; tumor-reactive/exhausted CD8",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "exhaustion explicitly linked to impaired TCR function",
+        "direction": "context dependent",
+        "supporting_excerpt": "Loss of Bhlhe40 skews CD8 T cells toward TCF-1-expressing naïve and progenitor exhausted-like states",
+        "rationale": "Conditional knockouts show BHLHE40 sustains effector/exhausted programs and ICT efficacy; it opposes progenitor-exhausted states but no attenuated TCR-signalling readout is demonstrated, so directness is incomplete."
+      },
+      {
+        "paperclip_result_id": "PMC12744931",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4 T cells; Tfh cells and germinal centers",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Bhlhe40 repressed this process by inhibiting Pou2af1 expression",
+        "rationale": "Bhlhe40-Pou2af1 axis tunes CXCR5 and Tfh migration/differentiation; a lineage/positioning program unrelated to TCR inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC10695412",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4 Th17/Th1-17 cells; EAE autoimmunity",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "BHLHE40 promotes TH17 cell encephalitogenicity and influences myeloid cell responses during EAE",
+        "rationale": "BHLHE40 drives pathogenic Th17 cytokine production and encephalitogenicity; a pro-inflammatory effector program, not an inhibitory phenotype or TCR attenuation."
+      }
+    ],
+    "overall_evidence_tier": "weak",
+    "key_paperclip_result_ids": [
+      "PMC10153201",
+      "PMC12632895",
+      "PMC9164498",
+      "PMC8293608"
+    ],
+    "tier_rationale": "No retrieved primary study provides direct causal evidence that altering BHLHE40 changes proximal TCR signalling, an inhibitory checkpoint response, or TCR-linked anergy/hyporesponsiveness with a functional TCR readout. The most relevant primary papers concern exhaustion differentiation (PMC10153201, PMC12632895) and checkpoint-therapy effector function (PMC9164498, PMC8293608), but exhaustion is not accompanied by explicit demonstration of impaired/attenuated TCR function, and BHLHE40 largely sustains effector programs and represses the inhibitory IL-10/Tr1 axis, i.e. it tends to oppose inhibition. Remaining evidence is general T cell activation/differentiation or non-T-cell systems. Per the mandatory rules (exhaustion insufficient without demonstrated TCR impairment; activation/differentiation insufficient for moderate; assign lower tier when between two), the tier is weak.",
+    "confidence": "moderate"
+  }
+}

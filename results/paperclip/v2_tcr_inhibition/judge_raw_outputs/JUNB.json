@@ -1,0 +1,149 @@
+{
+  "tf": "JUNB",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:51:18Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-ecc2cbb6-c7ff-4a49-bc99-f4ec801ad2ef",
+      "agent_id": "agent-4a7768c0-4468-4cab-ad1f-8214c349a61b",
+      "raw": "Based on the supplied papers and passages only, here is the structured assessment.\n\n```json\n{\n  \"tf\": \"JUNB\",\n  \"query\": \"JUNB TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 2,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11884676\",\n      \"retrieval_rank\": 1,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD8+ T cells; cytotoxic effector/naive CD8+ T cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"JunB deficiency enhances the expression of co-inhibitory receptors, including programmed cell death 1 (PD-1) and TIM3\",\n      \"rationale\": \"Junb knockout perturbation increases co-inhibitory receptor (PD-1/TIM3) expression on activated CD8+ T cells, linking JunB loss to a checkpoint phenotype, though attenuated TCR signalling function itself is not directly measured; JunB is induced by TCR signal strength.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12247136\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse) and in vitro; non-immune vascular smooth muscle cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"EGCG effectively suppresses CKD-associated MAC by inhibiting the activity of JunB\",\n      \"rationale\": \"Concerns JunB in vascular smooth muscle cell osteogenic differentiation; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11496645\",\n      \"retrieval_rank\": 3,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human engineered CAR-T cells\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"T cell anergy or hyporesponsiveness\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"MEK inhibition downregulated the JunB-driven gene profiles associated with exhaustion, differentiation, anergy\",\n      \"rationale\": \"Perturbational Cut-and-Tag plus JunB overexpression rescue implicate JunB in driving CAR-T exhaustion/anergy programs, but readout is CAR (not TCR) signalling and impaired TCR function is not explicitly demonstrated.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10507257\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"literature review; immune cells including T cells\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"JunB has great regulatory functions in innate and adaptive immune responses\",\n      \"rationale\": \"Review of JunB in immunity and cancer; no primary TCR-inhibition data and a review cannot support strong/moderate tiers.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2833204\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary bone marrow-derived dendritic cells (non-T immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"JunB is required for inducing proinflammatory cytokines, partnering with NF-κB\",\n      \"rationale\": \"JunB drives proinflammatory cytokines in dendritic cells; not a T cell or TCR-inhibition system.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12469021\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"literature review; urological cancer cells (non-immune focus)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"context dependent\",\n      \"supporting_excerpt\": \"JUNB and JUND are credited with both tumor-suppressing and oncogenic roles\",\n      \"rationale\": \"Review of JUNB/JUND in urological cancers; no T cell TCR-inhibition content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9273772\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4+ T helper cells (Th1/Th2/Th17)\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"opposes inhibition\",\n      \"supporting_excerpt\": \"JunB serves a critical function in clonal expansion of diverse T helper cells by inhibiting their apoptosis\",\n      \"rationale\": \"JunB supports T helper survival/clonal expansion; this is pro-activation/survival biology, not an inhibitory TCR phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11451012\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse triple-negative breast cancer (tumor) cells; JunB acts in tumor cells\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"the NAT10-ac4C-JunB-LDHA pathway increases glycolysis levels and creates an immunosuppressive tumor microenvironment\",\n      \"rationale\": \"JunB in tumor cells promotes an immunosuppressive microenvironment via glycolysis; effect on T cells is indirect and not TCR-signalling inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5563507\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human (mouse); primary CD4+ T cells; Th17 subset\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"JunB promotes Th17 cell programs while repressing alternative CD4+ T-cell fates\",\n      \"rationale\": \"JunB governs Th17 lineage identity/differentiation, which is lineage specification rather than an inhibitory TCR phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12455463\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human; non-immune prostate cancer tissue\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Lower JUNB expression was associated with a higher risk of prostatic adenocarcinoma progression\",\n      \"rationale\": \"Bioinformatic/histopathological prognostic association in prostate cancer; no T cell or TCR-inhibition evidence.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC11884676\", \"PMC11496645\"],\n  \"tier_rationale\": \"Two primary studies materially link JunB to inhibitory T cell phenotypes: JunB deficiency raises co-inhibitory receptors PD-1/TIM3 in mouse CD8+ T cells (PMC11884676), and JunB perturbation drives CAR-T exhaustion/anergy gene programs (PMC11496645). Both provide relevant but incomplete evidence: neither directly demonstrates altered proximal TCR signalling, one is checkpoint-receptor expression only and the other is CAR (not TCR) signalling without explicit impaired-TCR-function readout. This meets moderate but not the strong requirement of direct causal TCR inhibition with a functional readout; between tiers, the lower tier applies.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "JUNB",
+    "query": "JUNB TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 2,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11884676",
+        "retrieval_rank": 1,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD8+ T cells; cytotoxic effector/naive CD8+ T cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "JunB deficiency enhances the expression of co-inhibitory receptors, including programmed cell death 1 (PD-1) and TIM3",
+        "rationale": "Junb knockout perturbation increases co-inhibitory receptor (PD-1/TIM3) expression on activated CD8+ T cells, linking JunB loss to a checkpoint phenotype, though attenuated TCR signalling function itself is not directly measured; JunB is induced by TCR signal strength."
+      },
+      {
+        "paperclip_result_id": "PMC12247136",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse) and in vitro; non-immune vascular smooth muscle cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "EGCG effectively suppresses CKD-associated MAC by inhibiting the activity of JunB",
+        "rationale": "Concerns JunB in vascular smooth muscle cell osteogenic differentiation; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC11496645",
+        "retrieval_rank": 3,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human engineered CAR-T cells",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "T cell anergy or hyporesponsiveness",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "MEK inhibition downregulated the JunB-driven gene profiles associated with exhaustion, differentiation, anergy",
+        "rationale": "Perturbational Cut-and-Tag plus JunB overexpression rescue implicate JunB in driving CAR-T exhaustion/anergy programs, but readout is CAR (not TCR) signalling and impaired TCR function is not explicitly demonstrated."
+      },
+      {
+        "paperclip_result_id": "PMC10507257",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "literature review; immune cells including T cells",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "context dependent",
+        "supporting_excerpt": "JunB has great regulatory functions in innate and adaptive immune responses",
+        "rationale": "Review of JunB in immunity and cancer; no primary TCR-inhibition data and a review cannot support strong/moderate tiers."
+      },
+      {
+        "paperclip_result_id": "PMC2833204",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary bone marrow-derived dendritic cells (non-T immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "JunB is required for inducing proinflammatory cytokines, partnering with NF-κB",
+        "rationale": "JunB drives proinflammatory cytokines in dendritic cells; not a T cell or TCR-inhibition system."
+      },
+      {
+        "paperclip_result_id": "PMC12469021",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "literature review; urological cancer cells (non-immune focus)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "context dependent",
+        "supporting_excerpt": "JUNB and JUND are credited with both tumor-suppressing and oncogenic roles",
+        "rationale": "Review of JUNB/JUND in urological cancers; no T cell TCR-inhibition content."
+      },
+      {
+        "paperclip_result_id": "PMC9273772",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4+ T helper cells (Th1/Th2/Th17)",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "opposes inhibition",
+        "supporting_excerpt": "JunB serves a critical function in clonal expansion of diverse T helper cells by inhibiting their apoptosis",
+        "rationale": "JunB supports T helper survival/clonal expansion; this is pro-activation/survival biology, not an inhibitory TCR phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11451012",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse triple-negative breast cancer (tumor) cells; JunB acts in tumor cells",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "the NAT10-ac4C-JunB-LDHA pathway increases glycolysis levels and creates an immunosuppressive tumor microenvironment",
+        "rationale": "JunB in tumor cells promotes an immunosuppressive microenvironment via glycolysis; effect on T cells is indirect and not TCR-signalling inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC5563507",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human (mouse); primary CD4+ T cells; Th17 subset",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "JunB promotes Th17 cell programs while repressing alternative CD4+ T-cell fates",
+        "rationale": "JunB governs Th17 lineage identity/differentiation, which is lineage specification rather than an inhibitory TCR phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12455463",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human; non-immune prostate cancer tissue",
+        "evidence_directness": "associative",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Lower JUNB expression was associated with a higher risk of prostatic adenocarcinoma progression",
+        "rationale": "Bioinformatic/histopathological prognostic association in prostate cancer; no T cell or TCR-inhibition evidence."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC11884676",
+      "PMC11496645"
+    ],
+    "tier_rationale": "Two primary studies materially link JunB to inhibitory T cell phenotypes: JunB deficiency raises co-inhibitory receptors PD-1/TIM3 in mouse CD8+ T cells (PMC11884676), and JunB perturbation drives CAR-T exhaustion/anergy gene programs (PMC11496645). Both provide relevant but incomplete evidence: neither directly demonstrates altered proximal TCR signalling, one is checkpoint-receptor expression only and the other is CAR (not TCR) signalling without explicit impaired-TCR-function readout. This meets moderate but not the strong requirement of direct causal TCR inhibition with a functional readout; between tiers, the lower tier applies.",
+    "confidence": "moderate"
+  }
+}

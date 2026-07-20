@@ -1,0 +1,146 @@
+{
+  "tf": "HIRIP3",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:44:51Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-679ff269-470e-4e63-af7e-0cfa9e7eae7d",
+      "agent_id": "agent-e79ec548-9773-43a6-9d2a-3bb61b4ca164",
+      "raw": "Based on the supplied papers, here is my structured assessment.\n\n```json\n{\n  \"tf\": \"HIRIP3\",\n  \"query\": \"HIRIP3 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10854748\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human, non-immune system (HeLa cells); no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"HIRIP3 acts as an H2A histone chaperone... facilitating its deposition onto chromatin.\",\n      \"rationale\": \"Characterizes HIRIP3 as a histone H2A chaperone in HeLa cells; no T cell, TCR or inhibitory phenotype content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells and Jurkat T cell line\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR downregulation and T cell activation are controlled by different signaling events.\",\n      \"rationale\": \"Studies TCR downregulation via Lck/Fyn/ZAP70, but never examines HIRIP3; provides no evidence about the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11890862\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human cell lines, non-immune system; no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"expression of head-to-head overlapping genes, a pair of INO80E and HIRIP3.\",\n      \"rationale\": \"Examines transcriptional regulation of the INO80E/HIRIP3 gene pair; no T cell or TCR inhibition relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3842781\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"soluble antibodies strongly activate inhibitory molecules that likely terminate signaling.\",\n      \"rationale\": \"Analyzes TCR signaling kinetics and feedback, but does not mention HIRIP3; irrelevant to the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12179093\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human brain tissue and APP/PS1 mice, non-immune (neurodegeneration)\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"MAP4, GPT, and HIRIP3 are identified as strong biomarkers.\",\n      \"rationale\": \"Bioinformatic association of HIRIP3 with Alzheimer's iron metabolism; no T cell, TCR or inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2212737\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells expressing viral Tip (T cell line/primary); no HIRIP3\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"HVS Tip inhibits TCR signaling by sequestering Lck.\",\n      \"rationale\": \"Demonstrates TCR inhibition by a herpesviral protein, not HIRIP3; no bearing on the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human T cells; studies PTPN22, not HIRIP3\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser325 phosphorylation promotes PTPN22's inhibitory effect on TCR signaling.\",\n      \"rationale\": \"Direct TCR-inhibition study of PTPN22, a different regulator; provides no evidence for HIRIP3.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196323\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells conjugated with antigen-presenting cells; no HIRIP3\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"triggered TCRs are rapidly removed from the cell surface and degraded.\",\n      \"rationale\": \"Describes lysosomal degradation of TCR-CD3-zeta after stimulation; does not involve HIRIP3.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human, T cell repertoire (conceptual/therapeutic); no HIRIP3\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"review explores using patient TCR repertoire data to select therapeutic TCRs.\",\n      \"rationale\": \"Review on TCR repertoire selection for immunotherapy; no HIRIP3 and no inhibitory signalling mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11092459\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"T cells (PIK3IP1/TrIP); no HIRIP3\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TrIP loss is controlled by TCR signal strength, PKC, and metalloprotease cleavage.\",\n      \"rationale\": \"Studies regulation of the PI3K inhibitor TrIP, a different molecule; provides no evidence for HIRIP3.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"The three papers that actually study HIRIP3 (PMC10854748 histone H2A chaperone, PMC11890862 INO80E/HIRIP3 gene expression, PMC12179093 Alzheimer's biomarker) concern chromatin biology, transcription and neurodegeneration with no T cell or TCR content. The TCR-relevant papers (PMC7860602, PMC3842781, PMC2212737, PMC11237943, PMC2196323, PMC12346228, PMC11092459) address other molecules (Lck, PTPN22, viral Tip, TrIP) and never mention HIRIP3. No retrieved primary study materially links HIRIP3 to TCR inhibition or a related inhibitory T cell phenotype.\",\n  \"confidence\": \"high\"\n}\n```\n\n**Summary:** No retrieved paper connects HIRIP3 to TCR inhibition. HIRIP3 appears only in non-immune contexts (histone chaperone, overlapping-gene regulation, Alzheimer's biomarker), while the TCR-inhibition papers study unrelated regulators. Overall tier: **none** (high confidence).",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "HIRIP3",
+    "query": "HIRIP3 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10854748",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human, non-immune system (HeLa cells); no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "HIRIP3 acts as an H2A histone chaperone... facilitating its deposition onto chromatin.",
+        "rationale": "Characterizes HIRIP3 as a histone H2A chaperone in HeLa cells; no T cell, TCR or inhibitory phenotype content."
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells and Jurkat T cell line",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR downregulation and T cell activation are controlled by different signaling events.",
+        "rationale": "Studies TCR downregulation via Lck/Fyn/ZAP70, but never examines HIRIP3; provides no evidence about the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC11890862",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human cell lines, non-immune system; no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "expression of head-to-head overlapping genes, a pair of INO80E and HIRIP3.",
+        "rationale": "Examines transcriptional regulation of the INO80E/HIRIP3 gene pair; no T cell or TCR inhibition relevance."
+      },
+      {
+        "paperclip_result_id": "PMC3842781",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "soluble antibodies strongly activate inhibitory molecules that likely terminate signaling.",
+        "rationale": "Analyzes TCR signaling kinetics and feedback, but does not mention HIRIP3; irrelevant to the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC12179093",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human brain tissue and APP/PS1 mice, non-immune (neurodegeneration)",
+        "evidence_directness": "associative",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "MAP4, GPT, and HIRIP3 are identified as strong biomarkers.",
+        "rationale": "Bioinformatic association of HIRIP3 with Alzheimer's iron metabolism; no T cell, TCR or inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC2212737",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells expressing viral Tip (T cell line/primary); no HIRIP3",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "HVS Tip inhibits TCR signaling by sequestering Lck.",
+        "rationale": "Demonstrates TCR inhibition by a herpesviral protein, not HIRIP3; no bearing on the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human T cells; studies PTPN22, not HIRIP3",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser325 phosphorylation promotes PTPN22's inhibitory effect on TCR signaling.",
+        "rationale": "Direct TCR-inhibition study of PTPN22, a different regulator; provides no evidence for HIRIP3."
+      },
+      {
+        "paperclip_result_id": "PMC2196323",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells conjugated with antigen-presenting cells; no HIRIP3",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "triggered TCRs are rapidly removed from the cell surface and degraded.",
+        "rationale": "Describes lysosomal degradation of TCR-CD3-zeta after stimulation; does not involve HIRIP3."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human, T cell repertoire (conceptual/therapeutic); no HIRIP3",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "review explores using patient TCR repertoire data to select therapeutic TCRs.",
+        "rationale": "Review on TCR repertoire selection for immunotherapy; no HIRIP3 and no inhibitory signalling mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC11092459",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "T cells (PIK3IP1/TrIP); no HIRIP3",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "TrIP loss is controlled by TCR signal strength, PKC, and metalloprotease cleavage.",
+        "rationale": "Studies regulation of the PI3K inhibitor TrIP, a different molecule; provides no evidence for HIRIP3."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "The three papers that actually study HIRIP3 (PMC10854748 histone H2A chaperone, PMC11890862 INO80E/HIRIP3 gene expression, PMC12179093 Alzheimer's biomarker) concern chromatin biology, transcription and neurodegeneration with no T cell or TCR content. The TCR-relevant papers (PMC7860602, PMC3842781, PMC2212737, PMC11237943, PMC2196323, PMC12346228, PMC11092459) address other molecules (Lck, PTPN22, viral Tip, TrIP) and never mention HIRIP3. No retrieved primary study materially links HIRIP3 to TCR inhibition or a related inhibitory T cell phenotype.",
+    "confidence": "high"
+  }
+}

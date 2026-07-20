@@ -1,0 +1,108 @@
+{
+  "tf": "EZH2",
+  "query": "EZH2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10863487",
+      "rank": 1,
+      "title": "EZH2 Inhibition Promotes Tumor Immunogenicity in Lung Squamous Cell Carcinomas",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The data described here show that inhibition of the epigenetic enzyme EZH2 allows derepression of multiple immunogenicity factors in LSCC, and that EZH2 inhibition alters myeloid cells  in vivo . These data support clinical translation of this combination therapy for treatment of this deadly tumor type. Two important factors that contribute to resistance to immune checkpoint inhibitors (ICI) are an immune-suppressive microenvironment and limited antigen presentation by tumor cells. In this study, we examine whether inhibition of the methyltransferase enhancer of zeste homolog 2 (EZH2) can increase ICI response in lung squamous cell carcinomas (LSCC). Our  in vitro  experiments using two-dimensional human cancer cell lines as well as three-dimensional murine and patient-derived organoids treated with two inhibitors of the EZH2 plus IFNγ showed that EZH2 inhibition leads to expression of both MHC class I and II (MHCI/II) expression at both the mRNA and protein levels. Chromatin immunoprecipitation sequencing confirmed loss of EZH2-mediated histone marks and gain of activating histone marks at key loci. Furthermore, we demonstrate strong tumor control in models of both autochthonous and syngeneic LSCC treated with anti-PD1 immunotherapy with EZH2 inhibition. Single-cell RNA sequencing and immune cell profiling demonstrated phenotypic changes toward more tumor suppressive phenotypes in EZH2 inhibitor–treated tumors. These results indicate that EZH2 inhibitors could increase ICI responses in patients undergoing treatment for LSCC.",
+      "relevant_passages": "EZH2 inhibition derepresses immunogenicity factors and alters myeloid cells in lung squamous cell carcinomas. This suggests EZH2 inhibitors could enhance responses to immune checkpoint inhibitors in LSCC.",
+      "doi_or_pmcid": "10.1158/2767-9764.CRC-23-0399"
+    },
+    {
+      "paperclip_result_id": "PMC11130181",
+      "rank": 2,
+      "title": "Combination of EZH2 and ATM inhibition in BAP1-deficient mesothelioma",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "More than half of mesothelioma tumours show alterations in the tumour suppressor gene  BAP1 . BAP1-deficient mesothelioma is shown to be sensitive to EZH2 inhibition in preclinical settings but only showed modest efficacy in clinical trial. Adding a second inhibitor could potentially elevate EZH2i treatment efficacy while preventing acquired resistance at the same time. A focused drug synergy screen consisting of 20 drugs was performed by combining EZH2 inhibition with a panel of anti-cancer compounds in mesothelioma cell lines. The compounds used are under preclinical investigation or already used in the clinic. The synergistic potential of the combinations was assessed by using the Bliss model. To validate our findings, in vivo xenograft experiments were performed. Combining EZH2i with ATMi was found to have synergistic potential against BAP1-deficient mesothelioma in our drug screen, which was validated in clonogenicity assays. Tumour growth inhibition potential was significantly increased in BAP1-deficient xenografts. In addition, we observe lower ATM levels upon depletion of BAP1 and hypothesise that this might be mediated by E2F1. We demonstrated the efficacy of the combination of ATM and EZH2 inhibition against BAP1-deficient mesothelioma in preclinical models, indicating the potential of this combination as a novel treatment modality using BAP1 as a biomarker.",
+      "relevant_passages": "This study investigated combining EZH2 and ATM inhibitors in BAP1-deficient mesothelioma. The combination showed synergistic efficacy in preclinical models, suggesting it as a potential new treatment.",
+      "doi_or_pmcid": "10.1038/s41416-024-02661-3"
+    },
+    {
+      "paperclip_result_id": "PMC6094952",
+      "rank": 3,
+      "title": "Targeting EZH2 Reprograms Intratumoral Regulatory T Cells to Enhance Cancer Immunity",
+      "year": "2018",
+      "publication_type": "research-article",
+      "abstract": "EZH2 plays an intrinsic role in neoplastic cells as an oncogene, prompting the development of EZH2 inhibitors for cancer therapy. Wang et al. show that disrupting EZH2 function also has immunomodulatory activities and, when blocked in Tregs, promotes potent cancer immunity. Regulatory T cells (Tregs) are critical for maintaining immune homeostasis, but their presence in tumor tissues impairs anti-tumor immunity and portends poor prognoses in cancer patients. Here, we reveal a mechanism to selectively target and reprogram the function of tumor-infiltrating Tregs (TI-Tregs) by exploiting their dependency on the histone H3K27 methyltransferase enhancer of zeste homolog 2 (EZH2) in tumors. Disruption of EZH2 activity in Tregs, either pharmacologically or genetically, drove the acquisition of pro-inflammatory functions in TI-Tregs, remodeling the tumor microenvironment and enhancing the recruitment and function of CD8 +  and CD4 +  effector T cells that eliminate tumors. Moreover, abolishing EZH2 function in Tregs was mechanistically distinct from, more potent than, and less toxic than a generalized Treg depletion approach. This study reveals a strategy to target Tregs in cancer that mitigates autoimmunity by reprogramming their function in tumors to enhance anti-cancer immunity.",
+      "relevant_passages": "EZH2 inhibition in tumor-infiltrating regulatory T cells (Tregs) reprograms them to promote anti-tumor immunity. This approach enhances effector T cell function and tumor elimination, offering a less toxic alternative to Treg depletion.",
+      "doi_or_pmcid": "10.1016/j.celrep.2018.05.050"
+    },
+    {
+      "paperclip_result_id": "PMC11569238",
+      "rank": 4,
+      "title": "EZH2 inhibition sensitizes retinoic acid-driven senescence in synovial sarcoma",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Synovial sarcoma (SS) is driven by a unique t(18;X) chromosomal translocation resulting in expression of the SS18-SSX fusion oncoprotein, a transcriptional regulator with both activating and repressing functions. However, the manner in which SS18-SSX contributes to the development of SS is not entirely known. Here, we show that SS18-SSX drives the expression of Preferentially Expressed Antigen in Melanoma (PRAME), which is highly expressed in SS but whose function remains poorly understood. The fusion protein directly binds and activates the  PRAME  promoter and we found that expression of SS18-SSX and PRAME are positively correlated. We provide evidence that PRAME modulates retinoic acid (RA) signaling, forming a ternary complex with the RA receptor α (RARα) and the Enhancer of Zeste Homolog 2 (EZH2). Knockdown of PRAME suppressed the response to all- trans  retinoic acid (ATRA) supporting PRAME’s role in modulating RA-signaling. Notably, we demonstrate that combined pharmacological inhibition of EZH2 and treatment with ATRA reconstituted RA signaling followed by reduced proliferation and induction of cellular senescence. In conclusion, our data provides new insights on the role of the SS18-SSX fusion protein in regulation of PRAME expression and RA signaling, highlighting the therapeutic potential of disrupting the RARα-PRAME-EZH2 complex in SS. Schematic presentation of the proposed model .  A The RARα-PRAME-EZH2 ternary complex in SS . The fusion SS18-SSX oncoprotein binds to the  PRAME  promoter and activates its expression. PRAME in turn interacts with RARα-RXR heterodimers as well as with EZH2, and the complex binds to retinoic acid response elements (RAREs) in the DNA. This results in transcriptional repression of retinoic acid (RA) responsive genes and thus inhibition of RA-signaling, allowing tumor cell proliferation.  B Therapeutic strategy . Treatment with an EZH2 inhibitor, such as GSK343, or activation of RAR receptors via all- trans  retinoic acid (ATRA), disrupts the RARα-PRAME-EZH2 ternary complex and restores RA-signaling. Exposure to GSK343 or ATRA results in inhibition of cell proliferation and induction of cellular senescence, where GSK343 shows a dominant effect. The Figure was created with Biorender.com.",
+      "relevant_passages": "SS18-SSX drives PRAME expression, which inhibits retinoic acid signaling by forming a complex with RARα and EZH2.",
+      "doi_or_pmcid": "10.1038/s41419-024-07176-6"
+    },
+    {
+      "paperclip_result_id": "PMC10274685",
+      "rank": 5,
+      "title": "EZH2 inhibition promotes tumor immunogenicity in lung squamous cell carcinomas",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Two important factors that contribute to resistance to immune checkpoint inhibitors (ICIs) are an immune-suppressive microenvironment and limited antigen presentation by tumor cells. In this study, we examine if inhibition of the methyltransferase EZH2 can increase ICI response in lung squamous cell carcinomas (LSCCs). Our  in vitro  experiments using 2D human cancer cell lines as well as 3D murine and patient derived organoids treated with two inhibitors of the EZH2 plus interferon-γ (IFNγ) showed that EZH2 inhibition leads to expression of both major histocompatibility complex class I and II (MHCI/II) expression at both the mRNA and protein levels. ChIP-sequencing confirmed loss of EZH2-mediated histone marks and gain of activating histone marks at key loci. Further, we demonstrate strong tumor control in models of both autochthonous and syngeneic LSCC treated with anti-PD1 immunotherapy with EZH2 inhibition. Single-cell RNA sequencing and immune cell profiling demonstrated phenotypic changes towards more tumor suppressive phenotypes in EZH2 inhibitor treated tumors. These results indicate that this therapeutic modality could increase ICI responses in patients undergoing treatment for LSCC.",
+      "relevant_passages": "EZH2 inhibition was studied for its effect on lung squamous cell carcinoma immunogenicity. EZH2 inhibition increased MHC expression and improved anti-PD1 immunotherapy response, suggesting a potential therapeutic strategy.",
+      "doi_or_pmcid": "10.1101/2023.06.06.543919"
+    },
+    {
+      "paperclip_result_id": "PMC11520870",
+      "rank": 6,
+      "title": "EZH2 inhibition or genetic ablation suppresses cyst growth in autosomal dominant polycystic kidney disease",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Autosomal Dominant Polycystic Kidney Disease (ADPKD) is a prevalent genetic disorder characterized by the formation of renal cysts leading to kidney failure. Despite known genetic underpinnings, the variability in disease progression suggests additional regulatory layers, including epigenetic modifications. We utilized various ADPKD models, including  Pkd1  and  Ezh2  conditional knockout ( Pkd1 delta/delta : Ezh2 delta/delta ) mice, to explore the role of Enhancer of Zeste Homolog 2 (EZH2) in cystogenesis. Pharmacological inhibition of EZH2 was performed using GSK126 or EPZ-6438 across multiple models. EZH2 expression was significantly upregulated in  Pkd1 −/−  cells,  Pkd1 delta/delta  mice, and human ADPKD kidneys. EZH2 inhibition attenuates cyst development in MDCK cells and a mouse embryonic kidney cyst model. Both  Ezh2  conditional knockout and GSK126 treatment suppressed renal cyst growth and protected renal function  in Pkd1 delta/delta  mice. Mechanistically, cAMP/PKA/CREB pathway increased EZH2 expression. EZH2 mediated cystogenesis by enhancing methylation and activation of STAT3, promoting cell cycle through p21 suppression, and stimulating non-phosphorylated β-catenin in Wnt signaling pathway. Additionally, EZH2 enhanced ferroptosis by inhibiting SLC7A11 and GPX4 in ADPKD. Our findings elucidate the pivotal role of EZH2 in promoting renal cyst growth through epigenetic mechanisms and suggest that EZH2 inhibition or ablation may serve as a novel therapeutic approach for managing ADPKD. The online version contains supplementary material available at 10.1186/s12967-024-05785-5.",
+      "relevant_passages": "EZH2 is upregulated in ADPKD and drives cyst growth. Inhibiting or ablating EZH2 reduces cyst formation and preserves kidney function.",
+      "doi_or_pmcid": "10.1186/s12967-024-05785-5"
+    },
+    {
+      "paperclip_result_id": "PMC4741719",
+      "rank": 7,
+      "title": "Acquisition of a single EZH2 D1 domain mutation confers acquired resistance to EZH2-targeted inhibitors",
+      "year": "2015",
+      "publication_type": "research-article",
+      "abstract": "Although targeted therapies have revolutionized cancer treatment, overcoming acquired resistance remains a major clinical challenge. EZH2 inhibitors (EZH2i), EPZ-6438 and GSK126, are currently in the early stages of clinical evaluation and the first encouraging signs of efficacy have recently emerged in the clinic. To anticipate mechanisms of resistance to EZH2i, we used a forward genetic platform combining a mutagenesis screen with next generation sequencing technology and identified a hotspot of secondary mutations in the EZH2 D1 domain (Y111 and I109). Y111D mutation within the WT or A677G EZH2 allele conferred robust resistance to both EPZ-6438 and GSK126, but it only drove a partial resistance within the Y641F allele. EZH2 mutants required histone methyltransferase (HMT) catalytic activity and the polycomb repressive complex 2 (PRC2) components, SUZ12 and EED, to drive drug resistance. Furthermore, D1 domain mutations not only blocked the ability of EZH2i to bind to WT and A677G mutant, but also abrogated drug binding to the Y641F mutant. These data provide the first cellular validation of the mechanistic model underpinning the oncogenic function of WT and mutant EZH2. Importantly, our findings suggest that acquired-resistance to EZH2i may arise in WT and mutant EZH2 patients through a single mutation that remains targetable by second generation EZH2i.",
+      "relevant_passages": "A mutagenesis screen identified EZH2 D1 domain mutations conferring resistance to EZH2 inhibitors. These mutations block drug binding and require EZH2 catalytic activity and PRC2 components for resistance.",
+      "doi_or_pmcid": "PMC4741719"
+    },
+    {
+      "paperclip_result_id": "PMC10763530",
+      "rank": 8,
+      "title": "Combined Inhibition of EZH2 and FGFR is Synergistic in BAP1-deficient Malignant Mesothelioma",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Despite the recent approval of immunotherapy, malignant mesothelioma has limited treatment options and poor prognosis. Here, we observe that EZH2 inhibitors dramatically enhance the efficacy of FGFR inhibition, sensitising BAP1-mutant mesothelioma and uveal melanoma cells. The striking synergy of EZH2 and FGFR inhibition supports clinical investigations for BAP1-mutant tumors. Malignant mesothelioma is a highly aggressive tumor with a survival of only 4–18 months after diagnosis. Treatment options for this disease are limited. Immune checkpoint blockade using ipilimumab and nivolumab has recently been approved as a frontline therapy, but this led to only a small improvement in overall patient survival. As more than half of patients with mesothelioma have alterations in the gene encoding for BAP1 this could be a potential marker for targeted therapies. In this study, we investigated the synergistic potential of combining EZH2 inhibition together with FGFR inhibition for treatment of BAP1-deficient malignancies. The efficacy of the combination was evaluated using human and murine preclinical models of mesothelioma and uveal melanoma  in vitro.  The efficacy of the combination was further validated  in vivo  by using BAP1-deficient mesothelioma xenografts and autochthonous mouse models.  In vitro  data showed sensitivity to the combined inhibition in BAP1-deficient mesothelioma and uveal melanoma tumor cell lines but not for BAP1-proficient subtypes.  In vivo  data showed susceptibility to the combination of BAP1-deficient xenografts and demonstrated an increase of survival in autochthonous models of mesothelioma. These results highlight the potential of this novel drug combination for the treatment of mesothelioma using BAP1 as a biomarker. Given these encouraging preclinical results, it will be important to clinically explore dual EZH2/FGFR inhibition in patients with BAP1-deficient malignant mesothelioma and justify further exploration in other BAP1 loss–associated tumors.",
+      "relevant_passages": "EZH2 and FGFR inhibition was studied in BAP1-deficient mesothelioma and uveal melanoma. The combination showed synergistic efficacy, supporting clinical investigation for these tumors.",
+      "doi_or_pmcid": "10.1158/2767-9764.CRC-23-0276"
+    },
+    {
+      "paperclip_result_id": "PMC5356764",
+      "rank": 9,
+      "title": "Epigenetic regulation of cancer biology and anti-tumor immunity by EZH2",
+      "year": "2016",
+      "publication_type": "review-article",
+      "abstract": "Polycomb group proteins regulate chromatin structure and have an important regulatory role on gene expression in various cell types. Two polycomb group complexes (Polycomb repressive complex 1 (PRC1) and 2 (PRC2)) have been identified in mammalian cells. Both PRC1 and PRC2 compact chromatin, and also catalyze histone modifications. PRC1 mediates monoubiquitination of histone H2A, whereas PRC2 catalyzes methylation of histone H3 on lysine 27. These alterations of histones can lead to altered gene expression patterns by regulating chromatin structure. Numerous studies have highlighted the role of the PRC2 catalytic component enhancer of zeste homolog 2 (EZH2) in neoplastic development and progression, and EZH2 mutations have been identified in various malignancies. Through modulating the expression of critical genes, EZH2 is actively involved in fundamental cellular processes such as cell cycle progression, cell proliferation, differentiation and apoptosis. In addition to cancer cells, EZH2 also has a decisive role in the differentiation and function of T effector and T regulatory cells. In this review we summarize the recent progress regarding the role of EZH2 in human malignancies, highlight the molecular mechanisms by which EZH2 aberrations promote the pathogenesis of cancer, and discuss the anti-tumor effects of EZH2 targeting via activating direct anti-cancer mechanisms and anti-tumor immunity.",
+      "relevant_passages": "This review examines the role of EZH2 in cancer development and anti-tumor immunity. EZH2 aberrations promote cancer pathogenesis and can be targeted to activate anti-cancer mechanisms and immunity.",
+      "doi_or_pmcid": "10.18632/oncotarget.12928"
+    },
+    {
+      "paperclip_result_id": "PMC12203955",
+      "rank": 10,
+      "title": "EZH2 promotes chemoresistance in colorectal cancer by inhibiting autophagy through NRP1 suppression",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Colorectal cancer (CRC) is characterized by aggressive tumor growth and chemoresistance, with enhancer of zeste homolog 2 (EZH2) serving a pivotal role in these processes. However, the mechanisms by which it drives tumor proliferation and therapeutic resistance through autophagy regulation remain unclear. Here, we demonstrated that EZH2 expression is elevated in CRC tissues and cell lines, correlating with chemoresistance and diagnostic potential (area under the curve = 0.968).  EZH2  knockdown markedly reduced CRC cell proliferation, while its overexpression promoted tumor growth and increased resistance to irinotecan. Mechanistically, EZH2 suppressed autophagy in CRC cells, a process linked to chemosensitivity, by directly regulating LC3bI/II expression. Notably, EZH2 enhanced the neuropilin-1 (NRP1) level by binding to the  NRP1  promoter, thereby promoting tumor proliferation and irinotecan resistance through autophagy inhibition.  NRP1  depletion partially reversed these effects, underscoring the crucial role of the EZH2-NRP1 axis in CRC. Our findings highlight that targeting the EZH2-NRP1 interaction could represent a novel therapeutic approach to overcoming chemoresistance in CRC.",
+      "relevant_passages": "EZH2 promotes chemoresistance in colorectal cancer by inhibiting autophagy via NRP1 suppression. This EZH2-NRP1 axis is crucial for tumor growth and irinotecan resistance.",
+      "doi_or_pmcid": "10.1042/BCJ20240607"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "tf": "HMGN3",
+  "query": "HMGN3 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 1,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC4126642",
+      "rank": 2,
+      "title": "HMGN2, a new anti-tumor effector molecule of CD8 +  T cells",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "Cytolytic T lymphocytes (CTL) and natural killer (NK) cells have been implicated as important cells in antitumor responses. Our previous research has shown that high mobility group nucleosomal-binding domain 2 (HMGN2) could be released by IL-2 and PHA stimulated peripheral blood mononuclear cells (PBMCs) and also induced tumor cells apoptosis at low doses. In this study, we isolated and cultured PBMCs and CD8 +  T cells to analyze the expression and antitumor effects of HMGN2. PBMCs from healthy donors were isolated using Human Lymphocyte Separation tube. CD8 +  T cells were separated from the PBMCs using MoFlo XDP high-speed flow cytometry sorter. Activation of PBMCs and CD8 +  T cells were achieved by stimulating with Phytohemagglutinin (PHA) or tumor antigen. In addition, the methods of ELISA, intracellular staining, and fluorescence-labeling assays were used. PHA induced PBMCs to release high levels of HMGN2, and CD8 +  T cells was the major cell population in PBMCs that release HMGN2 after PHA activation. Tumor antigen-activated CD8 +  T cells also released high levels of HMGN2. Supernatants of tumor antigen-activated CD8 +  T cells were able to kill tumor cells in a dose-dependent manner. This antitumor effect could be significantly blocked by using an anti-HMGN2 antibody. Fluorescence-labeling assays showed that the supernatant proteins of activated CD8 +  T cells could be transported into tumor cells, and the transport visibly decreased after HMGN2 was depleted by anti-HMGN2 antibody. These results suggest that HMGN2 is an anti-tumor effector molecule of CD8 +  T cells.",
+      "relevant_passages": "CD8+ T cells were studied for their release of HMGN2 after activation. Activated CD8+ T cells release HMGN2, which directly kills tumor cells.",
+      "doi_or_pmcid": "10.1186/1476-4598-13-178"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 3,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC6352494",
+      "rank": 4,
+      "title": "Combined treatment with HMGN1 and anti-CD4 depleting antibody reverses T cell exhaustion and exerts robust anti-tumor effects in mice",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "Transient depletion of CD4 +  T cells results in tumor suppression and survival benefit in murine models; however, the tumor progression and recurrence still occur over more long-term monitoring of mice. Thus, we explored an additional strategy to enhance endogenous immune responses by an alarmin, high mobility group nucleosome binding protein 1 (HMGN1). The anti-tumor effects of HMGN1, anti-CD4 depleting antibody, and their combined treatment were monitored in the Colon26 or the B16F10 subcutaneous murine models. The tumor-infiltrating CD8 +  T cell proliferation, differentiation, exhaustion, and its gene expression were determined by flow cytometry, transcriptome analysis, and quantitative real-time PCR. Our results show that a systemic administration of low doses of HMGN1 with an anti-CD4 depleting antibody (HMGN1/αCD4) promoted expansion of CD8 +  T cell populations (e.g. CD137 +  PD-1 +  and CD44 hi  PD-1 + ), recruited CCR7 +  migratory dendritic cells to the tumor, and reduced co-inhibitory molecules (e.g. PD-1, LAG-3, and TIM-3) to counteract CD8 +  T cell exhaustion. The HMGN1/αCD4 treatment expanded effector CD8 +  T cells and prolonged their anti-tumor activities by rescuing them from exhaustion, thus resulting in tumor regression and even rejection in long-term monitored mice. The online version of this article (10.1186/s40425-019-0503-6) contains supplementary material, which is available to authorized users.",
+      "relevant_passages": "This study investigated the combined effects of HMGN1 and anti-CD4 depleting antibody on tumor immunity in mice. The combination treatment reversed T cell exhaustion, leading to robust anti-tumor effects and tumor rejection.",
+      "doi_or_pmcid": "10.1186/s40425-019-0503-6"
+    },
+    {
+      "paperclip_result_id": "PMC11014665",
+      "rank": 5,
+      "title": "An EBV-related CD4 TCR immunotherapy inhibits tumor growth in an HLA-DP5 +  nasopharyngeal cancer mouse model",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Adoptive transfer of T cell receptor–engineered T cells (TCR-T) is a promising strategy for immunotherapy against solid tumors. However, the potential of CD4 +  T cells in mediating tumor regression has been neglected. Nasopharyngeal cancer is consistently associated with EBV. Here, to evaluate the therapeutic potential of CD4 TCR-T in nasopharyngeal cancer, we screened for CD4 TCRs recognizing EBV nuclear antigen 1 (EBNA1) presented by HLA-DP5. Using mass spectrometry, we identified EBNA1 567–581 , a peptide naturally processed and presented by HLA-DP5. We isolated TCR135, a CD4 TCR with high functional avidity, that can function in both CD4 +  and CD8 +  T cells and recognizes HLA-DP5–restricted EBNA1 567–581 . TCR135-transduced T cells functioned in two ways: directly killing HLA-DP5 + EBNA1 +  tumor cells after recognizing EBNA1 presented by tumor cells and indirectly killing HLA-DP5–negative tumor cells after recognizing EBNA1 presented by antigen-presenting cells. TCR135-transduced T cells preferentially infiltrated into the tumor microenvironment and significantly inhibited tumor growth in xenograft nasopharyngeal tumor models. Additionally, we found that 62% of nasopharyngeal cancer patients showed 50%–100% expression of HLA-DP on tumor cells, indicating that nasopharyngeal cancer is well suited for CD4 TCR-T therapy. These findings suggest that TCR135 may provide a new strategy for EBV-related nasopharyngeal cancer immunotherapy in HLA-DP5 +  patients.",
+      "relevant_passages": "CD4 TCR-engineered T cells targeting EBV antigen EBNA1 presented by HLA-DP5 were developed. These T cells significantly inhibited nasopharyngeal cancer growth in mouse models, suggesting therapeutic potential for HLA-DP5+ patients.",
+      "doi_or_pmcid": "10.1172/JCI172092"
+    },
+    {
+      "paperclip_result_id": "PMC10499904",
+      "rank": 6,
+      "title": "HMGB2 regulates the differentiation and stemness of exhausted CD8 +  T cells during chronic viral infection and cancer",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Chronic infections and cancers evade the host immune system through mechanisms that induce T cell exhaustion. The heterogeneity within the exhausted CD8 +  T cell pool has revealed the importance of stem-like progenitor (Tpex) and terminal (Tex) exhausted T cells, although the mechanisms underlying their development are not fully known. Here we report High Mobility Group Box 2 (HMGB2) protein expression is upregulated and sustained in exhausted CD8 +  T cells, and HMGB2 expression is critical for their differentiation. Through epigenetic and transcriptional programming, we identify HMGB2 as a cell-intrinsic regulator of the differentiation and maintenance of Tpex cells during chronic viral infection and in tumors. Despite  Hmgb2 −/−  CD8 +  T cells expressing TCF-1 and TOX, these master regulators were unable to sustain Tpex differentiation and long-term survival during persistent antigen. Furthermore, HMGB2 also had a cell-intrinsic function in the differentiation and function of memory CD8 +  T cells after acute viral infection. Our findings show that HMGB2 is a key regulator of CD8 +  T cells and may be an important molecular target for future T cell-based immunotherapies.",
+      "relevant_passages": "High Mobility Group Box 2 (HMGB2) protein expression is upregulated in exhausted CD8+ T cells and is critical for their differentiation. HMGB2 is a cell-intrinsic regulator of stem-like progenitor exhausted T cell maintenance during chronic infection and cancer.",
+      "doi_or_pmcid": "10.1038/s41467-023-41352-0"
+    },
+    {
+      "paperclip_result_id": "PMC12261488",
+      "rank": 7,
+      "title": "TCR-epiDiff: solving dual challenges of TCR generation and binding prediction",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "T cell receptors (TCRs) are fundamental components of the adaptive immune system, recognizing specific antigens for targeted immune responses. Understanding their sequence patterns is crucial for designing effective vaccines and immunotherapies. However, the vast diversity of TCR sequences and complex binding mechanisms pose significant challenges in generating TCRs that are specific to a particular epitope. Here, we propose TCR-epiDiff, a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR–epitope binding. TCR-epiDiff integrates epitope information during TCR sequence embedding using ProtT5-XL and employs a denoising diffusion probabilistic model for sequence generation. Using external validation datasets, we demonstrate the ability to generate biologically plausible, epitope-specific TCRs. Furthermore, we leverage the model’s encoder to develop a TCR–epitope binding predictor that shows robust performance on the external validation data. Our approach provides a comprehensive solution for both  de novo  generation of epitope-specific TCRs and TCR–epitope binding prediction. This capability provides valuable insights into immune diversity and has the potential to advance targeted immunotherapies. The data and source codes for our experiments are available at:  https://github.com/seoseyeon/TCR-epiDiff .",
+      "relevant_passages": "A diffusion-based model, TCR-epiDiff, was developed to generate epitope-specific T cell receptors (TCRs) and predict TCR-epitope binding. The model successfully generates biologically plausible TCRs and accurately predicts binding affinity, offering a comprehensive solution for TCR design and immunotherapy.",
+      "doi_or_pmcid": "10.1093/bioinformatics/btaf202"
+    },
+    {
+      "paperclip_result_id": "PMC12047442",
+      "rank": 8,
+      "title": "Targeting HMGB2 acts as dual immunomodulator by bolstering CD8 +  T cell function and inhibiting tumor growth in hepatocellular carcinoma",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "T cell exhaustion is a critical obstacle for durable treatment response in hepatocellular carcinoma (HCC). Developing drugs that control tumor growth and simultaneously bolster immune function is of great significance. Although high-mobility group box 2 (HMGB2) has been reported to be crucial to HCC prognosis, its role in the tumor microenvironment remains unclear. Here, we found HMGB2 +  CD8 +  T cells as being associated with immune exhaustion and resistance to anti–PD-1 treatment through single-cell RNA sequencing. Mechanistically, HMGB2 impaired the oxidative phosphorylation in CD8 +  T cells and inactivated the interferon-γ response in tumor cells, reducing the antitumor effector function. Tannic acid, a specific inhibitor of HMGB2, synergized with PD-1 antibody to attenuate tumor growth and reverse T cell exhaustion. Our findings highlight the unique role of HMGB2 as an immune exhaustion associated molecule. Targeting HMGB2 on both CD8 +  T cells and tumor cells contributed to promising treatment strategies for HCC.",
+      "relevant_passages": "This study investigated HMGB2's role in hepatocellular carcinoma's tumor microenvironment. Targeting HMGB2 with tannic acid reversed T cell exhaustion and inhibited tumor growth, suggesting a promising therapeutic strategy.",
+      "doi_or_pmcid": "10.1126/sciadv.ads8597"
+    },
+    {
+      "paperclip_result_id": "PMC11302870",
+      "rank": 9,
+      "title": "Inhibition of PCSK9 enhances the anti-hepatocellular carcinoma effects of TCR-T cells and anti-PD-1 immunotherapy",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "T cells play important roles in antitumor immunity. However, given that the hepatocellular carcinoma (HCC) tumor microenvironment confers resistance to T cell-based immunotherapies, novel strategies to boost T cell-mediated antitumor efficacy are urgently needed for the treatment of HCC. Here, we show that high proprotein convertase subtilisin/kexin type9 (PCSK9) expression was negatively associated with HCC patient's overall survival and markers of CD8 +  T cells. Pharmacological inhibition of PCSK9 enhanced tumor-specific killing and downregulated PD-1 expression of AFP-specific TCR-T. Inhibition of PCSK9 significantly enhances the anti-HCC efficacy of TCR-T cells and anti-PD-1 immunotherapy  in vivo . Moreover, PCSK9 inhibitor suppressed HCC growth dependent on CD8 +  T cells. Mechanically, pharmacological inhibition of PCSK9 promoted low-density lipoprotein receptor (LDLR)-mediated activation of mTORC1 signaling in CD8 +  T cells. LDLR deficiency was shown to impair cellular mTORC1 signaling and the anti-HCC function of CD8 T cells. On the basis of our findings in this study, we propose a potential metabolic intervention strategy that could be used to enhance the antitumor effects of immunotherapy for HCC.",
+      "relevant_passages": "This study investigated the role of PCSK9 in hepatocellular carcinoma (HCC) and its impact on T cell-based immunotherapies. Inhibiting PCSK9 enhances the effectiveness of TCR-T cells and anti-PD-1 immunotherapy against HCC by promoting CD8+ T cell function.",
+      "doi_or_pmcid": "10.7150/ijbs.93668"
+    },
+    {
+      "paperclip_result_id": "PMC8704919",
+      "rank": 10,
+      "title": "TCR signal strength defines distinct mechanisms of T cell dysfunction and cancer evasion",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "TCR signal strength determines T cell differentiation and function in tumors, with high-signal-strength interactions resulting in dysfunction and low-signal-strength interactions resulting in functional inertness. Fine-tuning TCR signal strength to an intermediate range improves anti-tumor activity in vivo.",
+      "relevant_passages": "High TCR signal strength leads to T cell dysfunction, while low strength causes inertness in tumors. Intermediate signal strength enhances anti-tumor activity.",
+      "doi_or_pmcid": "10.1084/jem.20201966"
+    }
+  ]
+}

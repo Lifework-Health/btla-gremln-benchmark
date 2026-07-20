@@ -1,0 +1,108 @@
+{
+  "tf": "MDM2",
+  "query": "MDM2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC12005077",
+      "rank": 1,
+      "title": "Ferroptosis as a therapeutic vulnerability in MDM2 inhibition in dedifferentiated liposarcoma",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Ferroptosis is a form of necrotic cell death characterized by phospholipid oxidation. The cystine-glutamate antiporter (xCT), composed of solute carrier family 7 member 11 (SLC7A11) and SLC3A2, imports cystine for glutathione synthesis. Glutathione peroxidase 4 (GPX4) requires glutathione to counteract lipid peroxidation and prevent ferroptosis. Erastin, an xCT inhibitor, and Ras-selective lethal small molecule 3 (RSL3), a GPX4 inhibitor, suppress GPX4 function and induce ferroptosis. Tumor protein p53 (TP53) has a paradoxical role in ferroptosis regulation. Mouse double minute 2 homolog (MDM2), a negative regulator of TP53, is a key oncogene in well-differentiated liposarcoma (WDLPS) and dedifferentiated liposarcoma (DDLPS). Therefore, the present study explored the role of ferroptosis in DDLPS treatment response and resistance. Publicly available expression profiles of WDLPS, DDLPS and adipose tissue were analyzed, and the differential expression of ferroptosis-related genes regulated by the MDM2-TP53 pathway was identified in WDLPS and DDLPS.  In vitro  experiments were performed to assess the effects of erastin and RSL3 on the viability, lipid peroxidation and apoptosis of DDLPS cell lines. The results revealed that erastin and RSL3 induced lipid peroxidation and apoptosis, thereby exerting cytotoxic effects. In addition, nutlin-3, an MDM2 inhibitor, was demonstrated to increase lipid peroxidation and cytotoxicity when applied prior to erastin treatment. Notably, nutlin-3 also upregulated SLC3A2 expression in DDLPS cell lines, thereby enhancing cystine uptake. This increase in cystine uptake was suppressed by erastin. In addition, nutlin-3-induced SLC3A2 upregulation was abolished by TP53 knockdown. Nutlin-3 combined with erastin or RSL3 reduced absolute p-4EBP-1 levels in NDDLS-1 cells and p-p70S6 levels in both cell lines, with no significant impact on the p-4EBP-1/4EBP-1 and p-p70S6/p70S6 ratios. These results indicate that ferroptosis is a therapeutic vulnerability in the response to MDM2 inhibition in DDLPS. Furthermore, combining MDM2 inhibitors with ferroptosis-inducing agents may provide a potential therapeutic strategy for DDLPS and the role of mTOR in the pro-apoptotic effect of these combinations deserve further investigation.",
+      "relevant_passages": "This study investigated ferroptosis in dedifferentiated liposarcoma (DDLPS). MDM2 inhibition enhances ferroptosis by upregulating cystine uptake, making DDLPS vulnerable to ferroptosis-inducing agents.",
+      "doi_or_pmcid": "10.3892/ol.2025.15015"
+    },
+    {
+      "paperclip_result_id": "PMC11388719",
+      "rank": 2,
+      "title": "MDM2 inhibitors in cancer immunotherapy: Current status and perspective",
+      "year": "2024",
+      "publication_type": "review-article",
+      "abstract": "Murine double minute 2 (MDM2) plays an essential role in the cell cycle, apoptosis, DNA repair, and oncogene activation through p53-dependent and p53-independent signaling pathways. Several preclinical studies have shown that MDM2 is involved in tumor immune evasion. Therefore, MDM2-based regulation of tumor cell-intrinsic immunoregulation and the immune microenvironment has attracted increasing research attention. In recent years, immune checkpoint inhibitors targeting PD-1/PD-L1 have been widely used in the clinic. However, the effectiveness of a single agent is only approximately 20%–40%, which may be related to primary and secondary drug resistance caused by the dysregulation of oncoproteins. Here, we reviewed the role of MDM2 in regulating the immune microenvironment, tumor immune evasion, and hyperprogression during immunotherapy. In addition, we summarized preclinical and clinical findings on the use of MDM2 inhibitors in combination with immunotherapy in tumors with MDM2 overexpression or amplification. The results reveal that the inhibition of MDM2 could be a promising strategy for enhancing immunotherapy.",
+      "relevant_passages": "This paper reviews MDM2's role in tumor immune evasion and immunotherapy resistance. MDM2 inhibition shows promise for improving cancer immunotherapy effectiveness.",
+      "doi_or_pmcid": "10.1016/j.gendis.2024.101279"
+    },
+    {
+      "paperclip_result_id": "PMC10889355",
+      "rank": 3,
+      "title": "Association of MDM2 Overexpression in Ameloblastomas with  MDM2  Amplification and BRAF V600E  Expression",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Ameloblastoma is a rare tumor but represents the most common odontogenic neoplasm. It is localized in the jaws and, although it is a benign, slow-growing tumor, it has an aggressive local behavior and high recurrence rate. Therefore, alternative treatment options or complementary to surgery have been evaluated, with the most promising one among them being a targeted therapy with the  v-Raf  murine sarcoma viral oncogene homologue B ( BRAF ), as in ameloblastoma the activating mutation V600E in BRAF is common. Studies in other tumors have shown that the synchronous inhibition of BRAF and human murine double minute 2 homologue (MDM2 or HDM2) protein is more effective than BRAF monotherapy, particularly in the presence of wild type p53 (WTp53). To investigate the MDM2 protein expression and gene amplification in ameloblastoma, in association with BRAF V600E  and p53 expression. Forty-four cases of ameloblastoma fixed in 10% buffered formalin and embedded in paraffin were examined for MDM2 overexpression and BRAF V600E  and p53 expression by immunohistochemistry, and for  MDM2  ploidy with fluorescence in situ hybridization. Sixteen of forty-four (36.36%) cases of ameloblastoma showed MDM2 overexpression. Seven of sixteen MDM2-positive ameloblastomas (43.75%) were BRAF V600E  positive and fifteen of sixteen MDM2-positive ameloblastomas (93.75%) were p53 negative. All MDM2 overexpressing tumors did not show copy number alterations for MDM2. Overexpression of MDM2 in ameloblastomas is not associated with MDM2 amplification, but most probably with MAPK activation and WTp53 expression. Further verification of those findings could form the basis for the use of MDM2 expression as a marker of MAPK activation in ameloblastomas and the trial of dual BRAF/MDM2 inhibition in the management of MDM2-overexpressing/BRAFV600E-positive/WTp53 ameloblastomas.",
+      "relevant_passages": "This study investigated MDM2 overexpression in ameloblastomas, correlating it with BRAF V600E and p53 expression. MDM2 overexpression was found to be associated with BRAF V600E and wild-type p53, not MDM2 amplification.",
+      "doi_or_pmcid": "10.3390/ijms25042238"
+    },
+    {
+      "paperclip_result_id": "PMC10377337",
+      "rank": 4,
+      "title": "MDM2 Inhibition in the Treatment of Glioblastoma: From Concept to Clinical Investigation",
+      "year": "2023",
+      "publication_type": "review-article",
+      "abstract": "Inhibition of the interaction between MDM2 and p53 has emerged as a promising strategy for combating cancer, including the treatment of glioblastoma (GBM). Numerous MDM2 inhibitors have been developed and are currently undergoing rigorous testing for their potential in GBM therapy. Encouraging results from studies conducted in cell culture and animal models suggest that MDM2 inhibitors could effectively treat a specific subset of GBM patients with wild-type  TP53  or functional p53. Combination therapy with clinically established treatment modalities such as radiation and chemotherapy offers the potential to achieve a more profound therapeutic response. Furthermore, an increasing array of other molecularly targeted therapies are being explored in combination with MDM2 inhibitors to increase the effects of individual treatments. While some MDM2 inhibitors have progressed to early phase clinical trials in GBM, their efficacy, alone and in combination, is yet to be confirmed. In this article, we present an overview of MDM2 inhibitors currently under preclinical and clinical investigation, with a specific focus on the drugs being assessed in ongoing clinical trials for GBM patients.",
+      "relevant_passages": "MDM2 inhibitors are being investigated for glioblastoma treatment, particularly in patients with wild-type TP53. Early trials show promise, with potential for enhanced efficacy through combination therapies.",
+      "doi_or_pmcid": "10.3390/biomedicines11071879"
+    },
+    {
+      "paperclip_result_id": "PMC11817430",
+      "rank": 5,
+      "title": "Pharmacological Inhibition of MDM2 Induces Apoptosis in p53-Mutated Triple-Negative Breast Cancer",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Triple-negative breast cancer (TNBC) represents the most aggressive breast carcinoma subtype lacking efficient therapeutic options. A promising approach in cancer treatment is the pharmacological inhibition of murine double minute 2 (MDM2)-p53 interaction inducing apoptosis in p53 wild-type tumors. However, the role of MDM2 in TNBC with primarily mutant p53 is not well understood. We here selected the clinical-stage MDM2 inhibitors Idasanutlin and Milademetan and investigated their anti-tumoral effects in TNBC. When we analyzed anti-tumor activity in the TNBC cell lines MDA-MB-231, MDA-MB-436, and MDA-MB-468, cellular viability was efficiently reduced, with half maximal inhibitory concentration (IC 50 ) values ranging between 2.00 and 7.62 µM being up to 11-fold lower compared to the well-characterized non-clinical-stage MDM2 inhibitor Nutlin-3a. Furthermore, caspase-3/7 activity was efficiently induced. Importantly, the IC 50  values for MDM2 inhibition were equally observed in HCT116  p53 +/+  or HCT116  p53 −/−  cells. Finally, the IC 50  was significantly higher in non-malignant MCF-10A cells than in TNBC cells. Taken together, Idasanutlin and Milademetan show a potent anti-tumor activity in TNBC cell culture models by efficiently inducing tumor cell death via apoptosis. This effect was observed despite an inactivating p53 mutation and was apparently independent of p53 expression. Our data suggest that MDM2 is a promising target in TNBC and clinical-stage MDM2 inhibitors should be further evaluated for their potential therapeutic application.",
+      "relevant_passages": "MDM2 inhibitors Idasanutlin and Milademetan were tested against triple-negative breast cancer cell lines. These drugs effectively reduced cell viability and induced apoptosis, even with mutated p53.",
+      "doi_or_pmcid": "10.3390/ijms26031078"
+    },
+    {
+      "paperclip_result_id": "PMC9414294",
+      "rank": 6,
+      "title": "Pharmacologic Activation of p53 Triggers Viral Mimicry Response Thereby Abolishing Tumor Immune Evasion and Promoting Antitumor Immunity",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "Reactivation of p53 by MDM2 inhibitors potentiates anticancer immune surveillance through derepression of ERVs and dsRNA stress, resulting in induction of the interferon pathway and improved response to checkpoint therapy.",
+      "relevant_passages": "MDM2 inhibitors reactivate p53, triggering a viral mimicry response. This response derepresses ERVs and dsRNA, inducing the interferon pathway and enhancing antitumor immunity.",
+      "doi_or_pmcid": "10.1158/2159-8290.CD-20-1741"
+    },
+    {
+      "paperclip_result_id": "PMC12128487",
+      "rank": 7,
+      "title": "Mdm2 targeting via PROteolysis TArgeting Chimeras (PROTAC) is efficient in p53 wildtype, p53-mutated, and abemaciclib-resistant estrogen receptor-positive cell lines and superior to mdm2 inhibition",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The human double minute 2 homolog hdm2, alias mdm2, is the main negative-regulator of the tumor suppressor p53. In that capacity, mdm2 is a promising but not yet utilized molecular target for the treatment of breast cancer, however, its inhibition by small molecules is rather inappropriate. Instead, mdm2 degradation by PROteolysis TArgeting Chimeras (PROTAC) is expected to be highly specific, to exhibit pronounced efficiency and minimal side effects. Moreover, there is profound evidence that mdm2-specific PROTAC degraders are efficient even in tumor cells harboring p53 loss-of-function mutations. We comparatively treated p53 wildtype / abemaciclib-sensitive and -resistant MCF-7, as well as p53-mutated T-47D estrogen receptor-positive breast cancer cells in-vitro with the mdm2 inhibitor AMG-232 and an mdm2 PROTAC degrader. The molecular signaling as a function of mdm2 inhibition and degradation was assessed and cell viability and cell cycle kinetics were monitored. In addition, potential PROTAC effects on the expression of immune-related markers MHC-I, MHC-II, PD-L1, PD-L2, and CD276 were determined. PROTAC treatment considerably attenuated cell proliferations and was superior to mdm2 inhibition in p53 wildtype and even in p53-mutated cells. Proliferation-associated pathways were significantly but differentially affected, including p73, retinoblastoma protein, and the transcription factor E2F1. MHC-I and CD276 were significantly downregulated. The data reveal deeper insight into PROTAC-induced molecular mechanisms in luminal breast cancer cells with and without p53 mutations. The study provides the basis to evaluate the therapeutic applicability of anti-mdm2 PROTAC degraders in an appropriate preclinical in-vivo setting, for example in humanized tumor mice. The online version contains supplementary material available at 10.1186/s12885-025-14361-z.",
+      "relevant_passages": "Mdm2 PROTAC degraders were tested against mdm2 inhibitors in various breast cancer cell lines. PROTACs showed superior efficacy in reducing cell proliferation, even in p53-mutated and resistant cells.",
+      "doi_or_pmcid": "10.1186/s12885-025-14361-z"
+    },
+    {
+      "paperclip_result_id": "PMC11251213",
+      "rank": 8,
+      "title": "The role of the MDM2/p53 axis in antitumor immune responses",
+      "year": "2023",
+      "publication_type": "review-article",
+      "abstract": "Mouse double minute 2 homolog (MDM2) is a negative regulator of the tumor suppressor p53 and is often highly expressed in acute myeloid leukemia (AML) and other solid tumors. Inactivating mutations in  TP53 , the gene encoding p53, confers an unfavorable prognosis in AML and increases the risk for relapse after allogeneic hematopoietic cell transplantation. We review the concept that manipulation of MDM2 and p53 could enhance immunogenicity of AML and solid tumor cells. Additionally, we discuss the mechanisms by which MDM2 and p53 regulate the expression of major histocompatibility complex class I and II, transcription of double stranded RNA of endogenous retroviruses, responses of interferons, production of interleukin-15, and expression of tumor necrosis factor–related apoptosis–inducing ligand receptor 1 and 2 on malignant cells. The direct effects of MDM2 inhibition or MDM2 deletion in effector T cells are discussed in the context of cancer immunotherapy. The preclinical findings are connected to clinical studies using MDM2 inhibition to enhance antitumor immunity in patients. This review summarizes current evidence supporting the use of MDM2 inhibition to restore p53 as well as the direct effects of MDM2 inhibition on T cells as an emerging concept for combined antitumor immunotherapy against hematological malignancies and beyond. Introduced by Associate Editor Robert Zeiser, this Review Series focuses on the problem of immune escape by acute myeloid leukemia (AML). The series opens with a review of how AML escapes T-cell–driven elimination and then focuses on how p53 function impinges on AML recognition by immune cells. The series finishes with a summary of new approaches to tackling this major problem.",
+      "relevant_passages": "This paper reviews how the MDM2/p53 axis influences tumor immunogenicity and immune cell function. Inhibiting MDM2 can enhance antitumor immunity by restoring p53 and directly affecting T cells, offering a new immunotherapy strategy.",
+      "doi_or_pmcid": "10.1182/blood.2023020731"
+    },
+    {
+      "paperclip_result_id": "PMC11497104",
+      "rank": 9,
+      "title": "FGF12 Positively Regulates Keratinocyte Proliferation by Stabilizing MDM2 and Inhibiting p53 Activity in Psoriasis",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Psoriasis is a chronic skin disease characterized by abnormal proliferation and inflammation of epidermal keratinocytes. Fibroblast growth factor 12 (FGF12) is implicated in the regulation of diverse cellular signals; however, its precise mechanism in psoriasis requires further investigation. In this study, high expression of FGF12 is observed in the epidermis of skin lesion in psoriasis patients and imiquimod (IMQ)‐induced psoriasis like‐dermatitis. Moreover, specific loss of FGF12 in keratinocytes in IMQ‐induced psoriasis model alleviates psoriasis‐like symptoms and reduces proliferation. In vitro RNA sequencing demonstrates that knockdown of FGF12 effectively arrests the cell cycle, inhibits cell proliferation, and predominantly regulates the p53 signaling pathway. Mechanistically, FGF12 is selectively bound to the RING domain of MDM2, thus partially inhibiting the binding of β‐Trcp to MDM2. This interaction inhibits β‐Trcp‐induced‐K48 ubiquitination degradation of MDM2, thereby suppressing the activity of the p53 signaling pathway, which results in excessive cell proliferation. Last, the alleviatory effect of FGF12 deficiency on psoriasis progression is reversed by p53 knockdown. In summary, these findings provide valuable insights into the mechanisms by which FGF12 suppresses p53 signaling in keratinocytes, exacerbating the development of psoriasis. This positive regulatory loop highlights the potential of FGF12 as a therapeutic target to manage psoriasis.",
+      "relevant_passages": "FGF12 was studied for its role in keratinocyte proliferation in psoriasis. It stabilizes MDM2, inhibiting p53 and promoting proliferation, suggesting FGF12 is a therapeutic target.",
+      "doi_or_pmcid": "10.1002/advs.202400107"
+    },
+    {
+      "paperclip_result_id": "PMC3641235",
+      "rank": 10,
+      "title": "In Vitro  Selection of Mutant HDM2 Resistant to Nutlin Inhibition",
+      "year": "2013",
+      "publication_type": "research-article",
+      "abstract": "HDM2 binds to the p53 tumour suppressor and targets it for proteosomal degradation. Presently in clinical trials, the small molecule Nutlin-3A competitively binds to HDM2 and abrogates its repressive function. Using a novel  in vitro  selection methodology, we simulated the emergence of resistance by evolving HDM2 mutants capable of binding p53 in the presence of Nutlin concentrations that inhibit the wild-type HDM2-p53 interaction. The  in vitro  phenotypes were recapitulated in  ex vivo  assays measuring both p53 transactivation function and the direct p53-HDM2 interaction in the presence of Nutlin. Mutations conferring drug resistance were not confined to the N-terminal p53/Nutlin–binding domain, and were additionally seen in the acidic, zinc finger and RING domains. Mechanistic insights gleaned from this broad spectrum of mutations will aid in future drug design and further our understanding of the complex p53-HDM2 interaction.",
+      "relevant_passages": "Mutant HDM2 proteins were evolved *in vitro* to resist Nutlin inhibition of the p53 interaction. Resistance mutations arose in multiple HDM2 domains, not just the binding site, offering insights for future drug design.",
+      "doi_or_pmcid": "10.1371/journal.pone.0062564"
+    }
+  ]
+}

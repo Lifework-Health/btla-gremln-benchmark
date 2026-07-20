@@ -1,0 +1,108 @@
+{
+  "tf": "JUNB",
+  "query": "JUNB TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11884676",
+      "rank": 1,
+      "title": "JunB is required for CD8 +  T cell responses to acute infections",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Basic-leucine zipper transcription factor ATF-like (BATF) and interferon regulatory factor 4 (IRF4) are crucial transcription factors for the generation of cytotoxic effector and memory CD8 +  T cells. JunB is required for expression of genes controlled by BATF and IRF4 in CD4 +  T cell responses, but the role of JunB in CD8 +  T cells remains unknown. Here, we demonstrate that JunB is essential for cytotoxic CD8 +  T cell responses. JunB expression is transiently induced, depending on the T cell receptor signal strength. JunB deficiency severely impairs the clonal expansion of effector CD8 +  T cells in response to acute infection with  Listeria monocytogenes .  Junb -deficient CD8 +  T cells fail to control transcription and chromatin accessibility of a specific set of genes regulated by BATF and IRF4, resulting in impaired cell survival, glycolysis, and cytotoxic CD8 +  T cell differentiation. Furthermore, JunB deficiency enhances the expression of co-inhibitory receptors, including programmed cell death 1 (PD-1) and T cell immunoglobulin mucin-3 (TIM3) upon activation of naive CD8 +  T cells. These results indicate that JunB, in collaboration with BATF and IRF4, promotes multiple key events in the early stage of cytotoxic CD8 +  T cell responses.",
+      "relevant_passages": "JunB's role in CD8+ T cell responses to infection was studied. JunB is essential for CD8+ T cell expansion, differentiation, and function by regulating BATF/IRF4-dependent genes.",
+      "doi_or_pmcid": "10.1093/intimm/dxae063"
+    },
+    {
+      "paperclip_result_id": "PMC12247136",
+      "rank": 2,
+      "title": "Epigallocatechin-3-gallate inhibits osteogenic differentiation of vascular smooth muscle cells through the transcription factor JunB",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Medial arterial calcification (MAC) accompanying chronic kidney disease (CKD) leads to increased vessel wall stiffness, myocardial ischemia, heart failure, and increased cardiovascular morbidity and mortality. Unfortunately, there are currently no drugs available to treat MAC. The natural polyphenol epigallocatechin-3-gallate (EGCG) has been demonstrated to protect against cardiovascular disease; however, whether EGCG supplementation inhibits MAC in CKD remains unclear. In this study, we utilize a CKD-associated MAC model to investigate the effects of EGCG on vascular calcification and elucidate the underlying mechanisms involved. Our findings demonstrate that EGCG treatment significantly reduces calcium phosphate deposition and osteogenic differentiation of VSMCs\n in vivo  and\n in vitro  in a dose-dependent manner. In addition, through RNA sequencing (RNA-seq) analysis, we show a significant activation of the transcription factor JunB both in CKD mouse arteries and in osteoblast-like VSMCs. Notably, EGCG effectively suppresses CKD-associated MAC by inhibiting the activity of JunB. In addition, overexpression of JunB can abolish while knockdown of\n JunB  can enhance the inhibitory effect of EGCG on the osteogenic differentiation of VSMCs. Furthermore, EGCG supplementation inhibits MAC in CKD via modulation of the JunB-dependent Ras/Raf/MEK/ERK signaling pathway. In conclusion, our study highlights the potential therapeutic value of EGCG for managing CKD-associated MAC, as it mitigates this pathological process through targeted inactivation of JunB.",
+      "relevant_passages": "Epigallocatechin-3-gallate (EGCG) was studied for its effect on vascular calcification in a chronic kidney disease model. EGCG inhibits vascular smooth muscle cell osteogenic differentiation by suppressing the transcription factor JunB.",
+      "doi_or_pmcid": "10.3724/abbs.2024060"
+    },
+    {
+      "paperclip_result_id": "PMC11496645",
+      "rank": 3,
+      "title": "MEK inhibition prevents CAR-T cell exhaustion and differentiation via downregulation of c-Fos and JunB",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Clinical evidence supports the notion that T cell exhaustion and terminal differentiation pose challenges to the persistence and effectiveness of chimeric antigen receptor-T (CAR-T) cells. MEK1/2 inhibitors (MEKIs), widely used in cancer treatment due to their ability to inhibit aberrant MAPK signaling, have shown potential synergistic effects when combined with immunotherapy. However, the impact and mechanisms of MEKIs on CAR-T cells remain uncertain and controversial. To address this, we conducted a comprehensive investigation to determine whether MEKIs enhance or impair the efficacy of CAR-T cells. Our findings revealed that MEKIs attenuated CAR-T cell exhaustion and terminal differentiation induced by tonic signaling and antigen stimulation, thereby improving CAR-T cell efficacy against hematological and solid tumors. Remarkably, these effects were independent of the specific scFvs and costimulatory domains utilized in CARs. Mechanistically, analysis of bulk and single-cell transcriptional profiles demonstrates that the effect of MEK inhibition was related to diminish anabolic metabolism and downregulation of c-Fos and JunB. Additionally, the overexpression of c-Fos or JunB in CAR-T cells counteracted the effects of MEK inhibition. Furthermore, our Cut-and-Tag assay revealed that MEK inhibition downregulated the JunB-driven gene profiles associated with exhaustion, differentiation, anergy, glycolysis, and apoptosis. In summary, our research unveil the critical role of the MAPK-c-Fos-JunB axis in driving CAR-T cell exhaustion and terminal differentiation. These mechanistic insights significantly broaden the potential application of MEKIs to enhance the effectiveness of CAR-T therapy.",
+      "relevant_passages": "MEK inhibitors were studied for their impact on CAR-T cell exhaustion and differentiation. MEK inhibition prevented exhaustion and differentiation by downregulating c-Fos and JunB, enhancing CAR-T cell efficacy.",
+      "doi_or_pmcid": "10.1038/s41392-024-01986-y"
+    },
+    {
+      "paperclip_result_id": "PMC10507257",
+      "rank": 4,
+      "title": "JunB: a paradigm for Jun family in immune response and cancer",
+      "year": "2023",
+      "publication_type": "review-article",
+      "abstract": "Jun B proto-oncogene (JunB) is a crucial member of dimeric activator protein-1 (AP-1) complex, which plays a significant role in various physiological processes, such as placental formation, cardiovascular development, myelopoiesis, angiogenesis, endochondral ossification and epidermis tissue homeostasis. Additionally, it has been reported that JunB has great regulatory functions in innate and adaptive immune responses by regulating the differentiation and cytokine secretion of immune cells including T cells, dendritic cells and macrophages, while also facilitating the effector of neutrophils and natural killer cells. Furthermore, a growing body of studies have shown that JunB is involved in tumorigenesis through regulating cell proliferation, differentiation, senescence and metastasis, particularly affecting the tumor microenvironment through transcriptional promotion or suppression of oncogenes in tumor cells or immune cells. This review summarizes the physiological function of JunB, its immune regulatory function, and its contribution to tumorigenesis, especially focusing on its regulatory mechanisms within tumor-associated immune processes.",
+      "relevant_passages": "This paper reviews the role of JunB in physiological processes, immune responses, and cancer. JunB is a key regulator of immune cell function and tumor development, influencing the tumor microenvironment.",
+      "doi_or_pmcid": "10.3389/fcimb.2023.1222265"
+    },
+    {
+      "paperclip_result_id": "PMC2833204",
+      "rank": 5,
+      "title": "An NF-κB–Dependent Role for JunB in the Induction of Proinflammatory Cytokines in LPS-Activated Bone Marrow–Derived Dendritic Cells",
+      "year": "2010",
+      "publication_type": "research-article",
+      "abstract": "Dendritic cells (DCs) play a key role in the induction of adaptive and memory immune responses. Upon encounter with pathogens, they undergo a complex maturation process and migrate toward lymphoid organs where they stimulate immune effector cells. This process is associated with dramatic transcriptome changes, pointing to a paramount role for transcription factors in DC activation and function. The regulation and the role of these transcription factors are however ill-defined and require characterization. Among those, AP-1 is a family of dimeric transcription complexes with an acknowledged role in the control of immunity. However, it has not been studied in detail in DCs yet. Here, we have investigated the regulation and function of one of its essential components, JunB, in primary bone marrow–derived DCs induced to maturate upon stimulation by  Escherichia coli  lipopolysaccharide (LPS). Our data show fast and transient NF-κB–dependent transcriptional induction of the  junb  gene correlating with the induction of the TNFα, IL-6, and IL-12 proinflammatory cytokines. Inhibition of JunB protein induction by RNA interference hampered the transcriptional activation of the TNF-α, IL-6, and IL-12p40 genes. Consistently, chromatin immunoprecipitation experiments showed LPS-inducible binding of JunB at AP-1–responsive sites found in promoter regions of these genes. Concomitant LPS-inducible NF-κB/p65 binding to these promoters was also observed. We identified a novel role for JunB—that is, induction of proinflammatory cytokines in LPS-activated primary DCs with NF-κB acting not only as an inducer of JunB, but also as its transcriptional partner.",
+      "relevant_passages": "JunB's role in LPS-activated dendritic cells was studied. JunB is required for inducing proinflammatory cytokines, partnering with NF-κB.",
+      "doi_or_pmcid": "10.1371/journal.pone.0009585"
+    },
+    {
+      "paperclip_result_id": "PMC12469021",
+      "rank": 6,
+      "title": "JUNB and JUND in Urological Cancers: A Literature Review",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "JUNB and JUND are two transcriptional factors (TFs) of increased interest in cancer, regulating the expression of genes associated with survival, proliferation, differentiation, migration, invasion, angiogenesis, adhesion, apoptosis, and cell cycle regulation. Together with c-JUN, they constitute the JUN family of TFs, acting as downstream effectors of the MAPKs, with established roles in carcinogenesis, disease progression, metastasis, and therapy resistance. Their phosphorylation leads to the formation of dimeric complexes with other TFs (from the JUN, FOS, or ATF families), thereby assembling the AP-1 complex, which exerts multifaceted influences on both normal and cancerous cells. JUNB and JUND are credited with both tumor-suppressing and oncogenic roles, since the outcome of their activation relies on the specific cancer type, disease stage, intracellular localization, and the expression of interacting cofactors. This narrative review explores the current understanding of JUNB and JUND roles within urological cancers (prostate, bladder, renal, and testicular cancer) as these malignancies, while distinct, share common genetic and/or environmental risk factors and varying degrees of androgen receptor (AR) dependency. The study discusses commonalities and differences in the expression patterns, mechanisms, and clinical implications of JUNB and JUND across urological cancers, thus highlighting their potential as prevention, diagnosis, prognosis, and treatment targets.",
+      "relevant_passages": "This review examines the roles of JUNB and JUND transcriptional factors in urological cancers. These factors exhibit context-dependent tumor-suppressing or oncogenic functions, suggesting potential as therapeutic targets.",
+      "doi_or_pmcid": "10.3390/cimb47090741"
+    },
+    {
+      "paperclip_result_id": "PMC9273772",
+      "rank": 7,
+      "title": "JunB Is Critical for Survival of T Helper Cells",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "Clonal expansion and differentiation of various T helper subsets, such as Th1, Th2, and Th17 cells, depend on a complex of transcription factors, IRF4 and a BATF-containing AP-1 heterodimer. A major BATF heterodimeric partner, JunB, regulates Th17 differentiation, but the role of JunB in other T helper subsets is not well understood. Here we demonstrate that JunB is required for clonal expansion of Th1, Th2 and Th17 cells. In mice immunized with lipopolysaccharide (LPS), papain, or complete Freund’s adjuvant (CFA), which induce predominantly Th1, Th2 and Th17 cells, respectively, accumulation of antigen-primed,  Junb -deficient CD4 +  T cells is significantly impaired. TCR-stimulated  Junb -deficient CD4 +  T cells are more sensitive to apoptosis, although they showed largely normal proliferation and cellular metabolism. JunB directly inhibits expression of genes involved in apoptosis, including  Bcl2l11  (encoding Bim), by promoting IRF4 DNA binding at the gene locus. Taken together, JunB serves a critical function in clonal expansion of diverse T helper cells by inhibiting their apoptosis.",
+      "relevant_passages": "JunB's role in T helper cell differentiation was studied. JunB is essential for T helper cell survival and expansion by suppressing apoptosis.",
+      "doi_or_pmcid": "10.3389/fimmu.2022.901030"
+    },
+    {
+      "paperclip_result_id": "PMC11451012",
+      "rank": 8,
+      "title": "NAT10/ac4C/JunB facilitates TNBC malignant progression and immunosuppression by driving glycolysis addiction",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "N4-Acetylcytidine (ac4C), a highly conserved post-transcriptional mechanism, plays a pivotal role in RNA modification and tumor progression. However, the molecular mechanism by which ac4C modification mediates tumor immunosuppression remains elusive in triple-negative breast cancer (TNBC). NAT10 expression was analyzed in TNBC samples in the level of mRNA and protein, and compared with the corresponding normal tissues. ac4C modification levels also measured in the TNBC samples. The effects of NAT10 on immune microenvironment and tumor metabolism were investigated. NAT10-mediated ac4C and its downstream regulatory mechanisms were determined in vitro and in vivo. The combination therapy of targeting NAT10 in TNBC was further explored. The results revealed that the loss of NAT10 inhibited TNBC development and promoted T cell activation. Mechanistically, NAT10 upregulated JunB expression by increasing ac4C modification levels on its mRNA. Moreover, JunB further up-regulated LDHA expression and facilitated glycolysis. By deeply digging, remodelin, a NAT10 inhibitor, elevated the surface expression of CTLA-4 on T cells. The combination of remodelin and CTLA-4 mAb can further activate T cells and inhibite tumor progression. Taken together, our study demonstrated that the NAT10-ac4C-JunB-LDHA pathway increases glycolysis levels and creates an immunosuppressive tumor microenvironment (TME). Consequently, targeting this pathway may assist in the identification of novel therapeutic strategies to improve the efficacy of cancer immunotherapy. The online version contains supplementary material available at 10.1186/s13046-024-03200-x.",
+      "relevant_passages": "This study investigated the role of NAT10-mediated ac4C modification in triple-negative breast cancer. It found that this pathway drives tumor progression and immunosuppression by promoting glycolysis addiction.",
+      "doi_or_pmcid": "10.1186/s13046-024-03200-x"
+    },
+    {
+      "paperclip_result_id": "PMC5563507",
+      "rank": 9,
+      "title": "JunB promotes Th17 cell identity and restrains alternative CD4 +  T-cell programs during inflammation",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "T helper 17 (Th17) cell plasticity contributes to both immunity and autoimmunity; however, the factors that control lineage flexibility are mostly unknown. Here we show the activator protein-1 (AP-1) factor JunB is an essential regulator of Th17 cell identity. JunB activates expression of Th17 lineage-specifying genes and coordinately represses genes controlling Th1 and regulatory T-cell fate. JunB supports Th17 cell identity by regulating key AP-1 complex constituents. In particular, JunB limits the expression of the subset repressor IRF8, and impedes access of JunD to regulatory regions of alternative effector loci. Although dispensable for homeostatic Th17 cell development, JunB is required for induction and maintenance of Th17 effector responses in the inflammatory contexts of both acute infection and chronic autoimmunity in mice. Through regulatory network analysis, we show that JunB is a core regulator of global transcriptional programs that promote Th17 cell identity and restrict alternative CD4 +  T-cell potential.",
+      "relevant_passages": "JunB was studied as a regulator of Th17 cell identity during inflammation. JunB promotes Th17 cell programs while repressing alternative CD4+ T-cell fates.",
+      "doi_or_pmcid": "10.1038/s41467-017-00380-3"
+    },
+    {
+      "paperclip_result_id": "PMC12455463",
+      "rank": 10,
+      "title": "Evaluation of potential prognostic significance of  JUNB  in human prostate cancer: a bioinformatic and histopathological study",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Prostate cancer is one of the most common malignancies in males worldwide. Serum prostate-specific antigen is a frequently employed biomarker in the diagnosis and risk stratification of prostate cancer; however, it is known for its low predictive accuracy for disease progression. New prognostic biomarkers are needed to distinguish aggressive prostate cancer from low-risk disease. This study aimed to identify and validate potential prognostic biomarkers of prostate cancer. Two prostate cancer datasets from the Gene Expression Omnibus were analyzed to identify differentially expressed genes between benign prostatic hyperplasia (BPH) and prostatic carcinoma. Immunohistochemistry was used to evaluate the JUNB proto-oncogene, a subunit of the AP-1 transcription factor (JUNB), in 70 prostate cancer patients and 10 BPH samples. Our findings showed that  JUNB  was significantly enriched in prostate cancer-related pathways and biological processes.  JUNB  expression was considerably higher in prostatic adenocarcinoma patients than in BPH patients. Regarding  JUNB  expression in prostate cancer cases, lower levels of  JUNB  expression were associated with higher grades of prostatic adenocarcinoma. Lower  JUNB  expression was associated with a higher risk of prostatic adenocarcinoma progression and shorter overall survival. These results suggest that  JUNB  is a promising prognostic biomarker and a potential tumor suppressor in prostate cancer.",
+      "relevant_passages": "This study investigated the prognostic significance of JUNB in prostate cancer using bioinformatic and histopathological methods. Lower JUNB expression was found to correlate with higher cancer grade, increased progression risk, and shorter survival, suggesting it is a promising prognostic biomarker.",
+      "doi_or_pmcid": "10.4132/jptm.2025.06.06"
+    }
+  ]
+}

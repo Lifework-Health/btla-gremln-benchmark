@@ -1,0 +1,108 @@
+{
+  "tf": "ID2",
+  "query": "ID2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10902300",
+      "rank": 1,
+      "title": "Id2 epigenetically controls CD8 +  T-cell exhaustion by disrupting the assembly of the Tcf3-LSD1 complex",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "CD8 +  T-cell exhaustion is a state of dysfunction that promotes tumor progression and is marked by the generation of Slamf6 +  progenitor exhausted (Tex prog ) and Tim-3 +  terminally exhausted (Tex term ) subpopulations. Inhibitor of DNA binding protein 2 (Id2) has been shown to play important roles in T-cell development and CD8 +  T-cell immunity. However, the role of Id2 in CD8 +  T-cell exhaustion is unclear. Here, we found that Id2 transcriptionally and epigenetically regulates the generation of Tex prog  cells and their conversion to Tex term  cells. Genetic deletion of Id2 dampens CD8 +  T-cell-mediated immune responses and the maintenance of stem-like CD8 +  T-cell subpopulations, suppresses PD-1 blockade and increases tumor susceptibility. Mechanistically, through its HLH domain, Id2 binds and disrupts the assembly of the Tcf3-Tal1 transcriptional regulatory complex, and thus modulates chromatin accessibility at the Slamf6 promoter by preventing the interaction of Tcf3 with the histone lysine demethylase LSD1. Therefore, Id2 increases the abundance of the permissive H3K4me2 mark on the Tcf3-occupied E-boxes in the Slamf6 promoter, modulates chromatin accessibility at the Slamf6 promoter and epigenetically regulates the generation of Slamf6 +  Tex prog  cells. An LSD1 inhibitor GSK2879552 can rescue the Id2 knockout phenotype in tumor-bearing mice. Inhibition of LSD1 increases the abundance of Slamf6 + Tim-3 −  Tex prog  cells in tumors and the expression level of Tcf1 in Id2-deleted CD8 +  T cells. This study demonstrates that Id2-mediated transcriptional and epigenetic modification drives hierarchical CD8 +  T-cell exhaustion, and the mechanistic insights gained may have implications for therapeutic intervention with tumor immune evasion.",
+      "relevant_passages": "Id2 epigenetically controls CD8+ T-cell exhaustion by disrupting the Tcf3-LSD1 complex. This disruption increases Slamf6 expression, promoting T-cell exhaustion and tumor immune evasion.",
+      "doi_or_pmcid": "10.1038/s41423-023-01118-6"
+    },
+    {
+      "paperclip_result_id": "PMC11208273",
+      "rank": 2,
+      "title": "ID2 promotes tumor progression and metastasis in thyroid cancer",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Inhibitor of DNA Binding 2 (ID2) plays a crucial role in tumor cell proliferation, invasion, metastasis, and stemness. Aberrant ID2 expression is associated with poor prognosis in various cancers. However, the specific function of ID2 in thyroid cancer remain unclear. The TCGA database were utilized to explore the clinical relevance of ID2 in cancer. GO, KEGG, and TIMER were employed to predict the potential roles of ID2 in cancer. Functional analysis, including CCK-8, colony formation, transwell, wound healing, and sphere formation experiments, were conducted to determine the biological functions of ID2 in human cancers. Western blot (WB), RT-qPCR, and immunohistochemical (IHC) analyses were used to investigate the relationship between ID2 and downstream targets. Our study revealed significant overexpression of ID2 in various malignant tumor cells. Knocking ID2 significantly inhibited cancer cell proliferation and invasion, while overexpressing ID2 enhanced these capabilities. Additionally, ID2 mediates resistance of cancer cells to protein kinase B (or Akt) inhibitions. Further WB and IHC experiments indicated that ID2 promotes the phosphorylation activation of phosphatidylinositol 3-kinase (PI3K)/Akt signaling pathway, thereby upregulating the expression of downstream proliferation, epithelial-mesenchymal transition (EMT), and stemness-related markers. We found that ID2 significantly promotes thyroid cancer cell proliferation, migration, EMT, and stemness through the PI3K/Akt pathway. Moreover, ID2 plays a crucial role in regulating cancer immune responses. It may serve as a potential biomarker for enhancing the efficacy of chemotherapy, targeted therapy, and immunotherapy against cancer.",
+      "relevant_passages": "This study investigated the role of ID2 in thyroid cancer progression. ID2 promotes tumor growth, metastasis, and stemness by activating the PI3K/Akt pathway.",
+      "doi_or_pmcid": "10.1007/s12020-023-03674-3"
+    },
+    {
+      "paperclip_result_id": "PMC8056751",
+      "rank": 3,
+      "title": "The transcriptional repressor ID2 supports natural killer cell maturation by controlling TCF1 amplitude",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "ID2 is an essential transcription factor for natural killer cell development. Through epistasis analysis, Li et al. show that ID2 controls the amplitude of TCF1 and allows for its temporal downregulation, thereby supporting natural killer cell maturation.",
+      "relevant_passages": "ID2 was studied for its role in natural killer cell development. ID2 controls TCF1 amplitude and downregulation, which is crucial for natural killer cell maturation.",
+      "doi_or_pmcid": "10.1084/jem.20202032"
+    },
+    {
+      "paperclip_result_id": "PMC11885165",
+      "rank": 4,
+      "title": "Id2 exacerbates the development of rheumatoid arthritis by increasing IFN‐γ production in CD4 +  T cells",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "This research investigates the role of inhibitor of differentiation 2 (Id2) in the synthesis of pro‐inflammatory cytokines, specifically interferon‐γ (IFN‐γ) and interleukin‐17 (IL‐17), by various subsets of T cells, and its pathogenic role in rheumatoid arthritis (RA). Flow cytometry was employed to assess T‐cell activation and Id2 expression in 72 RA patients and 23 healthy controls. In vitro, peripheral blood mononuclear cells were treated with either an Id2 inhibitor or a T‐cell co‐stimulation inhibitor. An in vivo collagen‐induced arthritis (CIA) model was established using T‐cell‐specific Id2 knockout mice. Additionally, follow‐up observations were conducted among treated RA patients. T‐cell activation levels in RA synovial fluid were significantly elevated. A positive correlation was found between increased IFN‐γ and Id2 expression. In vitro, antagonising Id2 reduced IFN‐γ production after T‐cell activation. T‐cell‐specific Id2 knockout mice exhibited a diminished occurrence and severity of CIA, along with a significant decrease in IFN‐γ expression. Clinical monitoring indicated that Id2‐induced circulating T‐cell IFN‐γ expression significantly decreased following treatment with the T‐cell activation inhibitor abatacept. The data suggest that high Id2 expression is a critical regulator of pro‐inflammatory cytokine upregulation, particularly IFN‐γ, by hyperactivated T cells in RA, potentially exacerbating the disease. Inhibiting Id2 expression or function may offer new therapeutic approaches for RA joint inflammation. Pro‐inflammatory cytokines are significantly upregulated in the synovial fluid T cells in rheumatoid arthritis patients. The expression of pro‐inflammatory cytokine interferon‐γ (IFN‐γ) positively correlates with the high expression of inhibitor of differentiation 2 (Id2). The inhibition or ablation of Id2 can effectively suppress IFN‐γ production and the onset and progression of arthritis.",
+      "relevant_passages": "Id2 was studied for its role in T cell cytokine production and rheumatoid arthritis (RA) development. High Id2 expression exacerbates RA by increasing IFN-γ in T cells, suggesting Id2 inhibition as a therapeutic target.",
+      "doi_or_pmcid": "10.1002/ctm2.70242"
+    },
+    {
+      "paperclip_result_id": "PMC2824806",
+      "rank": 5,
+      "title": "Inhibitor of DNA Binding 3 Limits Development of Murine Slam-Associated Adaptor Protein-Dependent “Innate” γδ T cells",
+      "year": "2010",
+      "publication_type": "research-article",
+      "abstract": "Id3 is a dominant antagonist of E protein transcription factor activity that is induced by signals emanating from the αβ and γδ T cell receptor (TCR). Mice lacking  Id3  were previously shown to have subtle defects in positive and negative selection of TCRαβ +  T lymphocytes. More recently,  Id3 \n −/−  mice on a C57BL/6 background were shown to have a dramatic expansion of γδ T cells. Here we report that mice lacking Id3 have reduced thymocyte numbers but increased production of γδ T cells that express a Vγ1.1 + Vδ6.3 +  receptor with restricted junctional diversity. These Vγ1.1 + Vδ6.3 +  T cells have multiple characteristics associated with “innate” lymphocytes such as natural killer T (NKT) cells including an activated phenotype, expression of the transcription factor PLZF, and rapid production of IFNg and interleukin-4. Moreover, like other “innate” lymphocyte populations, development of  Id3 \n −/−  Vγ1.1 + Vδ6.3 +  T cells requires the signaling adapter protein SAP. Our data provide novel insight into the requirements for development of Vγ1.1 + Vδ6.3 +  T cells and indicate a role for Id3 in repressing the response of “innate” γδ T cells to SAP-mediated expansion or survival.",
+      "relevant_passages": "This study investigated the role of Id3 in murine γδ T cell development. Loss of Id3 leads to an expansion of innate-like γδ T cells dependent on the SLAM-associated adapter protein (SAP).",
+      "doi_or_pmcid": "10.1371/journal.pone.0009303"
+    },
+    {
+      "paperclip_result_id": "PMC10814654",
+      "rank": 6,
+      "title": "ID2 Promotes Lineage Transition of Prostate Cancer through FGFR and JAK-STAT Signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Androgen receptor-negative prostate cancer is one of the important mechanisms of castration resistant prostate cancer. The application of next generation androgen receptor signaling pathway inhibitors (ARPIs) has led to a gradual increase of AR-negative prostate cancer in the clinic. In this paper, we demonstrated the potential promotional role of ID2 in androgen receptor-negative prostate cancer through extensive bioinformatics analysis and experimental studies. Through transcriptome sequencing and downstream functional enrichment analysis, we found that ID2 can activate neuroendocrine or stemness-related pathways and inhibit androgen receptor signaling pathways. ID2 can activate JAK/STAT signaling pathway as well as FGFR signaling pathway to promote the acquisition of prostate cancer lineage plasticity, which in turn leads to androgen receptor-negative prostate cancer. Through cell function experiments and mouse experiments, we reveal that ID2 can promote prostate cancer evolution. Using transcriptome sequencing and publicly available clinical data, we generated ID2-related gene signatures to help determine clinical prognosis. The use of androgen receptor pathway inhibitors (ARPIs) has led to an increase in the proportion of AR-null prostate cancer, including neuroendocrine prostate cancer (NEPC) and double-negative prostate cancer (DNPC), but the mechanism underlying this lineage transition has not been elucidated. We found that ID2 expression was increased in AR-null prostate cancer. In vitro and in vivo studies confirmed that ID2 promotes PCa malignancy and can confer resistance to enzalutamide in PCa cells. We generated an ID2 UP50 signature, which is capable of determining resistance to enzalutamide and is valuable for predicting patient prognosis. Functional experiments showed that ID2 could activate stemness-associated JAK/STAT and FGFR signaling while inhibiting the AR signaling pathway. Our study indicates a potentially strong association between ID2 and the acquisition of a stem-like phenotype in adenocarcinoma cells, leading to resistance to androgen deprivation therapy (ADT) and next-generation ARPIs in prostate cancer.",
+      "relevant_passages": "This study investigated ID2's role in prostate cancer lineage transition. ID2 promotes androgen receptor-negative prostate cancer by activating FGFR and JAK-STAT signaling.",
+      "doi_or_pmcid": "10.3390/cancers16020392"
+    },
+    {
+      "paperclip_result_id": "PMC12425045",
+      "rank": 7,
+      "title": "ID2 secures cDC1 specification by antagonizing E proteins at a pleiotropic  Zeb2  enhancer",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The transcriptional regulator ID2 is required for type 1 classical dendritic cell (cDC1) specification, yet the mechanism has remained obscure. We previously identified the  Zeb2  −165-kb enhancer as key to normal hematopoiesis, controlled by competing CEBP and NFIL3 inputs during myeloid dendritic cell divergence. Here, we uncover an unprecedented role for E proteins in myelopoiesis and demonstrate that ID2 promotes cDC1 development by antagonizing E protein activity at E-boxes within the  Zeb2  enhancer. Deleting these E-boxes abolishes lymphoid B cell and plasmacytoid dendritic cell (pDC) development while skewing myelopoiesis toward cDC1s. Remarkably, E-box deletion rescues cDC1 development in  Id2 -deficient mice. These findings support a two-step model in which NFIL3 transiently represses  Zeb2 , followed by ID2-mediated inhibition of E proteins to stabilize cDC1 fate specification. Further, this work defines a paradigm of “site-specific pleiotropy,” wherein distinct transcription factor motifs–E-boxes and CEBP sites–within a single enhancer direct diverse cell fates.",
+      "relevant_passages": "ID2 antagonizes E proteins at the Zeb2 enhancer to promote cDC1 specification. This mechanism rescues cDC1 development in Id2-deficient mice and defines site-specific pleiotropy within a single enhancer.",
+      "doi_or_pmcid": "10.21203/rs.3.rs-7455813/v1"
+    },
+    {
+      "paperclip_result_id": "PMC4915968",
+      "rank": 8,
+      "title": "Id2 reinforces T H 1 cell differentiation and inhibits E2A to repress T FH  cell differentiation",
+      "year": "2016",
+      "publication_type": "research-article",
+      "abstract": "Differentiation of T helper (T H ) effector subsets is critical for host protection. E protein transcription factors and Id proteins are important arbiters of T cell development, but their role in differentiation of T H 1 and T FH  cells is not well understood. T H 1 cells showed robust Id2 expression compared to T FH  cells, and RNAi depletion of Id2 increased T FH  cell frequencies. Further, T H 1 cell differentiation was blocked by Id2 deficiency, leading to E protein-dependent accumulation of effector cells with mixed characteristics during viral infection and severely impaired generation of T H 1 cells following  Toxoplasma gondii  infection. The T FH -defining transcriptional repressor Bcl6 bound the  Id2  locus, providing a mechanism for the bimodal Id2 expression and reciprocal development of T H 1 and T FH  cell fates.",
+      "relevant_passages": "Id2 expression was studied in T H 1 and T FH cell differentiation. Id2 reinforces T H 1 differentiation and represses T FH differentiation by inhibiting E proteins.",
+      "doi_or_pmcid": "10.1038/ni.3461"
+    },
+    {
+      "paperclip_result_id": "PMC3061294",
+      "rank": 9,
+      "title": "Diverse Roles of Inhibitor of Differentiation 2 in Adaptive Immunity",
+      "year": "2011",
+      "publication_type": "review-article",
+      "abstract": "The helix-loop-helix (HLH) transcription factor inhibitor of DNA binding 2 (Id2) has been implicated as a regulator of hematopoiesis and embryonic development. While its role in early lymphopoiesis has been well characterized, new roles in adaptive immune responses have recently been uncovered opening exciting new directions for investigation. In the innate immune system, Id2 is required for the development of mature natural killer (NK) cells, lymphoid tissue-inducer (LTi) cells, and the recently identified interleukin (IL)-22 secreting nonconventional innate lymphocytes found in the gut. In addition, Id2 has been implicated in the development of specific dendritic cell (DC) subsets, decisions determining the formation of  αβ  and  γδ  T-cell development, NK T-cell behaviour, and in the maintenance of effector and memory CD8 +  T cells in peripheral tissues. Here, we review the current understanding of the role of Id2 in lymphopoiesis and in the development of the adaptive immune response required for maintaining immune homeostasis and immune protection.",
+      "relevant_passages": "This paper reviews the role of the transcription factor Id2 in immune cell development and function. Id2 is crucial for the development of various immune cells, including innate and adaptive lymphocytes, and plays a role in maintaining immune homeostasis.",
+      "doi_or_pmcid": "10.1155/2011/281569"
+    },
+    {
+      "paperclip_result_id": "PMC12147642",
+      "rank": 10,
+      "title": "Histone deacetylases facilitate Th17-cell differentiation and pathogenicity in autoimmune uveitis via CDK6/ID2 axis",
+      "year": "",
+      "publication_type": "",
+      "abstract": "",
+      "relevant_passages": "Histone deacetylases (HDACs) were studied for their role in autoimmune uveitis. HDACs promote Th17 cell differentiation and pathogenicity via the CDK6/ID2 axis, and their inhibition alleviates the disease.",
+      "doi_or_pmcid": ""
+    }
+  ]
+}

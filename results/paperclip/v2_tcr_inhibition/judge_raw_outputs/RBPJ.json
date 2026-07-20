@@ -1,0 +1,149 @@
+{
+  "tf": "RBPJ",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:09:32Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-ff54688b-4f7e-4f7e-89ed-71d8e4f2eaaf",
+      "agent_id": "agent-b8486492-4305-4de7-83f3-aa0f1e1e7ede",
+      "raw": "Based on the rubric, here is my structured assessment of the 10 retrieved papers for RBPJ against the query \"RBPJ TCR inhibition.\"\n\n```json\n{\n  \"tf\": \"RBPJ\",\n  \"query\": \"RBPJ TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 2,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11441141\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human; PBMCs and RA synovial tissue (GEO dataset); no specific T cell subset\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"RBPJ expression was significantly lower in RA patients and negatively correlated with disease activity.\",\n      \"rationale\": \"Expression correlation and GO/KEGG enrichment only; no perturbation and no inhibitory-signalling readout. TCR pathway appears merely as an enriched term.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9371899\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mature T cells (species not specified in passage); gene-regulation cell model\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"RBPJ depletion leads to upregulation of many Notch target genes.\",\n      \"rationale\": \"Perturbational study of RBPJ gene-regulatory function (Notch target genes, IL2ra), but addresses transcriptional control, not TCR inhibition or an inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12068301\",\n      \"retrieval_rank\": 3,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and mouse HCC; CD8+ tumor-infiltrating T cells; patient-derived xenografts\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"degradation of RBPJ, thereby inhibiting T cell exhaustion through the IRF4/TNFRSF1B axis.\",\n      \"rationale\": \"Causal: reducing RBPJ (via USP7 degradation) alleviates CD8+ exhaustion. Exhaustion is inhibitory, but impaired/attenuated TCR function is not explicitly demonstrated.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9887061\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and mouse HCC; CD8+ T cells; in vitro and in vivo\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Inhibiting RBPJ with RIN1 alleviates T cell exhaustion and enhances anti-tumor immunity.\",\n      \"rationale\": \"Perturbational: RBPJ-complex inhibitor RIN1 reverses CD8+ exhaustion with functional killing readouts, but proximal TCR signalling attenuation is not explicitly shown.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11787368\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"live-cell biophysics (non-immune cell model); DNA-binding kinetics\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"The study tracked RBPJ binding kinetics and transcriptional activity in live cells.\",\n      \"rationale\": \"Biophysical characterization of RBPJ-DNA binding kinetics; no T cell system and no inhibitory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6453958\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; primary regulatory T cells (Treg)\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Treg cells require Rbpj to specifically restrain TH2 responses.\",\n      \"rationale\": \"Causal Treg-specific Rbpj deletion, but the phenotype is TH2 lineage restraint/differentiation, not TCR inhibition, checkpoint, anergy or hyporesponsiveness.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11985660\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse and human decidua/placenta; non-immune stromal cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"circ-Hdac4 regulates decidualization through the miR-30c-RBPJ axis.\",\n      \"rationale\": \"RBPJ studied in decidualization and preeclampsia; non-immune system with no relevance to T cells.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6858571\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; thymus-seeding/hematopoietic progenitors\",\n      \"evidence_directness\": \"generic T cell biology\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"RBPJ-dependent Notch signaling initiates the T cell program in thymus-seeding progenitors.\",\n      \"rationale\": \"Addresses T cell lineage specification/commitment via Notch, not any inhibitory or TCR-attenuating phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12569315\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human and mouse; monocyte-derived macrophages (non-T immune)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"RBPJ is required for pro-inflammatory macrophage activation in thoracic aortic dissection.\",\n      \"rationale\": \"RBPJ function studied in macrophage activation/glycolysis; non-T-cell system, unrelated to TCR inhibition.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4291530\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human cancers; non-immune tumorigenesis model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"RBPJ is frequently deleted in human cancers and acts as a tumor suppressor.\",\n      \"rationale\": \"Focuses on RBPJ loss and tumorigenesis via Notch-independent derepression; no T cell or inhibitory-phenotype content.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"weak\",\n  \"key_paperclip_result_ids\": [\"PMC12068301\", \"PMC9887061\"],\n  \"tier_rationale\": \"Two independent primary experimental studies (PMC12068301, PMC9887061) provide direct perturbational evidence that RBPJ maintains/promotes CD8+ T cell exhaustion in HCC, with functional anti-tumor readouts. However, neither explicitly demonstrates impaired or attenuated TCR signalling/function; per the mandatory rule, exhaustion alone is insufficient for moderate. No retrieved primary study causally addresses proximal TCR inhibition, an inhibitory checkpoint response, anergy or hyporesponsiveness. Remaining papers are computational/associative, generic T cell development/differentiation, or non-T-cell systems. With relevant evidence gated below moderate and the lower-tier rule applied, the tier is weak.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "RBPJ",
+    "query": "RBPJ TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 2,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11441141",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human; PBMCs and RA synovial tissue (GEO dataset); no specific T cell subset",
+        "evidence_directness": "associative",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "RBPJ expression was significantly lower in RA patients and negatively correlated with disease activity.",
+        "rationale": "Expression correlation and GO/KEGG enrichment only; no perturbation and no inhibitory-signalling readout. TCR pathway appears merely as an enriched term."
+      },
+      {
+        "paperclip_result_id": "PMC9371899",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mature T cells (species not specified in passage); gene-regulation cell model",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "RBPJ depletion leads to upregulation of many Notch target genes.",
+        "rationale": "Perturbational study of RBPJ gene-regulatory function (Notch target genes, IL2ra), but addresses transcriptional control, not TCR inhibition or an inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12068301",
+        "retrieval_rank": 3,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human and mouse HCC; CD8+ tumor-infiltrating T cells; patient-derived xenografts",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "degradation of RBPJ, thereby inhibiting T cell exhaustion through the IRF4/TNFRSF1B axis.",
+        "rationale": "Causal: reducing RBPJ (via USP7 degradation) alleviates CD8+ exhaustion. Exhaustion is inhibitory, but impaired/attenuated TCR function is not explicitly demonstrated."
+      },
+      {
+        "paperclip_result_id": "PMC9887061",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human and mouse HCC; CD8+ T cells; in vitro and in vivo",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Inhibiting RBPJ with RIN1 alleviates T cell exhaustion and enhances anti-tumor immunity.",
+        "rationale": "Perturbational: RBPJ-complex inhibitor RIN1 reverses CD8+ exhaustion with functional killing readouts, but proximal TCR signalling attenuation is not explicitly shown."
+      },
+      {
+        "paperclip_result_id": "PMC11787368",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "live-cell biophysics (non-immune cell model); DNA-binding kinetics",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "The study tracked RBPJ binding kinetics and transcriptional activity in live cells.",
+        "rationale": "Biophysical characterization of RBPJ-DNA binding kinetics; no T cell system and no inhibitory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC6453958",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; primary regulatory T cells (Treg)",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Treg cells require Rbpj to specifically restrain TH2 responses.",
+        "rationale": "Causal Treg-specific Rbpj deletion, but the phenotype is TH2 lineage restraint/differentiation, not TCR inhibition, checkpoint, anergy or hyporesponsiveness."
+      },
+      {
+        "paperclip_result_id": "PMC11985660",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse and human decidua/placenta; non-immune stromal cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "circ-Hdac4 regulates decidualization through the miR-30c-RBPJ axis.",
+        "rationale": "RBPJ studied in decidualization and preeclampsia; non-immune system with no relevance to T cells."
+      },
+      {
+        "paperclip_result_id": "PMC6858571",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; thymus-seeding/hematopoietic progenitors",
+        "evidence_directness": "generic T cell biology",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "RBPJ-dependent Notch signaling initiates the T cell program in thymus-seeding progenitors.",
+        "rationale": "Addresses T cell lineage specification/commitment via Notch, not any inhibitory or TCR-attenuating phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12569315",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human and mouse; monocyte-derived macrophages (non-T immune)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "RBPJ is required for pro-inflammatory macrophage activation in thoracic aortic dissection.",
+        "rationale": "RBPJ function studied in macrophage activation/glycolysis; non-T-cell system, unrelated to TCR inhibition."
+      },
+      {
+        "paperclip_result_id": "PMC4291530",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human cancers; non-immune tumorigenesis model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "RBPJ is frequently deleted in human cancers and acts as a tumor suppressor.",
+        "rationale": "Focuses on RBPJ loss and tumorigenesis via Notch-independent derepression; no T cell or inhibitory-phenotype content."
+      }
+    ],
+    "overall_evidence_tier": "weak",
+    "key_paperclip_result_ids": [
+      "PMC12068301",
+      "PMC9887061"
+    ],
+    "tier_rationale": "Two independent primary experimental studies (PMC12068301, PMC9887061) provide direct perturbational evidence that RBPJ maintains/promotes CD8+ T cell exhaustion in HCC, with functional anti-tumor readouts. However, neither explicitly demonstrates impaired or attenuated TCR signalling/function; per the mandatory rule, exhaustion alone is insufficient for moderate. No retrieved primary study causally addresses proximal TCR inhibition, an inhibitory checkpoint response, anergy or hyporesponsiveness. Remaining papers are computational/associative, generic T cell development/differentiation, or non-T-cell systems. With relevant evidence gated below moderate and the lower-tier rule applied, the tier is weak.",
+    "confidence": "moderate"
+  }
+}

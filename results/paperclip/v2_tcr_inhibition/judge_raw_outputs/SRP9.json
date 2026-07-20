@@ -1,0 +1,146 @@
+{
+  "tf": "SRP9",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:12:36Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-70dd4003-edb5-4ac5-b03f-4f53ef7497fa",
+      "agent_id": "agent-d4d8ba0b-590e-470e-884b-de8e4272834d",
+      "raw": "Based on the supplied papers only, here is my structured assessment.\n\n```json\n{\n  \"tf\": \"SRP9\",\n  \"query\": \"SRP9 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11581171\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"non-immune molecular biology (SRP9/SRP14 heterodimer, 7SL/Alu RNA); no T cell system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"SRP9/SRP14 regulates Alu RNA diversification, maturation, and function through diverse mechanisms.\",\n      \"rationale\": \"Only paper mentioning SRP9, but it is a review of SRP9/SRP14 in Alu RNA regulation with no T cell or TCR content.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/murine engineered T cells; TCR-transduced polyclonal T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.\",\n      \"rationale\": \"Studies TCR mispairing/function in engineered cells; does not involve SRP9 or an inhibitory regulatory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human primary T cells and Jurkat; PTPN22 phospho-regulation\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Ser325 phosphorylation promotes PTPN22's TCR-inhibitory activity; CRISPR suppression enhanced TCR signaling.\",\n      \"rationale\": \"Strong direct TCR-inhibition study but for PTPN22, not the candidate regulator SRP9; provides no SRP9 evidence.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2191028\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"murine CTL clones; MHC class I-restricted cytotoxic T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Peptide variants antagonized lysis by CTL clones, with highly clone-specific effects.\",\n      \"rationale\": \"Peptide TCR antagonism study; no SRP9 involvement and not an inhibitory regulator mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire for adoptive cell therapy\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Using patient TCR repertoire data to select T cells for adoptive cancer immunotherapy.\",\n      \"rationale\": \"Review of TCR repertoire selection for immunotherapy; no SRP9 and no TCR-inhibition mechanism.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"primary human T cells and Jurkat; Lck/Fyn/ZAP70 knockdown\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR downregulation is controlled by redundant signaling events distinct from T cell activation.\",\n      \"rationale\": \"Studies TCR downregulation kinases; does not involve SRP9 nor an inhibitory regulatory phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human CD4 TCR-engineered T cells; nasopharyngeal cancer mouse model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-engineered T cells significantly inhibited nasopharyngeal cancer growth in mouse models.\",\n      \"rationale\": \"TCR-T immunotherapy tumor study; 'inhibition' refers to tumor growth, not TCR signalling, and no SRP9.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3887192\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"biochemical/structural TCR-pMHC binding\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Peptide mutations override TCR mutations that improve MHC binding, maintaining T-cell specificity.\",\n      \"rationale\": \"TCR-peptide-MHC specificity study; no SRP9 and no inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"in silico; TCR sequence generation/binding prediction\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-epiDiff generates epitope-specific TCRs and predicts TCR-epitope binding.\",\n      \"rationale\": \"Computational TCR design model; no SRP9 and no TCR-inhibition phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6773850\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human engineered T cells; TCR framework engineering, mouse tumor models\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Framework substitutions increase TCR expression, enhancing antigen-specific function and tumor control.\",\n      \"rationale\": \"Enhances (not inhibits) TCR function via engineering; no SRP9 involvement.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No retrieved primary study links SRP9 to TCR inhibition or a related inhibitory T cell phenotype. The only SRP9 paper (PMC11581171) is a review on SRP9/SRP14 regulation of Alu RNA with no T cell context. All other papers concern TCR engineering, specificity, downregulation, or a different regulator (PTPN22), none involving SRP9.\",\n  \"confidence\": \"high\"\n}\n```\n\nSummary: Despite the query, none of the 10 papers connect SRP9 to TCR inhibition or any inhibitory T cell phenotype. The single SRP9 paper is a non-immune review, and the genuinely TCR-inhibitory study (PTPN22, PMC11237943) concerns a different regulator. Overall tier is **none** with high confidence.",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "SRP9",
+    "query": "SRP9 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11581171",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "non-immune molecular biology (SRP9/SRP14 heterodimer, 7SL/Alu RNA); no T cell system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "SRP9/SRP14 regulates Alu RNA diversification, maturation, and function through diverse mechanisms.",
+        "rationale": "Only paper mentioning SRP9, but it is a review of SRP9/SRP14 in Alu RNA regulation with no T cell or TCR content."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/murine engineered T cells; TCR-transduced polyclonal T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected.",
+        "rationale": "Studies TCR mispairing/function in engineered cells; does not involve SRP9 or an inhibitory regulatory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human primary T cells and Jurkat; PTPN22 phospho-regulation",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Ser325 phosphorylation promotes PTPN22's TCR-inhibitory activity; CRISPR suppression enhanced TCR signaling.",
+        "rationale": "Strong direct TCR-inhibition study but for PTPN22, not the candidate regulator SRP9; provides no SRP9 evidence."
+      },
+      {
+        "paperclip_result_id": "PMC2191028",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "murine CTL clones; MHC class I-restricted cytotoxic T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Peptide variants antagonized lysis by CTL clones, with highly clone-specific effects.",
+        "rationale": "Peptide TCR antagonism study; no SRP9 involvement and not an inhibitory regulator mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire for adoptive cell therapy",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Using patient TCR repertoire data to select T cells for adoptive cancer immunotherapy.",
+        "rationale": "Review of TCR repertoire selection for immunotherapy; no SRP9 and no TCR-inhibition mechanism."
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "primary human T cells and Jurkat; Lck/Fyn/ZAP70 knockdown",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR downregulation is controlled by redundant signaling events distinct from T cell activation.",
+        "rationale": "Studies TCR downregulation kinases; does not involve SRP9 nor an inhibitory regulatory phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human CD4 TCR-engineered T cells; nasopharyngeal cancer mouse model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-engineered T cells significantly inhibited nasopharyngeal cancer growth in mouse models.",
+        "rationale": "TCR-T immunotherapy tumor study; 'inhibition' refers to tumor growth, not TCR signalling, and no SRP9."
+      },
+      {
+        "paperclip_result_id": "PMC3887192",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "biochemical/structural TCR-pMHC binding",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Peptide mutations override TCR mutations that improve MHC binding, maintaining T-cell specificity.",
+        "rationale": "TCR-peptide-MHC specificity study; no SRP9 and no inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "in silico; TCR sequence generation/binding prediction",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-epiDiff generates epitope-specific TCRs and predicts TCR-epitope binding.",
+        "rationale": "Computational TCR design model; no SRP9 and no TCR-inhibition phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC6773850",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human engineered T cells; TCR framework engineering, mouse tumor models",
+        "evidence_directness": "irrelevant",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "unclear",
+        "supporting_excerpt": "Framework substitutions increase TCR expression, enhancing antigen-specific function and tumor control.",
+        "rationale": "Enhances (not inhibits) TCR function via engineering; no SRP9 involvement."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No retrieved primary study links SRP9 to TCR inhibition or a related inhibitory T cell phenotype. The only SRP9 paper (PMC11581171) is a review on SRP9/SRP14 regulation of Alu RNA with no T cell context. All other papers concern TCR engineering, specificity, downregulation, or a different regulator (PTPN22), none involving SRP9.",
+    "confidence": "high"
+  }
+}

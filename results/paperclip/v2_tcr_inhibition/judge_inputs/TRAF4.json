@@ -1,0 +1,108 @@
+{
+  "tf": "TRAF4",
+  "query": "TRAF4 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10750280",
+      "rank": 1,
+      "title": "TRAF4 regulates ubiquitination-modulated survivin turnover and confers radioresistance",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Nasopharyngeal carcinoma (NPC) is the most common cancer originating in the nasopharynx. Despite continuous improvement in treatment strategies, recurrence or persistence of cancer after radiotherapy is still inevitable, highlighting the need to identify therapeutic resistance factors and develop effective methods for NPC treatment. Herein, we found that TRAF4 is overexpressed in NPC cells and tissues. Knockdown TRAF4 significantly increased the radiosensitivity of NPC cells, possibly by inhibiting the Akt/Wee1/CDK1 axis, thereby suppressing survivin phosphorylation and promoting its degradation by FBXL7. TRAF4 is positively correlated with p-Akt and survivin in NPC tissues. High protein levels of TRAF4 were observed in acquired radioresistant NPC cells, and knockdown of TRAF4 overcomes radioresistant  in vitro  and the xenograft mouse model. Altogether, our study highlights the TRAF4-survivin axis as a potential therapeutic target for radiosensitization in NPC.",
+      "relevant_passages": "TRAF4 overexpression in nasopharyngeal carcinoma was studied. TRAF4 knockdown increases radiosensitivity by promoting survivin degradation.",
+      "doi_or_pmcid": "10.7150/ijbs.87180"
+    },
+    {
+      "paperclip_result_id": "PMC4209802",
+      "rank": 2,
+      "title": "TCR-engineered T cells: A model of inducible TCR expression to dissect the interrelationship between two TCRs",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "TCR gene modified T cells for adoptive therapy simultaneously express the Tg TCR and the endogenous TCR, which might lead to mispaired TCRs with harmful unknown specificity and to a reduced function of TCR-Tg T cells. We generated dual TCR T cells in two settings in which either TCR was constitutively expressed by a retroviral promoter while the second TCR expression was regulable by a Tet-on system. Constitutively expressed TCR molecules were reduced on the cell surface depending on the induced TCR expression leading to strongly hampered function. Besides that, using fluorescence resonance energy transfer we detected mispaired TCR dimers and different pairing behaviors of individual TCR chains with a mutual influence on TCR chain expression. The loss of function and mispairing could not be avoided by changing the TCR expression level or by introduction of an additional cysteine bridge. However, in polyclonal T cells, optimized TCR formats (cysteineization, codon optimization) enhanced correct pairing and function. We conclude from our data that (i) the level of mispairing depends on the individual TCRs and is not reduced by increasing the level of one TCR, and (ii) modifications (cysteineization, codon optimization) improve correct pairing but do not completely exclude mispairing (cysteineization).",
+      "relevant_passages": "Dual TCR T cells were engineered with one inducible TCR to study TCR mispairing and function. Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected despite modifications.",
+      "doi_or_pmcid": "10.1002/eji.201343591"
+    },
+    {
+      "paperclip_result_id": "PMC11787431",
+      "rank": 3,
+      "title": "MAP3K4 signaling regulates HDAC6 and TRAF4 coexpression and stabilization in trophoblast stem cells",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Mitogen-activated protein kinase kinase kinase 4 (MAP3K4) promotes fetal and placental growth and development, with MAP3K4 kinase inactivation resulting in placental insufficiency and fetal growth restriction. MAP3K4 promotes key signaling pathways including JNK, p38, and PI3K/Akt, leading to activation of CREB-binding protein. MAP3K4 kinase inactivation results in loss of these pathways and gain of histone deacetylase 6 (HDAC6) expression and activity. Tumor necrosis factor receptor-associated factor 4 (TRAF4) binds MAP3K4 and promotes MAP3K4 activation of downstream pathways in the embryo; however, the role of TRAF4 and its association with MAP3K4 in the placenta is unknown. Our analyses of murine placenta single-cell RNA-Seq data showed that  Traf4  is coexpressed with  Map3k4  in trophoblast stem (TS) cells and labyrinth progenitors, whereas  Hdac6  expression is higher in differentiated trophoblasts. We demonstrate that, like HDAC6, TRAF4 expression is increased in MAP3K4 kinase-inactive TS (TS KI ) cells and upon inhibition of MAP3K4-dependent pathways in WT TS cells. Moreover,  Hdac6  shRNA knockdown in TS KI  cells reduces TRAF4 protein expression. We found that HDAC6 forms a protein complex with TRAF4 in TS cells and promotes TRAF4 expression in the absence of HDAC6 deacetylase activity. Finally, we examine the relationships among MAP3K4, TRAF4, and HDAC6 in the developing placenta, finding a previously unknown switch in the coexpression of  Traf4  with  Map3k4 versus Traf4  with  Hdac6  during differentiation of the placental labyrinth. Together, our findings identify previously unknown mechanisms of MAP3K4 and HDAC6 coregulation of TRAF4 in TS cells and highlight these MAP3K4, TRAF4, and HDAC6 associations during placental development.",
+      "relevant_passages": "MAP3K4 signaling regulates HDAC6 and TRAF4 coexpression and stabilization in trophoblast stem cells. MAP3K4 inactivation increases HDAC6 and TRAF4, with HDAC6 stabilizing TRAF4.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.108116"
+    },
+    {
+      "paperclip_result_id": "PMC5437045",
+      "rank": 4,
+      "title": "TRAF3 enhances TCR signaling by regulating the inhibitors Csk and PTPN22",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "The adaptor protein TNF receptor associated factor (TRAF) 3 is required for effective TCR signaling and normal T cell effector functions, and associates with the CD3/CD28 complex upon activation. To determine how TRAF3 promotes proximal TCR signaling, we studied TRAF3-deficient mouse and human T cells, which showed a marked reduction in activating phosphorylation of the TCR-associated kinase Lck. The impact of TRAF3 on this very early signaling event led to the hypothesis that TRAF3 restrains one or both of two known inhibitors of Lck, C-terminal Src kinase (Csk) and protein tyrosine phosphatase N22 (PTPN22). TRAF3 associated with Csk, promoting the dissociation of Csk from the plasma membrane. TRAF3 also associated with and regulated the TCR/CD28 induced localization of PTPN22. Loss of TRAF3 resulted in increased amounts of both Csk and PTPN22 in T cell membrane fractions and decreased association of PTPN22 with Csk. These findings identify a new role for T cell TRAF3 in promoting T cell activation, by regulating localization and functions of early TCR signaling inhibitors.",
+      "relevant_passages": "TRAF3 was studied for its role in T cell receptor (TCR) signaling. TRAF3 promotes T cell activation by regulating the inhibitors Csk and PTPN22.",
+      "doi_or_pmcid": "10.1038/s41598-017-02280-4"
+    },
+    {
+      "paperclip_result_id": "PMC10966530",
+      "rank": 5,
+      "title": "TRAF4‐Mediated LAMTOR1 Ubiquitination Promotes mTORC1 Activation and Inhibits the Inflammation‐Induced Colorectal Cancer Progression",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Mechanistic target of rapamycin complex 1 (mTORC1) is a conserved serine/threonine kinase that integrates various environmental signals to regulate cell growth and metabolism. mTORC1 activation requires tethering to lysosomes by the Ragulator‐Rag complex. However, the dynamic regulation of the interaction between Ragulator and Rag guanosine triphosphatase (GTPase) remains unclear. In this study, that LAMTOR1, an essential component of Ragulator, is dynamically ubiquitinated depending on amino acid abundance is reported. It is found that the E3 ligase TRAF4 directly interacts with LAMTOR1 and catalyzes the K63‐linked polyubiquitination of LAMTOR1 at K151. Ubiquitination of LAMTOR1 by TRAF4 promoted its binding to Rag GTPases and enhanced mTORC1 activation, K151R knock‐in or TRAF4 knock‐out blocks amino acid‐induced mTORC1 activation and accelerates the development of inflammation‐induced colon cancer. This study revealed that TRAF4‐mediated LAMTOR1 ubiquitination is a regulatory mechanism for mTORC1 activation and provides a therapeutic target for diseases involving mTORC1 dysregulation.",
+      "relevant_passages": "This study investigated how LAMTOR1 ubiquitination affects mTORC1 activation. TRAF4-mediated LAMTOR1 ubiquitination enhances mTORC1 activation, inhibiting inflammation-induced colorectal cancer progression.",
+      "doi_or_pmcid": "10.1002/advs.202301164"
+    },
+    {
+      "paperclip_result_id": "PMC2196328",
+      "rank": 6,
+      "title": "A Regulatory Role for TRAF1 in Antigen-induced Apoptosis of  T Cells",
+      "year": "1997",
+      "publication_type": "research-article",
+      "abstract": "Tumor necrosis factor receptor (TNFR)–associated factor 2 (TRAF2) and TRAF1 were found as components of the TNFR2 signaling complex, which exerts multiple biological effects on cells such as cell proliferation, cytokine production, and cell death. In the TNFR2-mediated signaling pathways, TRAF2 works as a mediator for activation signals such as NF-κB, but the role of TRAF1 has not been previously determined. Here we show in transgenic mice that TRAF1 overexpression inhibits antigen-induced apoptosis of CD8 +  T lymphocytes. Our results demonstrate a biological role for TRAF1 as a regulator of apoptotic signals and also support the hypothesis that the combination of TRAF proteins in a given cell type determines distinct biological effects triggered by members of the TNF receptor superfamily.",
+      "relevant_passages": "TRAF1 was studied for its role in T cell signaling. TRAF1 overexpression inhibits antigen-induced apoptosis in CD8+ T cells, suggesting a regulatory function in apoptotic pathways.",
+      "doi_or_pmcid": "PMC2196328"
+    },
+    {
+      "paperclip_result_id": "PMC11732567",
+      "rank": 7,
+      "title": "Lnc-EST885 promotes hepatocellular carcinoma metastasis through PI3K / AKT pathway by interaction with TRAF4",
+      "year": "2024",
+      "publication_type": "brief-report",
+      "abstract": "• Lnc-EST885 interacts with TRAF4, regulating downstream PI3 K / AKT signaling pathway and augmenting HCC cell survival, proliferation, migration, and EMT capabilities. • Inhibiting lnc-EST885 holds promise in preventing the occurrence of HCC and lung metastasis. • Lnc-EST885 stands as a potential biomarker for the occurrence of HCC and its subsequent lung metastasis.",
+      "relevant_passages": "Lnc-EST885 was studied for its role in hepatocellular carcinoma (HCC) metastasis. It promotes HCC metastasis by interacting with TRAF4 and activating the PI3K/AKT pathway, suggesting it as a potential biomarker and therapeutic target.",
+      "doi_or_pmcid": "10.1016/j.tranon.2024.102254"
+    },
+    {
+      "paperclip_result_id": "PMC10083865",
+      "rank": 8,
+      "title": "Engineering second-generation TCR-T cells by site-specific integration of TRAF-binding motifs into the  CD247  locus",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "The incorporation of co-stimulatory signaling domains into second-generation chimeric antigen receptors (CARs) significantly enhances the proliferation and persistence of CAR-T cells in vivo, leading to successful clinical outcomes. To achieve such functional enhancement in transgenic T-cell receptor-engineered T-cell (TCR-T) therapy, we designed a second-generation TCR-T cell in which CD3ζ genes modified to contain the intracellular domain (ICD) of the 4-1BB receptor were selectively inserted into the  CD247  locus. This modification enabled the simultaneous recruitment of key adaptor molecules for signals 1 and 2 on TCR engagement. However, the addition of full-length 4-1BB ICD unexpectedly impaired the expression and signaling of TCRs, leading to suboptimal antitumor activity of the resulting TCR-T cells in vivo. We found that the basic-rich motif (BRM) in the 4-1BB ICD was responsible for the undesirable outcomes, and that fusion of minimal tumor necrosis factor receptor-associated factor (TRAF)-binding motifs at the C-terminus of CD3ζ (zBB ΔBRM ) was sufficient to recruit TRAF2, the key adaptor molecule in 4-1BB signaling, while retaining the expression and proximal signaling of the transgenic TCR. Consequently, TCR-T cells expressing zBB ΔBRM  exhibited improved persistence and expansion in vitro and in vivo, resulting in superior antitumor activity in a mouse xenograft model. Our findings offer a promising strategy for improving the intracellular signaling of TCR-T cells and their application in treating solid tumors.",
+      "relevant_passages": "Second-generation TCR-T cells were engineered by integrating TRAF-binding motifs into the CD247 locus. This modification improved TCR-T cell persistence, expansion, and antitumor activity by recruiting TRAF2 without impairing TCR signaling.",
+      "doi_or_pmcid": "10.1136/jitc-2022-005519"
+    },
+    {
+      "paperclip_result_id": "PMC11831473",
+      "rank": 9,
+      "title": "Nerve Growth Factor Signaling Promotes Nuclear Translocation of TRAF4 to Enhance Tumor Stemness and Metastatic Dormancy Via C‐Jun‐mediated IL‐8 Autocrine",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Tumor necrosis factor receptor‐associated factor 4 (TRAF4), an E3 ubiquitin ligase, is frequently overexpressed in tumors. Although its cytoplasmic role in tumor progression is well‐documented, the precise mechanisms underlying its nuclear localization and functional contributions in tumor cells remain elusive. This study demonstrated a positive correlation between the expression of nuclear TRAF4 and both tumor grades and stemness signatures in human cancer tissues. Notably, reduced nuclear TRAF4 led to decreased stemness properties and metastatic dormancy of tumor cells. Conversely, restoring nuclear TRAF4 in TRAF4‐knockout (TRAF4‐KO) cells augmented these cellular capabilities. Within the nucleus, the TRAF domain of TRAF4 interacted with c‐Jun, thereby stimulating its transcriptional activity. This interaction subsequently led to an enhancement of the promoter activity of interleukin‐8 (IL‐8), which is identified as a mediator of nuclear TRAF4‐induced tumor dormancy. Additionally, activation of AKT signaling by nerve growth factor facilitated TRAF4 phosphorylation at Ser242, enhancing its interaction with 14‐3‐3θ and promoting its nuclear translocation. Importantly, pharmacological modulation of TRAF4 nuclear translocation is found to suppress tumor tumorigenicity and metastasis in tumor models. This study highlights the critical role of nuclear TRAF4 in regulating tumor stemness and dormancy, positioning it as a potential therapeutic target for metastatic and refractory cancers.",
+      "relevant_passages": "Nerve growth factor signaling promotes nuclear translocation of TRAF4, which enhances tumor stemness and metastatic dormancy. This occurs via c-Jun-mediated IL-8 autocrine signaling.",
+      "doi_or_pmcid": "10.1002/advs.202414437"
+    },
+    {
+      "paperclip_result_id": "PMC2193385",
+      "rank": 10,
+      "title": "The Transmembrane Adaptor Protein Trim Regulates T Cell Receptor (Tcr) Expression and Tcr-Mediated Signaling via an Association with the Tcr ζ Chain",
+      "year": "2001",
+      "publication_type": "research-article",
+      "abstract": "T cell receptor (TCR)-interacting molecule (TRIM) is a recently identified transmembrane adaptor protein, which is exclusively expressed in T cells. Here we demonstrate that in mature T cells, TRIM preferentially interacts with the TCR via the TCR - ζ chains and to a lesser extent via the CD3-ε/γ heterodimer. Transient or stable overexpression of TRIM in Jurkat T cells results in enhancement of TCR expression on the cell surface and elevated induction of Ca 2+  mobilization after T cell activation. TRIM-mediated upregulation of TCR expression results from inhibition of spontaneous TCR internalization and stabilization of TCR complexes on the cell surface. Collectively, our data identify TRIM as a novel integral component of the TCR complex and suggest that one function of TRIM might be to modulate the strength of signals transduced through the TCR through regulation of TCR expression on the cell surface.",
+      "relevant_passages": "This study investigated the transmembrane adaptor protein TRIM's role in T cell receptor (TCR) regulation. TRIM enhances TCR expression and signaling by associating with TCR ζ chains, stabilizing TCR complexes on the cell surface.",
+      "doi_or_pmcid": "PMC2193385"
+    }
+  ]
+}

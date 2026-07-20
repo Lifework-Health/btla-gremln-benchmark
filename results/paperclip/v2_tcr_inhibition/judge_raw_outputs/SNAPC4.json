@@ -1,0 +1,146 @@
+{
+  "tf": "SNAPC4",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T19:11:44Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-771dc5b4-b82b-4f54-992b-fadb623fba5a",
+      "agent_id": "agent-10223dbb-2cf8-488c-9e21-7637874b5d25",
+      "raw": "I have everything I need from the supplied query. None of the 10 retrieved papers mention SNAPC4; they concern other regulators/topics (PTPN22, TCR engineering, TCR downregulation, PCSK9, etc.). Here is the structured assessment.\n\n```json\n{\n  \"tf\": \"SNAPC4\",\n  \"query\": \"SNAPC4 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary human T cells and Jurkat T cell line; TCR-stimulated CD4/CD8 not specified\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"proximal TCR signalling inhibition or attenuation\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Ser325 phosphorylation promotes PTPN22's TCR-inhibitory activity.\",\n      \"rationale\": \"Direct TCR-inhibition study, but concerns PTPN22, not SNAPC4; no mention of the candidate regulator.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; TCR-engineered T cells / polyclonal T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Dual TCR T cells engineered to study TCR mispairing and function.\",\n      \"rationale\": \"TCR mispairing/engineering study; no inhibitory phenotype mechanism and no mention of SNAPC4.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human; TCR repertoire / adoptive T cell therapy (in silico and in vitro)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Review exploring TCR repertoire data to select therapeutic TCRs.\",\n      \"rationale\": \"Review of TCR selection for immunotherapy; not about TCR inhibition and no SNAPC4 mention.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 4,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human/mouse tumor models; T cells (subset not specified)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"High TCR signal strength leads to T cell dysfunction in tumors.\",\n      \"rationale\": \"TCR signal-strength/dysfunction study, but does not involve or mention SNAPC4.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human TCR-T in mouse xenograft; CD4+ (and CD8+) T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"CD4 TCR-T targeting EBNA1 inhibited nasopharyngeal tumor growth.\",\n      \"rationale\": \"Adoptive CD4 TCR-T anti-tumor study; concerns tumor inhibition, not TCR inhibition, no SNAPC4.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; engineered TCR/CoCAR T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Costimulatory CAR improves TCR-based cancer immunotherapy killing.\",\n      \"rationale\": \"Costimulatory engineering to enhance T cell killing; unrelated to TCR inhibition and no SNAPC4.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"in silico; TCR sequence generation/binding prediction\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Diffusion model generates epitope-specific TCRs and predicts binding.\",\n      \"rationale\": \"Computational TCR design tool; no inhibitory phenotype and no mention of SNAPC4.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; primary human T cells and Jurkat T cell line\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR downregulation controlled by redundant events distinct from activation.\",\n      \"rationale\": \"TCR downregulation study focused on Lck/Fyn/ZAP70; does not involve or mention SNAPC4.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/mouse; CD8+ T cells and TCR-T in HCC models\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PCSK9 inhibition enhances TCR-T and anti-PD-1 efficacy against HCC.\",\n      \"rationale\": \"PCSK9 metabolic study enhancing anti-tumor T cell function; not TCR inhibition and no SNAPC4.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4803589\",\n      \"retrieval_rank\": 10,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"non-human/mouse; activated CD4+ T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Programmed TCR downregulation is a negative feedback limiting effector function.\",\n      \"rationale\": \"Programmed TCR downregulation as negative feedback, but no involvement or mention of SNAPC4.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"None of the 10 retrieved papers mention or study SNAPC4. Several concern TCR inhibition or downregulation generally (e.g., PTPN22, programmed TCR downregulation), but no retrieved primary study materially links SNAPC4 to TCR signalling inhibition or any closely related inhibitory T cell phenotype. With no regulator-specific evidence, the none tier applies.\",\n  \"confidence\": \"high\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "SNAPC4",
+    "query": "SNAPC4 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 0,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary human T cells and Jurkat T cell line; TCR-stimulated CD4/CD8 not specified",
+        "evidence_directness": "irrelevant",
+        "phenotype": "proximal TCR signalling inhibition or attenuation",
+        "direction": "unclear",
+        "supporting_excerpt": "Ser325 phosphorylation promotes PTPN22's TCR-inhibitory activity.",
+        "rationale": "Direct TCR-inhibition study, but concerns PTPN22, not SNAPC4; no mention of the candidate regulator."
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; TCR-engineered T cells / polyclonal T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Dual TCR T cells engineered to study TCR mispairing and function.",
+        "rationale": "TCR mispairing/engineering study; no inhibitory phenotype mechanism and no mention of SNAPC4."
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "review",
+        "experimental_system": "human; TCR repertoire / adoptive T cell therapy (in silico and in vitro)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Review exploring TCR repertoire data to select therapeutic TCRs.",
+        "rationale": "Review of TCR selection for immunotherapy; not about TCR inhibition and no SNAPC4 mention."
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 4,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human/mouse tumor models; T cells (subset not specified)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "High TCR signal strength leads to T cell dysfunction in tumors.",
+        "rationale": "TCR signal-strength/dysfunction study, but does not involve or mention SNAPC4."
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human TCR-T in mouse xenograft; CD4+ (and CD8+) T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "CD4 TCR-T targeting EBNA1 inhibited nasopharyngeal tumor growth.",
+        "rationale": "Adoptive CD4 TCR-T anti-tumor study; concerns tumor inhibition, not TCR inhibition, no SNAPC4."
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; engineered TCR/CoCAR T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Costimulatory CAR improves TCR-based cancer immunotherapy killing.",
+        "rationale": "Costimulatory engineering to enhance T cell killing; unrelated to TCR inhibition and no SNAPC4."
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "in silico; TCR sequence generation/binding prediction",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Diffusion model generates epitope-specific TCRs and predicts binding.",
+        "rationale": "Computational TCR design tool; no inhibitory phenotype and no mention of SNAPC4."
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; primary human T cells and Jurkat T cell line",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR downregulation controlled by redundant events distinct from activation.",
+        "rationale": "TCR downregulation study focused on Lck/Fyn/ZAP70; does not involve or mention SNAPC4."
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/mouse; CD8+ T cells and TCR-T in HCC models",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PCSK9 inhibition enhances TCR-T and anti-PD-1 efficacy against HCC.",
+        "rationale": "PCSK9 metabolic study enhancing anti-tumor T cell function; not TCR inhibition and no SNAPC4."
+      },
+      {
+        "paperclip_result_id": "PMC4803589",
+        "retrieval_rank": 10,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "non-human/mouse; activated CD4+ T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "unclear",
+        "supporting_excerpt": "Programmed TCR downregulation is a negative feedback limiting effector function.",
+        "rationale": "Programmed TCR downregulation as negative feedback, but no involvement or mention of SNAPC4."
+      }
+    ],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "None of the 10 retrieved papers mention or study SNAPC4. Several concern TCR inhibition or downregulation generally (e.g., PTPN22, programmed TCR downregulation), but no retrieved primary study materially links SNAPC4 to TCR signalling inhibition or any closely related inhibitory T cell phenotype. With no regulator-specific evidence, the none tier applies.",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "tf": "BHLHE40",
+  "query": "BHLHE40 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10846703",
+      "rank": 1,
+      "title": "BHLHE40 drives protective polyfunctional CD4 T cell differentiation in the female reproductive tract against  Chlamydia",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The protein basic helix-loop-helix family member e40 (BHLHE40) is a transcription factor recently emerged as a key regulator of host immunity to infections, autoimmune diseases and cancer. In this study, we investigated the role of  Bhlhe40  in protective T cell responses to the intracellular bacterium  Chlamydia  in the female reproductive tract (FRT). Mice deficient in  Bhlhe40  exhibited severe defects in their ability to control  Chlamydia muridarum  shedding from the FRT. The heightened bacterial burdens in  Bhlhe40 -/-  mice correlated with a marked increase in IL-10-producing T regulatory type 1 (Tr1) cells and decreased polyfunctional CD4 T cells co-producing IFN-γ, IL-17A and GM-CSF. Genetic ablation of IL-10 or functional blockade of IL-10R increased CD4 T cell polyfunctionality and partially rescued the defects in bacterial control in  Bhlhe40 -/-  mice. Using single-cell RNA sequencing coupled with TCR profiling, we detected a significant enrichment of stem-like T cell signatures in  Bhlhe40 -deficient CD4 T cells, whereas WT CD4 T cells were further down on the differentiation trajectory with distinct effector functions beyond IFN-γ production by Th1 cells. Altogether, we identified  Bhlhe40  as a key molecular driver of CD4 T cell differentiation and polyfunctional responses in the FRT against  Chlamydia .",
+      "relevant_passages": "BHLHE40's role in protective CD4 T cell differentiation against *Chlamydia* in the female reproductive tract was studied. BHLHE40 deficiency impairs bacterial control by promoting IL-10-producing Tr1 cells and reducing polyfunctional CD4 T cells.",
+      "doi_or_pmcid": "10.1371/journal.ppat.1011983"
+    },
+    {
+      "paperclip_result_id": "PMC9164498",
+      "rank": 2,
+      "title": "BHLHE40 Regulates the T-Cell Effector Function Required for Tumor Microenvironment Remodeling and Immune Checkpoint Therapy Efficacy",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "The authors show that tumor-specific T cells upregulate and require the transcriptional regulator BHLHE40 for tumor microenvironment remodeling and effective immune checkpoint therapy. BHLHE40 is a potential biomarker for immune checkpoint therapy efficacy and possible therapeutic target.",
+      "relevant_passages": "Tumor-specific T cells upregulate BHLHE40, which is required for remodeling the tumor microenvironment and effective immune checkpoint therapy. BHLHE40 is a potential biomarker for therapy efficacy and a therapeutic target.",
+      "doi_or_pmcid": "10.1158/2326-6066.CIR-21-0129"
+    },
+    {
+      "paperclip_result_id": "PMC12137885",
+      "rank": 3,
+      "title": "BHLHE40 contributes to allergic asthma progression in mice through NRTN downregulation in macrophages",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Alternatively activated M2-like macrophages have a profound impact on asthma pathogenesis. Basic Helix-Loop-Helix Family Member E40 (BHLHE40), a dimeric transcriptional factor, plays a key regulation in macrophage functions. Here we show that ovalbumin (OVA)-challenged mice exhibited greater expression of BHLHE40 in lung tissues.  Bhlhe40  knockdown reduced the pulmonary lesions and allergy-induced inflammation in asthmatic mice. Moreover, an inhibitory effect of  Bhlhe40  knockdown on alternative activation was observed in vivo and in vitro. We show a downstream target Neurturin ( Nrtn ) of  Bhlhe40 . Dual luciferase assay and ChIP-qPCR assay indicated that BHLHE40 bound to  Nrtn  promoter and reduced its transcriptional activity. Simultaneous knockdown of  Bhlhe40  and  Nrtn  recovered the alternative activation of macrophages and rescued the OVA-elicited asthma phenotype. NRTN downregulation offset the alleviative effects of  Bhlhe40  knockdown on asthma. This study demonstrates that BHLHE40 promotes allergic asthma, and contributes to the alternative activation of macrophages in asthma by inhibiting  Nrtn  transcription.",
+      "relevant_passages": "BHLHE40 expression increases in asthmatic mouse lungs, and its knockdown reduces inflammation. BHLHE40 promotes asthma by inhibiting Neurturin transcription in macrophages.",
+      "doi_or_pmcid": "10.1038/s42003-025-08288-1"
+    },
+    {
+      "paperclip_result_id": "PMC10153201",
+      "rank": 4,
+      "title": "In Vitro  Modeling of CD8 T Cell Exhaustion Enables CRISPR Screening to Reveal a Role for BHLHE40",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Identifying novel molecular mechanisms of exhausted CD8 T cells (T ex ) is a key goal of improving immunotherapy of cancer and other diseases. However, high-throughput interrogation of  in vivo  T ex  can be costly and inefficient.  In vitro  models of T ex  are easily customizable and quickly generate high cellular yield, offering an opportunity to perform CRISPR screening and other high-throughput assays. We established an  in vitro  model of chronic stimulation and benchmarked key phenotypic, functional, transcriptional, and epigenetic features against bona fide  in vivo  T ex . We leveraged this model of  in vitro  chronic stimulation in combination with pooled CRISPR screening to uncover transcriptional regulators of T cell exhaustion. This approach identified several transcription factors, including BHLHE40.  In vitro  and  in vivo  validation defined a role for BHLHE40 in regulating a key differentiation checkpoint between progenitor and intermediate subsets of T ex . By developing and benchmarking an  in vitro  model of T ex , we demonstrate the utility of mechanistically annotated  in vitro  models of T ex , in combination with high-throughput approaches, as a discovery pipeline to uncover novel T ex  biology.",
+      "relevant_passages": "An in vitro model of CD8 T cell exhaustion was developed and validated. This model enabled CRISPR screening, revealing BHLHE40 as a regulator of T cell exhaustion differentiation.",
+      "doi_or_pmcid": "10.1101/2023.04.17.537229"
+    },
+    {
+      "paperclip_result_id": "PMC10894472",
+      "rank": 5,
+      "title": "Bhlhe40  deficiency attenuates LPS-induced acute lung injury through preventing macrophage pyroptosis",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Acute lung injury (ALI) and its more severe form, acute respiratory distress syndrome (ARDS) as common life-threatening lung diseases with high mortality rates are mostly associated with acute and severe inflammation in lungs. Recently, increasing evidence supports activated inflammation and gasdermin D (GSDMD)-mediated pyroptosis in macrophage are closely associated with ALI. Basic helix-loop-helix family member e40 (Bhlhe40) is a transcription factor that is comprehensively involved in inflammation. However, there is little experimental evidence connecting Bhlhe40 and GSDMD-driven pyroptosis. The study sought to verify the hypothesis that Bhlhe40 is required for GSDMD-mediated pyroptosis in lipopolysaccharide (LPS)-induced inflammatory injury. We performed studies using  Bhlhe40 -knockout ( Bhlhe40   −/− ) mice, small interfering RNA (siRNA) targeting  Bhlhe40  and pyroptosis inhibitor disulfiram to investigate the potential roles of Bhlhe40 on LPS-induced ALI and the underlying mechanisms. Bhlhe40 was highly expressed in total lung tissues and macrophages of LPS-induced mice.  Bhlhe40 −/−  mice showed alleviative lung pathological injury and inflammatory response upon LPS stimulation. Meanwhile, we found that  Bhlhe40  deficiency significantly suppressed GSDMD-mediated pyroptosis in macrophage in vivo and in vitro. By further mechanistic analysis, we demonstrated that  Bhlhe40  deficiency inhibited GSDMD-mediated pyroptosis and subsequent ALI by repressing canonical (caspase-1-mediated) and non-canonical (caspase-11-mediated) signaling pathways in vivo and in vitro. These results indicate Bhlhe40 is required for LPS-induced ALI.  Bhlhe40  deficiency can inhibit GSDMD-mediated pyroptosis and therefore alleviate ALI. Targeting Bhlhe40 may be a potential therapeutic strategy for LPS-induced ALI. The online version contains supplementary material available at 10.1186/s12931-024-02740-2.",
+      "relevant_passages": "This study investigated the role of Bhlhe40 in lipopolysaccharide-induced acute lung injury. Bhlhe40 deficiency attenuates this injury by preventing macrophage pyroptosis.",
+      "doi_or_pmcid": "10.1186/s12931-024-02740-2"
+    },
+    {
+      "paperclip_result_id": "PMC8293608",
+      "rank": 6,
+      "title": "BHLHE40 Regulates IL-10 and IFN- γ  Production in T Cells but Does Not Interfere With Human Type 1 Regulatory T Cell Differentiation",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "Type 1 regulatory T (Tr1) cells are subset of peripherally induced antigen-specific regulatory T cells. IL-10 signaling has been shown to be indispensable for polarization and function of Tr1 cells. However, the transcriptional machinery underlying human Tr1 cell differentiation and function is not yet elucidated. To this end, we performed RNA sequencing on  ex vivo  human CD49b + LAG3 +  Tr1 cells. We identified the transcription factor, BHLHE40, to be highly expressed in Tr1 cells. Even though Tr1 cells characteristically produce high levels of IL-10, we found that BHLHE40 represses IL-10 and increases IFN-γ secretion in naïve CD4 +  T cells. Through CRISPR/Cas9-mediated knockout, we determined that  IL10  significantly increased in the sgBHLHE40-edited cells and BHLHE40 is dispensable for naïve CD4 +  T cells to differentiate into Tr1 cells  in vitro . Interestingly, BHLHE40 overexpression induces the surface expression of CD49b and LAG3, co-expressed surface molecules attributed to Tr1 cells, but promotes IFN-γ production. Our findings uncover a novel mechanism whereby BHLHE40 acts as a regulator of IL-10 and IFN-γ in human CD4 +  T cells.",
+      "relevant_passages": "This study investigated the role of BHLHE40 in human T cells. BHLHE40 regulates IL-10 and IFN-γ production but is not essential for Tr1 cell differentiation.",
+      "doi_or_pmcid": "10.3389/fimmu.2021.683680"
+    },
+    {
+      "paperclip_result_id": "PMC10913236",
+      "rank": 7,
+      "title": "Vitamin a potentiates sheep myoblasts myogenic differentiation through BHLHE40-modulated  ID3  expression",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Vitamin A and retinoic acid (RA, a metabolite of vitamin A), are inextricably involved to the development of skeletal muscle in animals. However, the mechanisms regulating skeletal muscle development by vitamin A remain poorly reported. The current study designed to investigate the underlying mechanism of vitamin A affecting myogenic differentiation of lamb myoblasts through transcriptome sequencing (RNA-Seq) and gene function validation experiments. It provides a theoretical basis for elucidating the regulation of vitamin A on skeletal muscle development as well as for improving the economic benefits of the mutton sheep industry. Newborn lambs were injected with 7,500 IU vitamin A, and  longissimus dorsi  (LD) muscle tissue was surgically sampled for RNA-Seq analysis and primary myoblasts isolation at 3 weeks of age. The results showed that a total of 14 down-regulated and 3 up-regulated genes, were identified between control and vitamin A groups. Among them,  BHLHE40  expression was upregulated in vitamin A group lambs. Furthermore,  BHLHE40  expression is significantly increased after initiation of differentiation in myoblasts, and RA addition during differentiation greatly promoted  BHLHE40  mRNA expression. In vitro, RA inhibited myoblasts proliferation and promoted myoblasts myogenic differentiation through  BHLHE40 . Moreover, BHLHE40 was proved to inhibit the expression of the  DNA binding inhibitor 3  ( ID3 ), and meanwhile,  ID3  could effectively promote myoblasts proliferation and inhibit myoblasts myogenic differentiation. Taken together, our results suggested that vitamin A inhibited myoblasts proliferation and promoted myoblasts myogenic differentiation by inhibiting  ID3  expression through BHLHE40. The online version contains supplementary material available at 10.1186/s12864-024-10161-0.",
+      "relevant_passages": "Vitamin A's role in sheep myoblast differentiation was investigated using RNA-Seq and functional validation. Vitamin A promotes differentiation by upregulating BHLHE40, which inhibits ID3 expression.",
+      "doi_or_pmcid": "10.1186/s12864-024-10161-0"
+    },
+    {
+      "paperclip_result_id": "PMC12632895",
+      "rank": 8,
+      "title": "Bhlhe40 Coordinates T Cell Programs with Distinct CD4 and CD8 T Cell Requirements for Anti-PD-1 Versus Anti-CTLA-4",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The transcriptional programs that enable CD4 and CD8 T cells to mediate effective anti-tumor immunity remain incompletely defined. Here, we identify distinct, therapy-specific roles for the transcriptional regulator Bhlhe40 in CD4 and CD8 T cells, revealing divergent requirements during anti-PD-1 versus anti-CTLA-4 immune checkpoint therapy (ICT). Using conditional knockout mice, we show that anti-PD-1 efficacy depends on CD8 T cell-intrinsic Bhlhe40 and may also require its expression in CD4 T cells, whereas anti-CTLA-4 relies primarily on CD4 T cell-intrinsic Bhlhe40 and remains effective without Bhlhe40 in CD8 T cells. Loss of Bhlhe40 skews CD8 T cells toward TCF-1-expressing naïve and progenitor exhausted-like states, particularly in the absence of ICT. Bhlhe40 sustains CD8 effector and exhausted phenotypes, promotes IFN-γ production, and supports glycolytic and mitochondrial programs, with Bhlhe40 deficiency leading to impaired glycolysis under either anti-PD-1 or anti-CTLA-4 ICT, and reduced mitochondrial function primarily during anti-PD-1. In addition, CD8 T cell-intrinsic Bhlhe40 is required for full ICT-induced remodeling of the tumor myeloid compartment from CX3CR1 +  macrophages to iNOS +  macrophages. In contrast, anti-CTLA-4 can drive tumor rejection and partial macrophage remodeling in the absence of CD8 T cell-intrinsic Bhlhe40, provided CD4 T cell function is intact. Analysis of human cancer datasets revealed that  BHLHE40  is enriched in tumor-reactive and activated/exhausted CD8 T cells, where its expression is inversely correlated with  TCF7  (TCF-1) and positively associated with  TOX  and  IFNG . Moreover, subsets of CD8 T cells expressed higher levels of  BHLHE40  in basal and squamous cell carcinoma responders compared with non-responders. Together, these findings establish Bhlhe40 not only as a transcriptional coordinator of T cell effector programs and metabolic fitness, but also as a therapy-specific, subset-dependent determinant of ICT efficacy, providing a mechanistic basis for the divergent modes of action of anti-PD-1 versus anti-CTLA-4.",
+      "relevant_passages": "Bhlhe40's role in CD4 and CD8 T cells was studied in anti-PD-1 and anti-CTLA-4 therapies. Bhlhe40 is a therapy-specific determinant of anti-tumor immunity, coordinating T cell programs and metabolic fitness.",
+      "doi_or_pmcid": "10.1101/2025.10.10.681497"
+    },
+    {
+      "paperclip_result_id": "PMC12744931",
+      "rank": 9,
+      "title": "Optimal CXCR5 expression during Tfh maturation involves the Bhlhe40-Pou2af1 axis",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The pair of transcription factors Bcl6-Blimp1 is well known for follicular T helper (Tfh) early cell fate determination; however, the mechanism(s) for late regulation of CXCR5 during Tfh migration into germinal centers (GCs) is still unclear. In this study, we uncovered another pair of transcription factors, Bhlhe40-Pou2af1, that regulate CXCR5 expression. Pou2af1 was specifically expressed in Tfh cells, whereas Bhlhe40 expression was found to be high in non-Tfh cells. Pou2af1 promoted Tfh formation and migration into a GC by upregulating CXCR5 but not Bcl6, while Bhlhe40 repressed this process by inhibiting Pou2af1 expression. RNA sequencing analysis of antigen-specific Tfh cells generated  in vivo  confirmed the role of Bhlhe40-Pou2af1 axis in regulating optimal CXCR5 expression. Thus, the regulation of CXCR5 expression and migration of Tfh cells into a GC involves a transcriptional regulatory circuit consisting of Bhlhe40 and Pou2af1, which does not affect the Bcl6-Blimp1 circuit that determines the Tfh cell fate.",
+      "relevant_passages": "This study investigated the regulation of CXCR5 expression during Tfh cell maturation. The Bhlhe40-Pou2af1 axis controls optimal CXCR5 expression and Tfh cell migration into germinal centers, independent of the Bcl6-Blimp1 circuit.",
+      "doi_or_pmcid": "10.1016/j.celrep.2025.116470"
+    },
+    {
+      "paperclip_result_id": "PMC10695412",
+      "rank": 10,
+      "title": "BHLHE40 Mediates Cross-Talk between Pathogenic T H 17 Cells and Myeloid Cells during Experimental Autoimmune Encephalomyelitis",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "T H 17 cells are implicated in the pathogenesis of multiple sclerosis and experimental autoimmune encephalomyelitis (EAE). We previously reported that the transcription factor basic helix-loop-helix family member e40 (BHLHE40) marks cytokine-producing pathogenic T H  cells during EAE, and that its expression in T cells is required for clinical disease. In this study, using dual reporter mice, we show BHLHE40 expression within T H 1/17 and ex-T H 17 cells following EAE induction.  Il17a -Cre–mediated deletion of BHLHE40 in T H  cells led to less severe EAE with reduced T H  cell cytokine production. Characterization of the leukocytes in the CNS during EAE by single-cell RNA sequencing identified differences in the infiltrating myeloid cells when BHLHE40 was present or absent in T H 17 cells. Our studies highlight the importance of BHLHE40 in promoting T H 17 cell encephalitogenicity and instructing myeloid cell responses during active EAE.",
+      "relevant_passages": "BHLHE40 expression in T cells was studied in experimental autoimmune encephalomyelitis (EAE). BHLHE40 promotes T H 17 cell encephalitogenicity and influences myeloid cell responses during EAE.",
+      "doi_or_pmcid": "10.4049/immunohorizons.2300042"
+    }
+  ]
+}

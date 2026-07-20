@@ -1,0 +1,108 @@
+{
+  "tf": "SRP9",
+  "query": "SRP9 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11581171",
+      "rank": 1,
+      "title": "The role of SRP9/SRP14 in regulating Alu RNA",
+      "year": "2024",
+      "publication_type": "review-article",
+      "abstract": "SRP9/SRP14 is a protein heterodimer that plays a critical role in the signal recognition particle through its interaction with the scaffolding signal recognition particle RNA (7SL). SRP9/SRP14 binding to 7SL is mediated through a conserved structural motif that is shared with the primate-specific Alu RNA. Alu RNA are transcription products of Alu elements, a retroelement that comprises ~10% of the human genome. Alu RNA are involved in myriad biological processes and are dysregulated in several human disease states. This review focuses on the roles SRP9/SRP14 has in regulating Alu RNA diversification, maturation, and function. The diverse mechanisms through which SRP9/SRP14 regulates Alu RNA exemplify the breadth of protein-mediated regulation of non-coding RNA.",
+      "relevant_passages": "SRP9/SRP14's interaction with Alu RNA is examined. This protein heterodimer regulates Alu RNA diversification, maturation, and function through diverse mechanisms.",
+      "doi_or_pmcid": "10.1080/15476286.2024.2430817"
+    },
+    {
+      "paperclip_result_id": "PMC4209802",
+      "rank": 2,
+      "title": "TCR-engineered T cells: A model of inducible TCR expression to dissect the interrelationship between two TCRs",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "TCR gene modified T cells for adoptive therapy simultaneously express the Tg TCR and the endogenous TCR, which might lead to mispaired TCRs with harmful unknown specificity and to a reduced function of TCR-Tg T cells. We generated dual TCR T cells in two settings in which either TCR was constitutively expressed by a retroviral promoter while the second TCR expression was regulable by a Tet-on system. Constitutively expressed TCR molecules were reduced on the cell surface depending on the induced TCR expression leading to strongly hampered function. Besides that, using fluorescence resonance energy transfer we detected mispaired TCR dimers and different pairing behaviors of individual TCR chains with a mutual influence on TCR chain expression. The loss of function and mispairing could not be avoided by changing the TCR expression level or by introduction of an additional cysteine bridge. However, in polyclonal T cells, optimized TCR formats (cysteineization, codon optimization) enhanced correct pairing and function. We conclude from our data that (i) the level of mispairing depends on the individual TCRs and is not reduced by increasing the level of one TCR, and (ii) modifications (cysteineization, codon optimization) improve correct pairing but do not completely exclude mispairing (cysteineization).",
+      "relevant_passages": "Dual TCR T cells were engineered with one inducible TCR to study TCR mispairing and function. Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected despite modifications.",
+      "doi_or_pmcid": "10.1002/eji.201343591"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 3,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC2191028",
+      "rank": 4,
+      "title": "Clone-specific T cell receptor antagonists of major histocompatibility complex class I-restricted cytotoxic T cells",
+      "year": "1993",
+      "publication_type": "research-article",
+      "abstract": "A previous report showed that the proliferative response of helper T cells to class II major histocompatibility complex (MHC)-restricted antigens can be inhibited by analogues of the antigen, which act as T cell receptor (TCR) antagonists. Here we define and analyze peptide variants that antagonize various functions of class I MHC-restricted cytotoxic T lymphocyte (CTL) clones. Of 64 variants at individual TCR contact sites of the Kb-restricted octamer peptide ovalbumin257-264 (OVAp), a very high proportion (40%) antagonized lysis by three OVAp- specific CTL clones. This effect was highly clone specific, since many antagonists for one T cell clone have differential effects on another. We show that this inhibition of CTL function is not a result of T cell- T cell interaction, precluding veto-like phenomena as a mechanism for antagonism. Moreover, we present evidence for direct interaction between the TCR and antagonist-MHC complexes. In further analysis of the T cell response, we found that serine esterase release and cytokine production are susceptible to TCR antagonism similarly to lysis. Ca2+ flux, an early event in signaling, is also inhibited by antagonists but may be more resistant to the antagonist effect than downstream responses.",
+      "relevant_passages": "Peptide variants were designed to antagonize class I MHC-restricted cytotoxic T cells. A high proportion of variants antagonized lysis, with effects being highly clone-specific.",
+      "doi_or_pmcid": "PMC2191028"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 5,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC7860602",
+      "rank": 6,
+      "title": "Separate signaling events control TCR downregulation and T cell activation in primary human T cells",
+      "year": "2020",
+      "publication_type": "research-article",
+      "abstract": "T‐cell antigen receptor (TCR) interaction with cognate peptide:MHC complexes trigger clustering of TCR:CD3 complexes and signal transduction. Triggered TCR:CD3 complexes are rapidly internalized and degraded in a process called ligand‐induced TCR downregulation. Classic studies in immortalized T‐cell lines have revealed a major role for the Src family kinase Lck in TCR downregulation. However, to what extent a similar mechanism operates in primary human T cells remains unclear. Here, we developed an anti‐CD3‐mediated TCR downregulation assay, in which T‐cell gene expression in primary human T cells can be knocked down by microRNA constructs. In parallel, we used CRISPR/Cas9‐mediated knockout in Jurkat cells for validation experiments. We efficiently knocked down the expression of tyrosine kinases Lck, Fyn, and ZAP70, and found that, whereas this impaired T cell activation and effector function, TCR downregulation was not affected. Although TCR downregulation was marginally inhibited by the simultaneous knockdown of Lck and Fyn, its full abrogation required broad‐acting tyrosine kinase inhibitors. These data suggest that there is substantial redundancy in the contribution of individual tyrosine kinases to TCR downregulation in primary human T cells. Our results highlight that TCR downregulation and T cell activation are controlled by different signaling events and illustrate the need for further research to untangle these processes.",
+      "relevant_passages": "This study investigated TCR downregulation and T cell activation in primary human T cells. TCR downregulation is controlled by redundant signaling events distinct from those driving T cell activation.",
+      "doi_or_pmcid": "10.1002/iid3.383"
+    },
+    {
+      "paperclip_result_id": "PMC11014665",
+      "rank": 7,
+      "title": "An EBV-related CD4 TCR immunotherapy inhibits tumor growth in an HLA-DP5 +  nasopharyngeal cancer mouse model",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Adoptive transfer of T cell receptor–engineered T cells (TCR-T) is a promising strategy for immunotherapy against solid tumors. However, the potential of CD4 +  T cells in mediating tumor regression has been neglected. Nasopharyngeal cancer is consistently associated with EBV. Here, to evaluate the therapeutic potential of CD4 TCR-T in nasopharyngeal cancer, we screened for CD4 TCRs recognizing EBV nuclear antigen 1 (EBNA1) presented by HLA-DP5. Using mass spectrometry, we identified EBNA1 567–581 , a peptide naturally processed and presented by HLA-DP5. We isolated TCR135, a CD4 TCR with high functional avidity, that can function in both CD4 +  and CD8 +  T cells and recognizes HLA-DP5–restricted EBNA1 567–581 . TCR135-transduced T cells functioned in two ways: directly killing HLA-DP5 + EBNA1 +  tumor cells after recognizing EBNA1 presented by tumor cells and indirectly killing HLA-DP5–negative tumor cells after recognizing EBNA1 presented by antigen-presenting cells. TCR135-transduced T cells preferentially infiltrated into the tumor microenvironment and significantly inhibited tumor growth in xenograft nasopharyngeal tumor models. Additionally, we found that 62% of nasopharyngeal cancer patients showed 50%–100% expression of HLA-DP on tumor cells, indicating that nasopharyngeal cancer is well suited for CD4 TCR-T therapy. These findings suggest that TCR135 may provide a new strategy for EBV-related nasopharyngeal cancer immunotherapy in HLA-DP5 +  patients.",
+      "relevant_passages": "CD4 TCR-engineered T cells targeting EBV antigen EBNA1 presented by HLA-DP5 were developed. These T cells significantly inhibited nasopharyngeal cancer growth in mouse models, suggesting therapeutic potential for HLA-DP5+ patients.",
+      "doi_or_pmcid": "10.1172/JCI172092"
+    },
+    {
+      "paperclip_result_id": "PMC3887192",
+      "rank": 8,
+      "title": "T-cell Receptor (TCR)-Peptide Specificity Overrides Affinity-enhancing TCR-Major Histocompatibility Complex Interactions *",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "Background:  TCR recognition of bipartite ligands composed of self (MHC) and non-self (peptide) maintains T-cell specificity. Results:  Mutation of residues in the cognate peptide override TCR mutations that enhance MHC binding. Conclusion:  TCR-pMHC binding affinity requires specific TCR-peptide interactions. Significance:  Stabilization of TCR-pMHC engagement by TCR-peptide interactions maintains T-cell specificity and prevents recognition of self-pMHC in the periphery.",
+      "relevant_passages": "This study investigated how T-cell receptor (TCR) interactions with peptides and major histocompatibility complexes (MHCs) determine T-cell specificity. Peptide mutations were found to override TCR mutations that improve MHC binding, indicating specific TCR-peptide interactions are crucial for binding affinity and T-cell specificity.",
+      "doi_or_pmcid": "10.1074/jbc.M113.522110"
+    },
+    {
+      "paperclip_result_id": "PMC12261488",
+      "rank": 9,
+      "title": "TCR-epiDiff: solving dual challenges of TCR generation and binding prediction",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "T cell receptors (TCRs) are fundamental components of the adaptive immune system, recognizing specific antigens for targeted immune responses. Understanding their sequence patterns is crucial for designing effective vaccines and immunotherapies. However, the vast diversity of TCR sequences and complex binding mechanisms pose significant challenges in generating TCRs that are specific to a particular epitope. Here, we propose TCR-epiDiff, a diffusion-based deep learning model for generating epitope-specific TCRs and predicting TCR–epitope binding. TCR-epiDiff integrates epitope information during TCR sequence embedding using ProtT5-XL and employs a denoising diffusion probabilistic model for sequence generation. Using external validation datasets, we demonstrate the ability to generate biologically plausible, epitope-specific TCRs. Furthermore, we leverage the model’s encoder to develop a TCR–epitope binding predictor that shows robust performance on the external validation data. Our approach provides a comprehensive solution for both  de novo  generation of epitope-specific TCRs and TCR–epitope binding prediction. This capability provides valuable insights into immune diversity and has the potential to advance targeted immunotherapies. The data and source codes for our experiments are available at:  https://github.com/seoseyeon/TCR-epiDiff .",
+      "relevant_passages": "A diffusion-based model, TCR-epiDiff, was developed to generate epitope-specific T cell receptors (TCRs) and predict TCR-epitope binding. The model successfully generates biologically plausible TCRs and accurately predicts binding affinity, offering a comprehensive solution for TCR design and immunotherapy.",
+      "doi_or_pmcid": "10.1093/bioinformatics/btaf202"
+    },
+    {
+      "paperclip_result_id": "PMC6773850",
+      "rank": 10,
+      "title": "Framework engineering to produce dominant T cell receptors with enhanced antigen-specific function",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "TCR-gene-transfer is an efficient strategy to produce therapeutic T cells of defined antigen specificity. However, there are substantial variations in the cell surface expression levels of human TCRs, which can impair the function of engineered T cells. Here we demonstrate that substitutions of 3 amino acid residues in the framework of the TCR variable domains consistently increase the expression of human TCRs on the surface of engineered T cells.The modified TCRs mediate enhanced T cell proliferation, cytokine production and cytotoxicity, while reducing the peptide concentration required for triggering effector function up to 3000-fold. Adoptive transfer experiments in mice show that modified TCRs control tumor growth more efficiently than wild-type TCRs. Our data indicate that simple variable domain modifications at a distance from the antigen-binding loops lead to increased TCR expression and improved effector function. This finding provides a generic platform to optimize the efficacy of TCR gene therapy in humans.",
+      "relevant_passages": "Framework engineering with three amino acid substitutions increases TCR expression on T cells. This enhances antigen-specific function and tumor control, offering a platform for improved TCR gene therapy.",
+      "doi_or_pmcid": "10.1038/s41467-019-12441-w"
+    }
+  ]
+}

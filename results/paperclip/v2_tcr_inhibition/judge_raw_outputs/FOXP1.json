@@ -1,0 +1,150 @@
+{
+  "tf": "FOXP1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:40:20Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-551f41e4-8030-49ea-a1ba-54d10b3169bb",
+      "agent_id": "agent-5c0b24b7-bde3-4156-b84a-c7d02bb23c14",
+      "raw": "Based on my review of the 10 supplied papers, here is the structured assessment:\n\n```json\n{\n  \"tf\": \"FOXP1\",\n  \"query\": \"FOXP1 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 4,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC10811915\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human ICC tissues and cell lines; non-immune (cholangiocarcinoma), no T cells\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"overexpression of FOXP1 inhibited the proliferation, migration, and invasion of ICC cells\",\n      \"rationale\": \"FOXP1 studied as a tumor suppressor in cholangiocarcinoma cells; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9576946\",\n      \"retrieval_rank\": 2,\n      \"relevant\": true,\n      \"study_type\": \"review\",\n      \"experimental_system\": \"human/mouse; primary T cells; CD4+ subsets, Treg, Tfh (review synthesis)\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"FOXP1 prevents spontaneous T-cell activation, preserves memory potential, and regulates development of follicular helper and regulatory T-cells\",\n      \"rationale\": \"Review linking FOXP1 to quiescence and exhaustion, but as a review it cannot independently support strong or moderate tiers.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12263946\",\n      \"retrieval_rank\": 3,\n      \"relevant\": false,\n      \"study_type\": \"computational or observational\",\n      \"experimental_system\": \"human hematologic malignancies; AML cell lines; expression/methylation analysis plus knockdown\",\n      \"evidence_directness\": \"associative\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"FOXP1 expression was associated with the tumor infiltration of B cells, natural killer cells, and T cells\",\n      \"rationale\": \"Observational expression correlations in leukemia; immune infiltration association, no TCR inhibition or functional T cell readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6534289\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; primary regulatory T cells (FOXP3+ Treg)\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"Foxp1 and Foxp3 coordinated the regulation of cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) expression levels\",\n      \"rationale\": \"Foxp1 deletion in Tregs impairs suppressive function and CTLA-4 regulation with mechanistic readouts, but this is Treg suppression rather than direct TCR-signal attenuation.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12462984\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; non-immune (striatal medium spiny neurons, microglia)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Blocking PDE10A with MP-10 normalized behavioral deficits, microglial morphology, and synaptic pruning\",\n      \"rationale\": \"Neurological FOXP1 syndrome model in brain; no T cell or TCR involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4633965\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse/human induced regulatory T cells (iTreg)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR activation antagonizes FOXP3 transcription factors via PTPN2 and FOXO1\",\n      \"rationale\": \"Concerns TCR-driven FOXP3 loss via FOXO1/PTPN2; the candidate regulator FOXP1 is not studied here.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11729909\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human tumor cell lines; non-immune (DNA replication stress)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Phosphorylation of FOXP1 antagonizes its O-GlcNAcylation, promoting ATR activation and fork stability\",\n      \"rationale\": \"FOXP1 as a scaffold in ATR/replication-stress signalling; no T cell or TCR context.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12487849\",\n      \"retrieval_rank\": 8,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; primary regulatory T cells (FOXP3+ Treg)\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"combined absence of FOXP1 and FOXP4 in Tregs results in an activated/effector-like phenotype with compromised suppressive function\",\n      \"rationale\": \"Genetic deletion shows FOXP1/FOXP4 maintain Treg suppressive function via Il2ra/CD25, a related inhibitory phenotype but not a direct TCR-inhibition experiment.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11724166\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human endometrial stromal cells and rats; non-immune (fibrosis)\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"knockdown of FOXP1 alleviated pathological fibrosis and uterine adhesions\",\n      \"rationale\": \"FOXP1/DNMT1/ULK1 axis in endometrial fibrosis; no T cell or TCR involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC13105002\",\n      \"retrieval_rank\": 10,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"mouse; primary regulatory T cells (Treg)\",\n      \"evidence_directness\": \"direct causal or perturbational\",\n      \"phenotype\": \"another inhibitory T cell phenotype\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"FOXP1 and FOXP4 are required to maintain the peripheral Treg pool through enhancing Il2ra transcription\",\n      \"rationale\": \"Treg-specific deletion shows FOXP1 sustains Treg homeostasis/fitness via Il2ra super-enhancer; supports inhibitory Treg biology but not TCR-signal attenuation.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC6534289\", \"PMC12487849\", \"PMC13105002\"],\n  \"tier_rationale\": \"Multiple primary mouse studies provide direct perturbational (genetic deletion) evidence that FOXP1 promotes regulatory T cell suppressive function and homeostasis, including CTLA-4 regulation. This is causal evidence in a related inhibitory T cell context, but no supplied primary study demonstrates direct attenuation of proximal TCR signalling, anergy/hyporesponsiveness, or a TCR-linked checkpoint response in effector cells. Because the evidence concerns Treg suppression rather than direct TCR inhibition and sits between strong and moderate, the lower tier is assigned. The relevant review (PMC9576946) cannot elevate the tier.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "FOXP1",
+    "query": "FOXP1 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 4,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC10811915",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human ICC tissues and cell lines; non-immune (cholangiocarcinoma), no T cells",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "overexpression of FOXP1 inhibited the proliferation, migration, and invasion of ICC cells",
+        "rationale": "FOXP1 studied as a tumor suppressor in cholangiocarcinoma cells; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC9576946",
+        "retrieval_rank": 2,
+        "relevant": true,
+        "study_type": "review",
+        "experimental_system": "human/mouse; primary T cells; CD4+ subsets, Treg, Tfh (review synthesis)",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "FOXP1 prevents spontaneous T-cell activation, preserves memory potential, and regulates development of follicular helper and regulatory T-cells",
+        "rationale": "Review linking FOXP1 to quiescence and exhaustion, but as a review it cannot independently support strong or moderate tiers."
+      },
+      {
+        "paperclip_result_id": "PMC12263946",
+        "retrieval_rank": 3,
+        "relevant": false,
+        "study_type": "computational or observational",
+        "experimental_system": "human hematologic malignancies; AML cell lines; expression/methylation analysis plus knockdown",
+        "evidence_directness": "associative",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "FOXP1 expression was associated with the tumor infiltration of B cells, natural killer cells, and T cells",
+        "rationale": "Observational expression correlations in leukemia; immune infiltration association, no TCR inhibition or functional T cell readout."
+      },
+      {
+        "paperclip_result_id": "PMC6534289",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; primary regulatory T cells (FOXP3+ Treg)",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "Foxp1 and Foxp3 coordinated the regulation of cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) expression levels",
+        "rationale": "Foxp1 deletion in Tregs impairs suppressive function and CTLA-4 regulation with mechanistic readouts, but this is Treg suppression rather than direct TCR-signal attenuation."
+      },
+      {
+        "paperclip_result_id": "PMC12462984",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; non-immune (striatal medium spiny neurons, microglia)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Blocking PDE10A with MP-10 normalized behavioral deficits, microglial morphology, and synaptic pruning",
+        "rationale": "Neurological FOXP1 syndrome model in brain; no T cell or TCR involvement."
+      },
+      {
+        "paperclip_result_id": "PMC4633965",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse/human induced regulatory T cells (iTreg)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR activation antagonizes FOXP3 transcription factors via PTPN2 and FOXO1",
+        "rationale": "Concerns TCR-driven FOXP3 loss via FOXO1/PTPN2; the candidate regulator FOXP1 is not studied here."
+      },
+      {
+        "paperclip_result_id": "PMC11729909",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human tumor cell lines; non-immune (DNA replication stress)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Phosphorylation of FOXP1 antagonizes its O-GlcNAcylation, promoting ATR activation and fork stability",
+        "rationale": "FOXP1 as a scaffold in ATR/replication-stress signalling; no T cell or TCR context."
+      },
+      {
+        "paperclip_result_id": "PMC12487849",
+        "retrieval_rank": 8,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; primary regulatory T cells (FOXP3+ Treg)",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "combined absence of FOXP1 and FOXP4 in Tregs results in an activated/effector-like phenotype with compromised suppressive function",
+        "rationale": "Genetic deletion shows FOXP1/FOXP4 maintain Treg suppressive function via Il2ra/CD25, a related inhibitory phenotype but not a direct TCR-inhibition experiment."
+      },
+      {
+        "paperclip_result_id": "PMC11724166",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human endometrial stromal cells and rats; non-immune (fibrosis)",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "knockdown of FOXP1 alleviated pathological fibrosis and uterine adhesions",
+        "rationale": "FOXP1/DNMT1/ULK1 axis in endometrial fibrosis; no T cell or TCR involvement."
+      },
+      {
+        "paperclip_result_id": "PMC13105002",
+        "retrieval_rank": 10,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "mouse; primary regulatory T cells (Treg)",
+        "evidence_directness": "direct causal or perturbational",
+        "phenotype": "another inhibitory T cell phenotype",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "FOXP1 and FOXP4 are required to maintain the peripheral Treg pool through enhancing Il2ra transcription",
+        "rationale": "Treg-specific deletion shows FOXP1 sustains Treg homeostasis/fitness via Il2ra super-enhancer; supports inhibitory Treg biology but not TCR-signal attenuation."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC6534289",
+      "PMC12487849",
+      "PMC13105002"
+    ],
+    "tier_rationale": "Multiple primary mouse studies provide direct perturbational (genetic deletion) evidence that FOXP1 promotes regulatory T cell suppressive function and homeostasis, including CTLA-4 regulation. This is causal evidence in a related inhibitory T cell context, but no supplied primary study demonstrates direct attenuation of proximal TCR signalling, anergy/hyporesponsiveness, or a TCR-linked checkpoint response in effector cells. Because the evidence concerns Treg suppression rather than direct TCR inhibition and sits between strong and moderate, the lower tier is assigned. The relevant review (PMC9576946) cannot elevate the tier.",
+    "confidence": "moderate"
+  }
+}

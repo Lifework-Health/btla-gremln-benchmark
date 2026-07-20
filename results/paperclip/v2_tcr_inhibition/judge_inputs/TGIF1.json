@@ -1,0 +1,108 @@
+{
+  "tf": "TGIF1",
+  "query": "TGIF1 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC11751904",
+      "rank": 1,
+      "title": "Mechanism of TGIF1 on glycolipid metabolism disorders in mice with type 2 diabetes",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Type 2 diabetes (T2D) is a chronic condition characterized by high levels of blood glucose resulting from the inefficiency of insulin. This study aims to explore the mechanism of TGFB-induced factor homeobox 1 (TGIF1) in the glycolipid metabolism of mice with T2D. Mice with T2D were induced by high-fat diet and low-dose streptozotocin (STZ) injection. After TGIF1 was overexpressed in mice with T2D, the weight was monitored. The levels of fasting plasma glucose, fasting serum insulin, triglycerides, total cholesterol, low-density lipoprotein cholesterol, and high-density lipoprotein cholesterol were measured. Staining assays were performed to observe liver tissue pathology and lipid accumulation. Liver function and oxidative stress were measured. Palmitic acid (PA)-induced primary hepatocytes were used to establish cell models. After TGIF1 was overexpressed in the cells, cell viability, cellular glucose uptake and consumption, and intracellular glycogen content were detected. The expression of TGIF1, miR-106b-5p, and early growth response 2 (EGR2) was detected and their binding relationships were analyzed. Combined experiments were conducted to validate the mechanism. TGIF1 was downregulated in mice with T2D. TGIF1 overexpression reduced hyperglycemia and hyperlipidemia, improved insulin resistance, increased liver glycogen content, and attenuated lipid accumulation and glycolipid metabolism disorders in mice with T2D. TGIF1 was enriched on the miR-106b-5p promoter and promoted miR-106b-5p expression. miR-106b-5p inhibited EGR2 expression. miR-106b-5p inhibition or EGR2 overexpression partially reversed the alleviative effect of TGIF1 overexpression on glycolipid metabolism disorders. TGIF1 reduces glycolipid metabolism disorders in mice with T2D through the miR-106b-5p/EGR2 axis.",
+      "relevant_passages": "This study investigated TGIF1's role in T2D glycolipid metabolism in mice. TGIF1 overexpression improved metabolic parameters by regulating the miR-106b-5p/EGR2 axis.",
+      "doi_or_pmcid": "10.1136/bmjdrc-2024-004509"
+    },
+    {
+      "paperclip_result_id": "PMC2816958",
+      "rank": 2,
+      "title": "Tiul1 and TGIF are Involved in Downregulation of TGFβ1-induced IgA Isotype Expression",
+      "year": "2009",
+      "publication_type": "research-article",
+      "abstract": "TGF-β1 is well known to induce Ig germ-line α (GLα) transcription and subsequent IgA isotype class switching recombination (CSR). Homeodomain protein TG-interacting factor (TGIF) and E3-ubiquitin ligases TGIF interacting ubiquitin ligase 1 (Tiul1) are implicated in the negative regulation of TGF-β signaling. In the present study, we investigated the roles of Tiul1 and TGIF in TGFβ1-induced IgA CSR. We found that over-expression of Tiul1 decreased TGFβ1-induced GLα promoter activity and strengthened the inhibitory effect of Smad7 on the promoter activity. Likewise, overexpression of TGIF also diminished GLα promoter activity and further strengthened the inhibitory effect of Tiul1, suggesting that Tiul1 and TGIF can down-regulate TGFβ1-induced GLα expression. In parallel, overexpression of Tiul1 decreased the expression of endogenous IgA CSR-predicitive transcripts (GLT α , PST α , and CT α ) and TGFβ1-induced IgA secretion, but not GLT γ3  and IgG3 secretion. Here, over-expressed TGIF further strengthened the inhibitory effect of Tiul1. These results suggest that Tiul1 and TGIF act as negatively regulators in TGFβ1-induced IgA isotype expression.",
+      "relevant_passages": "This study investigated the roles of Tiul1 and TGIF in TGFβ1-induced IgA class switching. Tiul1 and TGIF were found to negatively regulate TGFβ1-induced IgA expression and secretion.",
+      "doi_or_pmcid": "10.4110/in.2009.9.6.248"
+    },
+    {
+      "paperclip_result_id": "PMC11045221",
+      "rank": 3,
+      "title": "Tgif1-deficiency impairs cytoskeletal architecture in osteoblasts by activating PAK3 signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Osteoblast adherence to bone surfaces is important for remodeling bone tissue. This study demonstrates that deficiency of TG-interacting factor 1 (Tgif1) in osteoblasts results in altered cell morphology, reduced adherence to collagen type I-coated surfaces, and impaired migration capacity. Tgif1 is essential for osteoblasts to adapt a regular cell morphology and to efficiently adhere and migrate on collagen type I-rich matrices in vitro. Furthermore, Tgif1 acts as a transcriptional repressor of p21-activated kinase 3 ( Pak3 ), an important regulator of focal adhesion formation and osteoblast spreading. Absence of Tgif1 leads to increased  Pak3  expression, which impairs osteoblast spreading. Additionally, Tgif1 is implicated in osteoblast recruitment and activation of bone surfaces in the context of bone regeneration and in response to parathyroid hormone 1–34 (PTH 1–34) treatment in vivo in mice. These findings provide important novel insights in the regulation of the cytoskeletal architecture of osteoblasts.",
+      "relevant_passages": "Tgif1 deficiency in osteoblasts disrupts cytoskeletal architecture, leading to reduced adherence and migration. This occurs because Tgif1 normally represses Pak3, whose increased expression in Tgif1-deficient cells impairs osteoblast spreading.",
+      "doi_or_pmcid": "10.7554/eLife.94265"
+    },
+    {
+      "paperclip_result_id": "PMC7987261",
+      "rank": 4,
+      "title": "TGIF1 Knockdown Inhibits the Proliferation and Invasion of Gastric Cancer via AKT Signaling Pathway",
+      "year": "2021",
+      "publication_type": "research-article",
+      "abstract": "Gastric cancer is a kind of cancer with high mortality. TGIF1, as a transcription inhibitor, can inhibit the transcription of specific genes. The purpose of this study was to investigate the role of TGIF1 in gastric cancer by knocking down TGIF1. The expression of TGIF1 was detected by qPCR and Western blotting; CCK8 assay, colony formation assay, transwell, and wound-healing assay were used to evaluate the proliferation, migration, and invasion of gastric cancer cells; cell apoptosis was analyzed by flow cytometry and Hoechst-PI double staining; cell cycle was detected by flow cytometry. Gelatinase experiment was performed to detect the expression level of MMP-2; apoptosis related proteins and AKT singling pathway were assessed by Western blotting. Knockdown of TGIF1 inhibited the proliferation, migration, and invasion of gastric cancer cells and promoted apoptosis. TGIF1 knockdown down-regulated the expression levels of MMP-2, Bcl2, CyclinD1, and p-Akt, and up-regulated the expression levels of Bax and Caspase3. These data suggested that knockdown of TGIF1 inhibited the development of gastric cancer via AKT signaling pathway. TGIF1 knockdown inhibited the proliferation, migration, and invasion and promoted apoptosis of gastric cancer cells via the AKT signaling pathway, suggesting that TGIF1 is considered a potential inhibitor in gastric cancer.",
+      "relevant_passages": "TGIF1 knockdown was studied in gastric cancer cells to assess its effects on proliferation and invasion. TGIF1 knockdown inhibited these processes and promoted apoptosis by down-regulating the AKT signaling pathway.",
+      "doi_or_pmcid": "10.2147/CMAR.S254348"
+    },
+    {
+      "paperclip_result_id": "PMC12037246",
+      "rank": 5,
+      "title": "Improved Litter Size in Thin-Tailed Indonesian Sheep Through Analysis of TGIF1 Gene Polymorphisms",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Reproductive traits, particularly the litter size, are crucial for sheep husbandry. Molecular genetic selection methods, including single-nucleotide polymorphism (SNP) analyses, offer potential avenues for enhancing these traits. This study investigated the association between TGIF1 SNPs and litter size in thin-tailed Indonesian sheep. A total of 47 sheep were sampled, and their genomic DNA was analyzed. Bioinformatics, sequencing, and statistical analyses were conducted to identify SNPs, assess genetic parameters, and examine their association with litter size. Nine SNPs, including nonsynonymous variants, were successfully identified through targeted sequencing and Sanger sequencing within exon 3 of TGIF1. Noteworthy polymorphisms at g. 42725867 G>A, g. 42725886 G>A, g. 42725932 A>C, g. 42725950 A>G, g. 42726009 G>A, g.42726036 C>T, g.42726042 A>C, g. 42726051 A>G, and g. 42726059 G>A were revealed. Genetic parameter assessments indicated moderate diversity although no significant association was observed between the TGIF1 SNPs and litter size. This lack of association highlights the potential influence of environmental factors, polygenic effects, or the need for larger sample sizes in future studies. In addition, linkage disequilibrium analysis highlighted strong interconnectivity among six of the nine TGIF1 SNPs, designating them as potential Tag SNPs. Data analysis further demonstrated that the haplotype combination of H3 and Hap 6 within the identified blocks exhibited the highest litter size. This study unveils novel TGIF1 SNPs in thin-tailed Indonesian sheep, prompting the need for additional research to unravel their functional implications and potential impacts on reproductive traits. While no significant associations were found, these findings contribute to the growing body of knowledge on genetic factors influencing litter size and underscore the need for broader investigations, including whole-genome sequencing and validation in larger populations. This investigation provides valuable insights into the genetic factors that influence litter size in this breed and lays the foundation for future genetic improvement strategies.",
+      "relevant_passages": "This study identified nine TGIF1 gene SNPs in Indonesian sheep and analyzed their association with litter size. No significant association was found, suggesting environmental or polygenic influences, but specific haplotype combinations showed higher litter sizes.",
+      "doi_or_pmcid": "10.1155/vmi/7778088"
+    },
+    {
+      "paperclip_result_id": "PMC6446543",
+      "rank": 6,
+      "title": "TGIF transcription factors repress acetyl CoA metabolic gene expression and promote intestinal tumor growth",
+      "year": "2019",
+      "publication_type": "research-article",
+      "abstract": "In this study, Shah et al. show that Tgifs, which repress gene expression by binding directly to DNA or interacting with transforming growth factor β (TGFβ)-responsive SMADs, promote adenoma growth in the context of mutant Apc (adenomatous polyposis coli). Their findings suggest that Tgifs play an important role in regulating basic energy metabolism in normal cells and that this function of Tgifs is amplified in some cancers.",
+      "relevant_passages": "TGIF transcription factors were studied for their role in intestinal tumor growth. These factors repress acetyl-CoA metabolic gene expression, promoting adenoma growth in the context of mutant Apc.",
+      "doi_or_pmcid": "10.1101/gad.320127.118"
+    },
+    {
+      "paperclip_result_id": "PMC11237943",
+      "rank": 7,
+      "title": "A novel gain-of-function phosphorylation site modulates PTPN22 inhibition of TCR signaling",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Protein tyrosine phosphatase nonreceptor type 22 (PTPN22) is encoded by a major autoimmunity gene and is a known inhibitor of T cell receptor (TCR) signaling and drug target for cancer immunotherapy. However, little is known about PTPN22 posttranslational regulation. Here, we characterize a phosphorylation site at Ser 325  situated C terminal to the catalytic domain of PTPN22 and its roles in altering protein function. In human T cells, Ser 325  is phosphorylated by glycogen synthase kinase-3 (GSK3) following TCR stimulation, which promotes its TCR-inhibitory activity. Signaling through the major TCR-dependent pathway under PTPN22 control was enhanced by CRISPR/Cas9-mediated suppression of Ser 325  phosphorylation and inhibited by mimicking it  via  glutamic acid substitution. Global phospho-mass spectrometry showed Ser 325  phosphorylation state alters downstream transcriptional activity through enrichment of Swi3p, Rsc8p, and Moira domain binding proteins, and next-generation sequencing revealed it differentially regulates the expression of chemokines and T cell activation pathways. Moreover,  in vitro  kinetic data suggest the modulation of activity depends on a cellular context. Finally, we begin to address the structural and mechanistic basis for the influence of Ser 325  phosphorylation on the protein’s properties by deuterium exchange mass spectrometry and NMR spectroscopy. In conclusion, this study explores the function of a novel phosphorylation site of PTPN22 that is involved in complex regulation of TCR signaling and provides details that might inform the future development of allosteric modulators of PTPN22.",
+      "relevant_passages": "A novel phosphorylation site (Ser 325) on PTPN22 was identified and characterized. This site enhances PTPN22's inhibitory effect on TCR signaling, potentially influencing autoimmune diseases and cancer immunotherapy.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.107393"
+    },
+    {
+      "paperclip_result_id": "PMC5754828",
+      "rank": 8,
+      "title": "Knockdown of TGIF attenuates the proliferation and tumorigenicity of EC109 cells and promotes cisplatin-induced apoptosis",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "A previous study has reported that frequent amplifications of the TG-interacting factor (TGIF) were observed in esophageal squamous cell carcinoma. The aim of the present study was to investigate the potential role of TGIF in the proliferation and tumorigenicity of the esophageal cancer cell line EC109 and cisplatin-induced apoptosis. Stable TGIF-knockdown EC109 cell line was established by infecting short hairpin RNA (shRNA) lentiviral particles. Soft agar and tumor xenograft assays were applied in nude mice. Flow cytometry was employed to evaluate the cell cycle and apoptosis. Western blot analysis was used to detect the expression of proteins. TGIF knockdown suppressed EC109 cell proliferation, colony formation in soft agar and tumor growth in nude mice, induced cell cycle arrest in the G1 phase, and promoted cisplatin-induced apoptosis. In addition, TGIF knockdown significantly reduced the expression of phospho-Rb in EC109 cells. The reduced level of full length PARP expression and the increased level of cleaved caspase-3 expression were observed in EC109 cells with the treatment of cisplatin and TGIF knockdown. The results suggest that knockdown of TGIF attenuated the proliferation and tumorigenicity of EC109 cells, and promoted cisplatin-induced apoptosis.",
+      "relevant_passages": "TGIF knockdown was studied in esophageal cancer cells to assess its impact on proliferation, tumorigenicity, and apoptosis. The results indicate that TGIF knockdown suppresses cell growth and tumor formation while enhancing cisplatin-induced cell death.",
+      "doi_or_pmcid": "10.3892/ol.2017.7009"
+    },
+    {
+      "paperclip_result_id": "PMC12346228",
+      "rank": 9,
+      "title": "Exploiting TCR Repertoire Analysis to Select Therapeutic TCRs for Cancer Immunotherapy",
+      "year": "2025",
+      "publication_type": "review-article",
+      "abstract": "Over the past decade, numerous innovative immunotherapy strategies have transformed the treatment of cancer and improved the survival of patients unresponsive to conventional chemotherapy and radiation therapy. Immune checkpoint inhibition approaches aim to block negative regulatory pathways that limit the function of endogenous T cells, while adoptive cell therapy produces therapeutic T cells with high functionality and defined cancer specificity. While CAR engineering successfully targets cancer surface antigens, TCR engineering enables targeting of the entire cancer proteome, including mutated neo-antigens. To date, TCR engineering strategies have focused on the identification of target cancer antigens recognised by well-characterised therapeutic TCRs. In this review, we explore whether antigen-focused approaches could be complemented by TCR-focused approaches, whereby information of the TCR repertoire of individual patients provides the basis for selecting TCRs to engineer autologous T cells for adoptive cell therapy. We discuss how TCR clonality profiles, distribution in T cell subsets, and bioinformatic screening against continuously improving TCR databases can guide the selection of TCRs for therapeutic application. We further outline in vitro approaches to prioritise TCR candidates to confirm cancer reactivity and exclude recognition of healthy autologous cells, which could provide validation for their therapeutic use even when the target antigen remains unknown.",
+      "relevant_passages": "This review explores using individual patient TCR repertoire data to select T cells for adoptive cancer immunotherapy. Such TCR-focused approaches could complement antigen-focused strategies by identifying functional TCRs even when the target antigen is unknown.",
+      "doi_or_pmcid": "10.3390/cells14151223"
+    },
+    {
+      "paperclip_result_id": "PMC3325954",
+      "rank": 10,
+      "title": "Premature Senescence and Increased TGFβ Signaling in the Absence of Tgif1",
+      "year": "2012",
+      "publication_type": "research-article",
+      "abstract": "Transforming growth factor β (TGFβ) signaling regulates cell cycle progression in several cell types, primarily by inducing a G1 cell cycle arrest. Tgif1 is a transcriptional corepressor that limits TGFβ responsive gene expression. Here we demonstrate that primary mouse embryo fibroblasts (MEFs) lacking Tgif1 proliferate slowly, accumulate increased levels of DNA damage, and senesce prematurely. We also provide evidence that the effects of loss of Tgif1 on proliferation and senescence are not limited to primary cells. The increased DNA damage in  Tgif1  null MEFs can be partially reversed by culturing cells at physiological oxygen levels, and growth in normoxic conditions also partially rescues the proliferation defect, suggesting that in the absence of Tgif1 primary MEFs are less able to cope with elevated levels of oxidative stress. Additionally, we show that  Tgif1  null MEFs are more sensitive to TGFβ-mediated growth inhibition, and that treatment with a TGFβ receptor kinase inhibitor increases proliferation of  Tgif1  null MEFs. Conversely, persistent treatment of wild type cells with low levels of TGFβ slows proliferation and induces senescence, suggesting that TGFβ signaling also contributes to cellular senescence. We suggest that in the absence of Tgif1, a persistent increase in TGFβ responsive transcription and a reduced ability to deal with hyperoxic stress result in premature senescence in primary MEFs.",
+      "relevant_passages": "Tgif1-deficient mouse cells show premature senescence and increased DNA damage. This is linked to elevated TGFβ signaling and sensitivity to oxidative stress.",
+      "doi_or_pmcid": "10.1371/journal.pone.0035460"
+    }
+  ]
+}

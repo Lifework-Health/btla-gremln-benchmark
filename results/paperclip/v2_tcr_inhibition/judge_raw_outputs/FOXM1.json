@@ -1,0 +1,149 @@
+{
+  "tf": "FOXM1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T18:38:07Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-cfac7f49-8a7c-461d-ba25-28b92db47c0f",
+      "agent_id": "agent-f70d6ab7-0450-4e10-b990-53adbca01478",
+      "raw": "```json\n{\n  \"tf\": \"FOXM1\",\n  \"query\": \"FOXM1 TCR inhibition\",\n  \"papers_retrieved\": 10,\n  \"papers_relevant\": 3,\n  \"paper_assessments\": [\n    {\n      \"paperclip_result_id\": \"PMC11463088\",\n      \"retrieval_rank\": 1,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human; T cell line (TCR-engineered T cells) plus hepatocellular carcinoma cells and murine model\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"TCR-engineered T cells targeting FOXM1 262-270 efficiently eradicate tumor cells.\",\n      \"rationale\": \"FOXM1 is used as a tumor antigen for TCR-engineered T cells that kill cancer cells; no evidence FOXM1 regulates TCR signalling or an inhibitory T cell phenotype.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11445503\",\n      \"retrieval_rank\": 2,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human/non-human cancer cell lines; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"ABL1 phosphorylates FOXM1, increasing stability and promoting FOXM1-dependent tumorigenicity.\",\n      \"rationale\": \"Mechanistic study of ABL1-mediated FOXM1 stabilization and tumor growth in cancer cells; no T cells or TCR-related phenotype examined.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9561767\",\n      \"retrieval_rank\": 3,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human NSCLC cells and murine syngeneic tumor model; non-immune (tumor) system with tumor-infiltrating T cell readout\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"FOXM1 selectively upregulates PD-L1 expression by binding directly to the PD-L1 promoter.\",\n      \"rationale\": \"FOXM1 knockdown/inhibition lowers tumor PD-L1 (an inhibitory checkpoint ligand) and improves immunotherapy, but FOXM1 acts tumor-intrinsically, not in T cells; no direct TCR-signalling readout.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12515241\",\n      \"retrieval_rank\": 4,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human gastric cancer cells co-cultured with human CD8+ T cells and nude mouse model\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"inhibitory checkpoint response\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"FOXM1 up-regulates PD-L1, hinders CD8+ T cell activation and promotes immune escape.\",\n      \"rationale\": \"FOXM1 knockdown reduces Notch-driven PD-L1 and restores CD8+ T cell proliferation/cytotoxicity, giving causal evidence, but FOXM1 is tumor-intrinsic and readout is checkpoint-mediated activation, not proximal TCR signalling.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12326245\",\n      \"retrieval_rank\": 5,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human lung adenocarcinoma cells; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"NEIL3, transcriptionally activated by FOXM1, inhibits ferroptosis in these cells.\",\n      \"rationale\": \"FOXM1/NEIL3 axis regulates ferroptosis in tumor cells; no T cell or TCR involvement.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4258842\",\n      \"retrieval_rank\": 6,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human breast cancer cells (MCF-7); non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"FDI-6 displaces FOXM1 from genomic targets and selectively downregulates its target genes.\",\n      \"rationale\": \"Small-molecule FOXM1 inhibitor discovery/characterization in cancer cells; no T cell or TCR inhibition data.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12435485\",\n      \"retrieval_rank\": 7,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human follicular lymphoma cell lines and CDX/PDX models; non-immune (tumor) system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"PPARα transcriptionally inhibits FOXM1 expression, causing downregulation of downstream target genes.\",\n      \"rationale\": \"PPARα-FOXM1 axis in lymphoma tumor cell proliferation/apoptosis; no TCR or inhibitory T cell phenotype assessed.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3290538\",\n      \"retrieval_rank\": 8,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human cancer cell lines of various origin; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Suppressing FOXM1 sensitized cancer cells to DNA-damage-induced apoptosis.\",\n      \"rationale\": \"FOXM1 suppression enhances DNA-damage apoptosis in cancer cells; unrelated to T cells or TCR signalling.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12723259\",\n      \"retrieval_rank\": 9,\n      \"relevant\": false,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human mesothelioma cell lines; non-immune system\",\n      \"evidence_directness\": \"irrelevant\",\n      \"phenotype\": \"unrelated\",\n      \"direction\": \"unclear\",\n      \"supporting_excerpt\": \"Baicalein suppresses mesothelioma growth through modulation of the p53-FOXM1 signaling axis.\",\n      \"rationale\": \"Baicalein modulates p53-FOXM1 in mesothelioma proliferation/invasion; no T cell or TCR relevance.\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12236922\",\n      \"retrieval_rank\": 10,\n      \"relevant\": true,\n      \"study_type\": \"primary experimental\",\n      \"experimental_system\": \"human T cells and human/murine SCLC cell lines and xenograft/spontaneous mouse models; CD8+ cytotoxic T cells\",\n      \"evidence_directness\": \"indirect mechanistic\",\n      \"phenotype\": \"general activation, proliferation or differentiation\",\n      \"direction\": \"promotes inhibition\",\n      \"supporting_excerpt\": \"FOXM1 inhibition enhanced T cell activation and supported differentiation of CD8+ cytotoxic T cells.\",\n      \"rationale\": \"FOXM1 inhibition enhances T cell activation and CD8+ differentiation, implying FOXM1 restrains activation, but this is generic activation/differentiation, not TCR inhibition, anergy or checkpoint attenuation.\"\n    }\n  ],\n  \"overall_evidence_tier\": \"moderate\",\n  \"key_paperclip_result_ids\": [\"PMC12515241\", \"PMC9561767\"],\n  \"tier_rationale\": \"Two primary studies (PMC12515241, PMC9561767) provide perturbational evidence (FOXM1 knockdown/inhibition) that FOXM1 upregulates the PD-L1 inhibitory checkpoint and thereby suppresses CD8+ T cell activation and function, with functional readouts. This is indirect mechanistic evidence materially connecting FOXM1 to an inhibitory checkpoint T cell phenotype, but FOXM1 acts tumor-intrinsically rather than within T cells, and no study demonstrates direct proximal TCR-signalling inhibition, anergy or hyporesponsiveness. Directness is therefore incomplete, so evidence sits at moderate rather than strong; remaining relevant paper (PMC12236922) shows only generic T cell activation/differentiation.\",\n  \"confidence\": \"moderate\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "FOXM1",
+    "query": "FOXM1 TCR inhibition",
+    "papers_retrieved": 10,
+    "papers_relevant": 3,
+    "paper_assessments": [
+      {
+        "paperclip_result_id": "PMC11463088",
+        "retrieval_rank": 1,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human; T cell line (TCR-engineered T cells) plus hepatocellular carcinoma cells and murine model",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "TCR-engineered T cells targeting FOXM1 262-270 efficiently eradicate tumor cells.",
+        "rationale": "FOXM1 is used as a tumor antigen for TCR-engineered T cells that kill cancer cells; no evidence FOXM1 regulates TCR signalling or an inhibitory T cell phenotype."
+      },
+      {
+        "paperclip_result_id": "PMC11445503",
+        "retrieval_rank": 2,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human/non-human cancer cell lines; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "ABL1 phosphorylates FOXM1, increasing stability and promoting FOXM1-dependent tumorigenicity.",
+        "rationale": "Mechanistic study of ABL1-mediated FOXM1 stabilization and tumor growth in cancer cells; no T cells or TCR-related phenotype examined."
+      },
+      {
+        "paperclip_result_id": "PMC9561767",
+        "retrieval_rank": 3,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human NSCLC cells and murine syngeneic tumor model; non-immune (tumor) system with tumor-infiltrating T cell readout",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "FOXM1 selectively upregulates PD-L1 expression by binding directly to the PD-L1 promoter.",
+        "rationale": "FOXM1 knockdown/inhibition lowers tumor PD-L1 (an inhibitory checkpoint ligand) and improves immunotherapy, but FOXM1 acts tumor-intrinsically, not in T cells; no direct TCR-signalling readout."
+      },
+      {
+        "paperclip_result_id": "PMC12515241",
+        "retrieval_rank": 4,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human gastric cancer cells co-cultured with human CD8+ T cells and nude mouse model",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "inhibitory checkpoint response",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "FOXM1 up-regulates PD-L1, hinders CD8+ T cell activation and promotes immune escape.",
+        "rationale": "FOXM1 knockdown reduces Notch-driven PD-L1 and restores CD8+ T cell proliferation/cytotoxicity, giving causal evidence, but FOXM1 is tumor-intrinsic and readout is checkpoint-mediated activation, not proximal TCR signalling."
+      },
+      {
+        "paperclip_result_id": "PMC12326245",
+        "retrieval_rank": 5,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human lung adenocarcinoma cells; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "NEIL3, transcriptionally activated by FOXM1, inhibits ferroptosis in these cells.",
+        "rationale": "FOXM1/NEIL3 axis regulates ferroptosis in tumor cells; no T cell or TCR involvement."
+      },
+      {
+        "paperclip_result_id": "PMC4258842",
+        "retrieval_rank": 6,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human breast cancer cells (MCF-7); non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "FDI-6 displaces FOXM1 from genomic targets and selectively downregulates its target genes.",
+        "rationale": "Small-molecule FOXM1 inhibitor discovery/characterization in cancer cells; no T cell or TCR inhibition data."
+      },
+      {
+        "paperclip_result_id": "PMC12435485",
+        "retrieval_rank": 7,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human follicular lymphoma cell lines and CDX/PDX models; non-immune (tumor) system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "PPARα transcriptionally inhibits FOXM1 expression, causing downregulation of downstream target genes.",
+        "rationale": "PPARα-FOXM1 axis in lymphoma tumor cell proliferation/apoptosis; no TCR or inhibitory T cell phenotype assessed."
+      },
+      {
+        "paperclip_result_id": "PMC3290538",
+        "retrieval_rank": 8,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human cancer cell lines of various origin; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Suppressing FOXM1 sensitized cancer cells to DNA-damage-induced apoptosis.",
+        "rationale": "FOXM1 suppression enhances DNA-damage apoptosis in cancer cells; unrelated to T cells or TCR signalling."
+      },
+      {
+        "paperclip_result_id": "PMC12723259",
+        "retrieval_rank": 9,
+        "relevant": false,
+        "study_type": "primary experimental",
+        "experimental_system": "human mesothelioma cell lines; non-immune system",
+        "evidence_directness": "irrelevant",
+        "phenotype": "unrelated",
+        "direction": "unclear",
+        "supporting_excerpt": "Baicalein suppresses mesothelioma growth through modulation of the p53-FOXM1 signaling axis.",
+        "rationale": "Baicalein modulates p53-FOXM1 in mesothelioma proliferation/invasion; no T cell or TCR relevance."
+      },
+      {
+        "paperclip_result_id": "PMC12236922",
+        "retrieval_rank": 10,
+        "relevant": true,
+        "study_type": "primary experimental",
+        "experimental_system": "human T cells and human/murine SCLC cell lines and xenograft/spontaneous mouse models; CD8+ cytotoxic T cells",
+        "evidence_directness": "indirect mechanistic",
+        "phenotype": "general activation, proliferation or differentiation",
+        "direction": "promotes inhibition",
+        "supporting_excerpt": "FOXM1 inhibition enhanced T cell activation and supported differentiation of CD8+ cytotoxic T cells.",
+        "rationale": "FOXM1 inhibition enhances T cell activation and CD8+ differentiation, implying FOXM1 restrains activation, but this is generic activation/differentiation, not TCR inhibition, anergy or checkpoint attenuation."
+      }
+    ],
+    "overall_evidence_tier": "moderate",
+    "key_paperclip_result_ids": [
+      "PMC12515241",
+      "PMC9561767"
+    ],
+    "tier_rationale": "Two primary studies (PMC12515241, PMC9561767) provide perturbational evidence (FOXM1 knockdown/inhibition) that FOXM1 upregulates the PD-L1 inhibitory checkpoint and thereby suppresses CD8+ T cell activation and function, with functional readouts. This is indirect mechanistic evidence materially connecting FOXM1 to an inhibitory checkpoint T cell phenotype, but FOXM1 acts tumor-intrinsically rather than within T cells, and no study demonstrates direct proximal TCR-signalling inhibition, anergy or hyporesponsiveness. Directness is therefore incomplete, so evidence sits at moderate rather than strong; remaining relevant paper (PMC12236922) shows only generic T cell activation/differentiation.",
+    "confidence": "moderate"
+  }
+}

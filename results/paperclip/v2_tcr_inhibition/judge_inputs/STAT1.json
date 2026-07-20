@@ -1,0 +1,108 @@
+{
+  "tf": "STAT1",
+  "query": "STAT1 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10944115",
+      "rank": 1,
+      "title": "SADS-CoV nsp1 inhibits the STAT1 phosphorylation by promoting K11/K48-linked polyubiquitination of JAK1 and blocks the STAT1 acetylation by degrading CBP",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The newly discovered zoonotic coronavirus swine acute diarrhea syndrome coronavirus (SADS-CoV) causes acute diarrhea, vomiting, dehydration, and high mortality rates in newborn piglets. Although SADS-CoV uses different strategies to evade the host’s innate immune system, the specific mechanism(s) by which it blocks the interferon (IFN) response remains unidentified. In this study, the potential of SADS-CoV nonstructural proteins (nsp) to inhibit the IFN response was detected. The results determined that nsp1 was a potent antagonist of IFN response. SADS-CoV nsp1 efficiently inhibited signal transducer and activator of transcription 1 (STAT1) phosphorylation by inducing Janus kinase 1 (JAK1) degradation. Subsequent research revealed that nsp1 induced JAK1 polyubiquitination through K11 and K48 linkages, leading to JAK1 degradation  via  the ubiquitin–proteasome pathway. Furthermore, SADS-CoV nsp1 induced CREB-binding protein degradation to inhibit IFN-stimulated gene production and STAT1 acetylation, thereby inhibiting STAT1 dephosphorylation and blocking STAT1 transport out of the nucleus to receive antiviral signaling. In summary, the results revealed the novel mechanisms by which SADS-CoV nsp1 blocks the JAK–STAT signaling pathway  via  the ubiquitin–proteasome pathway. This study yielded valuable findings on the specific mechanism of coronavirus nsp1 in inhibiting the JAK–STAT signaling pathway and the strategies of SADS-CoV in evading the host’s innate immune system.",
+      "relevant_passages": "SADS-CoV nsp1 inhibits the JAK-STAT pathway by degrading JAK1 and CBP. This blocks STAT1 phosphorylation and acetylation, hindering the host's antiviral response.",
+      "doi_or_pmcid": "10.1016/j.jbc.2024.105779"
+    },
+    {
+      "paperclip_result_id": "PMC10849914",
+      "rank": 2,
+      "title": "TCR signaling induces STAT3 phosphorylation to promote T H 17 cell differentiation",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "TCR signaling (signal 1) induces STAT3 phosphorylation through Lck/Fyn and, synergistically with cytokine signal (signal 3), induces optimal STAT3 phosphorylation to drive T H 17 cell differentiation. Selective inhibition of TCR stimulation–induced STAT3 phosphorylation significantly inhibits T H 17 differentiation and ameliorates T H 17 cell–related autoimmune diseases.",
+      "relevant_passages": "TCR signaling, in conjunction with cytokine signals, induces STAT3 phosphorylation to drive T H 17 cell differentiation. Inhibiting this TCR-induced phosphorylation reduces T H 17 differentiation and ameliorates related autoimmune diseases.",
+      "doi_or_pmcid": "10.1084/jem.20230683"
+    },
+    {
+      "paperclip_result_id": "PMC11242346",
+      "rank": 3,
+      "title": "OTUB1 Promotes Glioblastoma Growth by Inhibiting the JAK2/STAT1 Signaling Pathway",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Background:  OTUB1, an essential deubiquitinating enzyme, is upregulated in various types of cancer. Previous studies have shown that OTUB1 may be an oncogene in glioblastoma multiforme (GBM), but its specific regulatory mechanism remains unclear. This study aimed to investigate the mechanism by which OTUB1 and the JAK2/STAT1 signaling pathway co-regulate the growth of GBM. Methods:  Using bioinformatics, GBM tissues, and cells, we evaluated the expression and clinical significance of OTUB1 in GBM. Subsequently, we explored the regulatory mechanisms of OTUB1 on malignant behaviors in GBM  in vitro  and  in vivo . In addition, we added the JAK2 inhibitor AZD1480 to explore the regulation of OTUB1 for JAK2/STAT1 pathway in GBM. Results:  We found that OTUB1 expression was upregulated in GBM. Silencing OTUB1 promotes apoptosis and cell cycle arrest at G1 phase, inhibiting cell proliferation. Moreover, OTUB1 knockdown effectively inhibited the invasion and migration of GBM cells, and the opposite phenomenon occurred with overexpression.  In vivo  experiments revealed that OTUB1 knockdown inhibited tumor growth, further emphasizing its crucial role in GBM progression. Mechanistically, we found that OTUB1 was negatively correlated with the JAK2/STAT1 pathway in GBM. The addition of the JAK2 inhibitor AZD1480 significantly reversed the effects of silencing OTUB1 on GBM. Conclusion:  Our study reveals a novel mechanism by which OTUB1 inhibits the JAK2/STAT1 signaling pathway. This contributes to a better understanding of OTUB1's role in GBM and provides a potential avenue for targeted therapeutic intervention.",
+      "relevant_passages": "OTUB1 expression in glioblastoma was investigated for its role in tumor growth. OTUB1 promotes glioblastoma growth by inhibiting the JAK2/STAT1 pathway.",
+      "doi_or_pmcid": "10.7150/jca.96360"
+    },
+    {
+      "paperclip_result_id": "PMC5079630",
+      "rank": 4,
+      "title": "STAT2 Is a Pervasive Cytokine Regulator due to Its Inhibition of STAT1 in Multiple Signaling Pathways",
+      "year": "2016",
+      "publication_type": "research-article",
+      "abstract": "STAT2 is the quintessential transcription factor for type 1 interferons (IFNs), where it functions as a heterodimer with STAT1. However, the human and murine STAT2-deficient phenotypes suggest important additional and currently unidentified type 1 IFN-independent activities. Here, we show that STAT2 constitutively bound to STAT1, but not STAT3, via a conserved interface. While this interaction was irrelevant for type 1 interferon signaling and STAT1 activation, it precluded the nuclear translocation specifically of STAT1 in response to IFN-γ, interleukin-6 (IL-6), and IL-27. This is explained by the dimerization between activated STAT1 and unphosphorylated STAT2, whereby the semiphosphorylated dimers adopted a conformation incapable of importin-α binding. This, in turn, substantially attenuated cardinal IFN-γ responses, including MHC expression, senescence, and antiparasitic immunity, and shifted the transcriptional output of IL-27 from STAT1 to STAT3. Our results uncover STAT2 as a pervasive cytokine regulator due to its inhibition of STAT1 in multiple signaling pathways and provide an understanding of the type 1 interferon-independent activities of this protein.",
+      "relevant_passages": "STAT2 was studied for its role in cytokine signaling beyond type 1 interferons. STAT2 inhibits STAT1 nuclear translocation in multiple pathways, impacting immune responses and altering transcriptional outcomes.",
+      "doi_or_pmcid": "10.1371/journal.pbio.2000117"
+    },
+    {
+      "paperclip_result_id": "PMC11678167",
+      "rank": 5,
+      "title": "LPS Disrupts Endometrial Receptivity by Inhibiting STAT1 Phosphorylation in Sheep",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Uterine infections reduce ruminant reproductive efficiency. Reproductive dysfunction caused by infusion of Gram-negative bacteria is characterized by the failure of embryo implantation and reduced conception rates. Lipopolysaccharide (LPS), a major component of the outer membrane of Gram-negative bacteria, is highly abortogenic. In this study, the effects of LPS infusion on the endometrial receptivity of sheep were studied during three critical periods of embryo implantation. The results showed that LPS infusion on d12, d16, and d20 of pregnancy in vivo interfered with the expression of prostaglandins (PGs) and affected the expression of adhesion-related factors ( ITGB1/3/5, SPP1 ), key implantation genes ( HOXA10 ,  HOXA11  and  LIF ), and progestational elongation genes ( ISG15 ,  RSAD2  and  CXCL10 ) during embryo implantation. In addition, after LPS infusion on d12, d16, and d20, the phosphorylation level of STAT1 significantly decreased and the protein expression level of IRF9 significantly increased on d12, suggesting that LPS infusion in sheep impairs endometrial receptivity through the JAK2/STAT1 pathway. Sheep endometrial epithelial cells were treated with 17 β-estrogen, progesterone, and/or interferon-tau in vitro to mimic the receptivity of the endometrium during early pregnancy for validation. LPS and the p-STAT1 inhibitor fludarabine were both added to the model, which resulted in reduced p-STAT1 protein expression, significant inhibition of PGE2/PGF2α, and significant suppression of the expression of key embryo implantation genes. Collectively, these results indicate that LPS infusion in sheep on d12, d16, and d20 impairs endometrial receptivity through the JAK2/STAT1 pathway, which is responsible for LPS-associated pregnancy failure.",
+      "relevant_passages": "Lipopolysaccharide (LPS) infusion in sheep during critical implantation periods disrupts endometrial receptivity by altering gene expression and inhibiting STAT1 phosphorylation. This impairment of the JAK2/STAT1 pathway contributes to LPS-induced pregnancy failure.",
+      "doi_or_pmcid": "10.3390/ijms252413673"
+    },
+    {
+      "paperclip_result_id": "PMC11046697",
+      "rank": 6,
+      "title": "Threonine phosphorylation of STAT1 restricts interferon signaling and promotes innate inflammatory responses",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "For decades, signal transducers and activators of transcription (STAT) proteins have been central to our understanding of immunity. STAT1, a central signaling mediator for interferons (IFN) and antiviral defense, can alter inflammatory responses, yet the scope and mechanisms remain elusive. Here, we unveil Thr 748  as a conserved IFN-independent phosphorylation switch in Stat1, which restricts IFN signaling and promotes innate inflammatory responses. Together with the canonical tyrosine and serine, our identification of the Thr 748  completes the phosphorylation catalog of the transactivation domain of STAT1 and more generally other STAT proteins. Our study indicates that Stat1 displays a phosphorylation-dependent modular functionality in innate immune responses, which may offer opportunities for better and more specific treatments for inflammatory diseases such as sepsis.",
+      "relevant_passages": "Threonine phosphorylation at residue 748 of STAT1 was identified as a novel regulatory mechanism. This phosphorylation restricts interferon signaling and enhances innate inflammatory responses.",
+      "doi_or_pmcid": "10.1073/pnas.2402226121"
+    },
+    {
+      "paperclip_result_id": "PMC12509220",
+      "rank": 7,
+      "title": "PARP7 inhibition stabilizes STAT1/STAT2 and relieves experimental autoimmune encephalomyelitis in mice",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The regulation of type I interferon signaling is crucial for precisely tuning the innate immune response to combat pathogen invasions, fight cancer, and prevent autoimmune diseases. PARP7, a mono-ADP-ribosyltransferase also called TiPARP (tetrachlorodibenzo-p-dioxin [TCDD]-inducible PARP), is reported to inhibit the production of type I interferons. Here, we find that PARP7 suppresses type I interferon signaling instead of interferon production. PARP7 ADP-ribosylates and promotes the ubiquitination of signal transducer and activator of transcription 1 (STAT1) and STAT2, which recruits p62 to promote the degradation of STAT1 and STAT2 through autophagy. By reducing STAT1 and STAT2 levels, PARP7 decreases type I interferon signaling. We further show that the inhibition of PARP7 promotes type I interferon signaling and relieves experimental autoimmune encephalomyelitis (EAE) symptoms in mice. Our findings revealed a molecular mechanism via which PARP7 suppresses type I interferon signaling, offering insights into the immune-modulatory function of PARP7 and suggesting PARP7 inhibition as a potential treatment strategy for multiple sclerosis.",
+      "relevant_passages": "PARP7 was studied for its role in type I interferon signaling. Inhibiting PARP7 stabilizes STAT1/STAT2, enhances interferon signaling, and alleviates autoimmune disease symptoms in mice.",
+      "doi_or_pmcid": "10.1016/j.celrep.2025.116130"
+    },
+    {
+      "paperclip_result_id": "PMC5698428",
+      "rank": 8,
+      "title": "TYK2-induced phosphorylation of Y640 suppresses STAT3 transcriptional activity",
+      "year": "2017",
+      "publication_type": "research-article",
+      "abstract": "STAT3 is a pleiotropic transcription factor involved in homeostatic and host defense processes in the human body. It is activated by numerous cytokines and growth factors and generates a series of cellular effects. Of the STAT-mediated signal transduction pathways, STAT3 transcriptional control is best understood. Jak kinase dependent activation of STAT3 relies on Y705 phosphorylation triggering a conformational switch that is stabilized by intermolecular interactions between SH2 domains and the pY705 motif. We here show that a second tyrosine phosphorylation within the SH2 domain at position Y640, induced by Tyk2, negatively controls STAT3 activity. The Y640F mutation leads to stabilization of activated STAT3 homodimers, accelerated nuclear translocation and superior transcriptional activity following IL-6 and LIF stimulation. Moreover, it unlocks type I IFN-dependent STAT3 signalling in cells that are normally refractory to STAT3 transcriptional activation.",
+      "relevant_passages": "Tyk2-induced phosphorylation of STAT3 at Y640 was studied. This phosphorylation suppresses STAT3 transcriptional activity by destabilizing activated homodimers.",
+      "doi_or_pmcid": "10.1038/s41598-017-15912-6"
+    },
+    {
+      "paperclip_result_id": "PMC12506346",
+      "rank": 9,
+      "title": "PARP inhibition augments immunomodulatory function of mesenchymal stem/stromal cells by promoting STAT1 phosphorylation",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Mesenchymal stem/stromal cells (MSCs) have shown significant therapeutic effects in a range of autoimmune and hyperinflammatory diseases through their strong immunomodulatory properties, both in animal models and clinical settings. Exposure to inflammatory cytokines is crucial for MSCs to acquire immunoregulatory functions; however, the detailed mechanisms underlying this process remain largely unexplored. MSCs with pharmacological inhibition or genetic knockout of poly ADP-ribose polymerase1 (PARP1) were treated with the inflammatory factors IFNγ and TNFα for 24 h. The mRNA and protein expression of chemokines and immunosuppressive molecules were detected by qRT-PCR and Western blotting, respectively. The therapeutic efficacy of MSCs was evaluated using a mouse concanavalin A-induced acute liver injury model and a dextran sulfate sodium-induced inflammatory bowel disease model. The phosphorylation of signal transducer and activator of transcription 1 (STAT1) was analyzed in activated MSCs, and STAT1 inhibition through either a STAT1 inhibitor or STAT1 knockout was employed to confirm the role of STAT1 in enhancing the immunoregulatory function of MSCs during PARP inhibition. PARP inhibition or genetic knockout of PARP1 further enhanced the immunoregulatory function of MSCs elicited by inflammatory cytokines IFNγ and TNFα, as evidenced by the upregulation of genes associated with immunoregulation in MSCs, augmentation of immunosuppressive functions of MSCs on T cells, and increased therapeutic effects of MSCs in mouse models of autoimmune and hyperinflammatory diseases. PARP inhibition was further shown to enhance the expression of immunosuppressive factors in primed MSCs through increased phosphorylation at the tyrosine 701 site on STAT1. Our study indicates that like its pro-inflammatory role in macrophages, PARP also functions to undermine the immunosuppressive effects of MSCs, and PARP inhibition represents a strategy to further unleash the immunoregulatory power of MSCs. The online version contains supplementary material available at 10.1186/s13287-025-04663-1.",
+      "relevant_passages": "PARP inhibition was studied to see how it affects mesenchymal stem/stromal cells (MSCs) exposed to inflammatory cytokines. PARP inhibition enhances MSC immunomodulatory function by increasing STAT1 phosphorylation, leading to improved therapeutic effects in inflammatory disease models.",
+      "doi_or_pmcid": "10.1186/s13287-025-04663-1"
+    },
+    {
+      "paperclip_result_id": "PMC1770918",
+      "rank": 10,
+      "title": "A time- and dose-dependent STAT1 expression system",
+      "year": "2006",
+      "publication_type": "research-article",
+      "abstract": "The signal transducer and activator of transcription (STAT) family of transcription factors mediates a variety of cytokine dependent gene regulations. STAT1 has been mainly characterized by its role in interferon (IFN) type I and II signaling and STAT1 deficiency leads to high susceptibility to several pathogens. For fine-tuned analysis of STAT1 function we established a dimerizer-inducible system for STAT1 expression  in vitro  and  in vivo . The functionality of the dimerizer-induced STAT1 system is demonstrated  in vitro  in mouse embryonic fibroblasts and embryonic stem cells. We show that this two-vector based system is highly inducible and does not show any STAT1 expression in the absence of the inducer. Reconstitution of STAT1 deficient cells with inducible STAT1 restores IFNγ-mediated gene induction, antiviral responses and STAT1 activation remains dependent on cytokine stimulation. STAT1 expression is induced rapidly upon addition of dimerizer and expression levels can be regulated in a dose-dependent manner. Furthermore we show that in transgenic mice STAT1 can be induced upon stimulation with the dimerizer, although only at low levels. These results prove that the dimerizer-induced system is a powerful tool for STAT1 analysis  in vitro  and provide evidence that the system is suitable for the use in transgenic mice. To our knowledge this is the first report for inducible STAT1 expression in a time- and dose-dependent manner.",
+      "relevant_passages": "A dimerizer-inducible system for STAT1 expression was developed. This system allows for time- and dose-dependent STAT1 regulation, proving useful for in vitro analysis and transgenic mouse studies.",
+      "doi_or_pmcid": "10.1186/1472-6750-6-48"
+    }
+  ]
+}

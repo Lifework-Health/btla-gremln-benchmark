@@ -1,0 +1,108 @@
+{
+  "tf": "PLAGL2",
+  "query": "PLAGL2 TCR inhibition",
+  "top_k": 10,
+  "papers_retrieved": 10,
+  "papers": [
+    {
+      "paperclip_result_id": "PMC10807918",
+      "rank": 1,
+      "title": "Inhibiting the m 6 A Reader IGF2BP3 Suppresses Ovarian Cancer Cell Growth via Regulating PLAGL2 mRNA Stabilization",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "The oncogene IGF2 mRNA binding protein 3 (IGF2BP3) could function as an m 6 A reader in stabilizing many tumor-associated genes’ mRNAs. However, the relevant oncogenic mechanism by which IGF2BP3 promotes ovarian cancer growth is largely unknown. The IGF2BP3 expression in ovarian cancer was identified by retrieving the datasets from The Cancer Genome Atlas (TCGA). GEO datasets evaluated the relevant signaling pathways in IGF2BP3 knockdown in ovarian cancer cells. IGF2BP3 positive correlation gene in TCGA was calculated. MTS proliferation assay was identified in IGF2BP3 knockdown and rescued by PLAG1 like zinc finger 2 (PLAGL2) overexpression in ES-2 and SKOV3 cells. Bioinformatic analysis and RIP-qPCR were predicted and identified the IGF2BP3 binding site and PLAGL2 mRNA stability. The animal experiment identified IGF2BP3 proliferation inhibition. IGF2BP3 was upregulated in ovarian cancer tissue and cells. The depletion of IGF2BP3 in ovarian cancer cells leads to an enhancement of the pathway involved in cellular proliferation and mRNA stability. IGF2BP3 positive correlation suppressed pro-proliferation gene PLAGL2. IGF2BP3 knockdown suppressed ovarian cancer cell proliferation and was rescued by PLAGL2 overexpression. Luciferase reporter assay confirmed that IGF2BP3 could bind to 3'-UTR of PLAGL2 to maintain the mRNA stability. Further, in  in vivo  experiments, IGF2BP3 knockdown suppressed ovarian cancer cell proliferation via inhibiting PLAGL2 expression. All of these indicate that PLAGL2 mediates the main function of IGF2BP3 knockdown on ovarian cancer proliferation inhibition through mRNA stability regulation.",
+      "relevant_passages": "IGF2BP3 expression was studied in ovarian cancer, and its role in cell growth was investigated. Inhibiting IGF2BP3 suppresses ovarian cancer growth by stabilizing PLAGL2 mRNA.",
+      "doi_or_pmcid": "10.14740/wjon1747"
+    },
+    {
+      "paperclip_result_id": "PMC8978620",
+      "rank": 2,
+      "title": "A Costimulatory CAR Improves TCR-based Cancer Immunotherapy",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "This proof-of-concept study demonstrates that TCR-based therapies can be improved with engineered T cells expressing a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells are able to kill TCR targets, while sparing normal cells expressing the CoCAR antigen.",
+      "relevant_passages": "TCR-based cancer immunotherapy was enhanced by engineering T cells to express a costimulatory chimeric antigen receptor (CoCAR). CoCAR+ T cells effectively killed target cells while sparing normal cells expressing the CoCAR antigen.",
+      "doi_or_pmcid": "10.1158/2326-6066.CIR-21-0307"
+    },
+    {
+      "paperclip_result_id": "PMC12260021",
+      "rank": 3,
+      "title": "PLAGL2 as a prognostic biomarker and an EMT-promoting factor in PDAC",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "The online version contains supplementary material available at 10.1038/s41598-025-09591-x. Pancreatic ductal adenocarcinoma (PDAC), the most prevalent form of pancreatic malignancy, is characterized by its aggressive nature and high mortality rate, with a 5-year survival rate in China of only 9.9%. Polymorphic adenoma gene-like 2 (PLAGL2) has been implicated in the development of various digestive tract tumors, including hepatocellular carcinoma, gastric carcinoma, and colorectal carcinoma, and it influences tumor progression through multiple pathways. However, the specific role and mechanism of PLAGL2 in PDAC requires further investigation. The objective of this study was to evaluate the expression level of PLAGL2 in PDAC and its association with clinical parameters, thereby assessing its prognostic significance for PDAC, and its impact on the malignant process. We first analyzed the expression of PLAGL2 in pancreatic ductal adenocarcinoma (PDAC) via multiple databases, including TCGA and GTEx, to investigate its associated enrichment pathways. We subsequently examined the expression of PLAGL2 via immunohistochemistry and PCR in PDAC tumor tissue samples from our hospital, explored the relationships between PLAGL2 expression and clinical features, and evaluated the predictive value of PLAGL2 for the survival of PDAC patients. we investigated the effect of PLAGL2 on the epithelial‒mesenchymal transition (EMT) process by examining its association with the expression of EMT-related proteins. Finally, We confirmed that PLAGL2 facilitates the proliferation, invasion, and migration of PDAC using conventional cellular assays. The immunohistochemistry and PCR results, combined with the results of GEPIA analysis, indicated that PLAGL2 was significantly overexpressed in patients with pancreatic ductal adenocarcinoma (PDAC). GO analysis revealed that PLAGL2 was intricately linked to protein modification and regulation, as well as nerve projection development. The KEGG and GSEA enrichment analyses indicated that several signaling pathways, including the PI3K-AKT pathway, were significantly enriched, particularly in relation to EMT. The characterization of PLAGL2 expression and its clinicopathological features indicated that high PLAGL2 expression was associated with poor prognosis in PDAC patients and was positively correlated with TNM stge, TNM: T,TNM: N, Tumor size, Nerve infiltration and other clinical characteristics of the tumor. Immunohistochemical analysis suggested that PLAGL2 plays a role in enhancing the epithelial-to-mesenchymal transition (EMT) process in PDAC. By knocking down or overexpressing PLAGL2 in PDAC cell lines and conducting a series of cellular experiments, we ultimately demonstrated that low expression of PLAGL2 inhibits proliferation, migration, and invasion in PDAC, while high expression of PLAGL2 promotes these processes. This study demonstrated that the expression level of PLAGL2 serves as a predictive biomarker for survival in patients with pancreatic ductal adenocarcinoma (PDAC). It is associated with clinical features, including TNM stge, Tumor size, Nerve infiltration, and it also plays a role in promoting epithelial‒mesenchymal transition (EMT) in PDAC, and promotes the proliferation, migration and invasion of PDAC.",
+      "relevant_passages": "PLAGL2 expression in pancreatic ductal adenocarcinoma was analyzed and found to be significantly overexpressed. This overexpression is associated with poor prognosis and promotes tumor progression by facilitating epithelial-mesenchymal transition.",
+      "doi_or_pmcid": "10.1038/s41598-025-09591-x"
+    },
+    {
+      "paperclip_result_id": "PMC4209802",
+      "rank": 4,
+      "title": "TCR-engineered T cells: A model of inducible TCR expression to dissect the interrelationship between two TCRs",
+      "year": "2014",
+      "publication_type": "research-article",
+      "abstract": "TCR gene modified T cells for adoptive therapy simultaneously express the Tg TCR and the endogenous TCR, which might lead to mispaired TCRs with harmful unknown specificity and to a reduced function of TCR-Tg T cells. We generated dual TCR T cells in two settings in which either TCR was constitutively expressed by a retroviral promoter while the second TCR expression was regulable by a Tet-on system. Constitutively expressed TCR molecules were reduced on the cell surface depending on the induced TCR expression leading to strongly hampered function. Besides that, using fluorescence resonance energy transfer we detected mispaired TCR dimers and different pairing behaviors of individual TCR chains with a mutual influence on TCR chain expression. The loss of function and mispairing could not be avoided by changing the TCR expression level or by introduction of an additional cysteine bridge. However, in polyclonal T cells, optimized TCR formats (cysteineization, codon optimization) enhanced correct pairing and function. We conclude from our data that (i) the level of mispairing depends on the individual TCRs and is not reduced by increasing the level of one TCR, and (ii) modifications (cysteineization, codon optimization) improve correct pairing but do not completely exclude mispairing (cysteineization).",
+      "relevant_passages": "Dual TCR T cells were engineered with one inducible TCR to study TCR mispairing and function. Inducible TCR expression reduced surface TCRs and hampered function, with mispaired TCRs detected despite modifications.",
+      "doi_or_pmcid": "10.1002/eji.201343591"
+    },
+    {
+      "paperclip_result_id": "PMC11148159",
+      "rank": 5,
+      "title": "Stress-induced epinephrine promotes hepatocellular carcinoma progression via the USP10-PLAGL2 signaling loop",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Hepatocellular carcinoma (HCC) is associated with a poor prognosis. Our previous study demonstrated that Pleomorphic adenoma gene like-2 (PLAGL2) was a potential therapeutic target in HCC. However, the mechanisms that lead to the upregulation of PLAGL2 in HCC remain unclear. The present study revealed that stress-induced epinephrine increased the expression of PLAGL2, thereby promoting the progression of HCC. Furthermore, PLAGL2 knockdown inhibited epinephrine-induced HCC development. Mechanistically, epinephrine upregulated ubiquitin-specific protease 10 (USP10) to stabilize PLAGL2 via the adrenergic β-receptor-2-c-Myc (ADRB2-c-Myc) axis. Furthermore, PLAGL2 acted as a transcriptional regulator of USP10, forming a signaling loop. Taken together, these results reveal that stress-induced epinephrine activates the PLAGL2-USP10 signaling loop to enhance HCC progression. Furthermore, PLAGL2 plays a crucial role in psychological stress-mediated promotion of HCC progression.",
+      "relevant_passages": "Stress-induced epinephrine promotes hepatocellular carcinoma (HCC) progression by activating the USP10-PLAGL2 signaling loop. This loop stabilizes PLAGL2, enhancing HCC development and highlighting PLAGL2's role in stress-mediated HCC progression.",
+      "doi_or_pmcid": "10.1038/s12276-024-01223-0"
+    },
+    {
+      "paperclip_result_id": "PMC8704919",
+      "rank": 6,
+      "title": "TCR signal strength defines distinct mechanisms of T cell dysfunction and cancer evasion",
+      "year": "2022",
+      "publication_type": "research-article",
+      "abstract": "TCR signal strength determines T cell differentiation and function in tumors, with high-signal-strength interactions resulting in dysfunction and low-signal-strength interactions resulting in functional inertness. Fine-tuning TCR signal strength to an intermediate range improves anti-tumor activity in vivo.",
+      "relevant_passages": "High TCR signal strength leads to T cell dysfunction, while low strength causes inertness in tumors. Intermediate signal strength enhances anti-tumor activity.",
+      "doi_or_pmcid": "10.1084/jem.20201966"
+    },
+    {
+      "paperclip_result_id": "PMC12485097",
+      "rank": 7,
+      "title": "MFSD12, transcriptionally regulated by PLAGL2, promotes bladder cancer progression",
+      "year": "2025",
+      "publication_type": "research-article",
+      "abstract": "Bladder cancer (BLCA) is one of the most common malignant tumors of the urinary system. Identification of novel molecular signaling targets for the tumorigenesis of BLCA is important. Data from the Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA) databases suggest that major facilitator superfamily domain containing 12 (MFSD12) may act as an important oncogene in BLCA. MFSD12 expression is confirmed to be elevated in BLCA patients. Genetic manipulation of  MFSD12  mediated by Tet-inducible lentiviral expression vector is conducted in two BLCA cell lines, including UMUC3 and 5637. Following this manipulation, the cells are subjected to treatment with or without doxycycline. Our results show that  MFSD12  knockdown inhibits cell proliferation, migration, and invasion, and arrests the G1 stage-induced cell cycle. Furthermore, silencing of  MFSD12  reduces lung metastatic lesions and xenografted tumor formation of BLCA cells. To further explore the effect of MFSD12 on BLCA cells, transcriptomics and metabolomics analyses are performed on  MFSD12 -overexpressing cells. Subsequently, luciferase reporters and chromatin immunoprecipitation (ChIP)-PCR assays reveal that MFSD12 is regulated positively by pleomorphic adenoma gene like-2 (PLAGL2), an important transcription factor. Collectively, our results indicate that MFSD12 exerts a tumor-promoting effect on BLCA progression, under the modulation of transcription factor PLAGL2.",
+      "relevant_passages": "MFSD12 expression was studied in bladder cancer and manipulated in cell lines. MFSD12 promotes bladder cancer progression by inhibiting proliferation, migration, invasion, and metastasis, and is transcriptionally regulated by PLAGL2.",
+      "doi_or_pmcid": "10.1038/s42003-025-08801-6"
+    },
+    {
+      "paperclip_result_id": "PMC10287668",
+      "rank": 8,
+      "title": "Antibody-based binding domain fused to TCRγ chain facilitates T cell cytotoxicity for potent anti-tumor response",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "Chimeric antigen receptor T-cell (CAR-T) therapy has demonstrated potent clinical efficacy in the treatment of hematopoietic malignancies. However, the application of CAR-T in solid tumors has been limited due in part to the expression of inhibitory molecules in the tumor microenvironment, leading to T-cell exhaustion. To overcome this limitation, we have developed a synthetic T-cell receptor (TCR) that targets programmed death-ligand 1 (PD-L1), a molecule that is widely expressed in various solid tumors and plays a pivotal role in T-cell exhaustion. Our novel TCR platform is based on antibody-based binding domain, which is typically a single-chain variable fragment (scFv), fused to the γδ TCRs (TCRγδ). We have utilized the T-cell receptor alpha constant (TRAC) locus editing approach to express cell surface scFv of anti-PD-L1, which is fused to the constant region of the TCRγ or TCRδ chain in activated T cells derived from peripheral blood mononuclear cells (PBMCs). Our results indicate that these reconfigured receptors, both γ-TCRγδ and δ-TCRγδ, have the capability to transduce signals, produce inflammatory cytokines, degranulate and exert tumor killing activity upon engagement with PD-L1 antigen in vitro. Additionally, we have also shown that γ-TCRγδ exerted superior efficacy than δ-TCRγδ in in vivo xenograft model.",
+      "relevant_passages": "A novel synthetic T-cell receptor targeting PD-L1 was developed by fusing an antibody-based binding domain to the TCRγ chain. This engineered T-cell receptor enhances T-cell cytotoxicity against solid tumors, with the γ-TCRγδ variant showing superior efficacy.",
+      "doi_or_pmcid": "10.1038/s41389-023-00480-4"
+    },
+    {
+      "paperclip_result_id": "PMC11302460",
+      "rank": 9,
+      "title": "Hyperoxia exposure induces ferroptosis and apoptosis by downregulating PLAGL2 and repressing HIF-1α/VEGF signaling pathway in newborn alveolar typeII epithelial cell",
+      "year": "2024",
+      "publication_type": "research-article",
+      "abstract": "Bronchopulmonary dysplasia (BPD) is one of the most important complications plaguing neonates and can lead to a variety of sequelae. the ability of the HIF-1α/VEGF signaling pathway to promote angiogenesis has an important role in neonatal lung development. Newborn rats were exposed to 85% oxygen. The effects of hyperoxia exposure on Pleomorphic Adenoma Gene like-2 (PLAGL2) and the HIF-1α/VEGF pathway in rats lung tissue were assessed through immunofluorescence and Western Blot analysis. In cell experiments, PLAGL2 was upregulated, and the effects of hyperoxia and PLAGL2 on cell viability were evaluated using scratch assays, CCK-8 assays, and EDU staining. The role of upregulated PLAGL2 in the HIF-1α/VEGF pathway was determined by Western Blot and RT–PCR. Apoptosis and ferroptosis effects were determined through flow cytometry and viability assays. Compared with the control group, the expression levels of PLAGL2, HIF-1α, VEGF, and SPC in lung tissues after 3, 7, and 14 days of hyperoxia exposure were all decreased. Furthermore, hyperoxia also inhibited the proliferation and motility of type II alveolar epithelial cells (AECII) and induced apoptosis in AECII. Upregulation of PLAGL2 restored the proliferation and motility of AECII and suppressed cell apoptosis and ferroptosis, while the HIF-1α/VEGF signaling pathway was also revived. We confirmed the positive role of PLAGL2 and HIF-1α/VEGF signaling pathway in promoting BPD in hyperoxia conditions, and provided a promising therapeutic targets.",
+      "relevant_passages": "Hyperoxia exposure in newborn rats downregulated PLAGL2 and the HIF-1α/VEGF pathway, inducing ferroptosis and apoptosis in alveolar cells. Upregulating PLAGL2 rescued these effects, suggesting PLAGL2 and HIF-1α/VEGF are key targets for BPD.",
+      "doi_or_pmcid": "10.1080/13510002.2024.2387465"
+    },
+    {
+      "paperclip_result_id": "PMC10555889",
+      "rank": 10,
+      "title": "TCR ligand potency differentially impacts PD-1 inhibitory effects on diverse signaling pathways",
+      "year": "2023",
+      "publication_type": "research-article",
+      "abstract": "PD-1 engagement by T cells inhibits distinct antigen-evoked signals in a nonlinear manner, strongly influenced by the nature of available TCR ligands.",
+      "relevant_passages": "PD-1 engagement's inhibitory effects on T cell signaling vary non-linearly based on TCR ligand potency. Different antigen-evoked signals are differentially impacted by this interaction.",
+      "doi_or_pmcid": "10.1084/jem.20231242"
+    }
+  ]
+}
