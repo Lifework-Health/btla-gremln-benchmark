@@ -37,6 +37,8 @@ tmp/
 # not committed. Provenance (results/model_registry/*_model_registry.csv, *_audit.csv) IS tracked.
 results/tables/
 results/figures/
+results/publication_data/
+results/publication_assets/
 results/model_registry/benchmark_summary.json
 # locally-executed copies kept for review, not committed:
 notebooks/executed/
