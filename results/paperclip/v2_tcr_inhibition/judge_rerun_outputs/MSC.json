@@ -1,0 +1,40 @@
+{
+  "tf": "MSC",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:41:39Z",
+  "entity_filtered": true,
+  "judge_input_sha256": "4b274359429ec3aa754415237e0b0734a1cd1a05a6251ff6b8969d015f753da9",
+  "excluded_result_ids": [
+    "PMC10900800",
+    "PMC11237943",
+    "PMC11885616",
+    "PMC12126738",
+    "PMC12346228",
+    "PMC12580868",
+    "PMC3444478",
+    "PMC3854780",
+    "PMC7795906",
+    "PMC7937648"
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-303d6981-9155-4ba5-92ef-e4035d16b60b",
+      "agent_id": "agent-d59c16ee-7c15-4a4c-928c-564faa94ab6d",
+      "capture_method": "returned_text",
+      "raw": "No papers were returned by Paperclip (`papers_retrieved: 0`, empty `papers` array). Per the mandatory rules, when no papers are returned I assign **none** with **low** confidence.\n\n```json\n{\n  \"tf\": \"MSC\",\n  \"query\": \"MSC TCR inhibition\",\n  \"papers_retrieved\": 0,\n  \"papers_relevant\": 0,\n  \"paper_assessments\": [],\n  \"overall_evidence_tier\": \"none\",\n  \"key_paperclip_result_ids\": [],\n  \"tier_rationale\": \"No papers were returned by the retrieval (papers_retrieved = 0 and an empty papers array). With no supplied primary study, passage, or excerpt, there is no material linking MSC to TCR signalling inhibition or any closely related inhibitory T cell phenotype. Per the mandatory rules, when no papers are returned the tier is 'none' with low confidence. Excluded result IDs were provided but no accompanying content was supplied for them, so they cannot be assessed or cited as evidence.\",\n  \"confidence\": \"low\"\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "MSC",
+    "query": "MSC TCR inhibition",
+    "papers_retrieved": 0,
+    "papers_relevant": 0,
+    "paper_assessments": [],
+    "overall_evidence_tier": "none",
+    "key_paperclip_result_ids": [],
+    "tier_rationale": "No papers were returned by the retrieval (papers_retrieved = 0 and an empty papers array). With no supplied primary study, passage, or excerpt, there is no material linking MSC to TCR signalling inhibition or any closely related inhibitory T cell phenotype. Per the mandatory rules, when no papers are returned the tier is 'none' with low confidence. Excluded result IDs were provided but no accompanying content was supplied for them, so they cannot be assessed or cited as evidence.",
+    "confidence": "low"
+  }
+}

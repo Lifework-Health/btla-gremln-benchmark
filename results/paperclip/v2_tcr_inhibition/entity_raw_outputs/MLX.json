@@ -1,0 +1,102 @@
+{
+  "tf": "MLX",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:27:47Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-1f9e7c65-de0f-4d9f-9c63-9a3277f5d5a4",
+      "agent_id": "agent-316c84b2-2a6d-4679-9d8d-88088db217a9",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"MLX\",\n  \"candidate_symbol\": \"MLX\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11398402\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Discusses MLX as Max-like transcription factor in ChREBP-MLX heterotetramer; clearly the candidate regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns costimulatory CAR/TCR immunotherapy; no MLX symbol, full name or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11900861\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly names Max-like protein X (MLX) transcription factor in ChREBP-MLX complex; matches candidate.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns TCR-engineered T cells and TCR mispairing; MLX not present in any sense.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11425880\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Describes Mlx as Max-like factor in Myc/Mlx network with MondoA/ChREBP; clearly the candidate regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About TCR signal strength and T cell dysfunction; no MLX symbol, name or alias.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10970504\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Names Mlx (Max-like protein X) bHLHZ transcription factor with partner Mondo; the candidate regulator ortholog.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5587706\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns TCR-based chimeric antigen receptor construct; MLX not mentioned in any sense.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About PTPN22 phosphorylation and TCR signaling; no MLX symbol, name or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6504948\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Describes TRuC receptors engaging TCR complex; MLX not discussed at all.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "MLX",
+    "candidate_symbol": "MLX",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11398402",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Discusses MLX as Max-like transcription factor in ChREBP-MLX heterotetramer; clearly the candidate regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns costimulatory CAR/TCR immunotherapy; no MLX symbol, full name or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11900861",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly names Max-like protein X (MLX) transcription factor in ChREBP-MLX complex; matches candidate.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns TCR-engineered T cells and TCR mispairing; MLX not present in any sense.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11425880",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Describes Mlx as Max-like factor in Myc/Mlx network with MondoA/ChREBP; clearly the candidate regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About TCR signal strength and T cell dysfunction; no MLX symbol, name or alias.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10970504",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Names Mlx (Max-like protein X) bHLHZ transcription factor with partner Mondo; the candidate regulator ortholog.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5587706",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns TCR-based chimeric antigen receptor construct; MLX not mentioned in any sense.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About PTPN22 phosphorylation and TCR signaling; no MLX symbol, name or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6504948",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Describes TRuC receptors engaging TCR complex; MLX not discussed at all.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "paperclip_entity_validation_v1",
+  "title": "Paperclip entity-identity validation output (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tf", "candidate_symbol", "papers_evaluated", "paper_entities"],
+  "properties": {
+    "tf": { "type": "string", "minLength": 1 },
+    "candidate_symbol": { "type": "string", "minLength": 1 },
+    "papers_evaluated": { "type": "integer", "minimum": 0 },
+    "paper_entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "paperclip_result_id",
+          "retrieval_rank",
+          "entity_mentioned",
+          "entity_match",
+          "entity_match_rationale",
+          "entity_validation_confidence"
+        ],
+        "properties": {
+          "paperclip_result_id": { "type": "string" },
+          "retrieval_rank": { "type": "integer", "minimum": 0 },
+          "entity_mentioned": { "type": "boolean" },
+          "entity_match": {
+            "type": "string",
+            "enum": ["exact", "recognised_alias", "ambiguous_acronym",
+                     "wrong_entity", "not_mentioned"]
+          },
+          "entity_match_rationale": { "type": "string" },
+          "entity_validation_confidence": {
+            "type": "string",
+            "enum": ["high", "moderate", "low"]
+          }
+        }
+      }
+    }
+  }
+}

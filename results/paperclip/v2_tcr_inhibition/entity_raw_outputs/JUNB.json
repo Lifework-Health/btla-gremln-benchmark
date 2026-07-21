@@ -1,0 +1,102 @@
+{
+  "tf": "JUNB",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:26:34Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-61470a69-dafd-4d92-946b-d9b99aa8076d",
+      "agent_id": "agent-4c16247a-1085-4b6a-a08d-becaddc7b887",
+      "capture_method": "returned_text",
+      "raw": "```json\n{\n  \"tf\": \"JUNB\",\n  \"candidate_symbol\": \"JUNB\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11884676\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JunB described as transcription factor collaborating with BATF/IRF4 in CD8+ T cells; clearly the AP-1 subunit gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12247136\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly names 'transcription factor JunB' with knockdown/overexpression in VSMCs; denotes the gene/protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11496645\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JunB paired with c-Fos in MAPK-AP-1 axis, overexpressed in CAR-T cells; clearly the transcription factor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10507257\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Titled review of JunB, 'Jun B proto-oncogene', member of AP-1 complex; matches canonical entity exactly.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2833204\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JunB as AP-1 component, junb gene induction, chromatin immunoprecipitation at AP-1 sites; clearly the transcription factor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12469021\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JUNB described as JUN-family transcription factor forming AP-1 complex in cancers; matches canonical entity.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9273772\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JunB as BATF/AP-1 heterodimer partner regulating T helper cells, Junb-deficient mice; clearly the gene/protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11451012\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JunB expression upregulated via ac4C, drives LDHA/glycolysis in TNBC; denotes the transcription factor gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5563507\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JunB explicitly the AP-1 factor regulating Th17 identity, interacting with JunD/IRF8; clearly the transcription factor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12455463\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly 'JUNB proto-oncogene, a subunit of the AP-1 transcription factor'; matches canonical full name exactly.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "JUNB",
+    "candidate_symbol": "JUNB",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11884676",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JunB described as transcription factor collaborating with BATF/IRF4 in CD8+ T cells; clearly the AP-1 subunit gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12247136",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly names 'transcription factor JunB' with knockdown/overexpression in VSMCs; denotes the gene/protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11496645",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JunB paired with c-Fos in MAPK-AP-1 axis, overexpressed in CAR-T cells; clearly the transcription factor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10507257",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Titled review of JunB, 'Jun B proto-oncogene', member of AP-1 complex; matches canonical entity exactly.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2833204",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JunB as AP-1 component, junb gene induction, chromatin immunoprecipitation at AP-1 sites; clearly the transcription factor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12469021",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JUNB described as JUN-family transcription factor forming AP-1 complex in cancers; matches canonical entity.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC9273772",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JunB as BATF/AP-1 heterodimer partner regulating T helper cells, Junb-deficient mice; clearly the gene/protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11451012",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JunB expression upregulated via ac4C, drives LDHA/glycolysis in TNBC; denotes the transcription factor gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5563507",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JunB explicitly the AP-1 factor regulating Th17 identity, interacting with JunD/IRF8; clearly the transcription factor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12455463",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly 'JUNB proto-oncogene, a subunit of the AP-1 transcription factor'; matches canonical full name exactly.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

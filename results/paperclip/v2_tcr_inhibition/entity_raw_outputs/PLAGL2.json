@@ -1,0 +1,102 @@
+{
+  "tf": "PLAGL2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:30:09Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-5626452d-3ecf-4ebb-ae5a-b3b0b7909573",
+      "agent_id": "agent-ed18fea4-b4ca-4b80-9707-d2841e8cc4eb",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"PLAGL2\",\n  \"candidate_symbol\": \"PLAGL2\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10807918\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical full name 'PLAG1 like zinc finger 2 (PLAGL2)' as an oncogene stabilized by IGF2BP3; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8978620\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns costimulatory CAR/TCR immunotherapy; no PLAGL2 symbol, full name or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12260021\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"PLAGL2 symbol with full name 'Polymorphic adenoma gene-like 2', studied as prognostic biomarker in PDAC; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper is about dual TCR-engineered T cells and mispairing; PLAGL2 symbol, name or alias not present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11148159\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"PLAGL2 symbol with 'Pleomorphic adenoma gene like-2', acting as transcriptional regulator in HCC; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper addresses TCR signal strength and T cell dysfunction; no PLAGL2 symbol, full name or alias.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12485097\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"PLAGL2 named 'pleomorphic adenoma gene like-2', described as transcription factor regulating MFSD12 in bladder cancer; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10287668\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper describes scFv fused to TCRγ chain for anti-tumor T cells; PLAGL2 not mentioned in any sense.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302460\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"PLAGL2 named 'Pleomorphic Adenoma Gene like-2', studied in hyperoxia/HIF-1α-VEGF pathway; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10555889\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns TCR ligand potency and PD-1 signaling; no PLAGL2 symbol, full name or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "PLAGL2",
+    "candidate_symbol": "PLAGL2",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10807918",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical full name 'PLAG1 like zinc finger 2 (PLAGL2)' as an oncogene stabilized by IGF2BP3; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8978620",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns costimulatory CAR/TCR immunotherapy; no PLAGL2 symbol, full name or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12260021",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "PLAGL2 symbol with full name 'Polymorphic adenoma gene-like 2', studied as prognostic biomarker in PDAC; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper is about dual TCR-engineered T cells and mispairing; PLAGL2 symbol, name or alias not present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11148159",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "PLAGL2 symbol with 'Pleomorphic adenoma gene like-2', acting as transcriptional regulator in HCC; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper addresses TCR signal strength and T cell dysfunction; no PLAGL2 symbol, full name or alias.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12485097",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "PLAGL2 named 'pleomorphic adenoma gene like-2', described as transcription factor regulating MFSD12 in bladder cancer; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10287668",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper describes scFv fused to TCRγ chain for anti-tumor T cells; PLAGL2 not mentioned in any sense.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11302460",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "PLAGL2 named 'Pleomorphic Adenoma Gene like-2', studied in hyperoxia/HIF-1α-VEGF pathway; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10555889",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns TCR ligand potency and PD-1 signaling; no PLAGL2 symbol, full name or alias present.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

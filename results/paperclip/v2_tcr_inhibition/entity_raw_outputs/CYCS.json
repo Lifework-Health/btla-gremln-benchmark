@@ -1,0 +1,102 @@
+{
+  "tf": "CYCS",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:21:30Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-93c705cb-85bf-41d3-9dde-32cfcf3dccc2",
+      "agent_id": "agent-21d54c62-a8a9-4754-b7e6-90b0f94688d2",
+      "capture_method": "returned_text",
+      "raw": "```json\n{\n  \"tf\": \"CYCS\",\n  \"candidate_symbol\": \"CYCS\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC12546133\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Cycs in Apaf1/Cycs apoptotic axis denotes cytochrome c, the gene/protein of interest.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3951827\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Bcl-2/apoptosis study; no CYCS, cytochrome c, CYC or HCS symbol appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11637729\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"CYCS gene variant, cytochrome c protein (CYCS) expression explicitly studied; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"TCR engineering paper; cysteine/cysteineization mentioned but no CYCS gene or cytochrome c.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"PTPN22/TCR signaling study; no CYCS, cytochrome c, CYC or HCS present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6670834\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Cdc7/Cdk9 inhibitor and TCR signaling; no cytochrome c or CYCS symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"TCR repertoire immunotherapy review; no CYCS, cytochrome c, CYC or HCS mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2768903\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Mitochondrial antagonists on TCR signaling; no CYCS or cytochrome c reference.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"EBV CD4 TCR immunotherapy; no CYCS, cytochrome c, CYC or HCS present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3358016\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"ABT-737 apoptosis in T cells; no CYCS or cytochrome c symbol mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "CYCS",
+    "candidate_symbol": "CYCS",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC12546133",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Cycs in Apaf1/Cycs apoptotic axis denotes cytochrome c, the gene/protein of interest.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3951827",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Bcl-2/apoptosis study; no CYCS, cytochrome c, CYC or HCS symbol appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11637729",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "CYCS gene variant, cytochrome c protein (CYCS) expression explicitly studied; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "TCR engineering paper; cysteine/cysteineization mentioned but no CYCS gene or cytochrome c.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "PTPN22/TCR signaling study; no CYCS, cytochrome c, CYC or HCS present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6670834",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Cdc7/Cdk9 inhibitor and TCR signaling; no cytochrome c or CYCS symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "TCR repertoire immunotherapy review; no CYCS, cytochrome c, CYC or HCS mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2768903",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Mitochondrial antagonists on TCR signaling; no CYCS or cytochrome c reference.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "EBV CD4 TCR immunotherapy; no CYCS, cytochrome c, CYC or HCS present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3358016",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "ABT-737 apoptosis in T cells; no CYCS or cytochrome c symbol mentioned.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

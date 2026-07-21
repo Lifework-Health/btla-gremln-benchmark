@@ -1,0 +1,102 @@
+{
+  "tf": "HIVEP3",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:24:53Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-14253e4a-774a-43b5-abcc-0611b26455a9",
+      "agent_id": "agent-a1914578-1da0-4eff-8168-4ab19c5dce53",
+      "capture_method": "returned_text",
+      "raw": "All 10 retrieved papers concern the T cell receptor (\"TCR\"), which is unrelated to HIVEP3. None contains the symbol HIVEP3, the full name \"HIVEP zinc finger 3\", or any recognised alias (KRC, SHN3, Schnurri-3, ZAS3, etc.). The retrieval appears driven by an unrelated string match.\n\n```json\n{\n  \"tf\": \"HIVEP3\",\n  \"candidate_symbol\": \"HIVEP3\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 and TCR signaling; no HIVEP3 symbol, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8704919\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About TCR signal strength and T cell dysfunction; no HIVEP3 symbol, name, or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"TCR repertoire selection for immunotherapy; HIVEP3 and all aliases absent from text.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7479152\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"CD8 T cell exhaustion and TCR signaling; no HIVEP3 symbol, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"EBV CD4 TCR immunotherapy study; HIVEP3 and its aliases do not appear in text.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10555889\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"PD-1 and TCR ligand potency; no HIVEP3 symbol, full name, or alias mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"TCR generation/binding deep-learning model; HIVEP3 and aliases entirely absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11253514\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"BTLA/PD-1 attenuation of TCR signaling; no HIVEP3 symbol, name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"PCSK9 inhibition and TCR-T cells in HCC; HIVEP3 and aliases not mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4209802\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"TCR-engineered T cell mispairing study; no HIVEP3 symbol, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "HIVEP3",
+    "candidate_symbol": "HIVEP3",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 and TCR signaling; no HIVEP3 symbol, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8704919",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About TCR signal strength and T cell dysfunction; no HIVEP3 symbol, name, or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "TCR repertoire selection for immunotherapy; HIVEP3 and all aliases absent from text.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7479152",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "CD8 T cell exhaustion and TCR signaling; no HIVEP3 symbol, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "EBV CD4 TCR immunotherapy study; HIVEP3 and its aliases do not appear in text.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10555889",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "PD-1 and TCR ligand potency; no HIVEP3 symbol, full name, or alias mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "TCR generation/binding deep-learning model; HIVEP3 and aliases entirely absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11253514",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "BTLA/PD-1 attenuation of TCR signaling; no HIVEP3 symbol, name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "PCSK9 inhibition and TCR-T cells in HCC; HIVEP3 and aliases not mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4209802",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "TCR-engineered T cell mispairing study; no HIVEP3 symbol, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

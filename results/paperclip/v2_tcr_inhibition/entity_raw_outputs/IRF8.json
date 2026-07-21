@@ -1,0 +1,102 @@
+{
+  "tf": "IRF8",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:26:11Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-684e668a-32d5-4ec0-81cd-56e9e3ff3253",
+      "agent_id": "agent-787e8800-0815-4ef3-8c2c-985835dad902",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"IRF8\",\n  \"candidate_symbol\": \"IRF8\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC12324457\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Describes IRF8 as immune regulatory transcription factor degraded alongside IRF5; matches canonical symbol and function.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3112536\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly names interferon regulatory factor family member IRF8 and Irf8 gene; clearly this transcription factor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11905893\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses full name interferon regulatory factor 8 (IRF8) as transcription factor in NAFLD; unambiguous match.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9454819\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Full name and symbol used; IRF8 transcription factor of IRF family in myeloid differentiation and cancer.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11153194\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Full name interferon regulatory factor 8 (IRF8) and Irf8 gene in dendritic cell function; clearly this regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5727025\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"IRF8 described as IRF4 homologue in transcription factor complex; unambiguously this interferon regulatory factor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11190126\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Full name Interferon Regulatory Factor 8 (IRF8), IRF protein family transcription factor; clear match.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9856547\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Full name interferon regulatory factor 8 (IRF8) regulating ferroptosis; Irf8 gene deletion described; unambiguous.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12424652\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"IRF8 described as transcription factor in microglia with knockout mice; clearly this regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4543755\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"IRF8 transcription factor in B lymphocyte development and DLBCL; symbol clearly denotes this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "IRF8",
+    "candidate_symbol": "IRF8",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC12324457",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Describes IRF8 as immune regulatory transcription factor degraded alongside IRF5; matches canonical symbol and function.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3112536",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly names interferon regulatory factor family member IRF8 and Irf8 gene; clearly this transcription factor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11905893",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses full name interferon regulatory factor 8 (IRF8) as transcription factor in NAFLD; unambiguous match.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC9454819",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Full name and symbol used; IRF8 transcription factor of IRF family in myeloid differentiation and cancer.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11153194",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Full name interferon regulatory factor 8 (IRF8) and Irf8 gene in dendritic cell function; clearly this regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5727025",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "IRF8 described as IRF4 homologue in transcription factor complex; unambiguously this interferon regulatory factor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11190126",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Full name Interferon Regulatory Factor 8 (IRF8), IRF protein family transcription factor; clear match.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC9856547",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Full name interferon regulatory factor 8 (IRF8) regulating ferroptosis; Irf8 gene deletion described; unambiguous.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12424652",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "IRF8 described as transcription factor in microglia with knockout mice; clearly this regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4543755",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "IRF8 transcription factor in B lymphocyte development and DLBCL; symbol clearly denotes this gene.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

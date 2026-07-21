@@ -1,0 +1,102 @@
+{
+  "tf": "MSC",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:17:38Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-7bede012-9de3-41b4-bbae-280f80986f23",
+      "agent_id": "agent-2263ed3c-757c-4ed3-8ad4-2784b1cc85cc",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"MSC\",\n  \"candidate_symbol\": \"MSC\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 and TCR signaling; no MSC, musculin, ABF-1 or bHLHa22 appears in text.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7937648\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC explicitly defined as mesenchymal stromal cell, not the gene musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review on TCR repertoire for immunotherapy; no MSC, musculin, or aliases present in text.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7795906\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC explicitly defined as mesenchymal stromal cells, not the gene musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12580868\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC explicitly defined as mesenchymal stem cells used as delivery vehicles, not musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3854780\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC explicitly defined as mesenchymal stem cells, not the gene musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11885616\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC explicitly defined as mesenchymal stem cells, not the gene musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12126738\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC explicitly denotes human mesenchymal stem cells, not the gene musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10900800\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC denotes mesenchymal stem cell (exosome source), not the gene musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3444478\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"MSC denotes mesenchymal stem cells, not the gene musculin.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "MSC",
+    "candidate_symbol": "MSC",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 and TCR signaling; no MSC, musculin, ABF-1 or bHLHa22 appears in text.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7937648",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC explicitly defined as mesenchymal stromal cell, not the gene musculin.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review on TCR repertoire for immunotherapy; no MSC, musculin, or aliases present in text.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7795906",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC explicitly defined as mesenchymal stromal cells, not the gene musculin.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12580868",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC explicitly defined as mesenchymal stem cells used as delivery vehicles, not musculin.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3854780",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC explicitly defined as mesenchymal stem cells, not the gene musculin.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11885616",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC explicitly defined as mesenchymal stem cells, not the gene musculin.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12126738",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC explicitly denotes human mesenchymal stem cells, not the gene musculin.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10900800",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC denotes mesenchymal stem cell (exosome source), not the gene musculin.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3444478",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "MSC denotes mesenchymal stem cells, not the gene musculin.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

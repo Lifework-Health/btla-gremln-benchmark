@@ -1,0 +1,102 @@
+{
+  "tf": "ZBTB32",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:36:54Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-853ee3b3-3831-4fcc-a2d6-a1e0a8da2efc",
+      "agent_id": "agent-b28ba493-e4f7-49f5-b62d-3b3ccc69378e",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"ZBTB32\",\n  \"candidate_symbol\": \"ZBTB32\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 phosphorylation and TCR signaling; no mention of ZBTB32 symbol, full name, or any alias.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5578684\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical symbol ZBTB32 as a transcription factor in CD8+ T cells, clearly denoting this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review of TCR repertoire analysis for immunotherapy; no ZBTB32 symbol, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4503983\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns ZBTB16 (PLZF), a different family member; ZBTB32 symbol, full name, and aliases absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014665\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"EBV CD4 TCR immunotherapy study; no ZBTB32 symbol, full name, or alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC8326903\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"ZBTB family review names ZBTB1/16/17/7B/BCL6 but supplied text does not explicitly name ZBTB32 or aliases.\",\n      \"entity_validation_confidence\": \"moderate\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12261488\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Deep-learning TCR generation model; no ZBTB32 symbol, full name, or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7479152\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Study of TCR signaling in exhausted CD8+ T cells; no ZBTB32 symbol, full name, or alias.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11302870\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"PCSK9 inhibition in hepatocellular carcinoma TCR-T therapy; no ZBTB32 symbol, full name, or alias.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Study of TCR downregulation signaling in human T cells; no ZBTB32 symbol, full name, or alias.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "ZBTB32",
+    "candidate_symbol": "ZBTB32",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 1,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 phosphorylation and TCR signaling; no mention of ZBTB32 symbol, full name, or any alias.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5578684",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical symbol ZBTB32 as a transcription factor in CD8+ T cells, clearly denoting this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 3,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review of TCR repertoire analysis for immunotherapy; no ZBTB32 symbol, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4503983",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns ZBTB16 (PLZF), a different family member; ZBTB32 symbol, full name, and aliases absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014665",
+        "retrieval_rank": 5,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "EBV CD4 TCR immunotherapy study; no ZBTB32 symbol, full name, or alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC8326903",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "ZBTB family review names ZBTB1/16/17/7B/BCL6 but supplied text does not explicitly name ZBTB32 or aliases.",
+        "entity_validation_confidence": "moderate"
+      },
+      {
+        "paperclip_result_id": "PMC12261488",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Deep-learning TCR generation model; no ZBTB32 symbol, full name, or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7479152",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Study of TCR signaling in exhausted CD8+ T cells; no ZBTB32 symbol, full name, or alias.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11302870",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "PCSK9 inhibition in hepatocellular carcinoma TCR-T therapy; no ZBTB32 symbol, full name, or alias.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Study of TCR downregulation signaling in human T cells; no ZBTB32 symbol, full name, or alias.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

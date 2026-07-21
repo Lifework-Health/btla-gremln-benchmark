@@ -1,0 +1,102 @@
+{
+  "tf": "STAT5B",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:33:13Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-a2329ec4-df05-417c-928a-e5e9e47c861f",
+      "agent_id": "agent-f7c426bb-d17f-450d-9327-b7f3d6c790f3",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"STAT5B\",\n  \"candidate_symbol\": \"STAT5B\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11722272\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Describes STAT5B as a transcription factor for lymphocytes, studying Y665 leukemic mutations; clearly the gene STAT5B.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11229983\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"STAT5B studied as transcriptional regulator of DCAF13/p53/xCT in mantle cell lymphoma; unambiguously the gene STAT5B.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196089\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Full name 'signal transducer and activator of transcription' and Stat5b overexpression explicitly discussed; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346846\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"STAT5B identified as transcriptional regulator binding MBP promoter in oligodendrocytes; clearly the gene STAT5B.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11014662\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Discusses STAT5B N642H driver mutation and STAT5A/STAT5B hyperactivation in T-ALL; clearly the gene STAT5B.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11670306\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly names 'signal transducer and activator of transcription 5B (STAT5B)' studying N642H SH2 mutation; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11349758\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Studies STAT5A/STAT5B tyrosine phosphorylation in IL-2 signaling via knockin mice; clearly the gene STAT5B.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11316036\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Stat5b expression discussed as regulator in Derlin-1-Stat5b axis for hippocampal neurogenesis; clearly the gene Stat5b.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5749501\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"STAT5B N642H driver mutation in transgenic mice causing T cell neoplasia; unambiguously the gene STAT5B.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12694592\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"GH signaling through STAT5B, SH2 domain variants and hepatic metabolism; clearly the gene STAT5B.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "STAT5B",
+    "candidate_symbol": "STAT5B",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11722272",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Describes STAT5B as a transcription factor for lymphocytes, studying Y665 leukemic mutations; clearly the gene STAT5B.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11229983",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "STAT5B studied as transcriptional regulator of DCAF13/p53/xCT in mantle cell lymphoma; unambiguously the gene STAT5B.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2196089",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Full name 'signal transducer and activator of transcription' and Stat5b overexpression explicitly discussed; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346846",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "STAT5B identified as transcriptional regulator binding MBP promoter in oligodendrocytes; clearly the gene STAT5B.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11014662",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Discusses STAT5B N642H driver mutation and STAT5A/STAT5B hyperactivation in T-ALL; clearly the gene STAT5B.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11670306",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly names 'signal transducer and activator of transcription 5B (STAT5B)' studying N642H SH2 mutation; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11349758",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Studies STAT5A/STAT5B tyrosine phosphorylation in IL-2 signaling via knockin mice; clearly the gene STAT5B.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11316036",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Stat5b expression discussed as regulator in Derlin-1-Stat5b axis for hippocampal neurogenesis; clearly the gene Stat5b.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5749501",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "STAT5B N642H driver mutation in transgenic mice causing T cell neoplasia; unambiguously the gene STAT5B.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12694592",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "GH signaling through STAT5B, SH2 domain variants and hepatic metabolism; clearly the gene STAT5B.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

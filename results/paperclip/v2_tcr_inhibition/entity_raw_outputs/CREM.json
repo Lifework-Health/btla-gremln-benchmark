@@ -1,0 +1,102 @@
+{
+  "tf": "CREM",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:20:58Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-e45fe410-d4a6-4c3b-a732-f5a55cad63b3",
+      "agent_id": "agent-d6f875e6-84f6-47e6-b7cd-e67fd056d6e2",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"CREM\",\n  \"candidate_symbol\": \"CREM\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC12286855\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly names transcription factor cyclic AMP response element modulator (CREM); canonical gene clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5165720\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"cAMP-responsive element modulator alpha (CREMα) is an isoform of canonical CREM; clearly this gene/protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12641238\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"wrong_entity\",\n      \"entity_match_rationale\": \"CrEM here means Critical Emergency Medicine subspecialty, not the transcription factor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4770719\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Title/abstract name cAMP response element modulator (CREM) transcription factor; canonical gene clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12138204\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"cAMP response element modulator (CREM) in testicular function; canonical gene clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5056420\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"ICER described as repressor isoform of cAMP response element modulator (CREM); canonical gene explicitly referenced.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12345263\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"cAMP responsive element modulator (CREM) transcription factor and Crem gene explicitly studied; canonical entity.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5704088\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns CREB (cAMP-responsive element-binding protein), a different gene; CREM symbol/name absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11999874\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"EWSR1::CREM fusion defined as cAMP-responsive element modulator (CREM); canonical gene clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6011589\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"cAMP response element (CREM)α transcription factor in JIA T cells; canonical gene clearly denoted.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "CREM",
+    "candidate_symbol": "CREM",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC12286855",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly names transcription factor cyclic AMP response element modulator (CREM); canonical gene clearly denoted.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5165720",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "cAMP-responsive element modulator alpha (CREMα) is an isoform of canonical CREM; clearly this gene/protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12641238",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "wrong_entity",
+        "entity_match_rationale": "CrEM here means Critical Emergency Medicine subspecialty, not the transcription factor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4770719",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Title/abstract name cAMP response element modulator (CREM) transcription factor; canonical gene clearly denoted.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12138204",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "cAMP response element modulator (CREM) in testicular function; canonical gene clearly denoted.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5056420",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "ICER described as repressor isoform of cAMP response element modulator (CREM); canonical gene explicitly referenced.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12345263",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "cAMP responsive element modulator (CREM) transcription factor and Crem gene explicitly studied; canonical entity.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5704088",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns CREB (cAMP-responsive element-binding protein), a different gene; CREM symbol/name absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11999874",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "EWSR1::CREM fusion defined as cAMP-responsive element modulator (CREM); canonical gene clearly denoted.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6011589",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "cAMP response element (CREM)α transcription factor in JIA T cells; canonical gene clearly denoted.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

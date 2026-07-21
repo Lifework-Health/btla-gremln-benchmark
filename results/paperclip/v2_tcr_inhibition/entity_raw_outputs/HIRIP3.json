@@ -1,0 +1,102 @@
+{
+  "tf": "HIRIP3",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:24:24Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-de2c5b41-8701-4199-9d32-45ba30bbbdbf",
+      "agent_id": "agent-e444f517-1b57-406f-9dff-8052a941fe79",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"HIRIP3\",\n  \"candidate_symbol\": \"HIRIP3\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10854748\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Title/abstract characterize HIRIP3 as mammalian histone H2A chaperone, clearly denoting this gene/protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7860602\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns TCR downregulation in T cells; HIRIP3 symbol or name never appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11890862\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Studies expression regulation of overlapping HIRIP3 and INO80E genes, clearly the human gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3842781\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About TCR signaling kinetics in T cells; no mention of HIRIP3 symbol or name.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12179093\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Identifies HIRIP3 as gene biomarker in Alzheimer's; clearly denotes this human gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2212737\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Concerns Herpesvirus Tip protein and TCR signaling; HIRIP3 never appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About PTPN22 phosphorylation in TCR signaling; no HIRIP3 mention.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC2196323\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About degradation of TCR-CD3 complexes; HIRIP3 not mentioned.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review of TCR repertoire analysis for immunotherapy; no HIRIP3 mention.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11092459\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"About PIK3IP1/TrIP downregulation in T cells; HIRIP3 never appears.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "HIRIP3",
+    "candidate_symbol": "HIRIP3",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10854748",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Title/abstract characterize HIRIP3 as mammalian histone H2A chaperone, clearly denoting this gene/protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7860602",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns TCR downregulation in T cells; HIRIP3 symbol or name never appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11890862",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Studies expression regulation of overlapping HIRIP3 and INO80E genes, clearly the human gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3842781",
+        "retrieval_rank": 4,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About TCR signaling kinetics in T cells; no mention of HIRIP3 symbol or name.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12179093",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Identifies HIRIP3 as gene biomarker in Alzheimer's; clearly denotes this human gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2212737",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Concerns Herpesvirus Tip protein and TCR signaling; HIRIP3 never appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About PTPN22 phosphorylation in TCR signaling; no HIRIP3 mention.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC2196323",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About degradation of TCR-CD3 complexes; HIRIP3 not mentioned.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review of TCR repertoire analysis for immunotherapy; no HIRIP3 mention.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11092459",
+        "retrieval_rank": 10,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "About PIK3IP1/TrIP downregulation in T cells; HIRIP3 never appears.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

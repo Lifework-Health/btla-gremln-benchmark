@@ -1,0 +1,102 @@
+{
+  "tf": "STAT1",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:32:23Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-bcda75fb-ccc2-4416-9fee-7843342b2ac1",
+      "agent_id": "agent-c658acfd-80df-4bd4-9458-863f9196013e",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"STAT1\",\n  \"candidate_symbol\": \"STAT1\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC10944115\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical full name 'signal transducer and activator of transcription 1 (STAT1)' with phosphorylation/acetylation biology clearly denoting this protein.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10849914\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns STAT3 and TCR signaling; STAT1, its full name and aliases are absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11242346\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"JAK2/STAT1 signaling pathway in glioblastoma clearly denotes this transcription factor by canonical symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5079630\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Describes STAT1 as heterodimer partner and interferon transcription factor, clearly denoting this protein by canonical symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11678167\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"STAT1 phosphorylation and JAK2/STAT1 pathway in sheep clearly denotes this transcription factor by canonical symbol.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11046697\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Discusses STAT1 as interferon signaling mediator with phosphorylation switch, clearly denoting this protein by canonical symbol and name.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12509220\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical full name 'signal transducer and activator of transcription 1 (STAT1)' in interferon signaling context.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC5698428\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns STAT3 and TYK2; STAT1, its full name and aliases are absent.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12506346\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical full name 'signal transducer and activator of transcription 1 (STAT1)'; MSC refers to stromal cells, not the entity confusion here.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC1770918\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Inducible STAT1 expression system with interferon signaling context clearly denotes this transcription factor by canonical symbol and name.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "STAT1",
+    "candidate_symbol": "STAT1",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC10944115",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical full name 'signal transducer and activator of transcription 1 (STAT1)' with phosphorylation/acetylation biology clearly denoting this protein.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10849914",
+        "retrieval_rank": 2,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns STAT3 and TCR signaling; STAT1, its full name and aliases are absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11242346",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "JAK2/STAT1 signaling pathway in glioblastoma clearly denotes this transcription factor by canonical symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5079630",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Describes STAT1 as heterodimer partner and interferon transcription factor, clearly denoting this protein by canonical symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11678167",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "STAT1 phosphorylation and JAK2/STAT1 pathway in sheep clearly denotes this transcription factor by canonical symbol.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11046697",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Discusses STAT1 as interferon signaling mediator with phosphorylation switch, clearly denoting this protein by canonical symbol and name.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12509220",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical full name 'signal transducer and activator of transcription 1 (STAT1)' in interferon signaling context.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC5698428",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns STAT3 and TYK2; STAT1, its full name and aliases are absent.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12506346",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical full name 'signal transducer and activator of transcription 1 (STAT1)'; MSC refers to stromal cells, not the entity confusion here.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC1770918",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Inducible STAT1 expression system with interferon signaling context clearly denotes this transcription factor by canonical symbol and name.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "tf": "RBPJ",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:30:57Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-173b6d7b-8a1a-467a-9fbb-dc87725e8991",
+      "agent_id": "agent-f0ed434c-59fb-4f96-ba6d-185a82c5e5a0",
+      "capture_method": "returned_text",
+      "raw": "{\n  \"tf\": \"RBPJ\",\n  \"candidate_symbol\": \"RBPJ\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11441141\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Uses canonical full name and symbol RBPJ as a transcriptional regulator; clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9371899\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Describes transcription factor RBPJ, central Notch player forming NICD activator complex; unambiguously this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12068301\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"RBPJ described as ubiquitination-regulated transcription factor in T-cell exhaustion; clearly denotes this regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC9887061\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly spells canonical full name with symbol RBPJ as transcription complex factor; unambiguous.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11787368\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"RBPJ described as Notch transcription factor binding DNA; clearly this regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6453958\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Rbpj described as transcriptional regulator in Treg/TH polarization (Notch context); canonical symbol for this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11985660\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"RBPJ as protein targeted by miR-30c in decidualization; canonical symbol denoting this regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6858571\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"RBPJ-dependent Notch signaling in T-cell development; clearly denotes this regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12569315\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Transcription factor RBPJ mediating canonical Notch signaling in macrophages; unambiguously this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4291530\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"RBPJ described as Notch effector and tumor suppressor; clearly denotes this regulator.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "RBPJ",
+    "candidate_symbol": "RBPJ",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11441141",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Uses canonical full name and symbol RBPJ as a transcriptional regulator; clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC9371899",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Describes transcription factor RBPJ, central Notch player forming NICD activator complex; unambiguously this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12068301",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "RBPJ described as ubiquitination-regulated transcription factor in T-cell exhaustion; clearly denotes this regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC9887061",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly spells canonical full name with symbol RBPJ as transcription complex factor; unambiguous.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11787368",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "RBPJ described as Notch transcription factor binding DNA; clearly this regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6453958",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Rbpj described as transcriptional regulator in Treg/TH polarization (Notch context); canonical symbol for this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11985660",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "RBPJ as protein targeted by miR-30c in decidualization; canonical symbol denoting this regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6858571",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "RBPJ-dependent Notch signaling in T-cell development; clearly denotes this regulator.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12569315",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Transcription factor RBPJ mediating canonical Notch signaling in macrophages; unambiguously this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4291530",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "RBPJ described as Notch effector and tumor suppressor; clearly denotes this regulator.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

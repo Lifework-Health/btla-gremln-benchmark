@@ -1,0 +1,102 @@
+{
+  "tf": "NR4A2",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:29:39Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-d9fff609-28ad-4f2a-aa53-fa481f8e8e6a",
+      "agent_id": "agent-d6883c1f-4b2d-4f85-aaba-4b371376c6e0",
+      "capture_method": "returned_text",
+      "raw": "Based on my analysis of each paper against the candidate regulator NR4A2 (aliases: HZF-3|NOT|NURR1|RNR1|TINUR):\n\n```json\n{\n  \"tf\": \"NR4A2\",\n  \"candidate_symbol\": \"NR4A2\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC11881746\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"NR4A2 named repeatedly by canonical symbol as an orphan nuclear receptor regulating TWIST1 in glioblastoma.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7653457\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Abstract discusses Nr4a2 by canonical symbol as an NFAT1-controlled nuclear receptor in T cells.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12206217\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"NR4A2 named by canonical symbol and described as nuclear receptor-related 1 protein (Nurr1), clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7883379\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"NR4A2 listed by canonical symbol among orphan nuclear receptor family members in T-cell biology.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12527293\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"NR4A2 named by canonical symbol as orphan nuclear receptor targeted in endometriosis therapy.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12889511\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Only the NR4A family is discussed generically; the specific symbol NR4A2, full name, or aliases do not appear.\",\n      \"entity_validation_confidence\": \"moderate\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11439235\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"NR4A2 named as nuclear receptor subfamily 4 group A member 2/3 transcription factor in T cell exhaustion.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4356985\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper focuses on Nr4a1; NR4A2 symbol, full name, and aliases do not appear in supplied text.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11958660\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Nr4a2 named by canonical symbol and full name as transcription factor for cortical layer 6b differentiation.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC6546093\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Nr4a2 named by canonical symbol with alias Nurr1 among Nr4a TFs limiting CAR T cell function.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "NR4A2",
+    "candidate_symbol": "NR4A2",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC11881746",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "NR4A2 named repeatedly by canonical symbol as an orphan nuclear receptor regulating TWIST1 in glioblastoma.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7653457",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Abstract discusses Nr4a2 by canonical symbol as an NFAT1-controlled nuclear receptor in T cells.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12206217",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "NR4A2 named by canonical symbol and described as nuclear receptor-related 1 protein (Nurr1), clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7883379",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "NR4A2 listed by canonical symbol among orphan nuclear receptor family members in T-cell biology.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12527293",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "NR4A2 named by canonical symbol as orphan nuclear receptor targeted in endometriosis therapy.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12889511",
+        "retrieval_rank": 6,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Only the NR4A family is discussed generically; the specific symbol NR4A2, full name, or aliases do not appear.",
+        "entity_validation_confidence": "moderate"
+      },
+      {
+        "paperclip_result_id": "PMC11439235",
+        "retrieval_rank": 7,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "NR4A2 named as nuclear receptor subfamily 4 group A member 2/3 transcription factor in T cell exhaustion.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4356985",
+        "retrieval_rank": 8,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper focuses on Nr4a1; NR4A2 symbol, full name, and aliases do not appear in supplied text.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11958660",
+        "retrieval_rank": 9,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Nr4a2 named by canonical symbol and full name as transcription factor for cortical layer 6b differentiation.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC6546093",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Nr4a2 named by canonical symbol with alias Nurr1 among Nr4a TFs limiting CAR T cell function.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}

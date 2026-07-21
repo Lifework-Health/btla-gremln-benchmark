@@ -1,0 +1,102 @@
+{
+  "tf": "AHR",
+  "model": "claude-opus-4-8",
+  "timestamp_utc": "2026-07-20T20:19:30Z",
+  "attempts": [
+    {
+      "attempt": 1,
+      "run_id": "run-608d4066-a325-42db-8ae9-93dbfeb1749b",
+      "agent_id": "agent-cebc56a2-4afc-4c84-a98b-d70e9df33ade",
+      "capture_method": "returned_text",
+      "raw": "```json\n{\n  \"tf\": \"AHR\",\n  \"candidate_symbol\": \"AHR\",\n  \"papers_evaluated\": 10,\n  \"paper_entities\": [\n    {\n      \"paperclip_result_id\": \"PMC12785682\",\n      \"retrieval_rank\": 1,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly names 'aryl hydrocarbon receptor (AHR)', a ligand-dependent transcription factor; AHR knockout rats. Clearly this gene.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC7419300\",\n      \"retrieval_rank\": 2,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"States 'aryl hydrocarbon receptor (AHR)' as ligand-activated transcription factor driving Treg generation. Canonical entity.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12801039\",\n      \"retrieval_rank\": 3,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Names 'aryl hydrocarbon receptor (AhR)' with PCB126 agonist and AhR inhibition. Canonical receptor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12504769\",\n      \"retrieval_rank\": 4,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"AHR activation and TCDD toxicity context unambiguously denote aryl hydrocarbon receptor.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11354967\",\n      \"retrieval_rank\": 5,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly 'aryl hydrocarbon receptor (AhR)' mediating osteogenic suppression via AhR/Hes1 pathway. Canonical entity.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC10570930\",\n      \"retrieval_rank\": 6,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Review of 'aryl hydrocarbon receptor (AHR)' activation in cancer. Canonical entity.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC11237943\",\n      \"retrieval_rank\": 7,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Paper concerns PTPN22 and TCR signaling; neither AHR symbol, full name nor alias appears.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC4067745\",\n      \"retrieval_rank\": 8,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Names 'aryl hydrocarbon receptor (AhR)', transcription factor sensing environmental stimuli in psoriasis. Canonical entity.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC12346228\",\n      \"retrieval_rank\": 9,\n      \"entity_mentioned\": false,\n      \"entity_match\": \"not_mentioned\",\n      \"entity_match_rationale\": \"Review on TCR repertoire and cancer immunotherapy; no AHR symbol, full name or alias present.\",\n      \"entity_validation_confidence\": \"high\"\n    },\n    {\n      \"paperclip_result_id\": \"PMC3412388\",\n      \"retrieval_rank\": 10,\n      \"entity_mentioned\": true,\n      \"entity_match\": \"exact\",\n      \"entity_match_rationale\": \"Explicitly 'aryl hydrocarbon receptor (AhR)' activated by TCDD in T-cell differentiation. Canonical entity.\",\n      \"entity_validation_confidence\": \"high\"\n    }\n  ]\n}\n```",
+      "parsed_ok": true
+    }
+  ],
+  "parsed": {
+    "tf": "AHR",
+    "candidate_symbol": "AHR",
+    "papers_evaluated": 10,
+    "paper_entities": [
+      {
+        "paperclip_result_id": "PMC12785682",
+        "retrieval_rank": 1,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly names 'aryl hydrocarbon receptor (AHR)', a ligand-dependent transcription factor; AHR knockout rats. Clearly this gene.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC7419300",
+        "retrieval_rank": 2,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "States 'aryl hydrocarbon receptor (AHR)' as ligand-activated transcription factor driving Treg generation. Canonical entity.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12801039",
+        "retrieval_rank": 3,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Names 'aryl hydrocarbon receptor (AhR)' with PCB126 agonist and AhR inhibition. Canonical receptor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12504769",
+        "retrieval_rank": 4,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "AHR activation and TCDD toxicity context unambiguously denote aryl hydrocarbon receptor.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11354967",
+        "retrieval_rank": 5,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly 'aryl hydrocarbon receptor (AhR)' mediating osteogenic suppression via AhR/Hes1 pathway. Canonical entity.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC10570930",
+        "retrieval_rank": 6,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Review of 'aryl hydrocarbon receptor (AHR)' activation in cancer. Canonical entity.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC11237943",
+        "retrieval_rank": 7,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Paper concerns PTPN22 and TCR signaling; neither AHR symbol, full name nor alias appears.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC4067745",
+        "retrieval_rank": 8,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Names 'aryl hydrocarbon receptor (AhR)', transcription factor sensing environmental stimuli in psoriasis. Canonical entity.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC12346228",
+        "retrieval_rank": 9,
+        "entity_mentioned": false,
+        "entity_match": "not_mentioned",
+        "entity_match_rationale": "Review on TCR repertoire and cancer immunotherapy; no AHR symbol, full name or alias present.",
+        "entity_validation_confidence": "high"
+      },
+      {
+        "paperclip_result_id": "PMC3412388",
+        "retrieval_rank": 10,
+        "entity_mentioned": true,
+        "entity_match": "exact",
+        "entity_match_rationale": "Explicitly 'aryl hydrocarbon receptor (AhR)' activated by TCDD in T-cell differentiation. Canonical entity.",
+        "entity_validation_confidence": "high"
+      }
+    ]
+  }
+}
