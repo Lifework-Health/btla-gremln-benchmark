@@ -4,15 +4,16 @@ _Literature annotation only. Rankings, CRISPRi outputs and the benchmark verdict
 - Judge model: `claude-opus-4-8`  |  Judge prompt SHA256: `baa3767bd5a4684a`
 - Entity model: `claude-opus-4-8`  |  Entity prompt SHA256: `ea42a144b141792d`
 - HGNC: HGNC complete set (45021 records), retrieved 2026-07-20, SHA256 `712d037ba2aa42f0`
+- Human verification: **pending** (named human reviewer has not examined the 12 strong or moderate candidates)
 
 ## 1. Purpose
-Provide a fully auditable, reproducible account of how Paperclip v2 turned the two models' top-25 regulator candidates into literature evidence tiers, add an entity-identity gate to remove symbol/acronym collisions, and recompute the final usable tiers. Every stage records input, operation, output, record counts, file path, hash and the tool/model used.
+Provide a fully auditable, reproducible account of how Paperclip v2 turned the two models' top 25 regulator candidates into literature evidence tiers, add an entity-identity gate to remove symbol/acronym collisions, and recompute the final usable tiers. Every stage records input, operation, output, record counts, file path, hash and the tool/model used.
 
 ## 2. Candidate selection
 - **Input:** Canonical seed-excluded GREmLN and GENIE3 rankings (nb03).
 - **Operation:** Freeze union of each model's top 25 (GREmLN boundary tie resolved by SumCSLS).
 - **Output:** candidate_union.csv (43 rows).
-- **Records in -> out:** 50 top-25 slots -> 43 unique candidates
+- **Records in -> out:** 50 top 25 slots -> 43 unique candidates
 - **File:** `results/paperclip/v2_tcr_inhibition/candidate_union.csv`
 - **Hash:** ranking_input_hashes.combined `4352c9169b17dfd8`
 - **Tool/model:** deterministic (pandas)
@@ -50,20 +51,20 @@ Provide a fully auditable, reproducible account of how Paperclip v2 turned the t
 
 ## 6. Entity identity validation
 - **Input:** 430 TF-paper rows + HGNC symbol/alias table.
-- **Operation:** One LLM call per candidate classifies each paper's entity_match against the canonical HGNC symbol, full name and recognised aliases.
-- **Output:** 430 entity records; entity_eligible = exact|recognised_alias.
+- **Operation:** One LLM call per candidate classifies each paper's entity_match against the canonical HGNC symbol, full name and recognised aliases. Example: MSC = Musculin, not mesenchymal stromal cells.
+- **Output:** 430 entity records. Mutually exclusive breakdown: exact 232, recognised_alias 10, wrong_entity 10, ambiguous_acronym 0, not_mentioned 178 (eligible 242 + excluded 188 = 430).
 - **Records in -> out:** 430 -> 242 entity-eligible
-- **File:** `paperclip_entity_validation.csv`
+- **File:** `paperclip_entity_validation.csv + entity_match_breakdown.csv`
 - **Hash:** entity_prompt_sha256 `ea42a144b141792d`
 - **Tool/model:** claude-opus-4-8 + HGNC 2026-07-20
-- **Exclusions:** 10 wrong_entity, 0 ambiguous_acronym, 178 not_mentioned excluded.
+- **Exclusions:** 10 wrong_entity + 0 ambiguous_acronym + 178 not_mentioned = 188 excluded.
 
 ## 7. Claude evidence judgement
-- **Input:** 43 evidence packets.
-- **Operation:** Fixed LLM judge assigns overall_evidence_tier + per-paper assessments.
-- **Output:** 43 structured judge outputs.
+- **Input:** 43 evidence packets (original) plus entity-filtered rerun packets where required.
+- **Operation:** Fixed LLM judge assigns overall_evidence_tier + per-paper assessments. See section 7b for whether each final judgement received only entity-eligible papers.
+- **Output:** 43 structured judge outputs (+ selective entity-filtered reruns).
 - **Records in -> out:** 43 -> 43
-- **File:** `judge_raw_outputs/<TF>.json`
+- **File:** `judge_raw_outputs/<TF>.json; judge_rerun_outputs/<TF>.json`
 - **Hash:** per-output judge_output_sha256 recorded
 - **Tool/model:** claude-opus-4-8
 - **Exclusions:** invalid JSON retried once.
@@ -78,15 +79,15 @@ Provide a fully auditable, reproducible account of how Paperclip v2 turned the t
 - **Tool/model:** deterministic (python)
 - **Exclusions:** rubric failures become 'missing', never manually repaired.
 
-## 9. Human verification of strong and moderate evidence
-- **Input:** corrected strong + moderate candidates.
-- **Operation:** Structured check of entity identity, key-paper relevance, evidence directness and tier consistency for every strong/moderate key paper.
-- **Output:** human_spot_check_strong_moderate.csv.
-- **Records in -> out:** 12 -> 12 verified
-- **File:** `human_spot_check_strong_moderate.csv`
+## 9. Human verification pending
+- **Input:** 12 corrected strong or moderate candidates and their key papers.
+- **Operation:** A named human reviewer has not yet examined these candidates. Automated / LLM structural checks are recorded separately and are NOT human verification.
+- **Output:** human_verification.csv (empty template for reviewer, date, TF, paper ID, entity confirmed, relevance confirmed, evidence directness confirmed, tier accepted or changed, notes).
+- **Records in -> out:** 12 -> 0 completed (all pending)
+- **File:** `human_verification.csv`
 - **Hash:** n/a
-- **Tool/model:** agent-auditor (structured verification)
-- **Exclusions:** none.
+- **Tool/model:** named human reviewer (pending)
+- **Exclusions:** none yet.
 
 ## 10. Final usable tier
 - **Input:** Original tiers + entity gate + entity-filtered reruns.
@@ -98,8 +99,27 @@ Provide a fully auditable, reproducible account of how Paperclip v2 turned the t
 - **Tool/model:** deterministic + entity-filtered rerun
 - **Exclusions:** annotation only.
 
+## 7b. Entity-filtered judgement confirmation
+**Claim checked:** each of the 43 final LLM judgements was generated after entity filtering and received only entity-eligible papers.
+
+**Result: the claim does NOT hold for all 43.** Only 1 / 43 final adjudications used an entity-eligible-only packet (including zero-eligible deterministic / rerun cases). Full per-TF status: `entity_filtered_judgement_status.csv`.
+
+Actual protocol:
+1. The original fixed LLM judge ran on the full Paperclip retrieval packet (all returned papers), before the entity identity gate was added.
+2. After the entity gate, a candidate is re-judged on the entity-eligible subset only when a paper the original judge marked relevant or key fails entity identity.
+3. For candidates where every relevant/key paper remains entity-eligible, the original judgement is retained under the selective-rerun protocol (post-hoc equivalence). Those packets still contained non-eligible papers (typically `not_mentioned`).
+
+**TFs with zero entity-eligible papers (7):** GTF2A2, HIVEP3, HMGN3, MSC, SMAP2, SNAPC4, ZNF121.
+- **GTF2A2**: Zero entity-eligible papers; original judge (full packet) already none; final = none (no entity-filtered LLM re-judge under selective-rerun protocol)
+- **HIVEP3**: Zero entity-eligible papers; original judge (full packet) already none; final = none (no entity-filtered LLM re-judge under selective-rerun protocol)
+- **HMGN3**: Zero entity-eligible papers; original judge (full packet) already none; final = none (no entity-filtered LLM re-judge under selective-rerun protocol)
+- **MSC**: Re-judged on empty entity-eligible packet; final usable tier = none
+- **SMAP2**: Zero entity-eligible papers; original judge (full packet) already none; final = none (no entity-filtered LLM re-judge under selective-rerun protocol)
+- **SNAPC4**: Zero entity-eligible papers; original judge (full packet) already none; final = none (no entity-filtered LLM re-judge under selective-rerun protocol)
+- **ZNF121**: Zero entity-eligible papers; original judge (full packet) already none; final = none (no entity-filtered LLM re-judge under selective-rerun protocol)
+
 ## 11. Failures, retries and missing outcomes
-- **NR4A2** — final usable tier **missing**. Original judge tier was **strong** but the deterministic rubric failed (`supporting_excerpt >20 words for PMC7883379`). This is a rubric failure, not a retrieval/JSON/entity failure; the protocol only retries unparseable JSON, so no retry is allowed and it stays missing (never converted to none).
+- **NR4A2** (GENIE3 specific) — final usable tier **missing**. Original judge tier was **strong** but the deterministic rubric failed (`supporting_excerpt >20 words for PMC7883379`). Cause: **rubric failure** (supporting excerpt >20 words), not retrieval failure, not invalid JSON, not a missing entity match. Retry under existing protocol: **not allowed** (protocol retries once only on unparseable JSON). Outcome: remains **missing** (never converted to none).
 - Entity-validation parse failures: 0 (all 43 candidates classified).
 - Entity-filtered reruns performed: 1 (candidates whose evidence base changed after the entity gate).
 
@@ -115,17 +135,24 @@ Provide a fully auditable, reproducible account of how Paperclip v2 turned the t
 | Count | Value |
 |---|---|
 | Unique candidates | 43 |
-| GREmLN top-25 / GENIE3 top-25 / shared | 25 / 25 / 7 |
-| Model-specific (each) | 18 |
+| GREmLN top 25 / GENIE3 top 25 / shared | 25 / 25 / 7 |
+| Model specific (each) | 18 |
 | TF-paper rows / unique papers | 430 / 318 |
-| Entity-eligible rows | 242 |
-| wrong_entity / ambiguous / not_mentioned | 10 / 0 / 178 |
+| exact | 232 |
+| recognised_alias | 10 |
+| wrong_entity | 10 |
+| ambiguous_acronym | 0 |
+| not_mentioned | 178 |
+| Entity-eligible (exact + alias) | 242 |
+| Excluded (wrong + ambiguous + not_mentioned) | 188 |
+| Eligible + excluded | 430 (must equal 430) |
 | Original tiers | {'none': 22, 'moderate': 10, 'weak': 7, 'strong': 3, 'missing': 1} |
 | Corrected tiers | {'strong': 2, 'moderate': 10, 'weak': 7, 'none': 23, 'missing': 1} |
 | Corrected tiers sum | 43 |
+| Missing GENIE3 specific candidate | NR4A2 |
 
 ### Stage separation
-This pipeline keeps five operations explicitly separate: **(a) Paperclip retrieval**, **(b) LLM evidence adjudication**, **(c) deterministic rubric validation**, **(d) human audit**, and **(e) final usable tier**. The entity identity gate sits between retrieval and adjudication.
+This pipeline keeps five operations explicitly separate: **(a) Paperclip retrieval**, **(b) LLM evidence adjudication**, **(c) deterministic rubric validation**, **(d) human audit (pending)**, and **(e) final usable tier**. The entity identity gate was applied after the original LLM judgements; entity-filtered re-adjudication is selective (see section 7b).
 
 ## Worked traces
 
@@ -136,7 +163,7 @@ This pipeline keeps five operations explicitly separate: **(a) Paperclip retriev
   - Post-gate funnel: relevant 4 -> primary 4 -> direct-causal 2
   - Original judge tier: **strong** (rubric_valid=True); rerun_required=False
   - Entity audit: clean (no acronym collision)
-  - **Final usable tier: strong** (confidence high; human check verified)
+  - **Final usable tier: strong** (confidence high; human check pending)
   - Key eligible papers: `PMC3501351;PMC5439026;PMC5946152;PMC2944839`
   - Note: unchanged: entity gate removed no relevant/key paper
 
@@ -147,7 +174,7 @@ This pipeline keeps five operations explicitly separate: **(a) Paperclip retriev
   - Post-gate funnel: relevant 2 -> primary 2 -> direct-causal 1
   - Original judge tier: **moderate** (rubric_valid=True); rerun_required=False
   - Entity audit: clean (no acronym collision)
-  - **Final usable tier: moderate** (confidence moderate; human check verified)
+  - **Final usable tier: moderate** (confidence moderate; human check pending)
   - Key eligible papers: `PMC7419300;PMC3412388`
   - Note: unchanged: entity gate removed no relevant/key paper
 
@@ -161,7 +188,7 @@ This pipeline keeps five operations explicitly separate: **(a) Paperclip retriev
   - **Final usable tier: none** (confidence low; human check not_required)
   - Key eligible papers: `none`
   - Note: entity-filtered rerun tier=none; rubric passed
-MSC (Musculin) illustrates the motivating collision: Paperclip returned papers where 'MSC' denotes mesenchymal stromal/stem cells. The entity gate marks those `wrong_entity` (incl. PMC7937648), leaving no entity-eligible primary support, so the entity-filtered rerun downgrades the legacy tier.
+MSC (Musculin) illustrates the motivating collision: Paperclip returned papers where 'MSC' denotes mesenchymal stromal cells. The entity gate marks those `wrong_entity` (incl. PMC7937648), leaving no entity-eligible primary support, so the entity-filtered rerun downgrades the legacy tier.
 
 ### CYCS — assigned none
 - **CYCS** (cytochrome c, somatic; genie3_only)
@@ -174,7 +201,7 @@ MSC (Musculin) illustrates the motivating collision: Paperclip returned papers w
   - Key eligible papers: `none`
   - Note: unchanged: entity gate removed no relevant/key paper
 
-### NR4A2 — missing final usable tier
+### NR4A2 — missing final usable tier (GENIE3 specific)
 - **NR4A2** (nuclear receptor subfamily 4 group A member 2; genie3_only)
   - Query: `NR4A2 TCR inhibition`
   - Retrieval: 10 papers; entity-eligible 8; excluded (non-identity): `none`
