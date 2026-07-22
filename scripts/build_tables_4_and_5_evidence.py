@@ -146,9 +146,13 @@ def load_canonical_order(repo: Path, model: str) -> list[str]:
     """Prefer the frozen previous-publication Table 4 order; fall back to current."""
     stem = ("table4a_gremln_top25_evidence" if model == "GREmLN"
             else "table4b_genie3_top25_evidence")
-    prev = repo / "results/publication_assets/tables" / f"{stem}.previous_publication.csv"
-    cur = repo / "results/publication_assets/tables" / f"{stem}.csv"
-    path = prev if prev.exists() else cur
+    candidates = [
+        repo / "results/multiomics/audit_v2" / f"{stem}.previous_publication.csv",
+        repo / "results/publication_assets/tables" / f"{stem}.previous_publication.csv",
+        repo / "results/multiomics/audit_v2" / f"{stem}.csv",
+        repo / "results/publication_assets/tables" / f"{stem}.csv",
+    ]
+    path = next(p for p in candidates if p.exists())
     t4 = pd.read_csv(path)
     assert list(t4["Position"]) == list(range(1, 26))
     return [strip_shared(x) for x in t4["Candidate regulator"]]
@@ -354,8 +358,11 @@ def compare_cells(old: pd.DataFrame, new: pd.DataFrame, model: str) -> list[str]
 
 def main() -> int:
     repo = repo_root()
-    out = repo / "results/publication_assets/tables"
+    out = repo / "results/multiomics/audit_v2"
     out.mkdir(parents=True, exist_ok=True)
+    # Local mirror for the publication notebook path (gitignored until data clearance)
+    mirror = repo / "results/publication_assets/tables"
+    mirror.mkdir(parents=True, exist_ok=True)
 
     cr = pd.read_csv(repo / "results/publication_data/crispri_all_screen_sensitivity.csv")
     trace = pd.read_csv(repo / "results/paperclip/v2_tcr_inhibition/paperclip_pipeline_trace.csv")
@@ -365,13 +372,14 @@ def main() -> int:
     union = pd.read_csv(repo / "results/publication_data/top25_union_primary.csv")
     shared = set(union.loc[union["in_gremln_top25"] & union["in_genie3_top25"], "TF"])
 
-    old_a_path = out / "table4a_gremln_top25_evidence.previous_publication.csv"
-    old_b_path = out / "table4b_genie3_top25_evidence.previous_publication.csv"
-    old_a = pd.read_csv(old_a_path if old_a_path.exists() else out / "table4a_gremln_top25_evidence.csv",
-                        keep_default_na=False)
-    old_b = pd.read_csv(old_b_path if old_b_path.exists() else out / "table4b_genie3_top25_evidence.csv",
-                        keep_default_na=False)
-    # If current file already has the new schema and no previous snapshot, skip cell-diff
+    def _prev(stem):
+        for p in [out / f"{stem}.previous_publication.csv",
+                  repo / "results/publication_assets/tables" / f"{stem}.previous_publication.csv"]:
+            if p.exists():
+                return p
+        raise SystemExit(f"Missing previous_publication snapshot: {stem}")
+    old_a = pd.read_csv(_prev("table4a_gremln_top25_evidence"), keep_default_na=False)
+    old_b = pd.read_csv(_prev("table4b_genie3_top25_evidence"), keep_default_na=False)
     if "Literature evidence" not in old_a.columns:
         raise SystemExit("Missing previous_publication snapshot for Table 4 cell-diff")
 
@@ -594,6 +602,21 @@ def main() -> int:
     print(f"[Tables 4A/4B/5] OK  lit={la}/{lb} mrna={n_mrna(t4a)}/{n_mrna(t4b)} "
           f"indep={n_indep(t4a)}/{n_indep(t4b)} crispri={ga_d}/{gb_d}")
     print(f"cell changes logged: {len(changes)}")
+    # mirror key artefacts into publication_assets (local; gitignored)
+    mirror = repo / "results/publication_assets/tables"
+    for name in [
+        "table4a_gremln_evidence.csv", "table4a_gremln_evidence.png", "table4a_gremln_evidence.svg",
+        "table4b_genie3_evidence.csv", "table4b_genie3_evidence.png", "table4b_genie3_evidence.svg",
+        "table5_triangulated_evidence_summary.csv", "table5_triangulated_evidence_summary.png",
+        "table5_triangulated_evidence_summary.svg", "table_evidence_reconciliation.md",
+        "table4a_gremln_top25_evidence.csv", "table4b_genie3_top25_evidence.csv",
+        "table4a_gremln_top25_evidence.png", "table4b_genie3_top25_evidence.png",
+        "table4a_gremln_top25_evidence.svg", "table4b_genie3_top25_evidence.svg",
+    ]:
+        src = out / name
+        if src.exists():
+            (mirror / name).write_bytes(src.read_bytes())
+
     print("wrote", out)
     return 0
 

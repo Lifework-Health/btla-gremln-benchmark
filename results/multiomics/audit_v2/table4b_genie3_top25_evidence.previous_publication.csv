@@ -1,0 +1,26 @@
+Position,Candidate regulator,CRISPRi evidence,Literature evidence,BTLA experimental evidence
+1,EGR2,Detected — BTLA-concordant (12/31),Strong,Inferred regulon activity ↓
+2,JUNBˢ,Detected — BTLA-concordant (2/38),Strong,Inferred regulon activity ↓
+3,FOXP1,Failed on-target QC,Strong,None
+4,HIVEP3,Failed on-target QC,Weak,Inferred regulon activity ↓
+5,IRF8ˢ,Detected — BTLA-anti-concordant (6/32),Moderate,Inferred regulon activity ↑
+6,STAT1ˢ,No detected response (0/30),Strong,Inferred regulon activity ↓; BIONIC
+7,BHLHE40,Detected — BTLA-concordant (13/29),Strong,None
+8,PLAGL2ˢ,Not in screen,None,None
+9,ZBTB32ˢ,No detected response (0/24),Weak,Inferred regulon activity ↑
+10,CYCS,No detected response (0/27),None,None
+11,MDM2,No detected response (0/23),Moderate,None
+12,GAR1,Not in screen,None,None
+13,MYC,Detected — BTLA-anti-concordant (1/18),Moderate,Phosphosite†; Inferred regulon activity ↑; BIONIC
+14,ZEB2,Failed on-target QC,Strong,None
+15,FOXM1,No detected response (0/10),Moderate,Inferred regulon activity ↑
+16,SMAP2,No detected response (0/18),None,None
+17,NR4A2,No detected response (0/10),Strong,None
+18,CREMˢ,No detected response (0/14),Moderate,Inferred regulon activity ↑; BIONIC
+19,ID2,No detected response (0/16),Strong,Inferred regulon activity ↑
+20,STAT5B,Detected — BTLA-concordant (1/15),Moderate,None
+21,TRAF4,No detected response (0/14),None,None
+22,GTF2A2,No detected response (0/14),None,None
+23,TGIF1,No detected response (0/12),None,Inferred regulon activity ↓
+24,MAF,No detected response (0/11),Strong,None
+25,PRDM1ˢ,Not in screen,Strong,Inferred regulon activity ↓

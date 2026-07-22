@@ -1,0 +1,26 @@
+Position,Candidate regulator,CRISPRi evidence,Audited literature evidence,Candidate mRNA context,Independent BTLA molecular evidence
+1,KIF22,No detected response (0/10),None,No qualifying transcriptional response,No qualifying association in measured layers
+2,EZH2,No detected response (0/10),Moderate,No qualifying transcriptional response,No qualifying association in measured layers
+3,HMGN3,No detected response (0/9),None,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+4,HIRIP3,No detected response (0/9),None,No qualifying transcriptional response,"Phosphosite association: 2 min, 24 h"
+5,STAT4,No detected response (0/9),None,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+6,SNAPC4,Not represented in screen,None,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+7,RBPJ,No detected response (0/9),Weak,No qualifying transcriptional response,No qualifying association in measured layers
+8,CREMˢ,No detected response (0/9),Moderate,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+9,STAU2,No detected response (0/9),None,No qualifying transcriptional response,"Phosphosite association: 20 min, 4 h, 24 h"
+10,MLX,No detected response (0/9),None,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+11,STAT1ˢ,No detected response (0/9),None,No qualifying transcriptional response,No qualifying association in measured layers
+12,AHR,Detected — BTLA-anti-concordant (7/9),Moderate,Absent from transcriptomic assay universe,Not measured in protein or phosphoproteomic assays
+13,NFIL3,Not represented in screen,Moderate,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+14,SRP9,Detected — BTLA-concordant (1/8),None,No qualifying transcriptional response,No qualifying association in measured layers
+15,MSC,No detected response (0/8),None,Absent from transcriptomic assay universe,Not measured in protein or phosphoproteomic assays
+16,GTF3C2,Not represented in screen,None,No qualifying transcriptional response,Phosphosite association: 4 h
+17,ZBTB32ˢ,No detected response (0/8),Weak,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+18,TFDP1,No detected response (0/8),None,No qualifying transcriptional response,Phosphosite association: 4 h
+19,BCL3,No detected response (0/8),Moderate,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+20,ZNF706,No detected response (0/8),None,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+21,ZNF121,No detected response (0/8),None,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+22,JUNBˢ,No detected response (0/8),Moderate,"TCR activation ↑: 1 h, 24 h",Not measured in protein or phosphoproteomic assays
+23,PRDM1ˢ,Not represented in screen,Strong,TCR activation ↑: 4 h,Not measured in protein or phosphoproteomic assays
+24,IRF8ˢ,Detected — BTLA-concordant (1/8),Weak,No qualifying transcriptional response,Not measured in protein or phosphoproteomic assays
+25,PLAGL2ˢ,Not represented in screen,None,No qualifying transcriptional response,No qualifying association in measured layers
