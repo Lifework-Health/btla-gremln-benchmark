@@ -1,0 +1,541 @@
+TF,candidate_group,gremln_dense_rank,genie3_dense_rank,layer,evidence_role,contrast,timepoint,timepoint_class,is_primary_timepoint,measured_entity,qualifying_source,qualifying_harmonised,status,note,effect_log2fc
+BHLHE40,GENIE3_specific,5,7,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,BHLHE40,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,BHLHE40,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,BHLHE40,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,CYCS,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,CYCS,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,CYCS,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,EGR2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,EGR2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,EGR2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,FOXM1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,FOXM1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,FOXM1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,FOXP1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,FOXP1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,FOXP1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,GAR1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,GAR1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,GAR1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GTF2A2,GENIE3_specific,4,22,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,GTF2A2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GTF2A2,GENIE3_specific,4,22,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,GTF2A2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GTF2A2,GENIE3_specific,4,22,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,GTF2A2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,HIVEP3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,HIVEP3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,HIVEP3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,ID2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ID2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ID2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,MAF,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MAF,False,False,failed_qc,mRNA (regulator's own transcript),REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MAF,False,False,failed_qc,mRNA (regulator's own transcript),REDACTED_publication_gate
+MDM2,GENIE3_specific,7,11,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,MDM2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MDM2,GENIE3_specific,7,11,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MDM2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MDM2,GENIE3_specific,7,11,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MDM2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,MYC,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MYC,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MYC,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,NR4A2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,NR4A2,False,False,failed_qc,mRNA (regulator's own transcript),REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,NR4A2,False,False,failed_qc,mRNA (regulator's own transcript),REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,SMAP2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,SMAP2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,SMAP2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,STAT5B,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,STAT5B,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,STAT5B,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,TGIF1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,TGIF1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,TGIF1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TRAF4,GENIE3_specific,6,21,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,TRAF4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TRAF4,GENIE3_specific,6,21,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,TRAF4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TRAF4,GENIE3_specific,6,21,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,TRAF4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,ZEB2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ZEB2,False,False,failed_qc,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ZEB2,False,False,failed_qc,mRNA (regulator's own transcript),REDACTED_publication_gate
+AHR,GREmLN_specific,2,43,transcriptomics,contextual,BTLA_TCR_vs_TCR,any,single,False,AHR,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,BCL3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,BCL3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,BCL3,False,False,failed_qc,mRNA (regulator's own transcript),REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,EZH2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,EZH2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,EZH2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,GTF3C2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,GTF3C2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,GTF3C2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,HIRIP3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,HIRIP3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,HIRIP3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HMGN3,GREmLN_specific,2,163,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,HMGN3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HMGN3,GREmLN_specific,2,163,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,HMGN3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+HMGN3,GREmLN_specific,2,163,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,HMGN3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,KIF22,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,KIF22,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,KIF22,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,MLX,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MLX,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MLX,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+MSC,GREmLN_specific,3,46,transcriptomics,contextual,BTLA_TCR_vs_TCR,any,single,False,MSC,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,NFIL3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,NFIL3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,NFIL3,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,RBPJ,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,RBPJ,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,RBPJ,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SNAPC4,GREmLN_specific,2,154,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,SNAPC4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SNAPC4,GREmLN_specific,2,154,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,SNAPC4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SNAPC4,GREmLN_specific,2,154,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,SNAPC4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,SRP9,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,SRP9,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,SRP9,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,STAT4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,STAT4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,STAT4,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,STAU2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,STAU2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,STAU2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,TFDP1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,TFDP1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,TFDP1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZNF121,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,ZNF121,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZNF121,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ZNF121,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZNF121,GREmLN_specific,3,175,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ZNF121,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZNF706,GREmLN_specific,3,167,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,ZNF706,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZNF706,GREmLN_specific,3,167,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ZNF706,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZNF706,GREmLN_specific,3,167,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ZNF706,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+CREM,shared,2,18,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,CREM,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+CREM,shared,2,18,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,CREM,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+CREM,shared,2,18,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,CREM,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+IRF8,shared,3,5,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,IRF8,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+IRF8,shared,3,5,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,IRF8,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+IRF8,shared,3,5,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,IRF8,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+JUNB,shared,3,2,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,JUNB,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+JUNB,shared,3,2,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,JUNB,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+JUNB,shared,3,2,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,JUNB,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+PLAGL2,shared,3,8,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,PLAGL2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+PLAGL2,shared,3,8,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,PLAGL2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+PLAGL2,shared,3,8,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,PLAGL2,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+PRDM1,shared,3,25,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,PRDM1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+PRDM1,shared,3,25,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,PRDM1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+PRDM1,shared,3,25,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,PRDM1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT1,shared,2,6,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,STAT1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT1,shared,2,6,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,STAT1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+STAT1,shared,2,6,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,STAT1,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZBTB32,shared,3,9,transcriptomics,contextual,BTLA_TCR_vs_TCR,1h,single,False,ZBTB32,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZBTB32,shared,3,9,transcriptomics,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ZBTB32,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+ZBTB32,shared,3,9,transcriptomics,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ZBTB32,False,False,measured_no_qualifying_signal,mRNA (regulator's own transcript),REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,BHLHE40,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,P99999_CYCS,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,P99999_CYCS,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,P99999_CYCS,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,P99999_CYCS,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,EGR2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,FOXM1,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q9H334-7_FOXP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q9H334-7_FOXP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q9H334-7_FOXP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q9H334-7_FOXP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q9NY12-2_GAR1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q9NY12-2_GAR1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q9NY12-2_GAR1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q9NY12-2_GAR1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GTF2A2,GENIE3_specific,4,22,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,GTF2A2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,HIVEP3,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,ID2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,MAF,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MDM2,GENIE3_specific,7,11,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,MDM2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,P01106-1_MYC,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,P01106-1_MYC,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,P01106-1_MYC,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,P01106-1_MYC,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,NR4A2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q8WU79-3_SMAP2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q8WU79-3_SMAP2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q8WU79-3_SMAP2,True,True,measured_qualifying,whole-proteome DEP,REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q8WU79-3_SMAP2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,P51692_STAT5B,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,P51692_STAT5B,True,True,measured_qualifying,whole-proteome DEP,REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,P51692_STAT5B,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,P51692_STAT5B,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,TGIF1,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+TRAF4,GENIE3_specific,6,21,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,TRAF4,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,ZEB2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+AHR,GREmLN_specific,2,43,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,AHR,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,BCL3,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q15910_EZH2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q15910_EZH2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q15910_EZH2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q15910_EZH2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q8WUA4_GTF3C2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q8WUA4_GTF3C2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q8WUA4_GTF3C2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q8WUA4_GTF3C2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q9BW71_HIRIP3,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q9BW71_HIRIP3,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q9BW71_HIRIP3,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q9BW71_HIRIP3,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+HMGN3,GREmLN_specific,2,163,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,HMGN3,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q14807_KIF22,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q14807_KIF22,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q14807_KIF22,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q14807_KIF22,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,MLX,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MSC,GREmLN_specific,3,46,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,MSC,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,NFIL3,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q06330-2_RBPJ,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q06330-2_RBPJ,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q06330-2_RBPJ,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q06330-2_RBPJ,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+SNAPC4,GREmLN_specific,2,154,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,SNAPC4,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,P49458_SRP9,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,P49458_SRP9,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,P49458_SRP9,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,P49458_SRP9,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,STAT4,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q9NUL3-2_STAU2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q9NUL3-2_STAU2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q9NUL3-2_STAU2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q9NUL3-2_STAU2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q14186_TFDP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q14186_TFDP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q14186_TFDP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q14186_TFDP1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+ZNF121,GREmLN_specific,3,175,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,ZNF121,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ZNF706,GREmLN_specific,3,167,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,ZNF706,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+CREM,shared,2,18,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,CREM,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+IRF8,shared,3,5,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,IRF8,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+JUNB,shared,3,2,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,JUNB,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+PLAGL2,shared,3,8,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,Q9UPG8_PLAGL2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+PLAGL2,shared,3,8,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,Q9UPG8_PLAGL2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+PLAGL2,shared,3,8,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,Q9UPG8_PLAGL2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+PLAGL2,shared,3,8,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,Q9UPG8_PLAGL2,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+PRDM1,shared,3,25,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,PRDM1,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAT1,shared,2,6,proteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,P42224_STAT1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAT1,shared,2,6,proteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,P42224_STAT1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAT1,shared,2,6,proteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,P42224_STAT1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+STAT1,shared,2,6,proteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,P42224_STAT1,False,False,measured_no_qualifying_signal,whole-proteome DEP,REDACTED_publication_gate
+ZBTB32,shared,3,9,proteomics,independent,BTLA_TCR_vs_TCR,any,single,False,ZBTB32,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+GTF2A2,GENIE3_specific,4,22,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MDM2,GENIE3_specific,7,11,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+TRAF4,GENIE3_specific,6,21,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+AHR,GREmLN_specific,2,43,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+HMGN3,GREmLN_specific,2,163,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MSC,GREmLN_specific,3,46,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+SNAPC4,GREmLN_specific,2,154,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,2mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,20mn,acute,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,4h,sustained,True,REDACTED_site,True,True,measured_qualifying,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,phosphoproteomics,independent,BTLA_TCR_vs_TCR,24h,sustained,False,REDACTED_site,False,False,measured_no_qualifying_signal,phosphosite-level DEP (not averaged),REDACTED_publication_gate
+ZNF121,GREmLN_specific,3,175,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ZNF706,GREmLN_specific,3,167,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+CREM,shared,2,18,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+IRF8,shared,3,5,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+JUNB,shared,3,2,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+PLAGL2,shared,3,8,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+PRDM1,shared,3,25,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAT1,shared,2,6,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ZBTB32,shared,3,9,phosphoproteomics,independent,BTLA_TCR_vs_TCR,any,single,False,REDACTED_site,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,BHLHE40,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,BHLHE40,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,BHLHE40,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,CYCS,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,EGR2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,EGR2,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,EGR2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,FOXM1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,FOXM1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,FOXM1,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,FOXP1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,FOXP1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,FOXP1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,GAR1,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+GTF2A2,GENIE3_specific,4,22,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,GTF2A2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,HIVEP3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,HIVEP3,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,HIVEP3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,ID2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ID2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ID2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,MAF,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MAF,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MAF,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MDM2,GENIE3_specific,7,11,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,MDM2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,MYC,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MYC,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MYC,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,NR4A2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,NR4A2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,NR4A2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,SMAP2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,STAT5B,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,STAT5B,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,STAT5B,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,TGIF1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,TGIF1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,TGIF1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+TRAF4,GENIE3_specific,6,21,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,TRAF4,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,ZEB2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ZEB2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ZEB2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+AHR,GREmLN_specific,2,43,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,AHR,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+AHR,GREmLN_specific,2,43,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,AHR,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+AHR,GREmLN_specific,2,43,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,AHR,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,BCL3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,BCL3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,BCL3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,EZH2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,EZH2,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,EZH2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,GTF3C2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,HIRIP3,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+HMGN3,GREmLN_specific,2,163,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,HMGN3,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,KIF22,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,MLX,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MLX,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MLX,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MSC,GREmLN_specific,3,46,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,MSC,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MSC,GREmLN_specific,3,46,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,MSC,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+MSC,GREmLN_specific,3,46,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,MSC,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,NFIL3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,NFIL3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,NFIL3,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,RBPJ,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,RBPJ,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,RBPJ,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+SNAPC4,GREmLN_specific,2,154,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,SNAPC4,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,SRP9,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,STAT4,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,STAT4,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,STAT4,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,STAU2,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,TFDP1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,TFDP1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,TFDP1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ZNF121,GREmLN_specific,3,175,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,ZNF121,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+ZNF706,GREmLN_specific,3,167,tf_activity,contextual,BTLA_TCR_vs_TCR,any,single,False,ZNF706,False,False,absent_from_assay_universe,absent_from_assay_universe,REDACTED_publication_gate
+CREM,shared,2,18,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,CREM,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+CREM,shared,2,18,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,CREM,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+CREM,shared,2,18,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,CREM,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+IRF8,shared,3,5,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,IRF8,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+IRF8,shared,3,5,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,IRF8,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+IRF8,shared,3,5,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,IRF8,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+JUNB,shared,3,2,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,JUNB,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+JUNB,shared,3,2,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,JUNB,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+JUNB,shared,3,2,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,JUNB,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+PLAGL2,shared,3,8,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,PLAGL2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+PLAGL2,shared,3,8,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,PLAGL2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+PLAGL2,shared,3,8,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,PLAGL2,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+PRDM1,shared,3,25,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,PRDM1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+PRDM1,shared,3,25,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,PRDM1,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+PRDM1,shared,3,25,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,PRDM1,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAT1,shared,2,6,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,STAT1,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAT1,shared,2,6,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,STAT1,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+STAT1,shared,2,6,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,STAT1,True,False,measured_qualifying,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ZBTB32,shared,3,9,tf_activity,contextual,BTLA_TCR_vs_TCR,1h,single,False,ZBTB32,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ZBTB32,shared,3,9,tf_activity,contextual,BTLA_TCR_vs_TCR,4h,sustained,True,ZBTB32,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+ZBTB32,shared,3,9,tf_activity,contextual,BTLA_TCR_vs_TCR,24h,sustained,False,ZBTB32,False,False,measured_no_qualifying_signal,"decoupleR ULM activity (contextual; p-only, no effect floor)",REDACTED_publication_gate
+BHLHE40,GENIE3_specific,5,7,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,BHLHE40,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+CYCS,GENIE3_specific,5,10,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,CYCS,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+EGR2,GENIE3_specific,6,1,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,EGR2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+FOXM1,GENIE3_specific,4,15,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,FOXM1,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+FOXP1,GENIE3_specific,5,3,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,FOXP1,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+GAR1,GENIE3_specific,4,12,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,GAR1,False,False,excluded_no_statistical_contrast,detected in coIP intensity matrix (no IP-vs-IgG stats),REDACTED_publication_gate
+GTF2A2,GENIE3_specific,4,22,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,GTF2A2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+HIVEP3,GENIE3_specific,6,4,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,HIVEP3,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+ID2,GENIE3_specific,6,19,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,ID2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+MAF,GENIE3_specific,7,24,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,MAF,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+MDM2,GENIE3_specific,7,11,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,MDM2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+MYC,GENIE3_specific,4,13,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,MYC,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+NR4A2,GENIE3_specific,4,17,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,NR4A2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+SMAP2,GENIE3_specific,4,16,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,SMAP2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+STAT5B,GENIE3_specific,8,20,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,STAT5B,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+TGIF1,GENIE3_specific,5,23,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,TGIF1,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+TRAF4,GENIE3_specific,6,21,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,TRAF4,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+ZEB2,GENIE3_specific,6,14,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,ZEB2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+AHR,GREmLN_specific,2,43,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,AHR,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+BCL3,GREmLN_specific,3,30,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,BCL3,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+EZH2,GREmLN_specific,1,31,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,EZH2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+GTF3C2,GREmLN_specific,3,175,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,GTF3C2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+HIRIP3,GREmLN_specific,2,112,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,HIRIP3,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+HMGN3,GREmLN_specific,2,163,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,HMGN3,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+KIF22,GREmLN_specific,1,45,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,KIF22,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+MLX,GREmLN_specific,2,121,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,MLX,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+MSC,GREmLN_specific,3,46,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,MSC,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+NFIL3,GREmLN_specific,2,60,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,NFIL3,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+RBPJ,GREmLN_specific,2,37,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,RBPJ,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+SNAPC4,GREmLN_specific,2,154,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,SNAPC4,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+SRP9,GREmLN_specific,3,175,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,SRP9,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+STAT4,GREmLN_specific,2,111,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,STAT4,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+STAU2,GREmLN_specific,2,47,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,STAU2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+TFDP1,GREmLN_specific,3,38,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,TFDP1,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+ZNF121,GREmLN_specific,3,175,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,ZNF121,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+ZNF706,GREmLN_specific,3,167,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,ZNF706,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+CREM,shared,2,18,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,CREM,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+IRF8,shared,3,5,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,IRF8,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+JUNB,shared,3,2,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,JUNB,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+PLAGL2,shared,3,8,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,PLAGL2,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+PRDM1,shared,3,25,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,PRDM1,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+STAT1,shared,2,6,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,STAT1,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate
+ZBTB32,shared,3,9,coIP,excluded,BTLA_coIP_intensity_only,NA,single,False,ZBTB32,False,False,excluded_no_statistical_contrast,not detected in coIP intensity matrix,REDACTED_publication_gate

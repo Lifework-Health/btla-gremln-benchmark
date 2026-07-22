@@ -49,3 +49,8 @@ results/paperclip/_raw_search*.txt
 # paperclip v2 raw responses (may contain copyrighted abstracts/snippets/full text)
 # Commit the SHA256 manifest (paperclip_raw_manifest.csv) instead of the raw payloads.
 results/paperclip/v2_tcr_inhibition/raw/
+
+# multiomics audit: restricted full tables (effect sizes, phosphosite residues, per-target
+# direction). Commit only the redacted status tables + provenance hashes alongside them.
+**/local_restricted/
+results/multiomics/**/local_restricted/

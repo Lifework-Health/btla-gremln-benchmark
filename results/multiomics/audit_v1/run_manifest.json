@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-07-22T09:59:27Z",
+  "data_root_redacted": "DATA_ROOT (env BTLA_BENCH_DATA_ROOT)",
+  "thresholds": {
+    "PADJ_MAX": 0.05,
+    "RNA_LFC_MIN_log2": 0.5849625007211562,
+    "PROT_LFC_MIN_log2": 0.37851162325372983,
+    "coIP_abs_t_min": 2.0,
+    "tf_activity_p_max": 0.05,
+    "kinase_activity_p_max": 0.05,
+    "strong_padj_max": 0.01
+  },
+  "layer_independence": {
+    "transcriptomics": "C",
+    "proteomics": "A",
+    "phosphoproteomics": "A",
+    "coIP": "A",
+    "tf_activity": "C",
+    "kinase_activity": "B",
+    "bionic_gnn": "C",
+    "early_synapse_trafficking": "D"
+  },
+  "n_candidates": 43,
+  "n_long_rows_union": 368,
+  "n_candidates_evaluated_by_08e": 24,
+  "long_source_sha256": "197a9d525957096f735ad6f66a27cfe8aa8ae1e18ce33c0bfda08c3b07d04d74",
+  "legacy_summary_sha256": "2bafa167d43d1babad1de6067771293b9f8faad75abc6d7af815d6c7a4ee90d5",
+  "gremln_ranking_sha256": "03776759099031ad84c7967bdce6bea584789e9ae72f02b1d8c5380aafc7f8f7",
+  "genie3_ranking_sha256": "a5ca8c3a239c1b4b7fc60178c6216772a28a05fe412fbd258e46b4148ca4cfe6",
+  "union_sha256": "8b8eb562d0e98948407f807101e62410364142904805bd960570eefab5f5c14a",
+  "checks_passed": 18,
+  "checks_total": 18,
+  "decision_rule_true_candidates": [],
+  "classA_signal_present_candidates": [
+    "MYC"
+  ]
+}

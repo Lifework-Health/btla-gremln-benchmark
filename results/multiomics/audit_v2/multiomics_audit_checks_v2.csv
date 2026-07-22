@@ -1,0 +1,17 @@
+check,passed,detail
+union == 43,True,43
+summary rows == 43,True,43
+GREmLN view == 25,True,25
+GENIE3 view == 25,True,25
+shared == 7,True,7
+GREmLN_specific + shared == 25,True,
+GENIE3_specific + shared == 25,True,
+mRNA rows are all contextual role,True,
+tf_activity rows are all contextual role,True,
+coIP excluded from corroboration,True,
+every independent association backed by a qualifying protein/phospho item,True,
+not_measured never qualifying,True,
+absent_from_assay_universe never qualifying,True,
+RNA threshold = log2(1.5),True,0.5849625007211562
+protein/phospho threshold = log2(1.3),True,0.37851162325372983
+independent count reconciles (union),True,

@@ -1,0 +1,7 @@
+view,n_candidates,n_independent_association,candidates_independent,n_protein_qualifying,n_phospho_qualifying,n_mrna_context_change,n_tf_activity_context,n_protein_absent_universe,n_phospho_absent_universe
+GREmLN_top25,25,4,GTF3C2;HIRIP3;STAU2;TFDP1,0,4,0,5,15,21
+GENIE3_top25,25,3,MYC;SMAP2;STAT5B,2,1,0,9,17,24
+shared,7,0,,0,0,0,4,5,7
+GREmLN_specific,18,4,GTF3C2;HIRIP3;STAU2;TFDP1,0,4,0,1,10,14
+GENIE3_specific,18,3,MYC;SMAP2;STAT5B,2,1,0,5,12,17
+union_43,43,7,MYC;SMAP2;STAT5B;GTF3C2;HIRIP3;STAU2;TFDP1,2,5,0,10,27,38
