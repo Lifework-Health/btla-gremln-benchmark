@@ -1,0 +1,3 @@
+Figure | Model-specific audited multiomics evidence summaries.
+
+Matched Paperclip-style tables for the GREmLN and GENIE3 seed-excluded top-25 candidate regulators. Row order matches Table 4A / 4B exactly. Blue pills mark qualifying contextual candidate mRNA; green pills mark qualifying independent protein or phosphosite associations. Grey pills read 'No qualifying change'; an em dash marks absence from the assay universe. Black dots mark candidates shared between the two models' top-25 lists. Direction is not interpreted as supportive or opposing because both rankings are unsigned.
