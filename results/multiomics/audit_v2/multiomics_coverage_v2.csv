@@ -1,0 +1,6 @@
+layer,evidence_role,candidates_in_universe,candidates_absent,candidates_qualifying
+transcriptomics,contextual,41,2,0
+proteomics,independent,16,27,2
+phosphoproteomics,independent,5,38,5
+tf_activity,contextual,28,15,10
+coIP,excluded,43,0,0

@@ -1,0 +1,71 @@
+{
+  "generated_utc": "2026-07-22T12:48:25Z",
+  "supersedes": "results/multiomics/audit_v1",
+  "thresholds_source_native": {
+    "padj_max": 0.05,
+    "rna_abs_fc_linear": 1.5,
+    "prot_phospho_abs_fc_linear": 1.3,
+    "rna_abs_log2fc": 0.5849625007211562,
+    "prot_phospho_abs_log2fc": 0.37851162325372983,
+    "harmonised_sensitivity_abs_log2fc": 0.5849625007211562,
+    "recovered_from": "data/multiomics/Documents/Documents/Methods.docx"
+  },
+  "n_candidates": 43,
+  "n_independent_association": 7,
+  "candidates_independent": [
+    "MYC",
+    "SMAP2",
+    "STAT5B",
+    "GTF3C2",
+    "HIRIP3",
+    "STAU2",
+    "TFDP1"
+  ],
+  "coverage": [
+    {
+      "layer": "transcriptomics",
+      "evidence_role": "contextual",
+      "candidates_in_universe": 41,
+      "candidates_absent": 2,
+      "candidates_qualifying": 0
+    },
+    {
+      "layer": "proteomics",
+      "evidence_role": "independent",
+      "candidates_in_universe": 16,
+      "candidates_absent": 27,
+      "candidates_qualifying": 2
+    },
+    {
+      "layer": "phosphoproteomics",
+      "evidence_role": "independent",
+      "candidates_in_universe": 5,
+      "candidates_absent": 38,
+      "candidates_qualifying": 5
+    },
+    {
+      "layer": "tf_activity",
+      "evidence_role": "contextual",
+      "candidates_in_universe": 28,
+      "candidates_absent": 15,
+      "candidates_qualifying": 10
+    },
+    {
+      "layer": "coIP",
+      "evidence_role": "excluded",
+      "candidates_in_universe": 43,
+      "candidates_absent": 0,
+      "candidates_qualifying": 0
+    }
+  ],
+  "checks_passed": 16,
+  "checks_total": 16,
+  "raw_source_sha256": {
+    "transcriptomics": "adab2a38a0673d579062d46c05b4b5742799c7764b30d07f98cecb2c4cc35ea9",
+    "proteomics": "47f6e6339be13d7219e876e5b45734afec20e9514ff1cac69dc31e4751795d36",
+    "phosphoproteomics": "47d36cd917178a23efed41948e3733a6c4eb3884ca08d22ee233beb09294d4a6",
+    "coIP": "f80a55c2c9da42dbb1821880b75e3914d72114f38bd4bda62a45364ac3b5ac0b",
+    "tf_activity": "7cebab5fa7da43fc04269b283810b8f4b50bc158ba6dbfc76721252f528f78fa",
+    "methods_doc": "4b73afcf8dc09f3e021c12d33e2d08130354a038d9a5db91ef2e8cd12d0f31d5"
+  }
+}
