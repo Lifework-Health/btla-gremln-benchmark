@@ -1,6 +1,6 @@
-Evidence source,GREmLN,GENIE3,Interpretation
-CRISPRi perturbational evidence,3 candidates with a detected response among 20 represented,6 candidates with a detected response among 19 evaluable after QC,Broader perturbational evidence for GENIE3 in the related CD4 T cell screen
-Audited literature evidence,7/25 strong or moderate,9/25 strong or moderate,Modest literature lean towards GENIE3; tiers remain provisional
-TCR activation mRNA context,2/25,5/25,Activation-associated context was more frequent for GENIE3; no candidate showed a qualifying incremental BTLA-specific mRNA response
-Independent BTLA molecular association,4/25,3/25,"Slight numerical lean towards GREmLN, but protein and phosphosite coverage was sparse and unequal"
-Overall,Distinct candidates and molecular hypotheses,Broader perturbational and literature corroboration,No clear or consistent superiority across evidence sources
+Evidence source,GREmLN,GENIE3,Comparative interpretation
+CRISPRi perturbational evidence,3 / 20 represented,6 / 19 evaluable,Broader perturbational evidence for GENIE3
+Audited literature evidence,7 / 25 strong or moderate,9 / 25 strong or moderate,Modest literature lean towards GENIE3
+TCR activation mRNA context,2 / 25,5 / 25,Activation-associated context was more frequent for GENIE3
+Independent BTLA molecular association,4 / 25,3 / 25,No clear separation; molecular coverage was sparse and unequal
+Overall,Distinct candidates and molecular hypotheses,Broader perturbational and literature corroboration,No clear or consistent superiority
