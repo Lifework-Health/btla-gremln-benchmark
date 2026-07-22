@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-07-22T13:31:26Z",
+  "selected_release": "gmorgan (nested @-layout); Viet copies byte-identical",
+  "selection_rationale": "All three raw DE workbooks share identical SHA256 across roots; gmorgan copy already frozen in run_manifest_v2.json and consumed by the benchmark. No switch required.",
+  "layers": {
+    "transcriptomics": {
+      "gmorgan_relative_path": "data/multiomics/Transcriptomics/@Transcriptomics/Tables/DEG_wide_statistics.xlsx",
+      "gmorgan_sha256": "adab2a38a0673d579062d46c05b4b5742799c7764b30d07f98cecb2c4cc35ea9",
+      "viet_absolute_note": "Viet flat-dir copy",
+      "viet_sha256": "adab2a38a0673d579062d46c05b4b5742799c7764b30d07f98cecb2c4cc35ea9",
+      "identical": true
+    },
+    "proteomics": {
+      "gmorgan_relative_path": "data/multiomics/Proteomics/@Proteomics/Tables/WP_DEP_wide_statistics.xlsx",
+      "gmorgan_sha256": "47f6e6339be13d7219e876e5b45734afec20e9514ff1cac69dc31e4751795d36",
+      "viet_absolute_note": "Viet flat-dir copy",
+      "viet_sha256": "47f6e6339be13d7219e876e5b45734afec20e9514ff1cac69dc31e4751795d36",
+      "identical": true
+    },
+    "phosphoproteomics": {
+      "gmorgan_relative_path": "data/multiomics/Phosphoproteomics/@Phosphoproteomics/@Tables/DEPPs_All_statistics.xlsx",
+      "gmorgan_sha256": "47d36cd917178a23efed41948e3733a6c4eb3884ca08d22ee233beb09294d4a6",
+      "viet_absolute_note": "Viet flat-dir copy",
+      "viet_sha256": "47d36cd917178a23efed41948e3733a6c4eb3884ca08d22ee233beb09294d4a6",
+      "identical": true
+    }
+  }
+}
