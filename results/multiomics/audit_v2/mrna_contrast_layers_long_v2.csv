@@ -1,0 +1,388 @@
+TF,candidate_group,contrast_key,contrast_label,contrast_biological,timepoint,status,direction,qualifying_source,source_prefix,in_assay_universe
+BHLHE40,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+BHLHE40,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+BHLHE40,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+BHLHE40,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+BHLHE40,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+BHLHE40,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+BHLHE40,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+BHLHE40,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+BHLHE40,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+CYCS,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+CYCS,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+CYCS,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+CYCS,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+CYCS,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+CYCS,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+CYCS,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+CYCS,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+CYCS,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+EGR2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_qualifying,up,True,TCRvsUC,True
+EGR2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_qualifying,up,True,TCRvsUC,True
+EGR2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_qualifying,up,True,TCRvsUC,True
+EGR2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+EGR2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+EGR2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+EGR2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+EGR2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+EGR2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+FOXM1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+FOXM1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+FOXM1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+FOXM1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+FOXM1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+FOXM1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+FOXM1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+FOXM1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+FOXM1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+FOXP1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+FOXP1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+FOXP1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+FOXP1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+FOXP1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+FOXP1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+FOXP1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+FOXP1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+FOXP1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+GAR1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GAR1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GAR1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GAR1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GAR1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GAR1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GAR1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+GAR1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+GAR1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+GTF2A2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GTF2A2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GTF2A2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GTF2A2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GTF2A2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GTF2A2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GTF2A2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+GTF2A2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+GTF2A2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+HIVEP3,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+HIVEP3,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_qualifying,up,True,TCRvsUC,True
+HIVEP3,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_qualifying,up,True,TCRvsUC,True
+HIVEP3,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HIVEP3,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HIVEP3,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HIVEP3,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+HIVEP3,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+HIVEP3,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+ID2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ID2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_qualifying,up,True,TCRvsUC,True
+ID2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ID2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ID2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ID2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ID2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+ID2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+ID2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+MAF,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,failed_qc,,False,TCRvsUC,True
+MAF,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,failed_qc,,False,TCRvsUC,True
+MAF,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,failed_qc,,False,TCRvsUC,True
+MAF,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MAF,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,failed_qc,,False,BTLAvsTCR,True
+MAF,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,failed_qc,,False,BTLAvsTCR,True
+MAF,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+MAF,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+MAF,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+MDM2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MDM2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MDM2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MDM2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MDM2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MDM2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MDM2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+MDM2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+MDM2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+MYC,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MYC,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MYC,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MYC,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MYC,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MYC,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MYC,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+MYC,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+MYC,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+NR4A2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+NR4A2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,failed_qc,,False,TCRvsUC,True
+NR4A2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,failed_qc,,False,TCRvsUC,True
+NR4A2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+NR4A2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,failed_qc,,False,BTLAvsTCR,True
+NR4A2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,failed_qc,,False,BTLAvsTCR,True
+NR4A2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+NR4A2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+NR4A2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+SMAP2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SMAP2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SMAP2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SMAP2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SMAP2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SMAP2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SMAP2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+SMAP2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+SMAP2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+STAT5B,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT5B,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT5B,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT5B,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT5B,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT5B,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT5B,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+STAT5B,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+STAT5B,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+TGIF1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TGIF1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TGIF1,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TGIF1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TGIF1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TGIF1,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TGIF1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+TGIF1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+TGIF1,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+TRAF4,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TRAF4,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TRAF4,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TRAF4,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TRAF4,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TRAF4,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TRAF4,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+TRAF4,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+TRAF4,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+ZEB2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZEB2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZEB2,GENIE3_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZEB2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZEB2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,failed_qc,,False,BTLAvsTCR,True
+ZEB2,GENIE3_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,failed_qc,,False,BTLAvsTCR,True
+ZEB2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+ZEB2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+ZEB2,GENIE3_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+AHR,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,absent_from_assay_universe,,False,TCRvsUC,False
+AHR,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,absent_from_assay_universe,,False,TCRvsUC,False
+AHR,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,absent_from_assay_universe,,False,TCRvsUC,False
+AHR,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,absent_from_assay_universe,,False,BTLAvsTCR,False
+AHR,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,absent_from_assay_universe,,False,BTLAvsTCR,False
+AHR,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,absent_from_assay_universe,,False,BTLAvsTCR,False
+AHR,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,False
+AHR,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,False
+AHR,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,False
+BCL3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+BCL3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+BCL3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+BCL3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+BCL3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+BCL3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,failed_qc,,False,BTLAvsTCR,True
+BCL3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+BCL3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+BCL3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+EZH2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+EZH2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+EZH2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+EZH2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+EZH2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+EZH2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+EZH2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+EZH2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+EZH2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+GTF3C2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GTF3C2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GTF3C2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+GTF3C2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GTF3C2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GTF3C2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+GTF3C2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+GTF3C2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+GTF3C2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+HIRIP3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+HIRIP3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+HIRIP3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+HIRIP3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HIRIP3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HIRIP3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HIRIP3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+HIRIP3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+HIRIP3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+HMGN3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+HMGN3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+HMGN3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+HMGN3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HMGN3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HMGN3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+HMGN3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+HMGN3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+HMGN3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+KIF22,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+KIF22,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+KIF22,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+KIF22,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+KIF22,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+KIF22,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+KIF22,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+KIF22,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+KIF22,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+MLX,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MLX,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MLX,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+MLX,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MLX,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MLX,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+MLX,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+MLX,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+MLX,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+MSC,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,absent_from_assay_universe,,False,TCRvsUC,False
+MSC,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,absent_from_assay_universe,,False,TCRvsUC,False
+MSC,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,absent_from_assay_universe,,False,TCRvsUC,False
+MSC,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,absent_from_assay_universe,,False,BTLAvsTCR,False
+MSC,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,absent_from_assay_universe,,False,BTLAvsTCR,False
+MSC,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,absent_from_assay_universe,,False,BTLAvsTCR,False
+MSC,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,False
+MSC,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,False
+MSC,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,False
+NFIL3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+NFIL3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+NFIL3,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+NFIL3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+NFIL3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+NFIL3,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+NFIL3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+NFIL3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+NFIL3,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+RBPJ,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+RBPJ,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+RBPJ,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+RBPJ,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+RBPJ,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+RBPJ,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+RBPJ,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+RBPJ,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+RBPJ,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+SNAPC4,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SNAPC4,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SNAPC4,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SNAPC4,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SNAPC4,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SNAPC4,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SNAPC4,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+SNAPC4,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+SNAPC4,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+SRP9,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SRP9,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SRP9,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+SRP9,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SRP9,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SRP9,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+SRP9,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+SRP9,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+SRP9,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+STAT4,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT4,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT4,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT4,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT4,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT4,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT4,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+STAT4,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+STAT4,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+STAU2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAU2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAU2,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAU2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAU2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAU2,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAU2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+STAU2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+STAU2,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+TFDP1,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TFDP1,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TFDP1,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+TFDP1,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TFDP1,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TFDP1,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+TFDP1,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+TFDP1,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+TFDP1,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+ZNF121,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZNF121,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZNF121,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZNF121,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZNF121,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZNF121,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZNF121,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+ZNF121,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+ZNF121,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+ZNF706,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZNF706,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZNF706,GREmLN_specific,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZNF706,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZNF706,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZNF706,GREmLN_specific,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZNF706,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+ZNF706,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+ZNF706,GREmLN_specific,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+CREM,shared,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+CREM,shared,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+CREM,shared,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+CREM,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+CREM,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+CREM,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+CREM,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+CREM,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+CREM,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+IRF8,shared,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+IRF8,shared,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+IRF8,shared,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+IRF8,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+IRF8,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+IRF8,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+IRF8,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+IRF8,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+IRF8,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+JUNB,shared,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_qualifying,up,True,TCRvsUC,True
+JUNB,shared,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+JUNB,shared,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_qualifying,up,True,TCRvsUC,True
+JUNB,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+JUNB,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+JUNB,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+JUNB,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+JUNB,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+JUNB,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+PLAGL2,shared,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+PLAGL2,shared,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+PLAGL2,shared,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+PLAGL2,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+PLAGL2,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+PLAGL2,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+PLAGL2,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+PLAGL2,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+PLAGL2,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+PRDM1,shared,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+PRDM1,shared,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_qualifying,up,True,TCRvsUC,True
+PRDM1,shared,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+PRDM1,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+PRDM1,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+PRDM1,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+PRDM1,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+PRDM1,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+PRDM1,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+STAT1,shared,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT1,shared,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT1,shared,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+STAT1,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT1,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT1,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+STAT1,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+STAT1,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+STAT1,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True
+ZBTB32,shared,TCR_activation,TCR activation,TCR vs unstimulated control,1h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZBTB32,shared,TCR_activation,TCR activation,TCR vs unstimulated control,4h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZBTB32,shared,TCR_activation,TCR activation,TCR vs unstimulated control,24h,measured_no_qualifying_signal,,False,TCRvsUC,True
+ZBTB32,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,1h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZBTB32,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,4h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZBTB32,shared,Incremental_BTLA,Incremental BTLA,BTLA+TCR vs TCR,24h,measured_no_qualifying_signal,,False,BTLAvsTCR,True
+ZBTB32,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,1h,source_unavailable_pending_model,,False,,True
+ZBTB32,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,4h,source_unavailable_pending_model,,False,,True
+ZBTB32,shared,Combined_BTLA_TCR_vs_UC,Combined BTLA+TCR state,BTLA+TCR vs unstimulated control,24h,source_unavailable_pending_model,,False,,True

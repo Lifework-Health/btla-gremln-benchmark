@@ -1,0 +1,8 @@
+TF,candidate_group,primary_association,harmonised_association,change,protein_qual_tps_primary,protein_qual_tps_harmonised,phospho_qual_tps_primary,phospho_qual_tps_harmonised,n_phospho_sites_primary,n_phospho_sites_harmonised
+GTF3C2,GREmLN_specific,True,True,retained,,,4h,4h,1,1
+HIRIP3,GREmLN_specific,True,True,retained,,,24h;2mn,24h;2mn,2,2
+MYC,GENIE3_specific,True,True,retained,,,24h;4h,24h;4h,3,3
+SMAP2,GENIE3_specific,True,True,retained,4h,4h,,,0,0
+STAT5B,GENIE3_specific,True,True,retained,20mn,20mn,,,0,0
+STAU2,GREmLN_specific,True,True,retained,,,20mn;24h;4h,20mn;24h;4h,5,5
+TFDP1,GREmLN_specific,True,True,retained,,,4h,4h,1,1
