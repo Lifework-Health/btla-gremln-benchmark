@@ -1,0 +1,19 @@
+check,passed,detail
+union has exactly 43 candidates,True,43
+GREmLN contributes 25,True,25
+GENIE3 contributes 25,True,25
+shared == 7,True,7
+summary has each candidate exactly once,True,43
+every positive call has source_row_hash,True,82
+every positive statistical call passed documented thresholds,True,79
+every phosphosite row has a site id,True,28
+every coIP row has a bait,True,0
+class A only from observed molecular assays,True,"{'phosphoproteomics', 'proteomics'}"
+decision field requires >=1 class A supportive item,True,0
+no class C/D layer feeds decision field,True,enforced by construction (class A only)
+not_measured never positive,True,8
+opposing not counted as supportive,True,structural
+shared candidates single consistent summary row,True,single-view summary
+GREmLN view has 25 rows,True,25
+GENIE3 view has 25 rows,True,25
+ranks sourced only from frozen union,True,structural
