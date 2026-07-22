@@ -1,0 +1,13 @@
+group,column,header,role,n_group,qualifying,measured_no_signal,measured_denominator,not_measured_or_absent,pending
+GREmLN_specific,mrna_TCR_activation,TCR activation,contextual,18,0,16,16,2,0
+GREmLN_specific,mrna_Incremental_BTLA,Incremental BTLA,contextual,18,0,16,16,2,0
+GREmLN_specific,proteomics,Protein abundance,independent,18,0,8,8,10,0
+GREmLN_specific,phosphoproteomics,Phosphosite change,independent,18,4,0,4,14,0
+shared,mrna_TCR_activation,TCR activation,contextual,7,2,5,7,0,0
+shared,mrna_Incremental_BTLA,Incremental BTLA,contextual,7,0,7,7,0,0
+shared,proteomics,Protein abundance,independent,7,0,2,2,5,0
+shared,phosphoproteomics,Phosphosite change,independent,7,0,0,0,7,0
+GENIE3_specific,mrna_TCR_activation,TCR activation,contextual,18,3,15,18,0,0
+GENIE3_specific,mrna_Incremental_BTLA,Incremental BTLA,contextual,18,0,18,18,0,0
+GENIE3_specific,proteomics,Protein abundance,independent,18,2,4,6,12,0
+GENIE3_specific,phosphoproteomics,Phosphosite change,independent,18,1,0,1,17,0
