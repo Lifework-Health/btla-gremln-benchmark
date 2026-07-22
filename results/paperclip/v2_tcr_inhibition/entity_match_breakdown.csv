@@ -1,0 +1,9 @@
+entity_match,n,eligible,excluded
+exact,232,True,False
+recognised_alias,10,True,False
+wrong_entity,10,False,True
+ambiguous_acronym,0,False,True
+not_mentioned,178,False,True
+TOTAL,430,,
+entity_eligible_sum,242,True,False
+excluded_sum,188,False,True

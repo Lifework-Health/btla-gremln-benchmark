@@ -1,38 +1,44 @@
-# Paperclip TCR-inhibition evidence audit — summary
+# Paperclip v2 audit summary (corrected)
 
-> **Audit output only — manuscript and benchmark verdict not yet updated.**
+Literature annotation only. Manuscript, Table 4 and benchmark verdict unchanged.
 
-- Judge model: `claude-opus-4-8`  |  Paperclip: `paperclip, version 0.6.2`  |  query template: `{TF} TCR inhibition`  |  top_k = 10
+## Entity identity gate (mutually exclusive)
 
-## Retrieval
-- Candidate regulators (queries): **43**
-- Paperclip queries run: **43**
-- Total TF–paper result rows: **430**
-- Total unique papers (global): **318**
-- Results with full text (source heuristic): **400**
-- Abstract only: **30**
-- Neither abstract nor full text: **0**
-- TFs with fewer than 10 results: **0** []
-- TFs with no results: **0** []
+| entity_match | n |
+|---|---|
+| exact | 232 |
+| recognised_alias | 10 |
+| wrong_entity | 10 |
+| ambiguous_acronym | 0 |
+| not_mentioned | 178 |
+| **total** | **430** |
+| entity eligible (exact + recognised_alias) | 242 |
+| excluded (wrong_entity + ambiguous_acronym + not_mentioned) | 188 |
 
-## Judge
-- Judge parse failures: **0** []
-- Judge retries: **0**
-- Judge skipped (no CURSOR_API_KEY): **False**
-- Rubric validation failures: **1** ['NR4A2']
+Example collision: MSC = Musculin, not mesenchymal stromal cells.
 
-## Tier distribution (final usable tier)
-- strong: **3**
-- moderate: **10**
-- weak: **7**
-- none: **22**
-- missing (rubric-failed / no judge output): **1**
+## Corrected final usable tiers
 
-## Provisional strong-or-moderate counts
-- GREmLN top 25: **8** / 25
-- GENIE3 top 25: **8** / 25
-- Shared candidates: **3** / 7
-- GREmLN-only candidates: **5** / 18
-- GENIE3-only candidates: **5** / 18
+| Tier | n |
+|---|---|
+| strong | 2 |
+| moderate | 10 |
+| weak | 7 |
+| none | 23 |
+| missing | 1 |
+| **sum** | **43** |
 
-_All counts labelled: Audit output only — manuscript and benchmark verdict not yet updated._
+## Missing GENIE3 specific candidate
+
+- **NR4A2** (genie3_only): rubric failure (`supporting_excerpt >20 words for PMC7883379`). Rerun allowed: **no**. Remains **missing**.
+
+## Human verification
+
+- Status: **pending**. Named human reviewer has not examined the strong or moderate candidates. See `human_verification.csv`.
+- LLM / automated structural checks are **not** human verification.
+
+## Entity-filtered LLM judgements
+
+- Claim that all 43 final judgements received only entity-eligible papers: **not confirmed** (1/43 used an eligible-only packet under the selective-rerun protocol).
+- Zero entity-eligible TFs (7): GTF2A2, HIVEP3, HMGN3, MSC, SMAP2, SNAPC4, ZNF121.
+- Details: `entity_filtered_judgement_status.csv`.
